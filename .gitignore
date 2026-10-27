@@ -99,3 +99,4 @@ __pycache__/
 
 # État local du runner de production des thèmes (reprise)
 joutio-theme-infrastructure/src/main/resources/seed/.acquisition-state.json
+# Joutio release 1.0.0
