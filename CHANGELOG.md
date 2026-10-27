@@ -1,3 +1,10 @@
+## 1.0.0 (2026-10-27)
+
+### Features
+
+* release Joutio theme 1.0.0 ([32c21b1](https://github.com/joutio/joutio-theme/commit/32c21b18bb9a673651cf163fcf792d4453ac928a))
+* release Joutio theme 1.0.0 ([ffbce4d](https://github.com/joutio/joutio-theme/commit/ffbce4dfbfd4b4887cf1ab83e03600a2a9ac9965))
+
 ## [7.0.0](https://github.com/joutio/joutio-theme/compare/v6.14.0...v7.0.0) (2026-10-25)
 
 ### ⚠ BREAKING CHANGES
