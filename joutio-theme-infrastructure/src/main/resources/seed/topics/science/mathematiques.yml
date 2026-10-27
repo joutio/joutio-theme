@@ -1,0 +1,1631 @@
+topic:
+  id: topic-mathematiques
+  names:
+    fr: "Mathématiques"
+    en: "Mathematics"
+  description: "Questions de mathématiques couvrant l'arithmétique de base, la géométrie, les grands théorèmes et leurs auteurs (Pythagore, Thalès, Euclide, Descartes, Gauss, Euler), ainsi que les nombres remarquables comme pi, le nombre d'or et les nombres premiers, du calcul élémentaire aux résultats les plus pointus."
+  category: SCIENCE
+  titles:
+    fr:
+      FER: "Compteur de doigts"
+      BRONZE: "Dompteur de tables"
+      ARGENT: "Géomètre du dimanche"
+      OR: "Théoricien en herbe"
+      PLATINE: "Algébriste affûté"
+      EMERAUDE: "Seigneur des théorèmes"
+      DIAMANT: "Esprit d'Euler"
+    en:
+      FER: "Finger Counter"
+      BRONZE: "Times Table Tamer"
+      ARGENT: "Weekend Geometer"
+      OR: "Budding Theorist"
+      PLATINE: "Sharp Algebraist"
+      EMERAUDE: "Lord of Theorems"
+      DIAMANT: "Euler's Mind"
+  imageUrl: wikipedia/science/Pythagorean_Theorem_Proof_with_Algebra.png
+questions:
+  - text: "Quel est le résultat de l'opération 15 + 27 ?"
+    answers:
+      A: "32"
+      B: "42"
+      C: "52"
+      D: "41"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the result of the operation 15 + 27?"
+        answers:
+          A: "32"
+          B: "42"
+          C: "52"
+          D: "41"
+    difficulty: EASY
+  - text: "Combien de côtés possède un hexagone ?"
+    answers:
+      A: "8"
+      B: "5"
+      C: "7"
+      D: "6"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many sides does a hexagon have?"
+        answers:
+          A: "8"
+          B: "5"
+          C: "7"
+          D: "6"
+    difficulty: EASY
+  - text: "Quel est le plus grand commun diviseur (PGCD) de 24 et 36 ?"
+    answers:
+      A: "24"
+      B: "6"
+      C: "18"
+      D: "12"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the greatest common divisor (GCD) of 24 and 36?"
+        answers:
+          A: "24"
+          B: "6"
+          C: "18"
+          D: "12"
+    difficulty: EASY
+  - text: "Quel est le plus petit commun multiple (PPCM) de 4 et 6 ?"
+    answers:
+      A: "10"
+      B: "24"
+      C: "18"
+      D: "12"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the least common multiple (LCM) of 4 and 6?"
+        answers:
+          A: "10"
+          B: "24"
+          C: "18"
+          D: "12"
+    difficulty: EASY
+  - text: "Dans un triangle rectangle, si les deux côtés de l'angle droit mesurent 3 cm et 4 cm, quelle est la longueur de l'hypoténuse ?"
+    answers:
+      A: "5 cm"
+      B: "6 cm"
+      C: "7 cm"
+      D: "4,5 cm"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In a right triangle, if the two legs measure 3 cm and 4 cm, what is the length of the hypotenuse?"
+        answers:
+          A: "5 cm"
+          B: "6 cm"
+          C: "7 cm"
+          D: "4.5 cm"
+    difficulty: MEDIUM
+  - text: "Quel est le résultat de 8 × 7 − 6 ÷ 2 ?"
+    answers:
+      A: "53"
+      B: "25"
+      C: "29"
+      D: "50"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the result of 8 × 7 − 6 ÷ 2?"
+        answers:
+          A: "53"
+          B: "25"
+          C: "29"
+          D: "50"
+    difficulty: MEDIUM
+  - text: "Quel mathématicien grec est l'auteur du traité « Éléments » ?"
+    answers:
+      A: "Pythagore"
+      B: "Euclide"
+      C: "Thalès"
+      D: "Archimède"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Greek mathematician is the author of the treatise \"Elements\"?"
+        answers:
+          A: "Pythagoras"
+          B: "Euclid"
+          C: "Thales"
+          D: "Archimedes"
+    difficulty: HARD
+  - text: "Quelle est la valeur de π (pi) arrondie à 4 décimales ?"
+    answers:
+      A: "3,1419"
+      B: "3,1421"
+      C: "3,1416"
+      D: "3,1414"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the value of π (pi) rounded to 4 decimal places?"
+        answers:
+          A: "3.1419"
+          B: "3.1421"
+          C: "3.1416"
+          D: "3.1414"
+    difficulty: HARD
+  - text: "Quel est le 15e nombre premier ?"
+    answers:
+      A: "47"
+      B: "43"
+      C: "53"
+      D: "41"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the 15th prime number?"
+        answers:
+          A: "47"
+          B: "43"
+          C: "53"
+          D: "41"
+    difficulty: HARD
+  - text: "Combien de nombres premiers sont inférieurs à 50 ?"
+    answers:
+      A: "16"
+      B: "14"
+      C: "15"
+      D: "13"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many prime numbers are less than 50?"
+        answers:
+          A: "16"
+          B: "14"
+          C: "15"
+          D: "13"
+    difficulty: HARD
+  - text: "Quel est le résultat de 2^20 ?"
+    answers:
+      A: "2 097 152"
+      B: "1 048 000"
+      C: "1 048 576"
+      D: "524 288"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the result of 2^20?"
+        answers:
+          A: "2,097,152"
+          B: "1,048,000"
+          C: "1,048,576"
+          D: "524,288"
+    difficulty: HARD
+  - text: "Quelle est la somme des angles intérieurs d'un hexagone ?"
+    answers:
+      A: "720°"
+      B: "540°"
+      C: "900°"
+      D: "1080°"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the sum of the interior angles of a hexagon?"
+        answers:
+          A: "720°"
+          B: "540°"
+          C: "900°"
+          D: "1080°"
+    difficulty: HARD
+  - text: "Quel est le nombre de diagonales d'un octogone ?"
+    answers:
+      A: "16"
+      B: "20"
+      C: "24"
+      D: "28"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the number of diagonals of an octagon?"
+        answers:
+          A: "16"
+          B: "20"
+          C: "24"
+          D: "28"
+    difficulty: HARD
+  - text: "Qui a formulé le théorème des carrés des côtés ?"
+    imageUrl: wikipedia/science/Kapitolinischer_Pythagoras.jpg
+    answers:
+      A: "Thalès"
+      B: "Euclide"
+      C: "Pythagore"
+      D: "Archimède"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who formulated the theorem of the squares of the sides?"
+        answers:
+          A: "Thales"
+          B: "Euclid"
+          C: "Pythagoras"
+          D: "Archimedes"
+    difficulty: EXPERT
+  - text: "Qui a démontré que √2 est irrationnel ?"
+    answers:
+      A: "Euclide"
+      B: "Pythagore"
+      C: "Hippase de Métaponte"
+      D: "Aristote"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who proved that √2 is irrational?"
+        answers:
+          A: "Euclid"
+          B: "Pythagoras"
+          C: "Hippasus of Metapontum"
+          D: "Aristotle"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur du nombre d'or φ (phi) arrondie à 4 décimales ?"
+    answers:
+      A: "1,6190"
+      B: "1,6183"
+      C: "1,6179"
+      D: "1,6180"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the value of the golden ratio φ (phi) rounded to 4 decimal places?"
+        answers:
+          A: "1.6190"
+          B: "1.6183"
+          C: "1.6179"
+          D: "1.6180"
+    difficulty: HARD
+  - text: "Qui a écrit les « Éléments » de géométrie ?"
+    imageUrl: wikipedia/science/Euklid-von-Alexandria_1.jpg
+    answers:
+      A: "Euclide"
+      B: "Pythagore"
+      C: "Archimède"
+      D: "Apollonius"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote the \"Elements\" of geometry?"
+        answers:
+          A: "Euclid"
+          B: "Pythagoras"
+          C: "Archimedes"
+          D: "Apollonius"
+    difficulty: MEDIUM
+  - text: "Quel théorème stipule que si une droite est parallèle à un côté d'un triangle et coupe les deux autres côtés, alors elle détermine des segments proportionnels ?"
+    answers:
+      A: "Théorème de Pythagore"
+      B: "Théorème de Thalès"
+      C: "Théorème de Descartes"
+      D: "Théorème de Gauss"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which theorem states that if a line is parallel to one side of a triangle and intersects the other two sides, then it divides them into proportional segments?"
+        answers:
+          A: "Pythagorean theorem"
+          B: "Thales' theorem"
+          C: "Descartes' theorem"
+          D: "Gauss's theorem"
+    difficulty: EXPERT
+  - text: "Qui a démontré que la somme des angles d'un triangle vaut 180° en géométrie euclidienne ?"
+    answers:
+      A: "Descartes"
+      B: "Pythagore"
+      C: "Thalès"
+      D: "Euclide"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who proved that the sum of the angles of a triangle equals 180° in Euclidean geometry?"
+        answers:
+          A: "Descartes"
+          B: "Pythagoras"
+          C: "Thales"
+          D: "Euclid"
+    difficulty: EXPERT
+  - text: "Quelle est la factorisation correcte de 210 en nombres premiers ?"
+    answers:
+      A: "2 × 7 × 15"
+      B: "2 × 3 × 5 × 8"
+      C: "3 × 5 × 14"
+      D: "2 × 3 × 5 × 7"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the correct prime factorization of 210?"
+        answers:
+          A: "2 × 7 × 15"
+          B: "2 × 3 × 5 × 8"
+          C: "3 × 5 × 14"
+          D: "2 × 3 × 5 × 7"
+    difficulty: HARD
+  - text: "Quelle est la valeur exacte de sin(30°) ?"
+    answers:
+      A: "1/2"
+      B: "√2/2"
+      C: "√3/2"
+      D: "1"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the exact value of sin(30°)?"
+        answers:
+          A: "1/2"
+          B: "√2/2"
+          C: "√3/2"
+          D: "1"
+    difficulty: MEDIUM
+  - text: "Quel est le résultat de la somme des 10 premiers nombres premiers ?"
+    answers:
+      A: "129"
+      B: "101"
+      C: "127"
+      D: "131"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the sum of the first 10 prime numbers?"
+        answers:
+          A: "129"
+          B: "101"
+          C: "127"
+          D: "131"
+    difficulty: HARD
+  - text: "Quel mathématicien a introduit la notation moderne des fonctions avec f(x) ?"
+    answers:
+      A: "René Descartes"
+      B: "Carl Friedrich Gauss"
+      C: "Leonhard Euler"
+      D: "Isaac Newton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which mathematician introduced the modern function notation with f(x)?"
+        answers:
+          A: "René Descartes"
+          B: "Carl Friedrich Gauss"
+          C: "Leonhard Euler"
+          D: "Isaac Newton"
+    difficulty: EXPERT
+  - text: "Quel est le plus grand nombre premier connu en 2023 (2^82 589 933 − 1) ?"
+    answers:
+      A: "2^82 589 934 − 1"
+      B: "2^82 589 932 − 1"
+      C: "2^82 589 933 − 1"
+      D: "2^82 589 935 − 1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the largest known prime number in 2023 (2^82,589,933 − 1)?"
+        answers:
+          A: "2^82,589,934 − 1"
+          B: "2^82,589,932 − 1"
+          C: "2^82,589,933 − 1"
+          D: "2^82,589,935 − 1"
+    difficulty: EXPERT
+  - text: "Quelle conjecture célèbre, formulée par Christian Goldbach en 1742, reste non démontrée ?"
+    answers:
+      A: "Tout nombre parfait est pair."
+      B: "Tout nombre impair supérieur à 1 est somme de trois nombres premiers."
+      C: "Il existe une infinité de nombres premiers jumeaux."
+      D: "Tout nombre pair supérieur à 2 est somme de deux nombres premiers."
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which famous conjecture, formulated by Christian Goldbach in 1742, remains unproven?"
+        answers:
+          A: "Every perfect number is even."
+          B: "Every odd number greater than 1 is the sum of three prime numbers."
+          C: "There are infinitely many twin primes."
+          D: "Every even number greater than 2 is the sum of two prime numbers."
+    difficulty: EXPERT
+  - text: "Quel est le 100e chiffre après la virgule dans l'écriture décimale de π ?"
+    answers:
+      A: "9"
+      B: "7"
+      C: "3"
+      D: "5"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the 100th digit after the decimal point in the decimal expansion of π?"
+        answers:
+          A: "9"
+          B: "7"
+          C: "3"
+          D: "5"
+    difficulty: EXPERT
+  - text: "Que vaut le nombre d'or ?"
+    imageUrl: wikipedia/science/Golden_ratio_line.png
+    answers:
+      A: "1,414"
+      B: "1,732"
+      C: "1,618"
+      D: "2,718"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the value of the golden ratio?"
+        answers:
+          A: "1.414"
+          B: "1.732"
+          C: "1.618"
+          D: "2.718"
+    difficulty: MEDIUM
+  - text: "Quel théorème, démontré par Andrew Wiles en 1994, énonce qu'il n'existe pas de solutions entières non nulles à x^n + y^n = z^n pour n > 2 ?"
+    answers:
+      A: "Théorème de Pythagore"
+      B: "Dernier théorème de Fermat"
+      C: "Conjecture de Goldbach"
+      D: "Théorème de Thalès"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which theorem, proved by Andrew Wiles in 1994, states that there are no nonzero integer solutions to x^n + y^n = z^n for n > 2?"
+        answers:
+          A: "Pythagorean theorem"
+          B: "Fermat's Last Theorem"
+          C: "Goldbach's conjecture"
+          D: "Thales' theorem"
+    difficulty: HARD
+  - text: "Quel est le résultat de 17 × 23 ?"
+    answers:
+      A: "401"
+      B: "381"
+      C: "391"
+      D: "411"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the result of 17 × 23?"
+        answers:
+          A: "401"
+          B: "381"
+          C: "391"
+          D: "411"
+    difficulty: EASY
+  - text: "Quel est le PGCD de 84 et 126 ?"
+    answers:
+      A: "14"
+      B: "21"
+      C: "63"
+      D: "42"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the GCD of 84 and 126?"
+        answers:
+          A: "14"
+          B: "21"
+          C: "63"
+          D: "42"
+    difficulty: HARD
+  - text: "Quel est le reste de la division euclidienne de 1234 par 7 ?"
+    answers:
+      A: "3"
+      B: "2"
+      C: "4"
+      D: "5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the remainder of the Euclidean division of 1234 by 7?"
+        answers:
+          A: "3"
+          B: "2"
+          C: "4"
+          D: "5"
+    difficulty: HARD
+  - text: "Quel est le 20e nombre premier ?"
+    answers:
+      A: "67"
+      B: "73"
+      C: "71"
+      D: "79"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the 20th prime number?"
+        answers:
+          A: "67"
+          B: "73"
+          C: "71"
+          D: "79"
+    difficulty: EXPERT
+  - text: "Quelle est la somme des diviseurs positifs de 28 ?"
+    answers:
+      A: "28"
+      B: "56"
+      C: "42"
+      D: "70"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the sum of the positive divisors of 28?"
+        answers:
+          A: "28"
+          B: "56"
+          C: "42"
+          D: "70"
+    difficulty: HARD
+  - text: "Quel mathématicien a formulé le théorème fondamental de l'algèbre en 1799 ?"
+    answers:
+      A: "Joseph-Louis Lagrange"
+      B: "Leonhard Euler"
+      C: "Carl Friedrich Gauss"
+      D: "Pierre-Simon de Laplace"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which mathematician formulated the fundamental theorem of algebra in 1799?"
+        answers:
+          A: "Joseph-Louis Lagrange"
+          B: "Leonhard Euler"
+          C: "Carl Friedrich Gauss"
+          D: "Pierre-Simon de Laplace"
+    difficulty: EXPERT
+  - text: "Qui a introduit la notation e pour la base des logarithmes naturels ?"
+    answers:
+      A: "John Napier"
+      B: "Gottfried Wilhelm Leibniz"
+      C: "Carl Friedrich Gauss"
+      D: "Leonhard Euler"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who introduced the notation e for the base of natural logarithms?"
+        answers:
+          A: "John Napier"
+          B: "Gottfried Wilhelm Leibniz"
+          C: "Carl Friedrich Gauss"
+          D: "Leonhard Euler"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur exacte de cos(60°) ?"
+    answers:
+      A: "√3/2"
+      B: "√2/2"
+      C: "1/2"
+      D: "1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the exact value of cos(60°)?"
+        answers:
+          A: "√3/2"
+          B: "√2/2"
+          C: "1/2"
+          D: "1"
+    difficulty: MEDIUM
+  - text: "Quel est le résultat de 5! + 4! ?"
+    answers:
+      A: "120"
+      B: "144"
+      C: "148"
+      D: "154"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the result of 5! + 4!?"
+        answers:
+          A: "120"
+          B: "144"
+          C: "148"
+          D: "154"
+    difficulty: HARD
+  - text: "Quel est le nombre de diagonales d'un dodécagone (12 côtés) ?"
+    answers:
+      A: "54"
+      B: "60"
+      C: "66"
+      D: "72"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the number of diagonals of a dodecagon (12 sides)?"
+        answers:
+          A: "54"
+          B: "60"
+          C: "66"
+          D: "72"
+    difficulty: EXPERT
+  - text: "Quelle est la somme des angles intérieurs d'un octogone ?"
+    answers:
+      A: "720°"
+      B: "900°"
+      C: "1260°"
+      D: "1080°"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the sum of the interior angles of an octagon?"
+        answers:
+          A: "720°"
+          B: "900°"
+          C: "1260°"
+          D: "1080°"
+    difficulty: HARD
+  - text: "Quel est le 10e nombre de Fibonacci (en commençant par F1=1, F2=1) ?"
+    answers:
+      A: "55"
+      B: "34"
+      C: "89"
+      D: "144"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the 10th Fibonacci number (starting with F1=1, F2=1)?"
+        answers:
+          A: "55"
+          B: "34"
+          C: "89"
+          D: "144"
+    difficulty: HARD
+  - text: "Quel est le résultat de 2^10 × 2^5 ?"
+    answers:
+      A: "2^50"
+      B: "2^15"
+      C: "4^15"
+      D: "2^25"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the result of 2^10 × 2^5?"
+        answers:
+          A: "2^50"
+          B: "2^15"
+          C: "4^15"
+          D: "2^25"
+    difficulty: MEDIUM
+  - text: "Quelle est la factorisation en nombres premiers de 360 ?"
+    answers:
+      A: "2^2 × 3^2 × 5"
+      B: "2^3 × 3^2 × 5"
+      C: "2^3 × 3 × 5"
+      D: "2^4 × 3^2 × 5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the prime factorization of 360?"
+        answers:
+          A: "2^2 × 3^2 × 5"
+          B: "2^3 × 3^2 × 5"
+          C: "2^3 × 3 × 5"
+          D: "2^4 × 3^2 × 5"
+    difficulty: HARD
+  - text: "Qui a introduit la notation moderne des intégrales (∫) ?"
+    answers:
+      A: "Isaac Newton"
+      B: "Augustin-Louis Cauchy"
+      C: "Leonhard Euler"
+      D: "Gottfried Wilhelm Leibniz"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who introduced the modern notation for integrals (∫)?"
+        answers:
+          A: "Isaac Newton"
+          B: "Augustin-Louis Cauchy"
+          C: "Leonhard Euler"
+          D: "Gottfried Wilhelm Leibniz"
+    difficulty: EXPERT
+  - text: "Quel est le résultat de la somme des 15 premiers nombres impairs ?"
+    answers:
+      A: "225"
+      B: "240"
+      C: "255"
+      D: "270"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the result of the sum of the first 15 odd numbers?"
+        answers:
+          A: "225"
+          B: "240"
+          C: "255"
+          D: "270"
+    difficulty: HARD
+  - text: "Quel est le plus petit nombre parfait supérieur à 6 ?"
+    answers:
+      A: "12"
+      B: "24"
+      C: "36"
+      D: "28"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the smallest perfect number greater than 6?"
+        answers:
+          A: "12"
+          B: "24"
+          C: "36"
+          D: "28"
+    difficulty: HARD
+  - text: "Quelle est la valeur de π arrondie à 10 décimales ?"
+    answers:
+      A: "3,1415926535"
+      B: "3,1415926536"
+      C: "3,1415926534"
+      D: "3,1415926537"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the value of π rounded to 10 decimal places?"
+        answers:
+          A: "3.1415926535"
+          B: "3.1415926536"
+          C: "3.1415926534"
+          D: "3.1415926537"
+    difficulty: EXPERT
+  - text: "Quel est le 1000e chiffre après la virgule dans l'écriture décimale de π ?"
+    answers:
+      A: "0"
+      B: "1"
+      C: "2"
+      D: "9"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the 1000th digit after the decimal point in the decimal expansion of π?"
+        answers:
+          A: "0"
+          B: "1"
+          C: "2"
+          D: "9"
+    difficulty: EXPERT
+  - text: "Quel est le résultat de 7! / 5! ?"
+    answers:
+      A: "21"
+      B: "72"
+      C: "56"
+      D: "42"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the result of 7! / 5! ?"
+        answers:
+          A: "21"
+          B: "72"
+          C: "56"
+          D: "42"
+    difficulty: HARD
+  - text: "Quel est le résultat de l'expression 3 × (4 + 5) − 2 × (6 − 1) ?"
+    answers:
+      A: "17"
+      B: "19"
+      C: "21"
+      D: "23"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the result of the expression 3 × (4 + 5) − 2 × (6 − 1) ?"
+        answers:
+          A: "17"
+          B: "19"
+          C: "21"
+          D: "23"
+    difficulty: MEDIUM
+  - text: "Quel est le reste de la division euclidienne de 1000 par 13 ?"
+    answers:
+      A: "11"
+      B: "12"
+      C: "0"
+      D: "1"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the remainder of the Euclidean division of 1000 by 13?"
+        answers:
+          A: "11"
+          B: "12"
+          C: "0"
+          D: "1"
+    difficulty: HARD
+  - text: "Quelle est la valeur exacte de sin(45°) ?"
+    answers:
+      A: "1/2"
+      B: "1"
+      C: "√3/2"
+      D: "√2/2"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the exact value of sin(45°)?"
+        answers:
+          A: "1/2"
+          B: "1"
+          C: "√3/2"
+          D: "√2/2"
+    difficulty: EASY
+  - text: "Quel est le PGCD de 252 et 462 ?"
+    answers:
+      A: "6"
+      B: "42"
+      C: "21"
+      D: "14"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the GCD of 252 and 462?"
+        answers:
+          A: "6"
+          B: "42"
+          C: "21"
+          D: "14"
+    difficulty: HARD
+  - text: "Quel mathématicien a démontré que la somme des angles d'un triangle est égale à deux angles droits sans utiliser le postulat des parallèles ?"
+    answers:
+      A: "Legendre"
+      B: "Pythagore"
+      C: "Saccheri"
+      D: "Euclide"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mathematician proved that the sum of the angles of a triangle equals two right angles without using the parallel postulate?"
+        answers:
+          A: "Legendre"
+          B: "Pythagoras"
+          C: "Saccheri"
+          D: "Euclid"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur du nombre d'or φ donnée par la fraction continue [1; 1, 1, 1, ...] ?"
+    answers:
+      A: "(1+√2)/2"
+      B: "(1+√3)/2"
+      C: "(1+√5)/2"
+      D: "√5/2"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the value of the golden ratio φ given by the continued fraction [1; 1, 1, 1, ...]?"
+        answers:
+          A: "(1+√2)/2"
+          B: "(1+√3)/2"
+          C: "(1+√5)/2"
+          D: "√5/2"
+    difficulty: HARD
+  - text: "Quel est le 25e nombre premier ?"
+    answers:
+      A: "89"
+      B: "97"
+      C: "101"
+      D: "103"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the 25th prime number?"
+        answers:
+          A: "89"
+          B: "97"
+          C: "101"
+          D: "103"
+    difficulty: EXPERT
+  - text: "Quel est le résultat de 2^16 ?"
+    answers:
+      A: "32768"
+      B: "131072"
+      C: "65536"
+      D: "262144"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the result of 2^16?"
+        answers:
+          A: "32768"
+          B: "131072"
+          C: "65536"
+          D: "262144"
+    difficulty: MEDIUM
+  - text: "Quelle est la somme des diviseurs positifs de 496 ?"
+    answers:
+      A: "496"
+      B: "1240"
+      C: "744"
+      D: "992"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the sum of the positive divisors of 496?"
+        answers:
+          A: "496"
+          B: "1240"
+          C: "744"
+          D: "992"
+    difficulty: EXPERT
+  - text: "Quel est le nombre de diagonales d'un polygone à 20 côtés ?"
+    answers:
+      A: "190"
+      B: "180"
+      C: "170"
+      D: "200"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the number of diagonals of a polygon with 20 sides?"
+        answers:
+          A: "190"
+          B: "180"
+          C: "170"
+          D: "200"
+    difficulty: HARD
+  - text: "Quel est le résultat de 10! / 8! ?"
+    answers:
+      A: "100"
+      B: "90"
+      C: "110"
+      D: "120"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the result of 10! / 8! ?"
+        answers:
+          A: "100"
+          B: "90"
+          C: "110"
+          D: "120"
+    difficulty: MEDIUM
+  - text: "Quel est le 15e nombre de Fibonacci (avec F1=1, F2=1) ?"
+    answers:
+      A: "610"
+      B: "377"
+      C: "987"
+      D: "1597"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the 15th Fibonacci number (with F1=1, F2=1)?"
+        answers:
+          A: "610"
+          B: "377"
+          C: "987"
+          D: "1597"
+    difficulty: HARD
+  - text: "Quel est le résultat de 2^10 × 2^10 ?"
+    answers:
+      A: "2^1000"
+      B: "2^100"
+      C: "4^20"
+      D: "2^20"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the result of 2^10 × 2^10?"
+        answers:
+          A: "2^1000"
+          B: "2^100"
+          C: "4^20"
+          D: "2^20"
+    difficulty: MEDIUM
+  - text: "Quelle est la factorisation en nombres premiers de 2024 ?"
+    answers:
+      A: "8 × 253"
+      B: "2^2 × 11 × 46"
+      C: "2 × 1012"
+      D: "2^3 × 11 × 23"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the prime factorization of 2024?"
+        answers:
+          A: "8 × 253"
+          B: "2^2 × 11 × 46"
+          C: "2 × 1012"
+          D: "2^3 × 11 × 23"
+    difficulty: HARD
+  - text: "Qui a introduit la notation moderne des limites avec 'lim' ?"
+    answers:
+      A: "Newton"
+      B: "Leibniz"
+      C: "Cauchy"
+      D: "Weierstrass"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who introduced the modern limit notation with 'lim'?"
+        answers:
+          A: "Newton"
+          B: "Leibniz"
+          C: "Cauchy"
+          D: "Weierstrass"
+    difficulty: EXPERT
+  - text: "Quel est le résultat de la somme des 20 premiers nombres impairs ?"
+    answers:
+      A: "420"
+      B: "400"
+      C: "441"
+      D: "484"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the sum of the first 20 odd numbers?"
+        answers:
+          A: "420"
+          B: "400"
+          C: "441"
+          D: "484"
+    difficulty: HARD
+  - text: "Quel est le plus grand nombre parfait inférieur à 10000 ?"
+    answers:
+      A: "496"
+      B: "4096"
+      C: "6220"
+      D: "8128"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the largest perfect number less than 10000?"
+        answers:
+          A: "496"
+          B: "4096"
+          C: "6220"
+          D: "8128"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur de π arrondie à 6 décimales ?"
+    answers:
+      A: "3,141592"
+      B: "3,141593"
+      C: "3,141594"
+      D: "3,141595"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the value of π rounded to 6 decimal places?"
+        answers:
+          A: "3.141592"
+          B: "3.141593"
+          C: "3.141594"
+          D: "3.141595"
+    difficulty: MEDIUM
+  - text: "Quel est le 200e chiffre après la virgule dans l'écriture décimale de π ?"
+    answers:
+      A: "6"
+      B: "7"
+      C: "8"
+      D: "9"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the 200th digit after the decimal point in the decimal expansion of π?"
+        answers:
+          A: "6"
+          B: "7"
+          C: "8"
+          D: "9"
+    difficulty: EXPERT
+  - text: "Quel mathématicien a formulé la conjecture de Goldbach en 1742 ?"
+    answers:
+      A: "Leonhard Euler"
+      B: "Christian Goldbach"
+      C: "Carl Friedrich Gauss"
+      D: "Pierre de Fermat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mathematician formulated Goldbach's conjecture in 1742?"
+        answers:
+          A: "Leonhard Euler"
+          B: "Christian Goldbach"
+          C: "Carl Friedrich Gauss"
+          D: "Pierre de Fermat"
+    difficulty: EXPERT
+  - text: "Quel est le résultat de 13 × 17 ?"
+    answers:
+      A: "241"
+      B: "211"
+      C: "231"
+      D: "221"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the result of 13 × 17?"
+        answers:
+          A: "241"
+          B: "211"
+          C: "231"
+          D: "221"
+    difficulty: EASY
+  - text: "Quelle est la valeur de 0! (factorielle de 0) ?"
+    answers:
+      A: "1"
+      B: "0"
+      C: "Indéfini"
+      D: "∞"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the value of 0! (0 factorial)?"
+        answers:
+          A: "1"
+          B: "0"
+          C: "Undefined"
+          D: "∞"
+    difficulty: MEDIUM
+  - text: "Quel mathématicien a introduit le symbole ∑ pour la somme ?"
+    answers:
+      A: "Leonhard Euler"
+      B: "Carl Friedrich Gauss"
+      C: "Gottfried Wilhelm Leibniz"
+      D: "Isaac Newton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mathematician introduced the ∑ symbol for summation?"
+        answers:
+          A: "Leonhard Euler"
+          B: "Carl Friedrich Gauss"
+          C: "Gottfried Wilhelm Leibniz"
+          D: "Isaac Newton"
+    difficulty: EXPERT
+  - text: "Quel est le 30e nombre premier ?"
+    answers:
+      A: "131"
+      B: "127"
+      C: "113"
+      D: "137"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the 30th prime number?"
+        answers:
+          A: "131"
+          B: "127"
+          C: "113"
+          D: "137"
+    difficulty: EXPERT
+  - text: "Quelle est la somme des diviseurs positifs de 8128 ?"
+    answers:
+      A: "16256"
+      B: "8128"
+      C: "4064"
+      D: "12288"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the sum of the positive divisors of 8128?"
+        answers:
+          A: "16256"
+          B: "8128"
+          C: "4064"
+          D: "12288"
+    difficulty: EXPERT
+  - text: "Quel est le nombre de diagonales d'un hexagone ?"
+    answers:
+      A: "6"
+      B: "12"
+      C: "9"
+      D: "15"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many diagonals does a hexagon have?"
+        answers:
+          A: "6"
+          B: "12"
+          C: "9"
+          D: "15"
+    difficulty: MEDIUM
+  - text: "Quel est le résultat de la somme des 10 premiers nombres pairs ?"
+    answers:
+      A: "90"
+      B: "100"
+      C: "110"
+      D: "120"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the sum of the first 10 even numbers?"
+        answers:
+          A: "90"
+          B: "100"
+          C: "110"
+          D: "120"
+    difficulty: MEDIUM
+  - text: "Quel mathématicien a prouvé le dernier théorème de Fermat en 1994 ?"
+    answers:
+      A: "Carl Friedrich Gauss"
+      B: "Pierre de Fermat"
+      C: "Leonhard Euler"
+      D: "Andrew Wiles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mathematician proved Fermat's Last Theorem in 1994?"
+        answers:
+          A: "Carl Friedrich Gauss"
+          B: "Pierre de Fermat"
+          C: "Leonhard Euler"
+          D: "Andrew Wiles"
+    difficulty: HARD
+  - text: "Quel est le PGCD de 1071 et 462 ?"
+    answers:
+      A: "21"
+      B: "33"
+      C: "7"
+      D: "11"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the GCD of 1071 and 462?"
+        answers:
+          A: "21"
+          B: "33"
+          C: "7"
+          D: "11"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur exacte de tan(30°) ?"
+    answers:
+      A: "1/√3"
+      B: "√3"
+      C: "1"
+      D: "√3/2"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the exact value of tan(30°)?"
+        answers:
+          A: "1/√3"
+          B: "√3"
+          C: "1"
+          D: "√3/2"
+    difficulty: HARD
+  - text: "Quel est le 12e nombre de Fibonacci (avec F1=1, F2=1) ?"
+    answers:
+      A: "144"
+      B: "89"
+      C: "233"
+      D: "121"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the 12th Fibonacci number (with F1=1, F2=1)?"
+        answers:
+          A: "144"
+          B: "89"
+          C: "233"
+          D: "121"
+    difficulty: HARD
+  - text: "Quelle est la factorisation en nombres premiers de 120 ?"
+    answers:
+      A: "2^3 × 3^2"
+      B: "2^2 × 3 × 5"
+      C: "2^3 × 3 × 5"
+      D: "2^4 × 5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the prime factorization of 120?"
+        answers:
+          A: "2^3 × 3^2"
+          B: "2^2 × 3 × 5"
+          C: "2^3 × 3 × 5"
+          D: "2^4 × 5"
+    difficulty: HARD
+  - text: "Qui a introduit la notation moderne pour la fonction zêta de Riemann ?"
+    answers:
+      A: "Leonhard Euler"
+      B: "Carl Friedrich Gauss"
+      C: "Bernhard Riemann"
+      D: "Peter Gustav Lejeune Dirichlet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who introduced the modern notation for the Riemann zeta function?"
+        answers:
+          A: "Leonhard Euler"
+          B: "Carl Friedrich Gauss"
+          C: "Bernhard Riemann"
+          D: "Peter Gustav Lejeune Dirichlet"
+    difficulty: EXPERT
+  - text: "Quel est le résultat de 11! / 9! ?"
+    answers:
+      A: "90"
+      B: "132"
+      C: "110"
+      D: "99"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the result of 11! / 9! ?"
+        answers:
+          A: "90"
+          B: "132"
+          C: "110"
+          D: "99"
+    difficulty: MEDIUM
+  - text: "Quelle est la valeur de π arrondie à 12 décimales ?"
+    answers:
+      A: "3,141592653588"
+      B: "3,141592653590"
+      C: "3,141592653589"
+      D: "3,141592653587"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the value of π rounded to 12 decimal places?"
+        answers:
+          A: "3.141592653588"
+          B: "3.141592653590"
+          C: "3.141592653589"
+          D: "3.141592653587"
+    difficulty: EXPERT
+  - text: "Quel est le 500e chiffre après la virgule dans l'écriture décimale de π ?"
+    answers:
+      A: "5"
+      B: "7"
+      C: "4"
+      D: "9"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the 500th digit after the decimal point in the decimal expansion of π?"
+        answers:
+          A: "5"
+          B: "7"
+          C: "4"
+          D: "9"
+    difficulty: EXPERT
+  - text: "Quel est le plus petit nombre premier supérieur à 1000 ?"
+    answers:
+      A: "1017"
+      B: "1013"
+      C: "1009"
+      D: "1021"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the smallest prime number greater than 1000?"
+        answers:
+          A: "1017"
+          B: "1013"
+          C: "1009"
+          D: "1021"
+    difficulty: HARD
+  - text: "Théorème de Pythagore : côtés 3 cm et 4 cm, hypoténuse ?"
+    imageUrl: wikipedia/science/Pythagorean_theorem.png
+    answers:
+      A: "6 cm"
+      B: "5 cm"
+      C: "7 cm"
+      D: "25 cm"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Pythagorean theorem: sides 3 cm and 4 cm, hypotenuse?"
+        answers:
+          A: "6 cm"
+          B: "5 cm"
+          C: "7 cm"
+          D: "25 cm"
+    difficulty: EASY
+  - text: "Quel mathématicien a formulé la conjecture des nombres premiers jumeaux ?"
+    answers:
+      A: "Euclide"
+      B: "Leonhard Euler"
+      C: "Alphonse de Polignac"
+      D: "Carl Friedrich Gauss"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which mathematician formulated the twin prime conjecture?"
+        answers:
+          A: "Euclid"
+          B: "Leonhard Euler"
+          C: "Alphonse de Polignac"
+          D: "Carl Friedrich Gauss"
+    difficulty: EXPERT
+  - text: "Quel est le résultat de 3^5 ?"
+    answers:
+      A: "243"
+      B: "125"
+      C: "81"
+      D: "216"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the result of 3^5?"
+        answers:
+          A: "243"
+          B: "125"
+          C: "81"
+          D: "216"
+    difficulty: EASY
+  - text: "Quel mathématicien a publié en 1799 la première démonstration généralement acceptée du théorème fondamental de l'algèbre ?"
+    answers:
+      A: "Leonhard Euler"
+      B: "Carl Friedrich Gauss"
+      C: "Joseph-Louis Lagrange"
+      D: "Pierre-Simon de Laplace"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mathematician published in 1799 the first generally accepted proof of the fundamental theorem of algebra?"
+        answers:
+          A: "Leonhard Euler"
+          B: "Carl Friedrich Gauss"
+          C: "Joseph-Louis Lagrange"
+          D: "Pierre-Simon de Laplace"
+    difficulty: EXPERT
+  - text: "Combien de diagonales a ce décagone ?"
+    imageUrl: wikipedia/science/Decagon.png
+    answers:
+      A: "30"
+      B: "35"
+      C: "40"
+      D: "45"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many diagonals does this decagon have?"
+        answers:
+          A: "30"
+          B: "35"
+          C: "40"
+          D: "45"
+    difficulty: HARD
+  - text: "Quel est le nombre de diviseurs positifs de 2023 ?"
+    answers:
+      A: "6"
+      B: "4"
+      C: "8"
+      D: "12"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the number of positive divisors of 2023?"
+        answers:
+          A: "6"
+          B: "4"
+          C: "8"
+          D: "12"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur exacte de cos(45°) × sin(45°) ?"
+    answers:
+      A: "1/4"
+      B: "1/2"
+      C: "√2/2"
+      D: "√3/2"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the exact value of cos(45°) × sin(45°)?"
+        answers:
+          A: "1/4"
+          B: "1/2"
+          C: "√2/2"
+          D: "√3/2"
+    difficulty: MEDIUM
+  - text: "Quel est le 40e nombre premier ?"
+    answers:
+      A: "173"
+      B: "167"
+      C: "179"
+      D: "181"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the 40th prime number?"
+        answers:
+          A: "173"
+          B: "167"
+          C: "179"
+          D: "181"
+    difficulty: EXPERT
+  - text: "Quel mathématicien a introduit la notation moderne du logarithme népérien « ln » ?"
+    answers:
+      A: "Leonhard Euler"
+      B: "John Napier"
+      C: "Henry Briggs"
+      D: "Joseph Fourier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mathematician introduced the modern notation for the natural logarithm \"ln\"?"
+        answers:
+          A: "Leonhard Euler"
+          B: "John Napier"
+          C: "Henry Briggs"
+          D: "Joseph Fourier"
+    difficulty: EXPERT
+  - text: "Quelle est la somme des angles intérieurs d'un polygone à 12 côtés ?"
+    answers:
+      A: "1800°"
+      B: "1620°"
+      C: "1980°"
+      D: "2160°"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the sum of the interior angles of a 12-sided polygon?"
+        answers:
+          A: "1800°"
+          B: "1620°"
+          C: "1980°"
+          D: "2160°"
+    difficulty: HARD
+  - text: "Quel est le résultat de 17 × 19 ?"
+    answers:
+      A: "343"
+      B: "313"
+      C: "333"
+      D: "323"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the result of 17 × 19?"
+        answers:
+          A: "343"
+          B: "313"
+          C: "333"
+          D: "323"
+    difficulty: EASY
+  - text: "Quel est le résultat de 2^5 × 5^2 ?"
+    answers:
+      A: "600"
+      B: "800"
+      C: "1000"
+      D: "1200"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the result of 2^5 × 5^2?"
+        answers:
+          A: "600"
+          B: "800"
+          C: "1000"
+          D: "1200"
+    difficulty: MEDIUM
+  - text: "Quelle est la valeur exacte de sin(60°) ?"
+    answers:
+      A: "1/2"
+      B: "√2/2"
+      C: "√3/2"
+      D: "1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the exact value of sin(60°)?"
+        answers:
+          A: "1/2"
+          B: "√2/2"
+          C: "√3/2"
+          D: "1"
+    difficulty: MEDIUM
+  - text: "Quel est le plus grand nombre premier inférieur à 100 ?"
+    answers:
+      A: "91"
+      B: "89"
+      C: "97"
+      D: "93"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the largest prime number less than 100?"
+        answers:
+          A: "91"
+          B: "89"
+          C: "97"
+          D: "93"
+    difficulty: MEDIUM
+  - text: "Quel est le plus petit nombre premier de Sophie Germain supérieur à 100 ?"
+    answers:
+      A: "101"
+      B: "103"
+      C: "107"
+      D: "113"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the smallest Sophie Germain prime greater than 100?"
+        answers:
+          A: "101"
+          B: "103"
+          C: "107"
+          D: "113"
+    difficulty: EXPERT

@@ -1,0 +1,1626 @@
+topic:
+  id: topic-mythologie-grecque
+  names:
+    fr: "Mythologie grecque"
+    en: "Greek Mythology"
+  description: "Panorama de la mythologie grecque : les divinités de l'Olympe, les Titans et les récits de création et de succession, du Chaos à la victoire de Zeus. Sont aussi abordés les attributs des dieux, le mont Olympe, les Enfers et le Tartare, les héros divinisés et les textes fondateurs d'Hésiode et d'Homère."
+  category: HISTORY
+  titles:
+    fr:
+      FER: "Berger du mont Ida"
+      BRONZE: "Porteur d'ambroisie"
+      ARGENT: "Initié des Mystères"
+      OR: "Vainqueur de la Chimère"
+      PLATINE: "Arbitre du jugement de Pâris"
+      EMERAUDE: "Échanson de l'Olympe"
+      DIAMANT: "Souverain du Chaos"
+    en:
+      FER: "Shepherd of Mount Ida"
+      BRONZE: "Ambrosia Bearer"
+      ARGENT: "Initiate of the Mysteries"
+      OR: "Chimera Slayer"
+      PLATINE: "Judge of the Judgment of Paris"
+      EMERAUDE: "Cupbearer of Olympus"
+      DIAMANT: "Sovereign of Chaos"
+  imageUrl: wikipedia/history/Jacob_van_der_Ulft_-_The_Phidian_statue_of_Zeus_at_Olympia,_with_olympic_games_taking_place_at_its_feet,_l19038-b3tws-1.jpg
+questions:
+  - text: "Selon Hésiode, quelle divinité primordiale émerge en premier après le Chaos ?"
+    answers:
+      A: "Gaia (la Terre)"
+      B: "Éros (l'Amour)"
+      C: "Tartare"
+      D: "Ouranos (le Ciel)"
+    correctAnswer: A
+    translations:
+      en:
+        text: "According to Hesiod, which primordial deity emerges first after Chaos?"
+        answers:
+          A: "Gaia (Earth)"
+          B: "Eros (Love)"
+          C: "Tartarus"
+          D: "Uranus (Sky)"
+    difficulty: MEDIUM
+  - text: "Quel Titan, frère de Cronos, personnifie le fleuve Océan qui entoure le monde ?"
+    answers:
+      A: "Céos"
+      B: "Océan"
+      C: "Hypérion"
+      D: "Japet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titan, brother of Cronus, personifies the river Ocean that encircles the world?"
+        answers:
+          A: "Coeus"
+          B: "Oceanus"
+          C: "Hyperion"
+          D: "Iapetus"
+    difficulty: MEDIUM
+  - text: "Qui est la Titanide associée à la mémoire et mère des Muses ?"
+    answers:
+      A: "Thémis"
+      B: "Téthys"
+      C: "Mnémosyne"
+      D: "Phoébé"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the Titaness associated with memory and mother of the Muses?"
+        answers:
+          A: "Themis"
+          B: "Tethys"
+          C: "Mnemosyne"
+          D: "Phoebe"
+    difficulty: MEDIUM
+  - text: "Quel Titan a été puni dans le Tartare en étant attaché à une colonne, selon Eschyle ?"
+    answers:
+      A: "Prométhée"
+      B: "Atlas"
+      C: "Épiméthée"
+      D: "Ménétréos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Titan was punished in Tartarus by being bound to a column, according to Aeschylus?"
+        answers:
+          A: "Prometheus"
+          B: "Atlas"
+          C: "Epimetheus"
+          D: "Menetreos"
+    difficulty: EXPERT
+  - text: "Qui est la mère de Pélops, servie en repas aux dieux par Tantale ?"
+    answers:
+      A: "Dioné"
+      B: "Astyoché"
+      C: "Euryanassa"
+      D: "Plouto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the mother of Pelops, served as a meal to the gods by Tantalus?"
+        answers:
+          A: "Dione"
+          B: "Astyoche"
+          C: "Euryanassa"
+          D: "Pluto"
+    difficulty: HARD
+  - text: "Quel dieu olympien est appelé « l'Ébranleur du sol » ?"
+    answers:
+      A: "Poséidon"
+      B: "Hadès"
+      C: "Zeus"
+      D: "Arès"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Olympian god is called \"the Earth-Shaker\"?"
+        answers:
+          A: "Poseidon"
+          B: "Hades"
+          C: "Zeus"
+          D: "Ares"
+    difficulty: MEDIUM
+  - text: "Quel dieu, fils d'Arès et d'Aphrodite, est souvent représenté avec des ailes ?"
+    answers:
+      A: "Hermès"
+      B: "Éros"
+      C: "Apollon"
+      D: "Dionysos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which god, son of Ares and Aphrodite, is often depicted with wings?"
+        answers:
+          A: "Hermes"
+          B: "Eros"
+          C: "Apollo"
+          D: "Dionysus"
+    difficulty: EASY
+  - text: "Quelle déesse, fille de Déméter, est enlevée par Hadès ?"
+    answers:
+      A: "Héra"
+      B: "Athéna"
+      C: "Perséphone"
+      D: "Artémis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which goddess, daughter of Demeter, is abducted by Hades?"
+        answers:
+          A: "Hera"
+          B: "Athena"
+          C: "Persephone"
+          D: "Artemis"
+    difficulty: EASY
+  - text: "Qui est le père de Zeus selon la Théogonie d'Hésiode ?"
+    answers:
+      A: "Ouranos"
+      B: "Hypérion"
+      C: "Japet"
+      D: "Cronos"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the father of Zeus according to Hesiod's Theogony?"
+        answers:
+          A: "Uranus"
+          B: "Hyperion"
+          C: "Iapetus"
+          D: "Cronus"
+    difficulty: EASY
+  - text: "Quel Titan, fils de Japet, est le père de Prométhée ?"
+    answers:
+      A: "Cronos"
+      B: "Océan"
+      C: "Japet"
+      D: "Hypérion"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Titan, son of Iapetus, is the father of Prometheus?"
+        answers:
+          A: "Cronus"
+          B: "Oceanus"
+          C: "Iapetus"
+          D: "Hyperion"
+    difficulty: HARD
+  - text: "Quelle Titanide, épouse de Cronos, est la mère de Poséidon ?"
+    answers:
+      A: "Téthys"
+      B: "Rhéa"
+      C: "Thémis"
+      D: "Mnémosyne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titaness, wife of Cronus, is the mother of Poseidon?"
+        answers:
+          A: "Tethys"
+          B: "Rhea"
+          C: "Themis"
+          D: "Mnemosyne"
+    difficulty: MEDIUM
+  - text: "Quel dieu, fils de Zeus et de Sémélé, est né deux fois ?"
+    answers:
+      A: "Apollon"
+      B: "Hermès"
+      C: "Héphaïstos"
+      D: "Dionysos"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which god, son of Zeus and Semele, was born twice?"
+        answers:
+          A: "Apollo"
+          B: "Hermes"
+          C: "Hephaestus"
+          D: "Dionysus"
+    difficulty: EASY
+  - text: "Quelle déesse, fille de Zeus et de Métis, est née de la tête de Zeus ?"
+    answers:
+      A: "Artémis"
+      B: "Athéna"
+      C: "Héra"
+      D: "Aphrodite"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which goddess, daughter of Zeus and Metis, was born from Zeus's head?"
+        answers:
+          A: "Artemis"
+          B: "Athena"
+          C: "Hera"
+          D: "Aphrodite"
+    difficulty: EASY
+  - text: "Quel Titan a été condamné à tenir la voûte céleste sur ses épaules ?"
+    answers:
+      A: "Prométhée"
+      B: "Épiméthée"
+      C: "Atlas"
+      D: "Ménoetios"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Titan was condemned to hold up the celestial vault on his shoulders?"
+        answers:
+          A: "Prometheus"
+          B: "Epimetheus"
+          C: "Atlas"
+          D: "Menoetius"
+    difficulty: MEDIUM
+  - text: "Quel monstre à cent bras aide Zeus lors de la Titanomachie ?"
+    answers:
+      A: "Briarée"
+      B: "Typhon"
+      C: "Échidna"
+      D: "Cercyon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which hundred-armed monster helps Zeus during the Titanomachy?"
+        answers:
+          A: "Briareus"
+          B: "Typhon"
+          C: "Echidna"
+          D: "Cercyon"
+    difficulty: HARD
+  - text: "Qui est le gardien des Enfers, fils d'Échidna et de Typhon ?"
+    answers:
+      A: "Cerbère"
+      B: "Charon"
+      C: "Hadès"
+      D: "Thanatos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the guardian of the Underworld, son of Echidna and Typhon?"
+        answers:
+          A: "Cerberus"
+          B: "Charon"
+          C: "Hades"
+          D: "Thanatos"
+    difficulty: MEDIUM
+  - text: "Quel fleuve des Enfers provoque l'oubli ?"
+    answers:
+      A: "Achéron"
+      B: "Léthé"
+      C: "Cocyte"
+      D: "Pyriphlégéthon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which river of the Underworld causes forgetfulness?"
+        answers:
+          A: "Acheron"
+          B: "Lethe"
+          C: "Cocytus"
+          D: "Pyriphlegethon"
+    difficulty: MEDIUM
+  - text: "Quel dieu, fils d'Héphaïstos, est le chanteur mythique de Thrace ?"
+    answers:
+      A: "Musée"
+      B: "Linos"
+      C: "Orphée"
+      D: "Eumolpos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which god, son of Hephaestus, is the mythical singer of Thrace?"
+        answers:
+          A: "Musaeus"
+          B: "Linus"
+          C: "Orpheus"
+          D: "Eumolpus"
+    difficulty: HARD
+  - text: "Quelle déesse, mère d'Héphaïstos selon certaines traditions, est reine de l'Olympe ?"
+    answers:
+      A: "Aphrodite"
+      B: "Déméter"
+      C: "Hestia"
+      D: "Héra"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which goddess, mother of Hephaestus according to some traditions, is queen of Olympus?"
+        answers:
+          A: "Aphrodite"
+          B: "Demeter"
+          C: "Hestia"
+          D: "Hera"
+    difficulty: MEDIUM
+  - text: "Quel Titan, frère de Prométhée, a épousé Pandore ?"
+    answers:
+      A: "Atlas"
+      B: "Ménoetios"
+      C: "Épiméthée"
+      D: "Cronos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Titan, brother of Prometheus, married Pandora?"
+        answers:
+          A: "Atlas"
+          B: "Menoetius"
+          C: "Epimetheus"
+          D: "Cronus"
+    difficulty: HARD
+  - text: "Quel titan, fils d'Ouranos et de Gaïa, est le père d'Hélios, Séléné et Éos ?"
+    answers:
+      A: "Céos"
+      B: "Japet"
+      C: "Crios"
+      D: "Hypérion"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Titan, son of Uranus and Gaia, is the father of Helios, Selene and Eos?"
+        answers:
+          A: "Coeus"
+          B: "Iapetus"
+          C: "Crius"
+          D: "Hyperion"
+    difficulty: HARD
+  - text: "Quel dieu olympien est le père des Charites (Grâces) selon Hésiode ?"
+    answers:
+      A: "Apollon"
+      B: "Hermès"
+      C: "Zeus"
+      D: "Dionysos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Olympian god is the father of the Charites (Graces) according to Hesiod?"
+        answers:
+          A: "Apollo"
+          B: "Hermes"
+          C: "Zeus"
+          D: "Dionysus"
+    difficulty: HARD
+  - text: "Quel mortel fut puni aux Enfers en étant condamné à faire rouler éternellement un rocher ?"
+    answers:
+      A: "Tantale"
+      B: "Sisyphe"
+      C: "Ixion"
+      D: "Tityos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mortal was punished in the Underworld by being condemned to roll a boulder forever?"
+        answers:
+          A: "Tantalus"
+          B: "Sisyphus"
+          C: "Ixion"
+          D: "Tityos"
+    difficulty: EASY
+  - text: "Quel est le nom du chien bicéphale (ou à cinquante têtes selon certaines traditions) frère de Cerbère ?"
+    answers:
+      A: "Sphinx"
+      B: "Chimère"
+      C: "Orthos"
+      D: "Hydre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the two-headed dog (or fifty-headed according to some traditions) brother of Cerberus?"
+        answers:
+          A: "Sphinx"
+          B: "Chimera"
+          C: "Orthrus"
+          D: "Hydra"
+    difficulty: EXPERT
+  - text: "Quelle divinité grecque personnifie la Nuit et est la mère d'Hypnos et de Thanatos ?"
+    answers:
+      A: "Héméra"
+      B: "Éos"
+      C: "Nyx"
+      D: "Éris"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek deity personifies Night and is the mother of Hypnos and Thanatos?"
+        answers:
+          A: "Hemera"
+          B: "Eos"
+          C: "Nyx"
+          D: "Eris"
+    difficulty: MEDIUM
+  - text: "Quel mortel divinisé est le portier du mont Olympe ?"
+    answers:
+      A: "Ganymède"
+      B: "Hébé"
+      C: "Héraclès"
+      D: "Asclépios"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which deified mortal is the gatekeeper of Mount Olympus?"
+        answers:
+          A: "Ganymede"
+          B: "Hebe"
+          C: "Heracles"
+          D: "Asclepius"
+    difficulty: MEDIUM
+  - text: "Qui est le père des Cyclopes dans la Théogonie d'Hésiode ?"
+    answers:
+      A: "Gaïa seule"
+      B: "Cronos"
+      C: "Poséidon"
+      D: "Ouranos"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the father of the Cyclopes in Hesiod's Theogony?"
+        answers:
+          A: "Gaia alone"
+          B: "Cronus"
+          C: "Poseidon"
+          D: "Uranus"
+    difficulty: HARD
+  - text: "Quel dieu est associé au mont Olympe comme lieu de naissance selon certaines traditions ?"
+    answers:
+      A: "Arès"
+      B: "Héphaïstos"
+      C: "Dionysos"
+      D: "Zeus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which god is associated with Mount Olympus as a birthplace according to some traditions?"
+        answers:
+          A: "Ares"
+          B: "Hephaestus"
+          C: "Dionysus"
+          D: "Zeus"
+    difficulty: HARD
+  - text: "Qui est le fleuve des Enfers dont les eaux sont liées au serment des dieux ?"
+    answers:
+      A: "Achéron"
+      B: "Cocyte"
+      C: "Styx"
+      D: "Phlégéthon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which river of the Underworld has waters linked to the oath of the gods?"
+        answers:
+          A: "Acheron"
+          B: "Cocytus"
+          C: "Styx"
+          D: "Phlegethon"
+    difficulty: HARD
+  - text: "Quel titan est le père de Séléné (la Lune) ?"
+    answers:
+      A: "Hypérion"
+      B: "Céos"
+      C: "Crios"
+      D: "Océan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Titan is the father of Selene (the Moon)?"
+        answers:
+          A: "Hyperion"
+          B: "Coeus"
+          C: "Crius"
+          D: "Oceanus"
+    difficulty: HARD
+  - text: "Quel héraut des dieux est le seul mortel admis parmi eux ?"
+    answers:
+      A: "Pélops"
+      B: "Tantale"
+      C: "Ixion"
+      D: "Ganymède"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which herald of the gods is the only mortal admitted among them?"
+        answers:
+          A: "Pelops"
+          B: "Tantalus"
+          C: "Ixion"
+          D: "Ganymede"
+    difficulty: HARD
+  - text: "Quelle divinité primordiale est la personnification de l'Amour ?"
+    answers:
+      A: "Himeros"
+      B: "Éros"
+      C: "Pothos"
+      D: "Anteros"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which primordial deity is the personification of Love?"
+        answers:
+          A: "Himeros"
+          B: "Eros"
+          C: "Pothos"
+          D: "Anteros"
+    difficulty: MEDIUM
+  - text: "Qui est le père de Tityos, le géant puni aux Enfers ?"
+    answers:
+      A: "Arès"
+      B: "Poséidon"
+      C: "Zeus"
+      D: "Hadès"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the father of Tityos, the giant punished in the Underworld?"
+        answers:
+          A: "Ares"
+          B: "Poseidon"
+          C: "Zeus"
+          D: "Hades"
+    difficulty: EXPERT
+  - text: "Quel titan est connu comme le père de Prométhée, Épiméthée et Atlas ?"
+    answers:
+      A: "Océan"
+      B: "Cronos"
+      C: "Japet"
+      D: "Hypérion"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Titan is known as the father of Prometheus, Epimetheus and Atlas?"
+        answers:
+          A: "Oceanus"
+          B: "Cronus"
+          C: "Iapetus"
+          D: "Hyperion"
+    difficulty: HARD
+  - text: "Quelle déesse est la mère de Tyché, déesse de la fortune ?"
+    answers:
+      A: "Thémis"
+      B: "Métis"
+      C: "Eurynomé"
+      D: "Téthys"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which goddess is the mother of Tyche, goddess of fortune?"
+        answers:
+          A: "Themis"
+          B: "Metis"
+          C: "Eurynome"
+          D: "Tethys"
+    difficulty: EXPERT
+  - text: "Quel mortel a été puni aux Enfers pour avoir tenté de violer Léto ?"
+    answers:
+      A: "Ixion"
+      B: "Tityos"
+      C: "Sisyphe"
+      D: "Tantale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mortal was punished in the Underworld for attempting to violate Leto?"
+        answers:
+          A: "Ixion"
+          B: "Tityos"
+          C: "Sisyphus"
+          D: "Tantalus"
+    difficulty: EXPERT
+  - text: "Quelle Titanide est la mère d'Hélios ?"
+    answers:
+      A: "Théia"
+      B: "Rhéa"
+      C: "Téthys"
+      D: "Phoebé"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Titaness is the mother of Helios?"
+        answers:
+          A: "Theia"
+          B: "Rhea"
+          C: "Tethys"
+          D: "Phoebe"
+    difficulty: HARD
+  - text: "Qui est le dieu grec du sommeil, frère jumeau de la Mort ?"
+    answers:
+      A: "Hypnos"
+      B: "Thanatos"
+      C: "Morphée"
+      D: "Oniros"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the Greek god of sleep, twin brother of Death?"
+        answers:
+          A: "Hypnos"
+          B: "Thanatos"
+          C: "Morpheus"
+          D: "Oneiros"
+    difficulty: MEDIUM
+  - text: "Quel poète grec est l'auteur de la Théogonie ?"
+    answers:
+      A: "Homère"
+      B: "Sophocle"
+      C: "Eschyle"
+      D: "Hésiode"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Greek poet is the author of the Theogony?"
+        answers:
+          A: "Homer"
+          B: "Sophocles"
+          C: "Aeschylus"
+          D: "Hesiod"
+    difficulty: EASY
+  - text: "Quel dieu, fils de Zeus et de Déméter, est le plus souvent représenté avec une corne d'abondance ?"
+    answers:
+      A: "Ploutos"
+      B: "Dionysos"
+      C: "Pan"
+      D: "Priape"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which god, son of Zeus and Demeter, is most often depicted with a cornucopia?"
+        answers:
+          A: "Plutus"
+          B: "Dionysus"
+          C: "Pan"
+          D: "Priapus"
+    difficulty: HARD
+  - text: "Quel Titanide est la mère d'Hélios, Séléné et Éos ?"
+    answers:
+      A: "Phoibé"
+      B: "Téthys"
+      C: "Mnémosyne"
+      D: "Théia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Titaness is the mother of Helios, Selene and Eos?"
+        answers:
+          A: "Phoebe"
+          B: "Tethys"
+          C: "Mnemosyne"
+          D: "Theia"
+    difficulty: HARD
+  - text: "Quel dieu est le père des Charites selon Hésiode ?"
+    answers:
+      A: "Zeus"
+      B: "Dionysos"
+      C: "Apollon"
+      D: "Hermès"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which god is the father of the Charites according to Hesiod?"
+        answers:
+          A: "Zeus"
+          B: "Dionysus"
+          C: "Apollo"
+          D: "Hermes"
+    difficulty: HARD
+  - text: "Quel mortel est puni aux Enfers en roulant éternellement un rocher ?"
+    answers:
+      A: "Tantale"
+      B: "Sisyphe"
+      C: "Ixion"
+      D: "Tityos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mortal is punished in the Underworld by eternally rolling a boulder?"
+        answers:
+          A: "Tantalus"
+          B: "Sisyphus"
+          C: "Ixion"
+          D: "Tityos"
+    difficulty: EASY
+  - text: "Quel chien bicéphale est le frère de Cerbère ?"
+    answers:
+      A: "Sphinx"
+      B: "Chimère"
+      C: "Hydre"
+      D: "Orthos"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which two-headed dog is the brother of Cerberus?"
+        answers:
+          A: "Sphinx"
+          B: "Chimera"
+          C: "Hydra"
+          D: "Orthrus"
+    difficulty: EXPERT
+  - text: "Quelle divinité personnifie la Nuit et est mère d'Hypnos et Thanatos ?"
+    answers:
+      A: "Nyx"
+      B: "Héméra"
+      C: "Érèbe"
+      D: "Éos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which deity personifies Night and is the mother of Hypnos and Thanatos?"
+        answers:
+          A: "Nyx"
+          B: "Hemera"
+          C: "Erebus"
+          D: "Eos"
+    difficulty: MEDIUM
+  - text: "Quel mortel divinisé devient le portier du mont Olympe ?"
+    answers:
+      A: "Achille"
+      B: "Persée"
+      C: "Héraclès"
+      D: "Orphée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which deified mortal becomes the gatekeeper of Mount Olympus?"
+        answers:
+          A: "Achilles"
+          B: "Perseus"
+          C: "Heracles"
+          D: "Orpheus"
+    difficulty: MEDIUM
+  - text: "Sur quelle montagne Zeus est-il né selon certaines traditions ?"
+    answers:
+      A: "Olympe"
+      B: "Ida"
+      C: "Parnasse"
+      D: "Étna"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which mountain was Zeus born according to some traditions?"
+        answers:
+          A: "Olympus"
+          B: "Ida"
+          C: "Parnassus"
+          D: "Etna"
+    difficulty: HARD
+  - text: "Quel fleuve des Enfers est lié au serment des dieux ?"
+    answers:
+      A: "Styx"
+      B: "Cocyte"
+      C: "Pyriphlégéthon"
+      D: "Achéron"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which river of the Underworld is linked to the oath of the gods?"
+        answers:
+          A: "Styx"
+          B: "Cocytus"
+          C: "Pyriphlegethon"
+          D: "Acheron"
+    difficulty: HARD
+  - text: "Quelle divinité primordiale personnifie l'Amour ?"
+    answers:
+      A: "Éros"
+      B: "Aphrodite"
+      C: "Himéros"
+      D: "Pothos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which primordial deity personifies Love?"
+        answers:
+          A: "Eros"
+          B: "Aphrodite"
+          C: "Himeros"
+          D: "Pothos"
+    difficulty: MEDIUM
+  - text: "Quel Titan est le père de Prométhée, Épiméthée et Atlas ?"
+    answers:
+      A: "Cronos"
+      B: "Japet"
+      C: "Océan"
+      D: "Hypérion"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titan is the father of Prometheus, Epimetheus and Atlas?"
+        answers:
+          A: "Cronus"
+          B: "Iapetus"
+          C: "Oceanus"
+          D: "Hyperion"
+    difficulty: HARD
+  - text: "Quel mortel est puni aux Enfers pour avoir tenté de violer Léto ?"
+    answers:
+      A: "Tityos"
+      B: "Ixion"
+      C: "Salmoneus"
+      D: "Pirithoos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mortal is punished in the Underworld for trying to violate Leto?"
+        answers:
+          A: "Tityos"
+          B: "Ixion"
+          C: "Salmoneus"
+          D: "Pirithous"
+    difficulty: EXPERT
+  - text: "Quel poète a écrit la Théogonie ?"
+    answers:
+      A: "Homère"
+      B: "Hésiode"
+      C: "Pindare"
+      D: "Eschyle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which poet wrote the Theogony?"
+        answers:
+          A: "Homer"
+          B: "Hesiod"
+          C: "Pindar"
+          D: "Aeschylus"
+    difficulty: MEDIUM
+  - text: "Quel dieu, fils de Zeus et Déméter, est associé à la corne d'abondance ?"
+    answers:
+      A: "Dionysos"
+      B: "Hermès"
+      C: "Ploutos"
+      D: "Arès"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which god, son of Zeus and Demeter, is associated with the cornucopia?"
+        answers:
+          A: "Dionysus"
+          B: "Hermes"
+          C: "Plutus"
+          D: "Ares"
+    difficulty: HARD
+  - text: "Quel Titan est le père de Séléné ?"
+    answers:
+      A: "Théia"
+      B: "Hypérion"
+      C: "Océan"
+      D: "Cronos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titan is the father of Selene?"
+        answers:
+          A: "Theia"
+          B: "Hyperion"
+          C: "Oceanus"
+          D: "Cronus"
+    difficulty: EXPERT
+  - text: "Quel dieu préside au sommeil et est frère jumeau de la Mort ?"
+    answers:
+      A: "Hypnos"
+      B: "Morphée"
+      C: "Thanatos"
+      D: "Oniros"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which god presides over sleep and is the twin brother of Death?"
+        answers:
+          A: "Hypnos"
+          B: "Morpheus"
+          C: "Thanatos"
+          D: "Oneiros"
+    difficulty: HARD
+  - text: "Quel Titan, fils d'Ouranos et Gaïa, est le père d'Hélios, Séléné et Éos ?"
+    answers:
+      A: "Crios"
+      B: "Japet"
+      C: "Céos"
+      D: "Hypérion"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Titan, son of Uranus and Gaia, is the father of Helios, Selene and Eos?"
+        answers:
+          A: "Crius"
+          B: "Iapetus"
+          C: "Coeus"
+          D: "Hyperion"
+    difficulty: HARD
+  - text: "Quel Titan hélios conduit le char du Soleil ?"
+    answers:
+      A: "Apollon"
+      B: "Hélios"
+      C: "Phébus"
+      D: "Éos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titan Helios drives the chariot of the Sun?"
+        answers:
+          A: "Apollo"
+          B: "Helios"
+          C: "Phoebus"
+          D: "Eos"
+    difficulty: EXPERT
+  - text: "Quel monstre à cent têtes est le fils de Gaïa et d'Ouranos ?"
+    answers:
+      A: "Python"
+      B: "Cerbère"
+      C: "Ladon"
+      D: "Typhon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which hundred-headed monster is the son of Gaia and Uranus?"
+        answers:
+          A: "Python"
+          B: "Cerberus"
+          C: "Ladon"
+          D: "Typhon"
+    difficulty: HARD
+  - text: "Quel dieu est le père d'Hélène de Troie ?"
+    answers:
+      A: "Agamemnon"
+      B: "Tyndare"
+      C: "Ménélas"
+      D: "Priam"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which god is the father of Helen of Troy?"
+        answers:
+          A: "Agamemnon"
+          B: "Tyndareus"
+          C: "Menelaus"
+          D: "Priam"
+    difficulty: EXPERT
+  - text: "Selon Hésiode, combien de Muses existe-t-il ?"
+    answers:
+      A: "Trois"
+      B: "Douze"
+      C: "Neuf"
+      D: "Sept"
+    correctAnswer: C
+    translations:
+      en:
+        text: "According to Hesiod, how many Muses are there?"
+        answers:
+          A: "Three"
+          B: "Twelve"
+          C: "Nine"
+          D: "Seven"
+    difficulty: MEDIUM
+  - text: "Quel objet magique Athéna confie-t-elle à Persée pour tuer Méduse ?"
+    answers:
+      A: "Une épée en adamant"
+      B: "Un bouclier réfléchissant"
+      C: "Des sandales ailées"
+      D: "Un casque d'invisibilité"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What magic object does Athena entrust to Perseus to kill Medusa?"
+        answers:
+          A: "An adamant sword"
+          B: "A reflective shield"
+          C: "Winged sandals"
+          D: "A helmet of invisibility"
+    difficulty: HARD
+  - text: "Qui est le père de Pélops dans la mythologie grecque ?"
+    answers:
+      A: "Pélée"
+      B: "Agamemnon"
+      C: "Tantale"
+      D: "Égisthe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the father of Pelops in Greek mythology?"
+        answers:
+          A: "Peleus"
+          B: "Agamemnon"
+          C: "Tantalus"
+          D: "Aegisthus"
+    difficulty: EXPERT
+  - text: "Quel dieu est associé au mont Olympe comme lieu de son trône ?"
+    answers:
+      A: "Apollon"
+      B: "Poséidon"
+      C: "Hadès"
+      D: "Zeus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which god is associated with Mount Olympus as the place of his throne?"
+        answers:
+          A: "Apollo"
+          B: "Poseidon"
+          C: "Hades"
+          D: "Zeus"
+    difficulty: EASY
+  - text: "Quel titan est le père de la déesse Hécate ?"
+    answers:
+      A: "Pallas"
+      B: "Astraéos"
+      C: "Persès"
+      D: "Crios"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Titan is the father of the goddess Hecate?"
+        answers:
+          A: "Pallas"
+          B: "Astraeus"
+          C: "Perses"
+          D: "Crius"
+    difficulty: EXPERT
+  - text: "Quel héros grec est célèbre pour avoir accompli les douze travaux ?"
+    answers:
+      A: "Thésée"
+      B: "Achille"
+      C: "Persée"
+      D: "Héraclès"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Greek hero is famous for completing the twelve labors?"
+        answers:
+          A: "Theseus"
+          B: "Achilles"
+          C: "Perseus"
+          D: "Heracles"
+    difficulty: EASY
+  - text: "Quel dieu est le père des Satyres ?"
+    answers:
+      A: "Hermès"
+      B: "Pan"
+      C: "Dionysos"
+      D: "Arès"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which god is the father of the Satyrs?"
+        answers:
+          A: "Hermes"
+          B: "Pan"
+          C: "Dionysus"
+          D: "Ares"
+    difficulty: EXPERT
+  - text: "Quel est le nom du géant à cent bras qui aide Zeus contre les Titans ?"
+    answers:
+      A: "Gygès"
+      B: "Briarée"
+      C: "Cottos"
+      D: "Égéon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hundred-armed giant who helps Zeus against the Titans?"
+        answers:
+          A: "Gyges"
+          B: "Briareus"
+          C: "Cottus"
+          D: "Aegaeon"
+    difficulty: HARD
+  - text: "Quelle déesse est la mère d'Athéna selon la version la plus courante ?"
+    answers:
+      A: "Métis"
+      B: "Héra"
+      C: "Déméter"
+      D: "Léto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which goddess is the mother of Athena according to the most common version?"
+        answers:
+          A: "Metis"
+          B: "Hera"
+          C: "Demeter"
+          D: "Leto"
+    difficulty: MEDIUM
+  - text: "Quel mortel fut changé en pierre par Athéna ?"
+    answers:
+      A: "Niobé"
+      B: "Méduse"
+      C: "Arachné"
+      D: "Aglaure"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mortal was turned to stone by Athena?"
+        answers:
+          A: "Niobe"
+          B: "Medusa"
+          C: "Arachne"
+          D: "Aglauros"
+    difficulty: EXPERT
+  - text: "Quel dieu préside aux vents dans la mythologie grecque ?"
+    answers:
+      A: "Éole"
+      B: "Borée"
+      C: "Zéphyr"
+      D: "Notos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which god presides over the winds in Greek mythology?"
+        answers:
+          A: "Aeolus"
+          B: "Boreas"
+          C: "Zephyrus"
+          D: "Notus"
+    difficulty: HARD
+  - text: "Quelle nymphe est la mère d'Achille ?"
+    answers:
+      A: "Thétis"
+      B: "Néréis"
+      C: "Amphitrite"
+      D: "Calypso"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which nymph is the mother of Achilles?"
+        answers:
+          A: "Thetis"
+          B: "Nereis"
+          C: "Amphitrite"
+          D: "Calypso"
+    difficulty: MEDIUM
+  - text: "Quel titan est le père de la déesse Niké ?"
+    answers:
+      A: "Crios"
+      B: "Astraéos"
+      C: "Persès"
+      D: "Pallas"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Titan is the father of the goddess Nike?"
+        answers:
+          A: "Crius"
+          B: "Astraeus"
+          C: "Perses"
+          D: "Pallas"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fleuve des Enfers dont les eaux ne peuvent être traversées qu'une fois ?"
+    answers:
+      A: "Cocyte"
+      B: "Achéron"
+      C: "Pyriphlégéthon"
+      D: "Léthé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the river of the Underworld whose waters can only be crossed once?"
+        answers:
+          A: "Cocytus"
+          B: "Acheron"
+          C: "Pyriphlegethon"
+          D: "Lethe"
+    difficulty: EXPERT
+  - text: "Quel dieu est représenté avec une lyre et un arc ?"
+    answers:
+      A: "Éros"
+      B: "Hermès"
+      C: "Orphée"
+      D: "Apollon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which god is depicted with a lyre and a bow?"
+        answers:
+          A: "Eros"
+          B: "Hermes"
+          C: "Orpheus"
+          D: "Apollo"
+    difficulty: HARD
+  - text: "Quelle déesse est la personnification de la discorde ?"
+    answers:
+      A: "Némésis"
+      B: "Ényo"
+      C: "Éris"
+      D: "Até"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which goddess is the personification of discord?"
+        answers:
+          A: "Nemesis"
+          B: "Enyo"
+          C: "Eris"
+          D: "Ate"
+    difficulty: HARD
+  - text: "Quel titan est le père de la déesse Hestia ?"
+    answers:
+      A: "Cronos"
+      B: "Ouranos"
+      C: "Japet"
+      D: "Hypérion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Titan is the father of the goddess Hestia?"
+        answers:
+          A: "Cronus"
+          B: "Uranus"
+          C: "Iapetus"
+          D: "Hyperion"
+    difficulty: HARD
+  - text: "Quelle déesse est la mère de Triptolème, selon certaines traditions ?"
+    answers:
+      A: "Déméter"
+      B: "Héra"
+      C: "Athéna"
+      D: "Perséphone"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which goddess is the mother of Triptolemus, according to some traditions?"
+        answers:
+          A: "Demeter"
+          B: "Hera"
+          C: "Athena"
+          D: "Persephone"
+    difficulty: EXPERT
+  - text: "Quel Titan est le père de l'étoile du matin, Éosphoros ?"
+    answers:
+      A: "Crios"
+      B: "Céos"
+      C: "Hypérion"
+      D: "Japet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Titan is the father of the morning star, Eosphoros?"
+        answers:
+          A: "Crius"
+          B: "Coeus"
+          C: "Hyperion"
+          D: "Iapetus"
+    difficulty: EXPERT
+  - text: "Quel mortel fut puni aux Enfers pour avoir tenté d'enlever Perséphone ?"
+    answers:
+      A: "Sisyphe"
+      B: "Thésée"
+      C: "Pirithoos"
+      D: "Ixion"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which mortal was punished in the Underworld for trying to abduct Persephone?"
+        answers:
+          A: "Sisyphus"
+          B: "Theseus"
+          C: "Pirithous"
+          D: "Ixion"
+    difficulty: EXPERT
+  - text: "Quel est le nom du géant à cinquante têtes et cent bras, fils d'Ouranos et Gaïa ?"
+    answers:
+      A: "Égéon"
+      B: "Gygès"
+      C: "Cottos"
+      D: "Briarée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the fifty-headed, hundred-armed giant, son of Uranus and Gaia?"
+        answers:
+          A: "Aegaeon"
+          B: "Gyges"
+          C: "Cottus"
+          D: "Briareus"
+    difficulty: EXPERT
+  - text: "Quelle nourriture ou boisson confère l'immortalité aux dieux ?"
+    answers:
+      A: "Le nectar"
+      B: "Le kykeon"
+      C: "L'ambroisie"
+      D: "L'hydromel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which food or drink grants immortality to the gods?"
+        answers:
+          A: "Nectar"
+          B: "Kykeon"
+          C: "Ambrosia"
+          D: "Mead"
+    difficulty: HARD
+  - text: "Quel titan est le père de la déesse Hécate selon Hésiode ?"
+    answers:
+      A: "Astréos"
+      B: "Persès"
+      C: "Pallas"
+      D: "Crios"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titan is the father of the goddess Hecate according to Hesiod?"
+        answers:
+          A: "Astraeus"
+          B: "Perses"
+          C: "Pallas"
+          D: "Crius"
+    difficulty: EXPERT
+  - text: "Qui est le père d'Aphrodite selon l'Iliade d'Homère ?"
+    answers:
+      A: "Ouranos"
+      B: "Poséidon"
+      C: "Cronos"
+      D: "Zeus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the father of Aphrodite according to Homer's Iliad?"
+        answers:
+          A: "Uranus"
+          B: "Poseidon"
+          C: "Cronus"
+          D: "Zeus"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fleuve des Enfers dont les eaux provoquent l'oubli ?"
+    answers:
+      A: "Achéron"
+      B: "Cocyte"
+      C: "Phlégéthon"
+      D: "Léthé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the river of the Underworld whose waters cause forgetfulness?"
+        answers:
+          A: "Acheron"
+          B: "Cocytus"
+          C: "Phlegethon"
+          D: "Lethe"
+    difficulty: HARD
+  - text: "Quelle divinité est la personnification de la vieillesse ?"
+    answers:
+      A: "Thanatos"
+      B: "Géras"
+      C: "Hypnos"
+      D: "Momos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which deity is the personification of old age?"
+        answers:
+          A: "Thanatos"
+          B: "Geras"
+          C: "Hypnos"
+          D: "Momus"
+    difficulty: EXPERT
+  - text: "Quel titan est le père de la déesse Styx ?"
+    answers:
+      A: "Océan"
+      B: "Céos"
+      C: "Hypérion"
+      D: "Japet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Titan is the father of the goddess Styx?"
+        answers:
+          A: "Oceanus"
+          B: "Coeus"
+          C: "Hyperion"
+          D: "Iapetus"
+    difficulty: EXPERT
+  - text: "Qui est la mère des Moires (Parques) selon Hésiode ?"
+    answers:
+      A: "Nyx"
+      B: "Mnémosyne"
+      C: "Eurynomé"
+      D: "Thémis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the mother of the Moirai (Fates) according to Hesiod?"
+        answers:
+          A: "Nyx"
+          B: "Mnemosyne"
+          C: "Eurynome"
+          D: "Themis"
+    difficulty: HARD
+  - text: "Quel dieu est le père de Pan dans la version la plus courante ?"
+    answers:
+      A: "Apollon"
+      B: "Zeus"
+      C: "Hermès"
+      D: "Poséidon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which god is the father of Pan in the most common version?"
+        answers:
+          A: "Apollo"
+          B: "Zeus"
+          C: "Hermes"
+          D: "Poseidon"
+    difficulty: HARD
+  - text: "Quel est le nom du jardin légendaire où vivent les Hespérides ?"
+    answers:
+      A: "Les Champs Élysées"
+      B: "L'Élysée"
+      C: "Le jardin des Hespérides"
+      D: "Les Îles des Bienheureux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the legendary garden where the Hesperides live?"
+        answers:
+          A: "The Elysian Fields"
+          B: "The Elysée"
+          C: "The Garden of the Hesperides"
+          D: "The Isles of the Blessed"
+    difficulty: HARD
+  - text: "Quel titan est la mère de la déesse Hécate ?"
+    answers:
+      A: "Téthys"
+      B: "Léto"
+      C: "Asteria"
+      D: "Phébé"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Titan is the mother of the goddess Hecate?"
+        answers:
+          A: "Tethys"
+          B: "Leto"
+          C: "Asteria"
+          D: "Phoebe"
+    difficulty: EXPERT
+  - text: "Quel est le nom du rocher d'où les condamnés étaient précipités dans le Tartare ?"
+    answers:
+      A: "Le rocher de Sisyphe"
+      B: "L'Aéropage"
+      C: "Le rocher des Céphalènes"
+      D: "Le rocher de Tantale"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the rock from which condemned criminals were thrown into Tartarus?"
+        answers:
+          A: "The rock of Sisyphus"
+          B: "The Areopagus"
+          C: "The rock of the Cephalenes"
+          D: "The rock of Tantalus"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier principe divin selon Hésiode, avant Chaos ?"
+    answers:
+      A: "Éros"
+      B: "Gaïa"
+      C: "Tartare"
+      D: "Aucun, Chaos vient en premier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first divine principle according to Hesiod, before Chaos?"
+        answers:
+          A: "Eros"
+          B: "Gaia"
+          C: "Tartarus"
+          D: "None, Chaos comes first"
+    difficulty: EXPERT
+  - text: "Qui est la mère d'Épiméthée, le frère de Prométhée ?"
+    answers:
+      A: "Thémis"
+      B: "Clymène"
+      C: "Téthys"
+      D: "Phoébé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the mother of Epimetheus, the brother of Prometheus?"
+        answers:
+          A: "Themis"
+          B: "Clymene"
+          C: "Tethys"
+          D: "Phoebe"
+    difficulty: EXPERT
+  - text: "Quel mortel fut chargé de garder Io métamorphosée en vache ?"
+    answers:
+      A: "Épaphos"
+      B: "Hermès"
+      C: "Argos"
+      D: "Cadmos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which mortal was tasked with guarding Io after she was transformed into a cow?"
+        answers:
+          A: "Epaphus"
+          B: "Hermes"
+          C: "Argus"
+          D: "Cadmus"
+    difficulty: EXPERT
+  - text: "Quelle divinité trancha la gorge de Cronos avec une faucille ?"
+    answers:
+      A: "Zeus"
+      B: "Cronos lui-même"
+      C: "Ouranos"
+      D: "Gaïa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which deity cut Cronus's throat with a sickle?"
+        answers:
+          A: "Zeus"
+          B: "Cronus himself"
+          C: "Uranus"
+          D: "Gaia"
+    difficulty: EXPERT
+  - text: "Quel Titan, frère de Prométhée, est le père de Deucalion ?"
+    answers:
+      A: "Atlas"
+      B: "Épiméthée"
+      C: "Ménétios"
+      D: "Japet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titan, brother of Prometheus, is the father of Deucalion?"
+        answers:
+          A: "Atlas"
+          B: "Epimetheus"
+          C: "Menoetius"
+          D: "Iapetus"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chien de Géryon, tué par Héraclès ?"
+    answers:
+      A: "Cerbère"
+      B: "Argos"
+      C: "Orthos"
+      D: "Sphinx"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Geryon's dog, killed by Heracles?"
+        answers:
+          A: "Cerberus"
+          B: "Argus"
+          C: "Orthrus"
+          D: "Sphinx"
+    difficulty: EXPERT
+  - text: "Quel mortel fut puni par Zeus pour avoir révélé les secrets des dieux ?"
+    answers:
+      A: "Ixion"
+      B: "Tantale"
+      C: "Sisyphe"
+      D: "Salmoneus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mortal was punished by Zeus for revealing the secrets of the gods?"
+        answers:
+          A: "Ixion"
+          B: "Tantalus"
+          C: "Sisyphus"
+          D: "Salmoneus"
+    difficulty: EXPERT
+  - text: "Quel titan est le père de l'étoile du soir, Hespéros ?"
+    answers:
+      A: "Persès"
+      B: "Pallas"
+      C: "Astréos"
+      D: "Éos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Titan is the father of the evening star, Hesperus?"
+        answers:
+          A: "Perses"
+          B: "Pallas"
+          C: "Astraeus"
+          D: "Eos"
+    difficulty: EXPERT
+  - text: "Selon Hésiode, quel Titanide est le père de la déesse Hécate ?"
+    answers:
+      A: "Astréos"
+      B: "Persès"
+      C: "Pallas"
+      D: "Crios"
+    correctAnswer: B
+    translations:
+      en:
+        text: "According to Hesiod, which Titaness is the father of the goddess Hecate?"
+        answers:
+          A: "Astraeus"
+          B: "Perses"
+          C: "Pallas"
+          D: "Crius"
+    difficulty: EXPERT

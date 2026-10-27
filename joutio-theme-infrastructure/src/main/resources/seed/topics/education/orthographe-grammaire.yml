@@ -1,0 +1,826 @@
+topic:
+  id: topic-orthographe-grammaire
+  names:
+    fr: "Orthographe"
+    en: "Spelling & Grammar"
+  description: "Accords, homophones, conjugaison, pluriels et participes passés : un thème pour vérifier que les règles du français n'ont plus de secrets pour vous."
+  category: EDUCATION
+  imageUrl: wikipedia/education/Captain_John_Sutter_(1803-1880)_presented_this_French-English_dictionary_to_Reverend_Elkanah_Walker_(1805-1877)_in_1838..jpg
+  titles:
+    fr:
+      FER: "Plume Hésitante"
+      BRONZE: "Correcteur du Dimanche"
+      ARGENT: "Accordeur de Participes"
+      OR: "Dompteur d'Homophones"
+      PLATINE: "Gardien de la Conjugaison"
+      EMERAUDE: "Sentinelle du Bescherelle"
+      DIAMANT: "Immortel de l'Académie"
+    en:
+      FER: "Wobbly Pen"
+      BRONZE: "Sunday Proofreader"
+      ARGENT: "Participle Tamer"
+      OR: "Homophone Wrangler"
+      PLATINE: "Conjugation Guardian"
+      EMERAUDE: "Grammar Sentinel"
+      DIAMANT: "Immortal of the Academy"
+questions:
+  - text: "Quel est le participe passé du verbe « absoudre » ?"
+    answers:
+      A: "absout"
+      B: "absolu"
+      C: "absous"
+      D: "absoudé"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Le ... que j'ai posé sur la table a été volé. »"
+    answers:
+      A: "bijout"
+      B: "bijoux"
+      C: "bijous"
+      D: "bijou"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Quel est le féminin du nom « docteur » ?"
+    answers:
+      A: "doctoresse"
+      B: "docteure"
+      C: "doctrice"
+      D: "docteuse"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Accordez le participe passé : « Les documents que j'ai ... » (joindre)"
+    answers:
+      A: "joint"
+      B: "joints"
+      C: "joinds"
+      D: "joins"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Complétez : « Ce sont les livres ... je t'ai parlé. »"
+    answers:
+      A: "d'où"
+      B: "que"
+      C: "desquels"
+      D: "dont"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Complétez : « ... que tu fasses, je te soutiendrai. »"
+    answers:
+      A: "Quoi"
+      B: "Quoique"
+      C: "Quoi que"
+      D: "Quoiqu'"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Complétez : « Il faut que tu ... ce travail avant ce soir. » (faire)"
+    answers:
+      A: "fasses"
+      B: "fais"
+      C: "feras"
+      D: "faise"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Accordez le participe passé : « Les fleurs qu'il a ... » (cueillir)"
+    answers:
+      A: "cueillies"
+      B: "cueilli"
+      C: "cueillis"
+      D: "cueillie"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quelle est la forme correcte du verbe « avoir » au subjonctif présent, troisième personne du singulier ?"
+    answers:
+      A: "qu'il aie"
+      B: "qu'il aurait"
+      C: "qu'il a"
+      D: "qu'il ait"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Complétez : « Je ... que tu viennes. » (vouloir)"
+    answers:
+      A: "voudrais"
+      B: "veux"
+      C: "veus"
+      D: "voulez"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Accordez l'adjectif : « des robes ... » (blanc)"
+    answers:
+      A: "blancs"
+      B: "blanches"
+      C: "blanc"
+      D: "blanque"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Complétez : « Elle est ... que sa sœur. » (grand)"
+    answers:
+      A: "plus grands"
+      B: "plus grand"
+      C: "plus grandes"
+      D: "plus grande"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Quel est le pluriel du nom « travail » ?"
+    answers:
+      A: "travaux"
+      B: "travails"
+      C: "travailles"
+      D: "travauls"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Complétez : « ... vas-tu ? »"
+    answers:
+      A: "Ous"
+      B: "Ou"
+      C: "Oux"
+      D: "Où"
+    correctAnswer: D
+    difficulty: EASY
+  - text: "Complétez : « Il a ... son travail. » (finir)"
+    answers:
+      A: "finies"
+      B: "finis"
+      C: "finie"
+      D: "fini"
+    correctAnswer: D
+    difficulty: EASY
+  - text: "Complétez : « Je ne sais pas ... il viendra. »"
+    answers:
+      A: "s' il"
+      B: "si il"
+      C: "s'il"
+      D: "cil"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Quel est le participe passé du verbe « coudre » ?"
+    answers:
+      A: "coussu"
+      B: "coutu"
+      C: "cousu"
+      D: "coudé"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Elle s'est ... les mains. » (laver)"
+    answers:
+      A: "lavé"
+      B: "lavée"
+      C: "lavés"
+      D: "lavées"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « pneu » ?"
+    answers:
+      A: "pneux"
+      B: "pneus"
+      C: "pneues"
+      D: "pneu"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Complétez : « Ces fleurs sont ... que celles du jardin. » (beau)"
+    answers:
+      A: "plus belles"
+      B: "plus beaux"
+      C: "plus belle"
+      D: "plus beau"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quelle est la forme correcte du verbe « aller » au futur simple, 1re personne du singulier ?"
+    answers:
+      A: "j'irai"
+      B: "j'allerai"
+      C: "j'irais"
+      D: "j'allai"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Complétez : « Il faut qu'il ... la vérité. » (dire)"
+    answers:
+      A: "dirait"
+      B: "dit"
+      C: "dira"
+      D: "dise"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Quel est le féminin du nom « veuf » ?"
+    answers:
+      A: "veuve"
+      B: "veufe"
+      C: "veuvée"
+      D: "veuveuse"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Accordez : « des chemises ... » (blanc)"
+    answers:
+      A: "blanc"
+      B: "blancs"
+      C: "blanches"
+      D: "blanques"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Complétez : « Je ... que tu as raison. » (croire)"
+    answers:
+      A: "croie"
+      B: "croit"
+      C: "croix"
+      D: "crois"
+    correctAnswer: D
+    difficulty: EASY
+  - text: "Quel est le participe passé du verbe « moudre » ?"
+    answers:
+      A: "moudé"
+      B: "moulu"
+      C: "moulé"
+      D: "moudré"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « ... allez-vous ? »"
+    answers:
+      A: "Ou"
+      B: "Où"
+      C: "Oux"
+      D: "Oùu"
+    correctAnswer: B
+    difficulty: EASY
+  - text: "Accordez le participe passé : « Les lettres que j'ai ... » (écrire)"
+    answers:
+      A: "écrits"
+      B: "écrit"
+      C: "écrites"
+      D: "écrite"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Quelle est la forme correcte du verbe « être » à l'imparfait, 3e personne du pluriel ?"
+    answers:
+      A: "ils étaient"
+      B: "ils étaients"
+      C: "ils étais"
+      D: "ils étaientent"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Quel est le pluriel du nom « landau » ?"
+    answers:
+      A: "landau"
+      B: "landaux"
+      C: "landauxs"
+      D: "landaus"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Complétez : « Il ... que tu partes. » (falloir)"
+    answers:
+      A: "faut"
+      B: "faux"
+      C: "fautes"
+      D: "fautent"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Quel est le féminin de l'adjectif « roux » ?"
+    answers:
+      A: "rouce"
+      B: "rouxe"
+      C: "rousse"
+      D: "rousee"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Nous ... nos devoirs. » (finir, passé simple)"
+    answers:
+      A: "finâmes"
+      B: "finissons"
+      C: "finissions"
+      D: "finîmes"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Quelle est l'orthographe correcte ?"
+    answers:
+      A: "Un marteaus"
+      B: "Un marteaux"
+      C: "Un marteau"
+      D: "Un martau"
+    correctAnswer: C
+    difficulty: EASY
+  - text: "Complétez : « Si j'... plus tôt, j'aurais pu venir. » (être)"
+    answers:
+      A: "serais"
+      B: "étais"
+      C: "avais été"
+      D: "avais"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « bijou » ?"
+    answers:
+      A: "bijouxs"
+      B: "bijous"
+      C: "bijoues"
+      D: "bijoux"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Quelle est la forme correcte du participe passé du verbe « résoudre » (sens de trouver une solution) ?"
+    answers:
+      A: "résoud"
+      B: "résous"
+      C: "résolu"
+      D: "résoudré"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Quel est le pluriel du nom « un ail » ?"
+    answers:
+      A: "des ails"
+      B: "des ails ou aulx"
+      C: "des aulx"
+      D: "des ailles"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Il faut que tu ... ce travail avant ce soir. »"
+    answers:
+      A: "fais"
+      B: "fasses"
+      C: "feras"
+      D: "faisais"
+    correctAnswer: B
+    difficulty: EASY
+  - text: "Quelle est la forme correcte du verbe « avoir » au subjonctif présent, 3e personne du singulier ?"
+    answers:
+      A: "qu'il aie"
+      B: "qu'il ait"
+      C: "qu'il a"
+      D: "qu'il aura"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Complétez : « Les documents que j'ai ... » (joindre)"
+    answers:
+      A: "joint"
+      B: "joins"
+      C: "joints"
+      D: "jointe"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Les ciseaux que j'ai ... pour couper le papier. » (prendre)"
+    answers:
+      A: "prise"
+      B: "pris"
+      C: "prises"
+      D: "prit"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « ciel » ?"
+    answers:
+      A: "cieuls"
+      B: "cieux"
+      C: "ciels et cieux"
+      D: "ciels"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Complétez : « Elle s'est ... les cheveux avant la fête. » (couper)"
+    answers:
+      A: "coupées"
+      B: "coupée"
+      C: "coupés"
+      D: "coupé"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Complétez : « Nous ... ce film hier soir. » (voir, passé composé)"
+    answers:
+      A: "avons vue"
+      B: "avons vu"
+      C: "avons vus"
+      D: "avons vues"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Accordez : « des robes ... » (blanc)"
+    answers:
+      A: "blancs"
+      B: "blanches"
+      C: "blanc"
+      D: "blanques"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Quelle est la forme correcte du verbe « avoir » au subjonctif présent, 1re personne du singulier ?"
+    answers:
+      A: "ai"
+      B: "aye"
+      C: "aie"
+      D: "ais"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Complétez : « Si j'... su, je serais venu. » (avoir)"
+    answers:
+      A: "aie"
+      B: "aurais"
+      C: "avait"
+      D: "avais"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Quel est le féminin du nom « gouverneur » ?"
+    answers:
+      A: "gouverneuse"
+      B: "gouvernante"
+      C: "gouverneure"
+      D: "gouvernatrice"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Ces livres sont ... que les miens. » (vieux)"
+    answers:
+      A: "plus vieux"
+      B: "plus vieil"
+      C: "plus vieille"
+      D: "plus vieilles"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « bail » ?"
+    answers:
+      A: "baïls"
+      B: "bails"
+      C: "baux"
+      D: "baus"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Il ... que tu sois là. » (falloir, présent)"
+    answers:
+      A: "faut"
+      B: "faille"
+      C: "faudra"
+      D: "fallait"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Quel est le participe passé du verbe « traire » ?"
+    answers:
+      A: "trayé"
+      B: "trais"
+      C: "trait"
+      D: "traie"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Elle s'est ... les ongles. » (peindre)"
+    answers:
+      A: "peinte"
+      B: "peint"
+      C: "peints"
+      D: "peintes"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Quel est le pluriel du nom « un travail » ?"
+    answers:
+      A: "travaux"
+      B: "travails"
+      C: "travaus"
+      D: "traveaux"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Complétez : « Ces œufs sont ... que je pensais. » (frais)"
+    answers:
+      A: "plus frais"
+      B: "plus fraîches"
+      C: "plus fraiches"
+      D: "plus fraîs"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quelle est la forme correcte du verbe « vaincre » au subjonctif présent, 3e personne du singulier ?"
+    answers:
+      A: "qu'il vainque"
+      B: "qu'il vainc"
+      C: "qu'il vaince"
+      D: "qu'il vainquit"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Complétez : « Elle s'est ... les mains avant de passer à table. » (laver)"
+    answers:
+      A: "lavé"
+      B: "lavée"
+      C: "lavés"
+      D: "lavées"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Quelle est la règle pour accorder le participe passé des verbes pronominaux réfléchis ?"
+    answers:
+      A: "Il s'accorde toujours avec le sujet."
+      B: "Il ne s'accorde jamais."
+      C: "Il s'accorde avec le complément d'objet direct si celui-ci est placé avant."
+      D: "Il s'accorde avec le complément d'objet indirect."
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Dans « Elle s'est lavé les mains », pourquoi « lavé » reste-t-il invariable ?"
+    answers:
+      A: "Parce que le verbe est essentiellement pronominal."
+      B: "Parce que le complément d'objet direct « les mains » est placé après le verbe."
+      C: "Parce que le sujet est féminin."
+      D: "Parce que le participe passé est suivi d'un infinitif."
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Comment s'accordent les adjectifs de couleur composés comme « bleu foncé » ?"
+    answers:
+      A: "Ils s'accordent en genre et en nombre avec le nom."
+      B: "Ils restent invariables."
+      C: "Ils s'accordent seulement en nombre."
+      D: "Ils s'accordent seulement en genre."
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Quel est le pluriel du nom « un pneu » ?"
+    answers:
+      A: "des pneues"
+      B: "des pneux"
+      C: "des pneus"
+      D: "des pneu"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « un landau » ?"
+    answers:
+      A: "des landaus"
+      B: "des landos"
+      C: "des landaux"
+      D: "des landau"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « un bail » ?"
+    answers:
+      A: "des bails"
+      B: "des baus"
+      C: "des bailes"
+      D: "des baux"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Dans la phrase « Elle s'est lavé les mains », pourquoi le participe passé « lavé » reste-t-il invariable ?"
+    answers:
+      A: "Parce que le verbe est essentiellement pronominal."
+      B: "Parce que le sujet est féminin."
+      C: "Parce que le COD « les mains » est placé après le verbe."
+      D: "Parce que le verbe est transitif indirect."
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Comment s'accorde l'adjectif de couleur composé « bleu foncé » ?"
+    answers:
+      A: "Les deux éléments varient : bleus foncés."
+      B: "Seul le premier varie : bleus foncé."
+      C: "Seul le second varie : bleu foncés."
+      D: "Aucun ne varie : bleu foncé."
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Quel est le pluriel du nom « un ciel » ?"
+    answers:
+      A: "des ciels"
+      B: "des cieux"
+      C: "des ciels et des cieux"
+      D: "des cieuls"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Les fleurs que j'ai ... sont fanées. » (cueillir)"
+    answers:
+      A: "cueillies"
+      B: "cueilli"
+      C: "cueillis"
+      D: "cueillie"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Complétez : « Elle s'est ... les cheveux. » (laver)"
+    answers:
+      A: "lavées"
+      B: "lavée"
+      C: "lavés"
+      D: "lavé"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Si j'... su, je serais venu. » (avoir, plus-que-parfait)"
+    answers:
+      A: "avais"
+      B: "aurais"
+      C: "avait"
+      D: "eusse"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Complétez : « Il faut que tu ... là à midi. » (être, subjonctif présent)"
+    answers:
+      A: "soit"
+      B: "es"
+      C: "seras"
+      D: "sois"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Quelle est la forme correcte du verbe « acquérir » au passé simple, 3e personne du singulier ?"
+    answers:
+      A: "Il acquerra"
+      B: "Il acquérit"
+      C: "Il acquit"
+      D: "Il acquitait"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Il faut que nous ... ce dossier avant demain. » (résoudre)"
+    answers:
+      A: "résolverions"
+      B: "résoudions"
+      C: "résolvons"
+      D: "résolvions"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Quel est le pluriel du nom « un régal » ?"
+    answers:
+      A: "des régals"
+      B: "des régaux"
+      C: "des régal"
+      D: "des régales"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Complétez : « Les décisions qu'elle a ... prendre étaient difficiles. » (falloir, forme impersonnelle)"
+    answers:
+      A: "fallue"
+      B: "fallu"
+      C: "fallues"
+      D: "fallus"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Quelle est la forme correcte du verbe « coudre » au subjonctif présent, 3e personne du singulier ?"
+    answers:
+      A: "qu'il coure"
+      B: "qu'il couse"
+      C: "qu'il coude"
+      D: "qu'il cousisse"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Ces meubles sont ... que les anciens. » (beau)"
+    answers:
+      A: "plus beaus"
+      B: "plus beaux"
+      C: "plus beaux que"
+      D: "plus belles"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Elle s'est ... compte de son erreur trop tard. » (rendre)"
+    answers:
+      A: "rendues"
+      B: "rendue"
+      C: "rendus"
+      D: "rendu"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Ils se sont ... la main en signe d'accord. » (serrer)"
+    answers:
+      A: "serrées"
+      B: "serrés"
+      C: "serrée"
+      D: "serré"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Quelle est la forme correcte du verbe « moudre » au passé simple, 3e personne du singulier ?"
+    answers:
+      A: "Il moulait"
+      B: "Il moudit"
+      C: "Il moulut"
+      D: "Il moudra"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Il faut que tu ... ce colis avant midi. » (recevoir)"
+    answers:
+      A: "recevras"
+      B: "reçoives"
+      C: "reçois"
+      D: "recevais"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Les chansons que j'ai ... hier étaient tristes. » (entendre)"
+    answers:
+      A: "entendues"
+      B: "entendu"
+      C: "entendus"
+      D: "entendue"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quel est le féminin du nom « un gouverneur » ?"
+    answers:
+      A: "une gouvernante"
+      B: "une gouverneuse"
+      C: "une gouverneure"
+      D: "une gouvernière"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Complétez : « Bien qu'il ... peu dormi, il était en forme. » (avoir)"
+    answers:
+      A: "a"
+      B: "aie"
+      C: "aies"
+      D: "ait"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Nous nous sommes ... de notre retard. » (excuser)"
+    answers:
+      A: "excusées"
+      B: "excusé"
+      C: "excusés"
+      D: "excuser"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Si elle ... su, elle aurait agi autrement. » (avoir, plus-que-parfait)"
+    answers:
+      A: "avait"
+      B: "avais"
+      C: "aurait"
+      D: "a"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « un cheveu » ?"
+    answers:
+      A: "des chevues"
+      B: "des cheveus"
+      C: "des chevaux"
+      D: "des cheveux"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Complétez : « Les lettres que j'ai ... sont parties hier. » (mettre)"
+    answers:
+      A: "mets"
+      B: "mises"
+      C: "mis"
+      D: "mises et mises"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Quelle est la forme correcte du verbe « conclure » au passé simple, 3e personne du singulier ?"
+    answers:
+      A: "il conclut"
+      B: "il concluit"
+      C: "il concluait"
+      D: "il conclura"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Quel est le féminin du nom « un chanteur » ?"
+    answers:
+      A: "une chanteure"
+      B: "une chanteuse"
+      C: "une chantrice"
+      D: "une chanteur"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Complétez : « Il faut que tu ... ce livre avant lundi. » (lire)"
+    answers:
+      A: "liras"
+      B: "lis"
+      C: "lises"
+      D: "lirais"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Quelle est la forme correcte du verbe « résoudre » au subjonctif présent, 1re personne du pluriel ?"
+    answers:
+      A: "que nous résoudions"
+      B: "que nous résolvions"
+      C: "que nous résolvons"
+      D: "que nous résoudrions"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Ces gâteaux sont ... que ceux d'hier. » (bon)"
+    answers:
+      A: "plus bons"
+      B: "bons"
+      C: "mieux"
+      D: "meilleurs"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Elle s'est ... compte de son erreur. » (rendre)"
+    answers:
+      A: "rendue"
+      B: "rendu"
+      C: "rendus"
+      D: "rendues"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Quelle est la forme correcte du verbe « naître » au passé simple, 3e personne du pluriel ?"
+    answers:
+      A: "ils naquèrent"
+      B: "ils naissèrent"
+      C: "ils naquirent"
+      D: "ils nacquirent"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Complétez : « Il faut que vous ... à l'heure. » (être)"
+    answers:
+      A: "serez"
+      B: "êtes"
+      C: "soyez"
+      D: "soyez et êtes"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom « un bijou » ?"
+    answers:
+      A: "bijous"
+      B: "bijouxes"
+      C: "bijouxs"
+      D: "bijoux"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Complétez : « Il faut que tu ... à cette réunion. » (être)"
+    answers:
+      A: "sois"
+      B: "soit"
+      C: "es"
+      D: "seras"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Quel est le participe passé du verbe « résoudre » ?"
+    answers:
+      A: "résous"
+      B: "résolu"
+      C: "résoudé"
+      D: "résout"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Les robes qu'elle a ... sont élégantes. » (confectionner)"
+    answers:
+      A: "confectionné"
+      B: "confectionnées"
+      C: "confectionnés"
+      D: "confectionnée"
+    correctAnswer: B
+    difficulty: EXPERT

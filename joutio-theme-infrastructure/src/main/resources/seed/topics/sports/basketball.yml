@@ -1,0 +1,1631 @@
+topic:
+  id: topic-basketball
+  names:
+    fr: "Basketball & NBA"
+    en: "Basketball & NBA"
+  description: "Plongez dans l'univers du basketball et de la NBA : règles fondamentales, postes, franchises mythiques comme les Celtics, les Lakers et les Bulls, joueurs légendaires tels que Michael Jordan, Magic Johnson, Larry Bird, Kareem Abdul-Jabbar ou LeBron James, sans oublier les grandes dynasties et finales qui ont marqué l'histoire de ce sport."
+  category: SPORTS
+  titles:
+    fr:
+      FER: "Banc de touche"
+      BRONZE: "Rookie du playground"
+      ARGENT: "Sixième homme"
+      OR: "Titulaire en playoffs"
+      PLATINE: "All-Star accompli"
+      EMERAUDE: "MVP des Finales"
+      DIAMANT: "Légende du Hall of Fame"
+    en:
+      FER: "Benchwarmer"
+      BRONZE: "Playground Rookie"
+      ARGENT: "Sixth Man"
+      OR: "Playoff Starter"
+      PLATINE: "All-Star"
+      EMERAUDE: "Finals MVP"
+      DIAMANT: "Hall of Famer"
+  imageUrl: wikipedia/sports/Basketball_game_in_Jerusalem_Israel_s_new_Pais_Arena.jpg
+questions:
+  - text: "Quel joueur a remporté le plus de titres de meilleur défenseur de l'année en NBA ?"
+    answers:
+      A: "Dikembe Mutombo"
+      B: "Ben Wallace"
+      C: "Rudy Gobert"
+      D: "Dwight Howard"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player has won the most NBA Defensive Player of the Year awards?"
+        answers:
+          A: "Dikembe Mutombo"
+          B: "Ben Wallace"
+          C: "Rudy Gobert"
+          D: "Dwight Howard"
+    difficulty: HARD
+  - text: "En quelle année les Lakers de Los Angeles ont-ils déménagé de Minneapolis ?"
+    answers:
+      A: "1958"
+      B: "1960"
+      C: "1962"
+      D: "1965"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Los Angeles Lakers move from Minneapolis?"
+        answers:
+          A: "1958"
+          B: "1960"
+          C: "1962"
+          D: "1965"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de contres en une saison NBA ?"
+    answers:
+      A: "Hakeem Olajuwon"
+      B: "Mark Eaton"
+      C: "Dikembe Mutombo"
+      D: "Manute Bol"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for the most blocks in a single NBA season?"
+        answers:
+          A: "Hakeem Olajuwon"
+          B: "Mark Eaton"
+          C: "Dikembe Mutombo"
+          D: "Manute Bol"
+    difficulty: EXPERT
+  - text: "Quel entraîneur a remporté le plus de titres NBA en tant qu'entraîneur principal ?"
+    answers:
+      A: "Red Auerbach"
+      B: "Phil Jackson"
+      C: "Pat Riley"
+      D: "Gregg Popovich"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which coach has won the most NBA titles as head coach?"
+        answers:
+          A: "Red Auerbach"
+          B: "Phil Jackson"
+          C: "Pat Riley"
+          D: "Gregg Popovich"
+    difficulty: HARD
+  - text: "Quel joueur a été nommé MVP des Finales NBA 2015 ?"
+    answers:
+      A: "Andre Iguodala"
+      B: "LeBron James"
+      C: "Stephen Curry"
+      D: "Kawhi Leonard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was named MVP of the 2015 NBA Finals?"
+        answers:
+          A: "Andre Iguodala"
+          B: "LeBron James"
+          C: "Stephen Curry"
+          D: "Kawhi Leonard"
+    difficulty: HARD
+  - text: "À quelle hauteur est le panier ?"
+    imageUrl: wikipedia/sports/Basketball_hoop.jpg
+    answers:
+      A: "3,05 m"
+      B: "2,75 m"
+      C: "2,50 m"
+      D: "3,35 m"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How high is the hoop?"
+        answers:
+          A: "3.05 m"
+          B: "2.75 m"
+          C: "2.50 m"
+          D: "3.35 m"
+    difficulty: EASY
+  - text: "Quelle équipe a remporté le premier titre NBA de son histoire en 2016 ?"
+    answers:
+      A: "Golden State Warriors"
+      B: "Cleveland Cavaliers"
+      C: "Toronto Raptors"
+      D: "Dallas Mavericks"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the first NBA title in its history in 2016?"
+        answers:
+          A: "Golden State Warriors"
+          B: "Cleveland Cavaliers"
+          C: "Toronto Raptors"
+          D: "Dallas Mavericks"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le trophée de MVP de la saison régulière NBA à l'unanimité en 2016 ?"
+    answers:
+      A: "LeBron James"
+      B: "Stephen Curry"
+      C: "James Harden"
+      D: "Kevin Durant"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the NBA regular season MVP award unanimously in 2016?"
+        answers:
+          A: "LeBron James"
+          B: "Stephen Curry"
+          C: "James Harden"
+          D: "Kevin Durant"
+    difficulty: EASY
+  - text: "Combien de points vaut un lancer franc réussi ?"
+    imageUrl: wikipedia/sports/Arkansas_State_vs._UT_Arlington_men's_basketball_2022_57_(free_throw).jpg
+    answers:
+      A: "2 points"
+      B: "1 point"
+      C: "3 points"
+      D: "4 points"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many points is a made free throw worth?"
+        answers:
+          A: "2 points"
+          B: "1 point"
+          C: "3 points"
+          D: "4 points"
+    difficulty: EASY
+  - text: "Quel est le seul joueur à avoir remporté le titre de MVP, de meilleur défenseur et de MVP des Finales la même saison ?"
+    answers:
+      A: "Hakeem Olajuwon"
+      B: "Michael Jordan"
+      C: "Shaquille O'Neal"
+      D: "Tim Duncan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the only player to win MVP, Defensive Player of the Year, and Finals MVP in the same season?"
+        answers:
+          A: "Hakeem Olajuwon"
+          B: "Michael Jordan"
+          C: "Shaquille O'Neal"
+          D: "Tim Duncan"
+    difficulty: EXPERT
+  - text: "Combien de titres NBA les Spurs de San Antonio ont-ils remportés entre 1999 et 2014 ?"
+    answers:
+      A: "5"
+      B: "4"
+      C: "6"
+      D: "3"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many NBA titles did the San Antonio Spurs win between 1999 and 2014?"
+        answers:
+          A: "5"
+          B: "4"
+          C: "6"
+          D: "3"
+    difficulty: EXPERT
+  - text: "Quel joueur a été le premier à réussir un triple-double de moyenne sur une saison NBA depuis Oscar Robertson ?"
+    answers:
+      A: "James Harden"
+      B: "Russell Westbrook"
+      C: "Luka Doncic"
+      D: "Nikola Jokic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was the first to average a triple-double over an NBA season since Oscar Robertson?"
+        answers:
+          A: "James Harden"
+          B: "Russell Westbrook"
+          C: "Luka Doncic"
+          D: "Nikola Jokic"
+    difficulty: HARD
+  - text: "Quel est le nom du trophée remis au MVP des Finales NBA ?"
+    answers:
+      A: "Trophée Larry O'Brien"
+      B: "Trophée Bill Russell"
+      C: "Trophée Magic Johnson"
+      D: "Trophée Michael Jordan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the trophy awarded to the NBA Finals MVP?"
+        answers:
+          A: "Larry O'Brien Trophy"
+          B: "Bill Russell Trophy"
+          C: "Magic Johnson Trophy"
+          D: "Michael Jordan Trophy"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le plus de titres NBA en tant que rookie (dès sa première saison) ?"
+    answers:
+      A: "Magic Johnson"
+      B: "Tim Duncan"
+      C: "Kareem Abdul-Jabbar"
+      D: "Michael Jordan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the most NBA titles as a rookie (in his first season)?"
+        answers:
+          A: "Magic Johnson"
+          B: "Tim Duncan"
+          C: "Kareem Abdul-Jabbar"
+          D: "Michael Jordan"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de points inscrits en un match de Finales NBA ?"
+    answers:
+      A: "Michael Jordan"
+      B: "LeBron James"
+      C: "Elgin Baylor"
+      D: "Jerry West"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for the most points scored in a single NBA Finals game?"
+        answers:
+          A: "Michael Jordan"
+          B: "LeBron James"
+          C: "Elgin Baylor"
+          D: "Jerry West"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté la médaille d'or olympique de basketball masculin en 2004 ?"
+    answers:
+      A: "États-Unis"
+      B: "Espagne"
+      C: "Argentine"
+      D: "Yougoslavie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the Olympic gold medal in men's basketball in 2004?"
+        answers:
+          A: "United States"
+          B: "Spain"
+          C: "Argentina"
+          D: "Yugoslavia"
+    difficulty: HARD
+  - text: "Quel joueur a été élu MVP de la saison régulière NBA pour la saison 2020-2021 ?"
+    answers:
+      A: "Nikola Jokic"
+      B: "Joel Embiid"
+      C: "Giannis Antetokounmpo"
+      D: "Stephen Curry"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was named NBA regular season MVP for the 2020-2021 season?"
+        answers:
+          A: "Nikola Jokic"
+          B: "Joel Embiid"
+          C: "Giannis Antetokounmpo"
+          D: "Stephen Curry"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté le plus grand nombre de matchs de saison régulière en une saison NBA (73-9) ?"
+    answers:
+      A: "Chicago Bulls"
+      B: "Boston Celtics"
+      C: "Los Angeles Lakers"
+      D: "Golden State Warriors"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the most regular season games in a single NBA season (73-9)?"
+        answers:
+          A: "Chicago Bulls"
+          B: "Boston Celtics"
+          C: "Los Angeles Lakers"
+          D: "Golden State Warriors"
+    difficulty: EASY
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA 2021 ?"
+    answers:
+      A: "Khris Middleton"
+      B: "Chris Paul"
+      C: "Devin Booker"
+      D: "Giannis Antetokounmpo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the 2021 NBA Finals MVP award?"
+        answers:
+          A: "Khris Middleton"
+          B: "Chris Paul"
+          C: "Devin Booker"
+          D: "Giannis Antetokounmpo"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été le premier à remporter le titre de MVP de la saison régulière NBA à trois reprises consécutives ?"
+    answers:
+      A: "Bill Russell"
+      B: "Magic Johnson"
+      C: "Larry Bird"
+      D: "Wilt Chamberlain"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was the first to win the NBA regular season MVP award three times in a row?"
+        answers:
+          A: "Bill Russell"
+          B: "Magic Johnson"
+          C: "Larry Bird"
+          D: "Wilt Chamberlain"
+    difficulty: EXPERT
+  - text: "Quel joueur a marqué le panier le plus célèbre de l'histoire des Finales NBA 1998, surnommé « The Last Shot » ?"
+    answers:
+      A: "Steve Kerr"
+      B: "Michael Jordan"
+      C: "Scottie Pippen"
+      D: "John Stockton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player scored the most famous basket in NBA Finals history in 1998, nicknamed \"The Last Shot\"?"
+        answers:
+          A: "Steve Kerr"
+          B: "Michael Jordan"
+          C: "Scottie Pippen"
+          D: "John Stockton"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison inaugurale de la NBA (1946-1947) ?"
+    answers:
+      A: "Boston Celtics"
+      B: "Chicago Stags"
+      C: "Philadelphia Warriors"
+      D: "New York Knicks"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the NBA title in the inaugural NBA season (1946-1947)?"
+        answers:
+          A: "Boston Celtics"
+          B: "Chicago Stags"
+          C: "Philadelphia Warriors"
+          D: "New York Knicks"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le trophée Bill Russell de MVP des Finales NBA en 2023 ?"
+    answers:
+      A: "Jamal Murray"
+      B: "Jimmy Butler"
+      C: "Nikola Jokić"
+      D: "Bam Adebayo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the Bill Russell NBA Finals MVP trophy in 2023?"
+        answers:
+          A: "Jamal Murray"
+          B: "Jimmy Butler"
+          C: "Nikola Jokić"
+          D: "Bam Adebayo"
+    difficulty: HARD
+  - text: "Quelle ligne est à 6,75 m du panier en FIBA ?"
+    imageUrl: wikipedia/sports/Hunter's_Pt_Community_Pk_td_(2019-04-11)_25.jpg
+    answers:
+      A: "La ligne de lancer franc"
+      B: "La raquette"
+      C: "La ligne médiane"
+      D: "La ligne à trois points"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which line is 6.75 m from the basket in FIBA?"
+        answers:
+          A: "The free throw line"
+          B: "The paint"
+          C: "The half-court line"
+          D: "The three-point line"
+    difficulty: EXPERT
+  - text: "En quelle année la NBA a-t-elle introduit la ligne à trois points ?"
+    answers:
+      A: "1976"
+      B: "1985"
+      C: "1982"
+      D: "1979"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the NBA introduce the three-point line?"
+        answers:
+          A: "1976"
+          B: "1985"
+          C: "1982"
+          D: "1979"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le plus de titres de MVP des Finales NBA ?"
+    answers:
+      A: "Magic Johnson"
+      B: "LeBron James"
+      C: "Michael Jordan"
+      D: "Kareem Abdul-Jabbar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player has won the most NBA Finals MVP awards?"
+        answers:
+          A: "Magic Johnson"
+          B: "LeBron James"
+          C: "Michael Jordan"
+          D: "Kareem Abdul-Jabbar"
+    difficulty: HARD
+  - text: "Quel entraîneur a remporté le plus de matchs de saison régulière en NBA ?"
+    answers:
+      A: "Phil Jackson"
+      B: "Don Nelson"
+      C: "Gregg Popovich"
+      D: "Pat Riley"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which coach has won the most regular season games in the NBA?"
+        answers:
+          A: "Phil Jackson"
+          B: "Don Nelson"
+          C: "Gregg Popovich"
+          D: "Pat Riley"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de passes décisives en carrière en NBA ?"
+    answers:
+      A: "Steve Nash"
+      B: "Jason Kidd"
+      C: "John Stockton"
+      D: "Magic Johnson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for the most career assists in the NBA?"
+        answers:
+          A: "Steve Nash"
+          B: "Jason Kidd"
+          C: "John Stockton"
+          D: "Magic Johnson"
+    difficulty: HARD
+  - text: "Quel joueur a été élu MVP de la saison régulière NBA pour la saison 2018-2019 ?"
+    answers:
+      A: "James Harden"
+      B: "Giannis Antetokounmpo"
+      C: "Paul George"
+      D: "Nikola Jokić"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named NBA regular season MVP for the 2018-2019 season?"
+        answers:
+          A: "James Harden"
+          B: "Giannis Antetokounmpo"
+          C: "Paul George"
+          D: "Nikola Jokić"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 2018-2019 ?"
+    answers:
+      A: "Toronto Raptors"
+      B: "Golden State Warriors"
+      C: "Milwaukee Bucks"
+      D: "Portland Trail Blazers"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the NBA title in the 2018-2019 season?"
+        answers:
+          A: "Toronto Raptors"
+          B: "Golden State Warriors"
+          C: "Milwaukee Bucks"
+          D: "Portland Trail Blazers"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA 2019 ?"
+    answers:
+      A: "Drake"
+      B: "Kyle Lowry"
+      C: "Pascal Siakam"
+      D: "Kawhi Leonard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the 2019 NBA Finals MVP award?"
+        answers:
+          A: "Drake"
+          B: "Kyle Lowry"
+          C: "Pascal Siakam"
+          D: "Kawhi Leonard"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du trophée remis au meilleur défenseur de l'année en NBA ?"
+    answers:
+      A: "Trophée Ben Wallace"
+      B: "Trophée Dikembe Mutombo"
+      C: "Trophée Hakeem Olajuwon"
+      D: "Trophée Gary Payton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the trophy awarded to the NBA Defensive Player of the Year?"
+        answers:
+          A: "Ben Wallace Trophy"
+          B: "Dikembe Mutombo Trophy"
+          C: "Hakeem Olajuwon Trophy"
+          D: "Gary Payton Trophy"
+    difficulty: HARD
+  - text: "Quel joueur a été le premier à remporter le titre de MVP de la saison régulière NBA à l'unanimité ?"
+    answers:
+      A: "LeBron James"
+      B: "Stephen Curry"
+      C: "Shaquille O'Neal"
+      D: "Michael Jordan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was the first to win the NBA regular season MVP award unanimously?"
+        answers:
+          A: "LeBron James"
+          B: "Stephen Curry"
+          C: "Shaquille O'Neal"
+          D: "Michael Jordan"
+    difficulty: HARD
+  - text: "Quelle franchise a remporté le plus de titres de conférence consécutifs (10) entre 1982 et 1993 ?"
+    answers:
+      A: "Chicago Bulls"
+      B: "Boston Celtics"
+      C: "Los Angeles Lakers"
+      D: "Detroit Pistons"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which franchise won the most consecutive conference titles (10) between 1982 and 1993?"
+        answers:
+          A: "Chicago Bulls"
+          B: "Boston Celtics"
+          C: "Los Angeles Lakers"
+          D: "Detroit Pistons"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de points inscrits en un match de saison régulière NBA (100 points) ?"
+    answers:
+      A: "Elgin Baylor"
+      B: "Kobe Bryant"
+      C: "David Thompson"
+      D: "Wilt Chamberlain"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most points scored in a single NBA regular season game (100 points)?"
+        answers:
+          A: "Elgin Baylor"
+          B: "Kobe Bryant"
+          C: "David Thompson"
+          D: "Wilt Chamberlain"
+    difficulty: EASY
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA 2020 ?"
+    answers:
+      A: "Bam Adebayo"
+      B: "Anthony Davis"
+      C: "Jimmy Butler"
+      D: "LeBron James"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the 2020 NBA Finals MVP award?"
+        answers:
+          A: "Bam Adebayo"
+          B: "Anthony Davis"
+          C: "Jimmy Butler"
+          D: "LeBron James"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 2020-2021 ?"
+    answers:
+      A: "Brooklyn Nets"
+      B: "Phoenix Suns"
+      C: "Milwaukee Bucks"
+      D: "Atlanta Hawks"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the NBA title in the 2020-2021 season?"
+        answers:
+          A: "Brooklyn Nets"
+          B: "Phoenix Suns"
+          C: "Milwaukee Bucks"
+          D: "Atlanta Hawks"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été élu MVP de la saison régulière NBA pour la saison 2021-2022 ?"
+    answers:
+      A: "Devin Booker"
+      B: "Joel Embiid"
+      C: "Giannis Antetokounmpo"
+      D: "Nikola Jokić"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named NBA regular season MVP for the 2021-2022 season?"
+        answers:
+          A: "Devin Booker"
+          B: "Joel Embiid"
+          C: "Giannis Antetokounmpo"
+          D: "Nikola Jokić"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 2021-2022 ?"
+    answers:
+      A: "Dallas Mavericks"
+      B: "Boston Celtics"
+      C: "Miami Heat"
+      D: "Golden State Warriors"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the NBA title in the 2021-2022 season?"
+        answers:
+          A: "Dallas Mavericks"
+          B: "Boston Celtics"
+          C: "Miami Heat"
+          D: "Golden State Warriors"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA 2022 ?"
+    answers:
+      A: "Andrew Wiggins"
+      B: "Klay Thompson"
+      C: "Draymond Green"
+      D: "Stephen Curry"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the 2022 NBA Finals MVP award?"
+        answers:
+          A: "Andrew Wiggins"
+          B: "Klay Thompson"
+          C: "Draymond Green"
+          D: "Stephen Curry"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record du plus grand nombre de contres en carrière en NBA ?"
+    answers:
+      A: "Hakeem Olajuwon"
+      B: "Dikembe Mutombo"
+      C: "Kareem Abdul-Jabbar"
+      D: "Mark Eaton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for the most career blocks in the NBA?"
+        answers:
+          A: "Hakeem Olajuwon"
+          B: "Dikembe Mutombo"
+          C: "Kareem Abdul-Jabbar"
+          D: "Mark Eaton"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA en 2017 et 2018 avec les Warriors ?"
+    answers:
+      A: "Stephen Curry"
+      B: "Draymond Green"
+      C: "Kevin Durant"
+      D: "Klay Thompson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the NBA Finals MVP award in 2017 and 2018 with the Warriors?"
+        answers:
+          A: "Stephen Curry"
+          B: "Draymond Green"
+          C: "Kevin Durant"
+          D: "Klay Thompson"
+    difficulty: HARD
+  - text: "Quel a été le premier joueur étranger à être nommé MVP de la saison régulière NBA ?"
+    answers:
+      A: "Steve Nash"
+      B: "Dirk Nowitzki"
+      C: "Tim Duncan"
+      D: "Hakeem Olajuwon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first foreign player to be named NBA regular season MVP?"
+        answers:
+          A: "Steve Nash"
+          B: "Dirk Nowitzki"
+          C: "Tim Duncan"
+          D: "Hakeem Olajuwon"
+    difficulty: EXPERT
+  - text: "Quel joueur a été le premier à réaliser un triple-double de moyenne sur une saison NBA depuis Oscar Robertson ?"
+    answers:
+      A: "James Harden"
+      B: "Russell Westbrook"
+      C: "LeBron James"
+      D: "Nikola Jokic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was the first to average a triple-double over an NBA season since Oscar Robertson?"
+        answers:
+          A: "James Harden"
+          B: "Russell Westbrook"
+          C: "LeBron James"
+          D: "Nikola Jokic"
+    difficulty: HARD
+  - text: "Quel joueur détient le record du plus grand nombre de points marqués en carrière en NBA ?"
+    answers:
+      A: "Kareem Abdul-Jabbar"
+      B: "Karl Malone"
+      C: "LeBron James"
+      D: "Michael Jordan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for the most career points scored in the NBA?"
+        answers:
+          A: "Kareem Abdul-Jabbar"
+          B: "Karl Malone"
+          C: "LeBron James"
+          D: "Michael Jordan"
+    difficulty: EASY
+  - text: "Quel joueur a été élu MVP de la saison régulière NBA pour la saison 2022-2023 ?"
+    answers:
+      A: "Nikola Jokic"
+      B: "Jayson Tatum"
+      C: "Giannis Antetokounmpo"
+      D: "Joel Embiid"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named NBA regular season MVP for the 2022-2023 season?"
+        answers:
+          A: "Nikola Jokic"
+          B: "Jayson Tatum"
+          C: "Giannis Antetokounmpo"
+          D: "Joel Embiid"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA en 2016 ?"
+    answers:
+      A: "LeBron James"
+      B: "Kyrie Irving"
+      C: "Stephen Curry"
+      D: "Draymond Green"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the NBA Finals MVP award in 2016?"
+        answers:
+          A: "LeBron James"
+          B: "Kyrie Irving"
+          C: "Stephen Curry"
+          D: "Draymond Green"
+    difficulty: HARD
+  - text: "Quel joueur détient le record du plus grand nombre de titres NBA en carrière ?"
+    answers:
+      A: "Michael Jordan"
+      B: "Kareem Abdul-Jabbar"
+      C: "Robert Horry"
+      D: "Bill Russell"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most NBA titles in a career?"
+        answers:
+          A: "Michael Jordan"
+          B: "Kareem Abdul-Jabbar"
+          C: "Robert Horry"
+          D: "Bill Russell"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 2015-2016 ?"
+    answers:
+      A: "Golden State Warriors"
+      B: "San Antonio Spurs"
+      C: "Cleveland Cavaliers"
+      D: "Miami Heat"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the NBA title in the 2015-2016 season?"
+        answers:
+          A: "Golden State Warriors"
+          B: "San Antonio Spurs"
+          C: "Cleveland Cavaliers"
+          D: "Miami Heat"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été nommé MVP des Finales NBA en 2014 ?"
+    answers:
+      A: "Tim Duncan"
+      B: "Tony Parker"
+      C: "Kawhi Leonard"
+      D: "Manu Ginobili"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was named NBA Finals MVP in 2014?"
+        answers:
+          A: "Tim Duncan"
+          B: "Tony Parker"
+          C: "Kawhi Leonard"
+          D: "Manu Ginobili"
+    difficulty: HARD
+  - text: "Quel est le nom du trophée remis au MVP de la saison régulière NBA ?"
+    answers:
+      A: "Trophée Maurice Podoloff"
+      B: "Trophée Larry O'Brien"
+      C: "Trophée Bill Russell"
+      D: "Trophée Michael Jordan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the trophy awarded to the NBA regular season MVP?"
+        answers:
+          A: "Maurice Podoloff Trophy"
+          B: "Larry O'Brien Trophy"
+          C: "Bill Russell Trophy"
+          D: "Michael Jordan Trophy"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on l'action de faire rebondir le ballon ?"
+    imageUrl: wikipedia/sports/Bill_Russell_dribbling_Boston_Celtics.jpg
+    answers:
+      A: "Un pivot"
+      B: "Un écran"
+      C: "Un dribble"
+      D: "Un tir"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the action of bouncing the ball called?"
+        answers:
+          A: "A pivot"
+          B: "A screen"
+          C: "A dribble"
+          D: "A shot"
+    difficulty: EASY
+  - text: "Quelle franchise NBA a remporté trois titres consécutifs entre 2000 et 2002 ?"
+    answers:
+      A: "Chicago Bulls"
+      B: "Los Angeles Lakers"
+      C: "San Antonio Spurs"
+      D: "Miami Heat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which NBA franchise won three consecutive titles between 2000 and 2002?"
+        answers:
+          A: "Chicago Bulls"
+          B: "Los Angeles Lakers"
+          C: "San Antonio Spurs"
+          D: "Miami Heat"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été le premier à marquer 100 points dans un match NBA ?"
+    answers:
+      A: "Wilt Chamberlain"
+      B: "Kobe Bryant"
+      C: "David Robinson"
+      D: "Elgin Baylor"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was the first to score 100 points in an NBA game?"
+        answers:
+          A: "Wilt Chamberlain"
+          B: "Kobe Bryant"
+          C: "David Robinson"
+          D: "Elgin Baylor"
+    difficulty: HARD
+  - text: "Quel poste occupe traditionnellement le joueur le plus grand et le plus costaud de l'équipe ?"
+    answers:
+      A: "Meneur"
+      B: "Ailier"
+      C: "Pivot"
+      D: "Arrière"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which position is traditionally played by the tallest and strongest player on the team?"
+        answers:
+          A: "Point guard"
+          B: "Forward"
+          C: "Center"
+          D: "Shooting guard"
+    difficulty: EASY
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA en 2006 avec le Heat de Miami ?"
+    answers:
+      A: "Dwyane Wade"
+      B: "Shaquille O'Neal"
+      C: "Alonzo Mourning"
+      D: "Gary Payton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the NBA Finals MVP award in 2006 with the Miami Heat?"
+        answers:
+          A: "Dwyane Wade"
+          B: "Shaquille O'Neal"
+          C: "Alonzo Mourning"
+          D: "Gary Payton"
+    difficulty: HARD
+  - text: "Sur cette photo, comment appelle-t-on l'action d'enfoncer le ballon dans le panier en sautant ?"
+    imageUrl: wikipedia/sports/Greg_kelser_slam_dunk_michigan_state.jpg
+    answers:
+      A: "Un alley-oop"
+      B: "Un layup"
+      C: "Un dunk"
+      D: "Un rebond"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In this photo, what is the action of slamming the ball into the basket while jumping called?"
+        answers:
+          A: "An alley-oop"
+          B: "A layup"
+          C: "A dunk"
+          D: "A rebound"
+    difficulty: EASY
+  - text: "Quel joueur a marqué 63 points dans un match de playoffs NBA en 1986 contre les Celtics ?"
+    answers:
+      A: "Larry Bird"
+      B: "Isiah Thomas"
+      C: "Dominique Wilkins"
+      D: "Michael Jordan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player scored 63 points in an NBA playoff game in 1986 against the Celtics?"
+        answers:
+          A: "Larry Bird"
+          B: "Isiah Thomas"
+          C: "Dominique Wilkins"
+          D: "Michael Jordan"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de contres en une saison NBA (456) ?"
+    answers:
+      A: "Mark Eaton"
+      B: "Dikembe Mutombo"
+      C: "Hakeem Olajuwon"
+      D: "David Robinson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for the most blocks in an NBA season (456)?"
+        answers:
+          A: "Mark Eaton"
+          B: "Dikembe Mutombo"
+          C: "Hakeem Olajuwon"
+          D: "David Robinson"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté le premier titre NBA de l'histoire de la franchise des Trail Blazers de Portland ?"
+    answers:
+      A: "1975"
+      B: "1976"
+      C: "1978"
+      D: "1977"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Portland Trail Blazers win the first NBA title in franchise history?"
+        answers:
+          A: "1975"
+          B: "1976"
+          C: "1978"
+          D: "1977"
+    difficulty: EXPERT
+  - text: "Quel entraîneur a remporté le plus de titres NBA en tant qu'entraîneur principal (11) ?"
+    answers:
+      A: "Phil Jackson"
+      B: "Red Auerbach"
+      C: "Pat Riley"
+      D: "Gregg Popovich"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which coach has won the most NBA titles as head coach (11)?"
+        answers:
+          A: "Phil Jackson"
+          B: "Red Auerbach"
+          C: "Pat Riley"
+          D: "Gregg Popovich"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le titre de MVP de la saison régulière NBA en 2004-2005 ?"
+    answers:
+      A: "LeBron James"
+      B: "Shaquille O'Neal"
+      C: "Steve Nash"
+      D: "Tim Duncan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the NBA regular season MVP award in 2004-2005?"
+        answers:
+          A: "LeBron James"
+          B: "Shaquille O'Neal"
+          C: "Steve Nash"
+          D: "Tim Duncan"
+    difficulty: EXPERT
+  - text: "Quelle franchise NBA a remporté le titre lors de la saison 1976-1977 ?"
+    answers:
+      A: "Philadelphia 76ers"
+      B: "Portland Trail Blazers"
+      C: "Los Angeles Lakers"
+      D: "Boston Celtics"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which NBA franchise won the title in the 1976-1977 season?"
+        answers:
+          A: "Philadelphia 76ers"
+          B: "Portland Trail Blazers"
+          C: "Los Angeles Lakers"
+          D: "Boston Celtics"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de passes décisives en un seul match de NBA (30) ?"
+    answers:
+      A: "Rajon Rondo"
+      B: "John Stockton"
+      C: "Magic Johnson"
+      D: "Oscar Robertson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for most assists in a single NBA game (30)?"
+        answers:
+          A: "Rajon Rondo"
+          B: "John Stockton"
+          C: "Magic Johnson"
+          D: "Oscar Robertson"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu MVP de la saison régulière NBA en 2005-2006 ?"
+    answers:
+      A: "Kobe Bryant"
+      B: "Dirk Nowitzki"
+      C: "LeBron James"
+      D: "Steve Nash"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named NBA regular season MVP in 2005-2006?"
+        answers:
+          A: "Kobe Bryant"
+          B: "Dirk Nowitzki"
+          C: "LeBron James"
+          D: "Steve Nash"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 1979-1980 ?"
+    answers:
+      A: "Philadelphia 76ers"
+      B: "Los Angeles Lakers"
+      C: "Boston Celtics"
+      D: "Seattle SuperSonics"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the NBA title in the 1979-1980 season?"
+        answers:
+          A: "Philadelphia 76ers"
+          B: "Los Angeles Lakers"
+          C: "Boston Celtics"
+          D: "Seattle SuperSonics"
+    difficulty: EXPERT
+  - text: "Quel joueur a marqué 100 points dans un seul match NCAA en 1953 ?"
+    answers:
+      A: "Wilt Chamberlain"
+      B: "Pete Maravich"
+      C: "David Thompson"
+      D: "Bill Walton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player scored 100 points in a single NCAA game in 1953?"
+        answers:
+          A: "Wilt Chamberlain"
+          B: "Pete Maravich"
+          C: "David Thompson"
+          D: "Bill Walton"
+    difficulty: EXPERT
+  - text: "Quel joueur a été nommé MVP des Finales NBA 1970, réalisant un quadruple-double en playoffs la même année ?"
+    answers:
+      A: "Willis Reed"
+      B: "Walt Frazier"
+      C: "Jerry West"
+      D: "Bill Russell"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was named NBA Finals MVP in 1970, recording a quadruple-double in the playoffs the same year?"
+        answers:
+          A: "Willis Reed"
+          B: "Walt Frazier"
+          C: "Jerry West"
+          D: "Bill Russell"
+    difficulty: EXPERT
+  - text: "Combien de secondes une équipe a-t-elle pour passer la demi-terrain en NBA ?"
+    answers:
+      A: "6"
+      B: "8"
+      C: "10"
+      D: "12"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many seconds does a team have to cross half-court in the NBA?"
+        answers:
+          A: "6"
+          B: "8"
+          C: "10"
+          D: "12"
+    difficulty: EASY
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA 1989 ?"
+    answers:
+      A: "Joe Dumars"
+      B: "Isiah Thomas"
+      C: "Magic Johnson"
+      D: "Michael Jordan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the 1989 NBA Finals MVP award?"
+        answers:
+          A: "Joe Dumars"
+          B: "Isiah Thomas"
+          C: "Magic Johnson"
+          D: "Michael Jordan"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de points inscrits en un match de saison régulière par un rookie (58) ?"
+    answers:
+      A: "Elgin Baylor"
+      B: "Michael Jordan"
+      C: "Wilt Chamberlain"
+      D: "Rick Barry"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for most points scored in a regular season game by a rookie (58)?"
+        answers:
+          A: "Elgin Baylor"
+          B: "Michael Jordan"
+          C: "Wilt Chamberlain"
+          D: "Rick Barry"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 1994-1995 ?"
+    answers:
+      A: "Orlando Magic"
+      B: "Chicago Bulls"
+      C: "Seattle SuperSonics"
+      D: "Houston Rockets"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the NBA title in the 1994-1995 season?"
+        answers:
+          A: "Orlando Magic"
+          B: "Chicago Bulls"
+          C: "Seattle SuperSonics"
+          D: "Houston Rockets"
+    difficulty: HARD
+  - text: "Quel joueur a été le premier à remporter le titre de MVP des Finales NBA à trois reprises ?"
+    answers:
+      A: "Michael Jordan"
+      B: "Shaquille O'Neal"
+      C: "Magic Johnson"
+      D: "Tim Duncan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was the first to win the NBA Finals MVP award three times?"
+        answers:
+          A: "Michael Jordan"
+          B: "Shaquille O'Neal"
+          C: "Magic Johnson"
+          D: "Tim Duncan"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le titre de MVP de la saison régulière NBA en 1999-2000 ?"
+    answers:
+      A: "Tim Duncan"
+      B: "Shaquille O'Neal"
+      C: "Kevin Garnett"
+      D: "Alonzo Mourning"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the NBA regular season MVP award in 1999-2000?"
+        answers:
+          A: "Tim Duncan"
+          B: "Shaquille O'Neal"
+          C: "Kevin Garnett"
+          D: "Alonzo Mourning"
+    difficulty: HARD
+  - text: "Quel joueur détient le record du plus grand nombre de tirs à trois points réussis en carrière en NBA ?"
+    answers:
+      A: "Ray Allen"
+      B: "Stephen Curry"
+      C: "Reggie Miller"
+      D: "Kyle Korver"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for most career three-point field goals made in the NBA?"
+        answers:
+          A: "Ray Allen"
+          B: "Stephen Curry"
+          C: "Reggie Miller"
+          D: "Kyle Korver"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA 1994 ?"
+    answers:
+      A: "David Robinson"
+      B: "Patrick Ewing"
+      C: "Shaquille O'Neal"
+      D: "Hakeem Olajuwon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the 1994 NBA Finals MVP award?"
+        answers:
+          A: "David Robinson"
+          B: "Patrick Ewing"
+          C: "Shaquille O'Neal"
+          D: "Hakeem Olajuwon"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record NBA du plus grand nombre de tirs à 3 points réussis en une seule saison régulière ?"
+    answers:
+      A: "Stephen Curry"
+      B: "James Harden"
+      C: "Ray Allen"
+      D: "Klay Thompson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the NBA record for the most 3-point shots made in a single regular season?"
+        answers:
+          A: "Stephen Curry"
+          B: "James Harden"
+          C: "Ray Allen"
+          D: "Klay Thompson"
+    difficulty: EXPERT
+  - text: "Quel joueur a été nommé MVP des Finales NBA en 2019 ?"
+    answers:
+      A: "Stephen Curry"
+      B: "Kawhi Leonard"
+      C: "Kevin Durant"
+      D: "Kyle Lowry"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named NBA Finals MVP in 2019?"
+        answers:
+          A: "Stephen Curry"
+          B: "Kawhi Leonard"
+          C: "Kevin Durant"
+          D: "Kyle Lowry"
+    difficulty: HARD
+  - text: "Quel joueur détient le record NBA du plus grand nombre de passes décisives en carrière ?"
+    answers:
+      A: "Magic Johnson"
+      B: "Jason Kidd"
+      C: "Steve Nash"
+      D: "John Stockton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the NBA record for the most career assists?"
+        answers:
+          A: "Magic Johnson"
+          B: "Jason Kidd"
+          C: "Steve Nash"
+          D: "John Stockton"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le titre de MVP de la saison régulière NBA en 2011 ?"
+    answers:
+      A: "Derrick Rose"
+      B: "LeBron James"
+      C: "Dwight Howard"
+      D: "Kobe Bryant"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the NBA regular season MVP award in 2011?"
+        answers:
+          A: "Derrick Rose"
+          B: "LeBron James"
+          C: "Dwight Howard"
+          D: "Kobe Bryant"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 2010-2011 ?"
+    answers:
+      A: "Miami Heat"
+      B: "Los Angeles Lakers"
+      C: "Dallas Mavericks"
+      D: "Chicago Bulls"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the NBA title in the 2010-2011 season?"
+        answers:
+          A: "Miami Heat"
+          B: "Los Angeles Lakers"
+          C: "Dallas Mavericks"
+          D: "Chicago Bulls"
+    difficulty: HARD
+  - text: "Quel joueur a marqué 81 points dans un seul match NBA en 2006 contre les Raptors ?"
+    answers:
+      A: "LeBron James"
+      B: "Kobe Bryant"
+      C: "Allen Iverson"
+      D: "Carmelo Anthony"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player scored 81 points in a single NBA game in 2006 against the Raptors?"
+        answers:
+          A: "LeBron James"
+          B: "Kobe Bryant"
+          C: "Allen Iverson"
+          D: "Carmelo Anthony"
+    difficulty: MEDIUM
+  - text: "Quel entraîneur a remporté le plus de matchs de saison régulière NBA en carrière ?"
+    answers:
+      A: "Pat Riley"
+      B: "Don Nelson"
+      C: "Gregg Popovich"
+      D: "Lenny Wilkens"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which coach has won the most career NBA regular season games?"
+        answers:
+          A: "Pat Riley"
+          B: "Don Nelson"
+          C: "Gregg Popovich"
+          D: "Lenny Wilkens"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record NBA du plus grand nombre de points marqués en un match de playoffs (63) ?"
+    answers:
+      A: "Michael Jordan"
+      B: "Elgin Baylor"
+      C: "LeBron James"
+      D: "Donovan Mitchell"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the NBA record for the most points scored in a playoff game (63)?"
+        answers:
+          A: "Michael Jordan"
+          B: "Elgin Baylor"
+          C: "LeBron James"
+          D: "Donovan Mitchell"
+    difficulty: EXPERT
+  - text: "Quelle franchise a remporté trois titres NBA consécutifs entre 1952 et 1954 ?"
+    answers:
+      A: "Los Angeles Lakers"
+      B: "Boston Celtics"
+      C: "New York Knicks"
+      D: "Philadelphia 76ers"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which franchise won three consecutive NBA titles between 1952 and 1954?"
+        answers:
+          A: "Los Angeles Lakers"
+          B: "Boston Celtics"
+          C: "New York Knicks"
+          D: "Philadelphia 76ers"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record NBA du plus grand nombre de contres en carrière ?"
+    answers:
+      A: "Hakeem Olajuwon"
+      B: "Dikembe Mutombo"
+      C: "Mark Eaton"
+      D: "David Robinson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the NBA record for the most career blocks?"
+        answers:
+          A: "Hakeem Olajuwon"
+          B: "Dikembe Mutombo"
+          C: "Mark Eaton"
+          D: "David Robinson"
+    difficulty: HARD
+  - text: "Quel joueur a été nommé MVP des Finales NBA en 2008 ?"
+    answers:
+      A: "Kobe Bryant"
+      B: "Paul Pierce"
+      C: "Ray Allen"
+      D: "Kevin Garnett"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named NBA Finals MVP in 2008?"
+        answers:
+          A: "Kobe Bryant"
+          B: "Paul Pierce"
+          C: "Ray Allen"
+          D: "Kevin Garnett"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 1999-2000 ?"
+    answers:
+      A: "Indiana Pacers"
+      B: "Portland Trail Blazers"
+      C: "San Antonio Spurs"
+      D: "Los Angeles Lakers"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the NBA title in the 1999-2000 season?"
+        answers:
+          A: "Indiana Pacers"
+          B: "Portland Trail Blazers"
+          C: "San Antonio Spurs"
+          D: "Los Angeles Lakers"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le titre de MVP de la saison régulière NBA en 2017 ?"
+    answers:
+      A: "James Harden"
+      B: "Russell Westbrook"
+      C: "Kawhi Leonard"
+      D: "LeBron James"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the NBA regular season MVP award in 2017?"
+        answers:
+          A: "James Harden"
+          B: "Russell Westbrook"
+          C: "Kawhi Leonard"
+          D: "LeBron James"
+    difficulty: HARD
+  - text: "Quel joueur a été nommé MVP des Finales NBA en 1999 avec les Spurs ?"
+    answers:
+      A: "Sean Elliott"
+      B: "David Robinson"
+      C: "Avery Johnson"
+      D: "Tim Duncan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named NBA Finals MVP in 1999 with the Spurs?"
+        answers:
+          A: "Sean Elliott"
+          B: "David Robinson"
+          C: "Avery Johnson"
+          D: "Tim Duncan"
+    difficulty: HARD
+  - text: "Quel joueur détient le record NBA du plus grand nombre de points marqués en un match de saison régulière par un rookie (58) ?"
+    answers:
+      A: "Wilt Chamberlain"
+      B: "Michael Jordan"
+      C: "LeBron James"
+      D: "Kevin Durant"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the NBA record for the most points scored in a regular season game by a rookie (58)?"
+        answers:
+          A: "Wilt Chamberlain"
+          B: "Michael Jordan"
+          C: "LeBron James"
+          D: "Kevin Durant"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté le titre NBA lors de la saison 1987-1988 ?"
+    answers:
+      A: "Boston Celtics"
+      B: "Detroit Pistons"
+      C: "Los Angeles Lakers"
+      D: "Chicago Bulls"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the NBA title in the 1987-1988 season?"
+        answers:
+          A: "Boston Celtics"
+          B: "Detroit Pistons"
+          C: "Los Angeles Lakers"
+          D: "Chicago Bulls"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le titre de MVP de la saison régulière NBA en 2000-2001 ?"
+    answers:
+      A: "Allen Iverson"
+      B: "Tim Duncan"
+      C: "Shaquille O'Neal"
+      D: "Kobe Bryant"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the NBA regular season MVP award in 2000-2001?"
+        answers:
+          A: "Allen Iverson"
+          B: "Tim Duncan"
+          C: "Shaquille O'Neal"
+          D: "Kobe Bryant"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record NBA du plus grand nombre de titres de MVP des Finales (6) ?"
+    answers:
+      A: "Tim Duncan"
+      B: "Magic Johnson"
+      C: "Shaquille O'Neal"
+      D: "Michael Jordan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the NBA record for the most Finals MVP awards (6)?"
+        answers:
+          A: "Tim Duncan"
+          B: "Magic Johnson"
+          C: "Shaquille O'Neal"
+          D: "Michael Jordan"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le titre de MVP des Finales NBA en 2021 avec les Bucks de Milwaukee ?"
+    answers:
+      A: "Khris Middleton"
+      B: "Jrue Holiday"
+      C: "Giannis Antetokounmpo"
+      D: "Brook Lopez"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the NBA Finals MVP award in 2021 with the Milwaukee Bucks?"
+        answers:
+          A: "Khris Middleton"
+          B: "Jrue Holiday"
+          C: "Giannis Antetokounmpo"
+          D: "Brook Lopez"
+    difficulty: HARD
+  - text: "Quel entraîneur a dirigé les Bulls de Chicago lors de leur saison record de 72 victoires en 1995-1996 ?"
+    answers:
+      A: "Gregg Popovich"
+      B: "Jerry Sloan"
+      C: "Pat Riley"
+      D: "Phil Jackson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which coach led the Chicago Bulls during their record 72-win season in 1995-1996?"
+        answers:
+          A: "Gregg Popovich"
+          B: "Jerry Sloan"
+          C: "Pat Riley"
+          D: "Phil Jackson"
+    difficulty: HARD
+  - text: "Quel joueur détient le record NBA du plus grand nombre de tirs à 3 points réussis en carrière en saison régulière ?"
+    answers:
+      A: "Ray Allen"
+      B: "James Harden"
+      C: "Reggie Miller"
+      D: "Stephen Curry"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the NBA record for the most career 3-pointers made in the regular season?"
+        answers:
+          A: "Ray Allen"
+          B: "James Harden"
+          C: "Reggie Miller"
+          D: "Stephen Curry"
+    difficulty: HARD
+  - text: "Quel joueur a réalisé un quadruple-double (points, rebonds, passes, contres) en NBA lors de la saison 1993-1994 ?"
+    answers:
+      A: "Hakeem Olajuwon"
+      B: "Shaquille O'Neal"
+      C: "David Robinson"
+      D: "Dikembe Mutombo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player recorded a quadruple-double (points, rebounds, assists, blocks) in the NBA during the 1993-1994 season?"
+        answers:
+          A: "Hakeem Olajuwon"
+          B: "Shaquille O'Neal"
+          C: "David Robinson"
+          D: "Dikembe Mutombo"
+    difficulty: EXPERT
+  - text: "En quelle année les Rockets de Houston ont-ils remporté leur premier titre NBA ?"
+    answers:
+      A: "1994"
+      B: "1993"
+      C: "1992"
+      D: "1995"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Houston Rockets win their first NBA title?"
+        answers:
+          A: "1994"
+          B: "1993"
+          C: "1992"
+          D: "1995"
+    difficulty: EXPERT
+  - text: "Quel joueur a été nommé MVP de la saison régulière NBA pour la saison 2007-2008 ?"
+    answers:
+      A: "Kevin Garnett"
+      B: "LeBron James"
+      C: "Chris Paul"
+      D: "Kobe Bryant"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named NBA regular season MVP for the 2007-2008 season?"
+        answers:
+          A: "Kevin Garnett"
+          B: "LeBron James"
+          C: "Chris Paul"
+          D: "Kobe Bryant"
+    difficulty: HARD

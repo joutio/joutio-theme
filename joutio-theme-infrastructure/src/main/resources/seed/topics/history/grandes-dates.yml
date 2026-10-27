@@ -1,0 +1,1632 @@
+topic:
+  id: topic-grandes-dates
+  names:
+    fr: "Grandes dates"
+    en: "Key Dates in History"
+  description: "Des grandes dates qui ont marqué l'histoire du monde, de l'Antiquité à l'ère spatiale : la chute de Constantinople, la prise de la Bastille, la Déclaration d'indépendance des États-Unis, la Première Guerre mondiale ou encore les premiers pas sur la Lune."
+  category: HISTORY
+  titles:
+    fr:
+      FER: "Confusionné des ères"
+      BRONZE: "Griffonneur de frises"
+      ARGENT: "Déchiffreur de parchemins"
+      OR: "Gardien des archives"
+      PLATINE: "Chroniqueur des empires"
+      EMERAUDE: "Horloger de l'Histoire"
+      DIAMANT: "Scribe de l'éternité"
+    en:
+      FER: "Date Dabbler"
+      BRONZE: "Timeline Tinkerer"
+      ARGENT: "Scroll Decipherer"
+      OR: "Archive Keeper"
+      PLATINE: "Empire Chronicler"
+      EMERAUDE: "Clockmaker of Ages"
+      DIAMANT: "Eternal Scribe"
+  imageUrl: wikipedia/history/Declaration_of_Independence_(1819),_by_John_Trumbull.jpg
+questions:
+  - text: "Qui a inventé l'imprimerie vers 1450 ?"
+    imageUrl: wikipedia/history/Gutenberg.jpg
+    answers:
+      A: "Léonard de Vinci"
+      B: "Johannes Gutenberg"
+      C: "Nicolas Copernic"
+      D: "Galilée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who invented the printing press around 1450?"
+        answers:
+          A: "Leonardo da Vinci"
+          B: "Johannes Gutenberg"
+          C: "Nicolaus Copernicus"
+          D: "Galileo"
+    difficulty: EASY
+  - text: "Qui lança l'expédition de 1519 ?"
+    imageUrl: wikipedia/history/Ferdinand_Magellan.jpg
+    answers:
+      A: "Fernand de Magellan"
+      B: "Christophe Colomb"
+      C: "Vasco de Gama"
+      D: "Francis Drake"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who launched the 1519 expedition?"
+        answers:
+          A: "Ferdinand Magellan"
+          B: "Christopher Columbus"
+          C: "Vasco da Gama"
+          D: "Francis Drake"
+    difficulty: MEDIUM
+  - text: "Quel texte adopté le 4 juillet 1776 ?"
+    imageUrl: wikipedia/history/Declaration_of_Independence_(1819),_by_John_Trumbull.jpg
+    answers:
+      A: "La Constitution américaine"
+      B: "Le Bill of Rights"
+      C: "Le traité de Paris"
+      D: "La Déclaration d'indépendance des États-Unis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which text was adopted on July 4, 1776?"
+        answers:
+          A: "The U.S. Constitution"
+          B: "The Bill of Rights"
+          C: "The Treaty of Paris"
+          D: "The United States Declaration of Independence"
+    difficulty: MEDIUM
+  - text: "Quel événement du 14 juillet 1789 ?"
+    imageUrl: wikipedia/history/Prise_de_la_Bastille.jpg
+    answers:
+      A: "Le sacre de Napoléon"
+      B: "La Fête de la Fédération"
+      C: "La prise de la Bastille"
+      D: "Le serment du Jeu de paume"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which event occurred on July 14, 1789?"
+        answers:
+          A: "The coronation of Napoleon"
+          B: "The Fête de la Fédération"
+          C: "The storming of the Bastille"
+          D: "The Tennis Court Oath"
+    difficulty: EASY
+  - text: "Quel paquebot a heurté un iceberg en 1912 ?"
+    imageUrl: wikipedia/history/RMS_Titanic_3.jpg
+    answers:
+      A: "Le Titanic"
+      B: "Le Lusitania"
+      C: "Le Britannic"
+      D: "Le Carpathia"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ocean liner struck an iceberg in 1912?"
+        answers:
+          A: "The Titanic"
+          B: "The Lusitania"
+          C: "The Britannic"
+          D: "The Carpathia"
+    difficulty: EASY
+  - text: "Quel astronaute d'Apollo 11 est sur la Lune ?"
+    imageUrl: wikipedia/history/Aldrin_Apollo_11.jpg
+    answers:
+      A: "Neil Armstrong"
+      B: "Michael Collins"
+      C: "Youri Gagarine"
+      D: "Buzz Aldrin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Apollo 11 astronaut is on the Moon?"
+        answers:
+          A: "Neil Armstrong"
+          B: "Michael Collins"
+          C: "Yuri Gagarin"
+          D: "Buzz Aldrin"
+    difficulty: MEDIUM
+  - text: "Quel traité de 1648 met fin à la guerre de Trente Ans ?"
+    answers:
+      A: "Traité de Vienne"
+      B: "Traité de Westphalie"
+      C: "Traité d'Utrecht"
+      D: "Traité de Paris"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1648 treaty ended the Thirty Years' War?"
+        answers:
+          A: "Treaty of Vienna"
+          B: "Treaty of Westphalia"
+          C: "Treaty of Utrecht"
+          D: "Treaty of Paris"
+    difficulty: HARD
+  - text: "En quelle année le Front populaire accède-t-il au pouvoir en France ?"
+    answers:
+      A: "1936"
+      B: "1934"
+      C: "1938"
+      D: "1932"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Popular Front come to power in France?"
+        answers:
+          A: "1936"
+          B: "1934"
+          C: "1938"
+          D: "1932"
+    difficulty: HARD
+  - text: "Quel événement déclenche la Première Guerre mondiale le 28 juin 1914 ?"
+    answers:
+      A: "L'invasion de la Pologne"
+      B: "L'attentat de Sarajevo"
+      C: "La crise de Tanger"
+      D: "L'ultimatum autrichien à la Serbie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which event triggered World War I on June 28, 1914?"
+        answers:
+          A: "The invasion of Poland"
+          B: "The assassination in Sarajevo"
+          C: "The Tangier Crisis"
+          D: "The Austrian ultimatum to Serbia"
+    difficulty: MEDIUM
+  - text: "En quelle année a lieu la bataille de Waterloo ?"
+    answers:
+      A: "1812"
+      B: "1799"
+      C: "1820"
+      D: "1815"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Battle of Waterloo take place?"
+        answers:
+          A: "1812"
+          B: "1799"
+          C: "1820"
+          D: "1815"
+    difficulty: MEDIUM
+  - text: "Quel mur est tombé le 9 novembre 1989 ?"
+    answers:
+      A: "Le mur d'Hadrien"
+      B: "Le mur de Berlin"
+      C: "Le mur des Lamentations"
+      D: "Le mur de Chine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which wall fell on November 9, 1989?"
+        answers:
+          A: "Hadrian's Wall"
+          B: "The Berlin Wall"
+          C: "The Western Wall"
+          D: "The Great Wall of China"
+    difficulty: EASY
+  - text: "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?"
+    answers:
+      A: "1969"
+      B: "1965"
+      C: "1972"
+      D: "1961"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did man first walk on the Moon?"
+        answers:
+          A: "1969"
+          B: "1965"
+          C: "1972"
+          D: "1961"
+    difficulty: EASY
+  - text: "Quelle ville est fondée selon la légende en 753 av. J.-C. ?"
+    answers:
+      A: "Athènes"
+      B: "Rome"
+      C: "Carthage"
+      D: "Alexandrie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which city was founded, according to legend, in 753 BC?"
+        answers:
+          A: "Athens"
+          B: "Rome"
+          C: "Carthage"
+          D: "Alexandria"
+    difficulty: MEDIUM
+  - text: "En quelle année la Révolution française débute-t-elle ?"
+    answers:
+      A: "1791"
+      B: "1789"
+      C: "1793"
+      D: "1788"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the French Revolution begin?"
+        answers:
+          A: "1791"
+          B: "1789"
+          C: "1793"
+          D: "1788"
+    difficulty: EASY
+  - text: "Quel roi d'Angleterre a été exécuté en 1649 ?"
+    answers:
+      A: "Charles Ier"
+      B: "Henri VIII"
+      C: "Jacques II"
+      D: "Richard III"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which King of England was executed in 1649?"
+        answers:
+          A: "Charles I"
+          B: "Henry VIII"
+          C: "James II"
+          D: "Richard III"
+    difficulty: HARD
+  - text: "En quelle année le premier pas de l'homme sur la Lune a-t-il eu lieu lors de la mission Apollo 11 ?"
+    answers:
+      A: "1969"
+      B: "1968"
+      C: "1967"
+      D: "1970"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did man first set foot on the Moon during the Apollo 11 mission?"
+        answers:
+          A: "1969"
+          B: "1968"
+          C: "1967"
+          D: "1970"
+    difficulty: EASY
+  - text: "Quel événement de 1929 déclenche la Grande Dépression ?"
+    answers:
+      A: "Faillite de General Motors"
+      B: "Fermeture des banques"
+      C: "Loi Hawley-Smoot"
+      D: "Krach boursier de Wall Street"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which event of 1929 triggered the Great Depression?"
+        answers:
+          A: "General Motors bankruptcy"
+          B: "Bank closures"
+          C: "Hawley-Smoot Tariff"
+          D: "Wall Street Crash"
+    difficulty: MEDIUM
+  - text: "En quelle année Christophe Colomb atteint-il l'Amérique ?"
+    answers:
+      A: "1492"
+      B: "1498"
+      C: "1485"
+      D: "1500"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Christopher Columbus reach America?"
+        answers:
+          A: "1492"
+          B: "1498"
+          C: "1485"
+          D: "1500"
+    difficulty: MEDIUM
+  - text: "Quelle bataille de 1815 marque la défaite définitive de Napoléon ?"
+    answers:
+      A: "Waterloo"
+      B: "Austerlitz"
+      C: "Iéna"
+      D: "Trafalgar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1815 battle marked Napoleon's final defeat?"
+        answers:
+          A: "Waterloo"
+          B: "Austerlitz"
+          C: "Jena"
+          D: "Trafalgar"
+    difficulty: MEDIUM
+  - text: "En quelle année la Seconde Guerre mondiale éclate-t-elle ?"
+    answers:
+      A: "1937"
+      B: "1938"
+      C: "1941"
+      D: "1939"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did World War II break out?"
+        answers:
+          A: "1937"
+          B: "1938"
+          C: "1941"
+          D: "1939"
+    difficulty: EASY
+  - text: "Quel président américain ordonne le bombardement atomique d'Hiroshima ?"
+    answers:
+      A: "Franklin D. Roosevelt"
+      B: "Dwight D. Eisenhower"
+      C: "Harry S. Truman"
+      D: "Woodrow Wilson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which American president ordered the atomic bombing of Hiroshima?"
+        answers:
+          A: "Franklin D. Roosevelt"
+          B: "Dwight D. Eisenhower"
+          C: "Harry S. Truman"
+          D: "Woodrow Wilson"
+    difficulty: MEDIUM
+  - text: "Quel mur séparait Berlin-Est et Berlin-Ouest ?"
+    answers:
+      A: "Le rideau de fer"
+      B: "Le mur d'Hadrien"
+      C: "La ligne Maginot"
+      D: "Le mur de Berlin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which wall separated East Berlin from West Berlin?"
+        answers:
+          A: "The Iron Curtain"
+          B: "Hadrian's Wall"
+          C: "The Maginot Line"
+          D: "The Berlin Wall"
+    difficulty: EASY
+  - text: "En quelle année la Déclaration universelle des droits de l'homme est-elle adoptée ?"
+    answers:
+      A: "1945"
+      B: "1948"
+      C: "1946"
+      D: "1950"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Universal Declaration of Human Rights adopted?"
+        answers:
+          A: "1945"
+          B: "1948"
+          C: "1946"
+          D: "1950"
+    difficulty: HARD
+  - text: "Quel empire s'effondre en 1917 lors de la révolution bolchevique ?"
+    answers:
+      A: "L'Empire ottoman"
+      B: "L'Empire austro-hongrois"
+      C: "L'Empire russe"
+      D: "L'Empire allemand"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which empire collapsed in 1917 during the Bolshevik Revolution?"
+        answers:
+          A: "The Ottoman Empire"
+          B: "The Austro-Hungarian Empire"
+          C: "The Russian Empire"
+          D: "The German Empire"
+    difficulty: HARD
+  - text: "Quel explorateur portugais contourne l'Afrique en 1488 ?"
+    answers:
+      A: "Vasco de Gama"
+      B: "Christophe Colomb"
+      C: "Magellan"
+      D: "Bartolomeu Dias"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Portuguese explorer rounded Africa in 1488?"
+        answers:
+          A: "Vasco da Gama"
+          B: "Christopher Columbus"
+          C: "Magellan"
+          D: "Bartolomeu Dias"
+    difficulty: HARD
+  - text: "En quelle année le traité de Rome crée-t-il la CEE ?"
+    answers:
+      A: "1951"
+      B: "1962"
+      C: "1957"
+      D: "1973"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Treaty of Rome create the EEC?"
+        answers:
+          A: "1951"
+          B: "1962"
+          C: "1957"
+          D: "1973"
+    difficulty: HARD
+  - text: "Quel empereur romain a fait construire un mur au nord de la Bretagne à partir de 122 apr. J.-C. ?"
+    answers:
+      A: "Trajan"
+      B: "Septime Sévère"
+      C: "Antonin le Pieux"
+      D: "Hadrien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor had a wall built in northern Britannia starting in 122 AD?"
+        answers:
+          A: "Trajan"
+          B: "Septimius Severus"
+          C: "Antoninus Pius"
+          D: "Hadrian"
+    difficulty: HARD
+  - text: "En quelle année l'Empire byzantin a-t-il pris fin avec la chute de Constantinople ?"
+    answers:
+      A: "1204"
+      B: "1389"
+      C: "1492"
+      D: "1453"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Byzantine Empire end with the fall of Constantinople?"
+        answers:
+          A: "1204"
+          B: "1389"
+          C: "1492"
+          D: "1453"
+    difficulty: HARD
+  - text: "Quel navigateur portugais a atteint l'Inde par voie maritime en 1498 ?"
+    answers:
+      A: "Vasco de Gama"
+      B: "Bartolomeu Dias"
+      C: "Fernand de Magellan"
+      D: "Pedro Álvares Cabral"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Portuguese navigator reached India by sea in 1498?"
+        answers:
+          A: "Vasco da Gama"
+          B: "Bartolomeu Dias"
+          C: "Ferdinand Magellan"
+          D: "Pedro Álvares Cabral"
+    difficulty: HARD
+  - text: "Quel traité de 1648 a mis fin à la guerre de Trente Ans ?"
+    answers:
+      A: "Traité d'Utrecht"
+      B: "Traité de Verdun"
+      C: "Traité de Tordesillas"
+      D: "Traité de Westphalie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1648 treaty ended the Thirty Years' War?"
+        answers:
+          A: "Treaty of Utrecht"
+          B: "Treaty of Verdun"
+          C: "Treaty of Tordesillas"
+          D: "Treaty of Westphalia"
+    difficulty: HARD
+  - text: "En quelle année la Déclaration d'indépendance des États-Unis a-t-elle été adoptée ?"
+    answers:
+      A: "1770"
+      B: "1783"
+      C: "1776"
+      D: "1789"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the United States Declaration of Independence adopted?"
+        answers:
+          A: "1770"
+          B: "1783"
+          C: "1776"
+          D: "1789"
+    difficulty: MEDIUM
+  - text: "Quel événement a marqué le début de la Révolution française le 14 juillet 1789 ?"
+    answers:
+      A: "Le serment du Jeu de paume"
+      B: "La prise de la Bastille"
+      C: "La fuite à Varennes"
+      D: "L'exécution de Louis XVI"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which event marked the beginning of the French Revolution on July 14, 1789?"
+        answers:
+          A: "The Tennis Court Oath"
+          B: "The storming of the Bastille"
+          C: "The Flight to Varennes"
+          D: "The execution of Louis XVI"
+    difficulty: EASY
+  - text: "En quelle année Napoléon a-t-il été définitivement vaincu à Waterloo ?"
+    answers:
+      A: "1812"
+      B: "1814"
+      C: "1821"
+      D: "1815"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was Napoleon definitively defeated at Waterloo?"
+        answers:
+          A: "1812"
+          B: "1814"
+          C: "1821"
+          D: "1815"
+    difficulty: MEDIUM
+  - text: "Quel archiduc a été assassiné à Sarajevo le 28 juin 1914 ?"
+    answers:
+      A: "François-Ferdinand"
+      B: "François-Joseph"
+      C: "Rodolphe"
+      D: "Charles Ier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which archduke was assassinated in Sarajevo on June 28, 1914?"
+        answers:
+          A: "Franz Ferdinand"
+          B: "Franz Joseph"
+          C: "Rudolf"
+          D: "Charles I"
+    difficulty: HARD
+  - text: "En quelle année l'armistice de Compiègne a-t-il mis fin aux combats de la Première Guerre mondiale ?"
+    answers:
+      A: "1917"
+      B: "1918"
+      C: "1919"
+      D: "1920"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Armistice of Compiègne end the fighting of World War I?"
+        answers:
+          A: "1917"
+          B: "1918"
+          C: "1919"
+          D: "1920"
+    difficulty: HARD
+  - text: "Quel paquebot a coulé après avoir heurté un iceberg lors de son voyage inaugural en 1912 ?"
+    answers:
+      A: "Lusitania"
+      B: "Titanic"
+      C: "Britannic"
+      D: "Queen Mary"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ocean liner sank after hitting an iceberg on its maiden voyage in 1912?"
+        answers:
+          A: "Lusitania"
+          B: "Titanic"
+          C: "Britannic"
+          D: "Queen Mary"
+    difficulty: MEDIUM
+  - text: "Quelle ville a été le théâtre du débarquement allié du 6 juin 1944 ?"
+    answers:
+      A: "Dunkerque"
+      B: "Normandie"
+      C: "Dieppe"
+      D: "Calais"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which city was the site of the Allied landing on June 6, 1944?"
+        answers:
+          A: "Dunkirk"
+          B: "Normandy"
+          C: "Dieppe"
+          D: "Calais"
+    difficulty: MEDIUM
+  - text: "En quelle année la bombe atomique a-t-elle été larguée sur Hiroshima ?"
+    answers:
+      A: "1944"
+      B: "1945"
+      C: "1946"
+      D: "1947"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the atomic bomb dropped on Hiroshima?"
+        answers:
+          A: "1944"
+          B: "1945"
+          C: "1946"
+          D: "1947"
+    difficulty: MEDIUM
+  - text: "Quel mur a été érigé à Berlin en 1961 ?"
+    answers:
+      A: "Le mur de l'Atlantique"
+      B: "Le rideau de fer"
+      C: "Le mur de Berlin"
+      D: "La ligne Maginot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which wall was erected in Berlin in 1961?"
+        answers:
+          A: "The Atlantic Wall"
+          B: "The Iron Curtain"
+          C: "The Berlin Wall"
+          D: "The Maginot Line"
+    difficulty: MEDIUM
+  - text: "Quel président américain a été assassiné à Dallas le 22 novembre 1963 ?"
+    answers:
+      A: "Eisenhower"
+      B: "Kennedy"
+      C: "Johnson"
+      D: "Nixon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which American president was assassinated in Dallas on November 22, 1963?"
+        answers:
+          A: "Eisenhower"
+          B: "Kennedy"
+          C: "Johnson"
+          D: "Nixon"
+    difficulty: MEDIUM
+  - text: "En quelle année le mur de Berlin est-il tombé ?"
+    answers:
+      A: "1989"
+      B: "1988"
+      C: "1987"
+      D: "1990"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Berlin Wall fall?"
+        answers:
+          A: "1989"
+          B: "1988"
+          C: "1987"
+          D: "1990"
+    difficulty: MEDIUM
+  - text: "Quel pays a lancé le premier satellite artificiel, Spoutnik 1, en 1957 ?"
+    answers:
+      A: "URSS"
+      B: "États-Unis"
+      C: "Chine"
+      D: "France"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country launched the first artificial satellite, Sputnik 1, in 1957?"
+        answers:
+          A: "USSR"
+          B: "United States"
+          C: "China"
+          D: "France"
+    difficulty: MEDIUM
+  - text: "En quelle année l'Organisation des Nations unies a-t-elle été créée ?"
+    answers:
+      A: "1945"
+      B: "1944"
+      C: "1946"
+      D: "1948"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the United Nations created?"
+        answers:
+          A: "1945"
+          B: "1944"
+          C: "1946"
+          D: "1948"
+    difficulty: HARD
+  - text: "Quel traité a établi la Communauté économique européenne en 1957 ?"
+    answers:
+      A: "Traité de Lisbonne"
+      B: "Traité de Maastricht"
+      C: "Traité de Rome"
+      D: "Traité de Paris"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which treaty established the European Economic Community in 1957?"
+        answers:
+          A: "Lisbon Treaty"
+          B: "Maastricht Treaty"
+          C: "Treaty of Rome"
+          D: "Treaty of Paris"
+    difficulty: HARD
+  - text: "En quelle année la Révolution russe d'Octobre a-t-elle eu lieu ?"
+    answers:
+      A: "1905"
+      B: "1917"
+      C: "1922"
+      D: "1924"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Russian October Revolution take place?"
+        answers:
+          A: "1905"
+          B: "1917"
+          C: "1922"
+          D: "1924"
+    difficulty: MEDIUM
+  - text: "Quel événement de 1972 provoque la démission du président Nixon ?"
+    answers:
+      A: "Le maccarthysme"
+      B: "L'affaire des Contras"
+      C: "Le scandale Iran-Contra"
+      D: "Le scandale du Watergate"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1972 event caused President Nixon's resignation?"
+        answers:
+          A: "McCarthyism"
+          B: "The Contras affair"
+          C: "The Iran-Contra scandal"
+          D: "The Watergate scandal"
+    difficulty: HARD
+  - text: "En quelle année l'Union soviétique lance-t-elle la station spatiale Mir ?"
+    answers:
+      A: "1991"
+      B: "1971"
+      C: "1969"
+      D: "1986"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Soviet Union launch the Mir space station?"
+        answers:
+          A: "1991"
+          B: "1971"
+          C: "1969"
+          D: "1986"
+    difficulty: HARD
+  - text: "Quel traité met fin à la guerre de Sept Ans en 1763 ?"
+    answers:
+      A: "Traité de Vienne"
+      B: "Traité de Versailles"
+      C: "Traité d'Utrecht"
+      D: "Traité de Paris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which treaty ended the Seven Years' War in 1763?"
+        answers:
+          A: "Treaty of Vienna"
+          B: "Treaty of Versailles"
+          C: "Treaty of Utrecht"
+          D: "Treaty of Paris"
+    difficulty: EXPERT
+  - text: "En quelle année l'Empire ottoman signe-t-il le traité de Sèvres ?"
+    answers:
+      A: "1920"
+      B: "1918"
+      C: "1923"
+      D: "1919"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Ottoman Empire sign the Treaty of Sèvres?"
+        answers:
+          A: "1920"
+          B: "1918"
+          C: "1923"
+          D: "1919"
+    difficulty: EXPERT
+  - text: "Quel navigateur portugais contourne l'Afrique en 1488 ?"
+    answers:
+      A: "Vasco de Gama"
+      B: "Bartolomeu Dias"
+      C: "Pedro Alvares Cabral"
+      D: "Magellan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Portuguese navigator sailed around Africa in 1488?"
+        answers:
+          A: "Vasco da Gama"
+          B: "Bartolomeu Dias"
+          C: "Pedro Alvares Cabral"
+          D: "Magellan"
+    difficulty: HARD
+  - text: "En quelle année la bataille de Poitiers oppose-t-elle Charles Martel aux Omeyyades ?"
+    answers:
+      A: "711"
+      B: "751"
+      C: "732"
+      D: "778"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Battle of Poitiers pit Charles Martel against the Umayyads?"
+        answers:
+          A: "711"
+          B: "751"
+          C: "732"
+          D: "778"
+    difficulty: EXPERT
+  - text: "Quel tsar russe abolit le servage en 1861 ?"
+    answers:
+      A: "Pierre le Grand"
+      B: "Nicolas Ier"
+      C: "Alexandre III"
+      D: "Alexandre II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Russian tsar abolished serfdom in 1861?"
+        answers:
+          A: "Peter the Great"
+          B: "Nicholas I"
+          C: "Alexander III"
+          D: "Alexander II"
+    difficulty: EXPERT
+  - text: "En quelle année la guerre de Crimée débute-t-elle ?"
+    answers:
+      A: "1856"
+      B: "1855"
+      C: "1853"
+      D: "1854"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Crimean War begin?"
+        answers:
+          A: "1856"
+          B: "1855"
+          C: "1853"
+          D: "1854"
+    difficulty: EXPERT
+  - text: "Quel pays est le premier à accorder le droit de vote aux femmes en 1893 ?"
+    answers:
+      A: "Nouvelle-Zélande"
+      B: "France"
+      C: "Royaume-Uni"
+      D: "États-Unis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country was the first to grant women the right to vote in 1893?"
+        answers:
+          A: "New Zealand"
+          B: "France"
+          C: "United Kingdom"
+          D: "United States"
+    difficulty: EXPERT
+  - text: "En quelle année la république populaire de Chine est-elle proclamée ?"
+    answers:
+      A: "1948"
+      B: "1945"
+      C: "1950"
+      D: "1949"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the People's Republic of China proclaimed?"
+        answers:
+          A: "1948"
+          B: "1945"
+          C: "1950"
+          D: "1949"
+    difficulty: HARD
+  - text: "Quel roi de France est sacré à Reims en 1429 grâce à Jeanne d'Arc ?"
+    answers:
+      A: "Charles VII"
+      B: "Louis XI"
+      C: "Charles VI"
+      D: "Henri V"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which King of France was crowned at Reims in 1429 thanks to Joan of Arc?"
+        answers:
+          A: "Charles VII"
+          B: "Louis XI"
+          C: "Charles VI"
+          D: "Henry V"
+    difficulty: HARD
+  - text: "En quelle année l'Espagne signe-t-elle le traité de Tordesillas avec le Portugal ?"
+    answers:
+      A: "1498"
+      B: "1492"
+      C: "1494"
+      D: "1500"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Spain sign the Treaty of Tordesillas with Portugal?"
+        answers:
+          A: "1498"
+          B: "1492"
+          C: "1494"
+          D: "1500"
+    difficulty: EXPERT
+  - text: "Quel homme d'État indien mène la marche du sel en 1930 ?"
+    answers:
+      A: "Nehru"
+      B: "Gandhi"
+      C: "Jinnah"
+      D: "Bose"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Indian statesman led the Salt March in 1930?"
+        answers:
+          A: "Nehru"
+          B: "Gandhi"
+          C: "Jinnah"
+          D: "Bose"
+    difficulty: EXPERT
+  - text: "En quelle année la bataille de Stalingrad prend-elle fin ?"
+    answers:
+      A: "1941"
+      B: "1942"
+      C: "1944"
+      D: "1943"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Battle of Stalingrad end?"
+        answers:
+          A: "1941"
+          B: "1942"
+          C: "1944"
+          D: "1943"
+    difficulty: EXPERT
+  - text: "Quel empereur romain d'Occident est déposé en 476 ?"
+    answers:
+      A: "Romulus Augustule"
+      B: "Julius Nepos"
+      C: "Constantin III"
+      D: "Majorien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Western Roman emperor was deposed in 476?"
+        answers:
+          A: "Romulus Augustulus"
+          B: "Julius Nepos"
+          C: "Constantine III"
+          D: "Majorian"
+    difficulty: EXPERT
+  - text: "En quelle année la ville de Constantinople est-elle fondée par Constantin ?"
+    answers:
+      A: "285"
+      B: "395"
+      C: "476"
+      D: "330"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the city of Constantinople founded by Constantine?"
+        answers:
+          A: "285"
+          B: "395"
+          C: "476"
+          D: "330"
+    difficulty: EXPERT
+  - text: "Quel traité met fin à la guerre hispano-américaine en 1898 ?"
+    answers:
+      A: "Traité de Londres"
+      B: "Traité de Versailles"
+      C: "Traité de Washington"
+      D: "Traité de Paris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which treaty ended the Spanish-American War in 1898?"
+        answers:
+          A: "Treaty of London"
+          B: "Treaty of Versailles"
+          C: "Treaty of Washington"
+          D: "Treaty of Paris"
+    difficulty: EXPERT
+  - text: "En quelle année l'Organisation mondiale du commerce est-elle créée ?"
+    answers:
+      A: "1991"
+      B: "1994"
+      C: "1995"
+      D: "2001"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the World Trade Organization created?"
+        answers:
+          A: "1991"
+          B: "1994"
+          C: "1995"
+          D: "2001"
+    difficulty: EXPERT
+  - text: "Quel astronaute est le premier Américain à orbiter autour de la Terre en 1962 ?"
+    answers:
+      A: "John Glenn"
+      B: "Alan Shepard"
+      C: "Gus Grissom"
+      D: "Scott Carpenter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which astronaut was the first American to orbit the Earth in 1962?"
+        answers:
+          A: "John Glenn"
+          B: "Alan Shepard"
+          C: "Gus Grissom"
+          D: "Scott Carpenter"
+    difficulty: EXPERT
+  - text: "En quelle année le Royaume-Uni déclare-t-il la guerre à l'Allemagne au début de la Première Guerre mondiale ?"
+    answers:
+      A: "1916"
+      B: "1915"
+      C: "1914"
+      D: "1913"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the United Kingdom declare war on Germany at the start of World War I?"
+        answers:
+          A: "1916"
+          B: "1915"
+          C: "1914"
+          D: "1913"
+    difficulty: EXPERT
+  - text: "En quelle année a eu lieu le sac de Rome par les troupes de Charles Quint ?"
+    answers:
+      A: "1537"
+      B: "1517"
+      C: "1527"
+      D: "1547"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Sack of Rome by the troops of Charles V take place?"
+        answers:
+          A: "1537"
+          B: "1517"
+          C: "1527"
+          D: "1547"
+    difficulty: EXPERT
+  - text: "Quel événement de 1453 marque la fin de la guerre de Cent Ans ?"
+    answers:
+      A: "La bataille d'Azincourt"
+      B: "La bataille de Castillon"
+      C: "La bataille de Formigny"
+      D: "Le siège d'Orléans"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which event of 1453 marked the end of the Hundred Years' War?"
+        answers:
+          A: "The Battle of Agincourt"
+          B: "The Battle of Castillon"
+          C: "The Battle of Formigny"
+          D: "The Siege of Orléans"
+    difficulty: EXPERT
+  - text: "En quelle année l'Empire romain d'Orient a-t-il perdu l'Égypte au profit des Arabes ?"
+    answers:
+      A: "636"
+      B: "641"
+      C: "651"
+      D: "661"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Eastern Roman Empire lose Egypt to the Arabs?"
+        answers:
+          A: "636"
+          B: "641"
+          C: "651"
+          D: "661"
+    difficulty: EXPERT
+  - text: "Quel empereur byzantin a lancé la construction de la basilique Sainte-Sophie ?"
+    answers:
+      A: "Constantin"
+      B: "Justinien"
+      C: "Théodose"
+      D: "Héraclius"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Byzantine emperor initiated the construction of Hagia Sophia?"
+        answers:
+          A: "Constantine"
+          B: "Justinian"
+          C: "Theodosius"
+          D: "Heraclius"
+    difficulty: EXPERT
+  - text: "En quelle année a été signée la Magna Carta ?"
+    answers:
+      A: "1115"
+      B: "1315"
+      C: "1215"
+      D: "1415"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the Magna Carta signed?"
+        answers:
+          A: "1115"
+          B: "1315"
+          C: "1215"
+          D: "1415"
+    difficulty: EXPERT
+  - text: "En quelle année a eu lieu la bataille de Hastings ?"
+    answers:
+      A: "1056"
+      B: "1076"
+      C: "1066"
+      D: "1086"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Battle of Hastings take place?"
+        answers:
+          A: "1056"
+          B: "1076"
+          C: "1066"
+          D: "1086"
+    difficulty: EXPERT
+  - text: "Quel traité a mis fin à la guerre de Trente Ans en 1648 ?"
+    answers:
+      A: "Traité de Westphalie"
+      B: "Traité de Vienne"
+      C: "Traité d'Utrecht"
+      D: "Traité de Paris"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which treaty ended the Thirty Years' War in 1648?"
+        answers:
+          A: "Treaty of Westphalia"
+          B: "Treaty of Vienna"
+          C: "Treaty of Utrecht"
+          D: "Treaty of Paris"
+    difficulty: EXPERT
+  - text: "En quelle année la Prise de la Bastille a-t-elle eu lieu ?"
+    answers:
+      A: "1779"
+      B: "1799"
+      C: "1789"
+      D: "1769"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Storming of the Bastille take place?"
+        answers:
+          A: "1779"
+          B: "1799"
+          C: "1789"
+          D: "1769"
+    difficulty: HARD
+  - text: "Quel événement a déclenché la Première Guerre mondiale en 1914 ?"
+    answers:
+      A: "L'assassinat de l'archiduc François-Ferdinand"
+      B: "L'annexion de la Bosnie-Herzégovine"
+      C: "La crise de Tanger"
+      D: "La bataille de Verdun"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which event triggered World War I in 1914?"
+        answers:
+          A: "The assassination of Archduke Franz Ferdinand"
+          B: "The annexation of Bosnia and Herzegovina"
+          C: "The Tangier Crisis"
+          D: "The Battle of Verdun"
+    difficulty: HARD
+  - text: "En quelle année a eu lieu la Révolution russe d'Octobre ?"
+    answers:
+      A: "1905"
+      B: "1917"
+      C: "1921"
+      D: "1919"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the October Revolution in Russia take place?"
+        answers:
+          A: "1905"
+          B: "1917"
+          C: "1921"
+          D: "1919"
+    difficulty: HARD
+  - text: "Quel pays a lancé le premier satellite artificiel Spoutnik 1 en 1957 ?"
+    answers:
+      A: "États-Unis"
+      B: "Union soviétique"
+      C: "France"
+      D: "Chine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country launched the first artificial satellite Sputnik 1 in 1957?"
+        answers:
+          A: "United States"
+          B: "Soviet Union"
+          C: "France"
+          D: "China"
+    difficulty: HARD
+  - text: "Qui a été le premier homme à marcher sur la Lune lors de la mission Apollo 11 ?"
+    answers:
+      A: "Michael Collins"
+      B: "Buzz Aldrin"
+      C: "Neil Armstrong"
+      D: "Youri Gagarine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the first man to walk on the Moon during the Apollo 11 mission?"
+        answers:
+          A: "Michael Collins"
+          B: "Buzz Aldrin"
+          C: "Neil Armstrong"
+          D: "Yuri Gagarin"
+    difficulty: HARD
+  - text: "En quelle année a eu lieu la crise des missiles de Cuba ?"
+    answers:
+      A: "1963"
+      B: "1961"
+      C: "1962"
+      D: "1964"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Cuban Missile Crisis take place?"
+        answers:
+          A: "1963"
+          B: "1961"
+          C: "1962"
+          D: "1964"
+    difficulty: EXPERT
+  - text: "En quelle année l'homme a-t-il posé le pied sur la Lune pour la première fois ?"
+    answers:
+      A: "1971"
+      B: "1968"
+      C: "1970"
+      D: "1969"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did man first set foot on the Moon?"
+        answers:
+          A: "1971"
+          B: "1968"
+          C: "1970"
+          D: "1969"
+    difficulty: HARD
+  - text: "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?"
+    answers:
+      A: "1502"
+      B: "1498"
+      C: "1490"
+      D: "1492"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Christopher Columbus reach America?"
+        answers:
+          A: "1502"
+          B: "1498"
+          C: "1490"
+          D: "1492"
+    difficulty: HARD
+  - text: "En quelle année la Seconde Guerre mondiale a-t-elle pris fin en Europe ?"
+    answers:
+      A: "1945"
+      B: "1944"
+      C: "1946"
+      D: "1943"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did World War II end in Europe?"
+        answers:
+          A: "1945"
+          B: "1944"
+          C: "1946"
+          D: "1943"
+    difficulty: HARD
+  - text: "En quelle année la Révolution française a-t-elle commencé ?"
+    answers:
+      A: "1776"
+      B: "1799"
+      C: "1789"
+      D: "1792"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the French Revolution begin?"
+        answers:
+          A: "1776"
+          B: "1799"
+          C: "1789"
+          D: "1792"
+    difficulty: HARD
+  - text: "Quel événement du 28 juin 1914 est souvent considéré comme l'étincelle de la Première Guerre mondiale ?"
+    answers:
+      A: "La déclaration de guerre de l'Allemagne à la France"
+      B: "L'assassinat de l'archiduc François-Ferdinand à Sarajevo"
+      C: "L'invasion de la Belgique par l'Allemagne"
+      D: "Le naufrage du Lusitania"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which event of June 28, 1914 is often considered the spark of World War I?"
+        answers:
+          A: "Germany's declaration of war on France"
+          B: "The assassination of Archduke Franz Ferdinand in Sarajevo"
+          C: "Germany's invasion of Belgium"
+          D: "The sinking of the Lusitania"
+    difficulty: EXPERT
+  - text: "Quel traité a mis fin à la Première Guerre mondiale en 1919 ?"
+    answers:
+      A: "Le traité de Sèvres"
+      B: "Le traité de Vienne"
+      C: "Le traité de Versailles"
+      D: "Le traité de Trianon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which treaty ended World War I in 1919?"
+        answers:
+          A: "The Treaty of Sèvres"
+          B: "The Treaty of Vienna"
+          C: "The Treaty of Versailles"
+          D: "The Treaty of Trianon"
+    difficulty: EXPERT
+  - text: "Quel événement a eu lieu le 24 octobre 1929, marquant le début de la Grande Dépression ?"
+    answers:
+      A: "La dévaluation du dollar américain"
+      B: "La faillite de la banque Lehman Brothers"
+      C: "La signature du New Deal"
+      D: "Le krach boursier de Wall Street"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which event took place on October 24, 1929, marking the start of the Great Depression?"
+        answers:
+          A: "The devaluation of the US dollar"
+          B: "The bankruptcy of Lehman Brothers"
+          C: "The signing of the New Deal"
+          D: "The Wall Street Crash"
+    difficulty: EXPERT
+  - text: "En quelle année a débuté la construction du mur de Berlin ?"
+    answers:
+      A: "1949"
+      B: "1953"
+      C: "1961"
+      D: "1968"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the construction of the Berlin Wall begin?"
+        answers:
+          A: "1949"
+          B: "1953"
+          C: "1961"
+          D: "1968"
+    difficulty: EXPERT
+  - text: "Quel événement a conduit à la fin de la guerre froide en 1991 ?"
+    answers:
+      A: "La révolution de velours"
+      B: "La chute du mur de Berlin"
+      C: "La création de la CEI"
+      D: "La dissolution de l'Union soviétique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which event led to the end of the Cold War in 1991?"
+        answers:
+          A: "The Velvet Revolution"
+          B: "The fall of the Berlin Wall"
+          C: "The creation of the CIS"
+          D: "The dissolution of the Soviet Union"
+    difficulty: EXPERT
+  - text: "Quel traité a établi la paix entre l'Égypte et Israël en 1979 ?"
+    answers:
+      A: "Les accords de Camp David"
+      B: "Les accords d'Oslo"
+      C: "Le traité de Washington"
+      D: "Le traité de Paris"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which treaty established peace between Egypt and Israel in 1979?"
+        answers:
+          A: "The Camp David Accords"
+          B: "The Oslo Accords"
+          C: "The Treaty of Washington"
+          D: "The Treaty of Paris"
+    difficulty: EXPERT
+  - text: "En quelle année a eu lieu la bataille de Waterloo ?"
+    answers:
+      A: "1812"
+      B: "1815"
+      C: "1821"
+      D: "1805"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Battle of Waterloo take place?"
+        answers:
+          A: "1812"
+          B: "1815"
+          C: "1821"
+          D: "1805"
+    difficulty: EXPERT
+  - text: "Quel événement a marqué le début de la Révolution française en 1789 ?"
+    answers:
+      A: "Le serment du Jeu de paume"
+      B: "La prise de la Bastille"
+      C: "La Déclaration des droits de l'homme"
+      D: "L'exécution de Louis XVI"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which event marked the beginning of the French Revolution in 1789?"
+        answers:
+          A: "The Tennis Court Oath"
+          B: "The storming of the Bastille"
+          C: "The Declaration of the Rights of Man"
+          D: "The execution of Louis XVI"
+    difficulty: HARD
+  - text: "Qui a été le premier président des États-Unis ?"
+    answers:
+      A: "John Adams"
+      B: "Thomas Jefferson"
+      C: "George Washington"
+      D: "James Madison"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the first president of the United States?"
+        answers:
+          A: "John Adams"
+          B: "Thomas Jefferson"
+          C: "George Washington"
+          D: "James Madison"
+    difficulty: HARD
+  - text: "Quel événement a déclenché la Première Guerre mondiale ?"
+    answers:
+      A: "La bataille de Verdun"
+      B: "L'invasion de la Pologne"
+      C: "L'assassinat de l'archiduc François-Ferdinand"
+      D: "Le traité de Versailles"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which event triggered World War I?"
+        answers:
+          A: "The Battle of Verdun"
+          B: "The invasion of Poland"
+          C: "The assassination of Archduke Franz Ferdinand"
+          D: "The Treaty of Versailles"
+    difficulty: HARD
+  - text: "Quel mur est tombé en 1989, symbolisant la fin de la guerre froide ?"
+    answers:
+      A: "Le mur de l'Atlantique"
+      B: "Le mur d'Hadrien"
+      C: "La Grande Muraille de Chine"
+      D: "Le mur de Berlin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which wall fell in 1989, symbolizing the end of the Cold War?"
+        answers:
+          A: "The Atlantic Wall"
+          B: "Hadrian's Wall"
+          C: "The Great Wall of China"
+          D: "The Berlin Wall"
+    difficulty: HARD
+  - text: "Qui a été le premier homme à marcher sur la Lune ?"
+    answers:
+      A: "Neil Armstrong"
+      B: "Buzz Aldrin"
+      C: "Youri Gagarine"
+      D: "John Glenn"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first man to walk on the Moon?"
+        answers:
+          A: "Neil Armstrong"
+          B: "Buzz Aldrin"
+          C: "Yuri Gagarin"
+          D: "John Glenn"
+    difficulty: HARD
+  - text: "Quel roi de France a été guillotiné pendant la Révolution française ?"
+    answers:
+      A: "Louis-Philippe Ier"
+      B: "Louis XIV"
+      C: "Charles X"
+      D: "Louis XVI"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which king of France was guillotined during the French Revolution?"
+        answers:
+          A: "Louis-Philippe I"
+          B: "Louis XIV"
+          C: "Charles X"
+          D: "Louis XVI"
+    difficulty: HARD
+  - text: "Quel événement a mis fin à la Seconde Guerre mondiale en Europe ?"
+    answers:
+      A: "La bataille de Stalingrad"
+      B: "Le débarquement de Normandie"
+      C: "La capitulation de l'Allemagne nazie"
+      D: "L'attaque de Pearl Harbor"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which event ended World War II in Europe?"
+        answers:
+          A: "The Battle of Stalingrad"
+          B: "The Normandy landings"
+          C: "The surrender of Nazi Germany"
+          D: "The attack on Pearl Harbor"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a légalisé le christianisme en 313 ?"
+    answers:
+      A: "Constantin"
+      B: "Néron"
+      C: "Trajan"
+      D: "Dioclétien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor legalized Christianity in 313?"
+        answers:
+          A: "Constantine"
+          B: "Nero"
+          C: "Trajan"
+          D: "Diocletian"
+    difficulty: EXPERT
+  - text: "Quel événement a conduit à la fin de l'apartheid en Afrique du Sud ?"
+    answers:
+      A: "L'élection de Nelson Mandela en 1994"
+      B: "La libération de Nelson Mandela en 1990"
+      C: "La mort de Steve Biko en 1977"
+      D: "Le massacre de Sharpeville en 1960"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which event led to the end of apartheid in South Africa?"
+        answers:
+          A: "The election of Nelson Mandela in 1994"
+          B: "The release of Nelson Mandela in 1990"
+          C: "The death of Steve Biko in 1977"
+          D: "The Sharpeville massacre in 1960"
+    difficulty: EXPERT
+  - text: "En quelle année a eu lieu le siège de Vienne par les Ottomans, levé grâce à l'intervention de Jean III Sobieski ?"
+    answers:
+      A: "1453"
+      B: "1683"
+      C: "1529"
+      D: "1571"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Ottoman siege of Vienna take place, lifted thanks to the intervention of John III Sobieski?"
+        answers:
+          A: "1453"
+          B: "1683"
+          C: "1529"
+          D: "1571"
+    difficulty: EXPERT
+  - text: "Quel traité a mis fin à la guerre de Succession d'Espagne en 1713 ?"
+    answers:
+      A: "Traité de Vienne"
+      B: "Traité de Rastatt"
+      C: "Traité d'Utrecht"
+      D: "Traité de Westphalie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which treaty ended the War of the Spanish Succession in 1713?"
+        answers:
+          A: "Treaty of Vienna"
+          B: "Treaty of Rastatt"
+          C: "Treaty of Utrecht"
+          D: "Treaty of Westphalia"
+    difficulty: EXPERT

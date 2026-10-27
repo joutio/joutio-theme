@@ -1,0 +1,1666 @@
+topic:
+  id: topic-desperate-housewives
+  names:
+    fr: "Desperate Housewives"
+    en: "Desperate Housewives"
+  description: "Bienvenue à Wisteria Lane, à Fairview : Susan, Lynette, Bree et Gabrielle, leurs secrets, leurs mariages et leurs mystères, la narratrice Mary Alice, Edie, Carlos, Mike et Orson — les saisons, les drames et les rebondissements de la série créée par Marc Cherry."
+  category: TELEVISION
+  titles:
+    fr:
+      FER: "Voisin de passage"
+      BRONZE: "Jardinier du quartier"
+      ARGENT: "Membre du club de lecture"
+      OR: "Habitué du café"
+      PLATINE: "Détective de Fairview"
+      EMERAUDE: "Reine de Wisteria Lane"
+      DIAMANT: "Légende de Fairview"
+    en:
+      FER: "New Neighbor"
+      BRONZE: "Neighbourhood Gardener"
+      ARGENT: "Book Club Member"
+      OR: "Coffee Shop Regular"
+      PLATINE: "Fairview Detective"
+      EMERAUDE: "Queen of Wisteria Lane"
+      DIAMANT: "Fairview Legend"
+  imageUrl: wikipedia/television/4351_Wisteria_Lane_Colonial_Street_Universal_Studios_Hollywood.jpg
+questions:
+  - text: "Qui incarne Susan Mayer dans Desperate Housewives ?"
+    imageUrl: wikipedia/television/Teri_Hatcher-_World_of_Color_Premiere_21.jpg
+    answers:
+      A: "Eva Longoria"
+      B: "Teri Hatcher"
+      C: "Felicity Huffman"
+      D: "Marcia Cross"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Susan Mayer in Desperate Housewives?"
+        answers:
+          A: "Eva Longoria"
+          B: "Teri Hatcher"
+          C: "Felicity Huffman"
+          D: "Marcia Cross"
+    difficulty: EASY
+  - text: "Quel personnage l'actrice Teri Hatcher interprète-t-elle ?"
+    imageUrl: wikipedia/television/Teri_Hatcher-_World_of_Color_Premiere_21.jpg
+    answers:
+      A: "Gabrielle Solis"
+      B: "Lynette Scavo"
+      C: "Bree Van de Kamp"
+      D: "Susan Mayer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character does actress Teri Hatcher play?"
+        answers:
+          A: "Gabrielle Solis"
+          B: "Lynette Scavo"
+          C: "Bree Van de Kamp"
+          D: "Susan Mayer"
+    difficulty: EASY
+  - text: "Qui incarne Lynette Scavo ?"
+    imageUrl: wikipedia/television/Felicity_Huffman_(3537158531).jpg
+    answers:
+      A: "Marcia Cross"
+      B: "Eva Longoria"
+      C: "Felicity Huffman"
+      D: "Dana Delany"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Lynette Scavo?"
+        answers:
+          A: "Marcia Cross"
+          B: "Eva Longoria"
+          C: "Felicity Huffman"
+          D: "Dana Delany"
+    difficulty: EASY
+  - text: "Quel rôle joue Felicity Huffman ?"
+    imageUrl: wikipedia/television/Felicity_Huffman_(3537158531).jpg
+    answers:
+      A: "Lynette Scavo"
+      B: "Edie Britt"
+      C: "Susan Mayer"
+      D: "Katherine Mayfair"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What role does Felicity Huffman play?"
+        answers:
+          A: "Lynette Scavo"
+          B: "Edie Britt"
+          C: "Susan Mayer"
+          D: "Katherine Mayfair"
+    difficulty: EASY
+  - text: "Qui incarne Bree Van de Kamp ?"
+    imageUrl: wikipedia/television/MarciaCrossApr08.jpg
+    answers:
+      A: "Nicollette Sheridan"
+      B: "Teri Hatcher"
+      C: "Marcia Cross"
+      D: "Vanessa Williams"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Bree Van de Kamp?"
+        answers:
+          A: "Nicollette Sheridan"
+          B: "Teri Hatcher"
+          C: "Marcia Cross"
+          D: "Vanessa Williams"
+    difficulty: EASY
+  - text: "Quel personnage l'actrice Marcia Cross interprète-t-elle ?"
+    imageUrl: wikipedia/television/MarciaCrossApr08.jpg
+    answers:
+      A: "Bree Van de Kamp"
+      B: "Edie Britt"
+      C: "Gabrielle Solis"
+      D: "Renee Perry"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does actress Marcia Cross play?"
+        answers:
+          A: "Bree Van de Kamp"
+          B: "Edie Britt"
+          C: "Gabrielle Solis"
+          D: "Renee Perry"
+    difficulty: EASY
+  - text: "Qui incarne Gabrielle Solis ?"
+    imageUrl: wikipedia/television/Eva_Longoria_SZ9_1450_(52476848986)_(cropped).jpg
+    answers:
+      A: "Eva Longoria"
+      B: "Felicity Huffman"
+      C: "Drea de Matteo"
+      D: "Marcia Cross"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Gabrielle Solis?"
+        answers:
+          A: "Eva Longoria"
+          B: "Felicity Huffman"
+          C: "Drea de Matteo"
+          D: "Marcia Cross"
+    difficulty: EASY
+  - text: "Quel personnage l'actrice Eva Longoria interprète-t-elle ?"
+    imageUrl: wikipedia/television/Eva_Longoria_SZ9_1450_(52476848986)_(cropped).jpg
+    answers:
+      A: "Gabrielle Solis"
+      B: "Angie Bolen"
+      C: "Susan Mayer"
+      D: "Lynette Scavo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does actress Eva Longoria play?"
+        answers:
+          A: "Gabrielle Solis"
+          B: "Angie Bolen"
+          C: "Susan Mayer"
+          D: "Lynette Scavo"
+    difficulty: EASY
+  - text: "Qui incarne Edie Britt ?"
+    imageUrl: wikipedia/television/Nicollette_Sheridan_at_the_Beowulf_premiere.jpg
+    answers:
+      A: "Dana Delany"
+      B: "Eva Longoria"
+      C: "Nicollette Sheridan"
+      D: "Felicity Huffman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Edie Britt?"
+        answers:
+          A: "Dana Delany"
+          B: "Eva Longoria"
+          C: "Nicollette Sheridan"
+          D: "Felicity Huffman"
+    difficulty: EASY
+  - text: "Quel rôle joue Nicollette Sheridan ?"
+    imageUrl: wikipedia/television/Nicollette_Sheridan_at_the_Beowulf_premiere.jpg
+    answers:
+      A: "Bree Van de Kamp"
+      B: "Edie Britt"
+      C: "Susan Mayer"
+      D: "Karen McCluskey"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What role does Nicollette Sheridan play?"
+        answers:
+          A: "Bree Van de Kamp"
+          B: "Edie Britt"
+          C: "Susan Mayer"
+          D: "Karen McCluskey"
+    difficulty: MEDIUM
+  - text: "Qui incarne Carlos Solis ?"
+    imageUrl: wikipedia/television/Ricardo_Chavira_Cannes.jpg
+    answers:
+      A: "James Denton"
+      B: "Ricardo Antonio Chavira"
+      C: "Doug Savant"
+      D: "Kyle MacLachlan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Carlos Solis?"
+        answers:
+          A: "James Denton"
+          B: "Ricardo Antonio Chavira"
+          C: "Doug Savant"
+          D: "Kyle MacLachlan"
+    difficulty: MEDIUM
+  - text: "Quel rôle joue Ricardo Antonio Chavira ?"
+    imageUrl: wikipedia/television/Ricardo_Chavira_Cannes.jpg
+    answers:
+      A: "Mike Delfino"
+      B: "Carlos Solis"
+      C: "Tom Scavo"
+      D: "Paul Young"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What role does Ricardo Antonio Chavira play?"
+        answers:
+          A: "Mike Delfino"
+          B: "Carlos Solis"
+          C: "Tom Scavo"
+          D: "Paul Young"
+    difficulty: MEDIUM
+  - text: "Qui incarne Mike Delfino ?"
+    imageUrl: wikipedia/television/2014_AHA_Hero_Dog_Awards_Celebrity_Hosts_James_Denton_and_Beth_Stern_cropped.jpg
+    answers:
+      A: "Doug Savant"
+      B: "Mark Moses"
+      C: "James Denton"
+      D: "Ricardo Antonio Chavira"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Mike Delfino?"
+        answers:
+          A: "Doug Savant"
+          B: "Mark Moses"
+          C: "James Denton"
+          D: "Ricardo Antonio Chavira"
+    difficulty: MEDIUM
+  - text: "Quel personnage l'acteur James Denton interprète-t-il ?"
+    imageUrl: wikipedia/television/2014_AHA_Hero_Dog_Awards_Celebrity_Hosts_James_Denton_and_Beth_Stern_cropped.jpg
+    answers:
+      A: "Mike Delfino"
+      B: "Carlos Solis"
+      C: "Orson Hodge"
+      D: "Tom Scavo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does actor James Denton play?"
+        answers:
+          A: "Mike Delfino"
+          B: "Carlos Solis"
+          C: "Orson Hodge"
+          D: "Tom Scavo"
+    difficulty: MEDIUM
+  - text: "Qui incarne Tom Scavo ?"
+    imageUrl: wikipedia/television/Doug_Savant_2009.jpg
+    answers:
+      A: "Kyle MacLachlan"
+      B: "Mark Moses"
+      C: "James Denton"
+      D: "Doug Savant"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who plays Tom Scavo?"
+        answers:
+          A: "Kyle MacLachlan"
+          B: "Mark Moses"
+          C: "James Denton"
+          D: "Doug Savant"
+    difficulty: MEDIUM
+  - text: "Quel personnage l'acteur Doug Savant interprète-t-il ?"
+    imageUrl: wikipedia/television/Doug_Savant_2009.jpg
+    answers:
+      A: "Tom Scavo"
+      B: "Mike Delfino"
+      C: "Carlos Solis"
+      D: "Paul Young"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does actor Doug Savant play?"
+        answers:
+          A: "Tom Scavo"
+          B: "Mike Delfino"
+          C: "Carlos Solis"
+          D: "Paul Young"
+    difficulty: MEDIUM
+  - text: "Qui incarne Orson Hodge ?"
+    imageUrl: wikipedia/television/Kyle_MacLachlan.jpg
+    answers:
+      A: "James Denton"
+      B: "Doug Savant"
+      C: "Kyle MacLachlan"
+      D: "Ricardo Antonio Chavira"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Orson Hodge?"
+        answers:
+          A: "James Denton"
+          B: "Doug Savant"
+          C: "Kyle MacLachlan"
+          D: "Ricardo Antonio Chavira"
+    difficulty: MEDIUM
+  - text: "Quel personnage l'acteur Kyle MacLachlan interprète-t-il ?"
+    imageUrl: wikipedia/television/Kyle_MacLachlan.jpg
+    answers:
+      A: "Mike Delfino"
+      B: "Carlos Solis"
+      C: "Tom Scavo"
+      D: "Orson Hodge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character does actor Kyle MacLachlan play?"
+        answers:
+          A: "Mike Delfino"
+          B: "Carlos Solis"
+          C: "Tom Scavo"
+          D: "Orson Hodge"
+    difficulty: MEDIUM
+  - text: "Qui incarne Katherine Mayfair ?"
+    imageUrl: wikipedia/television/Dana_Delany.jpg
+    answers:
+      A: "Dana Delany"
+      B: "Nicollette Sheridan"
+      C: "Vanessa Williams"
+      D: "Marcia Cross"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Katherine Mayfair?"
+        answers:
+          A: "Dana Delany"
+          B: "Nicollette Sheridan"
+          C: "Vanessa Williams"
+          D: "Marcia Cross"
+    difficulty: HARD
+  - text: "Quel personnage l'actrice Dana Delany interprète-t-elle ?"
+    imageUrl: wikipedia/television/Dana_Delany.jpg
+    answers:
+      A: "Katherine Mayfair"
+      B: "Renee Perry"
+      C: "Edie Britt"
+      D: "Bree Van de Kamp"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does actress Dana Delany play?"
+        answers:
+          A: "Katherine Mayfair"
+          B: "Renee Perry"
+          C: "Edie Britt"
+          D: "Bree Van de Kamp"
+    difficulty: HARD
+  - text: "Qui incarne Renee Perry ?"
+    imageUrl: wikipedia/television/Vanessa_Williams_homezfoo.jpg
+    answers:
+      A: "Vanessa Williams"
+      B: "Dana Delany"
+      C: "Alfre Woodard"
+      D: "Drea de Matteo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Renee Perry?"
+        answers:
+          A: "Vanessa Williams"
+          B: "Dana Delany"
+          C: "Alfre Woodard"
+          D: "Drea de Matteo"
+    difficulty: HARD
+  - text: "Quel personnage joue Vanessa Williams ?"
+    imageUrl: wikipedia/television/Vanessa_Williams_homezfoo.jpg
+    answers:
+      A: "Katherine Mayfair"
+      B: "Betty Applewhite"
+      C: "Renee Perry"
+      D: "Angie Bolen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character does Vanessa Williams play?"
+        answers:
+          A: "Katherine Mayfair"
+          B: "Betty Applewhite"
+          C: "Renee Perry"
+          D: "Angie Bolen"
+    difficulty: HARD
+  - text: "Qui incarne Betty Applewhite ?"
+    imageUrl: wikipedia/television/Alfre_Woodard_-_2019_02.jpg
+    answers:
+      A: "Vanessa Williams"
+      B: "Alfre Woodard"
+      C: "Brenda Strong"
+      D: "Kathryn Joosten"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Betty Applewhite?"
+        answers:
+          A: "Vanessa Williams"
+          B: "Alfre Woodard"
+          C: "Brenda Strong"
+          D: "Kathryn Joosten"
+    difficulty: HARD
+  - text: "Quel personnage l'actrice Alfre Woodard interprète-t-elle ?"
+    imageUrl: wikipedia/television/Alfre_Woodard_-_2019_02.jpg
+    answers:
+      A: "Betty Applewhite"
+      B: "Karen McCluskey"
+      C: "Renee Perry"
+      D: "Mary Alice Young"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does actress Alfre Woodard play?"
+        answers:
+          A: "Betty Applewhite"
+          B: "Karen McCluskey"
+          C: "Renee Perry"
+          D: "Mary Alice Young"
+    difficulty: HARD
+  - text: "Qui incarne Mary Alice Young, la narratrice de la série ?"
+    imageUrl: wikipedia/television/Brenda_Strong_at_PaleyFest_2013.jpg
+    answers:
+      A: "Marcia Cross"
+      B: "Brenda Strong"
+      C: "Felicity Huffman"
+      D: "Dana Delany"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Mary Alice Young, the show's narrator?"
+        answers:
+          A: "Marcia Cross"
+          B: "Brenda Strong"
+          C: "Felicity Huffman"
+          D: "Dana Delany"
+    difficulty: MEDIUM
+  - text: "Quel personnage l'actrice Brenda Strong interprète-t-elle ?"
+    imageUrl: wikipedia/television/Brenda_Strong_at_PaleyFest_2013.jpg
+    answers:
+      A: "Lynette Scavo"
+      B: "Bree Van de Kamp"
+      C: "Katherine Mayfair"
+      D: "Mary Alice Young"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character does actress Brenda Strong play?"
+        answers:
+          A: "Lynette Scavo"
+          B: "Bree Van de Kamp"
+          C: "Katherine Mayfair"
+          D: "Mary Alice Young"
+    difficulty: MEDIUM
+  - text: "Qui incarne Andrew Van de Kamp ?"
+    imageUrl: wikipedia/television/Shawn_Pyfrom_at_2007_GLAAD_Awards.jpg
+    answers:
+      A: "Shawn Pyfrom"
+      B: "Mark Moses"
+      C: "Ricardo Antonio Chavira"
+      D: "James Denton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Andrew Van de Kamp?"
+        answers:
+          A: "Shawn Pyfrom"
+          B: "Mark Moses"
+          C: "Ricardo Antonio Chavira"
+          D: "James Denton"
+    difficulty: HARD
+  - text: "Quel personnage l'acteur Shawn Pyfrom interprète-t-il ?"
+    imageUrl: wikipedia/television/Shawn_Pyfrom_at_2007_GLAAD_Awards.jpg
+    answers:
+      A: "Paul Young"
+      B: "Andrew Van de Kamp"
+      C: "Carlos Solis"
+      D: "Mike Delfino"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character does actor Shawn Pyfrom play?"
+        answers:
+          A: "Paul Young"
+          B: "Andrew Van de Kamp"
+          C: "Carlos Solis"
+          D: "Mike Delfino"
+    difficulty: HARD
+  - text: "Qui incarne Julie Mayer, la fille de Susan ?"
+    imageUrl: wikipedia/television/Andrea_Bowen_(2010).jpg
+    answers:
+      A: "Joy Lauren"
+      B: "Andrea Bowen"
+      C: "Lyndsy Fonseca"
+      D: "Maiara Walsh"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Julie Mayer, Susan's daughter?"
+        answers:
+          A: "Joy Lauren"
+          B: "Andrea Bowen"
+          C: "Lyndsy Fonseca"
+          D: "Maiara Walsh"
+    difficulty: HARD
+  - text: "Quel personnage l'actrice Andrea Bowen interprète-t-elle ?"
+    imageUrl: wikipedia/television/Andrea_Bowen_(2010).jpg
+    answers:
+      A: "Danielle Van de Kamp"
+      B: "Julie Mayer"
+      C: "Dylan Mayfair"
+      D: "Ana Solis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character does actress Andrea Bowen play?"
+        answers:
+          A: "Danielle Van de Kamp"
+          B: "Julie Mayer"
+          C: "Dylan Mayfair"
+          D: "Ana Solis"
+    difficulty: HARD
+  - text: "Qui incarne Paul Young ?"
+    imageUrl: wikipedia/television/Mark_Moses_2008.jpg
+    answers:
+      A: "Kyle MacLachlan"
+      B: "Mark Moses"
+      C: "Doug Savant"
+      D: "Shawn Pyfrom"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Paul Young?"
+        answers:
+          A: "Kyle MacLachlan"
+          B: "Mark Moses"
+          C: "Doug Savant"
+          D: "Shawn Pyfrom"
+    difficulty: HARD
+  - text: "Quel personnage l'acteur Mark Moses interprète-t-il ?"
+    imageUrl: wikipedia/television/Mark_Moses_2008.jpg
+    answers:
+      A: "Orson Hodge"
+      B: "Andrew Van de Kamp"
+      C: "Tom Scavo"
+      D: "Paul Young"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character does actor Mark Moses play?"
+        answers:
+          A: "Orson Hodge"
+          B: "Andrew Van de Kamp"
+          C: "Tom Scavo"
+          D: "Paul Young"
+    difficulty: HARD
+  - text: "Qui incarne Karen McCluskey, la voisine de Wisteria Lane ?"
+    imageUrl: wikipedia/television/Kathryn_Joosten_2009.jpg
+    answers:
+      A: "Lily Tomlin"
+      B: "Christine Estabrook"
+      C: "Kathryn Joosten"
+      D: "Brenda Strong"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Karen McCluskey, the neighbor on Wisteria Lane?"
+        answers:
+          A: "Lily Tomlin"
+          B: "Christine Estabrook"
+          C: "Kathryn Joosten"
+          D: "Brenda Strong"
+    difficulty: HARD
+  - text: "Quel rôle joue Kathryn Joosten ?"
+    imageUrl: wikipedia/television/Kathryn_Joosten_2009.jpg
+    answers:
+      A: "Karen McCluskey"
+      B: "Martha Huber"
+      C: "Roberta Simmons"
+      D: "Mary Alice Young"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What role does Kathryn Joosten play?"
+        answers:
+          A: "Karen McCluskey"
+          B: "Martha Huber"
+          C: "Roberta Simmons"
+          D: "Mary Alice Young"
+    difficulty: HARD
+  - text: "Qui incarne Angie Bolen ?"
+    imageUrl: wikipedia/television/Drea_De_Matteo_02_(16462583178).jpg
+    answers:
+      A: "Vanessa Williams"
+      B: "Drea de Matteo"
+      C: "Eva Longoria"
+      D: "Dana Delany"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Angie Bolen?"
+        answers:
+          A: "Vanessa Williams"
+          B: "Drea de Matteo"
+          C: "Eva Longoria"
+          D: "Dana Delany"
+    difficulty: EXPERT
+  - text: "Quel personnage l'actrice Drea de Matteo interprète-t-elle ?"
+    imageUrl: wikipedia/television/Drea_De_Matteo_02_(16462583178).jpg
+    answers:
+      A: "Angie Bolen"
+      B: "Renee Perry"
+      C: "Gabrielle Solis"
+      D: "Katherine Mayfair"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does actress Drea de Matteo play?"
+        answers:
+          A: "Angie Bolen"
+          B: "Renee Perry"
+          C: "Gabrielle Solis"
+          D: "Katherine Mayfair"
+    difficulty: EXPERT
+  - text: "Qui incarne John Rowland, le jeune jardinier ?"
+    imageUrl: wikipedia/television/Jesse_Metcalfe_at_PaleyFest_2013.jpg
+    answers:
+      A: "Shawn Pyfrom"
+      B: "Jesse Metcalfe"
+      C: "Ricardo Antonio Chavira"
+      D: "James Denton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays John Rowland, the young gardener?"
+        answers:
+          A: "Shawn Pyfrom"
+          B: "Jesse Metcalfe"
+          C: "Ricardo Antonio Chavira"
+          D: "James Denton"
+    difficulty: HARD
+  - text: "Quel personnage l'acteur Jesse Metcalfe interprète-t-il ?"
+    imageUrl: wikipedia/television/Jesse_Metcalfe_at_PaleyFest_2013.jpg
+    answers:
+      A: "Carlos Solis"
+      B: "Mike Delfino"
+      C: "John Rowland"
+      D: "Andrew Van de Kamp"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character does actor Jesse Metcalfe play?"
+        answers:
+          A: "Carlos Solis"
+          B: "Mike Delfino"
+          C: "John Rowland"
+          D: "Andrew Van de Kamp"
+    difficulty: HARD
+  - text: "Qui incarne Danielle Van de Kamp ?"
+    imageUrl: wikipedia/television/Joy_Lauren.jpg
+    answers:
+      A: "Joy Lauren"
+      B: "Andrea Bowen"
+      C: "Lyndsy Fonseca"
+      D: "Maiara Walsh"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Danielle Van de Kamp?"
+        answers:
+          A: "Joy Lauren"
+          B: "Andrea Bowen"
+          C: "Lyndsy Fonseca"
+          D: "Maiara Walsh"
+    difficulty: EXPERT
+  - text: "Quel personnage l'actrice Joy Lauren interprète-t-elle ?"
+    imageUrl: wikipedia/television/Joy_Lauren.jpg
+    answers:
+      A: "Julie Mayer"
+      B: "Dylan Mayfair"
+      C: "Danielle Van de Kamp"
+      D: "Ana Solis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character does actress Joy Lauren play?"
+        answers:
+          A: "Julie Mayer"
+          B: "Dylan Mayfair"
+          C: "Danielle Van de Kamp"
+          D: "Ana Solis"
+    difficulty: EXPERT
+  - text: "En quelle année la série Desperate Housewives a-t-elle été diffusée pour la première fois aux États-Unis ?"
+    answers:
+      A: "2002"
+      B: "2003"
+      C: "2004"
+      D: "2005"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the series Desperate Housewives first broadcast in the United States?"
+        answers:
+          A: "2002"
+          B: "2003"
+          C: "2004"
+          D: "2005"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de famille de Betty, la femme qui emménage à Wisteria Lane avec son fils Matthew ?"
+    answers:
+      A: "Britt"
+      B: "Mayfair"
+      C: "Applewhite"
+      D: "Hodge"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the last name of Betty, the woman who moves to Wisteria Lane with her son Matthew?"
+        answers:
+          A: "Britt"
+          B: "Mayfair"
+          C: "Applewhite"
+          D: "Hodge"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Rex Van de Kamp, le premier mari de Bree ?"
+    answers:
+      A: "Steven Culp"
+      B: "Roger Bart"
+      C: "Richard Burgi"
+      D: "Mark Moses"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Rex Van de Kamp, Bree's first husband?"
+        answers:
+          A: "Steven Culp"
+          B: "Roger Bart"
+          C: "Richard Burgi"
+          D: "Mark Moses"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Roger Bart ?"
+    answers:
+      A: "Paul Young"
+      B: "George Williams"
+      C: "Karl Mayer"
+      D: "Victor Lang"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is played by Roger Bart?"
+        answers:
+          A: "Paul Young"
+          B: "George Williams"
+          C: "Karl Mayer"
+          D: "Victor Lang"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier mari de Gabrielle ?"
+    answers:
+      A: "Bill Pearce"
+      B: "Victor Lang"
+      C: "John Rowland"
+      D: "Carlos Solis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Gabrielle's first husband?"
+        answers:
+          A: "Bill Pearce"
+          B: "Victor Lang"
+          C: "John Rowland"
+          D: "Carlos Solis"
+    difficulty: EASY
+  - text: "Dans quelle ville se déroule l'action de Desperate Housewives ?"
+    answers:
+      A: "Riverdale"
+      B: "Springfield"
+      C: "Fairview"
+      D: "Rosewood"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which city is Desperate Housewives set?"
+        answers:
+          A: "Riverdale"
+          B: "Springfield"
+          C: "Fairview"
+          D: "Rosewood"
+    difficulty: MEDIUM
+  - text: "Qui a créé la série Desperate Housewives ?"
+    answers:
+      A: "Marc Cherry"
+      B: "David Lynch"
+      C: "Aaron Spelling"
+      D: "Shonda Rhimes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who created Desperate Housewives?"
+        answers:
+          A: "Marc Cherry"
+          B: "David Lynch"
+          C: "Aaron Spelling"
+          D: "Shonda Rhimes"
+    difficulty: MEDIUM
+  - text: "Combien de saisons compte Desperate Housewives ?"
+    answers:
+      A: "6"
+      B: "8"
+      C: "7"
+      D: "9"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many seasons does Desperate Housewives have?"
+        answers:
+          A: "6"
+          B: "8"
+          C: "7"
+          D: "9"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du deuxième mari de Bree ?"
+    answers:
+      A: "George Williams"
+      B: "Orson Hodge"
+      C: "Karl Mayer"
+      D: "Keith Watson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Bree's second husband?"
+        answers:
+          A: "George Williams"
+          B: "Orson Hodge"
+          C: "Karl Mayer"
+          D: "Keith Watson"
+    difficulty: HARD
+  - text: "Quel personnage est interprété par Dana Delany ?"
+    answers:
+      A: "Renee Perry"
+      B: "Katherine Mayfair"
+      C: "Angie Bolen"
+      D: "Edie Britt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is played by Dana Delany?"
+        answers:
+          A: "Renee Perry"
+          B: "Katherine Mayfair"
+          C: "Angie Bolen"
+          D: "Edie Britt"
+    difficulty: HARD
+  - text: "Qui incarne Karl Mayer, l'avocat et ex-mari de Susan ?"
+    answers:
+      A: "Doug Savant"
+      B: "Kyle MacLachlan"
+      C: "Richard Burgi"
+      D: "James Denton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Karl Mayer, the lawyer and Susan's ex-husband?"
+        answers:
+          A: "Doug Savant"
+          B: "Kyle MacLachlan"
+          C: "Richard Burgi"
+          D: "James Denton"
+    difficulty: EXPERT
+  - text: "Quel rôle joue Alfre Woodard dans Desperate Housewives ?"
+    answers:
+      A: "Mary Alice Young"
+      B: "Renee Perry"
+      C: "Karen McCluskey"
+      D: "Betty Applewhite"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What role does Alfre Woodard play in Desperate Housewives?"
+        answers:
+          A: "Mary Alice Young"
+          B: "Renee Perry"
+          C: "Karen McCluskey"
+          D: "Betty Applewhite"
+    difficulty: HARD
+  - text: "Quel est le nom du fils aîné de Lynette et Tom ?"
+    answers:
+      A: "Porter"
+      B: "Preston"
+      C: "Porter et Preston sont jumeaux"
+      D: "Parker"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Lynette and Tom's eldest son?"
+        answers:
+          A: "Porter"
+          B: "Preston"
+          C: "Porter and Preston are twins"
+          D: "Parker"
+    difficulty: HARD
+  - text: "Quel acteur incarne Paul Young, le mari de Mary Alice ?"
+    answers:
+      A: "Steven Culp"
+      B: "Mark Moses"
+      C: "Roger Bart"
+      D: "Richard Burgi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Paul Young, Mary Alice's husband?"
+        answers:
+          A: "Steven Culp"
+          B: "Mark Moses"
+          C: "Roger Bart"
+          D: "Richard Burgi"
+    difficulty: HARD
+  - text: "Qui incarne Karen McCluskey, la voisine acariâtre ?"
+    answers:
+      A: "Cloris Leachman"
+      B: "Lily Tomlin"
+      C: "Kathryn Joosten"
+      D: "Polly Bergen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Karen McCluskey, the cantankerous neighbor?"
+        answers:
+          A: "Cloris Leachman"
+          B: "Lily Tomlin"
+          C: "Kathryn Joosten"
+          D: "Polly Bergen"
+    difficulty: HARD
+  - text: "Quel est le métier de Susan Mayer au début de la série ?"
+    answers:
+      A: "Illustratrice de livres pour enfants"
+      B: "Infirmière"
+      C: "Avocate"
+      D: "Professeure"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Susan Mayer's job at the beginning of the series?"
+        answers:
+          A: "Children's book illustrator"
+          B: "Nurse"
+          C: "Lawyer"
+          D: "Teacher"
+    difficulty: MEDIUM
+  - text: "Quel personnage est interprété par Vanessa Williams ?"
+    answers:
+      A: "Betty Applewhite"
+      B: "Angie Bolen"
+      C: "Katherine Mayfair"
+      D: "Renee Perry"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is played by Vanessa Williams?"
+        answers:
+          A: "Betty Applewhite"
+          B: "Angie Bolen"
+          C: "Katherine Mayfair"
+          D: "Renee Perry"
+    difficulty: HARD
+  - text: "Quel est le nom du restaurant que Tom Scavo ouvre dans la saison 4 ?"
+    answers:
+      A: "Chez Tom"
+      B: "The Bluebird"
+      C: "Bella Vista"
+      D: "Scavo's Pizzeria"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the restaurant Tom Scavo opens in season 4?"
+        answers:
+          A: "Chez Tom"
+          B: "The Bluebird"
+          C: "Bella Vista"
+          D: "Scavo's Pizzeria"
+    difficulty: EXPERT
+  - text: "Qui a interprété Mary Alice Young, la narratrice ?"
+    answers:
+      A: "Felicity Huffman"
+      B: "Nicollette Sheridan"
+      C: "Teri Hatcher"
+      D: "Brenda Strong"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who played Mary Alice Young, the narrator?"
+        answers:
+          A: "Felicity Huffman"
+          B: "Nicollette Sheridan"
+          C: "Teri Hatcher"
+          D: "Brenda Strong"
+    difficulty: HARD
+  - text: "Dans la saison 1, quel secret Mary Alice cache-t-elle concernant son fils Zach ?"
+    answers:
+      A: "Il est adopté illégalement"
+      B: "Il est le fils biologique de Paul"
+      C: "Il est le fils de Deirdre"
+      D: "Il a tué sa sœur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In season 1, what secret does Mary Alice hide about her son Zach?"
+        answers:
+          A: "He was illegally adopted"
+          B: "He is Paul's biological son"
+          C: "He is Deirdre's son"
+          D: "He killed his sister"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne George Williams, le pharmacien obsédé par Bree ?"
+    answers:
+      A: "Mark Moses"
+      B: "Steven Culp"
+      C: "Roger Bart"
+      D: "Doug Savant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays George Williams, the pharmacist obsessed with Bree?"
+        answers:
+          A: "Mark Moses"
+          B: "Steven Culp"
+          C: "Roger Bart"
+          D: "Doug Savant"
+    difficulty: EXPERT
+  - text: "En quelle année se déroule la saison 1 de Desperate Housewives ?"
+    answers:
+      A: "2002"
+      B: "2008"
+      C: "2006"
+      D: "2004"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year is season 1 of Desperate Housewives set?"
+        answers:
+          A: "2002"
+          B: "2008"
+          C: "2006"
+          D: "2004"
+    difficulty: EXPERT
+  - text: "Quel est le nom du deuxième mari de Gabrielle Solis ?"
+    answers:
+      A: "Carlos Solis"
+      B: "Victor Lang"
+      C: "John Rowland"
+      D: "Bill Pearce"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Gabrielle Solis's second husband?"
+        answers:
+          A: "Carlos Solis"
+          B: "Victor Lang"
+          C: "John Rowland"
+          D: "Bill Pearce"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Andrea Bowen ?"
+    answers:
+      A: "Andrew Van de Kamp"
+      B: "Danielle Van de Kamp"
+      C: "Porter Scavo"
+      D: "Julie Mayer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is played by Andrea Bowen?"
+        answers:
+          A: "Andrew Van de Kamp"
+          B: "Danielle Van de Kamp"
+          C: "Porter Scavo"
+          D: "Julie Mayer"
+    difficulty: HARD
+  - text: "Quel est le nom de la troisième Mrs. Solis, épousée par Carlos dans la saison 4 ?"
+    answers:
+      A: "Edie Britt"
+      B: "Carla Solis"
+      C: "Ellie Leonard"
+      D: "Gabrielle Marquez"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the third Mrs. Solis, married by Carlos in season 4?"
+        answers:
+          A: "Edie Britt"
+          B: "Carla Solis"
+          C: "Ellie Leonard"
+          D: "Gabrielle Marquez"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Andrew Van de Kamp à partir de la saison 2 ?"
+    answers:
+      A: "Zane Huett"
+      B: "Cody Kasch"
+      C: "Andrew Chafin"
+      D: "Shawn Pyfrom"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Andrew Van de Kamp from season 2 onward?"
+        answers:
+          A: "Zane Huett"
+          B: "Cody Kasch"
+          C: "Andrew Chafin"
+          D: "Shawn Pyfrom"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Brenda Strong ?"
+    answers:
+      A: "Martha Huber"
+      B: "Mary Alice Young"
+      C: "Felicia Tilman"
+      D: "Karen McCluskey"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is played by Brenda Strong?"
+        answers:
+          A: "Martha Huber"
+          B: "Mary Alice Young"
+          C: "Felicia Tilman"
+          D: "Karen McCluskey"
+    difficulty: HARD
+  - text: "Quel est le nom de la deuxième femme de Rex Van de Kamp ?"
+    answers:
+      A: "Bree"
+      B: "Maisy"
+      C: "Lillian"
+      D: "Phyllis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Rex Van de Kamp's second wife?"
+        answers:
+          A: "Bree"
+          B: "Maisy"
+          C: "Lillian"
+          D: "Phyllis"
+    difficulty: EXPERT
+  - text: "Dans quelle saison Edie Britt se suicide-t-elle après avoir été laissée par Mike ?"
+    answers:
+      A: "Saison 2"
+      B: "Saison 3"
+      C: "Saison 5"
+      D: "Saison 4"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which season does Edie Britt commit suicide after being left by Mike?"
+        answers:
+          A: "Season 2"
+          B: "Season 3"
+          C: "Season 5"
+          D: "Season 4"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Carlos Solis ?"
+    answers:
+      A: "Doug Savant"
+      B: "James Denton"
+      C: "Ricardo Antonio Chavira"
+      D: "Kyle MacLachlan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Carlos Solis?"
+        answers:
+          A: "Doug Savant"
+          B: "James Denton"
+          C: "Ricardo Antonio Chavira"
+          D: "Kyle MacLachlan"
+    difficulty: HARD
+  - text: "Quel est le nom du bébé que Gabrielle et Carlos adoptent dans la saison 5 ?"
+    answers:
+      A: "Celia"
+      B: "Juanita"
+      C: "Lily"
+      D: "Grace"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the baby Gabrielle and Carlos adopt in season 5?"
+        answers:
+          A: "Celia"
+          B: "Juanita"
+          C: "Lily"
+          D: "Grace"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Kyle MacLachlan ?"
+    answers:
+      A: "Karl Mayer"
+      B: "Paul Young"
+      C: "Rex Van de Kamp"
+      D: "Orson Hodge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is played by Kyle MacLachlan?"
+        answers:
+          A: "Karl Mayer"
+          B: "Paul Young"
+          C: "Rex Van de Kamp"
+          D: "Orson Hodge"
+    difficulty: HARD
+  - text: "Quel acteur incarne Mike Delfino ?"
+    answers:
+      A: "Roger Bart"
+      B: "Doug Savant"
+      C: "Ricardo Antonio Chavira"
+      D: "James Denton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Mike Delfino?"
+        answers:
+          A: "Roger Bart"
+          B: "Doug Savant"
+          C: "Ricardo Antonio Chavira"
+          D: "James Denton"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la sœur de Lynette, avec qui Tom a une aventure ?"
+    answers:
+      A: "Nora"
+      B: "Peggy"
+      C: "Stella"
+      D: "Lydia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Lynette's sister, with whom Tom has an affair?"
+        answers:
+          A: "Nora"
+          B: "Peggy"
+          C: "Stella"
+          D: "Lydia"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Marcia Cross ?"
+    answers:
+      A: "Susan Mayer"
+      B: "Bree Van de Kamp"
+      C: "Lynette Scavo"
+      D: "Gabrielle Solis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is played by Marcia Cross?"
+        answers:
+          A: "Susan Mayer"
+          B: "Bree Van de Kamp"
+          C: "Lynette Scavo"
+          D: "Gabrielle Solis"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier mari de Susan Mayer ?"
+    answers:
+      A: "Karl Mayer"
+      B: "Mike Delfino"
+      C: "Jackson Braddock"
+      D: "Ian Hainsworth"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Susan Mayer's first husband?"
+        answers:
+          A: "Karl Mayer"
+          B: "Mike Delfino"
+          C: "Jackson Braddock"
+          D: "Ian Hainsworth"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Victor Lang, le mari de Gabrielle dans la saison 3 ?"
+    answers:
+      A: "John Slattery"
+      B: "Richard Burgi"
+      C: "Jason Gedrick"
+      D: "Gale Harold"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Victor Lang, Gabrielle's husband in season 3?"
+        answers:
+          A: "John Slattery"
+          B: "Richard Burgi"
+          C: "Jason Gedrick"
+          D: "Gale Harold"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Felicity Huffman ?"
+    answers:
+      A: "Lynette Scavo"
+      B: "Bree Van de Kamp"
+      C: "Susan Mayer"
+      D: "Gabrielle Solis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is played by Felicity Huffman?"
+        answers:
+          A: "Lynette Scavo"
+          B: "Bree Van de Kamp"
+          C: "Susan Mayer"
+          D: "Gabrielle Solis"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la femme de Paul Young qui emménage avec lui dans la saison 2 ?"
+    answers:
+      A: "Zach"
+      B: "Mary Alice"
+      C: "Dierdre"
+      D: "Martha"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Paul Young's wife who moves in with him in season 2?"
+        answers:
+          A: "Zach"
+          B: "Mary Alice"
+          C: "Dierdre"
+          D: "Martha"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier mari de Gabrielle Solis ?"
+    answers:
+      A: "Carlos Solis"
+      B: "Victor Lang"
+      C: "John Rowland"
+      D: "Bill Pearce"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Gabrielle Solis's first husband?"
+        answers:
+          A: "Carlos Solis"
+          B: "Victor Lang"
+          C: "John Rowland"
+          D: "Bill Pearce"
+    difficulty: HARD
+  - text: "Quel est le nom de famille de Susan Mayer dans la saison 1 ?"
+    answers:
+      A: "Delfino"
+      B: "Hodge"
+      C: "Britt"
+      D: "Mayer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Susan Mayer's last name in season 1?"
+        answers:
+          A: "Delfino"
+          B: "Hodge"
+          C: "Britt"
+          D: "Mayer"
+    difficulty: HARD
+  - text: "Quel est le nom du mari de Bree dans la saison 1 ?"
+    answers:
+      A: "Orson Hodge"
+      B: "George Williams"
+      C: "Rex Van de Kamp"
+      D: "Karl Mayer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Bree's husband in season 1?"
+        answers:
+          A: "Orson Hodge"
+          B: "George Williams"
+          C: "Rex Van de Kamp"
+          D: "Karl Mayer"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du fils aîné de Lynette et Tom Scavo ?"
+    answers:
+      A: "Porter"
+      B: "Preston"
+      C: "Porter et Preston sont jumeaux"
+      D: "Parker"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Lynette and Tom Scavo's eldest son?"
+        answers:
+          A: "Porter"
+          B: "Preston"
+          C: "Porter and Preston are twins"
+          D: "Parker"
+    difficulty: HARD
+  - text: "Quel est le métier de Mike Delfino dans la saison 1 ?"
+    answers:
+      A: "Peintre"
+      B: "Électricien"
+      C: "Menuisier"
+      D: "Plombier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Mike Delfino's job in season 1?"
+        answers:
+          A: "Painter"
+          B: "Electrician"
+          C: "Carpenter"
+          D: "Plumber"
+    difficulty: HARD
+  - text: "Quel acteur incarne Karl Mayer, l'avocat et ex-mari de Susan ?"
+    answers:
+      A: "Doug Savant"
+      B: "Kyle MacLachlan"
+      C: "James Denton"
+      D: "Richard Burgi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Karl Mayer, the lawyer and Susan's ex-husband?"
+        answers:
+          A: "Doug Savant"
+          B: "Kyle MacLachlan"
+          C: "James Denton"
+          D: "Richard Burgi"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Alfre Woodard ?"
+    answers:
+      A: "Angie Bolen"
+      B: "Renee Perry"
+      C: "Katherine Mayfair"
+      D: "Betty Applewhite"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is played by Alfre Woodard?"
+        answers:
+          A: "Angie Bolen"
+          B: "Renee Perry"
+          C: "Katherine Mayfair"
+          D: "Betty Applewhite"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe musical que Susan et Edie rejoignent brièvement dans la saison 4 ?"
+    answers:
+      A: "The Wisteria Lane Choir"
+      B: "The Desperate Housewives"
+      C: "The Scavos Band"
+      D: "The Mary Alice Singers"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the musical group Susan and Edie briefly join in season 4?"
+        answers:
+          A: "The Wisteria Lane Choir"
+          B: "The Desperate Housewives"
+          C: "The Scavos Band"
+          D: "The Mary Alice Singers"
+    difficulty: EXPERT
+  - text: "Quel personnage est empoisonné par George Williams dans la saison 1 ?"
+    answers:
+      A: "Carlos Solis"
+      B: "Rex Van de Kamp"
+      C: "Mike Delfino"
+      D: "Paul Young"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is poisoned by George Williams in season 1?"
+        answers:
+          A: "Carlos Solis"
+          B: "Rex Van de Kamp"
+          C: "Mike Delfino"
+          D: "Paul Young"
+    difficulty: HARD
+  - text: "Dans quelle saison Bree découvre-t-elle qu'Orson a renversé Mike avec sa voiture ?"
+    answers:
+      A: "Saison 3"
+      B: "Saison 2"
+      C: "Saison 4"
+      D: "Saison 5"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which season does Bree discover that Orson ran over Mike with his car?"
+        answers:
+          A: "Season 3"
+          B: "Season 2"
+          C: "Season 4"
+          D: "Season 5"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la tumeur cérébrale qui affecte Lynette dans la saison 6 ?"
+    answers:
+      A: "Gliome"
+      B: "Méningiome"
+      C: "Lymphome"
+      D: "Carcinome"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the brain tumor that affects Lynette in season 6?"
+        answers:
+          A: "Glioma"
+          B: "Meningioma"
+          C: "Lymphoma"
+          D: "Carcinoma"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du frère de Gabrielle Solis qui apparaît dans la saison 5 ?"
+    answers:
+      A: "Alejandro"
+      B: "Diego"
+      C: "Juan"
+      D: "Carlos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Gabrielle Solis's brother who appears in season 5?"
+        answers:
+          A: "Alejandro"
+          B: "Diego"
+          C: "Juan"
+          D: "Carlos"
+    difficulty: EXPERT
+  - text: "Quel personnage est assassiné par son mari dans la saison 1, déclenchant l'intrigue principale ?"
+    answers:
+      A: "Mary Alice Young"
+      B: "Martha Huber"
+      C: "Deirdre Taylor"
+      D: "Rex Van de Kamp"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is murdered by her husband in season 1, triggering the main plot?"
+        answers:
+          A: "Mary Alice Young"
+          B: "Martha Huber"
+          C: "Deirdre Taylor"
+          D: "Rex Van de Kamp"
+    difficulty: HARD
+  - text: "Quel est le nom du bar où les hommes de Wisteria Lane se retrouvent souvent ?"
+    answers:
+      A: "The Blue Moon"
+      B: "The Saddle Ranch"
+      C: "The Iron Gate"
+      D: "The White Horse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the bar where the men of Wisteria Lane often meet?"
+        answers:
+          A: "The Blue Moon"
+          B: "The Saddle Ranch"
+          C: "The Iron Gate"
+          D: "The White Horse"
+    difficulty: EXPERT
+  - text: "Quel personnage découvre le corps de Mary Alice Young après son suicide ?"
+    answers:
+      A: "Susan Mayer"
+      B: "Bree Van de Kamp"
+      C: "Lynette Scavo"
+      D: "Gabrielle Solis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character discovers Mary Alice Young's body after her suicide?"
+        answers:
+          A: "Susan Mayer"
+          B: "Bree Van de Kamp"
+          C: "Lynette Scavo"
+          D: "Gabrielle Solis"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la seconde épouse de Paul Young dans la saison 2 ?"
+    answers:
+      A: "Zach"
+      B: "Felicia"
+      C: "Mary Alice"
+      D: "Beth"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Paul Young's second wife in season 2?"
+        answers:
+          A: "Zach"
+          B: "Felicia"
+          C: "Mary Alice"
+          D: "Beth"
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par Orson Hodge dans la saison 3 ?"
+    answers:
+      A: "Carolyn Bigsby"
+      B: "Alma Hodge"
+      C: "Gloria Hodge"
+      D: "Monique Polier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is killed by Orson Hodge in season 3?"
+        answers:
+          A: "Carolyn Bigsby"
+          B: "Alma Hodge"
+          C: "Gloria Hodge"
+          D: "Monique Polier"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'entreprise de nettoyage que Lynette crée dans la saison 7 ?"
+    answers:
+      A: "Scavo Cleaning"
+      B: "Lynette's Maids"
+      C: "Clean Sweep"
+      D: "The Happy Housekeeper"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the cleaning company Lynette starts in season 7?"
+        answers:
+          A: "Scavo Cleaning"
+          B: "Lynette's Maids"
+          C: "Clean Sweep"
+          D: "The Happy Housekeeper"
+    difficulty: EXPERT
+  - text: "Quel personnage est interprété par Joy Lauren ?"
+    answers:
+      A: "Danielle Van de Kamp"
+      B: "Julie Mayer"
+      C: "Porter Scavo"
+      D: "Andrew Van de Kamp"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is played by Joy Lauren?"
+        answers:
+          A: "Danielle Van de Kamp"
+          B: "Julie Mayer"
+          C: "Porter Scavo"
+          D: "Andrew Van de Kamp"
+    difficulty: EXPERT
+  - text: "Quel est le nom du bébé que Susan et Mike ont ensemble dans la saison 6 ?"
+    answers:
+      A: "Maynard"
+      B: "MJ"
+      C: "Tyler"
+      D: "Evan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the baby Susan and Mike have together in season 6?"
+        answers:
+          A: "Maynard"
+          B: "MJ"
+          C: "Tyler"
+          D: "Evan"
+    difficulty: EXPERT
+  - text: "Quel personnage est assassiné lors de l'émeute dans la saison 8 ?"
+    answers:
+      A: "Mike Delfino"
+      B: "Chuck Vance"
+      C: "Alejandro Perez"
+      D: "Karen McCluskey"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is murdered during the riot in season 8?"
+        answers:
+          A: "Mike Delfino"
+          B: "Chuck Vance"
+          C: "Alejandro Perez"
+          D: "Karen McCluskey"
+    difficulty: EXPERT

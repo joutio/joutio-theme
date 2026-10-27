@@ -1,0 +1,1631 @@
+topic:
+  id: topic-fromages-et-terroirs
+  names:
+    fr: "Fromages & terroirs"
+    en: "Cheeses & Local Products"
+  description: "Des fromages emblématiques aux terroirs qui les ont vus naître : camembert de Normandie, brie de Meaux, roquefort, comté, chèvres du Berry, munster, reblochon ou tomme de Savoie. Un parcours entre laits de vache, de brebis et de chèvre, savoir-faire de fabrication, affinage et appellations AOP/IGP. Testez vos connaissances sur les régions, les formes et les secrets des fromages français."
+  category: FOOD_AND_DRINK
+  titles:
+    fr:
+      FER: "Croûte Fleurie"
+      BRONZE: "P'tit Affineur"
+      ARGENT: "Tâteur de Meules"
+      OR: "Brebis Éclairée"
+      PLATINE: "Maître Affineur"
+      EMERAUDE: "Grand Fromager"
+      DIAMANT: "Pape du Roquefort"
+    en:
+      FER: "Soft Rind Rookie"
+      BRONZE: "Little Ager"
+      ARGENT: "Wheel Tapper"
+      OR: "Ewe-phoric"
+      PLATINE: "Master Ager"
+      EMERAUDE: "Grand Cheesemonger"
+      DIAMANT: "Roquefort Royalty"
+  imageUrl: wikipedia/food-and-drink/(20251230)_Camembert_cheese_01.jpg
+questions:
+  - text: "Quel fromage AOP de Normandie est fabriqué exclusivement avec du lait cru et moulé à la main ?"
+    answers:
+      A: "Pont-l'Évêque"
+      B: "Camembert de Normandie"
+      C: "Livarot"
+      D: "Neufchâtel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy is made exclusively with raw milk and hand-molded?"
+        answers:
+          A: "Pont-l'Évêque"
+          B: "Camembert de Normandie"
+          C: "Livarot"
+          D: "Neufchâtel"
+    difficulty: MEDIUM
+  - text: "Quel fromage au lait cru de vache est affiné dans des caves à une température d'environ 10°C et une humidité de 90% ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Reblochon"
+      C: "Munster"
+      D: "Cantal"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which raw cow's milk cheese is aged in cellars at about 10°C and 90% humidity?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Reblochon"
+          C: "Munster"
+          D: "Cantal"
+    difficulty: EXPERT
+  - text: "Quel fromage de chèvre du Berry est traditionnellement vendu sous forme de petits palets couverts de cendre ?"
+    answers:
+      A: "Sainte-Maure de Touraine"
+      B: "Valençay"
+      C: "Chabichou du Poitou"
+      D: "Crottin de Chavignol"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which goat cheese from Berry is traditionally sold as small discs covered in ash?"
+        answers:
+          A: "Sainte-Maure de Touraine"
+          B: "Valençay"
+          C: "Chabichou du Poitou"
+          D: "Crottin de Chavignol"
+    difficulty: HARD
+  - text: "Quel fromage AOP est exclusivement fabriqué avec du lait de brebis dans la région de Roquefort-sur-Soulzon ?"
+    answers:
+      A: "Ossau-Iraty"
+      B: "Pélardon"
+      C: "Brocciu"
+      D: "Roquefort"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese is made exclusively with sheep's milk in the Roquefort-sur-Soulzon region?"
+        answers:
+          A: "Ossau-Iraty"
+          B: "Pélardon"
+          C: "Brocciu"
+          D: "Roquefort"
+    difficulty: EASY
+  - text: "Quel fromage AOP de Bourgogne est fabriqué avec du lait de chèvre et a une forme de petit cylindre ?"
+    answers:
+      A: "Charolais"
+      B: "Chabichou du Poitou"
+      C: "Mâconnais"
+      D: "Crottin de Chavignol"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from Burgundy is made with goat's milk and shaped like a small cylinder?"
+        answers:
+          A: "Charolais"
+          B: "Chabichou du Poitou"
+          C: "Mâconnais"
+          D: "Crottin de Chavignol"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP au lait cru de vache est originaire de la région de Thônes, en Haute-Savoie, et a une forme de disque fin ?"
+    answers:
+      A: "Reblochon"
+      B: "Tomme de Savoie"
+      C: "Abondance"
+      D: "Beaufort"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP raw cow's milk cheese originates from the Thônes region in Haute-Savoie and is shaped like a thin disc?"
+        answers:
+          A: "Reblochon"
+          B: "Tomme de Savoie"
+          C: "Abondance"
+          D: "Beaufort"
+    difficulty: HARD
+  - text: "Quel fromage normand a une boîte ronde en bois ?"
+    imageUrl: wikipedia/food-and-drink/Camembert1.jpg
+    answers:
+      A: "Le livarot"
+      B: "Le pont-l'évêque"
+      C: "Le neufchâtel"
+      D: "Le camembert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Norman cheese comes in a round wooden box?"
+        answers:
+          A: "Le livarot"
+          B: "Le pont-l'évêque"
+          C: "Le neufchâtel"
+          D: "Le camembert"
+    difficulty: EASY
+  - text: "Quel fromage AOP de Normandie est lavé à la saumure et a une couleur orangée caractéristique ?"
+    answers:
+      A: "Camembert de Normandie"
+      B: "Pont-l'Évêque"
+      C: "Livarot"
+      D: "Neufchâtel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy is washed in brine and has a characteristic orange color?"
+        answers:
+          A: "Camembert de Normandie"
+          B: "Pont-l'Évêque"
+          C: "Livarot"
+          D: "Neufchâtel"
+    difficulty: EASY
+  - text: "Quel fromage AOP de Savoie est fabriqué en alpage et affiné au moins 5 mois ?"
+    answers:
+      A: "Beaufort"
+      B: "Comté"
+      C: "Abondance"
+      D: "Emmental de Savoie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese from Savoie is made in mountain pastures and aged at least 5 months?"
+        answers:
+          A: "Beaufort"
+          B: "Comté"
+          C: "Abondance"
+          D: "Emmental de Savoie"
+    difficulty: HARD
+  - text: "Quel fromage AOP du Massif central est fabriqué avec du lait cru de vache et a une forme de cylindre plat ?"
+    answers:
+      A: "Salers"
+      B: "Fourme d'Ambert"
+      C: "Saint-Nectaire"
+      D: "Cantal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from the Massif Central is made with raw cow's milk and shaped like a flat cylinder?"
+        answers:
+          A: "Salers"
+          B: "Fourme d'Ambert"
+          C: "Saint-Nectaire"
+          D: "Cantal"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Corse est fabriqué avec du lait de brebis et parfois de chèvre ?"
+    answers:
+      A: "Brocciu"
+      B: "Brousse du Rove"
+      C: "Pélardon"
+      D: "Venaco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese from Corsica is made with sheep's milk and sometimes goat's milk?"
+        answers:
+          A: "Brocciu"
+          B: "Brousse du Rove"
+          C: "Pélardon"
+          D: "Venaco"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP du Poitou est exclusivement fabriqué avec du lait de chèvre et a une forme de petit tronc de cône ?"
+    answers:
+      A: "Valençay"
+      B: "Sainte-Maure de Touraine"
+      C: "Crottin de Chavignol"
+      D: "Chabichou du Poitou"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from Poitou is made exclusively with goat's milk and shaped like a small truncated cone?"
+        answers:
+          A: "Valençay"
+          B: "Sainte-Maure de Touraine"
+          C: "Crottin de Chavignol"
+          D: "Chabichou du Poitou"
+    difficulty: HARD
+  - text: "Quel fromage AOP des Pyrénées est fabriqué avec du lait de brebis et affiné au moins 2 mois ?"
+    answers:
+      A: "Roquefort"
+      B: "Ossau-Iraty"
+      C: "Pélardon"
+      D: "Tomme des Pyrénées"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from the Pyrenees is made with sheep's milk and aged at least 2 months?"
+        answers:
+          A: "Roquefort"
+          B: "Ossau-Iraty"
+          C: "Pélardon"
+          D: "Tomme des Pyrénées"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Normandie a la forme d'un cœur et est fabriqué avec du lait de vache ?"
+    answers:
+      A: "Pont-l'Évêque"
+      B: "Livarot"
+      C: "Neufchâtel"
+      D: "Camembert de Normandie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy is heart-shaped and made with cow's milk?"
+        answers:
+          A: "Pont-l'Évêque"
+          B: "Livarot"
+          C: "Neufchâtel"
+          D: "Camembert de Normandie"
+    difficulty: EASY
+  - text: "Quel fromage AOP d'Auvergne est fabriqué avec du lait de vache et a une croûte fleurie blanche ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Bleu d'Auvergne"
+      C: "Fourme d'Ambert"
+      D: "Cantal"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese from Auvergne is made with cow's milk and has a white bloomy rind?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Bleu d'Auvergne"
+          C: "Fourme d'Ambert"
+          D: "Cantal"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Bourgogne est fabriqué avec du lait de vache et a une pâte persillée ?"
+    answers:
+      A: "Bleu de Gex"
+      B: "Bleu du Vercors-Sassenage"
+      C: "Fourme d'Ambert"
+      D: "Bleu de Bresse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Burgundy is made with cow's milk and has blue veins?"
+        answers:
+          A: "Bleu de Gex"
+          B: "Bleu du Vercors-Sassenage"
+          C: "Fourme d'Ambert"
+          D: "Bleu de Bresse"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP de Franche-Comté est fabriqué avec du lait de vache et affiné au moins 4 mois ?"
+    answers:
+      A: "Morbier"
+      B: "Comté"
+      C: "Mont d'Or"
+      D: "Bleu de Gex"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Franche-Comté is made with cow's milk and aged at least 4 months?"
+        answers:
+          A: "Morbier"
+          B: "Comté"
+          C: "Mont d'Or"
+          D: "Bleu de Gex"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Savoie est fabriqué avec du lait de vache et a une croûte grattée ?"
+    answers:
+      A: "Reblochon"
+      B: "Beaufort"
+      C: "Abondance"
+      D: "Tomme de Savoie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from Savoie is made with cow's milk and has a scraped rind?"
+        answers:
+          A: "Reblochon"
+          B: "Beaufort"
+          C: "Abondance"
+          D: "Tomme de Savoie"
+    difficulty: HARD
+  - text: "Quel fromage AOP du Jura est fabriqué avec du lait de vache et a une croûte lavée ?"
+    answers:
+      A: "Mont d'Or"
+      B: "Morbier"
+      C: "Comté"
+      D: "Bleu de Gex"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese from the Jura is made with cow's milk and has a washed rind?"
+        answers:
+          A: "Mont d'Or"
+          B: "Morbier"
+          C: "Comté"
+          D: "Bleu de Gex"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Haute-Savoie est fabriqué avec du lait de vache et a une pâte pressée cuite ?"
+    answers:
+      A: "Abondance"
+      B: "Reblochon"
+      C: "Beaufort"
+      D: "Tomme de Savoie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Haute-Savoie is made with cow's milk and is a pressed cooked cheese?"
+        answers:
+          A: "Abondance"
+          B: "Reblochon"
+          C: "Beaufort"
+          D: "Tomme de Savoie"
+    difficulty: MEDIUM
+  - text: "Où le roquefort est-il traditionnellement affiné ?"
+    imageUrl: wikipedia/food-and-drink/Cave_a_Roquefort_6.jpg
+    answers:
+      A: "Dans les caves de Laguiole"
+      B: "Dans les caves naturelles de Roquefort-sur-Soulzon"
+      C: "Dans les caves d'Ambert"
+      D: "Dans les caves de Munster"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where is Roquefort traditionally aged?"
+        answers:
+          A: "In the caves of Laguiole"
+          B: "In the natural caves of Roquefort-sur-Soulzon"
+          C: "In the caves of Ambert"
+          D: "In the caves of Munster"
+    difficulty: EASY
+  - text: "Quel fromage AOP du Berry est fabriqué avec du lait de chèvre et a une forme de pyramide tronquée ?"
+    answers:
+      A: "Crottin de Chavignol"
+      B: "Valençay"
+      C: "Sainte-Maure de Touraine"
+      D: "Chabichou du Poitou"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Berry is made with goat's milk and shaped like a truncated pyramid?"
+        answers:
+          A: "Crottin de Chavignol"
+          B: "Valençay"
+          C: "Sainte-Maure de Touraine"
+          D: "Chabichou du Poitou"
+    difficulty: HARD
+  - text: "En quelle année le roquefort a-t-il obtenu son AOC ?"
+    answers:
+      A: "1925"
+      B: "1926"
+      C: "1927"
+      D: "1928"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Roquefort obtain its AOC?"
+        answers:
+          A: "1925"
+          B: "1926"
+          C: "1927"
+          D: "1928"
+    difficulty: EXPERT
+  - text: "Quel est le pourcentage minimal de matière grasse dans la matière sèche du camembert de Normandie AOP ?"
+    answers:
+      A: "40%"
+      B: "45%"
+      C: "50%"
+      D: "55%"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum fat content in the dry matter of Camembert de Normandie AOP?"
+        answers:
+          A: "40%"
+          B: "45%"
+          C: "50%"
+          D: "55%"
+    difficulty: EXPERT
+  - text: "Quel est le poids moyen d'un camembert de Normandie AOP ?"
+    answers:
+      A: "250 g"
+      B: "200 g"
+      C: "150 g"
+      D: "300 g"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the average weight of a Camembert de Normandie AOP?"
+        answers:
+          A: "250 g"
+          B: "200 g"
+          C: "150 g"
+          D: "300 g"
+    difficulty: EXPERT
+  - text: "Durée minimale d'affinage du brie de Meaux AOP ?"
+    answers:
+      A: "2 semaines"
+      B: "8 semaines"
+      C: "6 semaines"
+      D: "4 semaines"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Minimum aging time for Brie de Meaux AOP?"
+        answers:
+          A: "2 weeks"
+          B: "8 weeks"
+          C: "6 weeks"
+          D: "4 weeks"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est produit dans le département de l'Aveyron ?"
+    answers:
+      A: "Roquefort"
+      B: "Saint-Nectaire"
+      C: "Cantal"
+      D: "Laguiole"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Aveyron department?"
+        answers:
+          A: "Roquefort"
+          B: "Saint-Nectaire"
+          C: "Cantal"
+          D: "Laguiole"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP du Jura est affiné au moins 3 mois et a une pâte pressée non cuite ?"
+    answers:
+      A: "Comté"
+      B: "Mont d'Or"
+      C: "Bleu de Gex"
+      D: "Morbier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from the Jura is aged at least 3 months and is a pressed uncooked cheese?"
+        answers:
+          A: "Comté"
+          B: "Mont d'Or"
+          C: "Bleu de Gex"
+          D: "Morbier"
+    difficulty: HARD
+  - text: "Quel fromage AOP du Berry est exclusivement fabriqué avec du lait de chèvre ?"
+    answers:
+      A: "Valençay"
+      B: "Crottin de Chavignol"
+      C: "Sainte-Maure de Touraine"
+      D: "Selles-sur-Cher"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Berry is made exclusively with goat's milk?"
+        answers:
+          A: "Valençay"
+          B: "Crottin de Chavignol"
+          C: "Sainte-Maure de Touraine"
+          D: "Selles-sur-Cher"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP savoyard est produit avec du lait cru de vache et a une pâte pressée cuite ?"
+    answers:
+      A: "Tomme de Savoie"
+      B: "Abondance"
+      C: "Reblochon"
+      D: "Beaufort"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Savoyard AOP cheese is made with raw cow's milk and is a pressed cooked cheese?"
+        answers:
+          A: "Tomme de Savoie"
+          B: "Abondance"
+          C: "Reblochon"
+          D: "Beaufort"
+    difficulty: HARD
+  - text: "Quel fromage AOP normand a une croûte lavée et est fabriqué avec du lait cru de vache ?"
+    answers:
+      A: "Camembert de Normandie"
+      B: "Pont-l'Évêque"
+      C: "Neufchâtel"
+      D: "Livarot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Norman AOP cheese has a washed rind and is made with raw cow's milk?"
+        answers:
+          A: "Camembert de Normandie"
+          B: "Pont-l'Évêque"
+          C: "Neufchâtel"
+          D: "Livarot"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP du Massif central est affiné au moins 8 mois ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Cantal"
+      C: "Fourme d'Ambert"
+      D: "Bleu d'Auvergne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from the Massif Central is aged at least 8 months?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Cantal"
+          C: "Fourme d'Ambert"
+          D: "Bleu d'Auvergne"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP de Corse est fabriqué avec du lait de brebis et affiné au moins 6 mois ?"
+    answers:
+      A: "Calenzana"
+      B: "Brocciu"
+      C: "Niolu"
+      D: "Venaco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Corsican AOP cheese is made with sheep's milk and aged at least 6 months?"
+        answers:
+          A: "Calenzana"
+          B: "Brocciu"
+          C: "Niolu"
+          D: "Venaco"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP du Poitou est fabriqué exclusivement avec du lait de chèvre et a une forme de pyramide tronquée ?"
+    answers:
+      A: "Mothais sur feuille"
+      B: "Chabichou du Poitou"
+      C: "Bougon"
+      D: "Chèvre du Poitou"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Poitou is made exclusively with goat's milk and has the shape of a truncated pyramid?"
+        answers:
+          A: "Mothais sur feuille"
+          B: "Chabichou du Poitou"
+          C: "Bougon"
+          D: "Chèvre du Poitou"
+    difficulty: HARD
+  - text: "Quel fromage AOP des Pyrénées est fabriqué avec du lait de brebis et affiné au moins 3 mois ?"
+    answers:
+      A: "Tomme des Pyrénées"
+      B: "Ossau-Iraty"
+      C: "Bethmale"
+      D: "Roquefort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pyrenean AOP cheese is made with sheep's milk and aged at least 3 months?"
+        answers:
+          A: "Tomme des Pyrénées"
+          B: "Ossau-Iraty"
+          C: "Bethmale"
+          D: "Roquefort"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Bourgogne est produit avec du lait de vache et a une pâte persillée ?"
+    answers:
+      A: "Bleu du Haut-Jura"
+      B: "Bleu de Bresse"
+      C: "Bleu de Gex"
+      D: "Bleu de Bourgogne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Burgundy AOP cheese is made with cow's milk and has blue-veined paste?"
+        answers:
+          A: "Bleu du Haut-Jura"
+          B: "Bleu de Bresse"
+          C: "Bleu de Gex"
+          D: "Bleu de Bourgogne"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP de Franche-Comté est affiné au moins 4 mois ?"
+    answers:
+      A: "Bleu de Gex"
+      B: "Morbier"
+      C: "Mont d'Or"
+      D: "Comté"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Franche-Comté AOP cheese is aged at least 4 months?"
+        answers:
+          A: "Bleu de Gex"
+          B: "Morbier"
+          C: "Mont d'Or"
+          D: "Comté"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Haute-Savoie a une pâte pressée cuite ?"
+    answers:
+      A: "Abondance"
+      B: "Reblochon"
+      C: "Beaufort"
+      D: "Tomme de Savoie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Haute-Savoie AOP cheese has cooked pressed paste?"
+        answers:
+          A: "Abondance"
+          B: "Reblochon"
+          C: "Beaufort"
+          D: "Tomme de Savoie"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP du Berry est fabriqué avec du lait de chèvre et a une forme de petit palet couvert de cendre ?"
+    answers:
+      A: "Crottin de Chavignol"
+      B: "Valençay"
+      C: "Selles-sur-Cher"
+      D: "Sainte-Maure de Touraine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Berry AOP cheese is made with goat's milk and shaped like a small ash-covered disc?"
+        answers:
+          A: "Crottin de Chavignol"
+          B: "Valençay"
+          C: "Selles-sur-Cher"
+          D: "Sainte-Maure de Touraine"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Normandie est lavé à la saumure et a une couleur orangée ?"
+    answers:
+      A: "Camembert de Normandie"
+      B: "Pont-l'Évêque"
+      C: "Neufchâtel"
+      D: "Livarot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Norman AOP cheese is washed in brine and has an orange colour?"
+        answers:
+          A: "Camembert de Normandie"
+          B: "Pont-l'Évêque"
+          C: "Neufchâtel"
+          D: "Livarot"
+    difficulty: EASY
+  - text: "Quel fromage AOP de Haute-Savoie est produit en alpage et affiné au moins 5 mois ?"
+    answers:
+      A: "Abondance"
+      B: "Beaufort"
+      C: "Reblochon"
+      D: "Tomme de Savoie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Haute-Savoie AOP cheese is produced in mountain pastures and aged at least 5 months?"
+        answers:
+          A: "Abondance"
+          B: "Beaufort"
+          C: "Reblochon"
+          D: "Tomme de Savoie"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Corse est produit uniquement avec du lait de brebis et affiné 6 mois minimum ?"
+    answers:
+      A: "Venaco"
+      B: "Bastelicaccia"
+      C: "Brocciu"
+      D: "Calenzana"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Corsican AOP cheese is made only with sheep's milk and aged at least 6 months?"
+        answers:
+          A: "Venaco"
+          B: "Bastelicaccia"
+          C: "Brocciu"
+          D: "Calenzana"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP du Nord est obligatoirement fabriqué au lait cru et moulé à la main ?"
+    answers:
+      A: "Bergues"
+      B: "Munster"
+      C: "Mont des Cats"
+      D: "Maroilles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which northern AOP cheese must be made with raw milk and hand-moulded?"
+        answers:
+          A: "Bergues"
+          B: "Munster"
+          C: "Mont des Cats"
+          D: "Maroilles"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP de Bourgogne est produit exclusivement avec du lait de chèvre et se présente sous forme de petit tronc de cône ?"
+    answers:
+      A: "Crottin de Chavignol"
+      B: "Charolais"
+      C: "Mâconnais"
+      D: "Délice de Pommard"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Burgundy AOP cheese is made exclusively with goat's milk and comes as a small truncated cone?"
+        answers:
+          A: "Crottin de Chavignol"
+          B: "Charolais"
+          C: "Mâconnais"
+          D: "Délice de Pommard"
+    difficulty: HARD
+  - text: "Quel fromage AOP du Jura est fabriqué avec du lait de vache et affiné au moins 3 mois ?"
+    answers:
+      A: "Comté"
+      B: "Morbier"
+      C: "Bleu de Gex"
+      D: "Mont d'Or"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Jura AOP cheese is made with cow's milk and aged at least 3 months?"
+        answers:
+          A: "Comté"
+          B: "Morbier"
+          C: "Bleu de Gex"
+          D: "Mont d'Or"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Normandie est lavé à la saumure et a une croûte orangée ?"
+    answers:
+      A: "Pont-l'Évêque"
+      B: "Neufchâtel"
+      C: "Camembert de Normandie"
+      D: "Livarot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy is washed in brine and has an orange rind?"
+        answers:
+          A: "Pont-l'Évêque"
+          B: "Neufchâtel"
+          C: "Camembert de Normandie"
+          D: "Livarot"
+    difficulty: EASY
+  - text: "Quel fromage AOP du Berry est obligatoirement au lait de chèvre et a une forme de petit palet cendré ?"
+    answers:
+      A: "Valençay"
+      B: "Sainte-Maure de Touraine"
+      C: "Pouligny-Saint-Pierre"
+      D: "Selles-sur-Cher"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from Berry is made exclusively from goat's milk and shaped like a small ashed disc?"
+        answers:
+          A: "Valençay"
+          B: "Sainte-Maure de Touraine"
+          C: "Pouligny-Saint-Pierre"
+          D: "Selles-sur-Cher"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Haute-Savoie est produit avec du lait cru de vache et affiné au moins 5 mois ?"
+    answers:
+      A: "Reblochon"
+      B: "Tomme de Savoie"
+      C: "Abondance"
+      D: "Tome des Bauges"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Haute-Savoie is made with raw cow's milk and aged at least 5 months?"
+        answers:
+          A: "Reblochon"
+          B: "Tomme de Savoie"
+          C: "Abondance"
+          D: "Tome des Bauges"
+    difficulty: HARD
+  - text: "Quel fromage AOP du Massif central est fabriqué avec du lait de vache et affiné au moins 8 mois ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Fourme d'Ambert"
+      C: "Salers"
+      D: "Cantal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from the Massif Central is made with cow's milk and aged at least 8 months?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Fourme d'Ambert"
+          C: "Salers"
+          D: "Cantal"
+    difficulty: EXPERT
+  - text: "Sous quelle forme se présente ce fromage ?"
+    imageUrl: wikipedia/food-and-drink/Sainte-maure-de-touraine_cut.jpg
+    answers:
+      A: "Une boule"
+      B: "Une pyramide"
+      C: "Une bûche traversée d'une paille"
+      D: "Un carré"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What shape is this cheese?"
+        answers:
+          A: "A ball"
+          B: "A pyramid"
+          C: "A log pierced with a straw"
+          D: "A square"
+    difficulty: EASY
+  - text: "Quel fromage AOP de Savoie est fabriqué avec du lait cru de vache et a une pâte pressée cuite ?"
+    answers:
+      A: "Abondance"
+      B: "Beaufort"
+      C: "Reblochon"
+      D: "Tomme de Savoie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Savoie is made with raw cow's milk and has a cooked pressed paste?"
+        answers:
+          A: "Abondance"
+          B: "Beaufort"
+          C: "Reblochon"
+          D: "Tomme de Savoie"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Corse est produit exclusivement avec du lait de brebis et affiné au moins 6 mois ?"
+    answers:
+      A: "Venaco"
+      B: "Bastelicaccia"
+      C: "Brocciu"
+      D: "Calenzana"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese from Corsica is produced exclusively with ewe's milk and aged at least 6 months?"
+        answers:
+          A: "Venaco"
+          B: "Bastelicaccia"
+          C: "Brocciu"
+          D: "Calenzana"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP du Poitou est fabriqué exclusivement avec du lait de chèvre et a une forme de petit tronc de cône ?"
+    answers:
+      A: "Valençay"
+      B: "Sainte-Maure de Touraine"
+      C: "Chabichou du Poitou"
+      D: "Crottin de Chavignol"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Poitou is made exclusively with goat's milk and shaped like a small truncated cone?"
+        answers:
+          A: "Valençay"
+          B: "Sainte-Maure de Touraine"
+          C: "Chabichou du Poitou"
+          D: "Crottin de Chavignol"
+    difficulty: HARD
+  - text: "Quelle est la durée minimale d'affinage du brie de Meaux AOP ?"
+    answers:
+      A: "3 semaines"
+      B: "8 semaines"
+      C: "5 semaines"
+      D: "12 semaines"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum aging time for AOP Brie de Meaux?"
+        answers:
+          A: "3 weeks"
+          B: "8 weeks"
+          C: "5 weeks"
+          D: "12 weeks"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP de Normandie a la forme d'un cœur ?"
+    answers:
+      A: "Camembert de Normandie"
+      B: "Neufchâtel"
+      C: "Pont-l'Évêque"
+      D: "Livarot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy is shaped like a heart?"
+        answers:
+          A: "Camembert de Normandie"
+          B: "Neufchâtel"
+          C: "Pont-l'Évêque"
+          D: "Livarot"
+    difficulty: EASY
+  - text: "Quel fromage AOP est produit dans le département de la Lozère ?"
+    answers:
+      A: "Pélardon"
+      B: "Roquefort"
+      C: "Bleu d'Auvergne"
+      D: "Fourme d'Ambert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Lozère department?"
+        answers:
+          A: "Pélardon"
+          B: "Roquefort"
+          C: "Bleu d'Auvergne"
+          D: "Fourme d'Ambert"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP a une pâte persillée et est produit dans le département du Cantal ?"
+    answers:
+      A: "Bleu des Causses"
+      B: "Roquefort"
+      C: "Fourme de Montbrison"
+      D: "Bleu d'Auvergne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese has a blue-veined paste and is produced in the Cantal department?"
+        answers:
+          A: "Bleu des Causses"
+          B: "Roquefort"
+          C: "Fourme de Montbrison"
+          D: "Bleu d'Auvergne"
+    difficulty: HARD
+  - text: "Quel fromage AOP est exclusivement fabriqué avec du lait de chèvre et a la forme d'un petit palet ?"
+    answers:
+      A: "Sainte-Maure de Touraine"
+      B: "Crottin de Chavignol"
+      C: "Chabichou du Poitou"
+      D: "Valençay"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese is made exclusively with goat's milk and shaped like a small disc?"
+        answers:
+          A: "Sainte-Maure de Touraine"
+          B: "Crottin de Chavignol"
+          C: "Chabichou du Poitou"
+          D: "Valençay"
+    difficulty: HARD
+  - text: "Quel fromage AOP présente une croûte fleurie et une pâte molle à cœur, et est produit en Bourgogne ?"
+    answers:
+      A: "Époisses"
+      B: "Langres"
+      C: "Chaource"
+      D: "Soumaintrain"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese has a bloomy rind and a soft center, and is produced in Burgundy?"
+        answers:
+          A: "Époisses"
+          B: "Langres"
+          C: "Chaource"
+          D: "Soumaintrain"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP est fabriqué avec du lait de vache et affiné au moins 6 mois dans le Jura ?"
+    answers:
+      A: "Bleu de Gex"
+      B: "Morbier"
+      C: "Comté"
+      D: "Mont d'Or"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese is made with cow's milk and aged at least 6 months in the Jura?"
+        answers:
+          A: "Bleu de Gex"
+          B: "Morbier"
+          C: "Comté"
+          D: "Mont d'Or"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Normandie a une croûte lavée et est souvent vendu en boîte ?"
+    answers:
+      A: "Camembert de Normandie"
+      B: "Pont-l'Évêque"
+      C: "Livaro"
+      D: "Neufchâtel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy has a washed rind and is often sold in a box?"
+        answers:
+          A: "Camembert de Normandie"
+          B: "Pont-l'Évêque"
+          C: "Livarot"
+          D: "Neufchâtel"
+    difficulty: EASY
+  - text: "Quelle est la contenance minimale en litres d'un moule à faisselle pour le camembert de Normandie AOP ?"
+    answers:
+      A: "1 litre"
+      B: "2 litres"
+      C: "0,5 litre"
+      D: "3 litres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum capacity in liters of a faisselle mold for Camembert de Normandie AOP?"
+        answers:
+          A: "1 liter"
+          B: "2 liters"
+          C: "0.5 liter"
+          D: "3 liters"
+    difficulty: EXPERT
+  - text: "Combien de caves de la fromagerie Roquefort Société sont-elles situées dans le Combalou à Roquefort-sur-Soulzon ?"
+    answers:
+      A: "3"
+      B: "12"
+      C: "7"
+      D: "15"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many Roquefort Société cheese cellars are located in the Combalou in Roquefort-sur-Soulzon?"
+        answers:
+          A: "3"
+          B: "12"
+          C: "7"
+          D: "15"
+    difficulty: EXPERT
+  - text: "Quel est le diamètre minimal d'un échantillon cylindrique de comté AOP pour l'agrément ?"
+    answers:
+      A: "15 cm"
+      B: "20 cm"
+      C: "40 cm"
+      D: "30 cm"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the minimum diameter of a cylindrical sample of Comté AOP for approval?"
+        answers:
+          A: "15 cm"
+          B: "20 cm"
+          C: "40 cm"
+          D: "30 cm"
+    difficulty: EXPERT
+  - text: "Quelle est la période minimale d'affinage du comté vendu sous la mention « fruité » ?"
+    answers:
+      A: "4 mois"
+      B: "10 mois"
+      C: "8 mois"
+      D: "6 mois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the minimum aging period for Comté sold under the \"fruité\" designation?"
+        answers:
+          A: "4 months"
+          B: "10 months"
+          C: "8 months"
+          D: "6 months"
+    difficulty: EXPERT
+  - text: "Quel est le diamètre d'un moule de camembert de Normandie AOP ?"
+    answers:
+      A: "8 à 9 cm"
+      B: "10,5 à 11 cm"
+      C: "13 à 14 cm"
+      D: "7 à 8 cm"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the diameter of a Camembert de Normandie AOP mold?"
+        answers:
+          A: "8 to 9 cm"
+          B: "10.5 to 11 cm"
+          C: "13 to 14 cm"
+          D: "7 to 8 cm"
+    difficulty: EXPERT
+  - text: "Quel pourcentage de la production du roquefort est transformé directement en caves ?"
+    answers:
+      A: "60 %"
+      B: "40 %"
+      C: "20 %"
+      D: "80 %"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What percentage of Roquefort production is processed directly in cellars?"
+        answers:
+          A: "60%"
+          B: "40%"
+          C: "20%"
+          D: "80%"
+    difficulty: EXPERT
+  - text: "Dans quelle ville se déroule la foire aux fromages qui décerne le prix du meilleur camembert de Normandie ?"
+    answers:
+      A: "Vimoutiers"
+      B: "Pont-l'Évêque"
+      C: "Livarot"
+      D: "Camembert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which town is the cheese fair that awards the prize for the best Camembert de Normandie held?"
+        answers:
+          A: "Vimoutiers"
+          B: "Pont-l'Évêque"
+          C: "Livarot"
+          D: "Camembert"
+    difficulty: EXPERT
+  - text: "Quelle épice parfume le munster visible sur cette photo ?"
+    imageUrl: wikipedia/food-and-drink/Munster_(cheese).jpg
+    answers:
+      A: "Le cumin"
+      B: "Le safran"
+      C: "Le paprika"
+      D: "La cannelle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice flavors the Munster visible in this photo?"
+        answers:
+          A: "Cumin"
+          B: "Saffron"
+          C: "Paprika"
+          D: "Cinnamon"
+    difficulty: MEDIUM
+  - text: "Quel est le poids minimum d'une meule de comté AOP ?"
+    answers:
+      A: "20 kg"
+      B: "30 kg"
+      C: "40 kg"
+      D: "35 kg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the minimum weight of a wheel of Comté AOP?"
+        answers:
+          A: "20 kg"
+          B: "30 kg"
+          C: "40 kg"
+          D: "35 kg"
+    difficulty: EXPERT
+  - text: "Quelle est la température maximale du lait à la traite pour la fabrication du reblochon fermier ?"
+    answers:
+      A: "30 °C"
+      B: "35 °C"
+      C: "40 °C"
+      D: "38 °C"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum milk temperature at milking for making farmhouse Reblochon?"
+        answers:
+          A: "30 °C"
+          B: "35 °C"
+          C: "40 °C"
+          D: "38 °C"
+    difficulty: EXPERT
+  - text: "Combien de jours minimum faut-il pour affiner un reblochon fermier ?"
+    answers:
+      A: "15 jours"
+      B: "21 jours"
+      C: "28 jours"
+      D: "35 jours"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum number of days needed to age a farmhouse Reblochon?"
+        answers:
+          A: "15 days"
+          B: "21 days"
+          C: "28 days"
+          D: "35 days"
+    difficulty: EXPERT
+  - text: "Quel est le pourcentage maximal d'humidité du saint-nectaire fermier ?"
+    answers:
+      A: "40 %"
+      B: "45 %"
+      C: "55 %"
+      D: "50 %"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the maximum moisture percentage of farmhouse Saint-Nectaire?"
+        answers:
+          A: "40%"
+          B: "45%"
+          C: "55%"
+          D: "50%"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP bénéficie d'une protection de l'Union européenne depuis 1996 et est produit dans le Cantal ?"
+    answers:
+      A: "Salers"
+      B: "Saint-nectaire"
+      C: "Cantal"
+      D: "Fourme d'Ambert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese has had European Union protection since 1996 and is produced in Cantal?"
+        answers:
+          A: "Salers"
+          B: "Saint-Nectaire"
+          C: "Cantal"
+          D: "Fourme d'Ambert"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP de Haute-Savoie est traditionnellement produit en chalet d'alpage et affiné au moins 5 mois ?"
+    answers:
+      A: "Abondance"
+      B: "Beaufort"
+      C: "Reblochon"
+      D: "Tomme de Savoie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Haute-Savoie is traditionally produced in alpine chalets and aged at least 5 months?"
+        answers:
+          A: "Abondance"
+          B: "Beaufort"
+          C: "Reblochon"
+          D: "Tomme de Savoie"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est produit exclusivement dans le département de la Corse-du-Sud ?"
+    answers:
+      A: "Brocciu"
+      B: "Bastelicaccia"
+      C: "Venaco"
+      D: "Niolo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese is produced exclusively in the Corse-du-Sud department?"
+        answers:
+          A: "Brocciu"
+          B: "Bastelicaccia"
+          C: "Venaco"
+          D: "Niolo"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP du Jura est fabriqué avec du lait cru de vache et affiné au minimum 3 mois ?"
+    answers:
+      A: "Comté"
+      B: "Morbier"
+      C: "Bleu de Gex"
+      D: "Mont d'Or"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from the Jura is made with raw cow's milk and aged for at least 3 months?"
+        answers:
+          A: "Comté"
+          B: "Morbier"
+          C: "Bleu de Gex"
+          D: "Mont d'Or"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Haute-Savoie est produit avec du lait cru de vache et a une pâte pressée cuite ?"
+    answers:
+      A: "Reblochon"
+      B: "Abondance"
+      C: "Beaufort"
+      D: "Tome des Bauges"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese from Haute-Savoie is made with raw cow's milk and has a cooked pressed paste?"
+        answers:
+          A: "Reblochon"
+          B: "Abondance"
+          C: "Beaufort"
+          D: "Tome des Bauges"
+    difficulty: HARD
+  - text: "Quel fromage AOP est produit dans le département du Cantal ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Cantal"
+      C: "Salers"
+      D: "Fourme d'Ambert"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Cantal department?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Cantal"
+          C: "Salers"
+          D: "Fourme d'Ambert"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP est produit dans le département de la Savoie ?"
+    answers:
+      A: "Abondance"
+      B: "Beaufort"
+      C: "Reblochon"
+      D: "Tomme de Savoie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Savoie department?"
+        answers:
+          A: "Abondance"
+          B: "Beaufort"
+          C: "Reblochon"
+          D: "Tomme de Savoie"
+    difficulty: MEDIUM
+  - text: "Dans quelles feuilles le banon est-il enveloppé ?"
+    imageUrl: wikipedia/food-and-drink/Le_Banon_-_un_fromage_de_chevre_AOP.jpg
+    answers:
+      A: "Des feuilles de figuier"
+      B: "Des feuilles de vigne"
+      C: "Des feuilles de châtaignier"
+      D: "Des feuilles de noyer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which leaves is banon wrapped?"
+        answers:
+          A: "Fig leaves"
+          B: "Vine leaves"
+          C: "Chestnut leaves"
+          D: "Walnut leaves"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP est produit dans le département de la Haute-Savoie ?"
+    answers:
+      A: "Tomme de Savoie"
+      B: "Reblochon"
+      C: "Abondance"
+      D: "Comté"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Haute-Savoie department?"
+        answers:
+          A: "Tomme de Savoie"
+          B: "Reblochon"
+          C: "Abondance"
+          D: "Comté"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP est produit dans le département du Cher ?"
+    answers:
+      A: "Crottin de Chavignol"
+      B: "Valençay"
+      C: "Sainte-Maure-de-Touraine"
+      D: "Selles-sur-Cher"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Cher department?"
+        answers:
+          A: "Crottin de Chavignol"
+          B: "Valençay"
+          C: "Sainte-Maure-de-Touraine"
+          D: "Selles-sur-Cher"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est produit dans le département de l'Indre-et-Loire ?"
+    answers:
+      A: "Crottin de Chavignol"
+      B: "Valençay"
+      C: "Sainte-Maure-de-Touraine"
+      D: "Selles-sur-Cher"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Indre-et-Loire department?"
+        answers:
+          A: "Crottin de Chavignol"
+          B: "Valençay"
+          C: "Sainte-Maure-de-Touraine"
+          D: "Selles-sur-Cher"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est produit dans le département du Loir-et-Cher ?"
+    answers:
+      A: "Crottin de Chavignol"
+      B: "Sainte-Maure-de-Touraine"
+      C: "Selles-sur-Cher"
+      D: "Valençay"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Loir-et-Cher department?"
+        answers:
+          A: "Crottin de Chavignol"
+          B: "Sainte-Maure-de-Touraine"
+          C: "Selles-sur-Cher"
+          D: "Valençay"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est produit dans le département de la Haute-Corse ?"
+    answers:
+      A: "Tomme de Savoie"
+      B: "Bleu de Gex"
+      C: "Brocciu"
+      D: "Crottin de Chavignol"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Haute-Corse department?"
+        answers:
+          A: "Tomme de Savoie"
+          B: "Bleu de Gex"
+          C: "Brocciu"
+          D: "Crottin de Chavignol"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est produit dans le département du Puy-de-Dôme ?"
+    answers:
+      A: "Cantal"
+      B: "Bleu d'Auvergne"
+      C: "Fourme d'Ambert"
+      D: "Saint-Nectaire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Puy-de-Dôme department?"
+        answers:
+          A: "Cantal"
+          B: "Bleu d'Auvergne"
+          C: "Fourme d'Ambert"
+          D: "Saint-Nectaire"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP est produit dans le département de la Haute-Loire ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Cantal"
+      C: "Bleu d'Auvergne"
+      D: "Fourme d'Ambert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese is produced in the Haute-Loire department?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Cantal"
+          C: "Bleu d'Auvergne"
+          D: "Fourme d'Ambert"
+    difficulty: HARD
+  - text: "Quelle est la durée minimale d'affinage du roquefort AOP ?"
+    answers:
+      A: "3 mois"
+      B: "5 mois"
+      C: "7 mois"
+      D: "9 mois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the minimum aging period for AOP roquefort?"
+        answers:
+          A: "3 months"
+          B: "5 months"
+          C: "7 months"
+          D: "9 months"
+    difficulty: EXPERT
+  - text: "Quelle est la durée minimale d'affinage du comté AOP ?"
+    answers:
+      A: "4 mois"
+      B: "2 mois"
+      C: "6 mois"
+      D: "8 mois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the minimum aging period for AOP comté?"
+        answers:
+          A: "4 months"
+          B: "2 months"
+          C: "6 months"
+          D: "8 months"
+    difficulty: HARD
+  - text: "Quel fromage AOP a une pâte persillée et est produit dans le département de l'Aveyron ?"
+    answers:
+      A: "Bleu d'Auvergne"
+      B: "Roquefort"
+      C: "Fourme d'Ambert"
+      D: "Bleu des Causses"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese has blue veins and is produced in the Aveyron department?"
+        answers:
+          A: "Bleu d'Auvergne"
+          B: "Roquefort"
+          C: "Fourme d'Ambert"
+          D: "Bleu des Causses"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP a une pâte persillée et est produit dans le département du Puy-de-Dôme ?"
+    answers:
+      A: "Bleu d'Auvergne"
+      B: "Fourme d'Ambert"
+      C: "Roquefort"
+      D: "Bleu des Causses"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese has blue veins and is produced in the Puy-de-Dôme department?"
+        answers:
+          A: "Bleu d'Auvergne"
+          B: "Fourme d'Ambert"
+          C: "Roquefort"
+          D: "Bleu des Causses"
+    difficulty: HARD
+  - text: "Quel fromage AOP est obligatoirement fabriqué au lait cru et moulé à la main ?"
+    answers:
+      A: "Munster"
+      B: "Brie de Meaux"
+      C: "Camembert de Normandie"
+      D: "Pont-l'Évêque"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which AOP cheese must be made from raw milk and hand-molded?"
+        answers:
+          A: "Munster"
+          B: "Brie de Meaux"
+          C: "Camembert de Normandie"
+          D: "Pont-l'Évêque"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est élaboré exclusivement avec du lait de brebis ?"
+    answers:
+      A: "Roquefort"
+      B: "Comté"
+      C: "Reblochon"
+      D: "Munster"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese is made exclusively from sheep's milk?"
+        answers:
+          A: "Roquefort"
+          B: "Comté"
+          C: "Reblochon"
+          D: "Munster"
+    difficulty: HARD
+  - text: "Quel fromage AOP du Jura est affiné sur des planches en épicéa pendant au moins 6 semaines ?"
+    answers:
+      A: "Morbier"
+      B: "Bleu de Gex"
+      C: "Vacherin Mont d'Or"
+      D: "Comté"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which AOP cheese from the Jura is aged on spruce boards for at least 6 weeks?"
+        answers:
+          A: "Morbier"
+          B: "Bleu de Gex"
+          C: "Vacherin Mont d'Or"
+          D: "Comté"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP normand est affiné pendant au moins 3 mois et a une croûte lavée ?"
+    answers:
+      A: "Pont-l'Évêque"
+      B: "Livarot"
+      C: "Camembert de Normandie"
+      D: "Neufchâtel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Norman AOP cheese is aged for at least 3 months and has a washed rind?"
+        answers:
+          A: "Pont-l'Évêque"
+          B: "Livarot"
+          C: "Camembert de Normandie"
+          D: "Neufchâtel"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP est fabriqué dans le département de la Haute-Savoie et a une pâte pressée non cuite ?"
+    answers:
+      A: "Tomme de Savoie"
+      B: "Reblochon de Savoie"
+      C: "Beaufort"
+      D: "Abondance"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese is made in the Haute-Savoie department and has a pressed uncooked paste?"
+        answers:
+          A: "Tomme de Savoie"
+          B: "Reblochon de Savoie"
+          C: "Beaufort"
+          D: "Abondance"
+    difficulty: HARD
+  - text: "Quelle est la teneur minimale en matière grasse du lait pour le roquefort AOP ?"
+    answers:
+      A: "30 g/l"
+      B: "35 g/l"
+      C: "45 g/l"
+      D: "40 g/l"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the minimum milk fat content for AOP Roquefort?"
+        answers:
+          A: "30 g/l"
+          B: "35 g/l"
+          C: "45 g/l"
+          D: "40 g/l"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP au lait cru de vache est produit dans le département de l'Aveyron et a une pâte persillée ?"
+    answers:
+      A: "Bleu des Causses"
+      B: "Fourme d'Ambert"
+      C: "Roquefort"
+      D: "Bleu d'Auvergne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which raw cow's milk AOP cheese is produced in the Aveyron department and has blue veins?"
+        answers:
+          A: "Bleu des Causses"
+          B: "Fourme d'Ambert"
+          C: "Roquefort"
+          D: "Bleu d'Auvergne"
+    difficulty: HARD
+  - text: "Quel fromage AOP est fabriqué avec du lait de vache et affiné au minimum 12 mois, avec une croûte frottée au sel et au poivre ?"
+    answers:
+      A: "Comté"
+      B: "Beaufort"
+      C: "Salers"
+      D: "Cantal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese is made from cow's milk and aged at least 12 months, with a rind rubbed with salt and pepper?"
+        answers:
+          A: "Comté"
+          B: "Beaufort"
+          C: "Salers"
+          D: "Cantal"
+    difficulty: EXPERT

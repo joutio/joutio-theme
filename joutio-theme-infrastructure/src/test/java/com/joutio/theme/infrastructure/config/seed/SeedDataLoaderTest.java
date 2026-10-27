@@ -1,0 +1,345 @@
+package com.joutio.theme.infrastructure.config.seed;
+
+import com.joutio.microservice.core.domain.model.i18n.Language;
+import com.joutio.theme.domain.model.QuestionDifficulty;
+import com.joutio.theme.domain.model.TopicCategory;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+import java.util.Objects;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+
+class SeedDataLoaderTest {
+
+    private static final String ALL_TOPICS_PATTERN = "classpath*:seed/topics/*/*.yml";
+    private static final String IMAGE_BASE_URL = "https://media.example.test/joutio-media/";
+
+    private final SeedDataLoader loader =
+            new SeedDataLoader(ALL_TOPICS_PATTERN, IMAGE_BASE_URL, new PathMatchingResourcePatternResolver());
+
+    @Test
+    void loadsAndValidatesEveryBundledSeedFile() throws IOException {
+        Resource[] resources = new PathMatchingResourcePatternResolver().getResources(ALL_TOPICS_PATTERN);
+
+        assertThat(resources).hasSizeGreaterThanOrEqualTo(20);
+
+        List<TopicSeedDefinition> definitions = loader.loadAll();
+
+        assertThat(definitions).hasSameSizeAs(resources);
+        assertThat(definitions).extracting(TopicSeedDefinition::topicId).doesNotHaveDuplicates();
+        assertThat(definitions).allSatisfy(definition -> {
+            assertThat(definition.names().get(Language.FR)).isNotBlank().hasSizeLessThanOrEqualTo(255);
+            assertThat(definition.category()).isNotNull();
+            assertThat(definition.questions()).hasSizeGreaterThanOrEqualTo(7);
+            assertThat(definition.questions())
+                    .extracting(question -> question.contents().get(Language.FR).text() + "|" + question.imageUrl())
+                    .doesNotHaveDuplicates();
+            assertThat(definition.questions()).allSatisfy(question -> {
+                assertThat(question.contents().get(Language.FR).answers()).hasSize(4);
+                assertThat(question.contents().get(Language.FR).answers()).containsKey(question.correctAnswer());
+            });
+            assertThat(definition.questions())
+                    .extracting(QuestionSeedDefinition::imageUrl)
+                    .filteredOn(Objects::nonNull)
+                    .allSatisfy(url -> assertThat(url).startsWith("http"));
+        });
+    }
+
+    @Test
+    void parsesEnglishTranslationsOfPilotTopic() {
+        TopicSeedDefinition cinema = loader.loadAll().stream()
+                .filter(definition -> "topic-cinema".equals(definition.topicId()))
+                .findFirst()
+                .orElseThrow();
+
+        assertThat(cinema.questions()).allSatisfy(question -> {
+            assertThat(question.contents()).containsKey(Language.FR);
+            assertThat(question.contents()).containsKey(Language.EN);
+            assertThat(question.contents().get(Language.EN).text()).isNotBlank();
+            assertThat(question.contents().get(Language.EN).answers())
+                    .hasSize(4)
+                    .containsKey(question.correctAnswer());
+        });
+    }
+
+    @Test
+    void parsesOptionalInitialDifficulty(@TempDir Path tempDir) throws IOException {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+        String[] levels = {"easy", "MEDIUM", "Hard", "EXPERT", "EASY", "medium", "HARD"};
+        for (int i = 0; i < levels.length; i++) {
+            yaml.append("""
+                      - text: "Q%d ?"
+                        difficulty: %s
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(i + 1, levels[i]));
+        }
+
+        TopicSeedDefinition definition = loader.load(writeYaml(tempDir, yaml.toString()));
+
+        assertThat(definition.questions()).extracting(QuestionSeedDefinition::difficulty)
+                .containsExactly(
+                        QuestionDifficulty.EASY,
+                        QuestionDifficulty.MEDIUM,
+                        QuestionDifficulty.HARD,
+                        QuestionDifficulty.EXPERT,
+                        QuestionDifficulty.EASY,
+                        QuestionDifficulty.MEDIUM,
+                        QuestionDifficulty.HARD);
+    }
+
+    @Test
+    void rejectsUnknownDifficulty(@TempDir Path tempDir) throws IOException {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+        for (int i = 1; i <= 7; i++) {
+            yaml.append("""
+                      - text: "Q%d ?"
+                        difficulty: %s
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(i, i == 1 ? "LEGENDARY" : "EASY"));
+        }
+
+        assertThatThrownBy(() -> loader.load(writeYaml(tempDir, yaml.toString())))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("difficulty");
+    }
+
+    @Test
+    void loadAllSkipsInvalidFilesAndKeepsValidOnes() {
+        SeedDataLoader isolated = new SeedDataLoader(
+                "classpath*:seed-test/*/*.yml", IMAGE_BASE_URL, new PathMatchingResourcePatternResolver());
+
+        List<TopicSeedDefinition> definitions = isolated.loadAll();
+
+        assertThat(definitions).hasSize(1);
+        assertThat(definitions.get(0).topicId()).isEqualTo("topic-test-fixture");
+        assertThat(definitions.get(0).category()).isEqualTo(TopicCategory.GENERAL);
+        assertThat(definitions.get(0).questions()).hasSize(7);
+    }
+
+    @Test
+    void rejectsTopicWithTooFewQuestions(@TempDir Path tempDir) throws IOException {
+        Resource resource = writeYaml(tempDir, yamlWithQuestions("Q1 ?", "Q2 ?"));
+
+        assertThatThrownBy(() -> loader.load(resource))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("at least");
+    }
+
+    @Test
+    void acceptsDuplicateQuestionTextsWithDifferentImageUrls(@TempDir Path tempDir) throws IOException {
+        Resource resource = writeYaml(tempDir, yamlWithSameTextAndImages("Quel est ce pays ?", 7));
+
+        TopicSeedDefinition definition = loader.load(resource);
+
+        assertThat(definition.questions()).hasSize(7);
+        assertThat(definition.questions())
+                .extracting(question -> question.contents().get(Language.FR).text())
+                .containsOnly("Quel est ce pays ?");
+    }
+
+    @Test
+    void rejectsDuplicateQuestionIdentity(@TempDir Path tempDir) throws IOException {
+        Resource resource = writeYaml(tempDir, yamlWithRepeatedIdentity());
+
+        assertThatThrownBy(() -> loader.load(resource))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("duplicated");
+    }
+
+    @Test
+    void rejectsNonHttpImageUrl(@TempDir Path tempDir) throws IOException {
+        String yaml = """
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """;
+        StringBuilder questions = new StringBuilder(yaml);
+        for (int i = 1; i <= 7; i++) {
+            questions.append("""
+                      - text: "Q%d ?"
+                        imageUrl: "ftp://example.com/image.jpg"
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(i));
+        }
+
+        assertThatThrownBy(() -> loader.load(writeYaml(tempDir, questions.toString())))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("http(s) URL");
+    }
+
+    @Test
+    void rejectsUnknownCategory(@TempDir Path tempDir) throws IOException {
+        Resource resource = writeYaml(tempDir, """
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: NOT_A_CATEGORY
+                questions:
+                """);
+
+        assertThatThrownBy(() -> loader.load(resource))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("topic.category");
+    }
+
+    @Test
+    void rejectsBlankTopicId(@TempDir Path tempDir) throws IOException {
+        Resource resource = writeYaml(tempDir, """
+                topic:
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+
+        assertThatThrownBy(() -> loader.load(resource))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("topic.id");
+    }
+
+    @Test
+    void rejectsRelativeImageUrlWithoutBase(@TempDir Path tempDir) throws IOException {
+        SeedDataLoader withoutBase =
+                new SeedDataLoader(ALL_TOPICS_PATTERN, "", new PathMatchingResourcePatternResolver());
+        Resource resource = writeYaml(tempDir, yamlWithRelativeImages());
+
+        assertThatThrownBy(() -> withoutBase.load(resource))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("image-base-url");
+    }
+
+    @Test
+    void resolvesRelativeImageUrlsWithConfiguredBase(@TempDir Path tempDir) throws IOException {
+        TopicSeedDefinition definition = loader.load(writeYaml(tempDir, yamlWithRelativeImages()));
+
+        assertThat(definition.imageUrl()).isEqualTo(IMAGE_BASE_URL + "wikipedia/general/cover.jpg");
+        assertThat(definition.questions()).extracting(QuestionSeedDefinition::imageUrl)
+                .containsExactlyElementsOf(java.util.stream.IntStream.rangeClosed(1, 7)
+                        .mapToObj(i -> IMAGE_BASE_URL + "wikipedia/general/image-" + i + ".png")
+                        .toList());
+    }
+
+    @Test
+    void resolvesRelativeImageUrlsIdempotentlyForDuplicateIdentity(@TempDir Path tempDir) throws IOException {
+        TopicSeedDefinition definition = loader.load(writeYaml(tempDir, yamlWithRelativeImages()));
+
+        assertThat(definition.questions()).extracting(QuestionSeedDefinition::imageUrl)
+                .doesNotHaveDuplicates();
+    }
+
+    private static String yamlWithRelativeImages() {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                  imageUrl: wikipedia/general/cover.jpg
+                questions:
+                """);
+        for (int i = 1; i <= 7; i++) {
+            yaml.append("""
+                      - text: "Q%d ?"
+                        imageUrl: wikipedia/general/image-%d.png
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(i, i));
+        }
+        return yaml.toString();
+    }
+
+    private static String yamlWithQuestions(String... texts) {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+        for (String text : texts) {
+            yaml.append("""
+                      - text: "%s"
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(text));
+        }
+        return yaml.toString();
+    }
+
+    private static String yamlWithSameTextAndImages(String text, int count) {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+        for (int i = 1; i <= count; i++) {
+            yaml.append("""
+                      - text: "%s"
+                        imageUrl: "https://example.com/image-%d.png"
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(text, i));
+        }
+        return yaml.toString();
+    }
+
+    private static String yamlWithRepeatedIdentity() {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+        for (int i = 1; i <= 7; i++) {
+            yaml.append("""
+                      - text: "Q ?"
+                        imageUrl: "https://example.com/same.png"
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """);
+        }
+        return yaml.toString();
+    }
+
+    private static Resource writeYaml(Path tempDir, String content) throws IOException {
+        Path file = tempDir.resolve("seed-" + System.nanoTime() + ".yml");
+        Files.writeString(file, content);
+        return new FileSystemResource(file);
+    }
+}

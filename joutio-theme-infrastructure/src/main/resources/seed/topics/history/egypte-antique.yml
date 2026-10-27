@@ -1,0 +1,1631 @@
+topic:
+  id: topic-egypte-antique
+  names:
+    fr: "Égypte antique"
+    en: "Ancient Egypt"
+  description: "De l'unification de Narmer à la chute des Ptolémées, parcourez trois millénaires d'histoire le long du Nil : grandes périodes, pharaons légendaires, pyramides et Sphinx, capitales royales, couronnes et symboles du pouvoir."
+  category: HISTORY
+  titles:
+    fr:
+      FER: "Scribe des Sables"
+      BRONZE: "Porteur de Papyrus"
+      ARGENT: "Gardien de Basse-Époque"
+      OR: "Prêtre d'Amon"
+      PLATINE: "Vizir du Double Pays"
+      EMERAUDE: "Pharaon de Haute et Basse-Égypte"
+      DIAMANT: "Osiris Réincarné"
+    en:
+      FER: "Sand Scribe"
+      BRONZE: "Papyrus Bearer"
+      ARGENT: "Guardian of the Late Period"
+      OR: "Priest of Amun"
+      PLATINE: "Vizier of the Two Lands"
+      EMERAUDE: "Pharaoh of Upper and Lower Egypt"
+      DIAMANT: "Osiris Reborn"
+  imageUrl: wikipedia/history/Great_Sphinx_of_Giza_(2).jpg
+questions:
+  - text: "Quel roi de la Iʳᵉ dynastie est associé à la fondation de Memphis ?"
+    answers:
+      A: "Hor-Aha"
+      B: "Narmer"
+      C: "Djer"
+      D: "Ounepès"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which king of the 1st Dynasty is associated with the founding of Memphis?"
+        answers:
+          A: "Hor-Aha"
+          B: "Narmer"
+          C: "Djer"
+          D: "Ounepès"
+    difficulty: HARD
+  - text: "Quel pharaon de la IVᵉ dynastie a fait ériger la pyramide dite « rhomboïdale » à Dahchour ?"
+    answers:
+      A: "Khéops"
+      B: "Snéfrou"
+      C: "Khéphren"
+      D: "Mykérinos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh of the 4th Dynasty had the so-called \"Bent Pyramid\" built at Dahshur?"
+        answers:
+          A: "Khufu"
+          B: "Sneferu"
+          C: "Khafre"
+          D: "Menkaure"
+    difficulty: HARD
+  - text: "Quel monument égyptien est traditionnellement considéré comme le plus ancien temple solaire conservé ?"
+    answers:
+      A: "Temple d'Amon-Rê à Karnak"
+      B: "Temple d'Horus à Edfou"
+      C: "Temple de Louxor"
+      D: "Temple solaire de Niouserrê à Abou Ghorab"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Egyptian monument is traditionally considered the oldest surviving solar temple?"
+        answers:
+          A: "Temple of Amun-Re at Karnak"
+          B: "Temple of Horus at Edfu"
+          C: "Luxor Temple"
+          D: "Solar temple of Nyuserre at Abu Ghorab"
+    difficulty: EXPERT
+  - text: "Qui était le vizir et architecte du pharaon Djoser, concepteur de la pyramide à degrés ?"
+    answers:
+      A: "Hémiounou"
+      B: "Sénènmout"
+      C: "Amenhotep fils de Hapou"
+      D: "Imhotep"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the vizier and architect of Pharaoh Djoser, designer of the Step Pyramid?"
+        answers:
+          A: "Hemiunu"
+          B: "Senmut"
+          C: "Amenhotep son of Hapu"
+          D: "Imhotep"
+    difficulty: EASY
+  - text: "Quel pharaon a fait construire le grand temple d'Abou Simbel, taillé dans la falaise ?"
+    answers:
+      A: "Séthi Iᵉʳ"
+      B: "Ramsès II"
+      C: "Thoutmôsis III"
+      D: "Amenhotep III"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh had the great temple of Abu Simbel carved into the cliff?"
+        answers:
+          A: "Seti I"
+          B: "Ramesses II"
+          C: "Thutmose III"
+          D: "Amenhotep III"
+    difficulty: EASY
+  - text: "Quel est le nom de la nécropole royale du Nouvel Empire située dans la vallée des Rois ?"
+    answers:
+      A: "Deir el-Bahari"
+      B: "Biban el-Molouk"
+      C: "Tanis"
+      D: "Saqqarah"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the New Kingdom royal necropolis located in the Valley of the Kings?"
+        answers:
+          A: "Deir el-Bahari"
+          B: "Biban el-Molouk"
+          C: "Tanis"
+          D: "Saqqara"
+    difficulty: EASY
+  - text: "Qui a bâti la plus grande pyramide de Gizeh ?"
+    imageUrl: wikipedia/history/All_Gizah_Pyramids.jpg
+    answers:
+      A: "Khéphren"
+      B: "Mykérinos"
+      C: "Khéops"
+      D: "Snéfrou"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who built the largest pyramid at Giza?"
+        answers:
+          A: "Khafre"
+          B: "Menkaure"
+          C: "Khufu"
+          D: "Sneferu"
+    difficulty: EASY
+  - text: "Quel pharaon a fait creuser le canal qui relie le Nil à la mer Rouge, achevé selon Hérodote ?"
+    answers:
+      A: "Néchao II"
+      B: "Darius Iᵉʳ"
+      C: "Ptolémée II"
+      D: "Ramsès II"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh had the canal linking the Nile to the Red Sea dug, completed according to Herodotus?"
+        answers:
+          A: "Necho II"
+          B: "Darius I"
+          C: "Ptolemy II"
+          D: "Ramesses II"
+    difficulty: HARD
+  - text: "Quelle bataille de 1274 av. J.-C. a opposé Ramsès II aux Hittites ?"
+    answers:
+      A: "Bataille de Qarqar"
+      B: "Bataille de Megiddo"
+      C: "Bataille de Kadesh"
+      D: "Bataille de Péluse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which battle in 1274 BC pitted Ramesses II against the Hittites?"
+        answers:
+          A: "Battle of Qarqar"
+          B: "Battle of Megiddo"
+          C: "Battle of Kadesh"
+          D: "Battle of Pelusium"
+    difficulty: MEDIUM
+  - text: "Quel pharaon a conclu le premier traité de paix connu avec les Hittites ?"
+    answers:
+      A: "Ramsès II"
+      B: "Thoutmôsis III"
+      C: "Amenhotep III"
+      D: "Horemheb"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh concluded the first known peace treaty with the Hittites?"
+        answers:
+          A: "Ramesses II"
+          B: "Thutmose III"
+          C: "Amenhotep III"
+          D: "Horemheb"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du traité de paix signé entre Ramsès II et Hattusili III ?"
+    answers:
+      A: "Traité égypto-hittite"
+      B: "Traité de Qadesh"
+      C: "Traité de Kadesh"
+      D: "Traité de paix perpétuelle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the peace treaty signed between Ramesses II and Hattusili III?"
+        answers:
+          A: "Egyptian-Hittite Treaty"
+          B: "Treaty of Qadesh"
+          C: "Treaty of Kadesh"
+          D: "Treaty of Perpetual Peace"
+    difficulty: HARD
+  - text: "Quel pharaon est représenté par la statue colossale de calcaire découverte à Mit Rahina ?"
+    answers:
+      A: "Amenhotep III"
+      B: "Séthi Iᵉʳ"
+      C: "Thoutmôsis III"
+      D: "Ramsès II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh is represented by the colossal limestone statue discovered at Mit Rahina?"
+        answers:
+          A: "Amenhotep III"
+          B: "Seti I"
+          C: "Thutmose III"
+          D: "Ramesses II"
+    difficulty: EXPERT
+  - text: "Quel est le nom du pharaon dont le tombeau a été découvert en 1922 dans la vallée des Rois ?"
+    answers:
+      A: "Ramsès II"
+      B: "Toutânkhamon"
+      C: "Séthi Iᵉʳ"
+      D: "Amenhotep III"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the pharaoh whose tomb was discovered in 1922 in the Valley of the Kings?"
+        answers:
+          A: "Ramesses II"
+          B: "Tutankhamun"
+          C: "Seti I"
+          D: "Amenhotep III"
+    difficulty: EASY
+  - text: "Quel pharaon a fait construire le temple funéraire de Deir el-Bahari attribué à Hatshepsout ?"
+    answers:
+      A: "Amenhotep II"
+      B: "Thoutmôsis III"
+      C: "Hatshepsout"
+      D: "Sénènmout"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh had the mortuary temple at Deir el-Bahari attributed to Hatshepsut built?"
+        answers:
+          A: "Amenhotep II"
+          B: "Thutmose III"
+          C: "Hatshepsut"
+          D: "Senmut"
+    difficulty: MEDIUM
+  - text: "Quel architecte a conçu le temple funéraire de Hatshepsout à Deir el-Bahari ?"
+    answers:
+      A: "Sénènmout"
+      B: "Imhotep"
+      C: "Hémiounou"
+      D: "Amenhotep fils de Hapou"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which architect designed the mortuary temple of Hatshepsut at Deir el-Bahari?"
+        answers:
+          A: "Senmut"
+          B: "Imhotep"
+          C: "Hemiunu"
+          D: "Amenhotep son of Hapu"
+    difficulty: HARD
+  - text: "Quel pharaon a mené 17 campagnes militaires en Asie, dont la bataille de Megiddo ?"
+    answers:
+      A: "Séthi Iᵉʳ"
+      B: "Ramsès II"
+      C: "Thoutmôsis III"
+      D: "Amenhotep III"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh led 17 military campaigns in Asia, including the Battle of Megiddo?"
+        answers:
+          A: "Seti I"
+          B: "Ramesses II"
+          C: "Thutmose III"
+          D: "Amenhotep III"
+    difficulty: HARD
+  - text: "Quel est le nom de la reine égyptienne qui a exercé la régence au nom de Thoutmôsis III ?"
+    answers:
+      A: "Néfertiti"
+      B: "Hatshepsout"
+      C: "Néfertari"
+      D: "Tiyi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Egyptian queen who served as regent on behalf of Thutmose III?"
+        answers:
+          A: "Nefertiti"
+          B: "Hatshepsut"
+          C: "Nefertari"
+          D: "Tiye"
+    difficulty: MEDIUM
+  - text: "Quel pharaon a instauré le culte exclusif d'Aton et fondé Amarna ?"
+    answers:
+      A: "Aÿ"
+      B: "Toutânkhamon"
+      C: "Akhenaton"
+      D: "Horemheb"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh established the exclusive cult of Aten and founded Amarna?"
+        answers:
+          A: "Ay"
+          B: "Tutankhamun"
+          C: "Akhenaten"
+          D: "Horemheb"
+    difficulty: EASY
+  - text: "Quel est le nom du successeur immédiat d'Akhenaton, connu pour avoir restauré le culte d'Amon ?"
+    answers:
+      A: "Toutânkhamon"
+      B: "Aÿ"
+      C: "Horemheb"
+      D: "Ramsès Iᵉʳ"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Akhenaten's immediate successor, known for restoring the cult of Amun?"
+        answers:
+          A: "Tutankhamun"
+          B: "Ay"
+          C: "Horemheb"
+          D: "Ramesses I"
+    difficulty: HARD
+  - text: "Quel pharaon a fondé la XIXᵉ dynastie après la chute de la XVIIIᵉ ?"
+    answers:
+      A: "Séthi Iᵉʳ"
+      B: "Ramsès Iᵉʳ"
+      C: "Ramsès II"
+      D: "Horemheb"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh founded the 19th Dynasty after the fall of the 18th?"
+        answers:
+          A: "Seti I"
+          B: "Ramesses I"
+          C: "Ramesses II"
+          D: "Horemheb"
+    difficulty: HARD
+  - text: "Quelle reine égyptienne est célèbre pour son tombeau de la vallée des Reines (QV66) ?"
+    answers:
+      A: "Néfertiti"
+      B: "Néfertari"
+      C: "Hatshepsout"
+      D: "Tiyi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Egyptian queen is famous for her tomb in the Valley of the Queens (QV66)?"
+        answers:
+          A: "Nefertiti"
+          B: "Nefertari"
+          C: "Hatshepsut"
+          D: "Tiye"
+    difficulty: HARD
+  - text: "Quel pharaon a fait construire le temple de Louxor, dont le pylône est décoré de scènes de la bataille de Qadesh ?"
+    answers:
+      A: "Ramsès II"
+      B: "Thoutmôsis III"
+      C: "Amenhotep III"
+      D: "Horemheb"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh built the Luxor Temple, whose pylon is decorated with scenes from the Battle of Kadesh?"
+        answers:
+          A: "Ramesses II"
+          B: "Thutmose III"
+          C: "Amenhotep III"
+          D: "Horemheb"
+    difficulty: HARD
+  - text: "Quel pharaon a fait ériger les colosses de Memnon, situés devant son temple funéraire à Thèbes ?"
+    answers:
+      A: "Sésostris Ier"
+      B: "Ramsès II"
+      C: "Amenhotep III"
+      D: "Thoutmôsis IV"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh erected the Colossi of Memnon, located in front of his mortuary temple at Thebes?"
+        answers:
+          A: "Senusret I"
+          B: "Ramesses II"
+          C: "Amenhotep III"
+          D: "Thutmose IV"
+    difficulty: MEDIUM
+  - text: "Quel pharaon a fait construire le temple funéraire de Médinet Habou, célèbre pour ses reliefs de la bataille contre les Peuples de la Mer ?"
+    answers:
+      A: "Sethnakht"
+      B: "Ramsès II"
+      C: "Mérenptah"
+      D: "Ramsès III"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh built the mortuary temple of Medinet Habu, famous for its reliefs of the battle against the Sea Peoples?"
+        answers:
+          A: "Sethnakht"
+          B: "Ramesses II"
+          C: "Merneptah"
+          D: "Ramesses III"
+    difficulty: HARD
+  - text: "Quel pharaon a fait creuser le canal du Nil à la mer Rouge, achevé selon Hérodote ?"
+    answers:
+      A: "Ptolémée II"
+      B: "Darius Ier"
+      C: "Néchao II"
+      D: "Sésostris III"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh dug the Nile-to-Red Sea canal, completed according to Herodotus?"
+        answers:
+          A: "Ptolemy II"
+          B: "Darius I"
+          C: "Necho II"
+          D: "Senusret III"
+    difficulty: EXPERT
+  - text: "Quelle reine d'Égypte est ce buste d'Amarna ?"
+    imageUrl: wikipedia/history/Nofretete_Neues_Museum.jpg
+    answers:
+      A: "Hatchepsout"
+      B: "Cléopâtre VII"
+      C: "Tiyi"
+      D: "Néfertiti"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which queen of Egypt is this Amarna bust?"
+        answers:
+          A: "Hatshepsut"
+          B: "Cleopatra VII"
+          C: "Tiye"
+          D: "Nefertiti"
+    difficulty: MEDIUM
+  - text: "Quel pharaon a fait construire le temple de Dendérah, dédié à Hathor ?"
+    answers:
+      A: "Ptolémée XII"
+      B: "Ramsès II"
+      C: "Auguste"
+      D: "Thoutmôsis III"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Dendera, dedicated to Hathor?"
+        answers:
+          A: "Ptolemy XII"
+          B: "Ramesses II"
+          C: "Augustus"
+          D: "Thutmose III"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait ériger le temple d'Edfou, dédié à Horus ?"
+    answers:
+      A: "Ramsès II"
+      B: "Ptolémée III"
+      C: "Ptolémée Ier"
+      D: "Tibère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh erected the temple of Edfu, dedicated to Horus?"
+        answers:
+          A: "Ramesses II"
+          B: "Ptolemy III"
+          C: "Ptolemy I"
+          D: "Tiberius"
+    difficulty: EXPERT
+  - text: "Quel pharaon porte ce masque funéraire ?"
+    imageUrl: wikipedia/history/Tutanchamun_Maske.jpg
+    answers:
+      A: "Toutânkhamon"
+      B: "Ramsès II"
+      C: "Akhenaton"
+      D: "Séti Ier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh wears this funerary mask?"
+        answers:
+          A: "Tutankhamun"
+          B: "Ramesses II"
+          C: "Akhenaten"
+          D: "Seti I"
+    difficulty: EASY
+  - text: "Quel pharaon a fait construire le temple de Karnak, dont l'extension majeure est due à Séthi Ier et Ramsès II ?"
+    answers:
+      A: "Horemheb"
+      B: "Thoutmôsis III"
+      C: "Amenhotep III"
+      D: "Sésostris Ier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Karnak, whose major expansion is due to Seti I and Ramesses II?"
+        answers:
+          A: "Horemheb"
+          B: "Thutmose III"
+          C: "Amenhotep III"
+          D: "Senusret I"
+    difficulty: HARD
+  - text: "Quel pharaon a fait creuser Abou Simbel ?"
+    imageUrl: wikipedia/history/Abu_Simbel_Temple_May_30_2007.jpg
+    answers:
+      A: "Séti Ier"
+      B: "Ramsès II"
+      C: "Amenhotep III"
+      D: "Ramsès III"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh had Abu Simbel carved?"
+        answers:
+          A: "Seti I"
+          B: "Ramesses II"
+          C: "Amenhotep III"
+          D: "Ramesses III"
+    difficulty: EASY
+  - text: "Quel pharaon a fait construire le temple d'Abydos, dédié à Osiris ?"
+    answers:
+      A: "Sésostris III"
+      B: "Ramsès II"
+      C: "Mérenptah"
+      D: "Séthi Ier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Abydos, dedicated to Osiris?"
+        answers:
+          A: "Senusret III"
+          B: "Ramesses II"
+          C: "Merneptah"
+          D: "Seti I"
+    difficulty: HARD
+  - text: "Quel pharaon a fait ériger le temple de Philae, dédié à Isis ?"
+    answers:
+      A: "Auguste"
+      B: "Ptolémée II"
+      C: "Trajan"
+      D: "Nectanébo Ier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh erected the temple of Philae, dedicated to Isis?"
+        answers:
+          A: "Augustus"
+          B: "Ptolemy II"
+          C: "Trajan"
+          D: "Nectanebo I"
+    difficulty: HARD
+  - text: "Quel pharaon a fait construire le temple d'Esna, dédié à Khnoum ?"
+    answers:
+      A: "Ptolémée VI"
+      B: "Ramsès II"
+      C: "Auguste"
+      D: "Ptolémée III"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Esna, dedicated to Khnum?"
+        answers:
+          A: "Ptolemy VI"
+          B: "Ramesses II"
+          C: "Augustus"
+          D: "Ptolemy III"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Kom Ombo, dédié à Sobek et Haroëris ?"
+    answers:
+      A: "Ptolémée VI"
+      B: "Ramsès II"
+      C: "Ptolémée II"
+      D: "Tibère"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Kom Ombo, dedicated to Sobek and Haroeris?"
+        answers:
+          A: "Ptolemy VI"
+          B: "Ramesses II"
+          C: "Ptolemy II"
+          D: "Tiberius"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple d'el-Qal'a, dédié à Isis ?"
+    answers:
+      A: "Auguste"
+      B: "Ramsès II"
+      C: "Ptolémée VIII"
+      D: "Ptolémée II"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh built the temple of el-Qal'a, dedicated to Isis?"
+        answers:
+          A: "Augustus"
+          B: "Ramesses II"
+          C: "Ptolemy VIII"
+          D: "Ptolemy II"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Debod, dédié à Amon et Isis ?"
+    answers:
+      A: "Ptolémée IV"
+      B: "Ramsès II"
+      C: "Auguste"
+      D: "Ptolémée II"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Debod, dedicated to Amun and Isis?"
+        answers:
+          A: "Ptolemy IV"
+          B: "Ramesses II"
+          C: "Augustus"
+          D: "Ptolemy II"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Kalabcha, dédié à Mandoulis ?"
+    answers:
+      A: "Auguste"
+      B: "Ramsès II"
+      C: "Ptolémée II"
+      D: "Tibère"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Kalabsha, dedicated to Mandulis?"
+        answers:
+          A: "Augustus"
+          B: "Ramesses II"
+          C: "Ptolemy II"
+          D: "Tiberius"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Wadi es-Sebua, dédié à Amon-Rê ?"
+    answers:
+      A: "Thoutmôsis III"
+      B: "Ptolémée II"
+      C: "Auguste"
+      D: "Ramsès II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Wadi es-Sebua, dedicated to Amun-Re?"
+        answers:
+          A: "Thutmose III"
+          B: "Ptolemy II"
+          C: "Augustus"
+          D: "Ramesses II"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Dakka, dédié à Thot ?"
+    answers:
+      A: "Tibère"
+      B: "Ramsès II"
+      C: "Auguste"
+      D: "Ptolémée II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Dakka, dedicated to Thoth?"
+        answers:
+          A: "Tiberius"
+          B: "Ramesses II"
+          C: "Augustus"
+          D: "Ptolemy II"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Ouadi es-Seboua, dédié à Amon-Rê ?"
+    answers:
+      A: "Auguste"
+      B: "Ptolémée II"
+      C: "Ramsès II"
+      D: "Thoutmôsis III"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Wadi es-Sebua, dedicated to Amun-Re?"
+        answers:
+          A: "Augustus"
+          B: "Ptolemy II"
+          C: "Ramesses II"
+          D: "Thutmose III"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Gerf Hussein, dédié à Ptah ?"
+    answers:
+      A: "Thoutmôsis III"
+      B: "Ptolémée II"
+      C: "Auguste"
+      D: "Ramsès II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Gerf Hussein, dedicated to Ptah?"
+        answers:
+          A: "Thutmose III"
+          B: "Ptolemy II"
+          C: "Augustus"
+          D: "Ramesses II"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Beit el-Wali, dédié à Amon-Rê ?"
+    answers:
+      A: "Ptolémée II"
+      B: "Ramsès II"
+      C: "Auguste"
+      D: "Thoutmôsis III"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Beit el-Wali, dedicated to Amun-Re?"
+        answers:
+          A: "Ptolemy II"
+          B: "Ramesses II"
+          C: "Augustus"
+          D: "Thutmose III"
+    difficulty: EXPERT
+  - text: "Quel pharaon de la XXVIe dynastie a fait construire le temple de Philae dédié à Isis ?"
+    answers:
+      A: "Apriès"
+      B: "Psammétique Ier"
+      C: "Néchao II"
+      D: "Ahmôsis II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh of the XXVIth dynasty built the temple of Philae dedicated to Isis?"
+        answers:
+          A: "Apries"
+          B: "Psamtik I"
+          C: "Necho II"
+          D: "Amasis II"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait ériger les colosses de Memnon ?"
+    answers:
+      A: "Ramsès II"
+      B: "Aménophis III"
+      C: "Toutânkhamon"
+      D: "Akhenaton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh erected the Colossi of Memnon?"
+        answers:
+          A: "Ramesses II"
+          B: "Amenhotep III"
+          C: "Tutankhamun"
+          D: "Akhenaten"
+    difficulty: MEDIUM
+  - text: "Quel pharaon a fait construire le temple funéraire de Médinet Habou ?"
+    answers:
+      A: "Ramsès III"
+      B: "Séthi Ier"
+      C: "Ramsès II"
+      D: "Merenptah"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh built the mortuary temple of Medinet Habu?"
+        answers:
+          A: "Ramesses III"
+          B: "Seti I"
+          C: "Ramesses II"
+          D: "Merenptah"
+    difficulty: HARD
+  - text: "Quel pharaon a fondé la XIXe dynastie après la chute de la XVIIIe ?"
+    answers:
+      A: "Séthi Ier"
+      B: "Ramsès Ier"
+      C: "Horemheb"
+      D: "Ramsès II"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh founded the 19th Dynasty after the fall of the 18th?"
+        answers:
+          A: "Seti I"
+          B: "Ramesses I"
+          C: "Horemheb"
+          D: "Ramesses II"
+    difficulty: HARD
+  - text: "Quel pharaon de la XIIe dynastie a fait construire la pyramide de Dahchour ?"
+    answers:
+      A: "Sésostris III"
+      B: "Sésostris Ier"
+      C: "Amenemhat Ier"
+      D: "Amenemhat III"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh of the 12th Dynasty built the pyramid of Dahshur?"
+        answers:
+          A: "Senusret III"
+          B: "Senusret I"
+          C: "Amenemhat I"
+          D: "Amenemhat III"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple d'Edfou, dédié à Horus ?"
+    answers:
+      A: "Ptolémée III"
+      B: "Ptolémée XII"
+      C: "Ptolémée VI"
+      D: "Auguste"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh built the Temple of Edfu, dedicated to Horus?"
+        answers:
+          A: "Ptolemy III"
+          B: "Ptolemy XII"
+          C: "Ptolemy VI"
+          D: "Augustus"
+    difficulty: EXPERT
+  - text: "Quel pharaon de la IVe dynastie a fait construire la pyramide de Meïdoum ?"
+    answers:
+      A: "Houni"
+      B: "Khéops"
+      C: "Snéfrou"
+      D: "Djédefrê"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh of the 4th Dynasty built the pyramid of Meidum?"
+        answers:
+          A: "Huni"
+          B: "Khufu"
+          C: "Sneferu"
+          D: "Djedefre"
+    difficulty: HARD
+  - text: "Quel est le nom égyptien de la pyramide rouge de Dahchour ?"
+    answers:
+      A: "Akhet Khoufou"
+      B: "Khenemou-Snéfrou"
+      C: "Kha-Snéfrou"
+      D: "Meri-Rê"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Egyptian name of the Red Pyramid of Dahshur?"
+        answers:
+          A: "Akhet Khufu"
+          B: "Khenemou-Sneferu"
+          C: "Kha-Sneferu"
+          D: "Meri-Re"
+    difficulty: EXPERT
+  - text: "Quel fonctionnaire de la VIe dynastie a laissé une autobiographie détaillant des expéditions en Nubie ?"
+    answers:
+      A: "Ouahankh"
+      B: "Hirkhouf"
+      C: "Ouni"
+      D: "Ptahhotep"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which official of the 6th Dynasty left an autobiography detailing expeditions to Nubia?"
+        answers:
+          A: "Wahankh"
+          B: "Harkhuf"
+          C: "Weni"
+          D: "Ptahhotep"
+    difficulty: EXPERT
+  - text: "Combien de cataractes du Nil sont traditionnellement répertoriées entre Assouan et Khartoum ?"
+    answers:
+      A: "Six"
+      B: "Cinq"
+      C: "Quatre"
+      D: "Sept"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many cataracts of the Nile are traditionally listed between Aswan and Khartoum?"
+        answers:
+          A: "Six"
+          B: "Five"
+          C: "Four"
+          D: "Seven"
+    difficulty: HARD
+  - text: "Quel pharaon de la XIIe dynastie a fait construire le temple funéraire du Labyrinthe à Hawara ?"
+    answers:
+      A: "Sésostris III"
+      B: "Amenemhat III"
+      C: "Amenemhat II"
+      D: "Sésostris II"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh of the 12th Dynasty built the mortuary temple of the Labyrinth at Hawara?"
+        answers:
+          A: "Senusret III"
+          B: "Amenemhat III"
+          C: "Amenemhat II"
+          D: "Senusret II"
+    difficulty: EXPERT
+  - text: "Quel pharaon hyksôs a régné depuis Avaris et est associé au nom Khian ?"
+    answers:
+      A: "Apopi Ier"
+      B: "Sheshi"
+      C: "Khamoudi"
+      D: "Yaqub-Har"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Hyksos pharaoh ruled from Avaris and is associated with the name Khian?"
+        answers:
+          A: "Apopi I"
+          B: "Sheshi"
+          C: "Khamudi"
+          D: "Yaqub-Har"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la reine nubienne qui a régné en tant que pharaon et est enterrée à Méroé ?"
+    answers:
+      A: "Amanishakheto"
+      B: "Nawidemak"
+      C: "Amanirenas"
+      D: "Shanakdakhete"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Nubian queen who ruled as pharaoh and is buried at Meroe?"
+        answers:
+          A: "Amanishakheto"
+          B: "Nawidemak"
+          C: "Amanirenas"
+          D: "Shanakdakhete"
+    difficulty: HARD
+  - text: "Quel pharaon de la XVIIIe dynastie a fait construire le temple de Soleb en Nubie ?"
+    answers:
+      A: "Amenhotep II"
+      B: "Thoutmôsis IV"
+      C: "Amenhotep III"
+      D: "Akhenaton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh of the 18th Dynasty built the temple of Soleb in Nubia?"
+        answers:
+          A: "Amenhotep II"
+          B: "Thutmose IV"
+          C: "Amenhotep III"
+          D: "Akhenaten"
+    difficulty: EXPERT
+  - text: "Quel est le nom du vizir d'Amenhotep III qui a laissé une statue de prière à Karnak ?"
+    answers:
+      A: "Amenhotep fils de Hapou"
+      B: "Ramosé"
+      C: "Paser"
+      D: "Kha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Amenhotep III's vizier who left a prayer statue at Karnak?"
+        answers:
+          A: "Amenhotep son of Hapu"
+          B: "Ramose"
+          C: "Paser"
+          D: "Kha"
+    difficulty: EXPERT
+  - text: "Quelle épouse de Ramsès II est représentée à ses côtés sur la façade du temple d'Abou Simbel ?"
+    answers:
+      A: "Isis-Nofret"
+      B: "Néfertari"
+      C: "Merytamon"
+      D: "Bintanath"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which wife of Ramesses II is depicted beside him on the facade of the temple of Abu Simbel?"
+        answers:
+          A: "Isetnofret"
+          B: "Nefertari"
+          C: "Merytamun"
+          D: "Bintanath"
+    difficulty: HARD
+  - text: "Quel pharaon a fait construire le temple de Ouadi es-Seboua en Nubie ?"
+    answers:
+      A: "Séthi Ier"
+      B: "Amenhotep III"
+      C: "Ramsès II"
+      D: "Thoutmôsis III"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Wadi es-Sebua in Nubia?"
+        answers:
+          A: "Seti I"
+          B: "Amenhotep III"
+          C: "Ramesses II"
+          D: "Thutmose III"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dieu crocodile vénéré à Kom Ombo aux côtés d'Haroëris ?"
+    answers:
+      A: "Khnoum"
+      B: "Anubis"
+      C: "Thot"
+      D: "Sobek"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the crocodile god worshipped at Kom Ombo alongside Haroeris?"
+        answers:
+          A: "Khnum"
+          B: "Anubis"
+          C: "Thoth"
+          D: "Sobek"
+    difficulty: HARD
+  - text: "Quel pharaon de la XXVe dynastie koushite a fait restaurer le temple de Karnak ?"
+    answers:
+      A: "Chabataka"
+      B: "Taharqa"
+      C: "Piânkhy"
+      D: "Chabaka"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh of the Kushite 25th Dynasty restored the temple of Karnak?"
+        answers:
+          A: "Shabataka"
+          B: "Taharqa"
+          C: "Piye"
+          D: "Shabaka"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la stèle de Piânkhy qui relate sa conquête de l'Égypte ?"
+    answers:
+      A: "Stèle de la Victoire"
+      B: "Stèle de Tanis"
+      C: "Stèle de Gebel Barkal"
+      D: "Stèle de Méroé"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the stele of Piye that recounts his conquest of Egypt?"
+        answers:
+          A: "Victory Stele"
+          B: "Tanis Stele"
+          C: "Gebel Barkal Stele"
+          D: "Meroe Stele"
+    difficulty: EXPERT
+  - text: "Quel pharaon saïte a fait construire le temple de Néchao à Saïs ?"
+    answers:
+      A: "Néchao II"
+      B: "Psammétique Ier"
+      C: "Apriès"
+      D: "Amasis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Saite pharaoh built the temple of Necho at Sais?"
+        answers:
+          A: "Necho II"
+          B: "Psamtik I"
+          C: "Apries"
+          D: "Amasis"
+    difficulty: EXPERT
+  - text: "Quel pharaon perse a conquis l'Égypte en 525 av. J.-C. à la bataille de Péluse ?"
+    answers:
+      A: "Artaxerxès Ier"
+      B: "Darius Ier"
+      C: "Xerxès Ier"
+      D: "Cambyse II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Persian pharaoh conquered Egypt in 525 BC at the Battle of Pelusium?"
+        answers:
+          A: "Artaxerxes I"
+          B: "Darius I"
+          C: "Xerxes I"
+          D: "Cambyses II"
+    difficulty: HARD
+  - text: "Quel est le nom de la dernière reine ptolémaïque d'Égypte ?"
+    answers:
+      A: "Bérénice IV"
+      B: "Cléopâtre VII"
+      C: "Arsinoé IV"
+      D: "Cléopâtre VI"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the last Ptolemaic queen of Egypt?"
+        answers:
+          A: "Berenice IV"
+          B: "Cleopatra VII"
+          C: "Arsinoe IV"
+          D: "Cleopatra VI"
+    difficulty: EASY
+  - text: "Quel général d'Alexandre le Grand a fondé la dynastie ptolémaïque ?"
+    answers:
+      A: "Séleucos"
+      B: "Cassandre"
+      C: "Lysimaque"
+      D: "Ptolémée Ier Sôter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which general of Alexander the Great founded the Ptolemaic dynasty?"
+        answers:
+          A: "Seleucus"
+          B: "Cassander"
+          C: "Lysimachus"
+          D: "Ptolemy I Soter"
+    difficulty: MEDIUM
+  - text: "Quelle bataille navale de 31 av. J.-C. marque la fin de l'indépendance ptolémaïque ?"
+    answers:
+      A: "Salamine"
+      B: "Naupacte"
+      C: "Actium"
+      D: "Myonessos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which naval battle in 31 BC marked the end of Ptolemaic independence?"
+        answers:
+          A: "Salamis"
+          B: "Naupactus"
+          C: "Actium"
+          D: "Myonessus"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la pierre gravée de trois écritures qui a permis le déchiffrement des hiéroglyphes ?"
+    answers:
+      A: "Palette de Narmer"
+      B: "Pierre de Rosette"
+      C: "Stèle de Mérenptah"
+      D: "Papyrus de Turin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the stone inscribed with three scripts that enabled the decipherment of hieroglyphs?"
+        answers:
+          A: "Narmer Palette"
+          B: "Rosetta Stone"
+          C: "Merneptah Stele"
+          D: "Turin Papyrus"
+    difficulty: EASY
+  - text: "Quel est le nom égyptien de la ville de Thèbes ?"
+    answers:
+      A: "Men-nefer"
+      B: "Iounou"
+      C: "Ouaset"
+      D: "Ineb-Hedj"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Egyptian name of the city of Thebes?"
+        answers:
+          A: "Men-nefer"
+          B: "Iunu"
+          C: "Waset"
+          D: "Ineb-Hedj"
+    difficulty: HARD
+  - text: "Quel pharaon a fait construire le temple de Deir el-Bahari, souvent appelé temple funéraire de la reine Hatchepsout ?"
+    answers:
+      A: "Thoutmosis III"
+      B: "Hatchepsout"
+      C: "Amenhotep III"
+      D: "Sésostris II"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh built the temple of Deir el-Bahari, often called the mortuary temple of Queen Hatshepsut?"
+        answers:
+          A: "Thutmose III"
+          B: "Hatshepsut"
+          C: "Amenhotep III"
+          D: "Senusret II"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du vizir d'Akhenaton qui a été enterré à Amarna ?"
+    answers:
+      A: "Ramosé"
+      B: "Paramessou"
+      C: "Aÿ"
+      D: "Nakhtmin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Akhenaten's vizier who was buried at Amarna?"
+        answers:
+          A: "Ramose"
+          B: "Paramessu"
+          C: "Ay"
+          D: "Nakhtmin"
+    difficulty: EXPERT
+  - text: "À quel dieu était dédié le temple de Karnak ?"
+    imageUrl: wikipedia/history/Karnak_Hypostyle_Hall_R01.jpg
+    answers:
+      A: "Isis"
+      B: "Osiris"
+      C: "Amon"
+      D: "Râ"
+    correctAnswer: C
+    translations:
+      en:
+        text: "To which god was the temple of Karnak dedicated?"
+        answers:
+          A: "Isis"
+          B: "Osiris"
+          C: "Amun"
+          D: "Ra"
+    difficulty: MEDIUM
+  - text: "Quel pharaon de la XIXe dynastie a signé le traité de paix avec les Hittites après la bataille de Qadesh ?"
+    answers:
+      A: "Ramsès II"
+      B: "Séthi Ier"
+      C: "Merenptah"
+      D: "Ramsès III"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh of the 19th Dynasty signed the peace treaty with the Hittites after the Battle of Kadesh?"
+        answers:
+          A: "Ramesses II"
+          B: "Seti I"
+          C: "Merneptah"
+          D: "Ramesses III"
+    difficulty: HARD
+  - text: "Quel est le nom de la grande épouse royale de Ramsès II, dont le tombeau a été découvert dans la Vallée des Reines ?"
+    answers:
+      A: "Bint-Anath"
+      B: "Isis-Nofret"
+      C: "Maat-Hor-Néferourê"
+      D: "Néfertari"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the great royal wife of Ramesses II, whose tomb was discovered in the Valley of the Queens?"
+        answers:
+          A: "Bintanath"
+          B: "Isetnofret"
+          C: "Maat-Hor-Neferure"
+          D: "Nefertari"
+    difficulty: HARD
+  - text: "Quel pharaon a fondé la XIIe dynastie ?"
+    answers:
+      A: "Sésostris Ier"
+      B: "Amenemhat Ier"
+      C: "Sésostris III"
+      D: "Amenemhat III"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh founded the 12th Dynasty?"
+        answers:
+          A: "Senusret I"
+          B: "Amenemhat I"
+          C: "Senusret III"
+          D: "Amenemhat III"
+    difficulty: HARD
+  - text: "Quel est le nom de la pyramide construite par Sésostris III à Dahchour ?"
+    answers:
+      A: "Pyramide rouge"
+      B: "Pyramide rhomboïdale"
+      C: "Pyramide de Meïdoum"
+      D: "Pyramide noire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the pyramid built by Senusret III at Dahshur?"
+        answers:
+          A: "Red Pyramid"
+          B: "Bent Pyramid"
+          C: "Meidum Pyramid"
+          D: "Black Pyramid"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dieu égyptien associé à la momification et au jugement des morts ?"
+    answers:
+      A: "Anubis"
+      B: "Osiris"
+      C: "Thot"
+      D: "Horus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Egyptian god associated with mummification and the judgment of the dead?"
+        answers:
+          A: "Anubis"
+          B: "Osiris"
+          C: "Thoth"
+          D: "Horus"
+    difficulty: MEDIUM
+  - text: "Quelle reine égyptienne a régné en tant que pharaon après la mort de son époux Thoutmosis II ?"
+    answers:
+      A: "Hatchepsout"
+      B: "Néfertiti"
+      C: "Tiyi"
+      D: "Néfertari"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Egyptian queen ruled as pharaoh after the death of her husband Thutmose II?"
+        answers:
+          A: "Hatshepsut"
+          B: "Nefertiti"
+          C: "Tiyi"
+          D: "Nefertari"
+    difficulty: MEDIUM
+  - text: "Quel pharaon a fait construire le temple de Louxor ?"
+    answers:
+      A: "Ramsès II"
+      B: "Thoutmosis IV"
+      C: "Horemheb"
+      D: "Amenhotep III"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh had the Luxor Temple built?"
+        answers:
+          A: "Ramesses II"
+          B: "Thutmose IV"
+          C: "Horemheb"
+          D: "Amenhotep III"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la nécropole royale du Nouvel Empire située près de Thèbes ?"
+    answers:
+      A: "Vallée des Rois"
+      B: "Vallée des Reines"
+      C: "Deir el-Médineh"
+      D: "Dra Abou el-Naga"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the royal necropolis of the New Kingdom located near Thebes?"
+        answers:
+          A: "Valley of the Kings"
+          B: "Valley of the Queens"
+          C: "Deir el-Medina"
+          D: "Dra Abu el-Naga"
+    difficulty: MEDIUM
+  - text: "Quel pharaon a fait construire le temple d'Abou Simbel ?"
+    answers:
+      A: "Ramsès III"
+      B: "Séthi Ier"
+      C: "Amenhotep III"
+      D: "Ramsès II"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pharaoh had the temple of Abu Simbel built?"
+        answers:
+          A: "Ramesses III"
+          B: "Seti I"
+          C: "Amenhotep III"
+          D: "Ramesses II"
+    difficulty: MEDIUM
+  - text: "Quelle bataille, livrée en 1274 av. J.-C., opposa Ramsès II aux Hittites ?"
+    answers:
+      A: "Bataille de Megiddo"
+      B: "Bataille de Qadesh"
+      C: "Bataille de Karkemish"
+      D: "Bataille de Péluse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which battle, fought in 1274 BC, pitted Ramesses II against the Hittites?"
+        answers:
+          A: "Battle of Megiddo"
+          B: "Battle of Kadesh"
+          C: "Battle of Carchemish"
+          D: "Battle of Pelusium"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier pharaon de la XXVe dynastie koushite ?"
+    answers:
+      A: "Taharqa"
+      B: "Piânkhy"
+      C: "Chabataka"
+      D: "Tanoutamon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first pharaoh of the Kushite 25th Dynasty?"
+        answers:
+          A: "Taharqa"
+          B: "Piye"
+          C: "Shabataka"
+          D: "Tanutamun"
+    difficulty: EXPERT
+  - text: "Quel pharaon a fait construire le temple de Philae, dédié à Isis ?"
+    answers:
+      A: "Ptolémée II"
+      B: "Ptolémée VIII"
+      C: "Auguste"
+      D: "Trajan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharaoh had the temple of Philae, dedicated to Isis, built?"
+        answers:
+          A: "Ptolemy II"
+          B: "Ptolemy VIII"
+          C: "Augustus"
+          D: "Trajan"
+    difficulty: HARD
+  - text: "Quel est le nom de la reine ptolémaïque qui a régné avec son frère Ptolémée XIII puis avec Jules César ?"
+    answers:
+      A: "Cléopâtre VI"
+      B: "Bérénice IV"
+      C: "Arsinoé IV"
+      D: "Cléopâtre VII"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Ptolemaic queen who ruled with her brother Ptolemy XIII and then with Julius Caesar?"
+        answers:
+          A: "Cleopatra VI"
+          B: "Berenice IV"
+          C: "Arsinoe IV"
+          D: "Cleopatra VII"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du général macédonien qui a fondé la dynastie ptolémaïque en Égypte ?"
+    answers:
+      A: "Séleucos"
+      B: "Antigone"
+      C: "Ptolémée Ier"
+      D: "Cassandre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Macedonian general who founded the Ptolemaic dynasty in Egypt?"
+        answers:
+          A: "Seleucus"
+          B: "Antigonus"
+          C: "Ptolemy I"
+          D: "Cassander"
+    difficulty: MEDIUM
+  - text: "Quelle bataille de 31 av. J.-C. a marqué la fin de l'indépendance de l'Égypte ptolémaïque ?"
+    answers:
+      A: "Bataille de Nauloque"
+      B: "Bataille de Philippes"
+      C: "Bataille d'Actium"
+      D: "Bataille de Zéla"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which battle in 31 BC marked the end of the independence of Ptolemaic Egypt?"
+        answers:
+          A: "Battle of Naulochus"
+          B: "Battle of Philippi"
+          C: "Battle of Actium"
+          D: "Battle of Zela"
+    difficulty: HARD
+  - text: "Quel est le nom du grand prêtre d'Amon à Thèbes qui a usurpé le pouvoir à la fin de la XXe dynastie ?"
+    answers:
+      A: "Hérihor"
+      B: "Piankh"
+      C: "Pinedjem Ier"
+      D: "Menkhéperrê"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the High Priest of Amun at Thebes who usurped power at the end of the 20th Dynasty?"
+        answers:
+          A: "Herihor"
+          B: "Piankh"
+          C: "Pinedjem I"
+          D: "Menkheperre"
+    difficulty: EXPERT
+  - text: "Quel est le nom égyptien de la ville de Memphis ?"
+    answers:
+      A: "Per-Ramsès"
+      B: "Waset"
+      C: "Sémenhor"
+      D: "Ineb-hedj"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the Egyptian name of the city of Memphis?"
+        answers:
+          A: "Pi-Ramesses"
+          B: "Waset"
+          C: "Semenhor"
+          D: "Ineb-hedj"
+    difficulty: HARD
+  - text: "Quel est le nom de la première cataracte du Nil, marquant traditionnellement la frontière sud de l'Égypte ?"
+    answers:
+      A: "Oronte"
+      B: "Dendour"
+      C: "Kalabcha"
+      D: "Assouan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first cataract of the Nile, traditionally marking the southern border of Egypt?"
+        answers:
+          A: "Orontes"
+          B: "Dendur"
+          C: "Kalabsha"
+          D: "Aswan"
+    difficulty: HARD
+  - text: "Quel pharaon de la XVIIIe dynastie a fait construire le temple de Gournah, également appelé temple des millions d'années ?"
+    answers:
+      A: "Amenhotep II"
+      B: "Thoutmosis IV"
+      C: "Amenhotep III"
+      D: "Hatchepsout"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh of the 18th dynasty built the temple of Gournah, also called the temple of millions of years?"
+        answers:
+          A: "Amenhotep II"
+          B: "Thutmose IV"
+          C: "Amenhotep III"
+          D: "Hatshepsut"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dieu égyptien à tête de faucon, fils d'Osiris et d'Isis ?"
+    answers:
+      A: "Seth"
+      B: "Anubis"
+      C: "Thot"
+      D: "Horus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the falcon-headed Egyptian god, son of Osiris and Isis?"
+        answers:
+          A: "Seth"
+          B: "Anubis"
+          C: "Thoth"
+          D: "Horus"
+    difficulty: MEDIUM
+  - text: "Quel roi ptolémaïque a fait construire le temple d'Horus à Edfou ?"
+    answers:
+      A: "Ptolémée III"
+      B: "Ptolémée II"
+      C: "Ptolémée Ier"
+      D: "Ptolémée XII"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Ptolemaic king built the temple of Horus at Edfu?"
+        answers:
+          A: "Ptolemy III"
+          B: "Ptolemy II"
+          C: "Ptolemy I"
+          D: "Ptolemy XII"
+    difficulty: HARD
+  - text: "Quel est le nom de la nécropole de Memphis, classée au patrimoine mondial, où se trouve le Sérapéum ?"
+    answers:
+      A: "Saqqarah"
+      B: "Dahchour"
+      C: "Abou Rawash"
+      D: "Gizeh"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the necropolis of Memphis, a World Heritage Site, where the Serapeum is located?"
+        answers:
+          A: "Saqqara"
+          B: "Dahshur"
+          C: "Abu Rawash"
+          D: "Giza"
+    difficulty: HARD
+  - text: "Quel pharaon du Moyen Empire a fait construire la forteresse de Bouhen en Nubie ?"
+    answers:
+      A: "Sésostris III"
+      B: "Sésostris Ier"
+      C: "Amenemhat Ier"
+      D: "Mentouhotep II"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Middle Kingdom pharaoh built the fortress of Buhen in Nubia?"
+        answers:
+          A: "Senusret III"
+          B: "Senusret I"
+          C: "Amenemhat I"
+          D: "Mentuhotep II"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la couronne blanche portée par le pharaon, symbole de la Haute-Égypte ?"
+    answers:
+      A: "Hedjet"
+      B: "Pschent"
+      C: "Desheret"
+      D: "Khepresh"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the white crown worn by the pharaoh, symbol of Upper Egypt?"
+        answers:
+          A: "Hedjet"
+          B: "Pschent"
+          C: "Deshret"
+          D: "Khepresh"
+    difficulty: HARD
+  - text: "Quel pharaon de la XIXe dynastie a déplacé la capitale de Thèbes à Pi-Ramsès ?"
+    answers:
+      A: "Séthi Ier"
+      B: "Merenptah"
+      C: "Ramsès II"
+      D: "Siptah"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh of the 19th dynasty moved the capital from Thebes to Pi-Ramesses?"
+        answers:
+          A: "Seti I"
+          B: "Merenptah"
+          C: "Ramesses II"
+          D: "Siptah"
+    difficulty: HARD
+  - text: "Quel est le nom de la grande épouse royale de Thoutmosis III, dont la statue colossale se trouve au musée du Caire ?"
+    answers:
+      A: "Néfertari"
+      B: "Mérytamon"
+      C: "Nebtou"
+      D: "Satiya"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the great royal wife of Thutmose III, whose colossal statue is in the Cairo Museum?"
+        answers:
+          A: "Nefertari"
+          B: "Merytamun"
+          C: "Nebtu"
+          D: "Satiya"
+    difficulty: EXPERT
+  - text: "Quel pharaon de la IVe dynastie a fait édifier la pyramide dite « rouge » à Dahchour ?"
+    answers:
+      A: "Khéops"
+      B: "Mykérinos"
+      C: "Snéfrou"
+      D: "Djédefrê"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pharaoh of the 4th dynasty built the so-called \"Red\" pyramid at Dahshur?"
+        answers:
+          A: "Khufu"
+          B: "Menkaure"
+          C: "Sneferu"
+          D: "Djedefre"
+    difficulty: HARD

@@ -1,0 +1,1631 @@
+topic:
+  id: topic-eurovision
+  names:
+    fr: "Eurovision"
+    en: "Eurovision"
+  description: "L'Eurovision est le plus grand concours de chansons au monde, créé en 1956 par l'Union européenne de radio-télévision. Chaque année, des pays s'affrontent lors de demi-finales puis d'une grande finale, départagés par les jurys et le télévote du public. D'ABBA à Céline Dion en passant par Loreen, le concours a révélé des artistes légendaires et réunit des millions de téléspectateurs."
+  category: ENTERTAINMENT
+  titles:
+    fr:
+      FER: "Chanteur sous la douche"
+      BRONZE: "Candidat de présélection"
+      ARGENT: "Finaliste national"
+      OR: "Représentant à l'Eurovision"
+      PLATINE: "Champion du télévote"
+      EMERAUDE: "Vainqueur du concours"
+      DIAMANT: "Légende de l'Eurovision"
+    en:
+      FER: "Shower Singer"
+      BRONZE: "National Selection Hopeful"
+      ARGENT: "National Finalist"
+      OR: "Eurovision Contestant"
+      PLATINE: "Televote Champion"
+      EMERAUDE: "Eurovision Winner"
+      DIAMANT: "Eurovision Legend"
+  imageUrl: wikipedia/entertainment/Eurovision_Song_Contest_2025_Stage.jpg
+questions:
+  - text: "Quel pays a remporté l'Eurovision 1969 avec « Vivo cantando » ?"
+    answers:
+      A: "Espagne"
+      B: "France"
+      C: "Pays-Bas"
+      D: "Royaume-Uni"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1969 with \"Vivo cantando\"?"
+        answers:
+          A: "Spain"
+          B: "France"
+          C: "Netherlands"
+          D: "United Kingdom"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1957 avec « Net als toen » ?"
+    answers:
+      A: "Pays-Bas"
+      B: "France"
+      C: "Italie"
+      D: "Allemagne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1957 with \"Net als toen\"?"
+        answers:
+          A: "Netherlands"
+          B: "France"
+          C: "Italy"
+          D: "Germany"
+    difficulty: EXPERT
+  - text: "En quelle année l'Eurovision a-t-il introduit le télévote dans tous les pays participants ?"
+    answers:
+      A: "1997"
+      B: "1998"
+      C: "1999"
+      D: "2000"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Eurovision introduce televoting in all participating countries?"
+        answers:
+          A: "1997"
+          B: "1998"
+          C: "1999"
+          D: "2000"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1968 avec « La, la, la » ?"
+    answers:
+      A: "Allemagne"
+      B: "Royaume-Uni"
+      C: "France"
+      D: "Espagne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1968 with \"La, la, la\"?"
+        answers:
+          A: "Germany"
+          B: "United Kingdom"
+          C: "France"
+          D: "Spain"
+    difficulty: HARD
+  - text: "Quelle ville a accueilli l'Eurovision 2025 ?"
+    imageUrl: wikipedia/entertainment/St_Jakobshalle_Basel.jpg
+    answers:
+      A: "Bâle"
+      B: "Genève"
+      C: "Zurich"
+      D: "Lausanne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which city hosted Eurovision 2025?"
+        answers:
+          A: "Basel"
+          B: "Geneva"
+          C: "Zurich"
+          D: "Lausanne"
+    difficulty: EASY
+  - text: "Quelle chanson a remporté l'Eurovision 1964 pour l'Italie ?"
+    answers:
+      A: "Piove"
+      B: "Volare"
+      C: "Non ho l'età"
+      D: "Al di là"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which song won Eurovision 1964 for Italy?"
+        answers:
+          A: "Piove"
+          B: "Volare"
+          C: "Non ho l'età"
+          D: "Al di là"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1998 avec « Diva » ?"
+    answers:
+      A: "Royaume-Uni"
+      B: "Malte"
+      C: "Israël"
+      D: "Pays-Bas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1998 with \"Diva\"?"
+        answers:
+          A: "United Kingdom"
+          B: "Malta"
+          C: "Israel"
+          D: "Netherlands"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1979 avec « Hallelujah » ?"
+    answers:
+      A: "Espagne"
+      B: "Israël"
+      C: "France"
+      D: "Allemagne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1979 with \"Hallelujah\"?"
+        answers:
+          A: "Spain"
+          B: "Israel"
+          C: "France"
+          D: "Germany"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1961 avec « Nous les amoureux » ?"
+    answers:
+      A: "Monaco"
+      B: "France"
+      C: "Luxembourg"
+      D: "Suisse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1961 with \"Nous les amoureux\"?"
+        answers:
+          A: "Monaco"
+          B: "France"
+          C: "Luxembourg"
+          D: "Switzerland"
+    difficulty: EXPERT
+  - text: "Quel pays a gagné l'Eurovision 2023 avec Loreen ?"
+    imageUrl: wikipedia/entertainment/Flag_of_Sweden.png
+    answers:
+      A: "Danemark"
+      B: "Norvège"
+      C: "Suède"
+      D: "Finlande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 2023 with Loreen?"
+        answers:
+          A: "Denmark"
+          B: "Norway"
+          C: "Sweden"
+          D: "Finland"
+    difficulty: EASY
+  - text: "En quelle année l'Eurovision a-t-il introduit le système de vote actuel avec 12 points maximum ?"
+    answers:
+      A: "1976"
+      B: "1974"
+      C: "1975"
+      D: "1977"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Eurovision introduce the current voting system with a maximum of 12 points?"
+        answers:
+          A: "1976"
+          B: "1974"
+          C: "1975"
+          D: "1977"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1980 avec « What's Another Year » ?"
+    answers:
+      A: "Allemagne"
+      B: "Royaume-Uni"
+      C: "Irlande"
+      D: "Suisse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1980 with \"What's Another Year\"?"
+        answers:
+          A: "Germany"
+          B: "United Kingdom"
+          C: "Ireland"
+          D: "Switzerland"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1962 avec « Un premier amour » ?"
+    answers:
+      A: "France"
+      B: "Monaco"
+      C: "Luxembourg"
+      D: "Yougoslavie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1962 with \"Un premier amour\"?"
+        answers:
+          A: "France"
+          B: "Monaco"
+          C: "Luxembourg"
+          D: "Yugoslavia"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1982 avec « Ein bißchen Frieden » ?"
+    answers:
+      A: "Allemagne"
+      B: "Israël"
+      C: "Suisse"
+      D: "Belgique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1982 with \"Ein bißchen Frieden\"?"
+        answers:
+          A: "Germany"
+          B: "Israel"
+          C: "Switzerland"
+          D: "Belgium"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1991 avec « Fångad av en stormvind » ?"
+    answers:
+      A: "France"
+      B: "Suède"
+      C: "Israël"
+      D: "Irlande"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1991 with \"Fångad av en stormvind\"?"
+        answers:
+          A: "France"
+          B: "Sweden"
+          C: "Israel"
+          D: "Ireland"
+    difficulty: HARD
+  - text: "En quelle année l'Eurovision a-t-il introduit les demi-finales ?"
+    answers:
+      A: "2004"
+      B: "2003"
+      C: "2005"
+      D: "2006"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Eurovision introduce the semi-finals?"
+        answers:
+          A: "2004"
+          B: "2003"
+          C: "2005"
+          D: "2006"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1974 avec « Waterloo » ?"
+    answers:
+      A: "Italie"
+      B: "Suède"
+      C: "Pays-Bas"
+      D: "Royaume-Uni"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1974 with \"Waterloo\"?"
+        answers:
+          A: "Italy"
+          B: "Sweden"
+          C: "Netherlands"
+          D: "United Kingdom"
+    difficulty: EASY
+  - text: "Quel pays a remporté l'Eurovision 1956 avec « Refrain » ?"
+    answers:
+      A: "France"
+      B: "Suisse"
+      C: "Belgique"
+      D: "Allemagne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1956 with \"Refrain\"?"
+        answers:
+          A: "France"
+          B: "Switzerland"
+          C: "Belgium"
+          D: "Germany"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 2019 avec « Arcade » ?"
+    answers:
+      A: "Russie"
+      B: "Italie"
+      C: "Pays-Bas"
+      D: "Suède"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 2019 with \"Arcade\"?"
+        answers:
+          A: "Russia"
+          B: "Italy"
+          C: "Netherlands"
+          D: "Sweden"
+    difficulty: EASY
+  - text: "Quel pays a remporté l'Eurovision 2017 avec « Amar pelos dois » ?"
+    answers:
+      A: "Portugal"
+      B: "Bulgarie"
+      C: "Moldavie"
+      D: "Belgique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 2017 with \"Amar pelos dois\"?"
+        answers:
+          A: "Portugal"
+          B: "Bulgaria"
+          C: "Moldova"
+          D: "Belgium"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2021 avec « Zitti e buoni » ?"
+    answers:
+      A: "Ukraine"
+      B: "France"
+      C: "Suisse"
+      D: "Italie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2021 with \"Zitti e buoni\"?"
+        answers:
+          A: "Ukraine"
+          B: "France"
+          C: "Switzerland"
+          D: "Italy"
+    difficulty: EASY
+  - text: "Quel pays a remporté l'Eurovision 2015 avec « Heroes » ?"
+    answers:
+      A: "Suède"
+      B: "Russie"
+      C: "Italie"
+      D: "Belgique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 2015 with \"Heroes\"?"
+        answers:
+          A: "Sweden"
+          B: "Russia"
+          C: "Italy"
+          D: "Belgium"
+    difficulty: EASY
+  - text: "Quel pays a remporté l'Eurovision 1997 avec « Love Shine a Light » ?"
+    answers:
+      A: "Irlande"
+      B: "Royaume-Uni"
+      C: "Suède"
+      D: "Malte"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1997 with \"Love Shine a Light\"?"
+        answers:
+          A: "Ireland"
+          B: "United Kingdom"
+          C: "Sweden"
+          D: "Malta"
+    difficulty: HARD
+  - text: "En quelle année l'Eurovision a-t-il instauré la règle du « Big Five » ?"
+    answers:
+      A: "1998"
+      B: "2005"
+      C: "2000"
+      D: "2010"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Eurovision introduce the \"Big Five\" rule?"
+        answers:
+          A: "1998"
+          B: "2005"
+          C: "2000"
+          D: "2010"
+    difficulty: EXPERT
+  - text: "Quelle ville a accueilli l'Eurovision 2024 ?"
+    imageUrl: wikipedia/entertainment/Malmo_arena_ext_2024.jpg
+    answers:
+      A: "Göteborg"
+      B: "Stockholm"
+      C: "Malmö"
+      D: "Copenhague"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which city hosted Eurovision 2024?"
+        answers:
+          A: "Gothenburg"
+          B: "Stockholm"
+          C: "Malmö"
+          D: "Copenhagen"
+    difficulty: EASY
+  - text: "Quel pays a remporté l'Eurovision 1983 avec « Si la vie est cadeau » ?"
+    answers:
+      A: "Israël"
+      B: "Luxembourg"
+      C: "Allemagne"
+      D: "Suède"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1983 with \"Si la vie est cadeau\"?"
+        answers:
+          A: "Israel"
+          B: "Luxembourg"
+          C: "Germany"
+          D: "Sweden"
+    difficulty: EXPERT
+  - text: "Quelle artiste a représenté l'Espagne à l'Eurovision 2010 avec « Algo pequeñito » ?"
+    answers:
+      A: "Pastora Soler"
+      B: "Ruth Lorenzo"
+      C: "Daniel Diges"
+      D: "Edurne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which artist represented Spain at Eurovision 2010 with \"Algo pequeñito\"?"
+        answers:
+          A: "Pastora Soler"
+          B: "Ruth Lorenzo"
+          C: "Daniel Diges"
+          D: "Edurne"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 2006 avec « Hard Rock Hallelujah » ?"
+    answers:
+      A: "Bosnie-Herzégovine"
+      B: "Norvège"
+      C: "Russie"
+      D: "Finlande"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2006 with \"Hard Rock Hallelujah\"?"
+        answers:
+          A: "Bosnia and Herzegovina"
+          B: "Norway"
+          C: "Russia"
+          D: "Finland"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1985 avec « La det swinge » ?"
+    answers:
+      A: "Suède"
+      B: "Danemark"
+      C: "Norvège"
+      D: "Finlande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1985 with \"La det swinge\"?"
+        answers:
+          A: "Sweden"
+          B: "Denmark"
+          C: "Norway"
+          D: "Finland"
+    difficulty: EXPERT
+  - text: "Quel pays a été disqualifié de l'Eurovision 2024 juste avant la finale ?"
+    answers:
+      A: "Irlande"
+      B: "Israël"
+      C: "Pays-Bas"
+      D: "Suisse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country was disqualified from Eurovision 2024 just before the final?"
+        answers:
+          A: "Ireland"
+          B: "Israel"
+          C: "Netherlands"
+          D: "Switzerland"
+    difficulty: EASY
+  - text: "Quel pays a remporté l'Eurovision 1995 avec « Nocturne » ?"
+    answers:
+      A: "Irlande"
+      B: "Suède"
+      C: "Croatie"
+      D: "Norvège"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1995 with \"Nocturne\"?"
+        answers:
+          A: "Ireland"
+          B: "Sweden"
+          C: "Croatia"
+          D: "Norway"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1978 avec « A-Ba-Ni-Bi » ?"
+    answers:
+      A: "Israël"
+      B: "Belgique"
+      C: "Monaco"
+      D: "Luxembourg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1978 with \"A-Ba-Ni-Bi\"?"
+        answers:
+          A: "Israel"
+          B: "Belgium"
+          C: "Monaco"
+          D: "Luxembourg"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 2004 avec « Wild Dances » ?"
+    answers:
+      A: "Turquie"
+      B: "Serbie-Monténégro"
+      C: "Grèce"
+      D: "Ukraine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2004 with \"Wild Dances\"?"
+        answers:
+          A: "Turkey"
+          B: "Serbia and Montenegro"
+          C: "Greece"
+          D: "Ukraine"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1986 avec « J'aime la vie » ?"
+    answers:
+      A: "France"
+      B: "Suisse"
+      C: "Luxembourg"
+      D: "Belgique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1986 with \"J'aime la vie\"?"
+        answers:
+          A: "France"
+          B: "Switzerland"
+          C: "Luxembourg"
+          D: "Belgium"
+    difficulty: HARD
+  - text: "En quelle année l'Eurovision a-t-il introduit le vote par SMS ?"
+    answers:
+      A: "2001"
+      B: "2003"
+      C: "1999"
+      D: "2005"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Eurovision introduce SMS voting?"
+        answers:
+          A: "2001"
+          B: "2003"
+          C: "1999"
+          D: "2005"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1990 avec « Insieme: 1992 » ?"
+    answers:
+      A: "Allemagne"
+      B: "France"
+      C: "Irlande"
+      D: "Italie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1990 with \"Insieme: 1992\"?"
+        answers:
+          A: "Germany"
+          B: "France"
+          C: "Ireland"
+          D: "Italy"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1993 avec « In Your Eyes » ?"
+    answers:
+      A: "Malte"
+      B: "Royaume-Uni"
+      C: "Suisse"
+      D: "Irlande"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1993 with \"In Your Eyes\"?"
+        answers:
+          A: "Malta"
+          B: "United Kingdom"
+          C: "Switzerland"
+          D: "Ireland"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1971 avec « Un banc, un arbre, une rue » ?"
+    answers:
+      A: "Royaume-Uni"
+      B: "Luxembourg"
+      C: "Espagne"
+      D: "Monaco"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1971 with \"Un banc, un arbre, une rue\"?"
+        answers:
+          A: "United Kingdom"
+          B: "Luxembourg"
+          C: "Spain"
+          D: "Monaco"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 2001 avec « Everybody » ?"
+    answers:
+      A: "Danemark"
+      B: "France"
+      C: "Grèce"
+      D: "Estonie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2001 with \"Everybody\"?"
+        answers:
+          A: "Denmark"
+          B: "France"
+          C: "Greece"
+          D: "Estonia"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1988 avec « Ne partez pas sans moi » ?"
+    answers:
+      A: "Luxembourg"
+      B: "Royaume-Uni"
+      C: "Danemark"
+      D: "Suisse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1988 with \"Ne partez pas sans moi\"?"
+        answers:
+          A: "Luxembourg"
+          B: "United Kingdom"
+          C: "Denmark"
+          D: "Switzerland"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2014 avec « Rise Like a Phoenix » ?"
+    answers:
+      A: "Pays-Bas"
+      B: "Suède"
+      C: "Autriche"
+      D: "Arménie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 2014 with \"Rise Like a Phoenix\"?"
+        answers:
+          A: "Netherlands"
+          B: "Sweden"
+          C: "Austria"
+          D: "Armenia"
+    difficulty: EASY
+  - text: "Quel pays a remporté l'Eurovision 1996 avec « The Voice » ?"
+    answers:
+      A: "Norvège"
+      B: "Irlande"
+      C: "Suède"
+      D: "Royaume-Uni"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1996 with \"The Voice\"?"
+        answers:
+          A: "Norway"
+          B: "Ireland"
+          C: "Sweden"
+          D: "United Kingdom"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 2009 avec « Fairytale » ?"
+    answers:
+      A: "Azerbaïdjan"
+      B: "Islande"
+      C: "Norvège"
+      D: "Turquie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 2009 with \"Fairytale\"?"
+        answers:
+          A: "Azerbaijan"
+          B: "Iceland"
+          C: "Norway"
+          D: "Turkey"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1967 avec « Puppet on a String » ?"
+    answers:
+      A: "Royaume-Uni"
+      B: "Irlande"
+      C: "Monaco"
+      D: "Luxembourg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1967 with \"Puppet on a String\"?"
+        answers:
+          A: "United Kingdom"
+          B: "Ireland"
+          C: "Monaco"
+          D: "Luxembourg"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1969 avec « Un jour, un enfant » ?"
+    answers:
+      A: "France"
+      B: "Espagne"
+      C: "Pays-Bas"
+      D: "Royaume-Uni"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1969 with \"Un jour, un enfant\"?"
+        answers:
+          A: "France"
+          B: "Spain"
+          C: "Netherlands"
+          D: "United Kingdom"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1972 avec « Après toi » ?"
+    answers:
+      A: "Luxembourg"
+      B: "Allemagne"
+      C: "Royaume-Uni"
+      D: "Monaco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1972 with \"Après toi\"?"
+        answers:
+          A: "Luxembourg"
+          B: "Germany"
+          C: "United Kingdom"
+          D: "Monaco"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1973 avec « Tu te reconnaîtras » ?"
+    answers:
+      A: "Luxembourg"
+      B: "France"
+      C: "Espagne"
+      D: "Suisse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1973 with \"Tu te reconnaîtras\"?"
+        answers:
+          A: "Luxembourg"
+          B: "France"
+          C: "Spain"
+          D: "Switzerland"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1976 avec « Save Your Kisses for Me » ?"
+    answers:
+      A: "Monaco"
+      B: "Irlande"
+      C: "France"
+      D: "Royaume-Uni"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1976 with \"Save Your Kisses for Me\"?"
+        answers:
+          A: "Monaco"
+          B: "Ireland"
+          C: "France"
+          D: "United Kingdom"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1977 avec « L'oiseau et l'enfant » ?"
+    answers:
+      A: "Israël"
+      B: "Monaco"
+      C: "Luxembourg"
+      D: "France"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1977 with \"L'oiseau et l'enfant\"?"
+        answers:
+          A: "Israel"
+          B: "Monaco"
+          C: "Luxembourg"
+          D: "France"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1981 avec « Making Your Mind Up » ?"
+    answers:
+      A: "Irlande"
+      B: "Allemagne"
+      C: "Suisse"
+      D: "Royaume-Uni"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1981 with \"Making Your Mind Up\"?"
+        answers:
+          A: "Ireland"
+          B: "Germany"
+          C: "Switzerland"
+          D: "United Kingdom"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1984 avec « Diggi-Loo Diggi-Ley » ?"
+    answers:
+      A: "Suède"
+      B: "Suisse"
+      C: "Danemark"
+      D: "Irlande"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1984 with \"Diggi-Loo Diggi-Ley\"?"
+        answers:
+          A: "Sweden"
+          B: "Switzerland"
+          C: "Denmark"
+          D: "Ireland"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1987 avec « Hold Me Now » ?"
+    answers:
+      A: "Irlande"
+      B: "Allemagne"
+      C: "Italie"
+      D: "Yougoslavie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1987 with \"Hold Me Now\"?"
+        answers:
+          A: "Ireland"
+          B: "Germany"
+          C: "Italy"
+          D: "Yugoslavia"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1989 avec « Rock Me » ?"
+    answers:
+      A: "Yougoslavie"
+      B: "Royaume-Uni"
+      C: "Irlande"
+      D: "Suède"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1989 with \"Rock Me\"?"
+        answers:
+          A: "Yugoslavia"
+          B: "United Kingdom"
+          C: "Ireland"
+          D: "Sweden"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1992 avec « Why Me? » ?"
+    answers:
+      A: "Suède"
+      B: "Malte"
+      C: "Royaume-Uni"
+      D: "Irlande"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1992 with \"Why Me?\"?"
+        answers:
+          A: "Sweden"
+          B: "Malta"
+          C: "United Kingdom"
+          D: "Ireland"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1994 avec « Rock 'n' Roll Kids » ?"
+    answers:
+      A: "Pologne"
+      B: "Irlande"
+      C: "Hongrie"
+      D: "Allemagne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1994 with \"Rock 'n' Roll Kids\"?"
+        answers:
+          A: "Poland"
+          B: "Ireland"
+          C: "Hungary"
+          D: "Germany"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1999 avec « Take Me to Your Heaven » ?"
+    answers:
+      A: "Islande"
+      B: "Suède"
+      C: "Allemagne"
+      D: "Danemark"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1999 with \"Take Me to Your Heaven\"?"
+        answers:
+          A: "Iceland"
+          B: "Sweden"
+          C: "Germany"
+          D: "Denmark"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 2000 avec « Fly on the Wings of Love » ?"
+    answers:
+      A: "Finlande"
+      B: "Suède"
+      C: "Norvège"
+      D: "Danemark"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2000 with \"Fly on the Wings of Love\"?"
+        answers:
+          A: "Finland"
+          B: "Sweden"
+          C: "Norway"
+          D: "Denmark"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2002 avec « I Wanna » ?"
+    answers:
+      A: "Estonie"
+      B: "Lettonie"
+      C: "Lituanie"
+      D: "Russie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 2002 with \"I Wanna\"?"
+        answers:
+          A: "Estonia"
+          B: "Latvia"
+          C: "Lithuania"
+          D: "Russia"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 2003 avec « Everyway That I Can » ?"
+    answers:
+      A: "Grèce"
+      B: "Belgique"
+      C: "Turquie"
+      D: "Russie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 2003 with \"Everyway That I Can\"?"
+        answers:
+          A: "Greece"
+          B: "Belgium"
+          C: "Turkey"
+          D: "Russia"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 2005 avec « My Number One » ?"
+    answers:
+      A: "Serbie-Monténégro"
+      B: "Grèce"
+      C: "Chypre"
+      D: "Malte"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 2005 with \"My Number One\"?"
+        answers:
+          A: "Serbia and Montenegro"
+          B: "Greece"
+          C: "Cyprus"
+          D: "Malta"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2007 avec « Molitva » ?"
+    answers:
+      A: "Bosnie-Herzégovine"
+      B: "Serbie"
+      C: "Croatie"
+      D: "Slovénie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 2007 with \"Molitva\"?"
+        answers:
+          A: "Bosnia and Herzegovina"
+          B: "Serbia"
+          C: "Croatia"
+          D: "Slovenia"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 2008 avec « Believe » ?"
+    answers:
+      A: "Ukraine"
+      B: "Russie"
+      C: "Arménie"
+      D: "Azerbaïdjan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 2008 with \"Believe\"?"
+        answers:
+          A: "Ukraine"
+          B: "Russia"
+          C: "Armenia"
+          D: "Azerbaijan"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2011 avec « Running Scared » ?"
+    answers:
+      A: "Azerbaïdjan"
+      B: "Suède"
+      C: "Italie"
+      D: "Danemark"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 2011 with \"Running Scared\"?"
+        answers:
+          A: "Azerbaijan"
+          B: "Sweden"
+          C: "Italy"
+          D: "Denmark"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1964 avec « Non ho l'età » ?"
+    answers:
+      A: "Saint-Marin"
+      B: "Malte"
+      C: "Italie"
+      D: "Monaco"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1964 with \"Non ho l'età\"?"
+        answers:
+          A: "San Marino"
+          B: "Malta"
+          C: "Italy"
+          D: "Monaco"
+    difficulty: HARD
+  - text: "Qui a remporté l'Eurovision 2010 avec « Satellite » ?"
+    answers:
+      A: "Lena"
+      B: "maNga"
+      C: "Elena Gheorghe"
+      D: "InCulto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won Eurovision 2010 with \"Satellite\"?"
+        answers:
+          A: "Lena"
+          B: "maNga"
+          C: "Elena Gheorghe"
+          D: "InCulto"
+    difficulty: MEDIUM
+  - text: "Avec quelle chanson Loreen a-t-elle participé au Melodifestivalen 2017 ?"
+    answers:
+      A: "Euphoria"
+      B: "Statements"
+      C: "Tattoo"
+      D: "Paper Light"
+    correctAnswer: B
+    translations:
+      en:
+        text: "With which song did Loreen compete in Melodifestivalen 2017?"
+        answers:
+          A: "Euphoria"
+          B: "Statements"
+          C: "Tattoo"
+          D: "Paper Light"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 2013 avec « Only Teardrops » ?"
+    answers:
+      A: "Azerbaïdjan"
+      B: "Danemark"
+      C: "Ukraine"
+      D: "Norvège"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 2013 with \"Only Teardrops\"?"
+        answers:
+          A: "Azerbaijan"
+          B: "Denmark"
+          C: "Ukraine"
+          D: "Norway"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 2016 avec « 1944 » ?"
+    answers:
+      A: "Australie"
+      B: "Ukraine"
+      C: "Russie"
+      D: "Bulgarie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 2016 with \"1944\"?"
+        answers:
+          A: "Australia"
+          B: "Ukraine"
+          C: "Russia"
+          D: "Bulgaria"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2018 avec « Toy » ?"
+    answers:
+      A: "Israël"
+      B: "Chypre"
+      C: "Autriche"
+      D: "Suède"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 2018 with \"Toy\"?"
+        answers:
+          A: "Israel"
+          B: "Cyprus"
+          C: "Austria"
+          D: "Sweden"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2022 avec « Stefania » ?"
+    answers:
+      A: "Suède"
+      B: "Royaume-Uni"
+      C: "Espagne"
+      D: "Ukraine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2022 with \"Stefania\"?"
+        answers:
+          A: "Sweden"
+          B: "United Kingdom"
+          C: "Spain"
+          D: "Ukraine"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 2024 avec « The Code » ?"
+    answers:
+      A: "Croatie"
+      B: "Israël"
+      C: "Ukraine"
+      D: "Suisse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2024 with \"The Code\"?"
+        answers:
+          A: "Croatia"
+          B: "Israel"
+          C: "Ukraine"
+          D: "Switzerland"
+    difficulty: EASY
+  - text: "Quelle ville a accueilli l'Eurovision 2018 ?"
+    imageUrl: wikipedia/entertainment/POR_Lisbon_Altice_Arena_01.jpg
+    answers:
+      A: "Porto"
+      B: "Lisbonne"
+      C: "Madrid"
+      D: "Faro"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which city hosted Eurovision 2018?"
+        answers:
+          A: "Porto"
+          B: "Lisbon"
+          C: "Madrid"
+          D: "Faro"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté pour la première fois l'Eurovision en 1985 ?"
+    answers:
+      A: "Norvège"
+      B: "Suède"
+      C: "Finlande"
+      D: "Islande"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision for the first time in 1985?"
+        answers:
+          A: "Norway"
+          B: "Sweden"
+          C: "Finland"
+          D: "Iceland"
+    difficulty: EXPERT
+  - text: "Qui a remporté l'Eurovision 1998 pour Israël avec « Diva » ?"
+    answers:
+      A: "Ofra Haza"
+      B: "Dana International"
+      C: "Netta"
+      D: "Harel Skaat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won Eurovision 1998 for Israel with \"Diva\"?"
+        answers:
+          A: "Ofra Haza"
+          B: "Dana International"
+          C: "Netta"
+          D: "Harel Skaat"
+    difficulty: HARD
+  - text: "Qui a remporté l'Eurovision 2012 avec « Euphoria » ?"
+    answers:
+      A: "Margaret Berger"
+      B: "Emeli Sandé"
+      C: "Loreen"
+      D: "Sofi Marinova"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won Eurovision 2012 with \"Euphoria\"?"
+        answers:
+          A: "Margaret Berger"
+          B: "Emeli Sandé"
+          C: "Loreen"
+          D: "Sofi Marinova"
+    difficulty: MEDIUM
+  - text: "Quel pays a été relégué de l'Eurovision 2012 en raison du retrait de l'Arménie ?"
+    answers:
+      A: "Pologne"
+      B: "Slovaquie"
+      C: "République tchèque"
+      D: "Hongrie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country was relegated from Eurovision 2012 due to Armenia's withdrawal?"
+        answers:
+          A: "Poland"
+          B: "Slovakia"
+          C: "Czech Republic"
+          D: "Hungary"
+    difficulty: EXPERT
+  - text: "Quelle chanson a remporté l'Eurovision 2015 pour la Suède ?"
+    answers:
+      A: "Euphoria"
+      B: "Heroes"
+      C: "Tattoo"
+      D: "Popular"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which song won Eurovision 2015 for Sweden?"
+        answers:
+          A: "Euphoria"
+          B: "Heroes"
+          C: "Tattoo"
+          D: "Popular"
+    difficulty: HARD
+  - text: "Qui a remporté l'Eurovision 1995 pour la Norvège avec « Nocturne » ?"
+    answers:
+      A: "Jahn Teigen"
+      B: "Elisabeth Andreassen"
+      C: "Secret Garden"
+      D: "Bobbysocks"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won Eurovision 1995 for Norway with \"Nocturne\"?"
+        answers:
+          A: "Jahn Teigen"
+          B: "Elisabeth Andreassen"
+          C: "Secret Garden"
+          D: "Bobbysocks"
+    difficulty: EXPERT
+  - text: "Qui a remporté l'Eurovision 1980 pour l'Irlande avec « What's Another Year » ?"
+    answers:
+      A: "Linda Martin"
+      B: "Johnny Logan"
+      C: "Niamh Kavanagh"
+      D: "Eimear Quinn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won Eurovision 1980 for Ireland with \"What's Another Year\"?"
+        answers:
+          A: "Linda Martin"
+          B: "Johnny Logan"
+          C: "Niamh Kavanagh"
+          D: "Eimear Quinn"
+    difficulty: EXPERT
+  - text: "Avec quelle chanson Sandie Shaw a-t-elle remporté l'Eurovision 1967 ?"
+    answers:
+      A: "Save Your Kisses for Me"
+      B: "Congratulations"
+      C: "Boom Bang-a-Bang"
+      D: "Puppet on a String"
+    correctAnswer: D
+    translations:
+      en:
+        text: "With which song did Sandie Shaw win Eurovision 1967?"
+        answers:
+          A: "Save Your Kisses for Me"
+          B: "Congratulations"
+          C: "Boom Bang-a-Bang"
+          D: "Puppet on a String"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1966 avec « Merci, Chérie » ?"
+    answers:
+      A: "Suisse"
+      B: "Luxembourg"
+      C: "Autriche"
+      D: "Allemagne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1966 with \"Merci, Chérie\"?"
+        answers:
+          A: "Switzerland"
+          B: "Luxembourg"
+          C: "Austria"
+          D: "Germany"
+    difficulty: HARD
+  - text: "Qui a remporté l'Eurovision 1961 pour le Luxembourg avec « Nous les amoureux » ?"
+    answers:
+      A: "France Gall"
+      B: "Jacqueline Boyer"
+      C: "Jean-Claude Pascal"
+      D: "Isabelle Aubret"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won Eurovision 1961 for Luxembourg with \"Nous les amoureux\"?"
+        answers:
+          A: "France Gall"
+          B: "Jacqueline Boyer"
+          C: "Jean-Claude Pascal"
+          D: "Isabelle Aubret"
+    difficulty: EXPERT
+  - text: "Quelle ville a accueilli l'Eurovision 2022 ?"
+    imageUrl: wikipedia/entertainment/Pala_Alpitour_(Turin,_ITA).jpg
+    answers:
+      A: "Milan"
+      B: "Rome"
+      C: "Bologne"
+      D: "Turin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which city hosted Eurovision 2022?"
+        answers:
+          A: "Milan"
+          B: "Rome"
+          C: "Bologna"
+          D: "Turin"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Eurovision 1958 avec « Dors, mon amour » ?"
+    answers:
+      A: "Suisse"
+      B: "Italie"
+      C: "France"
+      D: "Pays-Bas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1958 with \"Dors, mon amour\"?"
+        answers:
+          A: "Switzerland"
+          B: "Italy"
+          C: "France"
+          D: "Netherlands"
+    difficulty: EXPERT
+  - text: "Quelle chanson a remporté l'Eurovision 1957 pour les Pays-Bas ?"
+    answers:
+      A: "Dors, mon amour"
+      B: "Refrain"
+      C: "Net als toen"
+      D: "Een beetje"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which song won Eurovision 1957 for the Netherlands?"
+        answers:
+          A: "Dors, mon amour"
+          B: "Refrain"
+          C: "Net als toen"
+          D: "Een beetje"
+    difficulty: EXPERT
+  - text: "En quelle année l'Eurovision a-t-il introduit le télévote ?"
+    answers:
+      A: "2004"
+      B: "2000"
+      C: "1994"
+      D: "1997"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which year did Eurovision introduce televoting?"
+        answers:
+          A: "2004"
+          B: "2000"
+          C: "1994"
+          D: "1997"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1944 ?"
+    answers:
+      A: "Aucun, le concours n'avait pas lieu"
+      B: "Luxembourg"
+      C: "Italie"
+      D: "Monaco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1944?"
+        answers:
+          A: "None, the contest did not take place"
+          B: "Luxembourg"
+          C: "Italy"
+          D: "Monaco"
+    difficulty: EXPERT
+  - text: "En quelle année l'Eurovision a-t-il introduit la règle du \"Big Five\" ?"
+    answers:
+      A: "1998"
+      B: "2000"
+      C: "2004"
+      D: "2007"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which year did Eurovision introduce the \"Big Five\" rule?"
+        answers:
+          A: "1998"
+          B: "2000"
+          C: "2004"
+          D: "2007"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1962 avec la chanson \"Un premier amour\" ?"
+    answers:
+      A: "France"
+      B: "Luxembourg"
+      C: "Monaco"
+      D: "Suisse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1962 with the song \"Un premier amour\"?"
+        answers:
+          A: "France"
+          B: "Luxembourg"
+          C: "Monaco"
+          D: "Switzerland"
+    difficulty: EXPERT
+  - text: "Quelle ville a accueilli l'Eurovision 1998 ?"
+    answers:
+      A: "Jérusalem"
+      B: "Dublin"
+      C: "Birmingham"
+      D: "Copenhague"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which city hosted Eurovision 1998?"
+        answers:
+          A: "Jerusalem"
+          B: "Dublin"
+          C: "Birmingham"
+          D: "Copenhagen"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 2001 avec la chanson \"Everybody\" ?"
+    answers:
+      A: "Danemark"
+      B: "Grèce"
+      C: "France"
+      D: "Estonie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 2001 with the song \"Everybody\"?"
+        answers:
+          A: "Denmark"
+          B: "Greece"
+          C: "France"
+          D: "Estonia"
+    difficulty: HARD
+  - text: "Qui a remporté l'Eurovision 1983 pour le Luxembourg avec \"Si la vie est cadeau\" ?"
+    answers:
+      A: "Corinne Hermès"
+      B: "Anne-Marie David"
+      C: "France Gall"
+      D: "Vicky Leandros"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won Eurovision 1983 for Luxembourg with \"Si la vie est cadeau\"?"
+        answers:
+          A: "Corinne Hermès"
+          B: "Anne-Marie David"
+          C: "France Gall"
+          D: "Vicky Leandros"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1991 avec la chanson \"Fångad av en stormvind\" ?"
+    answers:
+      A: "Suède"
+      B: "Israël"
+      C: "France"
+      D: "Suisse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won Eurovision 1991 with the song \"Fångad av en stormvind\"?"
+        answers:
+          A: "Sweden"
+          B: "Israel"
+          C: "France"
+          D: "Switzerland"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1979 avec la chanson \"Hallelujah\" ?"
+    answers:
+      A: "Espagne"
+      B: "Israël"
+      C: "Suède"
+      D: "Suisse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1979 with the song \"Hallelujah\"?"
+        answers:
+          A: "Spain"
+          B: "Israel"
+          C: "Sweden"
+          D: "Switzerland"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1978 avec la chanson \"A-Ba-Ni-Bi\" ?"
+    answers:
+      A: "Suisse"
+      B: "Belgique"
+      C: "Monaco"
+      D: "Israël"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won Eurovision 1978 with the song \"A-Ba-Ni-Bi\"?"
+        answers:
+          A: "Switzerland"
+          B: "Belgium"
+          C: "Monaco"
+          D: "Israel"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1968 avec la chanson \"La, la, la\" ?"
+    answers:
+      A: "Italie"
+      B: "France"
+      C: "Espagne"
+      D: "Royaume-Uni"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Eurovision 1968 with the song \"La, la, la\"?"
+        answers:
+          A: "Italy"
+          B: "France"
+          C: "Spain"
+          D: "United Kingdom"
+    difficulty: HARD
+  - text: "Quel pays a remporté l'Eurovision 1969 avec la chanson \"Vivo cantando\" ?"
+    answers:
+      A: "France"
+      B: "Espagne"
+      C: "Pays-Bas"
+      D: "Royaume-Uni"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1969 with the song \"Vivo cantando\"?"
+        answers:
+          A: "France"
+          B: "Spain"
+          C: "Netherlands"
+          D: "United Kingdom"
+    difficulty: EXPERT
+  - text: "En quelle année l'Eurovision a-t-il introduit le vote des jurys professionnels dans chaque pays ?"
+    answers:
+      A: "2009"
+      B: "1975"
+      C: "1997"
+      D: "1956"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Eurovision introduce professional jury voting in each country?"
+        answers:
+          A: "2009"
+          B: "1975"
+          C: "1997"
+          D: "1956"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté l'Eurovision 1982 avec la chanson \"Ein bißchen Frieden\" ?"
+    answers:
+      A: "Autriche"
+      B: "Allemagne"
+      C: "Israël"
+      D: "Suisse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won Eurovision 1982 with the song \"Ein bißchen Frieden\"?"
+        answers:
+          A: "Austria"
+          B: "Germany"
+          C: "Israel"
+          D: "Switzerland"
+    difficulty: HARD
+  - text: "Quelle est la seule édition de l'Eurovision où deux pays ont partagé la première place?"
+    answers:
+      A: "1968"
+      B: "1970"
+      C: "1969"
+      D: "1971"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only edition of Eurovision where two countries shared first place?"
+        answers:
+          A: "1968"
+          B: "1970"
+          C: "1969"
+          D: "1971"
+    difficulty: EXPERT

@@ -1,0 +1,1631 @@
+topic:
+  id: topic-monuments-du-monde
+  names:
+    fr: "Monuments du monde"
+    en: "World Landmarks"
+  description: "Explorez les monuments les plus célèbres du monde, des sept merveilles de l'Antiquité aux grands édifices d'Europe. Ce thème vous emmène de la tour Eiffel au Colisée, de la Sagrada Familia au Parthénon, à la découverte de leur histoire, de leurs architectes et des villes qui les abritent."
+  category: WORLD
+  titles:
+    fr:
+      FER: "Touriste égaré"
+      BRONZE: "Photographe de rue"
+      ARGENT: "Guide du dimanche"
+      OR: "Historien en herbe"
+      PLATINE: "Architecte des capitales"
+      EMERAUDE: "Gardien des merveilles"
+      DIAMANT: "Bâtisseur d'éternité"
+    en:
+      FER: "Lost Tourist"
+      BRONZE: "Street Photographer"
+      ARGENT: "Sunday Guide"
+      OR: "Budding Historian"
+      PLATINE: "Capital Architect"
+      EMERAUDE: "Keeper of Wonders"
+      DIAMANT: "Eternal Builder"
+  imageUrl: wikipedia/world/80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg
+questions:
+  - text: "Quel monument emblématique de Paris est photographié ici ?"
+    imageUrl: wikipedia/world/Tour_Eiffel_Wikimedia_Commons.jpg
+    answers:
+      A: "La tour Montparnasse"
+      B: "Le Sacré-Cœur"
+      C: "L'Arc de triomphe"
+      D: "La tour Eiffel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which iconic Paris monument is shown in this photo?"
+        answers:
+          A: "The Montparnasse Tower"
+          B: "The Sacré-Cœur"
+          C: "The Arc de Triomphe"
+          D: "The Eiffel Tower"
+    difficulty: EASY
+  - text: "Quel monument est le plus haut des États-Unis ?"
+    answers:
+      A: "Tour Willis (Sears Tower)"
+      B: "Gateway Arch"
+      C: "Washington Monument"
+      D: "Empire State Building"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument is the tallest in the United States?"
+        answers:
+          A: "Willis Tower (Sears Tower)"
+          B: "Gateway Arch"
+          C: "Washington Monument"
+          D: "Empire State Building"
+    difficulty: MEDIUM
+  - text: "Quel architecte a conçu la tour Eiffel ?"
+    answers:
+      A: "Eugène Viollet-le-Duc"
+      B: "Le Corbusier"
+      C: "Henri Labrouste"
+      D: "Gustave Eiffel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which architect designed the Eiffel Tower?"
+        answers:
+          A: "Eugène Viollet-le-Duc"
+          B: "Le Corbusier"
+          C: "Henri Labrouste"
+          D: "Gustave Eiffel"
+    difficulty: EASY
+  - text: "En quelle année la construction de la tour Eiffel a-t-elle été achevée ?"
+    answers:
+      A: "1889"
+      B: "1900"
+      C: "1875"
+      D: "1892"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the construction of the Eiffel Tower completed?"
+        answers:
+          A: "1889"
+          B: "1900"
+          C: "1875"
+          D: "1892"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire le Colisée ?"
+    answers:
+      A: "Domitien"
+      B: "Titus"
+      C: "Vespasien"
+      D: "Trajan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor had the Colosseum built?"
+        answers:
+          A: "Domitian"
+          B: "Titus"
+          C: "Vespasian"
+          D: "Trajan"
+    difficulty: MEDIUM
+  - text: "En quelle année le Colisée a-t-il été inauguré ?"
+    answers:
+      A: "100 ap. J.-C."
+      B: "70 ap. J.-C."
+      C: "90 ap. J.-C."
+      D: "80 ap. J.-C."
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Colosseum inaugurated?"
+        answers:
+          A: "100 AD"
+          B: "70 AD"
+          C: "90 AD"
+          D: "80 AD"
+    difficulty: EXPERT
+  - text: "Quel architecte a commencé la Sagrada Familia ?"
+    answers:
+      A: "Lluís Domènech i Montaner"
+      B: "Francisco de Paula del Villar"
+      C: "Josep Maria Jujol"
+      D: "Antoni Gaudí"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which architect began the Sagrada Familia?"
+        answers:
+          A: "Lluís Domènech i Montaner"
+          B: "Francisco de Paula del Villar"
+          C: "Josep Maria Jujol"
+          D: "Antoni Gaudí"
+    difficulty: HARD
+  - text: "En quelle année la construction de la Sagrada Familia a-t-elle débuté ?"
+    answers:
+      A: "1882"
+      B: "1875"
+      C: "1890"
+      D: "1900"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did construction of the Sagrada Familia begin?"
+        answers:
+          A: "1882"
+          B: "1875"
+          C: "1890"
+          D: "1900"
+    difficulty: HARD
+  - text: "Quel roi a ordonné la construction du château de Versailles ?"
+    answers:
+      A: "Louis XIII"
+      B: "Louis XIV"
+      C: "Louis XV"
+      D: "Louis XVI"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which king ordered the construction of the Palace of Versailles?"
+        answers:
+          A: "Louis XIII"
+          B: "Louis XIV"
+          C: "Louis XV"
+          D: "Louis XVI"
+    difficulty: MEDIUM
+  - text: "En quelle année la Révolution française a-t-elle contraint Louis XVI et sa famille à quitter Versailles ?"
+    answers:
+      A: "1788"
+      B: "1791"
+      C: "1793"
+      D: "1789"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the French Revolution force Louis XVI and his family to leave Versailles?"
+        answers:
+          A: "1788"
+          B: "1791"
+          C: "1793"
+          D: "1789"
+    difficulty: EXPERT
+  - text: "Quel monument romain est photographié ici ?"
+    imageUrl: wikipedia/world/Colosseum_in_Rome,_Italy_-_April_2007.jpg
+    answers:
+      A: "Les arènes de Nîmes"
+      B: "Le Colisée"
+      C: "Le théâtre de Marcellus"
+      D: "Les arènes de Vérone"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman monument is shown in this photo?"
+        answers:
+          A: "The Nîmes Arena"
+          B: "The Colosseum"
+          C: "The Theatre of Marcellus"
+          D: "The Verona Arena"
+    difficulty: EASY
+  - text: "Quel monument a été offert par la France aux États-Unis ?"
+    answers:
+      A: "Le Jefferson Memorial"
+      B: "Le Lincoln Memorial"
+      C: "Le Washington Monument"
+      D: "La statue de la Liberté"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which monument was given by France to the United States?"
+        answers:
+          A: "The Jefferson Memorial"
+          B: "The Lincoln Memorial"
+          C: "The Washington Monument"
+          D: "The Statue of Liberty"
+    difficulty: EASY
+  - text: "Quel sculpteur français a conçu la statue de la Liberté ?"
+    answers:
+      A: "Jean-Baptiste Carpeaux"
+      B: "Auguste Rodin"
+      C: "Frédéric Auguste Bartholdi"
+      D: "Antoine Bourdelle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French sculptor designed the Statue of Liberty?"
+        answers:
+          A: "Jean-Baptiste Carpeaux"
+          B: "Auguste Rodin"
+          C: "Frédéric Auguste Bartholdi"
+          D: "Antoine Bourdelle"
+    difficulty: HARD
+  - text: "En quelle année la statue de la Liberté a-t-elle été inaugurée ?"
+    answers:
+      A: "1876"
+      B: "1886"
+      C: "1892"
+      D: "1900"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Statue of Liberty inaugurated?"
+        answers:
+          A: "1876"
+          B: "1886"
+          C: "1892"
+          D: "1900"
+    difficulty: HARD
+  - text: "Quel monument marque la frontière entre l'Angleterre et l'Écosse ?"
+    answers:
+      A: "Le mur d'Aurélien"
+      B: "Le mur d'Antonin"
+      C: "Le mur d'Hadrien"
+      D: "Le mur de Trajan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument marks the border between England and Scotland?"
+        answers:
+          A: "The Aurelian Wall"
+          B: "The Antonine Wall"
+          C: "Hadrian's Wall"
+          D: "Trajan's Wall"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a ordonné la construction du mur d'Hadrien ?"
+    answers:
+      A: "Trajan"
+      B: "Hadrien"
+      C: "Antonin le Pieux"
+      D: "Marc Aurèle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor ordered the construction of Hadrian's Wall?"
+        answers:
+          A: "Trajan"
+          B: "Hadrian"
+          C: "Antoninus Pius"
+          D: "Marcus Aurelius"
+    difficulty: MEDIUM
+  - text: "En quelle année la construction du mur d'Hadrien a-t-elle commencé ?"
+    answers:
+      A: "130 ap. J.-C."
+      B: "117 ap. J.-C."
+      C: "122 ap. J.-C."
+      D: "138 ap. J.-C."
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the construction of Hadrian's Wall begin?"
+        answers:
+          A: "130 AD"
+          B: "117 AD"
+          C: "122 AD"
+          D: "138 AD"
+    difficulty: HARD
+  - text: "Quel monument a été le plus haut du monde de 1931 à 1970 ?"
+    answers:
+      A: "Le Chrysler Building"
+      B: "L'Empire State Building"
+      C: "La tour Eiffel"
+      D: "Le Woolworth Building"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1931 to 1970?"
+        answers:
+          A: "The Chrysler Building"
+          B: "The Empire State Building"
+          C: "The Eiffel Tower"
+          D: "The Woolworth Building"
+    difficulty: HARD
+  - text: "En quelle année l'Empire State Building a-t-il été inauguré ?"
+    answers:
+      A: "1932"
+      B: "1929"
+      C: "1930"
+      D: "1931"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Empire State Building inaugurated?"
+        answers:
+          A: "1932"
+          B: "1929"
+          C: "1930"
+          D: "1931"
+    difficulty: HARD
+  - text: "Quel monument a été construit pour commémorer la victoire de la bataille de Waterloo ?"
+    answers:
+      A: "L'arc de triomphe de l'Étoile"
+      B: "La colonne Nelson"
+      C: "La colonne de Juillet"
+      D: "Le monument de Wellington"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was built to commemorate the victory at the Battle of Waterloo?"
+        answers:
+          A: "The Arc de Triomphe de l'Étoile"
+          B: "Nelson's Column"
+          C: "The July Column"
+          D: "The Wellington Monument"
+    difficulty: HARD
+  - text: "Quel monument se trouve à Trafalgar Square à Londres ?"
+    answers:
+      A: "Le Tower Bridge"
+      B: "Le Big Ben"
+      C: "La colonne Nelson"
+      D: "L'abbaye de Westminster"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument is located in Trafalgar Square in London?"
+        answers:
+          A: "Tower Bridge"
+          B: "Big Ben"
+          C: "Nelson's Column"
+          D: "Westminster Abbey"
+    difficulty: EASY
+  - text: "En quelle année la colonne Nelson a-t-elle été achevée ?"
+    answers:
+      A: "1843"
+      B: "1830"
+      C: "1850"
+      D: "1860"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was Nelson's Column completed?"
+        answers:
+          A: "1843"
+          B: "1830"
+          C: "1850"
+          D: "1860"
+    difficulty: EXPERT
+  - text: "Quel monument a été le premier à dépasser les 300 mètres de hauteur ?"
+    answers:
+      A: "L'Empire State Building"
+      B: "La tour Eiffel"
+      C: "Le Chrysler Building"
+      D: "La tour de Pise"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was the first to exceed 300 meters in height?"
+        answers:
+          A: "The Empire State Building"
+          B: "The Eiffel Tower"
+          C: "The Chrysler Building"
+          D: "The Leaning Tower of Pisa"
+    difficulty: HARD
+  - text: "Quel architecte a conçu le Chrysler Building à New York ?"
+    answers:
+      A: "Cass Gilbert"
+      B: "William Van Alen"
+      C: "John Augustus Roebling"
+      D: "Frank Lloyd Wright"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which architect designed the Chrysler Building in New York?"
+        answers:
+          A: "Cass Gilbert"
+          B: "William Van Alen"
+          C: "John Augustus Roebling"
+          D: "Frank Lloyd Wright"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1970 à 1974 ?"
+    answers:
+      A: "L'Empire State Building"
+      B: "Le World Trade Center (tours jumelles)"
+      C: "La tour Sears"
+      D: "Le Chrysler Building"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1970 to 1974?"
+        answers:
+          A: "The Empire State Building"
+          B: "The World Trade Center (Twin Towers)"
+          C: "The Sears Tower"
+          D: "The Chrysler Building"
+    difficulty: EXPERT
+  - text: "Quel roi de France a fait construire le château de Chambord ?"
+    answers:
+      A: "Louis XIV"
+      B: "Henri II"
+      C: "Charles IX"
+      D: "François Ier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which King of France had the Château de Chambord built?"
+        answers:
+          A: "Louis XIV"
+          B: "Henry II"
+          C: "Charles IX"
+          D: "Francis I"
+    difficulty: HARD
+  - text: "Quel architecte a conçu le dôme de la cathédrale Santa Maria del Fiore à Florence ?"
+    answers:
+      A: "Filippo Brunelleschi"
+      B: "Giotto"
+      C: "Michel-Ange"
+      D: "Léonard de Vinci"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which architect designed the dome of the Florence Cathedral of Santa Maria del Fiore?"
+        answers:
+          A: "Filippo Brunelleschi"
+          B: "Giotto"
+          C: "Michelangelo"
+          D: "Leonardo da Vinci"
+    difficulty: HARD
+  - text: "Quel monument a été construit pour commémorer la bataille de Hastings ?"
+    answers:
+      A: "La tour de Londres"
+      B: "Le château de Windsor"
+      C: "L'abbaye de Westminster"
+      D: "Aucun, la bataille n'a pas de monument spécifique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument was built to commemorate the Battle of Hastings?"
+        answers:
+          A: "The Tower of London"
+          B: "Windsor Castle"
+          C: "Westminster Abbey"
+          D: "None, the battle has no specific monument"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a fait construire le Panthéon à Rome ?"
+    answers:
+      A: "Néron"
+      B: "Trajan"
+      C: "Auguste"
+      D: "Hadrien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor had the Pantheon in Rome built?"
+        answers:
+          A: "Nero"
+          B: "Trajan"
+          C: "Augustus"
+          D: "Hadrian"
+    difficulty: HARD
+  - text: "Quel monument a été offert par la France aux États-Unis en 1886 ?"
+    answers:
+      A: "L'Empire State Building"
+      B: "Le pont de Brooklyn"
+      C: "La statue de la Liberté"
+      D: "Le Washington Monument"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument was gifted by France to the United States in 1886?"
+        answers:
+          A: "The Empire State Building"
+          B: "The Brooklyn Bridge"
+          C: "The Statue of Liberty"
+          D: "The Washington Monument"
+    difficulty: MEDIUM
+  - text: "Quel architecte a conçu le musée Guggenheim de Bilbao ?"
+    answers:
+      A: "Norman Foster"
+      B: "Zaha Hadid"
+      C: "Frank Gehry"
+      D: "Renzo Piano"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which architect designed the Guggenheim Museum in Bilbao?"
+        answers:
+          A: "Norman Foster"
+          B: "Zaha Hadid"
+          C: "Frank Gehry"
+          D: "Renzo Piano"
+    difficulty: HARD
+  - text: "Quel pape a ordonné la construction de la basilique Saint-Pierre de Rome ?"
+    answers:
+      A: "Clément VII"
+      B: "Léon X"
+      C: "Jules II"
+      D: "Paul III"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pope ordered the construction of St. Peter's Basilica in Rome?"
+        answers:
+          A: "Clement VII"
+          B: "Leo X"
+          C: "Julius II"
+          D: "Paul III"
+    difficulty: HARD
+  - text: "Quel monument a été construit pour commémorer le Grand Incendie de Londres ?"
+    answers:
+      A: "Le monument au Grand Incendie"
+      B: "La colonne Nelson"
+      C: "La cathédrale Saint-Paul"
+      D: "La tour de Londres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was built to commemorate the Great Fire of London?"
+        answers:
+          A: "The Monument to the Great Fire"
+          B: "Nelson's Column"
+          C: "St. Paul's Cathedral"
+          D: "The Tower of London"
+    difficulty: HARD
+  - text: "Quel architecte a conçu l'Opéra de Sydney ?"
+    answers:
+      A: "Jørn Utzon"
+      B: "Frank Lloyd Wright"
+      C: "Le Corbusier"
+      D: "Oscar Niemeyer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which architect designed the Sydney Opera House?"
+        answers:
+          A: "Jørn Utzon"
+          B: "Frank Lloyd Wright"
+          C: "Le Corbusier"
+          D: "Oscar Niemeyer"
+    difficulty: HARD
+  - text: "En quelle année le mur de Berlin a-t-il été construit ?"
+    answers:
+      A: "1961"
+      B: "1953"
+      C: "1949"
+      D: "1968"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Berlin Wall built?"
+        answers:
+          A: "1961"
+          B: "1953"
+          C: "1949"
+          D: "1968"
+    difficulty: MEDIUM
+  - text: "Quel monument a été le plus haut du monde de 1974 à 1998 ?"
+    answers:
+      A: "Le World Trade Center"
+      B: "Le Chrysler Building"
+      C: "L'Empire State Building"
+      D: "La tour Sears (Willis Tower)"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1974 to 1998?"
+        answers:
+          A: "The World Trade Center"
+          B: "The Chrysler Building"
+          C: "The Empire State Building"
+          D: "The Sears Tower (Willis Tower)"
+    difficulty: HARD
+  - text: "Quel monument a été construit pour commémorer le centenaire de l'indépendance des États-Unis ?"
+    answers:
+      A: "La statue de la Liberté"
+      B: "Le Washington Monument"
+      C: "Le Lincoln Memorial"
+      D: "Le Capitole"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was built to commemorate the centennial of American independence?"
+        answers:
+          A: "The Statue of Liberty"
+          B: "The Washington Monument"
+          C: "The Lincoln Memorial"
+          D: "The Capitol"
+    difficulty: HARD
+  - text: "Quel monument a été le plus haut du monde de 1998 à 2004 ?"
+    answers:
+      A: "Le World Trade Center"
+      B: "La tour Sears"
+      C: "Les tours Petronas"
+      D: "La tour Taipei 101"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1998 to 2004?"
+        answers:
+          A: "The World Trade Center"
+          B: "The Sears Tower"
+          C: "The Petronas Towers"
+          D: "Taipei 101"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a fait construire le mur d'Hadrien ?"
+    answers:
+      A: "Marc Aurèle"
+      B: "Trajan"
+      C: "Antonin le Pieux"
+      D: "Hadrien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor had Hadrian's Wall built?"
+        answers:
+          A: "Marcus Aurelius"
+          B: "Trajan"
+          C: "Antoninus Pius"
+          D: "Hadrian"
+    difficulty: HARD
+  - text: "Quel monument a été le plus haut du monde de 2004 à 2010 ?"
+    answers:
+      A: "La tour Sears"
+      B: "Les tours Petronas"
+      C: "La tour Taipei 101"
+      D: "Le Burj Khalifa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 2004 to 2010?"
+        answers:
+          A: "The Sears Tower"
+          B: "The Petronas Towers"
+          C: "Taipei 101"
+          D: "The Burj Khalifa"
+    difficulty: EXPERT
+  - text: "Quel phare antique, l'une des Sept Merveilles du monde, se dressait sur l'île de Pharos ?"
+    answers:
+      A: "Le Colosse de Rhodes"
+      B: "Le Mausolée d'Halicarnasse"
+      C: "Le Phare d'Alexandrie"
+      D: "Le Temple d'Artémis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ancient lighthouse, one of the Seven Wonders of the World, stood on the island of Pharos?"
+        answers:
+          A: "The Colossus of Rhodes"
+          B: "The Mausoleum at Halicarnassus"
+          C: "The Lighthouse of Alexandria"
+          D: "The Temple of Artemis"
+    difficulty: HARD
+  - text: "Quel monument est le plus haut du monde en 2024 ?"
+    answers:
+      A: "Burj Khalifa"
+      B: "Tour Shanghai"
+      C: "Abraj Al-Bait"
+      D: "Merdeka 118"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument is the tallest in the world in 2024?"
+        answers:
+          A: "Burj Khalifa"
+          B: "Shanghai Tower"
+          C: "Abraj Al-Bait"
+          D: "Merdeka 118"
+    difficulty: EASY
+  - text: "Quel architecte a conçu la Burj Khalifa à Dubaï ?"
+    answers:
+      A: "Norman Foster"
+      B: "Ieoh Ming Pei"
+      C: "César Pelli"
+      D: "Adrian Smith"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which architect designed the Burj Khalifa in Dubai?"
+        answers:
+          A: "Norman Foster"
+          B: "Ieoh Ming Pei"
+          C: "César Pelli"
+          D: "Adrian Smith"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1311 à 1549 ?"
+    answers:
+      A: "Cathédrale de Lincoln"
+      B: "Cathédrale de Cologne"
+      C: "Cathédrale de Strasbourg"
+      D: "Cathédrale Notre-Dame de Paris"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1311 to 1549?"
+        answers:
+          A: "Lincoln Cathedral"
+          B: "Cologne Cathedral"
+          C: "Strasbourg Cathedral"
+          D: "Notre-Dame de Paris"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1549 à 1647 ?"
+    answers:
+      A: "Cathédrale de Cologne"
+      B: "Cathédrale de Rouen"
+      C: "Cathédrale de Strasbourg"
+      D: "Cathédrale de Lincoln"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1549 to 1647?"
+        answers:
+          A: "Cologne Cathedral"
+          B: "Rouen Cathedral"
+          C: "Strasbourg Cathedral"
+          D: "Lincoln Cathedral"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1647 à 1874 ?"
+    answers:
+      A: "Cathédrale de Lincoln"
+      B: "Cathédrale de Rouen"
+      C: "Cathédrale de Cologne"
+      D: "Cathédrale de Strasbourg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1647 to 1874?"
+        answers:
+          A: "Lincoln Cathedral"
+          B: "Rouen Cathedral"
+          C: "Cologne Cathedral"
+          D: "Strasbourg Cathedral"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1874 à 1876 ?"
+    answers:
+      A: "Cathédrale de Cologne"
+      B: "Cathédrale de Lincoln"
+      C: "Cathédrale de Strasbourg"
+      D: "Cathédrale de Rouen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1874 to 1876?"
+        answers:
+          A: "Cologne Cathedral"
+          B: "Lincoln Cathedral"
+          C: "Strasbourg Cathedral"
+          D: "Rouen Cathedral"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1876 à 1880 ?"
+    answers:
+      A: "Cathédrale de Rouen"
+      B: "Cathédrale de Cologne"
+      C: "Cathédrale de Strasbourg"
+      D: "Cathédrale de Lincoln"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1876 to 1880?"
+        answers:
+          A: "Rouen Cathedral"
+          B: "Cologne Cathedral"
+          C: "Strasbourg Cathedral"
+          D: "Lincoln Cathedral"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1880 à 1884 ?"
+    answers:
+      A: "Cathédrale de Cologne"
+      B: "Washington Monument"
+      C: "Tour Eiffel"
+      D: "Cathédrale de Rouen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1880 to 1884?"
+        answers:
+          A: "Cologne Cathedral"
+          B: "Washington Monument"
+          C: "Eiffel Tower"
+          D: "Rouen Cathedral"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1884 à 1889 ?"
+    answers:
+      A: "Washington Monument"
+      B: "Cathédrale de Cologne"
+      C: "Tour Eiffel"
+      D: "Cathédrale de Rouen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1884 to 1889?"
+        answers:
+          A: "Washington Monument"
+          B: "Cologne Cathedral"
+          C: "Eiffel Tower"
+          D: "Rouen Cathedral"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1930 à 1931 ?"
+    answers:
+      A: "Tour Eiffel"
+      B: "Empire State Building"
+      C: "Chrysler Building"
+      D: "Cathédrale de Cologne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1930 to 1931?"
+        answers:
+          A: "Eiffel Tower"
+          B: "Empire State Building"
+          C: "Chrysler Building"
+          D: "Cologne Cathedral"
+    difficulty: EXPERT
+  - text: "Quelle est la hauteur officielle de la Burj Khalifa ?"
+    answers:
+      A: "509 mètres"
+      B: "632 mètres"
+      C: "828 mètres"
+      D: "729 mètres"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the official height of the Burj Khalifa?"
+        answers:
+          A: "509 meters"
+          B: "632 meters"
+          C: "828 meters"
+          D: "729 meters"
+    difficulty: MEDIUM
+  - text: "Quel monument a été le plus haut du monde en 2024 ?"
+    answers:
+      A: "Taipei 101"
+      B: "Burj Khalifa"
+      C: "Tour Shanghai"
+      D: "Abraj Al-Bait"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was the tallest in the world in 2024?"
+        answers:
+          A: "Taipei 101"
+          B: "Burj Khalifa"
+          C: "Shanghai Tower"
+          D: "Abraj Al-Bait"
+    difficulty: EASY
+  - text: "Quel monument a été inauguré pour l'Exposition universelle de 1889 ?"
+    answers:
+      A: "Le Grand Palais"
+      B: "La tour Eiffel"
+      C: "Le Petit Palais"
+      D: "Le Trocadéro"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was inaugurated for the 1889 World's Fair?"
+        answers:
+          A: "The Grand Palais"
+          B: "The Eiffel Tower"
+          C: "The Petit Palais"
+          D: "The Trocadéro"
+    difficulty: MEDIUM
+  - text: "Quelle est la hauteur officielle de la tour Eiffel avec ses antennes ?"
+    answers:
+      A: "300 m"
+      B: "312 m"
+      C: "324 m"
+      D: "330 m"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the official height of the Eiffel Tower including its antennas?"
+        answers:
+          A: "300 m"
+          B: "312 m"
+          C: "324 m"
+          D: "330 m"
+    difficulty: HARD
+  - text: "Quel matériau constitue principalement la tour Eiffel ?"
+    answers:
+      A: "L'aluminium"
+      B: "L'acier inoxydable"
+      C: "La fonte"
+      D: "Le fer puddlé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What material primarily makes up the Eiffel Tower?"
+        answers:
+          A: "Aluminum"
+          B: "Stainless steel"
+          C: "Cast iron"
+          D: "Puddled iron"
+    difficulty: EASY
+  - text: "Quel est le nom officiel de la tour qui abrite Big Ben ?"
+    answers:
+      A: "La tour Victoria"
+      B: "La tour du Parlement"
+      C: "La tour Élisabeth"
+      D: "La tour Saint-Étienne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the official name of the tower that houses Big Ben?"
+        answers:
+          A: "The Victoria Tower"
+          B: "The Parliament Tower"
+          C: "The Elizabeth Tower"
+          D: "The St Stephen's Tower"
+    difficulty: HARD
+  - text: "En quelle année Big Ben a-t-il commencé à sonner pour la première fois ?"
+    answers:
+      A: "1857"
+      B: "1858"
+      C: "1860"
+      D: "1859"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Big Ben first start ringing?"
+        answers:
+          A: "1857"
+          B: "1858"
+          C: "1860"
+          D: "1859"
+    difficulty: HARD
+  - text: "Quelle cité inca des Andes est-ce ?"
+    imageUrl: wikipedia/world/Machu_Picchu,_Peru.jpg
+    answers:
+      A: "Choquequirao"
+      B: "Ollantaytambo"
+      C: "Sacsayhuamán"
+      D: "Le Machu Picchu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Inca city in the Andes is this?"
+        answers:
+          A: "Choquequirao"
+          B: "Ollantaytambo"
+          C: "Sacsayhuamán"
+          D: "Machu Picchu"
+    difficulty: MEDIUM
+  - text: "Quel architecte a conçu la Sagrada Familia ?"
+    answers:
+      A: "Lluís Domènech i Montaner"
+      B: "Josep Maria Jujol"
+      C: "Antoni Gaudí"
+      D: "Francesc de Paula del Villar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which architect designed the Sagrada Familia?"
+        answers:
+          A: "Lluís Domènech i Montaner"
+          B: "Josep Maria Jujol"
+          C: "Antoni Gaudí"
+          D: "Francesc de Paula del Villar"
+    difficulty: MEDIUM
+  - text: "En quelle année la construction de la Sagrada Familia a-t-elle commencé ?"
+    answers:
+      A: "1881"
+      B: "1883"
+      C: "1882"
+      D: "1884"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did construction of the Sagrada Familia begin?"
+        answers:
+          A: "1881"
+          B: "1883"
+          C: "1882"
+          D: "1884"
+    difficulty: HARD
+  - text: "Combien de tours la Sagrada Familia doit-elle compter à son achèvement ?"
+    answers:
+      A: "12"
+      B: "18"
+      C: "16"
+      D: "20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many towers is the Sagrada Familia supposed to have upon completion?"
+        answers:
+          A: "12"
+          B: "18"
+          C: "16"
+          D: "20"
+    difficulty: EXPERT
+  - text: "Dans quelle ville se trouve le Colisée ?"
+    answers:
+      A: "Naples"
+      B: "Athènes"
+      C: "Rome"
+      D: "Florence"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which city is the Colosseum located?"
+        answers:
+          A: "Naples"
+          B: "Athens"
+          C: "Rome"
+          D: "Florence"
+    difficulty: EASY
+  - text: "Quel monument romain est le plus grand amphithéâtre jamais construit ?"
+    answers:
+      A: "L'amphithéâtre de Capoue"
+      B: "Le théâtre de Pompée"
+      C: "Le Colisée"
+      D: "Le Circus Maximus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman monument is the largest amphitheater ever built?"
+        answers:
+          A: "The Amphitheatre of Capua"
+          B: "The Theatre of Pompey"
+          C: "The Colosseum"
+          D: "The Circus Maximus"
+    difficulty: MEDIUM
+  - text: "Quel écrivain a défendu Notre-Dame de Paris dans un roman du XIXe siècle ?"
+    answers:
+      A: "Gustave Flaubert"
+      B: "Alexandre Dumas"
+      C: "Honoré de Balzac"
+      D: "Victor Hugo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which writer defended Notre-Dame de Paris in a 19th-century novel?"
+        answers:
+          A: "Gustave Flaubert"
+          B: "Alexandre Dumas"
+          C: "Honoré de Balzac"
+          D: "Victor Hugo"
+    difficulty: MEDIUM
+  - text: "En quelle année Notre-Dame de Paris a-t-elle été achevée ?"
+    answers:
+      A: "1345"
+      B: "1250"
+      C: "1400"
+      D: "1300"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was Notre-Dame de Paris completed?"
+        answers:
+          A: "1345"
+          B: "1250"
+          C: "1400"
+          D: "1300"
+    difficulty: EXPERT
+  - text: "Quel roi de France a fait construire le château de Versailles ?"
+    answers:
+      A: "Louis XIII"
+      B: "Louis XVI"
+      C: "Louis XV"
+      D: "Louis XIV"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which King of France had the Palace of Versailles built?"
+        answers:
+          A: "Louis XIII"
+          B: "Louis XVI"
+          C: "Louis XV"
+          D: "Louis XIV"
+    difficulty: MEDIUM
+  - text: "En quelle année la galerie des Glaces du château de Versailles a-t-elle été inaugurée ?"
+    answers:
+      A: "1682"
+      B: "1684"
+      C: "1680"
+      D: "1686"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Hall of Mirrors at the Palace of Versailles inaugurated?"
+        answers:
+          A: "1682"
+          B: "1684"
+          C: "1680"
+          D: "1686"
+    difficulty: EXPERT
+  - text: "Quel monument fortifié est-ce ?"
+    imageUrl: wikipedia/world/Great_Wall_of_China_July_2006.jpg
+    answers:
+      A: "Le mur d'Hadrien"
+      B: "Les remparts de Dubrovnik"
+      C: "La Cité interdite"
+      D: "La Grande Muraille de Chine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which fortified monument is this?"
+        answers:
+          A: "Hadrian's Wall"
+          B: "The Walls of Dubrovnik"
+          C: "The Forbidden City"
+          D: "The Great Wall of China"
+    difficulty: HARD
+  - text: "En quelle année la construction du dôme de la cathédrale Santa Maria del Fiore a-t-elle commencé ?"
+    answers:
+      A: "1420"
+      B: "1418"
+      C: "1422"
+      D: "1425"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did construction of the dome of Santa Maria del Fiore cathedral begin?"
+        answers:
+          A: "1420"
+          B: "1418"
+          C: "1422"
+          D: "1425"
+    difficulty: EXPERT
+  - text: "En quelle année le monument au Grand Incendie de Londres a-t-il été achevé ?"
+    answers:
+      A: "1675"
+      B: "1677"
+      C: "1679"
+      D: "1681"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Monument to the Great Fire of London completed?"
+        answers:
+          A: "1675"
+          B: "1677"
+          C: "1679"
+          D: "1681"
+    difficulty: EXPERT
+  - text: "Quel monument de marbre blanc est photographié ici ?"
+    imageUrl: wikipedia/world/Taj_Mahal_(Edited).jpg
+    answers:
+      A: "Le Taj Mahal"
+      B: "La mosquée Jama Masjid"
+      C: "Le Hawa Mahal"
+      D: "Le fort d'Agra"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which white marble monument is photographed here?"
+        answers:
+          A: "The Taj Mahal"
+          B: "The Jama Masjid mosque"
+          C: "The Hawa Mahal"
+          D: "The Agra Fort"
+    difficulty: MEDIUM
+  - text: "Quel monarque britannique a commandé la construction du château de Windsor ?"
+    answers:
+      A: "Guillaume le Conquérant"
+      B: "Henri II"
+      C: "Édouard III"
+      D: "Jacques Ier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which British monarch ordered the construction of Windsor Castle?"
+        answers:
+          A: "William the Conqueror"
+          B: "Henry II"
+          C: "Edward III"
+          D: "James I"
+    difficulty: EXPERT
+  - text: "Quel architecte a dessiné le dôme de la cathédrale Saint-Paul de Londres ?"
+    answers:
+      A: "Inigo Jones"
+      B: "Christopher Wren"
+      C: "John Vanbrugh"
+      D: "Nicholas Hawksmoor"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which architect designed the dome of St Paul's Cathedral in London?"
+        answers:
+          A: "Inigo Jones"
+          B: "Christopher Wren"
+          C: "John Vanbrugh"
+          D: "Nicholas Hawksmoor"
+    difficulty: HARD
+  - text: "Quel monument abrite la tombe de Napoléon Bonaparte ?"
+    answers:
+      A: "Le Panthéon"
+      B: "Les Invalides"
+      C: "La basilique Saint-Denis"
+      D: "Le château de Malmaison"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument houses the tomb of Napoleon Bonaparte?"
+        answers:
+          A: "The Panthéon"
+          B: "Les Invalides"
+          C: "The Basilica of Saint-Denis"
+          D: "The Château de Malmaison"
+    difficulty: HARD
+  - text: "Quel temple grec est dédié à Athéna Niké ?"
+    answers:
+      A: "L'Érechthéion"
+      B: "Le Parthénon"
+      C: "Le temple d'Athéna Niké"
+      D: "Le temple d'Olympie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek temple is dedicated to Athena Nike?"
+        answers:
+          A: "The Erechtheion"
+          B: "The Parthenon"
+          C: "The Temple of Athena Nike"
+          D: "The Temple of Olympia"
+    difficulty: HARD
+  - text: "Quel colisée romain se trouve en Tunisie ?"
+    answers:
+      A: "L'amphithéâtre de Pompéi"
+      B: "L'amphithéâtre de Capoue"
+      C: "L'amphithéâtre de Vérone"
+      D: "L'amphithéâtre d'El Jem"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman colosseum is located in Tunisia?"
+        answers:
+          A: "The Amphitheatre of Pompeii"
+          B: "The Amphitheatre of Capua"
+          C: "The Amphitheatre of Verona"
+          D: "The Amphitheatre of El Jem"
+    difficulty: EXPERT
+  - text: "Quel monument marque le centre de la place Rouge à Moscou ?"
+    answers:
+      A: "Le Kremlin"
+      B: "La cathédrale Saint-Basile"
+      C: "Le mausolée de Lénine"
+      D: "La tour Spasskaïa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument marks the center of Red Square in Moscow?"
+        answers:
+          A: "The Kremlin"
+          B: "St. Basil's Cathedral"
+          C: "Lenin's Mausoleum"
+          D: "The Spasskaya Tower"
+    difficulty: HARD
+  - text: "Quel roi de France a fait édifier la Sainte-Chapelle ?"
+    answers:
+      A: "Louis IX"
+      B: "Philippe Auguste"
+      C: "François Ier"
+      D: "Louis XIV"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which King of France built the Sainte-Chapelle?"
+        answers:
+          A: "Louis IX"
+          B: "Philip Augustus"
+          C: "Francis I"
+          D: "Louis XIV"
+    difficulty: HARD
+  - text: "Quel monument a été construit pour l'Exposition universelle de 1889 ?"
+    answers:
+      A: "La tour Eiffel"
+      B: "Le Grand Palais"
+      C: "Le Petit Palais"
+      D: "Le pont Alexandre-III"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was built for the 1889 World's Fair?"
+        answers:
+          A: "The Eiffel Tower"
+          B: "The Grand Palais"
+          C: "The Petit Palais"
+          D: "The Pont Alexandre III"
+    difficulty: MEDIUM
+  - text: "Quel architecte a conçu le Centre Pompidou à Paris ?"
+    answers:
+      A: "Jean Nouvel"
+      B: "Le Corbusier"
+      C: "Renzo Piano et Richard Rogers"
+      D: "Ieoh Ming Pei"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which architect designed the Centre Pompidou in Paris?"
+        answers:
+          A: "Jean Nouvel"
+          B: "Le Corbusier"
+          C: "Renzo Piano and Richard Rogers"
+          D: "Ieoh Ming Pei"
+    difficulty: HARD
+  - text: "Quel monument abrite la cloche Big Ben ?"
+    answers:
+      A: "La tour de Londres"
+      B: "La tour Elizabeth"
+      C: "Le palais de Westminster"
+      D: "La cathédrale Saint-Paul"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument houses the Big Ben bell?"
+        answers:
+          A: "The Tower of London"
+          B: "The Elizabeth Tower"
+          C: "The Palace of Westminster"
+          D: "St. Paul's Cathedral"
+    difficulty: MEDIUM
+  - text: "Quel mur antique traverse le nord de l'Angleterre ?"
+    answers:
+      A: "Le mur d'Antonin"
+      B: "Le mur d'Hadrien"
+      C: "Le mur de Trajan"
+      D: "Le mur d'Aurélien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ancient wall crosses northern England?"
+        answers:
+          A: "The Antonine Wall"
+          B: "Hadrian's Wall"
+          C: "Trajan's Wall"
+          D: "The Aurelian Wall"
+    difficulty: MEDIUM
+  - text: "Quel archipel abrite le site mégalithique de Stonehenge ?"
+    answers:
+      A: "Les Orcades"
+      B: "L'Irlande"
+      C: "L'Islande"
+      D: "La Grande-Bretagne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which archipelago is home to the Stonehenge megalithic site?"
+        answers:
+          A: "The Orkney Islands"
+          B: "Ireland"
+          C: "Iceland"
+          D: "Great Britain"
+    difficulty: MEDIUM
+  - text: "Quel monument de Rome a été édifié pour commémorer la victoire de Constantin ?"
+    answers:
+      A: "L'arc de Titus"
+      B: "L'arc de Constantin"
+      C: "L'arc de Septime Sévère"
+      D: "L'arc de Trajan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument in Rome was built to commemorate Constantine's victory?"
+        answers:
+          A: "The Arch of Titus"
+          B: "The Arch of Constantine"
+          C: "The Arch of Septimius Severus"
+          D: "The Arch of Trajan"
+    difficulty: EXPERT
+  - text: "Quel temple antique se trouve à Baalbek, au Liban ?"
+    answers:
+      A: "Le temple d'Apollon"
+      B: "Le temple d'Artémis"
+      C: "Le temple de Bacchus"
+      D: "Le temple de Jupiter"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ancient temple is located in Baalbek, Lebanon?"
+        answers:
+          A: "The Temple of Apollo"
+          B: "The Temple of Artemis"
+          C: "The Temple of Bacchus"
+          D: "The Temple of Jupiter"
+    difficulty: EXPERT
+  - text: "Quel monument de New York a été offert par la France ?"
+    answers:
+      A: "L'Empire State Building"
+      B: "La statue de la Liberté"
+      C: "Le pont de Brooklyn"
+      D: "Le Rockefeller Center"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which New York monument was a gift from France?"
+        answers:
+          A: "The Empire State Building"
+          B: "The Statue of Liberty"
+          C: "The Brooklyn Bridge"
+          D: "Rockefeller Center"
+    difficulty: EASY
+  - text: "Quel phare français est classé au patrimoine mondial de l'UNESCO ?"
+    answers:
+      A: "Le phare de Cordouan"
+      B: "Le phare de la Vieille"
+      C: "Le phare d'Eckmühl"
+      D: "Le phare de Gatteville"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French lighthouse is a UNESCO World Heritage Site?"
+        answers:
+          A: "The Cordouan Lighthouse"
+          B: "The La Vieille Lighthouse"
+          C: "The Eckmühl Lighthouse"
+          D: "The Gatteville Lighthouse"
+    difficulty: HARD
+  - text: "Quel palais vénitien abrite le pont des Soupirs ?"
+    answers:
+      A: "Le palais Grassi"
+      B: "Le palais des Doges"
+      C: "Le palais Contarini"
+      D: "Le palais Ducal de Mantoue"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Venetian palace houses the Bridge of Sighs?"
+        answers:
+          A: "Palazzo Grassi"
+          B: "The Doge's Palace"
+          C: "Palazzo Contarini"
+          D: "The Ducal Palace of Mantua"
+    difficulty: HARD
+  - text: "Quel monument a été le plus haut du monde de 1315 à 1647 ?"
+    answers:
+      A: "Cathédrale de Lincoln"
+      B: "Cathédrale de Cologne"
+      C: "Cathédrale de Strasbourg"
+      D: "Cathédrale de Rouen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1315 to 1647?"
+        answers:
+          A: "Lincoln Cathedral"
+          B: "Cologne Cathedral"
+          C: "Strasbourg Cathedral"
+          D: "Rouen Cathedral"
+    difficulty: EXPERT
+  - text: "Quel monument a été le plus haut du monde de 1931 à 1975 ?"
+    answers:
+      A: "Burj Khalifa"
+      B: "Chrysler Building"
+      C: "Tour Eiffel"
+      D: "Empire State Building"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which monument was the tallest in the world from 1931 to 1975?"
+        answers:
+          A: "Burj Khalifa"
+          B: "Chrysler Building"
+          C: "Eiffel Tower"
+          D: "Empire State Building"
+    difficulty: HARD
+  - text: "Quel a été le premier bâtiment à dépasser les 300 mètres de hauteur ?"
+    answers:
+      A: "Chrysler Building"
+      B: "Empire State Building"
+      C: "Tour Eiffel"
+      D: "Burj Khalifa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which was the first building to exceed 300 meters in height?"
+        answers:
+          A: "Chrysler Building"
+          B: "Empire State Building"
+          C: "Eiffel Tower"
+          D: "Burj Khalifa"
+    difficulty: EXPERT
+  - text: "Quel phare a été le plus haut du monde de 1886 à 1908 ?"
+    answers:
+      A: "Phare de l'Île Vierge"
+      B: "Phare de Cap Hatteras"
+      C: "Phare de Créac'h"
+      D: "Phare de Gatteville"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which lighthouse was the tallest in the world from 1886 to 1908?"
+        answers:
+          A: "Île Vierge Lighthouse"
+          B: "Cape Hatteras Lighthouse"
+          C: "Créac'h Lighthouse"
+          D: "Gatteville Lighthouse"
+    difficulty: EXPERT
+  - text: "Quel président américain a inauguré le Washington Monument en 1885 ?"
+    answers:
+      A: "Chester A. Arthur"
+      B: "Rutherford B. Hayes"
+      C: "Ulysses S. Grant"
+      D: "Grover Cleveland"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which American president inaugurated the Washington Monument in 1885?"
+        answers:
+          A: "Chester A. Arthur"
+          B: "Rutherford B. Hayes"
+          C: "Ulysses S. Grant"
+          D: "Grover Cleveland"
+    difficulty: EXPERT
+  - text: "Quel monument a été le premier à être classé au patrimoine mondial de l'UNESCO en 1978 ?"
+    answers:
+      A: "Mont-Saint-Michel"
+      B: "Cathédrale de Chartres"
+      C: "Île de Gorée"
+      D: "Palais de Westminster"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monument was the first to be listed as a UNESCO World Heritage Site in 1978?"
+        answers:
+          A: "Mont-Saint-Michel"
+          B: "Chartres Cathedral"
+          C: "Gorée Island"
+          D: "Palace of Westminster"
+    difficulty: EXPERT
+  - text: "Dans quelle ville se trouve la plus haute cathédrale du monde ?"
+    answers:
+      A: "Ulm"
+      B: "Cologne"
+      C: "Paris"
+      D: "Milan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is the tallest cathedral in the world located?"
+        answers:
+          A: "Ulm"
+          B: "Cologne"
+          C: "Paris"
+          D: "Milan"
+    difficulty: EXPERT
+  - text: "Quel monument a été le premier à être classé au patrimoine mondial de l'UNESCO aux États-Unis ?"
+    answers:
+      A: "Parc national de Yellowstone"
+      B: "Parc national de Yosemite"
+      C: "Statue de la Liberté"
+      D: "Grand Canyon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was the first to be listed as a UNESCO World Heritage Site in the United States?"
+        answers:
+          A: "Yellowstone National Park"
+          B: "Yosemite National Park"
+          C: "Statue of Liberty"
+          D: "Grand Canyon"
+    difficulty: EXPERT
+  - text: "Quel monument a été construit pour l'Exposition universelle de 1900 à Paris ?"
+    answers:
+      A: "Pont Alexandre III"
+      B: "Grand Palais"
+      C: "Petit Palais"
+      D: "Tour Eiffel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was built for the 1900 World's Fair in Paris?"
+        answers:
+          A: "Pont Alexandre III"
+          B: "Grand Palais"
+          C: "Petit Palais"
+          D: "Eiffel Tower"
+    difficulty: EXPERT
+  - text: "Quel monument a été le premier gratte-ciel à dépasser les 400 mètres de hauteur ?"
+    answers:
+      A: "Empire State Building"
+      B: "Burj Khalifa"
+      C: "Taipei 101"
+      D: "Petronas Towers"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which monument was the first skyscraper to exceed 400 meters in height?"
+        answers:
+          A: "Empire State Building"
+          B: "Burj Khalifa"
+          C: "Taipei 101"
+          D: "Petronas Towers"
+    difficulty: EXPERT
+  - text: "Quel monument a été dynamité en 2001 par les talibans ?"
+    answers:
+      A: "Temple de Bel"
+      B: "Bouddhas de Bamiyan"
+      C: "Citadelle d'Alep"
+      D: "Pont de Mostar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument was blown up in 2001 by the Taliban?"
+        answers:
+          A: "Temple of Bel"
+          B: "Bamiyan Buddhas"
+          C: "Citadel of Aleppo"
+          D: "Mostar Bridge"
+    difficulty: HARD

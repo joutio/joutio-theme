@@ -1,0 +1,32 @@
+package com.joutio.theme.domain.port.in;
+
+import com.joutio.theme.domain.exception.QuestionProblems;
+import com.joutio.theme.domain.model.Question;
+import com.joutio.theme.domain.query.QuestionQuery;
+
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+
+public interface GetQuestionUseCase {
+
+    CompletableFuture<Question> getById(QuestionQuery.GetQuestionByIdQuery query) throws QuestionProblems.QuestionNotFoundProblem;
+
+    default CompletableFuture<Question> getById(String questionId) throws QuestionProblems.QuestionNotFoundProblem {
+        return getById(
+                new QuestionQuery.GetQuestionByIdQuery(
+                        questionId
+                )
+        );
+    }
+
+    CompletableFuture<List<Question>> getByTopicId(QuestionQuery.GetQuestionsByTopicIdQuery query);
+
+    default CompletableFuture<List<Question>> getByTopicId(String topicId) {
+        return getByTopicId(
+                new QuestionQuery.GetQuestionsByTopicIdQuery(
+                        topicId
+                )
+        );
+    }
+}
+

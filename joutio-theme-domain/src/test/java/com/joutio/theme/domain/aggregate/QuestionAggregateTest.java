@@ -1,0 +1,367 @@
+package com.joutio.theme.domain.aggregate;
+
+import com.joutio.axon.test.JoutioAxonMatchers;
+import com.joutio.microservice.core.domain.model.i18n.Language;
+import com.joutio.theme.domain.command.QuestionCommand;
+import com.joutio.theme.domain.event.QuestionEvent;
+import com.joutio.theme.domain.exception.QuestionProblems;
+import com.joutio.theme.domain.model.QuestionChoice;
+import com.joutio.theme.domain.model.QuestionContent;
+import com.joutio.theme.domain.model.QuestionDifficulty;
+import com.joutio.theme.domain.model.QuestionSuspensionReason;
+import org.axonframework.test.aggregate.AggregateTestFixture;
+import org.junit.jupiter.api.Test;
+
+import java.time.Instant;
+import java.util.EnumMap;
+import java.util.Map;
+
+/**
+ * Test Axon in-memory de l'agrégat {@link QuestionAggregate} via {@link AggregateTestFixture}.
+ * <p>
+ * 100 % in-memory : event store de l'agrégat en mémoire, aucun Postgres ni Axon Server.
+ */
+class QuestionAggregateTest {
+
+    private static final Instant NOW = Instant.parse("2026-09-20T10:00:00Z");
+
+    private final AggregateTestFixture<QuestionAggregate> fixture =
+            new AggregateTestFixture<>(QuestionAggregate.class);
+
+    @Test
+    void createQuestion_appliesQuestionCreatedEvent() {
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1", frenchContents(), QuestionChoice.A,
+                        "https://example.com/france.png", "creator-1"))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionCreatedEvent.class,
+                        e -> "q-1".equals(((QuestionEvent.QuestionCreatedEvent) e).questionId())
+                                && "topic-1".equals(((QuestionEvent.QuestionCreatedEvent) e).topicId())
+                                && Language.FR == ((QuestionEvent.QuestionCreatedEvent) e).contents()
+                                        .get(Language.FR).language()
+                                && "https://example.com/france.png"
+                                        .equals(((QuestionEvent.QuestionCreatedEvent) e).imageUrl())));
+    }
+
+    @Test
+    void createQuestion_withFrenchAndEnglish_appliesBothContents() {
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1", frenchAndEnglishContents(), QuestionChoice.A,
+                        null, "creator-1"))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionCreatedEvent.class,
+                        e -> ((QuestionEvent.QuestionCreatedEvent) e).contents().keySet()
+                                .containsAll(java.util.Set.of(Language.FR, Language.EN))));
+    }
+
+    @Test
+    void createQuestion_withoutContents_rejects() {
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1", Map.of(), QuestionChoice.A, null, "creator-1"))
+                .expectException(QuestionProblems.QuestionContentsEmptyProblem.class);
+    }
+
+    @Test
+    void createQuestion_withLanguageMismatch_rejects() {
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1",
+                        Map.of(Language.FR, new QuestionContent(Language.EN, "Capital of France?", answers())),
+                        QuestionChoice.A, null, "creator-1"))
+                .expectException(QuestionProblems.QuestionContentLanguageMismatchProblem.class);
+    }
+
+    @Test
+    void createQuestion_withTwoAnswers_rejects() {
+        Map<QuestionChoice, String> badAnswers = Map.of(
+                QuestionChoice.A, "Paris",
+                QuestionChoice.B, "Lyon");
+
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-bad", "topic-1",
+                        Map.of(Language.FR, new QuestionContent(Language.FR, "Capital of France?", badAnswers)),
+                        QuestionChoice.A, null, "creator-1"))
+                .expectException(QuestionProblems.QuestionAnswersInvalidProblem.class);
+    }
+
+    @Test
+    void addTranslations_appliesQuestionTranslationsAddedEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationsCommand(
+                        "q-1", englishOnlyContents(), "editor-1"))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionTranslationsAddedEvent.class,
+                        e -> ((QuestionEvent.QuestionTranslationsAddedEvent) e).contents().containsKey(Language.EN)
+                                && "editor-1".equals(((QuestionEvent.QuestionTranslationsAddedEvent) e).updatedBy())));
+    }
+
+    @Test
+    void addTranslations_withSameContent_emitsNoEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationsCommand(
+                        "q-1", frenchContents(), "editor-1"))
+                .expectNoEvents();
+    }
+
+    @Test
+    void addTranslations_withoutContents_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationsCommand("q-1", Map.of(), "editor-1"))
+                .expectException(QuestionProblems.QuestionContentsEmptyProblem.class);
+    }
+
+    @Test
+    void updateDifficulty_appliesQuestionDifficultyUpdatedEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionDifficultyCommand(
+                        "q-1", QuestionDifficulty.HARD))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionDifficultyUpdatedEvent.class,
+                        e -> ((QuestionEvent.QuestionDifficultyUpdatedEvent) e).difficulty()
+                                == QuestionDifficulty.HARD));
+    }
+
+    @Test
+    void updateDifficulty_withSameValue_emitsNoEvent() {
+        fixture.given(createdQuestion(),
+                        new QuestionEvent.QuestionDifficultyUpdatedEvent(
+                                "q-1", QuestionDifficulty.HARD, Instant.now()))
+                .when(new QuestionCommand.UpdateQuestionDifficultyCommand(
+                        "q-1", QuestionDifficulty.HARD))
+                .expectNoEvents();
+    }
+
+    @Test
+    void addTranslation_appliesQuestionTranslationAddedEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationCommand(
+                        "q-1", "editor-1", Language.EN,
+                        "What is the capital of France?", answers()))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionTranslationAddedEvent.class,
+                        e -> Language.EN == ((QuestionEvent.QuestionTranslationAddedEvent) e).language()
+                                && "editor-1".equals(((QuestionEvent.QuestionTranslationAddedEvent) e).updatedBy())));
+    }
+
+    @Test
+    void addTranslation_withExistingLanguage_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationCommand(
+                        "q-1", "editor-1", Language.FR, "Autre texte", answers()))
+                .expectException(QuestionProblems.QuestionTranslationAlreadyExistsProblem.class);
+    }
+
+    @Test
+    void addTranslation_withTextTooLong_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationCommand(
+                        "q-1", "editor-1", Language.EN, "a".repeat(256), answers()))
+                .expectException(QuestionProblems.QuestionTextTooLongProblem.class);
+    }
+
+    @Test
+    void updateText_appliesEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionTextCommand(
+                        "q-1", "editor-1", Language.FR, "Quelle est la capitale de la France ?"))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionTextUpdatedEvent.class,
+                        e -> "Quelle est la capitale de la France ?"
+                                .equals(((QuestionEvent.QuestionTextUpdatedEvent) e).text())));
+    }
+
+    @Test
+    void updateText_withUnknownLanguage_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionTextCommand(
+                        "q-1", "editor-1", Language.EN, "What is the capital of France?"))
+                .expectException(QuestionProblems.QuestionLanguageNotFoundProblem.class);
+    }
+
+    @Test
+    void updateText_withSameValue_emitsNoEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionTextCommand(
+                        "q-1", "editor-1", Language.FR, "Capitale de la France ?"))
+                .expectNoEvents();
+    }
+
+    @Test
+    void updateAnswers_appliesEvent() {
+        Map<QuestionChoice, String> answers = Map.of(
+                QuestionChoice.A, "Paris",
+                QuestionChoice.B, "Lyon",
+                QuestionChoice.C, "Marseille",
+                QuestionChoice.D, "Lille");
+
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionAnswersCommand(
+                        "q-1", "editor-1", Language.FR, answers))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionAnswersUpdatedEvent.class,
+                        e -> "Lille".equals(((QuestionEvent.QuestionAnswersUpdatedEvent) e).answers()
+                                .get(QuestionChoice.D))));
+    }
+
+    @Test
+    void updateAnswers_withThreeAnswers_rejects() {
+        Map<QuestionChoice, String> answers = Map.of(
+                QuestionChoice.A, "Paris",
+                QuestionChoice.B, "Lyon",
+                QuestionChoice.C, "Marseille");
+
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionAnswersCommand(
+                        "q-1", "editor-1", Language.FR, answers))
+                .expectException(QuestionProblems.QuestionAnswersInvalidProblem.class);
+    }
+
+    @Test
+    void updateCorrectAnswer_appliesEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionCorrectAnswerCommand(
+                        "q-1", "editor-1", QuestionChoice.B))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionCorrectAnswerUpdatedEvent.class,
+                        e -> QuestionChoice.B == ((QuestionEvent.QuestionCorrectAnswerUpdatedEvent) e)
+                                .correctAnswer()));
+    }
+
+    @Test
+    void updateCorrectAnswer_withSameValue_emitsNoEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionCorrectAnswerCommand(
+                        "q-1", "editor-1", QuestionChoice.A))
+                .expectNoEvents();
+    }
+
+    @Test
+    void updateImageUrl_appliesEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionImageUrlCommand(
+                        "q-1", "editor-1", "https://example.com/new.png"))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionImageUrlUpdatedEvent.class,
+                        e -> "https://example.com/new.png"
+                                .equals(((QuestionEvent.QuestionImageUrlUpdatedEvent) e).imageUrl())));
+    }
+
+    @Test
+    void updateImageUrl_withTooLongValue_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionImageUrlCommand(
+                        "q-1", "editor-1", "https://x.test/" + "a".repeat(1100)))
+                .expectException(QuestionProblems.QuestionImageUrlTooLongProblem.class);
+    }
+
+    @Test
+    void suspend_approvedQuestion_appliesEvent() {
+        fixture.given(createdQuestion(), approvedQuestion())
+                .when(new QuestionCommand.SuspendQuestionCommand(
+                        "q-1", QuestionSuspensionReason.MANUAL, "Contenu douteux",
+                        "admin-1", null, null, 0, 0, NOW.plusSeconds(30)))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionSuspendedEvent.class,
+                        e -> "admin-1".equals(
+                                ((QuestionEvent.QuestionSuspendedEvent) e).requestedBy())));
+    }
+
+    @Test
+    void suspend_pendingQuestion_isIgnored() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.SuspendQuestionCommand(
+                        "q-1", QuestionSuspensionReason.MANUAL, null,
+                        "admin-1", null, null, 0, 0, NOW))
+                .expectNoEvents();
+    }
+
+    @Test
+    void suspend_afterReinstatement_ignoresOlderReportReplay() {
+        fixture.given(
+                        createdQuestion(),
+                        approvedQuestion(),
+                        new QuestionEvent.QuestionSuspendedEvent(
+                                "q-1", QuestionSuspensionReason.AUTO_REPORT_THRESHOLD,
+                                null, "system", "report-1", NOW.plusSeconds(10),
+                                3, 7, NOW.plusSeconds(10)),
+                        new QuestionEvent.QuestionReinstatedEvent(
+                                "q-1", "admin-1", null, NOW.plusSeconds(20)))
+                .when(new QuestionCommand.SuspendQuestionCommand(
+                        "q-1", QuestionSuspensionReason.AUTO_REPORT_THRESHOLD,
+                        null, "system", "report-1", NOW.plusSeconds(10),
+                        3, 7, NOW.plusSeconds(30)))
+                .expectNoEvents();
+    }
+
+    @Test
+    void reinstate_suspendedQuestion_appliesEvent() {
+        fixture.given(
+                        createdQuestion(),
+                        approvedQuestion(),
+                        new QuestionEvent.QuestionSuspendedEvent(
+                                "q-1", QuestionSuspensionReason.MANUAL,
+                                null, "admin-1", null, null, 0, 0, NOW.plusSeconds(10)))
+                .when(new QuestionCommand.ReinstateQuestionCommand(
+                        "q-1", "admin-1", null, NOW.plusSeconds(20)))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionReinstatedEvent.class,
+                        e -> "admin-1".equals(
+                                ((QuestionEvent.QuestionReinstatedEvent) e).requestedBy())));
+    }
+
+    @Test
+    void archive_thenRestore_appliesEvents() {
+        fixture.given(createdQuestion(), archivedQuestion())
+                .when(new QuestionCommand.RestoreQuestionCommand(
+                        "q-1", "admin-1", null, NOW.plusSeconds(20)))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionRestoredEvent.class,
+                        e -> "admin-1".equals(
+                                ((QuestionEvent.QuestionRestoredEvent) e).requestedBy())));
+    }
+
+    private QuestionEvent.QuestionCreatedEvent createdQuestion() {
+        return new QuestionEvent.QuestionCreatedEvent(
+                "q-1", "topic-1", frenchContents(), QuestionChoice.A,
+                null, "creator-1", NOW);
+    }
+
+    private QuestionEvent.QuestionApprovedEvent approvedQuestion() {
+        return new QuestionEvent.QuestionApprovedEvent(
+                "q-1", "topic-1", com.joutio.theme.domain.model.QuestionStatus.PENDING,
+                "moderator-1", NOW.plusSeconds(1));
+    }
+
+    private QuestionEvent.QuestionArchivedEvent archivedQuestion() {
+        return new QuestionEvent.QuestionArchivedEvent(
+                "q-1", "admin-1", null, NOW.plusSeconds(10));
+    }
+
+    private Map<Language, QuestionContent> frenchContents() {
+        return Map.of(Language.FR, new QuestionContent(Language.FR, "Capitale de la France ?", answers()));
+    }
+
+    private Map<Language, QuestionContent> englishOnlyContents() {
+        return Map.of(Language.EN,
+                new QuestionContent(Language.EN, "What is the capital of France?", answers()));
+    }
+
+    private Map<Language, QuestionContent> frenchAndEnglishContents() {
+        Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
+        contents.put(Language.FR, new QuestionContent(Language.FR, "Capitale de la France ?", answers()));
+        contents.put(Language.EN, new QuestionContent(Language.EN, "What is the capital of France?", answers()));
+        return contents;
+    }
+
+    private Map<QuestionChoice, String> answers() {
+        return Map.of(
+                QuestionChoice.A, "Paris",
+                QuestionChoice.B, "Lyon",
+                QuestionChoice.C, "Marseille",
+                QuestionChoice.D, "Toulouse");
+    }
+}

@@ -1,0 +1,1631 @@
+topic:
+  id: topic-culture-generale
+  names:
+    fr: "Culture générale"
+    en: "General Knowledge"
+  description: "Géographie, sciences, arts, sport et société : un mélange de questions variées pour tester votre culture générale sur tous les sujets."
+  category: GENERAL
+  imageUrl: wikipedia/general/Darton_&_Co._-_Dartons_pocket_globe_-_Whipple_Wh.0076.jpg
+  titles:
+    fr:
+      FER: "Curieux du dimanche"
+      BRONZE: "Rat de bibliothèque"
+      ARGENT: "Puits de science"
+      OR: "Cerveau d'élite"
+      PLATINE: "Encyclopédie vivante"
+      EMERAUDE: "Prix Nobel du quiz"
+      DIAMANT: "Trivial Pursuit ultime"
+    en:
+      FER: "Sunday Trivia Buff"
+      BRONZE: "Library Mouse"
+      ARGENT: "Knowledge Seeker"
+      OR: "Brainiac"
+      PLATINE: "Walking Encyclopedia"
+      EMERAUDE: "Quiz Nobel Laureate"
+      DIAMANT: "Trivial Pursuit Legend"
+questions:
+  - text: "Quelle mission spatiale a pris cette photo en 1972 ?"
+    imageUrl: wikipedia/general/The_Earth_seen_from_Apollo_17.jpg
+    answers:
+      A: "Apollo 11"
+      B: "Apollo 17"
+      C: "Apollo 13"
+      D: "Gemini 4"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which space mission took this photo in 1972?"
+        answers:
+          A: "Apollo 11"
+          B: "Apollo 17"
+          C: "Apollo 13"
+          D: "Gemini 4"
+    difficulty: EXPERT
+  - text: "Qui a peint ce portrait de femme exposé au musée du Louvre ?"
+    imageUrl: wikipedia/arts/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+    answers:
+      A: "Michel-Ange"
+      B: "Sandro Botticelli"
+      C: "Raphaël"
+      D: "Léonard de Vinci"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who painted this portrait of a woman exhibited at the Louvre Museum?"
+        answers:
+          A: "Michelangelo"
+          B: "Sandro Botticelli"
+          C: "Raphael"
+          D: "Leonardo da Vinci"
+    difficulty: EXPERT
+  - text: "Quel peintre est l'auteur de ce tableau, La Nuit étoilée ?"
+    imageUrl: wikipedia/arts/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+    answers:
+      A: "Claude Monet"
+      B: "Paul Gauguin"
+      C: "Paul Cézanne"
+      D: "Vincent van Gogh"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which painter created this painting, The Starry Night?"
+        answers:
+          A: "Claude Monet"
+          B: "Paul Gauguin"
+          C: "Paul Cézanne"
+          D: "Vincent van Gogh"
+    difficulty: EASY
+  - text: "Qui a réalisé La Grande Vague de Kanagawa ?"
+    imageUrl: wikipedia/general/The_Great_Wave_off_Kanagawa.jpg
+    answers:
+      A: "Hiroshige"
+      B: "Hokusai"
+      C: "Sharaku"
+      D: "Utamaro"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who created The Great Wave off Kanagawa?"
+        answers:
+          A: "Hiroshige"
+          B: "Hokusai"
+          C: "Sharaku"
+          D: "Utamaro"
+    difficulty: MEDIUM
+  - text: "Quelle planète est photographiée ici ?"
+    imageUrl: wikipedia/general/Saturn_during_Equinox.jpg
+    answers:
+      A: "Saturne"
+      B: "Uranus"
+      C: "Neptune"
+      D: "Jupiter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which planet is photographed here?"
+        answers:
+          A: "Saturn"
+          B: "Uranus"
+          C: "Neptune"
+          D: "Jupiter"
+    difficulty: HARD
+  - text: "Quel physicien a proposé en 1900 la quantification de l'énergie pour expliquer le rayonnement du corps noir ?"
+    answers:
+      A: "Max Planck"
+      B: "Albert Einstein"
+      C: "Niels Bohr"
+      D: "Werner Heisenberg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist proposed in 1900 the quantization of energy to explain black-body radiation?"
+        answers:
+          A: "Max Planck"
+          B: "Albert Einstein"
+          C: "Niels Bohr"
+          D: "Werner Heisenberg"
+    difficulty: HARD
+  - text: "En quelle année le traité de Rome instituant la Communauté économique européenne a-t-il été signé ?"
+    answers:
+      A: "1951"
+      B: "1962"
+      C: "1957"
+      D: "1948"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the Treaty of Rome establishing the European Economic Community signed?"
+        answers:
+          A: "1951"
+          B: "1962"
+          C: "1957"
+          D: "1948"
+    difficulty: EXPERT
+  - text: "Quel élément chimique a pour symbole 'W' ?"
+    answers:
+      A: "Titane"
+      B: "Tantale"
+      C: "Tungstène"
+      D: "Tellure"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chemical element has the symbol 'W'?"
+        answers:
+          A: "Titanium"
+          B: "Tantalum"
+          C: "Tungsten"
+          D: "Tellurium"
+    difficulty: HARD
+  - text: "Qui a peint 'Le Radeau de la Méduse' ?"
+    answers:
+      A: "Eugène Delacroix"
+      B: "Théodore Géricault"
+      C: "Jean-Auguste-Dominique Ingres"
+      D: "Antoine-Jean Gros"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who painted 'The Raft of the Medusa'?"
+        answers:
+          A: "Eugène Delacroix"
+          B: "Théodore Géricault"
+          C: "Jean-Auguste-Dominique Ingres"
+          D: "Antoine-Jean Gros"
+    difficulty: MEDIUM
+  - text: "Quel est le plus petit pays d'Amérique du Sud par sa superficie ?"
+    answers:
+      A: "Uruguay"
+      B: "Suriname"
+      C: "Guyana"
+      D: "Équateur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the smallest country in South America by area?"
+        answers:
+          A: "Uruguay"
+          B: "Suriname"
+          C: "Guyana"
+          D: "Ecuador"
+    difficulty: EXPERT
+  - text: "Quel organe produit l'insuline dans le corps humain ?"
+    answers:
+      A: "Le foie"
+      B: "Les reins"
+      C: "Le pancréas"
+      D: "La thyroïde"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which organ produces insulin in the human body?"
+        answers:
+          A: "The liver"
+          B: "The kidneys"
+          C: "The pancreas"
+          D: "The thyroid"
+    difficulty: MEDIUM
+  - text: "Quel fleuve traverse la ville de Vienne en Autriche ?"
+    answers:
+      A: "L'Elbe"
+      B: "Le Rhin"
+      C: "Le Danube"
+      D: "La Vltava"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which river runs through the city of Vienna in Austria?"
+        answers:
+          A: "The Elbe"
+          B: "The Rhine"
+          C: "The Danube"
+          D: "The Vltava"
+    difficulty: HARD
+  - text: "Qui a composé l'opéra 'La Flûte enchantée' ?"
+    answers:
+      A: "Ludwig van Beethoven"
+      B: "Wolfgang Amadeus Mozart"
+      C: "Joseph Haydn"
+      D: "Georg Friedrich Haendel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the opera 'The Magic Flute'?"
+        answers:
+          A: "Ludwig van Beethoven"
+          B: "Wolfgang Amadeus Mozart"
+          C: "Joseph Haydn"
+          D: "Georg Friedrich Handel"
+    difficulty: MEDIUM
+  - text: "Quel est le plus grand désert chaud du monde ?"
+    answers:
+      A: "Le désert de Gobi"
+      B: "Le désert du Kalahari"
+      C: "Le désert de Sonora"
+      D: "Le Sahara"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the largest hot desert in the world?"
+        answers:
+          A: "The Gobi Desert"
+          B: "The Kalahari Desert"
+          C: "The Sonoran Desert"
+          D: "The Sahara"
+    difficulty: MEDIUM
+  - text: "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?"
+    answers:
+      A: "1961"
+      B: "1965"
+      C: "1972"
+      D: "1969"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did man first walk on the Moon?"
+        answers:
+          A: "1961"
+          B: "1965"
+          C: "1972"
+          D: "1969"
+    difficulty: EASY
+  - text: "Quel scientifique a découvert le principe de la vaccination contre la rage ?"
+    answers:
+      A: "Edward Jenner"
+      B: "Alexander Fleming"
+      C: "Robert Koch"
+      D: "Louis Pasteur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist discovered the principle of vaccination against rabies?"
+        answers:
+          A: "Edward Jenner"
+          B: "Alexander Fleming"
+          C: "Robert Koch"
+          D: "Louis Pasteur"
+    difficulty: HARD
+  - text: "Quelle est la capitale de la Nouvelle-Zélande ?"
+    answers:
+      A: "Auckland"
+      B: "Christchurch"
+      C: "Wellington"
+      D: "Dunedin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the capital of New Zealand?"
+        answers:
+          A: "Auckland"
+          B: "Christchurch"
+          C: "Wellington"
+          D: "Dunedin"
+    difficulty: HARD
+  - text: "Quel est le plus long fleuve d'Asie ?"
+    answers:
+      A: "L'Ob"
+      B: "Le fleuve Jaune"
+      C: "Le Mékong"
+      D: "Le Yangtsé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the longest river in Asia?"
+        answers:
+          A: "The Ob"
+          B: "The Yellow River"
+          C: "The Mekong"
+          D: "The Yangtze"
+    difficulty: EXPERT
+  - text: "Qui a écrit 'Cent Ans de solitude' ?"
+    answers:
+      A: "Mario Vargas Llosa"
+      B: "Jorge Luis Borges"
+      C: "Gabriel García Márquez"
+      D: "Julio Cortázar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote 'One Hundred Years of Solitude'?"
+        answers:
+          A: "Mario Vargas Llosa"
+          B: "Jorge Luis Borges"
+          C: "Gabriel García Márquez"
+          D: "Julio Cortázar"
+    difficulty: MEDIUM
+  - text: "Quel est le plus petit os du corps humain ?"
+    answers:
+      A: "L'étrier"
+      B: "Le marteau"
+      C: "L'enclume"
+      D: "L'os hyoïde"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the smallest bone in the human body?"
+        answers:
+          A: "The stapes"
+          B: "The malleus"
+          C: "The incus"
+          D: "The hyoid bone"
+    difficulty: HARD
+  - text: "Quel pays a remporté la première Coupe du monde de football en 1930 ?"
+    answers:
+      A: "Uruguay"
+      B: "Argentine"
+      C: "Brésil"
+      D: "Italie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the first FIFA World Cup in 1930?"
+        answers:
+          A: "Uruguay"
+          B: "Argentina"
+          C: "Brazil"
+          D: "Italy"
+    difficulty: HARD
+  - text: "Quelle planète du système solaire possède la plus grande lune, Ganymède ?"
+    answers:
+      A: "Saturne"
+      B: "Neptune"
+      C: "Jupiter"
+      D: "Uranus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which planet in the solar system has the largest moon, Ganymede?"
+        answers:
+          A: "Saturn"
+          B: "Neptune"
+          C: "Jupiter"
+          D: "Uranus"
+    difficulty: HARD
+  - text: "Quel est le plus grand lac d'Afrique par sa superficie ?"
+    answers:
+      A: "Le lac Tanganyika"
+      B: "Le lac Malawi"
+      C: "Le lac Victoria"
+      D: "Le lac Tchad"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the largest lake in Africa by area?"
+        answers:
+          A: "Lake Tanganyika"
+          B: "Lake Malawi"
+          C: "Lake Victoria"
+          D: "Lake Chad"
+    difficulty: EXPERT
+  - text: "Qui a réalisé le film 'Citizen Kane' en 1941 ?"
+    answers:
+      A: "Alfred Hitchcock"
+      B: "Frank Capra"
+      C: "John Ford"
+      D: "Orson Welles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who directed the film 'Citizen Kane' in 1941?"
+        answers:
+          A: "Alfred Hitchcock"
+          B: "Frank Capra"
+          C: "John Ford"
+          D: "Orson Welles"
+    difficulty: HARD
+  - text: "Quel élément chimique a pour symbole 'Au' ?"
+    answers:
+      A: "Argent"
+      B: "Aluminium"
+      C: "Or"
+      D: "Actinium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chemical element has the symbol 'Au'?"
+        answers:
+          A: "Silver"
+          B: "Aluminium"
+          C: "Gold"
+          D: "Actinium"
+    difficulty: EASY
+  - text: "Quel mathématicien a prouvé le dernier théorème de Fermat en 1994 ?"
+    answers:
+      A: "Andrew Wiles"
+      B: "Grigori Perelman"
+      C: "Terence Tao"
+      D: "Pierre Deligne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mathematician proved Fermat's Last Theorem in 1994?"
+        answers:
+          A: "Andrew Wiles"
+          B: "Grigori Perelman"
+          C: "Terence Tao"
+          D: "Pierre Deligne"
+    difficulty: EXPERT
+  - text: "Quel traité a établi la Communauté européenne du charbon et de l'acier en 1951 ?"
+    answers:
+      A: "Traité de Rome"
+      B: "Traité de Lisbonne"
+      C: "Traité de Maastricht"
+      D: "Traité de Paris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which treaty established the European Coal and Steel Community in 1951?"
+        answers:
+          A: "Treaty of Rome"
+          B: "Treaty of Lisbon"
+          C: "Maastricht Treaty"
+          D: "Treaty of Paris"
+    difficulty: EXPERT
+  - text: "Quel est le seul mammifère capable de voler activement ?"
+    answers:
+      A: "Écureuil volant"
+      B: "Chauve-souris"
+      C: "Galéopithèque"
+      D: "Colugo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the only mammal capable of active flight?"
+        answers:
+          A: "Flying squirrel"
+          B: "Bat"
+          C: "Colugo"
+          D: "Colugo"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté la Coupe du monde de football 2014 ?"
+    answers:
+      A: "Argentine"
+      B: "France"
+      C: "Brésil"
+      D: "Allemagne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won the 2014 FIFA World Cup?"
+        answers:
+          A: "Argentina"
+          B: "France"
+          C: "Brazil"
+          D: "Germany"
+    difficulty: MEDIUM
+  - text: "Qui a composé l'opéra 'Wozzeck' ?"
+    answers:
+      A: "Arnold Schönberg"
+      B: "Alban Berg"
+      C: "Anton Webern"
+      D: "Richard Strauss"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the opera 'Wozzeck'?"
+        answers:
+          A: "Arnold Schoenberg"
+          B: "Alban Berg"
+          C: "Anton Webern"
+          D: "Richard Strauss"
+    difficulty: EXPERT
+  - text: "Quel élément chimique a pour symbole 'Sn' ?"
+    answers:
+      A: "Soufre"
+      B: "Étain"
+      C: "Sélénium"
+      D: "Silicium"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which chemical element has the symbol 'Sn'?"
+        answers:
+          A: "Sulfur"
+          B: "Tin"
+          C: "Selenium"
+          D: "Silicon"
+    difficulty: HARD
+  - text: "En quelle année la construction du mur de Berlin a-t-elle commencé ?"
+    answers:
+      A: "1958"
+      B: "1963"
+      C: "1961"
+      D: "1965"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the construction of the Berlin Wall begin?"
+        answers:
+          A: "1958"
+          B: "1963"
+          C: "1961"
+          D: "1965"
+    difficulty: HARD
+  - text: "Quel est le plus long fleuve d'Amérique du Sud ?"
+    answers:
+      A: "Amazone"
+      B: "Paraná"
+      C: "Orénoque"
+      D: "Uruguay"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the longest river in South America?"
+        answers:
+          A: "Amazon"
+          B: "Paraná"
+          C: "Orinoco"
+          D: "Uruguay"
+    difficulty: HARD
+  - text: "Quel peintre a réalisé 'Guernica' ?"
+    answers:
+      A: "Joan Miró"
+      B: "Salvador Dalí"
+      C: "Georges Braque"
+      D: "Pablo Picasso"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which painter created 'Guernica'?"
+        answers:
+          A: "Joan Miró"
+          B: "Salvador Dalí"
+          C: "Georges Braque"
+          D: "Pablo Picasso"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a découvert la pénicilline en 1928 ?"
+    answers:
+      A: "Louis Pasteur"
+      B: "Alexander Fleming"
+      C: "Robert Koch"
+      D: "Joseph Lister"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist discovered penicillin in 1928?"
+        answers:
+          A: "Louis Pasteur"
+          B: "Alexander Fleming"
+          C: "Robert Koch"
+          D: "Joseph Lister"
+    difficulty: MEDIUM
+  - text: "Quelle est la capitale du Canada ?"
+    answers:
+      A: "Toronto"
+      B: "Ottawa"
+      C: "Montréal"
+      D: "Vancouver"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the capital of Canada?"
+        answers:
+          A: "Toronto"
+          B: "Ottawa"
+          C: "Montreal"
+          D: "Vancouver"
+    difficulty: HARD
+  - text: "Quel philosophe a écrit 'Ainsi parlait Zarathoustra' ?"
+    answers:
+      A: "Friedrich Nietzsche"
+      B: "Arthur Schopenhauer"
+      C: "Emmanuel Kant"
+      D: "Georg Wilhelm Friedrich Hegel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which philosopher wrote 'Thus Spoke Zarathustra'?"
+        answers:
+          A: "Friedrich Nietzsche"
+          B: "Arthur Schopenhauer"
+          C: "Immanuel Kant"
+          D: "Georg Wilhelm Friedrich Hegel"
+    difficulty: HARD
+  - text: "Quel pays a été le premier à accorder le droit de vote aux femmes en 1893 ?"
+    answers:
+      A: "Nouvelle-Zélande"
+      B: "Australie"
+      C: "Finlande"
+      D: "Norvège"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country was the first to grant women the right to vote in 1893?"
+        answers:
+          A: "New Zealand"
+          B: "Australia"
+          C: "Finland"
+          D: "Norway"
+    difficulty: EXPERT
+  - text: "Quel est le plus grand lac d'Amérique du Sud ?"
+    answers:
+      A: "Lac Maracaibo"
+      B: "Lac Titicaca"
+      C: "Lac Buenos Aires"
+      D: "Lac Nahuel Huapi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the largest lake in South America?"
+        answers:
+          A: "Lake Maracaibo"
+          B: "Lake Titicaca"
+          C: "Lake Buenos Aires"
+          D: "Lake Nahuel Huapi"
+    difficulty: EXPERT
+  - text: "Qui a réalisé le film '2001 : L'Odyssée de l'espace' ?"
+    answers:
+      A: "Stanley Kubrick"
+      B: "Ridley Scott"
+      C: "Steven Spielberg"
+      D: "George Lucas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed the film '2001: A Space Odyssey'?"
+        answers:
+          A: "Stanley Kubrick"
+          B: "Ridley Scott"
+          C: "Steven Spielberg"
+          D: "George Lucas"
+    difficulty: HARD
+  - text: "Quel élément chimique a pour symbole 'Hg' ?"
+    answers:
+      A: "Magnésium"
+      B: "Mercure"
+      C: "Manganèse"
+      D: "Molybdène"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which chemical element has the symbol 'Hg'?"
+        answers:
+          A: "Magnesium"
+          B: "Mercury"
+          C: "Manganese"
+          D: "Molybdenum"
+    difficulty: HARD
+  - text: "En quelle année l'ONU a-t-elle été fondée ?"
+    answers:
+      A: "1943"
+      B: "1950"
+      C: "1947"
+      D: "1945"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the UN founded?"
+        answers:
+          A: "1943"
+          B: "1950"
+          C: "1947"
+          D: "1945"
+    difficulty: MEDIUM
+  - text: "Quel est le plus haut sommet d'Afrique ?"
+    answers:
+      A: "Atlas"
+      B: "Mont Kenya"
+      C: "Ruwenzori"
+      D: "Kilimandjaro"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the highest peak in Africa?"
+        answers:
+          A: "Atlas"
+          B: "Mount Kenya"
+          C: "Ruwenzori"
+          D: "Kilimanjaro"
+    difficulty: HARD
+  - text: "Qui a écrit 'Le Rouge et le Noir' ?"
+    answers:
+      A: "Honoré de Balzac"
+      B: "Gustave Flaubert"
+      C: "Stendhal"
+      D: "Émile Zola"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote 'The Red and the Black'?"
+        answers:
+          A: "Honoré de Balzac"
+          B: "Gustave Flaubert"
+          C: "Stendhal"
+          D: "Émile Zola"
+    difficulty: HARD
+  - text: "Quel traité de 1648 a mis fin à la guerre de Trente Ans ?"
+    answers:
+      A: "Traité de Tordesillas"
+      B: "Traité de Vienne"
+      C: "Traité d'Utrecht"
+      D: "Traité de Westphalie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1648 treaty ended the Thirty Years' War?"
+        answers:
+          A: "Treaty of Tordesillas"
+          B: "Treaty of Vienna"
+          C: "Treaty of Utrecht"
+          D: "Treaty of Westphalia"
+    difficulty: EXPERT
+  - text: "Quel est le seul métal qui est liquide à température ambiante et pression standard ?"
+    answers:
+      A: "Le gallium"
+      B: "Le césium"
+      C: "Le mercure"
+      D: "Le plomb"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the only metal that is liquid at room temperature and standard pressure?"
+        answers:
+          A: "Gallium"
+          B: "Cesium"
+          C: "Mercury"
+          D: "Lead"
+    difficulty: HARD
+  - text: "Quel est le seul pays d'Amérique du Sud à avoir le français comme langue officielle ?"
+    answers:
+      A: "Le Suriname"
+      B: "Le Guyana"
+      C: "Le Brésil"
+      D: "La Guyane française"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the only South American country to have French as an official language?"
+        answers:
+          A: "Suriname"
+          B: "Guyana"
+          C: "Brazil"
+          D: "French Guiana"
+    difficulty: EXPERT
+  - text: "Quel écrivain a refusé le prix Nobel de littérature en 1964 ?"
+    answers:
+      A: "Jean-Paul Sartre"
+      B: "Albert Camus"
+      C: "André Gide"
+      D: "François Mauriac"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which writer declined the Nobel Prize in Literature in 1964?"
+        answers:
+          A: "Jean-Paul Sartre"
+          B: "Albert Camus"
+          C: "André Gide"
+          D: "François Mauriac"
+    difficulty: EXPERT
+  - text: "Quel est le plus grand désert froid du monde ?"
+    answers:
+      A: "L'Antarctique"
+      B: "Le désert de Gobi"
+      C: "Le désert du Kalahari"
+      D: "Le désert de Patagonie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the largest cold desert in the world?"
+        answers:
+          A: "Antarctica"
+          B: "The Gobi Desert"
+          C: "The Kalahari Desert"
+          D: "The Patagonian Desert"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit l'opéra 'Wozzeck' ?"
+    answers:
+      A: "Alban Berg"
+      B: "Arnold Schönberg"
+      C: "Anton Webern"
+      D: "Richard Strauss"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the opera 'Wozzeck'?"
+        answers:
+          A: "Alban Berg"
+          B: "Arnold Schönberg"
+          C: "Anton Webern"
+          D: "Richard Strauss"
+    difficulty: EXPERT
+  - text: "Quel scientifique a découvert le boson de Higgs en 2012 ?"
+    answers:
+      A: "Le CERN"
+      B: "François Englert"
+      C: "Peter Higgs"
+      D: "Stephen Hawking"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scientist discovered the Higgs boson in 2012?"
+        answers:
+          A: "CERN"
+          B: "François Englert"
+          C: "Peter Higgs"
+          D: "Stephen Hawking"
+    difficulty: HARD
+  - text: "Quel est le plus grand pays du monde par sa population en 2023 ?"
+    answers:
+      A: "La Chine"
+      B: "Les États-Unis"
+      C: "L'Inde"
+      D: "L'Indonésie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the largest country in the world by population in 2023?"
+        answers:
+          A: "China"
+          B: "The United States"
+          C: "India"
+          D: "Indonesia"
+    difficulty: MEDIUM
+  - text: "Quel peintre a réalisé 'Le Baiser' exposé à Vienne ?"
+    answers:
+      A: "Egon Schiele"
+      B: "Gustav Klimt"
+      C: "Oskar Kokoschka"
+      D: "Edvard Munch"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which painter created 'The Kiss' exhibited in Vienna?"
+        answers:
+          A: "Egon Schiele"
+          B: "Gustav Klimt"
+          C: "Oskar Kokoschka"
+          D: "Edvard Munch"
+    difficulty: HARD
+  - text: "Quel élément chimique a pour symbole 'Pb' ?"
+    answers:
+      A: "Le plomb"
+      B: "Le platine"
+      C: "Le palladium"
+      D: "Le phosphore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which chemical element has the symbol 'Pb'?"
+        answers:
+          A: "Lead"
+          B: "Platinum"
+          C: "Palladium"
+          D: "Phosphorus"
+    difficulty: MEDIUM
+  - text: "Quel est le seul mammifère venimeux au monde ?"
+    answers:
+      A: "La musaraigne"
+      B: "L'ornithorynque"
+      C: "Le loris lent"
+      D: "Le hérisson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the only venomous mammal in the world?"
+        answers:
+          A: "The shrew"
+          B: "The platypus"
+          C: "The slow loris"
+          D: "The hedgehog"
+    difficulty: EXPERT
+  - text: "Quel philosophe a écrit 'L'Être et le Néant' ?"
+    answers:
+      A: "Maurice Merleau-Ponty"
+      B: "Albert Camus"
+      C: "Simone de Beauvoir"
+      D: "Jean-Paul Sartre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which philosopher wrote 'Being and Nothingness'?"
+        answers:
+          A: "Maurice Merleau-Ponty"
+          B: "Albert Camus"
+          C: "Simone de Beauvoir"
+          D: "Jean-Paul Sartre"
+    difficulty: HARD
+  - text: "Quel est le plus long fleuve d'Europe ?"
+    answers:
+      A: "Le Danube"
+      B: "La Loire"
+      C: "Le Rhin"
+      D: "La Volga"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the longest river in Europe?"
+        answers:
+          A: "The Danube"
+          B: "The Loire"
+          C: "The Rhine"
+          D: "The Volga"
+    difficulty: HARD
+  - text: "Quel traité a établi la Communauté économique européenne en 1957 ?"
+    answers:
+      A: "Traité de Paris"
+      B: "Traité de Maastricht"
+      C: "Traité de Lisbonne"
+      D: "Traité de Rome"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which treaty established the European Economic Community in 1957?"
+        answers:
+          A: "Treaty of Paris"
+          B: "Maastricht Treaty"
+          C: "Lisbon Treaty"
+          D: "Treaty of Rome"
+    difficulty: EXPERT
+  - text: "Quel mathématicien a prouvé le théorème de Fermat en 1994 ?"
+    answers:
+      A: "Carl Friedrich Gauss"
+      B: "Pierre de Fermat"
+      C: "Leonhard Euler"
+      D: "Andrew Wiles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mathematician proved Fermat's theorem in 1994?"
+        answers:
+          A: "Carl Friedrich Gauss"
+          B: "Pierre de Fermat"
+          C: "Leonhard Euler"
+          D: "Andrew Wiles"
+    difficulty: HARD
+  - text: "Quel est le plus grand archipel du monde ?"
+    answers:
+      A: "L'archipel des Philippines"
+      B: "L'archipel indonésien"
+      C: "L'archipel du Japon"
+      D: "L'archipel du Canada"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the largest archipelago in the world?"
+        answers:
+          A: "The Philippine archipelago"
+          B: "The Indonesian archipelago"
+          C: "The Japanese archipelago"
+          D: "The Canadian archipelago"
+    difficulty: EXPERT
+  - text: "Quel jeu de société a été interdit en Union soviétique en 1936 ?"
+    answers:
+      A: "Le Monopoly"
+      B: "Les échecs"
+      C: "Le Scrabble"
+      D: "Le Risk"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which board game was banned in the Soviet Union in 1936?"
+        answers:
+          A: "Monopoly"
+          B: "Chess"
+          C: "Scrabble"
+          D: "Risk"
+    difficulty: EXPERT
+  - text: "Qui a peint 'Les Demoiselles d'Avignon' ?"
+    answers:
+      A: "Pablo Picasso"
+      B: "Georges Braque"
+      C: "Henri Matisse"
+      D: "Salvador Dalí"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who painted 'Les Demoiselles d'Avignon'?"
+        answers:
+          A: "Pablo Picasso"
+          B: "Georges Braque"
+          C: "Henri Matisse"
+          D: "Salvador Dalí"
+    difficulty: MEDIUM
+  - text: "Quel roi de France a régné le plus longtemps ?"
+    answers:
+      A: "Louis XV"
+      B: "Louis XIV"
+      C: "François Ier"
+      D: "Henri IV"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which King of France reigned the longest?"
+        answers:
+          A: "Louis XV"
+          B: "Louis XIV"
+          C: "Francis I"
+          D: "Henry IV"
+    difficulty: EXPERT
+  - text: "Quel physicien a proposé le principe d'incertitude en 1927 ?"
+    answers:
+      A: "Werner Heisenberg"
+      B: "Niels Bohr"
+      C: "Max Planck"
+      D: "Albert Einstein"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist proposed the uncertainty principle in 1927?"
+        answers:
+          A: "Werner Heisenberg"
+          B: "Niels Bohr"
+          C: "Max Planck"
+          D: "Albert Einstein"
+    difficulty: HARD
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 2020 ?"
+    answers:
+      A: "Chine"
+      B: "Japon"
+      C: "Grande-Bretagne"
+      D: "États-Unis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 2020 Summer Olympics?"
+        answers:
+          A: "China"
+          B: "Japan"
+          C: "Great Britain"
+          D: "United States"
+    difficulty: HARD
+  - text: "En quelle année le Débarquement de Normandie a-t-il eu lieu ?"
+    answers:
+      A: "1943"
+      B: "1945"
+      C: "1944"
+      D: "1942"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Normandy landings take place?"
+        answers:
+          A: "1943"
+          B: "1945"
+          C: "1944"
+          D: "1942"
+    difficulty: EASY
+  - text: "Quelle est la seule mer sans côtes ?"
+    answers:
+      A: "Mer de Tasman"
+      B: "Mer de Béring"
+      C: "Mer de Corail"
+      D: "Mer de Sargasses"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the only sea without coasts?"
+        answers:
+          A: "Tasman Sea"
+          B: "Bering Sea"
+          C: "Coral Sea"
+          D: "Sargasso Sea"
+    difficulty: EXPERT
+  - text: "Quel scientifique a découvert la radioactivité en 1896 ?"
+    answers:
+      A: "Marie Curie"
+      B: "Pierre Curie"
+      C: "Henri Becquerel"
+      D: "Ernest Rutherford"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist discovered radioactivity in 1896?"
+        answers:
+          A: "Marie Curie"
+          B: "Pierre Curie"
+          C: "Henri Becquerel"
+          D: "Ernest Rutherford"
+    difficulty: HARD
+  - text: "Quel est le plus petit État souverain du monde par sa population ?"
+    answers:
+      A: "Monaco"
+      B: "Nauru"
+      C: "Tuvalu"
+      D: "Saint-Marin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the world's smallest sovereign state by population?"
+        answers:
+          A: "Monaco"
+          B: "Nauru"
+          C: "Tuvalu"
+          D: "San Marino"
+    difficulty: HARD
+  - text: "Qui a composé la 'Symphonie n° 9' dite 'du Nouveau Monde' ?"
+    answers:
+      A: "Antonín Dvořák"
+      B: "Johannes Brahms"
+      C: "Gustav Mahler"
+      D: "Piotr Ilitch Tchaïkovski"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 9' known as the 'New World'?"
+        answers:
+          A: "Antonín Dvořák"
+          B: "Johannes Brahms"
+          C: "Gustav Mahler"
+          D: "Pyotr Ilyich Tchaikovsky"
+    difficulty: EXPERT
+  - text: "Quel pays a été le premier à légaliser le mariage homosexuel en 2001 ?"
+    answers:
+      A: "Belgique"
+      B: "Canada"
+      C: "Pays-Bas"
+      D: "Espagne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country was the first to legalize same-sex marriage in 2001?"
+        answers:
+          A: "Belgium"
+          B: "Canada"
+          C: "Netherlands"
+          D: "Spain"
+    difficulty: EXPERT
+  - text: "Quel est le plus grand volcan actif du monde par son volume ?"
+    answers:
+      A: "Mauna Loa"
+      B: "Mont Etna"
+      C: "Kilauea"
+      D: "Piton de la Fournaise"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the world's largest active volcano by volume?"
+        answers:
+          A: "Mauna Loa"
+          B: "Mount Etna"
+          C: "Kilauea"
+          D: "Piton de la Fournaise"
+    difficulty: EXPERT
+  - text: "Qui a réalisé le film 'Le Parrain' en 1972 ?"
+    answers:
+      A: "Francis Ford Coppola"
+      B: "Martin Scorsese"
+      C: "Steven Spielberg"
+      D: "Brian De Palma"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed the film 'The Godfather' in 1972?"
+        answers:
+          A: "Francis Ford Coppola"
+          B: "Martin Scorsese"
+          C: "Steven Spielberg"
+          D: "Brian De Palma"
+    difficulty: MEDIUM
+  - text: "Quel est le plus long fleuve d'Afrique ?"
+    answers:
+      A: "Congo"
+      B: "Nil"
+      C: "Niger"
+      D: "Zambèze"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the longest river in Africa?"
+        answers:
+          A: "Congo"
+          B: "Nile"
+          C: "Niger"
+          D: "Zambezi"
+    difficulty: HARD
+  - text: "Quel mathématicien a inventé la théorie des ensembles ?"
+    answers:
+      A: "Georg Cantor"
+      B: "David Hilbert"
+      C: "Kurt Gödel"
+      D: "Bertrand Russell"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mathematician invented set theory?"
+        answers:
+          A: "Georg Cantor"
+          B: "David Hilbert"
+          C: "Kurt Gödel"
+          D: "Bertrand Russell"
+    difficulty: EXPERT
+  - text: "Quel métal est le meilleur conducteur d'électricité ?"
+    answers:
+      A: "Argent"
+      B: "Or"
+      C: "Cuivre"
+      D: "Aluminium"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which metal is the best conductor of electricity?"
+        answers:
+          A: "Silver"
+          B: "Gold"
+          C: "Copper"
+          D: "Aluminium"
+    difficulty: HARD
+  - text: "Quel est le seul métal qui est liquide à température ambiante et pression standard, en plus du mercure ?"
+    answers:
+      A: "Rubidium"
+      B: "Césium"
+      C: "Brome"
+      D: "Gallium"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the only metal that is liquid at room temperature and standard pressure, besides mercury?"
+        answers:
+          A: "Rubidium"
+          B: "Caesium"
+          C: "Bromine"
+          D: "Gallium"
+    difficulty: EXPERT
+  - text: "En quelle année le mur de Berlin est-il tombé ?"
+    answers:
+      A: "1987"
+      B: "1991"
+      C: "1989"
+      D: "1985"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Berlin Wall fall?"
+        answers:
+          A: "1987"
+          B: "1991"
+          C: "1989"
+          D: "1985"
+    difficulty: EASY
+  - text: "Qui a composé la 'Symphonie n° 5' en ut mineur ?"
+    answers:
+      A: "Mozart"
+      B: "Tchaïkovski"
+      C: "Brahms"
+      D: "Beethoven"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 5' in C minor?"
+        answers:
+          A: "Mozart"
+          B: "Tchaikovsky"
+          C: "Brahms"
+          D: "Beethoven"
+    difficulty: MEDIUM
+  - text: "Quel est le plus haut sommet d'Amérique du Sud ?"
+    answers:
+      A: "Mont Blanc"
+      B: "Aconcagua"
+      C: "Kilimandjaro"
+      D: "Denali"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the highest peak in South America?"
+        answers:
+          A: "Mont Blanc"
+          B: "Aconcagua"
+          C: "Kilimanjaro"
+          D: "Denali"
+    difficulty: HARD
+  - text: "Quel est le plus grand lac d'Afrique ?"
+    answers:
+      A: "Lac Victoria"
+      B: "Lac Tchad"
+      C: "Lac Tanganyika"
+      D: "Lac Malawi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the largest lake in Africa?"
+        answers:
+          A: "Lake Victoria"
+          B: "Lake Chad"
+          C: "Lake Tanganyika"
+          D: "Lake Malawi"
+    difficulty: HARD
+  - text: "Qui a écrit 'L'Origine des espèces' ?"
+    answers:
+      A: "Gregor Mendel"
+      B: "Charles Darwin"
+      C: "Alfred Russel Wallace"
+      D: "Jean-Baptiste Lamarck"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote 'On the Origin of Species'?"
+        answers:
+          A: "Gregor Mendel"
+          B: "Charles Darwin"
+          C: "Alfred Russel Wallace"
+          D: "Jean-Baptiste Lamarck"
+    difficulty: EASY
+  - text: "Quel est le plus grand pays du monde par sa superficie ?"
+    answers:
+      A: "Canada"
+      B: "Chine"
+      C: "États-Unis"
+      D: "Russie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the largest country in the world by area?"
+        answers:
+          A: "Canada"
+          B: "China"
+          C: "United States"
+          D: "Russia"
+    difficulty: EASY
+  - text: "Quel est le plus petit État souverain du monde par sa superficie ?"
+    answers:
+      A: "Monaco"
+      B: "Nauru"
+      C: "Vatican"
+      D: "Saint-Marin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the smallest sovereign state in the world by area?"
+        answers:
+          A: "Monaco"
+          B: "Nauru"
+          C: "Vatican"
+          D: "San Marino"
+    difficulty: EASY
+  - text: "Quel est le plus long fleuve d'Amérique du Nord ?"
+    answers:
+      A: "Mississippi"
+      B: "Colorado"
+      C: "Missouri"
+      D: "Rio Grande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the longest river in North America?"
+        answers:
+          A: "Mississippi"
+          B: "Colorado"
+          C: "Missouri"
+          D: "Rio Grande"
+    difficulty: HARD
+  - text: "Qui a réalisé le film 'Psychose' en 1960 ?"
+    answers:
+      A: "Stanley Kubrick"
+      B: "Alfred Hitchcock"
+      C: "Orson Welles"
+      D: "Fritz Lang"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who directed the film 'Psycho' in 1960?"
+        answers:
+          A: "Stanley Kubrick"
+          B: "Alfred Hitchcock"
+          C: "Orson Welles"
+          D: "Fritz Lang"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté la Coupe du monde de football 2010 ?"
+    answers:
+      A: "Allemagne"
+      B: "Pays-Bas"
+      C: "Espagne"
+      D: "Uruguay"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the 2010 FIFA World Cup?"
+        answers:
+          A: "Germany"
+          B: "Netherlands"
+          C: "Spain"
+          D: "Uruguay"
+    difficulty: MEDIUM
+  - text: "Qui a découvert la pénicilline en 1928 ?"
+    answers:
+      A: "Louis Pasteur"
+      B: "Robert Koch"
+      C: "Joseph Lister"
+      D: "Alexander Fleming"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who discovered penicillin in 1928?"
+        answers:
+          A: "Louis Pasteur"
+          B: "Robert Koch"
+          C: "Joseph Lister"
+          D: "Alexander Fleming"
+    difficulty: MEDIUM
+  - text: "En quelle année la Première Guerre mondiale a-t-elle débuté ?"
+    answers:
+      A: "1912"
+      B: "1914"
+      C: "1913"
+      D: "1915"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did World War I begin?"
+        answers:
+          A: "1912"
+          B: "1914"
+          C: "1913"
+          D: "1915"
+    difficulty: EASY
+  - text: "Quel scientifique a formulé les lois du mouvement et la loi de la gravitation universelle ?"
+    answers:
+      A: "Albert Einstein"
+      B: "Galilée"
+      C: "Isaac Newton"
+      D: "Nicolas Copernic"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist formulated the laws of motion and the law of universal gravitation?"
+        answers:
+          A: "Albert Einstein"
+          B: "Galileo"
+          C: "Isaac Newton"
+          D: "Nicolaus Copernicus"
+    difficulty: EASY
+  - text: "Quel artiste a peint 'Guernica' ?"
+    answers:
+      A: "Salvador Dalí"
+      B: "Pablo Picasso"
+      C: "Joan Miró"
+      D: "Georges Braque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which artist painted 'Guernica'?"
+        answers:
+          A: "Salvador Dalí"
+          B: "Pablo Picasso"
+          C: "Joan Miró"
+          D: "Georges Braque"
+    difficulty: MEDIUM
+  - text: "Quel est le plus grand volcan du système solaire ?"
+    answers:
+      A: "Olympus Mons"
+      B: "Mont Olympe"
+      C: "Mauna Loa"
+      D: "Mont Erebus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the largest volcano in the solar system?"
+        answers:
+          A: "Olympus Mons"
+          B: "Mount Olympus"
+          C: "Mauna Loa"
+          D: "Mount Erebus"
+    difficulty: EXPERT
+  - text: "Quel économiste a reçu le prix de la Banque de Suède en sciences économiques en 1976 ?"
+    answers:
+      A: "Paul Samuelson"
+      B: "Milton Friedman"
+      C: "Friedrich Hayek"
+      D: "John Maynard Keynes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which economist received the Sveriges Riksbank Prize in Economic Sciences in 1976?"
+        answers:
+          A: "Paul Samuelson"
+          B: "Milton Friedman"
+          C: "Friedrich Hayek"
+          D: "John Maynard Keynes"
+    difficulty: EXPERT
+  - text: "Quel est le seul État américain à ne pas avoir de comtés ?"
+    answers:
+      A: "Hawaï"
+      B: "Delaware"
+      C: "Alaska"
+      D: "Rhode Island"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only U.S. state without counties?"
+        answers:
+          A: "Hawaii"
+          B: "Delaware"
+          C: "Alaska"
+          D: "Rhode Island"
+    difficulty: EXPERT
+  - text: "Quel film a remporté la Palme d'or au Festival de Cannes en 2019 ?"
+    answers:
+      A: "Une affaire de famille"
+      B: "Douleur et Gloire"
+      C: "Parasite"
+      D: "Le Livre de la jungle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which film won the Palme d'Or at the Cannes Film Festival in 2019?"
+        answers:
+          A: "A Family Affair"
+          B: "Pain and Glory"
+          C: "Parasite"
+          D: "The Jungle Book"
+    difficulty: EXPERT
+  - text: "Quel traité a mis fin à la guerre de Trente Ans en 1648 ?"
+    answers:
+      A: "Traité de Vienne"
+      B: "Traité de Westphalie"
+      C: "Traité d'Utrecht"
+      D: "Traité de Versailles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which treaty ended the Thirty Years' War in 1648?"
+        answers:
+          A: "Treaty of Vienna"
+          B: "Treaty of Westphalia"
+          C: "Treaty of Utrecht"
+          D: "Treaty of Versailles"
+    difficulty: EXPERT
+  - text: "Quel est le plus long fleuve d'Australie ?"
+    answers:
+      A: "Fleuve Lachlan"
+      B: "Fleuve Darling"
+      C: "Fleuve Murrumbidgee"
+      D: "Fleuve Murray"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the longest river in Australia?"
+        answers:
+          A: "Lachlan River"
+          B: "Darling River"
+          C: "Murrumbidgee River"
+          D: "Murray River"
+    difficulty: EXPERT
+  - text: "Qui a composé l'opéra 'Wozzeck' créé en 1925 ?"
+    answers:
+      A: "Alban Berg"
+      B: "Arnold Schönberg"
+      C: "Anton Webern"
+      D: "Paul Hindemith"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the opera 'Wozzeck', premiered in 1925?"
+        answers:
+          A: "Alban Berg"
+          B: "Arnold Schönberg"
+          C: "Anton Webern"
+          D: "Paul Hindemith"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté la première Coupe du monde de rugby en 1987 ?"
+    answers:
+      A: "Afrique du Sud"
+      B: "Australie"
+      C: "Nouvelle-Zélande"
+      D: "France"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the first Rugby World Cup in 1987?"
+        answers:
+          A: "South Africa"
+          B: "Australia"
+          C: "New Zealand"
+          D: "France"
+    difficulty: EXPERT
+  - text: "Quel pays possède le plus grand nombre de fuseaux horaires ?"
+    answers:
+      A: "La Russie"
+      B: "La France"
+      C: "Les États-Unis"
+      D: "La Chine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country has the most time zones?"
+        answers:
+          A: "Russia"
+          B: "France"
+          C: "United States"
+          D: "China"
+    difficulty: EXPERT

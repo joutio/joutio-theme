@@ -1,0 +1,1653 @@
+topic:
+  id: topic-jeux-video
+  names:
+    fr: "Jeux vidéo"
+    en: "Video Games"
+  description: "Consoles mythiques, bornes d'arcade, créateurs et personnages cultes : de Pong à la Nintendo Switch, retracez l'histoire du jeu vidéo."
+  category: GAMES
+  titles:
+    fr:
+      FER: "Joueur de Pong"
+      BRONZE: "Bidouilleur de cartouche"
+      ARGENT: "Pilote de borne d'arcade"
+      OR: "Chasseur de high score"
+      PLATINE: "Speedrunner émérite"
+      EMERAUDE: "Légende du game design"
+      DIAMANT: "L'Élu de la Triforce"
+    en:
+      FER: "Pong Button Masher"
+      BRONZE: "Cartridge Blower"
+      ARGENT: "Arcade Cabinet Pilot"
+      OR: "High Score Hunter"
+      PLATINE: "Speedrun Virtuoso"
+      EMERAUDE: "Game Design Legend"
+      DIAMANT: "The Chosen of the Triforce"
+  imageUrl: wikipedia/games/NES-Console-Set.jpg
+questions:
+  - text: "En quelle année est sortie la première PlayStation au Japon ?"
+    answers:
+      A: "1994"
+      B: "1995"
+      C: "1993"
+      D: "1996"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the first PlayStation released in Japan?"
+        answers:
+          A: "1994"
+          B: "1995"
+          C: "1993"
+          D: "1996"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du personnage principal de la série Metroid ?"
+    answers:
+      A: "Master Chief"
+      B: "Samus Aran"
+      C: "Alucard"
+      D: "Dante"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the main character in the Metroid series?"
+        answers:
+          A: "Master Chief"
+          B: "Samus Aran"
+          C: "Alucard"
+          D: "Dante"
+    difficulty: MEDIUM
+  - text: "Quelle console Nintendo de 2001 voit-on ici ?"
+    imageUrl: wikipedia/games/GameCube-Set.jpg
+    answers:
+      A: "La Nintendo 64"
+      B: "La GameCube"
+      C: "La Xbox"
+      D: "La Wii"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 2001 Nintendo console is shown here?"
+        answers:
+          A: "The Nintendo 64"
+          B: "The GameCube"
+          C: "The Xbox"
+          D: "The Wii"
+    difficulty: EASY
+  - text: "Quelle borne d'arcade de 1980 voit-on ici ?"
+    imageUrl: wikipedia/games/Pac-Man_arcade_machine,_De_Notaris_Schaijk.jpg
+    answers:
+      A: "Space Invaders"
+      B: "Donkey Kong"
+      C: "Galaga"
+      D: "Pac-Man"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1980 arcade cabinet is shown here?"
+        answers:
+          A: "Space Invaders"
+          B: "Donkey Kong"
+          C: "Galaga"
+          D: "Pac-Man"
+    difficulty: HARD
+  - text: "Quelle console de 2006 utilise des manettes à détection de mouvement ?"
+    imageUrl: wikipedia/games/Wii-console.jpg
+    answers:
+      A: "La Wii U"
+      B: "La Xbox 360"
+      C: "La Nintendo Wii"
+      D: "La GameCube"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 2006 console uses motion-sensing controllers?"
+        answers:
+          A: "The Wii U"
+          B: "The Xbox 360"
+          C: "The Nintendo Wii"
+          D: "The GameCube"
+    difficulty: MEDIUM
+  - text: "Quelle console de Sony sortie en 2006 voit-on ici ?"
+    imageUrl: wikipedia/games/Sony-PlayStation-3-CECHA01-wController-L.jpg
+    answers:
+      A: "La Xbox 360"
+      B: "La PlayStation 3"
+      C: "La PlayStation 4"
+      D: "La PlayStation 2"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Sony console released in 2006 is shown here?"
+        answers:
+          A: "The Xbox 360"
+          B: "The PlayStation 3"
+          C: "The PlayStation 4"
+          D: "The PlayStation 2"
+    difficulty: MEDIUM
+  - text: "Quelle console 16 bits de Sega est-ce ?"
+    imageUrl: wikipedia/games/Sega-Genesis-Mod1-Set.jpg
+    answers:
+      A: "La Neo Geo"
+      B: "La Super Nintendo"
+      C: "La PC Engine"
+      D: "La Sega Genesis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 16-bit Sega console is this?"
+        answers:
+          A: "The Neo Geo"
+          B: "The Super Nintendo"
+          C: "The PC Engine"
+          D: "The Sega Genesis"
+    difficulty: MEDIUM
+  - text: "Quelle console de Nintendo, sortie en 1996, voit-on ici ?"
+    imageUrl: wikipedia/games/N64-Console-Set.jpg
+    answers:
+      A: "La Super Nintendo"
+      B: "La GameCube"
+      C: "La Nintendo 64"
+      D: "La PlayStation"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Nintendo console, released in 1996, is shown here?"
+        answers:
+          A: "The Super Nintendo"
+          B: "The GameCube"
+          C: "The Nintendo 64"
+          D: "The PlayStation"
+    difficulty: MEDIUM
+  - text: "Quelle console portable PC de Valve voit-on ici ?"
+    imageUrl: wikipedia/games/Steam_Deck_(front).png
+    answers:
+      A: "La PSP"
+      B: "La Steam Deck"
+      C: "La Nintendo Switch"
+      D: "La ROG Ally"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Valve portable PC console is shown here?"
+        answers:
+          A: "The PSP"
+          B: "The Steam Deck"
+          C: "The Nintendo Switch"
+          D: "The ROG Ally"
+    difficulty: HARD
+  - text: "Quel studio a développé le jeu Shadow of the Colossus ?"
+    answers:
+      A: "FromSoftware"
+      B: "Team Ico"
+      C: "PlatinumGames"
+      D: "Kojima Productions"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which studio developed the game Shadow of the Colossus?"
+        answers:
+          A: "FromSoftware"
+          B: "Team Ico"
+          C: "PlatinumGames"
+          D: "Kojima Productions"
+    difficulty: HARD
+  - text: "En quelle année est sortie la NES en Amérique du Nord ?"
+    answers:
+      A: "1986"
+      B: "1983"
+      C: "1985"
+      D: "1984"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the NES released in North America?"
+        answers:
+          A: "1986"
+          B: "1983"
+          C: "1985"
+          D: "1984"
+    difficulty: HARD
+  - text: "Quelle console portable à double écran voit-on ici ?"
+    imageUrl: wikipedia/games/Nintendo-DS-Lite-Black-Open.jpg
+    answers:
+      A: "La PSP"
+      B: "La Nintendo DS"
+      C: "La Game Boy Advance"
+      D: "La Nintendo Switch"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which dual-screen handheld console is shown here?"
+        answers:
+          A: "The PSP"
+          B: "The Nintendo DS"
+          C: "The Game Boy Advance"
+          D: "The Nintendo Switch"
+    difficulty: EASY
+  - text: "Quelle console Sega de 1998 voit-on ici ?"
+    imageUrl: wikipedia/games/Dreamcast-Console-Set.png
+    answers:
+      A: "La Dreamcast"
+      B: "La Mega Drive"
+      C: "La Saturn"
+      D: "La Game Gear"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1998 Sega console is shown here?"
+        answers:
+          A: "The Dreamcast"
+          B: "The Mega Drive"
+          C: "The Saturn"
+          D: "The Game Gear"
+    difficulty: HARD
+  - text: "Quelle console de Sega, sortie en 1994, voit-on ici ?"
+    imageUrl: wikipedia/games/Sega-Saturn-Console-Set-Mk1.jpg
+    answers:
+      A: "La Mega Drive"
+      B: "La Nintendo 64"
+      C: "La Dreamcast"
+      D: "La Sega Saturn"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Sega console, released in 1994, is shown here?"
+        answers:
+          A: "The Mega Drive"
+          B: "The Nintendo 64"
+          C: "The Dreamcast"
+          D: "The Sega Saturn"
+    difficulty: HARD
+  - text: "Quel est le nom du créateur de la série Metal Gear ?"
+    answers:
+      A: "Tetsuya Nomura"
+      B: "Shigeru Miyamoto"
+      C: "Yu Suzuki"
+      D: "Hideo Kojima"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the creator of the Metal Gear series?"
+        answers:
+          A: "Tetsuya Nomura"
+          B: "Shigeru Miyamoto"
+          C: "Yu Suzuki"
+          D: "Hideo Kojima"
+    difficulty: HARD
+  - text: "Quel jeu de tir à la première personne a popularisé le mode multijoueur en ligne sur console avec Halo 2 ?"
+    answers:
+      A: "Halo 2"
+      B: "Call of Duty 4: Modern Warfare"
+      C: "Battlefield 1942"
+      D: "GoldenEye 007"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which first-person shooter popularized online multiplayer on consoles with Halo 2?"
+        answers:
+          A: "Halo 2"
+          B: "Call of Duty 4: Modern Warfare"
+          C: "Battlefield 1942"
+          D: "GoldenEye 007"
+    difficulty: HARD
+  - text: "Quelle console de Sega est sortie en 1998 ?"
+    answers:
+      A: "Saturn"
+      B: "Dreamcast"
+      C: "Mega Drive"
+      D: "Game Gear"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Sega console was released in 1998?"
+        answers:
+          A: "Saturn"
+          B: "Dreamcast"
+          C: "Mega Drive"
+          D: "Game Gear"
+    difficulty: HARD
+  - text: "Quelle console portable couleur de Sega voit-on ici ?"
+    imageUrl: wikipedia/games/Game-Gear-Handheld.jpg
+    answers:
+      A: "La Lynx"
+      B: "La Game Boy"
+      C: "La Game Gear"
+      D: "La Neo Geo Pocket"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Sega color handheld console is shown here?"
+        answers:
+          A: "The Lynx"
+          B: "The Game Boy"
+          C: "The Game Gear"
+          D: "The Neo Geo Pocket"
+    difficulty: HARD
+  - text: "Quelle première console de Microsoft voit-on ici ?"
+    imageUrl: wikipedia/games/Xbox-console.jpg
+    answers:
+      A: "La PlayStation 2"
+      B: "La GameCube"
+      C: "La Xbox"
+      D: "La Xbox 360"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Microsoft's first console is shown here?"
+        answers:
+          A: "The PlayStation 2"
+          B: "The GameCube"
+          C: "The Xbox"
+          D: "The Xbox 360"
+    difficulty: EASY
+  - text: "Quelle console Sony de 2004 voit-on ici ?"
+    imageUrl: wikipedia/games/Sony-PSP-1000-Body.png
+    answers:
+      A: "La PSP"
+      B: "La Game Boy Advance"
+      C: "La PS Vita"
+      D: "La Nintendo DS"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2004 Sony console is shown here?"
+        answers:
+          A: "The PSP"
+          B: "The Game Boy Advance"
+          C: "The PS Vita"
+          D: "The Nintendo DS"
+    difficulty: HARD
+  - text: "Quel est le nom du protagoniste de la série God of War ?"
+    answers:
+      A: "Dante"
+      B: "Kratos"
+      C: "Bayonetta"
+      D: "Nathan Drake"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the protagonist of the God of War series?"
+        answers:
+          A: "Dante"
+          B: "Kratos"
+          C: "Bayonetta"
+          D: "Nathan Drake"
+    difficulty: MEDIUM
+  - text: "Quelle console de la fin des années 1970 ?"
+    imageUrl: wikipedia/games/Atari-2600-Wood-4Sw-Set.jpg
+    answers:
+      A: "La NES"
+      B: "L'Atari 2600"
+      C: "L'Intellivision"
+      D: "La Colecovision"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which console from the late 1970s?"
+        answers:
+          A: "The NES"
+          B: "The Atari 2600"
+          C: "The Intellivision"
+          D: "The Colecovision"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de la série The Legend of Zelda ?"
+    answers:
+      A: "Ganon"
+      B: "Zelda"
+      C: "Link"
+      D: "Epona"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main character of The Legend of Zelda series?"
+        answers:
+          A: "Ganon"
+          B: "Zelda"
+          C: "Link"
+          D: "Epona"
+    difficulty: EASY
+  - text: "Quelle console 16 bits de Nintendo voit-on ici ?"
+    imageUrl: wikipedia/games/SNES-Mod1-Console-Set.png
+    answers:
+      A: "La Super Nintendo"
+      B: "La NES"
+      C: "La Nintendo 64"
+      D: "La Sega Genesis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 16-bit Nintendo console is shown here?"
+        answers:
+          A: "The Super Nintendo"
+          B: "The NES"
+          C: "The Nintendo 64"
+          D: "The Sega Genesis"
+    difficulty: EASY
+  - text: "Quelle borne d'arcade d'Atari, sortie en 1972, voit-on ici ?"
+    imageUrl: wikipedia/games/Atari_Pong_arcade_game_cabinet.jpg
+    answers:
+      A: "Space Invaders"
+      B: "Asteroids"
+      C: "Pong"
+      D: "Breakout"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Atari arcade cabinet, released in 1972, is shown here?"
+        answers:
+          A: "Space Invaders"
+          B: "Asteroids"
+          C: "Pong"
+          D: "Breakout"
+    difficulty: HARD
+  - text: "Quelle borne d'arcade Nintendo de 1981 ?"
+    imageUrl: wikipedia/games/Donkey_Kong_arcade_-_zapwizard_34102189.jpg
+    answers:
+      A: "Frogger"
+      B: "Galaga"
+      C: "Donkey Kong"
+      D: "Pac-Man"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1981 Nintendo arcade cabinet?"
+        answers:
+          A: "Frogger"
+          B: "Galaga"
+          C: "Donkey Kong"
+          D: "Pac-Man"
+    difficulty: HARD
+  - text: "Quelle console Nintendo de 1989 voit-on ?"
+    imageUrl: wikipedia/games/Game-Boy-FL.jpg
+    answers:
+      A: "La Game Boy Advance"
+      B: "La Game Gear"
+      C: "La Lynx"
+      D: "La Game Boy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1989 Nintendo console is shown?"
+        answers:
+          A: "The Game Boy Advance"
+          B: "The Game Gear"
+          C: "The Lynx"
+          D: "The Game Boy"
+    difficulty: MEDIUM
+  - text: "Quelle console hybride Nintendo est visible ici ?"
+    imageUrl: wikipedia/games/Nintendo-Switch-Console-Docked-wJoyConRB.jpg
+    answers:
+      A: "La Steam Deck"
+      B: "La Nintendo Switch"
+      C: "La Nintendo 3DS"
+      D: "La Wii U"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Nintendo hybrid console is visible here?"
+        answers:
+          A: "The Steam Deck"
+          B: "The Nintendo Switch"
+          C: "The Nintendo 3DS"
+          D: "The Wii U"
+    difficulty: EASY
+  - text: "Quel est le nom du créateur de la série Sonic the Hedgehog ?"
+    answers:
+      A: "Yu Suzuki"
+      B: "Shigeru Miyamoto"
+      C: "Hironobu Sakaguchi"
+      D: "Yuji Naka"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the creator of the Sonic the Hedgehog series?"
+        answers:
+          A: "Yu Suzuki"
+          B: "Shigeru Miyamoto"
+          C: "Hironobu Sakaguchi"
+          D: "Yuji Naka"
+    difficulty: HARD
+  - text: "Quel jeu a été le premier à utiliser le terme 'First Person Shooter' ?"
+    answers:
+      A: "Quake"
+      B: "Doom"
+      C: "Wolfenstein 3D"
+      D: "Half-Life"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game was the first to use the term 'First Person Shooter'?"
+        answers:
+          A: "Quake"
+          B: "Doom"
+          C: "Wolfenstein 3D"
+          D: "Half-Life"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la console portable de Nintendo sortie en 1989 ?"
+    answers:
+      A: "TurboExpress"
+      B: "Game Gear"
+      C: "Atari Lynx"
+      D: "Game Boy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Nintendo's handheld console released in 1989?"
+        answers:
+          A: "TurboExpress"
+          B: "Game Gear"
+          C: "Atari Lynx"
+          D: "Game Boy"
+    difficulty: MEDIUM
+  - text: "Quelle borne d'arcade Taito de 1978 voit-on ?"
+    imageUrl: wikipedia/games/Space_Invaders.jpg
+    answers:
+      A: "Pac-Man"
+      B: "Asteroids"
+      C: "Galaga"
+      D: "Space Invaders"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1978 Taito arcade cabinet is shown?"
+        answers:
+          A: "Pac-Man"
+          B: "Asteroids"
+          C: "Galaga"
+          D: "Space Invaders"
+    difficulty: HARD
+  - text: "Quel est le nom du protagoniste de la série The Witcher ?"
+    answers:
+      A: "Geralt de Riv"
+      B: "Ciri"
+      C: "Yennefer"
+      D: "Triss Merigold"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the protagonist of The Witcher series?"
+        answers:
+          A: "Geralt of Rivia"
+          B: "Ciri"
+          C: "Yennefer"
+          D: "Triss Merigold"
+    difficulty: MEDIUM
+  - text: "Quelle console est sortie en 1985 aux États-Unis ?"
+    imageUrl: wikipedia/games/NES-Console-Set.jpg
+    answers:
+      A: "La NES"
+      B: "La Master System"
+      C: "La Super Nintendo"
+      D: "L'Atari 2600"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which console was released in 1985 in the United States?"
+        answers:
+          A: "The NES"
+          B: "The Master System"
+          C: "The Super Nintendo"
+          D: "The Atari 2600"
+    difficulty: HARD
+  - text: "Quelle console de Microsoft sortie en 2005 voit-on ici ?"
+    imageUrl: wikipedia/games/Microsoft-Xbox-360-Pro-Console-FL.jpg
+    answers:
+      A: "La Xbox 360"
+      B: "La Xbox One"
+      C: "La PlayStation 3"
+      D: "La Xbox"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Microsoft console released in 2005 is shown here?"
+        answers:
+          A: "The Xbox 360"
+          B: "The Xbox One"
+          C: "The PlayStation 3"
+          D: "The Xbox"
+    difficulty: MEDIUM
+  - text: "Quel jeu de course a introduit le concept de 'rubber band AI' ?"
+    answers:
+      A: "Mario Kart"
+      B: "Gran Turismo"
+      C: "Forza Motorsport"
+      D: "Need for Speed"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which racing game introduced the concept of 'rubber band AI'?"
+        answers:
+          A: "Mario Kart"
+          B: "Gran Turismo"
+          C: "Forza Motorsport"
+          D: "Need for Speed"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la première console de Sony ?"
+    answers:
+      A: "PS One"
+      B: "PlayStation 2"
+      C: "PlayStation"
+      D: "PocketStation"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Sony's first console?"
+        answers:
+          A: "PS One"
+          B: "PlayStation 2"
+          C: "PlayStation"
+          D: "PocketStation"
+    difficulty: EASY
+  - text: "Quelle console de Sony est la plus vendue de l'histoire ?"
+    imageUrl: wikipedia/games/PS2-Fat-Console-Set.jpg
+    answers:
+      A: "La PlayStation 2"
+      B: "La PlayStation"
+      C: "La Xbox"
+      D: "La PlayStation 3"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Sony console is the best-selling in history?"
+        answers:
+          A: "The PlayStation 2"
+          B: "The PlayStation"
+          C: "The Xbox"
+          D: "The PlayStation 3"
+    difficulty: HARD
+  - text: "Quel est le nom du créateur de la série Final Fantasy ?"
+    answers:
+      A: "Yoshitaka Amano"
+      B: "Hironobu Sakaguchi"
+      C: "Nobuo Uematsu"
+      D: "Tetsuya Nomura"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the creator of the Final Fantasy series?"
+        answers:
+          A: "Yoshitaka Amano"
+          B: "Hironobu Sakaguchi"
+          C: "Nobuo Uematsu"
+          D: "Tetsuya Nomura"
+    difficulty: HARD
+  - text: "Quel jeu a été le premier à introduire le système de sauvegarde par mot de passe ?"
+    answers:
+      A: "The Legend of Zelda"
+      B: "Metroid"
+      C: "Super Mario Bros."
+      D: "Castlevania"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which game was the first to introduce the password save system?"
+        answers:
+          A: "The Legend of Zelda"
+          B: "Metroid"
+          C: "Super Mario Bros."
+          D: "Castlevania"
+    difficulty: EXPERT
+  - text: "Quelle console de Sony sortie en 2013 voit-on ici ?"
+    imageUrl: wikipedia/games/Sony-PlayStation-4-PS4-Console-FL.jpg
+    answers:
+      A: "La PlayStation 3"
+      B: "La Xbox One"
+      C: "La PlayStation 4"
+      D: "La PlayStation 5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Sony console released in 2013 is shown here?"
+        answers:
+          A: "The PlayStation 3"
+          B: "The Xbox One"
+          C: "The PlayStation 4"
+          D: "The PlayStation 5"
+    difficulty: HARD
+  - text: "Quel est le nom de la console de Nintendo sortie en 2017 ?"
+    answers:
+      A: "GameCube"
+      B: "Wii U"
+      C: "Nintendo 3DS"
+      D: "Nintendo Switch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Nintendo's console released in 2017?"
+        answers:
+          A: "GameCube"
+          B: "Wii U"
+          C: "Nintendo 3DS"
+          D: "Nintendo Switch"
+    difficulty: EASY
+  - text: "Quelle console de luxe de SNK voit-on ici ?"
+    imageUrl: wikipedia/games/Neo-Geo-AES-Console-Set.jpg
+    answers:
+      A: "La Neo Geo"
+      B: "La Mega Drive"
+      C: "La PC Engine"
+      D: "La Super Nintendo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which SNK luxury console is shown here?"
+        answers:
+          A: "The Neo Geo"
+          B: "The Mega Drive"
+          C: "The PC Engine"
+          D: "The Super Nintendo"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de la série Uncharted ?"
+    answers:
+      A: "Nathan Hale"
+      B: "Lara Croft"
+      C: "Indiana Jones"
+      D: "Nathan Drake"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main character of the Uncharted series?"
+        answers:
+          A: "Nathan Hale"
+          B: "Lara Croft"
+          C: "Indiana Jones"
+          D: "Nathan Drake"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du créateur de la série Grand Theft Auto ?"
+    answers:
+      A: "Dan Houser"
+      B: "Sam Houser"
+      C: "Leslie Benzies"
+      D: "David Jones"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the creator of the Grand Theft Auto series?"
+        answers:
+          A: "Dan Houser"
+          B: "Sam Houser"
+          C: "Leslie Benzies"
+          D: "David Jones"
+    difficulty: HARD
+  - text: "Quelle société a fabriqué la console Intellivision ?"
+    answers:
+      A: "Coleco"
+      B: "Mattel"
+      C: "Atari"
+      D: "Magnavox"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which company made the Intellivision console?"
+        answers:
+          A: "Coleco"
+          B: "Mattel"
+          C: "Atari"
+          D: "Magnavox"
+    difficulty: HARD
+  - text: "Quel célèbre jeu de puzzle à briques voit-on ici ?"
+    imageUrl: wikipedia/games/Tetris_on_Game_Boy.jpg
+    answers:
+      A: "Columns"
+      B: "Dr. Mario"
+      C: "Puyo Puyo"
+      D: "Tetris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which famous brick puzzle game is shown here?"
+        answers:
+          A: "Columns"
+          B: "Dr. Mario"
+          C: "Puyo Puyo"
+          D: "Tetris"
+    difficulty: MEDIUM
+  - text: "Quelle console de Sony, sortie en 1994, voit-on ici ?"
+    imageUrl: wikipedia/games/PSX-Console-wController.jpg
+    answers:
+      A: "La Xbox"
+      B: "La PlayStation"
+      C: "La Nintendo 64"
+      D: "La Sega Saturn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Sony console, released in 1994, is shown here?"
+        answers:
+          A: "The Xbox"
+          B: "The PlayStation"
+          C: "The Nintendo 64"
+          D: "The Sega Saturn"
+    difficulty: MEDIUM
+  - text: "Quel processeur équipe la Nintendo 64 ?"
+    answers:
+      A: "Motorola 68000"
+      B: "Hitachi SH-2"
+      C: "IBM PowerPC 750"
+      D: "NEC VR4300"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which processor powers the Nintendo 64?"
+        answers:
+          A: "Motorola 68000"
+          B: "Hitachi SH-2"
+          C: "IBM PowerPC 750"
+          D: "NEC VR4300"
+    difficulty: EXPERT
+  - text: "En quelle année est sortie la Dreamcast au Japon ?"
+    answers:
+      A: "1996"
+      B: "1998"
+      C: "1997"
+      D: "1999"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Dreamcast released in Japan?"
+        answers:
+          A: "1996"
+          B: "1998"
+          C: "1997"
+          D: "1999"
+    difficulty: HARD
+  - text: "Quel était le nom de code de la Game Boy Advance ?"
+    answers:
+      A: "Project Dolphin"
+      B: "Project Atlantis"
+      C: "Project Reality"
+      D: "Project Nitro"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the codename of the Game Boy Advance?"
+        answers:
+          A: "Project Dolphin"
+          B: "Project Atlantis"
+          C: "Project Reality"
+          D: "Project Nitro"
+    difficulty: EXPERT
+  - text: "Qui a conçu le jeu d'arcade Space Invaders ?"
+    answers:
+      A: "Toru Iwatani"
+      B: "Shigeru Miyamoto"
+      C: "Tomohiro Nishikado"
+      D: "Nolan Bushnell"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who designed the arcade game Space Invaders?"
+        answers:
+          A: "Toru Iwatani"
+          B: "Shigeru Miyamoto"
+          C: "Tomohiro Nishikado"
+          D: "Nolan Bushnell"
+    difficulty: HARD
+  - text: "Quelle console a accueilli le premier jeu de la série Sonic the Hedgehog ?"
+    answers:
+      A: "Master System"
+      B: "Saturn"
+      C: "Game Gear"
+      D: "Mega Drive"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which console hosted the first game in the Sonic the Hedgehog series?"
+        answers:
+          A: "Master System"
+          B: "Saturn"
+          C: "Game Gear"
+          D: "Mega Drive"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de Solid Snake dans Metal Gear Solid ?"
+    answers:
+      A: "Jack"
+      B: "David"
+      C: "John"
+      D: "Frank"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Solid Snake's real name in Metal Gear Solid?"
+        answers:
+          A: "Jack"
+          B: "David"
+          C: "John"
+          D: "Frank"
+    difficulty: HARD
+  - text: "Quel jeu est considéré comme le premier à avoir introduit le double saut ?"
+    answers:
+      A: "Crash Bandicoot"
+      B: "Super Mario 64"
+      C: "Ristar"
+      D: "Donkey Kong Country"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which game is considered the first to introduce the double jump?"
+        answers:
+          A: "Crash Bandicoot"
+          B: "Super Mario 64"
+          C: "Ristar"
+          D: "Donkey Kong Country"
+    difficulty: EXPERT
+  - text: "Quel était le support de stockage des jeux sur la console PC Engine ?"
+    answers:
+      A: "Cartouche"
+      B: "CD-ROM"
+      C: "HuCard"
+      D: "Disquette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the storage medium for games on the PC Engine console?"
+        answers:
+          A: "Cartridge"
+          B: "CD-ROM"
+          C: "HuCard"
+          D: "Floppy disk"
+    difficulty: EXPERT
+  - text: "Quel personnage incarne le joueur dans la série Doom originale ?"
+    answers:
+      A: "Doomguy"
+      B: "Master Chief"
+      C: "Gordon Freeman"
+      D: "Duke Nukem"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character does the player embody in the original Doom series?"
+        answers:
+          A: "Doomguy"
+          B: "Master Chief"
+          C: "Gordon Freeman"
+          D: "Duke Nukem"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du boss final de Super Mario Bros. sur NES ?"
+    answers:
+      A: "Bowser"
+      B: "King K. Rool"
+      C: "Wart"
+      D: "Donkey Kong"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the final boss in Super Mario Bros. on NES?"
+        answers:
+          A: "Bowser"
+          B: "King K. Rool"
+          C: "Wart"
+          D: "Donkey Kong"
+    difficulty: HARD
+  - text: "Quel jeu a popularisé le genre 'battle royale' en 2017 ?"
+    answers:
+      A: "H1Z1"
+      B: "Fortnite"
+      C: "PlayerUnknown's Battlegrounds"
+      D: "DayZ"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game popularized the 'battle royale' genre in 2017?"
+        answers:
+          A: "H1Z1"
+          B: "Fortnite"
+          C: "PlayerUnknown's Battlegrounds"
+          D: "DayZ"
+    difficulty: EASY
+  - text: "Quel est le nom du moteur graphique utilisé par id Software pour Quake III Arena ?"
+    answers:
+      A: "id Tech 3"
+      B: "id Tech 2"
+      C: "Unreal Engine"
+      D: "GoldSrc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the graphics engine used by id Software for Quake III Arena?"
+        answers:
+          A: "id Tech 3"
+          B: "id Tech 2"
+          C: "Unreal Engine"
+          D: "GoldSrc"
+    difficulty: EXPERT
+  - text: "Combien de mondes compte Super Mario Bros. 3 ?"
+    answers:
+      A: "7"
+      B: "8"
+      C: "10"
+      D: "9"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many worlds does Super Mario Bros. 3 have?"
+        answers:
+          A: "7"
+          B: "8"
+          C: "10"
+          D: "9"
+    difficulty: HARD
+  - text: "Qui a composé la musique originale de The Legend of Zelda ?"
+    answers:
+      A: "Nobuo Uematsu"
+      B: "Hirokazu Tanaka"
+      C: "Yasunori Mitsuda"
+      D: "Koji Kondo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the original music for The Legend of Zelda?"
+        answers:
+          A: "Nobuo Uematsu"
+          B: "Hirokazu Tanaka"
+          C: "Yasunori Mitsuda"
+          D: "Koji Kondo"
+    difficulty: HARD
+  - text: "Quel était le premier jeu vidéo à utiliser des polygones 3D en temps réel ?"
+    answers:
+      A: "Star Fox"
+      B: "I, Robot"
+      C: "Virtua Racing"
+      D: "Elite"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the first video game to use real-time 3D polygons?"
+        answers:
+          A: "Star Fox"
+          B: "I, Robot"
+          C: "Virtua Racing"
+          D: "Elite"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protagoniste de la série Devil May Cry ?"
+    answers:
+      A: "Bayonetta"
+      B: "Vergil"
+      C: "Nero"
+      D: "Dante"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the protagonist of the Devil May Cry series?"
+        answers:
+          A: "Bayonetta"
+          B: "Vergil"
+          C: "Nero"
+          D: "Dante"
+    difficulty: MEDIUM
+  - text: "Quelle console a été la première à utiliser des CD-ROM comme support principal ?"
+    answers:
+      A: "PC Engine CD"
+      B: "Sega CD"
+      C: "3DO"
+      D: "PlayStation"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which console was the first to use CD-ROM as its main medium?"
+        answers:
+          A: "PC Engine CD"
+          B: "Sega CD"
+          C: "3DO"
+          D: "PlayStation"
+    difficulty: EXPERT
+  - text: "Quel est le nom du créateur de la série Civilization ?"
+    answers:
+      A: "Peter Molyneux"
+      B: "Will Wright"
+      C: "Sid Meier"
+      D: "Chris Sawyer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the creator of the Civilization series?"
+        answers:
+          A: "Peter Molyneux"
+          B: "Will Wright"
+          C: "Sid Meier"
+          D: "Chris Sawyer"
+    difficulty: HARD
+  - text: "Quel jeu a été le premier à proposer un mode multijoueur en ligne sur console via un modem ?"
+    answers:
+      A: "Satellaview"
+      B: "Dreamcast"
+      C: "Xband"
+      D: "GameCube"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game was the first to offer online multiplayer on a console via a modem?"
+        answers:
+          A: "Satellaview"
+          B: "Dreamcast"
+          C: "Xband"
+          D: "GameCube"
+    difficulty: EXPERT
+  - text: "Quel est le premier jeu d'arcade à avoir utilisé un écran vectoriel couleur ?"
+    answers:
+      A: "Space Wars"
+      B: "Eliminator"
+      C: "Star Castle"
+      D: "Tempest"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the first arcade game to use a color vector monitor?"
+        answers:
+          A: "Space Wars"
+          B: "Eliminator"
+          C: "Star Castle"
+          D: "Tempest"
+    difficulty: EXPERT
+  - text: "Quel processeur équipe la Sega Saturn ?"
+    answers:
+      A: "SH-2"
+      B: "Motorola 68000"
+      C: "RISC R3000"
+      D: "Z80"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which processor powers the Sega Saturn?"
+        answers:
+          A: "SH-2"
+          B: "Motorola 68000"
+          C: "RISC R3000"
+          D: "Z80"
+    difficulty: EXPERT
+  - text: "Quel jeu est souvent crédité comme le premier à utiliser des cinématiques en full motion video ?"
+    answers:
+      A: "Mad Dog McCree"
+      B: "Space Ace"
+      C: "Night Trap"
+      D: "Dragon's Lair"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which game is often credited as the first to use full motion video cutscenes?"
+        answers:
+          A: "Mad Dog McCree"
+          B: "Space Ace"
+          C: "Night Trap"
+          D: "Dragon's Lair"
+    difficulty: EXPERT
+  - text: "Quel est le nom du créateur de la série The Elder Scrolls ?"
+    answers:
+      A: "Todd Howard"
+      B: "Ken Rolston"
+      C: "Vijay Lakshman"
+      D: "Julian LeFay"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the creator of The Elder Scrolls series?"
+        answers:
+          A: "Todd Howard"
+          B: "Ken Rolston"
+          C: "Vijay Lakshman"
+          D: "Julian LeFay"
+    difficulty: EXPERT
+  - text: "En quelle année est sortie la Neo Geo AES ?"
+    answers:
+      A: "1989"
+      B: "1990"
+      C: "1991"
+      D: "1992"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Neo Geo AES released?"
+        answers:
+          A: "1989"
+          B: "1990"
+          C: "1991"
+          D: "1992"
+    difficulty: EXPERT
+  - text: "Quel était le support des jeux sur la console Atari 5200 ?"
+    answers:
+      A: "Cartouche"
+      B: "Cassette"
+      C: "Disquette"
+      D: "CD-ROM"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the game medium for the Atari 5200 console?"
+        answers:
+          A: "Cartridge"
+          B: "Cassette"
+          C: "Floppy disk"
+          D: "CD-ROM"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protagoniste de la série Sly Cooper ?"
+    answers:
+      A: "Bentley"
+      B: "Sly Cooper"
+      C: "Murray"
+      D: "Carmelita Fox"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the protagonist of the Sly Cooper series?"
+        answers:
+          A: "Bentley"
+          B: "Sly Cooper"
+          C: "Murray"
+          D: "Carmelita Fox"
+    difficulty: HARD
+  - text: "Quel jeu a introduit le concept de 'New Game Plus' pour la première fois ?"
+    answers:
+      A: "The Legend of Zelda"
+      B: "Final Fantasy"
+      C: "Chrono Trigger"
+      D: "Dragon Quest"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game first introduced the concept of 'New Game Plus'?"
+        answers:
+          A: "The Legend of Zelda"
+          B: "Final Fantasy"
+          C: "Chrono Trigger"
+          D: "Dragon Quest"
+    difficulty: EXPERT
+  - text: "Quel est le nom du moteur graphique utilisé par Epic Games pour Unreal ?"
+    answers:
+      A: "Unreal Engine"
+      B: "Quake Engine"
+      C: "id Tech"
+      D: "Source"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the graphics engine used by Epic Games for Unreal?"
+        answers:
+          A: "Unreal Engine"
+          B: "Quake Engine"
+          C: "id Tech"
+          D: "Source"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier jeu de la série Street Fighter ?"
+    answers:
+      A: "Street Fighter III"
+      B: "Street Fighter II"
+      C: "Street Fighter Alpha"
+      D: "Street Fighter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first game in the Street Fighter series?"
+        answers:
+          A: "Street Fighter III"
+          B: "Street Fighter II"
+          C: "Street Fighter Alpha"
+          D: "Street Fighter"
+    difficulty: HARD
+  - text: "Quel personnage est le boss final de The Legend of Zelda: Ocarina of Time ?"
+    answers:
+      A: "Ganon"
+      B: "Ganondorf"
+      C: "Vaati"
+      D: "Zant"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is the final boss of The Legend of Zelda: Ocarina of Time?"
+        answers:
+          A: "Ganon"
+          B: "Ganondorf"
+          C: "Vaati"
+          D: "Zant"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier jeu vidéo à avoir utilisé un viseur lumineux ?"
+    answers:
+      A: "Duck Hunt"
+      B: "Skeet Shoot"
+      C: "Shooting Gallery"
+      D: "Laser Clay Shooting System"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first video game to use a light gun?"
+        answers:
+          A: "Duck Hunt"
+          B: "Skeet Shoot"
+          C: "Shooting Gallery"
+          D: "Laser Clay Shooting System"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la société qui a développé la console 3DO ?"
+    answers:
+      A: "3DO Company"
+      B: "Panasonic"
+      C: "GoldStar"
+      D: "Sanyo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the company that developed the 3DO console?"
+        answers:
+          A: "3DO Company"
+          B: "Panasonic"
+          C: "GoldStar"
+          D: "Sanyo"
+    difficulty: HARD
+  - text: "Quel jeu a été le premier à proposer un système de quêtes secondaires ?"
+    answers:
+      A: "Chrono Trigger"
+      B: "The Legend of Zelda"
+      C: "Final Fantasy VI"
+      D: "Dragon Quest III"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which game was the first to feature a side quest system?"
+        answers:
+          A: "Chrono Trigger"
+          B: "The Legend of Zelda"
+          C: "Final Fantasy VI"
+          D: "Dragon Quest III"
+    difficulty: EXPERT
+  - text: "Quel est le nom du créateur de la série Dead Space ?"
+    answers:
+      A: "Glen Schofield"
+      B: "Michael Condrey"
+      C: "Hideo Kojima"
+      D: "Shinji Mikami"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the creator of the Dead Space series?"
+        answers:
+          A: "Glen Schofield"
+          B: "Michael Condrey"
+          C: "Hideo Kojima"
+          D: "Shinji Mikami"
+    difficulty: EXPERT
+  - text: "Quel était le nom de code de la Nintendo Wii pendant son développement ?"
+    answers:
+      A: "Ultra 64"
+      B: "Dolphin"
+      C: "Project Reality"
+      D: "Revolution"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the codename of the Nintendo Wii during its development?"
+        answers:
+          A: "Ultra 64"
+          B: "Dolphin"
+          C: "Project Reality"
+          D: "Revolution"
+    difficulty: EXPERT
+  - text: "Quel jeu de combat a introduit le système de 'juggle' ?"
+    answers:
+      A: "Killer Instinct"
+      B: "Virtua Fighter"
+      C: "Mortal Kombat"
+      D: "Tekken"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which fighting game introduced the 'juggle' system?"
+        answers:
+          A: "Killer Instinct"
+          B: "Virtua Fighter"
+          C: "Mortal Kombat"
+          D: "Tekken"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier jeu vidéo à avoir utilisé un système de sauvegarde sur disquette ?"
+    answers:
+      A: "The Legend of Zelda"
+      B: "Metroid"
+      C: "Kid Icarus"
+      D: "Zelda II: The Adventure of Link"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first video game to use a floppy disk save system?"
+        answers:
+          A: "The Legend of Zelda"
+          B: "Metroid"
+          C: "Kid Icarus"
+          D: "Zelda II: The Adventure of Link"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la console portable de SNK sortie en 1998 ?"
+    answers:
+      A: "Neo Geo Pocket"
+      B: "Neo Geo Pocket Color"
+      C: "Neo Geo AES"
+      D: "Neo Geo CD"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of SNK's handheld console released in 1998?"
+        answers:
+          A: "Neo Geo Pocket"
+          B: "Neo Geo Pocket Color"
+          C: "Neo Geo AES"
+          D: "Neo Geo CD"
+    difficulty: EXPERT
+  - text: "Quel jeu a été le premier à utiliser un système de 'craft' ?"
+    answers:
+      A: "Minecraft"
+      B: "Dwarf Fortress"
+      C: "Warcraft"
+      D: "Ultima Online"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which game was the first to use a 'crafting' system?"
+        answers:
+          A: "Minecraft"
+          B: "Dwarf Fortress"
+          C: "Warcraft"
+          D: "Ultima Online"
+    difficulty: EXPERT
+  - text: "Quel jeu a introduit le concept de 'double saut' dans une plateforme 2D ?"
+    answers:
+      A: "Super Mario Bros. 2"
+      B: "Mega Man 2"
+      C: "Dragon Buster"
+      D: "Castlevania III: Dracula's Curse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game introduced the concept of 'double jump' in a 2D platformer?"
+        answers:
+          A: "Super Mario Bros. 2"
+          B: "Mega Man 2"
+          C: "Dragon Buster"
+          D: "Castlevania III: Dracula's Curse"
+    difficulty: EXPERT
+  - text: "Quelle est la résolution native de l'écran de la Game Boy originale ?"
+    answers:
+      A: "160 × 144"
+      B: "256 × 224"
+      C: "320 × 240"
+      D: "128 × 128"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the native screen resolution of the original Game Boy?"
+        answers:
+          A: "160 × 144"
+          B: "256 × 224"
+          C: "320 × 240"
+          D: "128 × 128"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1982 a été le premier à utiliser un écran vectoriel couleur ?"
+    answers:
+      A: "Tempest"
+      B: "Space Duel"
+      C: "Star Wars"
+      D: "Gravitar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1982 arcade game was the first to use a color vector display?"
+        answers:
+          A: "Tempest"
+          B: "Space Duel"
+          C: "Star Wars"
+          D: "Gravitar"
+    difficulty: EXPERT
+  - text: "Quel jeu a popularisé le genre 'Metroidvania' avec sa carte interconnectée ?"
+    answers:
+      A: "Super Metroid"
+      B: "Metroid Prime"
+      C: "Castlevania: Symphony of the Night"
+      D: "Hollow Knight"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game popularized the 'Metroidvania' genre with its interconnected map?"
+        answers:
+          A: "Super Metroid"
+          B: "Metroid Prime"
+          C: "Castlevania: Symphony of the Night"
+          D: "Hollow Knight"
+    difficulty: HARD
+  - text: "Quel processeur équipe la console Dreamcast ?"
+    answers:
+      A: "SuperH SH-4"
+      B: "IBM PowerPC 750"
+      C: "MIPS R4300i"
+      D: "Motorola 68000"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which processor powers the Dreamcast console?"
+        answers:
+          A: "SuperH SH-4"
+          B: "IBM PowerPC 750"
+          C: "MIPS R4300i"
+          D: "Motorola 68000"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier jeu vidéo à avoir utilisé un système de sauvegarde sur cartouche ?"
+    answers:
+      A: "Super Mario Bros."
+      B: "Metroid"
+      C: "The Legend of Zelda"
+      D: "Kirby's Adventure"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first video game to use a cartridge save system?"
+        answers:
+          A: "Super Mario Bros."
+          B: "Metroid"
+          C: "The Legend of Zelda"
+          D: "Kirby's Adventure"
+    difficulty: EXPERT
+  - text: "Quel personnage est le boss final de Super Mario World ?"
+    answers:
+      A: "Tatanga"
+      B: "Wart"
+      C: "Bowser"
+      D: "Smithy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is the final boss of Super Mario World?"
+        answers:
+          A: "Tatanga"
+          B: "Wart"
+          C: "Bowser"
+          D: "Smithy"
+    difficulty: HARD
+  - text: "Quel studio a développé la série des Souls (Demon's Souls, Dark Souls) ?"
+    answers:
+      A: "Capcom"
+      B: "Team Ninja"
+      C: "PlatinumGames"
+      D: "FromSoftware"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which studio developed the Souls series (Demon's Souls, Dark Souls)?"
+        answers:
+          A: "Capcom"
+          B: "Team Ninja"
+          C: "PlatinumGames"
+          D: "FromSoftware"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du moteur graphique utilisé par id Software pour Doom (1993) ?"
+    answers:
+      A: "Quake Engine"
+      B: "Unreal Engine"
+      C: "id Tech 1"
+      D: "GoldSrc"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the graphics engine used by id Software for Doom (1993)?"
+        answers:
+          A: "Quake Engine"
+          B: "Unreal Engine"
+          C: "id Tech 1"
+          D: "GoldSrc"
+    difficulty: EXPERT
+  - text: "Quel jeu a été le premier à proposer un système d'achievements sur console ?"
+    answers:
+      A: "Halo 3"
+      B: "Gears of War"
+      C: "The Elder Scrolls IV: Oblivion"
+      D: "Call of Duty 4: Modern Warfare"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game was the first to offer an achievements system on consoles?"
+        answers:
+          A: "Halo 3"
+          B: "Gears of War"
+          C: "The Elder Scrolls IV: Oblivion"
+          D: "Call of Duty 4: Modern Warfare"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protagoniste de la série The Legend of Zelda ?"
+    answers:
+      A: "Zelda"
+      B: "Navi"
+      C: "Ganon"
+      D: "Link"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the protagonist of The Legend of Zelda series?"
+        answers:
+          A: "Zelda"
+          B: "Navi"
+          C: "Ganon"
+          D: "Link"
+    difficulty: EASY
+  - text: "Quel était le support de stockage des jeux sur la console Neo Geo AES ?"
+    answers:
+      A: "Cassette"
+      B: "CD-ROM"
+      C: "Disquette"
+      D: "Cartouche ROM"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the storage medium for games on the Neo Geo AES console?"
+        answers:
+          A: "Cassette"
+          B: "CD-ROM"
+          C: "Floppy disk"
+          D: "ROM cartridge"
+    difficulty: EXPERT
+  - text: "Quel jeu a été le premier à utiliser des textures mappées en 3D en temps réel ?"
+    answers:
+      A: "Wolfenstein 3D"
+      B: "Doom"
+      C: "Quake"
+      D: "Duke Nukem 3D"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game was the first to use real-time 3D texture mapping?"
+        answers:
+          A: "Wolfenstein 3D"
+          B: "Doom"
+          C: "Quake"
+          D: "Duke Nukem 3D"
+    difficulty: EXPERT

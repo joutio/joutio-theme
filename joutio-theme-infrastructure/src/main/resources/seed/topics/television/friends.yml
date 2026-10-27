@@ -1,0 +1,1626 @@
+topic:
+  id: topic-friends
+  names:
+    fr: "Friends"
+    en: "Friends"
+  description: "Six amis new-yorkais traversent ensemble les joies et les péripéties de la vie adulte : carrières, amours, mariages et famille, entre le café Central Perk et leurs appartements. Une sitcom culte des années 1990 et 2000."
+  category: TELEVISION
+  titles:
+    fr:
+      FER: "Nouveau Voisin du 5C"
+      BRONZE: "Stagiaire au Central Perk"
+      ARGENT: "Colocataire de Monica"
+      OR: "Membre du Groupe"
+      PLATINE: "Survivant du Jeu du Babyfoot"
+      EMERAUDE: "Docteur en Potins"
+      DIAMANT: "Lobster de Central Perk"
+    en:
+      FER: "New Neighbor in 5C"
+      BRONZE: "Central Perk Trainee"
+      ARGENT: "Monica's Roommate"
+      OR: "Member of the Gang"
+      PLATINE: "Foosball Survivor"
+      EMERAUDE: "Doctor of Gossip"
+      DIAMANT: "Central Perk Lobster"
+  imageUrl: wikipedia/television/Friends_exterior.jpg
+questions:
+  - text: "Quel est le métier de Gary, le petit ami de Phoebe ?"
+    answers:
+      A: "Policier"
+      B: "Pompier"
+      C: "Pilote"
+      D: "Plombier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the job of Gary, Phoebe's boyfriend?"
+        answers:
+          A: "Police officer"
+          B: "Firefighter"
+          C: "Pilot"
+          D: "Plumber"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom du premier enfant de Monica et Chandler ?"
+    answers:
+      A: "Emma"
+      B: "Erica"
+      C: "Jack"
+      D: "Ben"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Monica and Chandler's first child?"
+        answers:
+          A: "Emma"
+          B: "Erica"
+          C: "Jack"
+          D: "Ben"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom du deuxième enfant de Monica et Chandler ?"
+    answers:
+      A: "Jack"
+      B: "Erica"
+      C: "Emma"
+      D: "Ben"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Monica and Chandler's second child?"
+        answers:
+          A: "Jack"
+          B: "Erica"
+          C: "Emma"
+          D: "Ben"
+    difficulty: HARD
+  - text: "Combien de fois Ross et Rachel se sont-ils mariés l'un à l'autre ?"
+    answers:
+      A: "2"
+      B: "1"
+      C: "3"
+      D: "0"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many times did Ross and Rachel marry each other?"
+        answers:
+          A: "2"
+          B: "1"
+          C: "3"
+          D: "0"
+    difficulty: HARD
+  - text: "Quel est le nom complet de Gunther ?"
+    answers:
+      A: "Gunther Smith"
+      B: "Gunther n'a pas de nom de famille révélé"
+      C: "Gunther Central Perk"
+      D: "Gunther Johnson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Gunther's full name?"
+        answers:
+          A: "Gunther Smith"
+          B: "Gunther's last name is never revealed"
+          C: "Gunther Central Perk"
+          D: "Gunther Johnson"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du père de Monica et Ross ?"
+    answers:
+      A: "Henry"
+      B: "Charles"
+      C: "Jack"
+      D: "Robert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Monica and Ross's father?"
+        answers:
+          A: "Henry"
+          B: "Charles"
+          C: "Jack"
+          D: "Robert"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom de la mère de Monica et Ross ?"
+    answers:
+      A: "Sandra"
+      B: "Susan"
+      C: "Carol"
+      D: "Judy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Monica and Ross's mother?"
+        answers:
+          A: "Sandra"
+          B: "Susan"
+          C: "Carol"
+          D: "Judy"
+    difficulty: MEDIUM
+  - text: "Quel est le métier de Richard Burke, l'ancien petit ami de Monica ?"
+    answers:
+      A: "Ophtalmologue"
+      B: "Dentiste"
+      C: "Cardiologue"
+      D: "Dermatologue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the job of Richard Burke, Monica's ex-boyfriend?"
+        answers:
+          A: "Ophthalmologist"
+          B: "Dentist"
+          C: "Cardiologist"
+          D: "Dermatologist"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom de la femme de Joey, dans la série dérivée 'Joey' ?"
+    answers:
+      A: "Sarah"
+      B: "Gina"
+      C: "Alex"
+      D: "Michael"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Joey's wife in the spin-off 'Joey'?"
+        answers:
+          A: "Sarah"
+          B: "Gina"
+          C: "Alex"
+          D: "Michael"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sœur de Joey qui embrasse Chandler ?"
+    answers:
+      A: "Mary Angela"
+      B: "Mary Therese"
+      C: "Gina"
+      D: "Dina"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Joey's sister who kisses Chandler?"
+        answers:
+          A: "Mary Angela"
+          B: "Mary Therese"
+          C: "Gina"
+          D: "Dina"
+    difficulty: EXPERT
+  - text: "Combien de sœurs Joey a-t-il ?"
+    answers:
+      A: "7"
+      B: "6"
+      C: "5"
+      D: "8"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many sisters does Joey have?"
+        answers:
+          A: "7"
+          B: "6"
+          C: "5"
+          D: "8"
+    difficulty: HARD
+  - text: "Quel est le prénom du frère jumeau de Phoebe ?"
+    answers:
+      A: "Ursula"
+      B: "Duncan"
+      C: "Frank Jr."
+      D: "Paul"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Phoebe's twin brother?"
+        answers:
+          A: "Ursula"
+          B: "Duncan"
+          C: "Frank Jr."
+          D: "Paul"
+    difficulty: MEDIUM
+  - text: "Quel est le métier de Frank Jr., le frère de Phoebe, qu'elle rencontre pour la première fois ?"
+    answers:
+      A: "Coiffeur"
+      B: "Serveur"
+      C: "Livreur de pizzas"
+      D: "Acteur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the job of Frank Jr., Phoebe's brother, when she first meets him?"
+        answers:
+          A: "Hairdresser"
+          B: "Waiter"
+          C: "Pizza delivery guy"
+          D: "Actor"
+    difficulty: HARD
+  - text: "Quel est le nom du canard et du poulet de Chandler et Joey ?"
+    answers:
+      A: "Canard : Howard, Poulet : Clucky"
+      B: "Canard : Donald, Poulet : Nugget"
+      C: "Canard : Duck, Poulet : Chicken"
+      D: "Canard : Waddles, Poulet : Feathers"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What are the names of Chandler and Joey's duck and chicken?"
+        answers:
+          A: "Duck: Howard, Chicken: Clucky"
+          B: "Duck: Donald, Chicken: Nugget"
+          C: "Duck: Duck, Chicken: Chicken"
+          D: "Duck: Waddles, Chicken: Feathers"
+    difficulty: HARD
+  - text: "Quel est le prénom du bébé de Rachel et Ross ?"
+    answers:
+      A: "Emma"
+      B: "Ella"
+      C: "Emily"
+      D: "Erica"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Rachel and Ross's baby?"
+        answers:
+          A: "Emma"
+          B: "Ella"
+          C: "Emily"
+          D: "Erica"
+    difficulty: EASY
+  - text: "Quel est le nom de famille de Rachel ?"
+    answers:
+      A: "Greene"
+      B: "Green"
+      C: "Geller"
+      D: "Buffay"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Rachel's last name?"
+        answers:
+          A: "Greene"
+          B: "Green"
+          C: "Geller"
+          D: "Buffay"
+    difficulty: EASY
+  - text: "Quel est le métier de Ross avant de devenir professeur ?"
+    answers:
+      A: "Géologue"
+      B: "Archéologue"
+      C: "Paléontologue"
+      D: "Historien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Ross's job before he becomes a professor?"
+        answers:
+          A: "Geologist"
+          B: "Archaeologist"
+          C: "Paleontologist"
+          D: "Historian"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom de la petite amie de Ross qui est aussi la fille de son patron ?"
+    answers:
+      A: "Elizabeth"
+      B: "Emily"
+      C: "Julie"
+      D: "Mona"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Ross's girlfriend who is also his boss's daughter?"
+        answers:
+          A: "Elizabeth"
+          B: "Emily"
+          C: "Julie"
+          D: "Mona"
+    difficulty: HARD
+  - text: "Quel est le prénom de la femme que Ross épouse à Las Vegas alors qu'il est ivre ?"
+    answers:
+      A: "Mona"
+      B: "Emily"
+      C: "Rachel"
+      D: "Charlie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of the woman Ross marries in Las Vegas while drunk?"
+        answers:
+          A: "Mona"
+          B: "Emily"
+          C: "Rachel"
+          D: "Charlie"
+    difficulty: HARD
+  - text: "Quel est le nom du café que Rachel et Monica fréquentent avant Central Perk ?"
+    answers:
+      A: "Central Perk"
+      B: "Java Joe's"
+      C: "Coffee Bean"
+      D: "The Perk"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the coffee shop Rachel and Monica go to before Central Perk?"
+        answers:
+          A: "Central Perk"
+          B: "Java Joe's"
+          C: "Coffee Bean"
+          D: "The Perk"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du petit ami de Phoebe qui s'appelle aussi 'Le flic' ?"
+    answers:
+      A: "David"
+      B: "Parker"
+      C: "Mike"
+      D: "Gary"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Phoebe's boyfriend who is also called 'The Cop'?"
+        answers:
+          A: "David"
+          B: "Parker"
+          C: "Mike"
+          D: "Gary"
+    difficulty: HARD
+  - text: "Quel est le métier de Jack Geller, le père de Monica et Ross ?"
+    answers:
+      A: "Avocat"
+      B: "Vendeur de vêtements pour enfants"
+      C: "Médecin"
+      D: "Ingénieur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Jack Geller's job, Monica and Ross's father?"
+        answers:
+          A: "Lawyer"
+          B: "Children's clothing salesman"
+          C: "Doctor"
+          D: "Engineer"
+    difficulty: HARD
+  - text: "Quel est le prénom du premier enfant de Ross et Carol ?"
+    answers:
+      A: "Jack"
+      B: "Ben"
+      C: "Michael"
+      D: "Henry"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Ross and Carol's first child?"
+        answers:
+          A: "Jack"
+          B: "Ben"
+          C: "Michael"
+          D: "Henry"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom de la femme que Ross épouse à Londres ?"
+    answers:
+      A: "Elizabeth"
+      B: "Rachel"
+      C: "Carol"
+      D: "Emily"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of the woman Ross marries in London?"
+        answers:
+          A: "Elizabeth"
+          B: "Rachel"
+          C: "Carol"
+          D: "Emily"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du singe de Ross ?"
+    answers:
+      A: "Milo"
+      B: "Marcel"
+      C: "Momo"
+      D: "Manny"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Ross's monkey?"
+        answers:
+          A: "Milo"
+          B: "Marcel"
+          C: "Momo"
+          D: "Manny"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom du petit ami de Phoebe qui est scientifique et part en Minsk ?"
+    answers:
+      A: "David"
+      B: "Mike"
+      C: "Gary"
+      D: "Parker"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Phoebe's boyfriend who is a scientist and leaves for Minsk?"
+        answers:
+          A: "David"
+          B: "Mike"
+          C: "Gary"
+          D: "Parker"
+    difficulty: HARD
+  - text: "Quel est le prénom de la femme de Chandler et Monica ?"
+    answers:
+      A: "Monica"
+      B: "Chandler"
+      C: "Phoebe"
+      D: "Rachel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Chandler and Monica's wife?"
+        answers:
+          A: "Monica"
+          B: "Chandler"
+          C: "Phoebe"
+          D: "Rachel"
+    difficulty: EASY
+  - text: "Quel est le prénom du troisième enfant de Monica et Chandler ?"
+    answers:
+      A: "Ben"
+      B: "Jack"
+      C: "Michael"
+      D: "Henry"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Monica and Chandler's third child?"
+        answers:
+          A: "Ben"
+          B: "Jack"
+          C: "Michael"
+          D: "Henry"
+    difficulty: EXPERT
+  - text: "Quel est le prénom de la mère biologique de Phoebe ?"
+    answers:
+      A: "Phoebe Abbott"
+      B: "Lily Buffay"
+      C: "Frances"
+      D: "Ursula"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Phoebe's biological mother?"
+        answers:
+          A: "Phoebe Abbott"
+          B: "Lily Buffay"
+          C: "Frances"
+          D: "Ursula"
+    difficulty: HARD
+  - text: "Quel est le prénom du père biologique de Phoebe ?"
+    answers:
+      A: "Leonard Green"
+      B: "Jack Geller"
+      C: "Charles Bing"
+      D: "Frank Buffay Sr."
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Phoebe's biological father?"
+        answers:
+          A: "Leonard Green"
+          B: "Jack Geller"
+          C: "Charles Bing"
+          D: "Frank Buffay Sr."
+    difficulty: HARD
+  - text: "Quel est le métier de Frank Buffay Sr., le père biologique de Phoebe ?"
+    answers:
+      A: "Professeur"
+      B: "Médecin"
+      C: "Avocat"
+      D: "Chimiste"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the profession of Frank Buffay Sr., Phoebe's biological father?"
+        answers:
+          A: "Professor"
+          B: "Doctor"
+          C: "Lawyer"
+          D: "Chemist"
+    difficulty: EXPERT
+  - text: "Quel est le prénom de la sœur de Joey qui embrasse Chandler ?"
+    answers:
+      A: "Mary Alice"
+      B: "Mary Theresa"
+      C: "Mary Angela"
+      D: "Mary Kate"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Joey's sister who kisses Chandler?"
+        answers:
+          A: "Mary Alice"
+          B: "Mary Theresa"
+          C: "Mary Angela"
+          D: "Mary Kate"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du bébé de Frank Jr. et Alice que Phoebe porte ?"
+    answers:
+      A: "Joey"
+      B: "Chandler"
+      C: "Frank Jr. Jr."
+      D: "Ross"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Frank Jr. and Alice's baby that Phoebe carries?"
+        answers:
+          A: "Joey"
+          B: "Chandler"
+          C: "Frank Jr. Jr."
+          D: "Ross"
+    difficulty: EXPERT
+  - text: "En quelle année se déroule l'épisode pilote de Friends ?"
+    answers:
+      A: "1993"
+      B: "1996"
+      C: "1995"
+      D: "1994"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year does the pilot episode of Friends take place?"
+        answers:
+          A: "1993"
+          B: "1996"
+          C: "1995"
+          D: "1994"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du perroquet de Mike Hannigan ?"
+    answers:
+      A: "Benny"
+      B: "Fredo"
+      C: "Marco"
+      D: "Enzo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Mike Hannigan's parrot?"
+        answers:
+          A: "Benny"
+          B: "Fredo"
+          C: "Marco"
+          D: "Enzo"
+    difficulty: EXPERT
+  - text: "Combien de sœurs a Rachel Green ?"
+    answers:
+      A: "Une"
+      B: "Trois"
+      C: "Deux"
+      D: "Aucune"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many sisters does Rachel Green have?"
+        answers:
+          A: "One"
+          B: "Three"
+          C: "Two"
+          D: "None"
+    difficulty: HARD
+  - text: "Quel est le prénom de la sœur de Rachel qui embrasse Ross ?"
+    answers:
+      A: "Amy"
+      B: "Franny"
+      C: "Leslie"
+      D: "Jill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Rachel's sister who kisses Ross?"
+        answers:
+          A: "Amy"
+          B: "Franny"
+          C: "Leslie"
+          D: "Jill"
+    difficulty: HARD
+  - text: "Quel est le prénom de l'autre sœur de Rachel ?"
+    answers:
+      A: "Franny"
+      B: "Jill"
+      C: "Leslie"
+      D: "Amy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Rachel's other sister?"
+        answers:
+          A: "Franny"
+          B: "Jill"
+          C: "Leslie"
+          D: "Amy"
+    difficulty: HARD
+  - text: "Quel est le prénom du premier petit ami de Monica dans la série ?"
+    answers:
+      A: "Alan"
+      B: "Richard"
+      C: "Paul"
+      D: "Pete"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Monica's first boyfriend in the series?"
+        answers:
+          A: "Alan"
+          B: "Richard"
+          C: "Paul"
+          D: "Pete"
+    difficulty: HARD
+  - text: "Quel est le métier de Pete Becker, le milliardaire qui sort avec Monica ?"
+    answers:
+      A: "Immobilier"
+      B: "Restauration"
+      C: "Finance"
+      D: "Informatique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the profession of Pete Becker, the billionaire who dates Monica?"
+        answers:
+          A: "Real estate"
+          B: "Restaurant"
+          C: "Finance"
+          D: "IT"
+    difficulty: HARD
+  - text: "Quelle est la nationalité de Paolo, le premier petit ami italien de Rachel ?"
+    answers:
+      A: "Espagnole"
+      B: "Italienne"
+      C: "Française"
+      D: "Grecque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the nationality of Paolo, Rachel's first Italian boyfriend?"
+        answers:
+          A: "Spanish"
+          B: "Italian"
+          C: "French"
+          D: "Greek"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom de la femme dont Ross divorce avant le début de la série ?"
+    answers:
+      A: "Emily"
+      B: "Carol"
+      C: "Rachel"
+      D: "Julie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of the woman Ross divorces before the series begins?"
+        answers:
+          A: "Emily"
+          B: "Carol"
+          C: "Rachel"
+          D: "Julie"
+    difficulty: HARD
+  - text: "Quel est le prénom de la petite amie de Ross qui est paléontologue ?"
+    answers:
+      A: "Charlie"
+      B: "Bonnie"
+      C: "Julie"
+      D: "Elizabeth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Ross's girlfriend who is a paleontologist?"
+        answers:
+          A: "Charlie"
+          B: "Bonnie"
+          C: "Julie"
+          D: "Elizabeth"
+    difficulty: HARD
+  - text: "Quel est le prénom de la petite amie de Ross qui est étudiante ?"
+    answers:
+      A: "Mona"
+      B: "Bonnie"
+      C: "Elizabeth"
+      D: "Charlie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Ross's girlfriend who is a student?"
+        answers:
+          A: "Mona"
+          B: "Bonnie"
+          C: "Elizabeth"
+          D: "Charlie"
+    difficulty: HARD
+  - text: "Quel est le métier de Charlie Wheeler, la petite amie de Ross ?"
+    answers:
+      A: "Professeure de littérature"
+      B: "Paléontologue"
+      C: "Avocate"
+      D: "Médecin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the profession of Charlie Wheeler, Ross's girlfriend?"
+        answers:
+          A: "Literature professor"
+          B: "Paleontologist"
+          C: "Lawyer"
+          D: "Doctor"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du petit ami de Monica qui est plus âgé qu'elle ?"
+    answers:
+      A: "Richard"
+      B: "Pete"
+      C: "Alan"
+      D: "Paul"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Monica's boyfriend who is older than her?"
+        answers:
+          A: "Richard"
+          B: "Pete"
+          C: "Alan"
+          D: "Paul"
+    difficulty: MEDIUM
+  - text: "Quel est le métier de Richard Burke ?"
+    answers:
+      A: "Cardiologue"
+      B: "Dentiste"
+      C: "Ophtalmologue"
+      D: "Dermatologue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Richard Burke's profession?"
+        answers:
+          A: "Cardiologist"
+          B: "Dentist"
+          C: "Ophthalmologist"
+          D: "Dermatologist"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom du fils de Richard Burke ?"
+    answers:
+      A: "Michael"
+      B: "Daniel"
+      C: "Timothy"
+      D: "Robert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Richard Burke's son?"
+        answers:
+          A: "Michael"
+          B: "Daniel"
+          C: "Timothy"
+          D: "Robert"
+    difficulty: EXPERT
+  - text: "Quel est le prénom de la femme de Chandler avant Monica ?"
+    answers:
+      A: "Janice"
+      B: "Kathy"
+      C: "Aurora"
+      D: "Mona"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Chandler's wife before Monica?"
+        answers:
+          A: "Janice"
+          B: "Kathy"
+          C: "Aurora"
+          D: "Mona"
+    difficulty: EXPERT
+  - text: "Quel est le métier de Kathy, la petite amie de Chandler ?"
+    answers:
+      A: "Danseuse"
+      B: "Serveuse"
+      C: "Mannequin"
+      D: "Actrice"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the profession of Kathy, Chandler's girlfriend?"
+        answers:
+          A: "Dancer"
+          B: "Waitress"
+          C: "Model"
+          D: "Actress"
+    difficulty: HARD
+  - text: "Quel est le prénom du collègue de travail de Chandler qui sort avec Monica ?"
+    answers:
+      A: "Pete"
+      B: "Bob"
+      C: "Richard"
+      D: "Alan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Chandler's coworker who dates Monica?"
+        answers:
+          A: "Pete"
+          B: "Bob"
+          C: "Richard"
+          D: "Alan"
+    difficulty: HARD
+  - text: "Quel est le prénom du patron de Rachel chez Ralph Lauren ?"
+    answers:
+      A: "Mr. Rastatter"
+      B: "Mr. Kaplan"
+      C: "Mr. Waltham"
+      D: "Mr. Zelner"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Rachel's boss at Ralph Lauren?"
+        answers:
+          A: "Mr. Rastatter"
+          B: "Mr. Kaplan"
+          C: "Mr. Waltham"
+          D: "Mr. Zelner"
+    difficulty: HARD
+  - text: "Quel est le prénom de la collègue de Rachel qui sort avec Tag ?"
+    answers:
+      A: "Melissa"
+      B: "Sophie"
+      C: "Nancy"
+      D: "Laura"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Rachel's coworker who dates Tag?"
+        answers:
+          A: "Melissa"
+          B: "Sophie"
+          C: "Nancy"
+          D: "Laura"
+    difficulty: EXPERT
+  - text: "Quel est le métier de Monica dans la saison 1 ?"
+    answers:
+      A: "Serveuse au Central Perk"
+      B: "Chef cuisinière"
+      C: "Professeure de danse"
+      D: "Assistante de mode"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Monica's job in season 1?"
+        answers:
+          A: "Waitress at Central Perk"
+          B: "Head chef"
+          C: "Dance teacher"
+          D: "Fashion assistant"
+    difficulty: MEDIUM
+  - text: "Quel est le deuxième prénom de Ross ?"
+    answers:
+      A: "Michael"
+      B: "Geller"
+      C: "Eustace"
+      D: "David"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Ross's middle name?"
+        answers:
+          A: "Michael"
+          B: "Geller"
+          C: "Eustace"
+          D: "David"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'ex-femme de Ross qui est lesbienne ?"
+    answers:
+      A: "Carol"
+      B: "Susan"
+      C: "Emily"
+      D: "Elizabeth"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Ross's ex-wife who is a lesbian?"
+        answers:
+          A: "Carol"
+          B: "Susan"
+          C: "Emily"
+          D: "Elizabeth"
+    difficulty: EASY
+  - text: "Quel est le prénom de la femme avec qui Ross se marie à Vegas ?"
+    answers:
+      A: "Emily"
+      B: "Rachel"
+      C: "Carol"
+      D: "Susan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of the woman Ross marries in Vegas?"
+        answers:
+          A: "Emily"
+          B: "Rachel"
+          C: "Carol"
+          D: "Susan"
+    difficulty: HARD
+  - text: "Quel est le nom du père de Monica et Ross ?"
+    answers:
+      A: "Frank Buffay"
+      B: "Charles Bing"
+      C: "Jack Geller"
+      D: "Leonard Green"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Monica and Ross's father?"
+        answers:
+          A: "Frank Buffay"
+          B: "Charles Bing"
+          C: "Jack Geller"
+          D: "Leonard Green"
+    difficulty: EASY
+  - text: "Quel est le métier de Phoebe dans la saison 1 ?"
+    answers:
+      A: "Professeure de musique"
+      B: "Masseuse"
+      C: "Serveuse"
+      D: "Fleuriste"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Phoebe's job in season 1?"
+        answers:
+          A: "Music teacher"
+          B: "Masseuse"
+          C: "Waitress"
+          D: "Florist"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du canard de Chandler et Joey ?"
+    answers:
+      A: "Donald"
+      B: "Canard"
+      C: "Daffy"
+      D: "Howard"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Chandler and Joey's duck?"
+        answers:
+          A: "Donald"
+          B: "Duck"
+          C: "Daffy"
+          D: "Howard"
+    difficulty: EASY
+  - text: "Quel est le nom du poulet de Chandler et Joey ?"
+    answers:
+      A: "Henri"
+      B: "Chick"
+      C: "Poulet"
+      D: "Colonel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Chandler and Joey's chicken?"
+        answers:
+          A: "Henri"
+          B: "Chick"
+          C: "Chicken"
+          D: "Colonel"
+    difficulty: EASY
+  - text: "Quel est le métier de Ross dans la saison 1 ?"
+    answers:
+      A: "Paléontologue"
+      B: "Professeur"
+      C: "Médecin"
+      D: "Avocat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Ross's job in season 1?"
+        answers:
+          A: "Paleontologist"
+          B: "Professor"
+          C: "Doctor"
+          D: "Lawyer"
+    difficulty: EASY
+  - text: "Quel est le nom complet de l'entreprise pour laquelle Chandler travaille dans le début de la série ?"
+    answers:
+      A: "Geller Paleontology Inc."
+      B: "Hannigan & Associates"
+      C: "Tribbiani & Partners"
+      D: "Wineberg, Ludwin & Zellner"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the full name of the company Chandler works for early in the series?"
+        answers:
+          A: "Geller Paleontology Inc."
+          B: "Hannigan & Associates"
+          C: "Tribbiani & Partners"
+          D: "Wineberg, Ludwin & Zellner"
+    difficulty: EXPERT
+  - text: "Quel personnage joue du tuba dans l'épisode 'The One with the Ring' ?"
+    answers:
+      A: "Monica"
+      B: "Ross"
+      C: "Rachel"
+      D: "Phoebe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character plays the tuba in the episode 'The One with the Ring'?"
+        answers:
+          A: "Monica"
+          B: "Ross"
+          C: "Rachel"
+          D: "Phoebe"
+    difficulty: EXPERT
+  - text: "Quel est le titre du livre écrit par Ross sur la paléontologie ?"
+    answers:
+      A: "Dinosaures et compagnie"
+      B: "Paléontologie pour les nuls"
+      C: "Les dinosaures du Jurassique"
+      D: "La vie des dinosaures"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the book Ross wrote about paleontology?"
+        answers:
+          A: "Dinosaurs and Company"
+          B: "Paleontology for Dummies"
+          C: "The Dinosaurs of the Jurassic"
+          D: "The Life of Dinosaurs"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la pièce de théâtre dans laquelle Joey joue à Broadway dans la saison 8 ?"
+    answers:
+      A: "Boxing Day"
+      B: "Le père Noël est une ordure"
+      C: "La femme en rouge"
+      D: "Roméo et Juliette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the play in which Joey performs on Broadway in season 8?"
+        answers:
+          A: "Boxing Day"
+          B: "Santa Claus Is a Garbage Man"
+          C: "The Woman in Red"
+          D: "Romeo and Juliet"
+    difficulty: HARD
+  - text: "Quel est le prénom du frère jumeau de Phoebe (le frère, pas la sœur) ?"
+    answers:
+      A: "Ursula"
+      B: "Frank"
+      C: "Peter"
+      D: "Mike"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Phoebe's twin brother (the brother, not the sister)?"
+        answers:
+          A: "Ursula"
+          B: "Frank"
+          C: "Peter"
+          D: "Mike"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du café que Rachel tente d'ouvrir avec Gunther ?"
+    answers:
+      A: "Central Perk"
+      B: "Central Park"
+      C: "Le café de Rachel"
+      D: "Le Perk"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the café Rachel tries to open with Gunther?"
+        answers:
+          A: "Central Perk"
+          B: "Central Park"
+          C: "Rachel's Café"
+          D: "The Perk"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la société de Joey dans la série dérivée 'Joey' ?"
+    answers:
+      A: "Joey Tribbiani Productions"
+      B: "Tribbiani Inc."
+      C: "Joey's Pizza"
+      D: "Aucune, il n'a pas de société"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Joey's company in the spin-off 'Joey'?"
+        answers:
+          A: "Joey Tribbiani Productions"
+          B: "Tribbiani Inc."
+          C: "Joey's Pizza"
+          D: "None, he doesn't have a company"
+    difficulty: EXPERT
+  - text: "Quel personnage a accidentellement envoyé une invitation de mariage à Rachel et Ross ?"
+    answers:
+      A: "Monica"
+      B: "Chandler"
+      C: "Phoebe"
+      D: "Emily"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character accidentally sent a wedding invitation to Rachel and Ross?"
+        answers:
+          A: "Monica"
+          B: "Chandler"
+          C: "Phoebe"
+          D: "Emily"
+    difficulty: HARD
+  - text: "Quel est le nom du jeu que Chandler et Joey jouent avec leurs poulets et canards ?"
+    answers:
+      A: "Monopoly"
+      B: "Scrabble"
+      C: "Twister"
+      D: "Pictionary"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the game Chandler and Joey play with their chickens and ducks?"
+        answers:
+          A: "Monopoly"
+          B: "Scrabble"
+          C: "Twister"
+          D: "Pictionary"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier petit ami de Rachel dans la série ?"
+    answers:
+      A: "Barry"
+      B: "Paolo"
+      C: "Tag"
+      D: "Joshua"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Rachel's first boyfriend in the series?"
+        answers:
+          A: "Barry"
+          B: "Paolo"
+          C: "Tag"
+          D: "Joshua"
+    difficulty: HARD
+  - text: "Quel est le nom du patron de Monica au restaurant 'Alessandro's' ?"
+    answers:
+      A: "Mr. Kaplan"
+      B: "Gunther"
+      C: "Alessandro"
+      D: "Pete Becker"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Monica's boss at the restaurant 'Alessandro's'?"
+        answers:
+          A: "Mr. Kaplan"
+          B: "Gunther"
+          C: "Alessandro"
+          D: "Pete Becker"
+    difficulty: EXPERT
+  - text: "Quel personnage a une peur panique des échasses ?"
+    answers:
+      A: "Ross"
+      B: "Monica"
+      C: "Chandler"
+      D: "Phoebe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character has a panic fear of stilts?"
+        answers:
+          A: "Ross"
+          B: "Monica"
+          C: "Chandler"
+          D: "Phoebe"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du frère de Joey qui est agent immobilier ?"
+    answers:
+      A: "Aucun, Joey n'a pas de frère agent immobilier"
+      B: "Gina"
+      C: "Dina"
+      D: "Tony"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Joey's brother who is a real estate agent?"
+        answers:
+          A: "None, Joey doesn't have a brother who is a real estate agent"
+          B: "Gina"
+          C: "Dina"
+          D: "Tony"
+    difficulty: EXPERT
+  - text: "Quel est le nom du restaurant où Monica travaille comme chef dans la saison 4 ?"
+    answers:
+      A: "Alessandro's"
+      B: "Le restaurant de Monica"
+      C: "Le Central Perk"
+      D: "Javu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the restaurant where Monica works as a chef in season 4?"
+        answers:
+          A: "Alessandro's"
+          B: "Monica's restaurant"
+          C: "Central Perk"
+          D: "Javu"
+    difficulty: HARD
+  - text: "Quel personnage a embrassé Chandler lors du Nouvel An dans la saison 5 ?"
+    answers:
+      A: "Monica"
+      B: "Rachel"
+      C: "Phoebe"
+      D: "Kathy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character kissed Chandler on New Year's Eve in season 5?"
+        answers:
+          A: "Monica"
+          B: "Rachel"
+          C: "Phoebe"
+          D: "Kathy"
+    difficulty: HARD
+  - text: "Quel est le nom de la pièce que Joey a écrite et dans laquelle il joue ?"
+    answers:
+      A: "Boxing Day"
+      B: "La femme en rouge"
+      C: "Freud!"
+      D: "Le père Noël est une ordure"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the play that Joey wrote and in which he acts?"
+        answers:
+          A: "Boxing Day"
+          B: "The Woman in Red"
+          C: "Freud!"
+          D: "Santa Claus Is a Stinker"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du bébé de Ross et Rachel ?"
+    answers:
+      A: "Ben"
+      B: "Emma"
+      C: "Jack"
+      D: "Erica"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Ross and Rachel's baby?"
+        answers:
+          A: "Ben"
+          B: "Emma"
+          C: "Jack"
+          D: "Erica"
+    difficulty: EASY
+  - text: "Quel personnage a accidentellement proposé le mariage à Rachel dans la saison 6 ?"
+    answers:
+      A: "Ross"
+      B: "Monica"
+      C: "Chandler"
+      D: "Joey"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character accidentally proposed marriage to Rachel in season 6?"
+        answers:
+          A: "Ross"
+          B: "Monica"
+          C: "Chandler"
+          D: "Joey"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du canapé que Chandler et Joey ont acheté et qui est trop grand pour l'escalier ?"
+    answers:
+      A: "Le canapé rouge"
+      B: "Le canapé vert"
+      C: "Le canapé en cuir"
+      D: "Le canapé blanc"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the couch that Chandler and Joey bought that is too big for the stairs?"
+        answers:
+          A: "The red couch"
+          B: "The green couch"
+          C: "The leather couch"
+          D: "The white couch"
+    difficulty: HARD
+  - text: "Quel est le prénom du scientifique avec qui Ross a une rivalité universitaire ?"
+    answers:
+      A: "Charles"
+      B: "David"
+      C: "Russell"
+      D: "Burke"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of the scientist with whom Ross has a university rivalry?"
+        answers:
+          A: "Charles"
+          B: "David"
+          C: "Russell"
+          D: "Burke"
+    difficulty: EXPERT
+  - text: "Quel est le prénom de l'acteur qui joue le rôle de Drake Ramoray dans 'Days of Our Lives' ?"
+    answers:
+      A: "Matt LeBlanc"
+      B: "Joey Tribbiani"
+      C: "Jessica Lockhart"
+      D: "Drake Ramoray"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of the actor who plays the role of Drake Ramoray in 'Days of Our Lives'?"
+        answers:
+          A: "Matt LeBlanc"
+          B: "Joey Tribbiani"
+          C: "Jessica Lockhart"
+          D: "Drake Ramoray"
+    difficulty: HARD
+  - text: "Dans quelle ville Phoebe a-t-elle tourné la vidéo 'The One with the Thumb' ?"
+    answers:
+      A: "New York"
+      B: "Las Vegas"
+      C: "Atlantic City"
+      D: "Boston"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which city did Phoebe film the video 'The One with the Thumb'?"
+        answers:
+          A: "New York"
+          B: "Las Vegas"
+          C: "Atlantic City"
+          D: "Boston"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du mari de Monica dans la saison 10 ?"
+    answers:
+      A: "Gavin"
+      B: "Richard"
+      C: "Pete"
+      D: "Chandler"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Monica's husband in season 10?"
+        answers:
+          A: "Gavin"
+          B: "Richard"
+          C: "Pete"
+          D: "Chandler"
+    difficulty: EASY
+  - text: "Quel est le nom de la poupée que Joey a fabriquée avec une tête de poulet et un corps de canard ?"
+    answers:
+      A: "Cluck Duck"
+      B: "Quackers"
+      C: "Feathers"
+      D: "Chick Jr."
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the doll that Joey made with a chicken head and a duck body?"
+        answers:
+          A: "Cluck Duck"
+          B: "Quackers"
+          C: "Feathers"
+          D: "Chick Jr."
+    difficulty: EXPERT
+  - text: "Quel est le prénom du petit ami de Rachel qui est un skieur professionnel ?"
+    answers:
+      A: "Joshua"
+      B: "Tag"
+      C: "Paolo"
+      D: "Danny"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Rachel's boyfriend who is a professional skier?"
+        answers:
+          A: "Joshua"
+          B: "Tag"
+          C: "Paolo"
+          D: "Danny"
+    difficulty: HARD
+  - text: "Quel est le nom du restaurant où Monica travaille comme chef dans la saison 2 ?"
+    answers:
+      A: "Iridium"
+      B: "Alessandro's"
+      C: "Javu"
+      D: "Marcel's"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the restaurant where Monica works as a chef in season 2?"
+        answers:
+          A: "Iridium"
+          B: "Alessandro's"
+          C: "Javu"
+          D: "Marcel's"
+    difficulty: HARD
+  - text: "Quel est le prénom de la femme que Ross épouse à Las Vegas dans la saison 5 ?"
+    answers:
+      A: "Rachel"
+      B: "Emily"
+      C: "Carol"
+      D: "Monica"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of the woman Ross marries in Las Vegas in season 5?"
+        answers:
+          A: "Rachel"
+          B: "Emily"
+          C: "Carol"
+          D: "Monica"
+    difficulty: HARD
+  - text: "Quel personnage a joué le rôle de 'Marcel' le singe ?"
+    answers:
+      A: "Monkey"
+      B: "Katie"
+      C: "Marcel"
+      D: "Gunther"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character played the role of 'Marcel' the monkey?"
+        answers:
+          A: "Monkey"
+          B: "Katie"
+          C: "Marcel"
+          D: "Gunther"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom du petit ami de Phoebe qui est scientifique ?"
+    answers:
+      A: "Mike"
+      B: "Gary"
+      C: "David"
+      D: "Vince"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Phoebe's boyfriend who is a scientist?"
+        answers:
+          A: "Mike"
+          B: "Gary"
+          C: "David"
+          D: "Vince"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sœur de Joey qui est coiffeuse ?"
+    answers:
+      A: "Gina"
+      B: "Tina"
+      C: "Mary Angela"
+      D: "Dina"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Joey's sister who is a hairdresser?"
+        answers:
+          A: "Gina"
+          B: "Tina"
+          C: "Mary Angela"
+          D: "Dina"
+    difficulty: EXPERT
+  - text: "Quel est le titre de l'épisode où Ross et Rachel s'embrassent pour la première fois ?"
+    answers:
+      A: "The One Where Ross and Rachel... You Know"
+      B: "The One with the Prom Video"
+      C: "The One with the Morning After"
+      D: "The One with the Cheap Wedding Dress"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the episode where Ross and Rachel kiss for the first time?"
+        answers:
+          A: "The One Where Ross and Rachel... You Know"
+          B: "The One with the Prom Video"
+          C: "The One with the Morning After"
+          D: "The One with the Cheap Wedding Dress"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du fils de Phoebe et Mike ?"
+    answers:
+      A: "Leslie"
+      B: "Chandler"
+      C: "Mike"
+      D: "Frank Jr. Jr."
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Phoebe and Mike's son?"
+        answers:
+          A: "Leslie"
+          B: "Chandler"
+          C: "Mike"
+          D: "Frank Jr. Jr."
+    difficulty: EXPERT
+  - text: "Quel est le métier de Gunther au Central Perk ?"
+    answers:
+      A: "Serveur"
+      B: "Gérant"
+      C: "Barista"
+      D: "Propriétaire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Gunther's job at Central Perk?"
+        answers:
+          A: "Waiter"
+          B: "Manager"
+          C: "Barista"
+          D: "Owner"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la robe de mariée que Monica veut acheter dans la saison 7 ?"
+    answers:
+      A: "Vera Wang"
+      B: "Monique"
+      C: "Catherine"
+      D: "Audrey"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the wedding dress Monica wants to buy in season 7?"
+        answers:
+          A: "Vera Wang"
+          B: "Monique"
+          C: "Catherine"
+          D: "Audrey"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du petit ami de Monica qui est millionnaire ?"
+    answers:
+      A: "Alan"
+      B: "Richard"
+      C: "Pete"
+      D: "Fun Bobby"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Monica's boyfriend who is a millionaire?"
+        answers:
+          A: "Alan"
+          B: "Richard"
+          C: "Pete"
+          D: "Fun Bobby"
+    difficulty: HARD
+  - text: "Quel personnage a accidentellement coupé la queue de Marcel ?"
+    answers:
+      A: "Chandler"
+      B: "Monica"
+      C: "Rachel"
+      D: "Phoebe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character accidentally cut off Marcel's tail?"
+        answers:
+          A: "Chandler"
+          B: "Monica"
+          C: "Rachel"
+          D: "Phoebe"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'agence de mannequins pour laquelle Rachel travaille à Paris ?"
+    answers:
+      A: "Fortunata Fashions"
+      B: "Ralph Lauren"
+      C: "Bloomingdale's"
+      D: "Louis Vuitton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the modeling agency Rachel works for in Paris?"
+        answers:
+          A: "Fortunata Fashions"
+          B: "Ralph Lauren"
+          C: "Bloomingdale's"
+          D: "Louis Vuitton"
+    difficulty: EXPERT
+  - text: "Quel est le prénom de la fille de Ross et Emily ?"
+    answers:
+      A: "Ben"
+      B: "Emma"
+      C: "Emily"
+      D: "Carol"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Ross and Emily's daughter?"
+        answers:
+          A: "Ben"
+          B: "Emma"
+          C: "Emily"
+          D: "Carol"
+    difficulty: EXPERT

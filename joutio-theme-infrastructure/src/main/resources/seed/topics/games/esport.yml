@@ -1,0 +1,1631 @@
+topic:
+  id: topic-esport
+  names:
+    fr: "E-sport & jeux en ligne"
+    en: "Esports & Online Gaming"
+  description: "Explorez la scène compétitive des jeux en ligne, des Worlds de League of Legends à The International de Dota 2. Retrouvez les équipes légendaires, les joueurs stars, les grands tournois et le vocabulaire des FPS, MOBA et battle royale. Un thème pour les passionnés d'e-sport comme pour les curieux qui veulent découvrir l'histoire des plus grandes compétitions internationales."
+  category: GAMES
+  titles:
+    fr:
+      FER: "Bleu qui feed"
+      BRONZE: "Silver tryhard"
+      ARGENT: "Gold en promos"
+      OR: "Platine rangé"
+      PLATINE: "Diamant focus"
+      EMERAUDE: "Challenger des Worlds"
+      DIAMANT: "Légende du Nexus"
+    en:
+      FER: "Feeding Noob"
+      BRONZE: "Silver Tryhard"
+      ARGENT: "Gold Promos"
+      OR: "Plat Climb"
+      PLATINE: "Diamond Focus"
+      EMERAUDE: "Worlds Challenger"
+      DIAMANT: "Nexus Legend"
+  imageUrl: wikipedia/games/GAME_CITY_2019.jpg
+questions:
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends 2020 ?"
+    answers:
+      A: "Team Liquid"
+      B: "Suning"
+      C: "DAMWON Gaming"
+      D: "Fnatic"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship 2020?"
+        answers:
+          A: "Team Liquid"
+          B: "Suning"
+          C: "DAMWON Gaming"
+          D: "Fnatic"
+    difficulty: MEDIUM
+  - text: "Quel joueur est considéré comme le meilleur joueur de l'histoire de Counter-Strike ?"
+    answers:
+      A: "device"
+      B: "ZywOo"
+      C: "s1mple"
+      D: "olofmeister"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player is considered the best player in Counter-Strike history?"
+        answers:
+          A: "device"
+          B: "ZywOo"
+          C: "s1mple"
+          D: "olofmeister"
+    difficulty: HARD
+  - text: "En quelle année s'est tenu le premier The International de Dota 2 ?"
+    answers:
+      A: "2011"
+      B: "2010"
+      C: "2012"
+      D: "2013"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the first Dota 2 The International held?"
+        answers:
+          A: "2011"
+          B: "2010"
+          C: "2012"
+          D: "2013"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le plus de titres de MVP aux Championnats du monde de League of Legends ?"
+    answers:
+      A: "Caps"
+      B: "Rookie"
+      C: "Doinb"
+      D: "Faker"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player has won the most MVP titles at the League of Legends World Championship?"
+        answers:
+          A: "Caps"
+          B: "Rookie"
+          C: "Doinb"
+          D: "Faker"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté The International 2019 sur Dota 2 ?"
+    answers:
+      A: "Team Secret"
+      B: "Team Liquid"
+      C: "PSG.LGD"
+      D: "OG"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won The International 2019 in Dota 2?"
+        answers:
+          A: "Team Secret"
+          B: "Team Liquid"
+          C: "PSG.LGD"
+          D: "OG"
+    difficulty: MEDIUM
+  - text: "Dans Rocket League, combien de joueurs par équipe jouent en compétition standard ?"
+    answers:
+      A: "3"
+      B: "2"
+      C: "4"
+      D: "5"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Rocket League, how many players per team play in standard competition?"
+        answers:
+          A: "3"
+          B: "2"
+          C: "4"
+          D: "5"
+    difficulty: EASY
+  - text: "Quel est le nom du tournoi annuel de Counter-Strike organisé par Valve ?"
+    answers:
+      A: "The International"
+      B: "Major"
+      C: "Worlds"
+      D: "Masters"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the annual Counter-Strike tournament organized by Valve?"
+        answers:
+          A: "The International"
+          B: "Major"
+          C: "Worlds"
+          D: "Masters"
+    difficulty: EASY
+  - text: "Quel joueur détient le record du plus grand nombre de victoires à The International ?"
+    answers:
+      A: "ana"
+      B: "JerAx"
+      C: "N0tail"
+      D: "Topson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for the most wins at The International?"
+        answers:
+          A: "ana"
+          B: "JerAx"
+          C: "N0tail"
+          D: "Topson"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends 2021 ?"
+    answers:
+      A: "EDward Gaming"
+      B: "DWG KIA"
+      C: "T1"
+      D: "Gen.G"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship 2021?"
+        answers:
+          A: "EDward Gaming"
+          B: "DWG KIA"
+          C: "T1"
+          D: "Gen.G"
+    difficulty: MEDIUM
+  - text: "Dans Fortnite, quel est le nom du mode de jeu principal en battle royale ?"
+    answers:
+      A: "Bataille royale"
+      B: "Sauver le monde"
+      C: "Créatif"
+      D: "Party royale"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Fortnite, what is the name of the main battle royale game mode?"
+        answers:
+          A: "Battle Royale"
+          B: "Save the World"
+          C: "Creative"
+          D: "Party Royale"
+    difficulty: EASY
+  - text: "Quel est le pseudonyme du joueur français star de Counter-Strike, connu pour son passage chez Vitality ?"
+    answers:
+      A: "shox"
+      B: "ZywOo"
+      C: "NBK-"
+      D: "kennyS"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the pseudonym of the French Counter-Strike star player, known for his time at Vitality?"
+        answers:
+          A: "shox"
+          B: "ZywOo"
+          C: "NBK-"
+          D: "kennyS"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté The International 2017 sur Dota 2 ?"
+    answers:
+      A: "Team Liquid"
+      B: "Newbee"
+      C: "LFY"
+      D: "Virtus.pro"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won The International 2017 in Dota 2?"
+        answers:
+          A: "Team Liquid"
+          B: "Newbee"
+          C: "LFY"
+          D: "Virtus.pro"
+    difficulty: MEDIUM
+  - text: "Combien de joueurs composent une équipe dans Overwatch (format 6v6) ?"
+    answers:
+      A: "6"
+      B: "5"
+      C: "4"
+      D: "7"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many players make up a team in Overwatch (6v6 format)?"
+        answers:
+          A: "6"
+          B: "5"
+          C: "4"
+          D: "7"
+    difficulty: EASY
+  - text: "Quel joueur est célèbre pour avoir remporté trois titres mondiaux consécutifs avec l'équipe OG sur Dota 2 ?"
+    answers:
+      A: "SumaiL"
+      B: "Miracle-"
+      C: "N0tail"
+      D: "Arteezy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player is famous for winning three consecutive world titles with team OG in Dota 2?"
+        answers:
+          A: "SumaiL"
+          B: "Miracle-"
+          C: "N0tail"
+          D: "Arteezy"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends 2022 ?"
+    answers:
+      A: "JDG"
+      B: "T1"
+      C: "DRX"
+      D: "Gen.G"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship 2022?"
+        answers:
+          A: "JDG"
+          B: "T1"
+          C: "DRX"
+          D: "Gen.G"
+    difficulty: MEDIUM
+  - text: "Dans Valorant, quel est le nom de l'agent qui peut se téléporter avec sa compétence signature ?"
+    answers:
+      A: "Brimstone"
+      B: "Omen"
+      C: "Viper"
+      D: "Astra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Valorant, what is the name of the agent who can teleport with their signature ability?"
+        answers:
+          A: "Brimstone"
+          B: "Omen"
+          C: "Viper"
+          D: "Astra"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du joueur de League of Legends considéré comme le meilleur Européen de l'histoire ?"
+    answers:
+      A: "Jankos"
+      B: "Perkz"
+      C: "Rekkles"
+      D: "Caps"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the League of Legends player considered the best European of all time?"
+        answers:
+          A: "Jankos"
+          B: "Perkz"
+          C: "Rekkles"
+          D: "Caps"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté le premier tournoi majeur de Counter-Strike: Global Offensive en 2013 ?"
+    answers:
+      A: "Fnatic"
+      B: "VeryGames"
+      C: "Ninjas in Pyjamas"
+      D: "Astralis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the first major Counter-Strike: Global Offensive tournament in 2013?"
+        answers:
+          A: "Fnatic"
+          B: "VeryGames"
+          C: "Ninjas in Pyjamas"
+          D: "Astralis"
+    difficulty: EXPERT
+  - text: "Combien de manches faut-il remporter pour gagner une partie compétitive de Valorant (hors prolongation) ?"
+    answers:
+      A: "13"
+      B: "12"
+      C: "11"
+      D: "14"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many rounds must be won to win a competitive Valorant match (excluding overtime)?"
+        answers:
+          A: "13"
+          B: "12"
+          C: "11"
+          D: "14"
+    difficulty: EASY
+  - text: "Quel joueur a été MVP des Championnats du monde de League of Legends 2020 ?"
+    answers:
+      A: "ShowMaker"
+      B: "Canyon"
+      C: "Nuguri"
+      D: "Ghost"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was MVP of the 2020 League of Legends World Championship?"
+        answers:
+          A: "ShowMaker"
+          B: "Canyon"
+          C: "Nuguri"
+          D: "Ghost"
+    difficulty: HARD
+  - text: "Quel joueur détient le record du plus grand nombre de titres de MVP aux Championnats du monde de League of Legends ?"
+    answers:
+      A: "ShowMaker"
+      B: "Mata"
+      C: "Rookie"
+      D: "Faker"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most MVP titles at the League of Legends World Championship?"
+        answers:
+          A: "ShowMaker"
+          B: "Mata"
+          C: "Rookie"
+          D: "Faker"
+    difficulty: HARD
+  - text: "Quel joueur est célèbre pour avoir remporté deux titres mondiaux consécutifs avec l'équipe OG sur Dota 2 ?"
+    answers:
+      A: "Miracle-"
+      B: "SumaiL"
+      C: "N0tail"
+      D: "Puppey"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player is famous for winning two consecutive world titles with team OG in Dota 2?"
+        answers:
+          A: "Miracle-"
+          B: "SumaiL"
+          C: "N0tail"
+          D: "Puppey"
+    difficulty: HARD
+  - text: "Quel pays a remporté la première Coupe du monde de Fortnite en 2019 ?"
+    answers:
+      A: "Brésil"
+      B: "Argentine"
+      C: "France"
+      D: "États-Unis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won the first Fortnite World Cup in 2019?"
+        answers:
+          A: "Brazil"
+          B: "Argentina"
+          C: "France"
+          D: "United States"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté The International 2014 sur Dota 2 ?"
+    answers:
+      A: "Evil Geniuses"
+      B: "Vici Gaming"
+      C: "Newbee"
+      D: "DK"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won The International 2014 in Dota 2?"
+        answers:
+          A: "Evil Geniuses"
+          B: "Vici Gaming"
+          C: "Newbee"
+          D: "DK"
+    difficulty: HARD
+  - text: "Quel joueur a été élu meilleur joueur de l'année 2019 par HLTV sur Counter-Strike ?"
+    answers:
+      A: "ZywOo"
+      B: "s1mple"
+      C: "device"
+      D: "NiKo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was named player of the year 2019 by HLTV in Counter-Strike?"
+        answers:
+          A: "ZywOo"
+          B: "s1mple"
+          C: "device"
+          D: "NiKo"
+    difficulty: HARD
+  - text: "Quel est le nom du trophée décerné au vainqueur de The International de Dota 2 ?"
+    answers:
+      A: "Valve Trophy"
+      B: "The International Cup"
+      C: "Dota Shield"
+      D: "Aegis of Champions"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the trophy awarded to the winner of The International in Dota 2?"
+        answers:
+          A: "Valve Trophy"
+          B: "The International Cup"
+          C: "Dota Shield"
+          D: "Aegis of Champions"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté la première Coupe du monde de Overwatch en 2016 ?"
+    answers:
+      A: "États-Unis"
+      B: "Corée du Sud"
+      C: "Chine"
+      D: "Suède"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won the first Overwatch World Cup in 2016?"
+        answers:
+          A: "United States"
+          B: "South Korea"
+          C: "China"
+          D: "Sweden"
+    difficulty: HARD
+  - text: "Quel joueur détient le record du plus grand nombre de titres de MVP aux Worlds de League of Legends ?"
+    answers:
+      A: "Mata"
+      B: "Faker"
+      C: "Rookie"
+      D: "Canyon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for the most MVP titles at the League of Legends Worlds?"
+        answers:
+          A: "Mata"
+          B: "Faker"
+          C: "Rookie"
+          D: "Canyon"
+    difficulty: HARD
+  - text: "Quel joueur a été élu meilleur joueur de l'année 2018 par HLTV sur Counter-Strike ?"
+    answers:
+      A: "ZywOo"
+      B: "device"
+      C: "NiKo"
+      D: "s1mple"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named player of the year 2018 by HLTV in Counter-Strike?"
+        answers:
+          A: "ZywOo"
+          B: "device"
+          C: "NiKo"
+          D: "s1mple"
+    difficulty: HARD
+  - text: "Dans Valorant, quel agent peut se téléporter avec sa compétence signature ?"
+    answers:
+      A: "Chamber"
+      B: "Yoru"
+      C: "Omen"
+      D: "Jett"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Valorant, which agent can teleport with their signature ability?"
+        answers:
+          A: "Chamber"
+          B: "Yoru"
+          C: "Omen"
+          D: "Jett"
+    difficulty: MEDIUM
+  - text: "Quel joueur français star de Counter-Strike a été élu meilleur joueur du monde par HLTV en 2013 ?"
+    answers:
+      A: "shox"
+      B: "RpK"
+      C: "kennyS"
+      D: "ScreaM"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French Counter-Strike star player was named best player in the world by HLTV in 2013?"
+        answers:
+          A: "shox"
+          B: "RpK"
+          C: "kennyS"
+          D: "ScreaM"
+    difficulty: EXPERT
+  - text: "Qui est le joueur de League of Legends considéré comme le meilleur Européen de tous les temps, célèbre pour son passage chez G2 ?"
+    answers:
+      A: "Perkz"
+      B: "Caps"
+      C: "Rekkles"
+      D: "Jankos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the League of Legends player considered the best European of all time, famous for his time at G2?"
+        answers:
+          A: "Perkz"
+          B: "Caps"
+          C: "Rekkles"
+          D: "Jankos"
+    difficulty: HARD
+  - text: "Quel joueur détient le record du plus grand nombre d'apparitions en finale de The International ?"
+    answers:
+      A: "Puppey"
+      B: "N0tail"
+      C: "Kuroky"
+      D: "Dendi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for the most appearances in a The International final?"
+        answers:
+          A: "Puppey"
+          B: "N0tail"
+          C: "Kuroky"
+          D: "Dendi"
+    difficulty: EXPERT
+  - text: "Dans Overwatch, quel est le format d'équipe utilisé lors de l'Overwatch League (à partir de 2022) ?"
+    answers:
+      A: "5v5"
+      B: "7v7"
+      C: "6v6"
+      D: "4v4"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Overwatch, what team format was used in the Overwatch League (from 2022)?"
+        answers:
+          A: "5v5"
+          B: "7v7"
+          C: "6v6"
+          D: "4v4"
+    difficulty: HARD
+  - text: "Quel joueur a été MVP des Championnats du monde de League of Legends 2019 ?"
+    answers:
+      A: "Crisp"
+      B: "Doinb"
+      C: "Lwx"
+      D: "Tian"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was MVP of the 2019 League of Legends World Championship?"
+        answers:
+          A: "Crisp"
+          B: "Doinb"
+          C: "Lwx"
+          D: "Tian"
+    difficulty: HARD
+  - text: "Quelle ville accueille l'IEM de Counter-Strike ?"
+    imageUrl: wikipedia/games/Katowice_-_Spodek_by_night.jpg
+    answers:
+      A: "Gdańsk"
+      B: "Cracovie"
+      C: "Varsovie"
+      D: "Katowice"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which city hosts the Counter-Strike IEM?"
+        answers:
+          A: "Gdańsk"
+          B: "Kraków"
+          C: "Warsaw"
+          D: "Katowice"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté la première Coupe du monde de Rocket League en 2017 ?"
+    answers:
+      A: "Angleterre"
+      B: "États-Unis"
+      C: "France"
+      D: "Allemagne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won the first Rocket League World Cup in 2017?"
+        answers:
+          A: "England"
+          B: "United States"
+          C: "France"
+          D: "Germany"
+    difficulty: EXPERT
+  - text: "En quelle année l'équipe américaine Evil Geniuses a-t-elle remporté The International sur Dota 2 ?"
+    answers:
+      A: "2014"
+      B: "2016"
+      C: "2015"
+      D: "2017"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the American team Evil Geniuses win The International in Dota 2?"
+        answers:
+          A: "2014"
+          B: "2016"
+          C: "2015"
+          D: "2017"
+    difficulty: HARD
+  - text: "Quel joueur détient le record du plus grand nombre de victoires à The International sur Dota 2 ?"
+    answers:
+      A: "Topson"
+      B: "JerAx"
+      C: "Ceb"
+      D: "N0tail"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most wins at The International in Dota 2?"
+        answers:
+          A: "Topson"
+          B: "JerAx"
+          C: "Ceb"
+          D: "N0tail"
+    difficulty: EXPERT
+  - text: "Quel poste occupe le joueur de League of Legends Canyon, MVP des Worlds 2020 ?"
+    answers:
+      A: "Top"
+      B: "Mid"
+      C: "Jungle"
+      D: "ADC"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What position does League of Legends player Canyon, MVP of Worlds 2020, play?"
+        answers:
+          A: "Top"
+          B: "Mid"
+          C: "Jungle"
+          D: "ADC"
+    difficulty: HARD
+  - text: "Combien de manches une équipe doit-elle remporter pour gagner un match compétitif de Valorant (hors prolongation) ?"
+    answers:
+      A: "11"
+      B: "15"
+      C: "13"
+      D: "16"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many rounds must a team win to win a competitive Valorant match (excluding overtime)?"
+        answers:
+          A: "11"
+          B: "15"
+          C: "13"
+          D: "16"
+    difficulty: EASY
+  - text: "Quel joueur a été élu MVP des Championnats du monde de League of Legends 2019 ?"
+    answers:
+      A: "Doinb"
+      B: "Tian"
+      C: "Crisp"
+      D: "Lwx"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named MVP of the 2019 League of Legends World Championship?"
+        answers:
+          A: "Doinb"
+          B: "Tian"
+          C: "Crisp"
+          D: "Lwx"
+    difficulty: HARD
+  - text: "Quel joueur français a été élu meilleur joueur du monde par HLTV sur Counter-Strike en 2013 ?"
+    answers:
+      A: "shox"
+      B: "kennyS"
+      C: "RpK"
+      D: "Ex6TenZ"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French player was named best player in the world by HLTV in Counter-Strike in 2013?"
+        answers:
+          A: "shox"
+          B: "kennyS"
+          C: "RpK"
+          D: "Ex6TenZ"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre d'apparitions en finale de The International sur Dota 2 ?"
+    answers:
+      A: "Puppey"
+      B: "KuroKy"
+      C: "Notail"
+      D: "Fly"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for the most appearances in a The International final in Dota 2?"
+        answers:
+          A: "Puppey"
+          B: "KuroKy"
+          C: "Notail"
+          D: "Fly"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu meilleur joueur de l'année 2020 par HLTV sur Counter-Strike ?"
+    answers:
+      A: "device"
+      B: "s1mple"
+      C: "ZywOo"
+      D: "NiKo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was named best player of the year 2020 by HLTV in Counter-Strike?"
+        answers:
+          A: "device"
+          B: "s1mple"
+          C: "ZywOo"
+          D: "NiKo"
+    difficulty: HARD
+  - text: "Combien de joueurs composent une équipe dans Overwatch League (format 2022) ?"
+    answers:
+      A: "7"
+      B: "6"
+      C: "5"
+      D: "8"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many players make up a team in the Overwatch League (2022 format)?"
+        answers:
+          A: "7"
+          B: "6"
+          C: "5"
+          D: "8"
+    difficulty: HARD
+  - text: "Quel agent peut se téléporter avec sa compétence signature dans Valorant ?"
+    answers:
+      A: "Omen"
+      B: "Yoru"
+      C: "Chamber"
+      D: "Astra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which agent can teleport with their signature ability in Valorant?"
+        answers:
+          A: "Omen"
+          B: "Yoru"
+          C: "Chamber"
+          D: "Astra"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté The International 2018 sur Dota 2 ?"
+    answers:
+      A: "Team Secret"
+      B: "Team Liquid"
+      C: "PSG.LGD"
+      D: "OG"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won The International 2018 in Dota 2?"
+        answers:
+          A: "Team Secret"
+          B: "Team Liquid"
+          C: "PSG.LGD"
+          D: "OG"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été élu meilleur joueur de l'année 2021 par HLTV sur Counter-Strike ?"
+    answers:
+      A: "s1mple"
+      B: "ZywOo"
+      C: "device"
+      D: "NiKo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was named HLTV Player of the Year 2021 in Counter-Strike?"
+        answers:
+          A: "s1mple"
+          B: "ZywOo"
+          C: "device"
+          D: "NiKo"
+    difficulty: HARD
+  - text: "Combien de fois l'équipe Astralis a-t-elle remporté un tournoi majeur de Counter-Strike: Global Offensive ?"
+    answers:
+      A: "2"
+      B: "3"
+      C: "4"
+      D: "5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many times has Astralis won a major Counter-Strike: Global Offensive tournament?"
+        answers:
+          A: "2"
+          B: "3"
+          C: "4"
+          D: "5"
+    difficulty: EXPERT
+  - text: "Combien de titres mondiaux de League of Legends l'équipe T1 (ex-SKT) a-t-elle remportés à l'issue des Worlds 2023 ?"
+    answers:
+      A: "4"
+      B: "3"
+      C: "5"
+      D: "6"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many League of Legends world titles has T1 (formerly SKT) won as of the end of Worlds 2023?"
+        answers:
+          A: "4"
+          B: "3"
+          C: "5"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2021 ?"
+    answers:
+      A: "Scout"
+      B: "ShowMaker"
+      C: "Canyon"
+      D: "Viper"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was named MVP of the 2021 League of Legends World Championship?"
+        answers:
+          A: "Scout"
+          B: "ShowMaker"
+          C: "Canyon"
+          D: "Viper"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2021 ?"
+    answers:
+      A: "EDward Gaming"
+      B: "DWG KIA"
+      C: "Gen.G"
+      D: "T1"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the 2021 League of Legends World Championship?"
+        answers:
+          A: "EDward Gaming"
+          B: "DWG KIA"
+          C: "Gen.G"
+          D: "T1"
+    difficulty: MEDIUM
+  - text: "Dans Counter-Strike: Global Offensive, quel joueur détient le record du plus grand nombre de titres de MVP décernés par HLTV ?"
+    answers:
+      A: "s1mple"
+      B: "device"
+      C: "ZywOo"
+      D: "NiKo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Counter-Strike: Global Offensive, which player holds the record for the most HLTV MVP awards?"
+        answers:
+          A: "s1mple"
+          B: "device"
+          C: "ZywOo"
+          D: "NiKo"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu meilleur joueur de l'année 2022 par HLTV sur Counter-Strike: Global Offensive ?"
+    answers:
+      A: "s1mple"
+      B: "sh1ro"
+      C: "ZywOo"
+      D: "device"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was named HLTV Player of the Year 2022 in Counter-Strike: Global Offensive?"
+        answers:
+          A: "s1mple"
+          B: "sh1ro"
+          C: "ZywOo"
+          D: "device"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté The International 2021 sur Dota 2 ?"
+    answers:
+      A: "PSG.LGD"
+      B: "Team Spirit"
+      C: "Team Secret"
+      D: "Vici Gaming"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won The International 2021 in Dota 2?"
+        answers:
+          A: "PSG.LGD"
+          B: "Team Spirit"
+          C: "Team Secret"
+          D: "Vici Gaming"
+    difficulty: MEDIUM
+  - text: "Quel type de clavier a un interrupteur par touche ?"
+    imageUrl: wikipedia/games/Cherry_MX_keyboard.jpg
+    answers:
+      A: "Le clavier virtuel"
+      B: "Le clavier à membrane"
+      C: "Le clavier mécanique"
+      D: "Le clavier pliant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which type of keyboard has a switch under each key?"
+        answers:
+          A: "Virtual keyboard"
+          B: "Membrane keyboard"
+          C: "Mechanical keyboard"
+          D: "Foldable keyboard"
+    difficulty: EASY
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2020 ?"
+    answers:
+      A: "Suning"
+      B: "DAMWON Gaming"
+      C: "JD Gaming"
+      D: "Gen.G"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the 2020 League of Legends World Championship?"
+        answers:
+          A: "Suning"
+          B: "DAMWON Gaming"
+          C: "JD Gaming"
+          D: "Gen.G"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2022 ?"
+    answers:
+      A: "Faker"
+      B: "Deft"
+      C: "Kingen"
+      D: "Zeus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was named MVP of the 2022 League of Legends World Championship?"
+        answers:
+          A: "Faker"
+          B: "Deft"
+          C: "Kingen"
+          D: "Zeus"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté The International 2022 sur Dota 2 ?"
+    answers:
+      A: "PSG.LGD"
+      B: "Team Secret"
+      C: "Team Liquid"
+      D: "Tundra Esports"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won The International 2022 in Dota 2?"
+        answers:
+          A: "PSG.LGD"
+          B: "Team Secret"
+          C: "Team Liquid"
+          D: "Tundra Esports"
+    difficulty: MEDIUM
+  - text: "Dans Counter-Strike: Global Offensive, quel joueur a été élu meilleur joueur de l'année 2015 par HLTV ?"
+    answers:
+      A: "flusha"
+      B: "GuardiaN"
+      C: "olofmeister"
+      D: "device"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Counter-Strike: Global Offensive, which player was voted best player of the year 2015 by HLTV?"
+        answers:
+          A: "flusha"
+          B: "GuardiaN"
+          C: "olofmeister"
+          D: "device"
+    difficulty: EXPERT
+  - text: "Quel type de rassemblement de joueurs ?"
+    imageUrl: wikipedia/games/LAN_party_in_France_in_2003.jpg
+    answers:
+      A: "Une game jam"
+      B: "Une LAN party"
+      C: "Un bootcamp"
+      D: "Un speedrun"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What type of player gathering?"
+        answers:
+          A: "A game jam"
+          B: "A LAN party"
+          C: "A bootcamp"
+          D: "A speedrun"
+    difficulty: EASY
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2023 ?"
+    answers:
+      A: "T1"
+      B: "JD Gaming"
+      C: "Weibo Gaming"
+      D: "Gen.G"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the League of Legends Worlds 2023?"
+        answers:
+          A: "T1"
+          B: "JD Gaming"
+          C: "Weibo Gaming"
+          D: "Gen.G"
+    difficulty: EASY
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2018 ?"
+    answers:
+      A: "Ning"
+      B: "Rookie"
+      C: "JackeyLove"
+      D: "TheShy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was voted MVP of the League of Legends Worlds 2018?"
+        answers:
+          A: "Ning"
+          B: "Rookie"
+          C: "JackeyLove"
+          D: "TheShy"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2015 ?"
+    answers:
+      A: "SKT T1"
+      B: "KOO Tigers"
+      C: "Fnatic"
+      D: "Origen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the League of Legends Worlds 2015?"
+        answers:
+          A: "SKT T1"
+          B: "KOO Tigers"
+          C: "Fnatic"
+          D: "Origen"
+    difficulty: MEDIUM
+  - text: "Dans Counter-Strike: Global Offensive, quel joueur a été élu meilleur joueur de l'année 2016 par HLTV ?"
+    answers:
+      A: "coldzera"
+      B: "FalleN"
+      C: "device"
+      D: "s1mple"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Counter-Strike: Global Offensive, which player was voted best player of the year 2016 by HLTV?"
+        answers:
+          A: "coldzera"
+          B: "FalleN"
+          C: "device"
+          D: "s1mple"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté The International 2023 sur Dota 2 ?"
+    answers:
+      A: "Azure Ray"
+      B: "Gaimin Gladiators"
+      C: "LGD Gaming"
+      D: "Team Spirit"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won The International 2023 in Dota 2?"
+        answers:
+          A: "Azure Ray"
+          B: "Gaimin Gladiators"
+          C: "LGD Gaming"
+          D: "Team Spirit"
+    difficulty: MEDIUM
+  - text: "En quelle année s'est tenu le premier Championnat du monde de League of Legends ?"
+    answers:
+      A: "2009"
+      B: "2010"
+      C: "2012"
+      D: "2011"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the first League of Legends World Championship held?"
+        answers:
+          A: "2009"
+          B: "2010"
+          C: "2012"
+          D: "2011"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2016 ?"
+    answers:
+      A: "Samsung Galaxy"
+      B: "SKT T1"
+      C: "ROX Tigers"
+      D: "G2 Esports"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the League of Legends Worlds 2016?"
+        answers:
+          A: "Samsung Galaxy"
+          B: "SKT T1"
+          C: "ROX Tigers"
+          D: "G2 Esports"
+    difficulty: MEDIUM
+  - text: "Quel joueur coréen a remporté les Worlds de League of Legends 2023 avec T1 ?"
+    answers:
+      A: "Gumayusi"
+      B: "Keria"
+      C: "Oner"
+      D: "Zeus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Korean player won the League of Legends Worlds 2023 with T1?"
+        answers:
+          A: "Gumayusi"
+          B: "Keria"
+          C: "Oner"
+          D: "Zeus"
+    difficulty: HARD
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2016 ?"
+    answers:
+      A: "Faker"
+      B: "Bengi"
+      C: "Bang"
+      D: "Wolf"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was voted MVP of the League of Legends Worlds 2016?"
+        answers:
+          A: "Faker"
+          B: "Bengi"
+          C: "Bang"
+          D: "Wolf"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2017 ?"
+    answers:
+      A: "Ruler"
+      B: "Faker"
+      C: "Crown"
+      D: "Ambition"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was voted MVP of the League of Legends Worlds 2017?"
+        answers:
+          A: "Ruler"
+          B: "Faker"
+          C: "Crown"
+          D: "Ambition"
+    difficulty: EXPERT
+  - text: "Quel joueur suédois a été élu meilleur joueur de l'année 2014 par HLTV sur Counter-Strike: Global Offensive ?"
+    answers:
+      A: "olofmeister"
+      B: "GeT_RiGhT"
+      C: "f0rest"
+      D: "JW"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Swedish player was voted best player of the year 2014 by HLTV in Counter-Strike: Global Offensive?"
+        answers:
+          A: "olofmeister"
+          B: "GeT_RiGhT"
+          C: "f0rest"
+          D: "JW"
+    difficulty: EXPERT
+  - text: "Quel joueur français a remporté les Worlds de League of Legends 2018 avec Invictus Gaming ?"
+    answers:
+      A: "Yellowstar"
+      B: "Soaz"
+      C: "Jactroll"
+      D: "Hans Sama"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French player won the League of Legends Worlds 2018 with Invictus Gaming?"
+        answers:
+          A: "Yellowstar"
+          B: "Soaz"
+          C: "Jactroll"
+          D: "Hans Sama"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté le premier Major de l'histoire de Counter-Strike: Global Offensive en 2013 ?"
+    answers:
+      A: "Fnatic"
+      B: "Ninjas in Pyjamas"
+      C: "VeryGames"
+      D: "Astralis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the first Major in Counter-Strike: Global Offensive history in 2013?"
+        answers:
+          A: "Fnatic"
+          B: "Ninjas in Pyjamas"
+          C: "VeryGames"
+          D: "Astralis"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2020 ?"
+    answers:
+      A: "ShowMaker"
+      B: "Canyon"
+      C: "Nuguri"
+      D: "Ghost"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named MVP of the League of Legends Worlds 2020?"
+        answers:
+          A: "ShowMaker"
+          B: "Canyon"
+          C: "Nuguri"
+          D: "Ghost"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté l'Overwatch League lors de la saison inaugurale 2018 ?"
+    answers:
+      A: "Seoul Dynasty"
+      B: "Philadelphia Fusion"
+      C: "New York Excelsior"
+      D: "London Spitfire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the Overwatch League in its inaugural 2018 season?"
+        answers:
+          A: "Seoul Dynasty"
+          B: "Philadelphia Fusion"
+          C: "New York Excelsior"
+          D: "London Spitfire"
+    difficulty: EXPERT
+  - text: "Quel joueur est le premier à avoir atteint 1 million de dollars de gains en tournois sur Dota 2 ?"
+    answers:
+      A: "Dendi"
+      B: "Miracle-"
+      C: "Kuroky"
+      D: "Puppey"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was the first to reach $1 million in tournament earnings in Dota 2?"
+        answers:
+          A: "Dendi"
+          B: "Miracle-"
+          C: "Kuroky"
+          D: "Puppey"
+    difficulty: EXPERT
+  - text: "Quel jeu de tir tactique a été le premier à introduire le mode « Search and Destroy » en e-sport ?"
+    answers:
+      A: "Counter-Strike"
+      B: "Call of Duty 4: Modern Warfare"
+      C: "Rainbow Six Siege"
+      D: "Halo 3"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which tactical shooter was the first to introduce the \"Search and Destroy\" mode in esports?"
+        answers:
+          A: "Counter-Strike"
+          B: "Call of Duty 4: Modern Warfare"
+          C: "Rainbow Six Siege"
+          D: "Halo 3"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2022 ?"
+    answers:
+      A: "JDG"
+      B: "T1"
+      C: "Gen.G"
+      D: "DRX"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the League of Legends Worlds 2022?"
+        answers:
+          A: "JDG"
+          B: "T1"
+          C: "Gen.G"
+          D: "DRX"
+    difficulty: EASY
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2015 ?"
+    answers:
+      A: "Faker"
+      B: "Marin"
+      C: "Bengi"
+      D: "Bang"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named MVP of the League of Legends Worlds 2015?"
+        answers:
+          A: "Faker"
+          B: "Marin"
+          C: "Bengi"
+          D: "Bang"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté la première Coupe du monde de FIFA eNations en 2019 ?"
+    answers:
+      A: "Angleterre"
+      B: "Argentine"
+      C: "Brésil"
+      D: "France"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won the first FIFA eNations World Cup in 2019?"
+        answers:
+          A: "England"
+          B: "Argentina"
+          C: "Brazil"
+          D: "France"
+    difficulty: EXPERT
+  - text: "Quel festival LAN suédois créé en 1994 ?"
+    imageUrl: wikipedia/games/Crowds_ramming_Hall_D_for_Opening_Ceremony1.jpg
+    answers:
+      A: "DreamHack"
+      B: "The Gathering"
+      C: "Assembly"
+      D: "QuakeCon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Swedish LAN festival was created in 1994?"
+        answers:
+          A: "DreamHack"
+          B: "The Gathering"
+          C: "Assembly"
+          D: "QuakeCon"
+    difficulty: HARD
+  - text: "Quelle souris Razer emblématique de 2006 ?"
+    imageUrl: wikipedia/games/Razer_DeathAdder_Elite-front_oblique-ar_16to10-fs_PNr0465.jpg
+    answers:
+      A: "La MX518"
+      B: "La G502"
+      C: "La Sensei"
+      D: "La DeathAdder"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which iconic 2006 Razer mouse?"
+        answers:
+          A: "The MX518"
+          B: "The G502"
+          C: "The Sensei"
+          D: "The DeathAdder"
+    difficulty: EXPERT
+  - text: "Quel joueur de Counter-Strike: Global Offensive a été élu meilleur joueur de l'année 2017 par HLTV ?"
+    answers:
+      A: "NiKo"
+      B: "coldzera"
+      C: "device"
+      D: "Fallen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Counter-Strike: Global Offensive player was named player of the year 2017 by HLTV?"
+        answers:
+          A: "NiKo"
+          B: "coldzera"
+          C: "device"
+          D: "Fallen"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2013 ?"
+    answers:
+      A: "Royal Club"
+      B: "SKT T1"
+      C: "Fnatic"
+      D: "Najin Black Sword"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the League of Legends Worlds 2013?"
+        answers:
+          A: "Royal Club"
+          B: "SKT T1"
+          C: "Fnatic"
+          D: "Najin Black Sword"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le plus de Major de Counter-Strike: Global Offensive avec Astralis ?"
+    answers:
+      A: "dev1ce"
+      B: "gla1ve"
+      C: "dupreeh"
+      D: "Xyp9x"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the most Counter-Strike: Global Offensive Majors with Astralis?"
+        answers:
+          A: "dev1ce"
+          B: "gla1ve"
+          C: "dupreeh"
+          D: "Xyp9x"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2014 ?"
+    answers:
+      A: "Imp"
+      B: "Looper"
+      C: "Dandy"
+      D: "Mata"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named MVP of the League of Legends Worlds 2014?"
+        answers:
+          A: "Imp"
+          B: "Looper"
+          C: "Dandy"
+          D: "Mata"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de titres de MVP décernés par HLTV sur Counter-Strike: Global Offensive ?"
+    answers:
+      A: "GeT_RiGhT"
+      B: "ZywOo"
+      C: "device"
+      D: "s1mple"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most HLTV MVP titles awarded in Counter-Strike: Global Offensive?"
+        answers:
+          A: "GeT_RiGhT"
+          B: "ZywOo"
+          C: "device"
+          D: "s1mple"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2019 ?"
+    answers:
+      A: "Tian"
+      B: "Doinb"
+      C: "Lwx"
+      D: "Crisp"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was named MVP of the League of Legends Worlds 2019?"
+        answers:
+          A: "Tian"
+          B: "Doinb"
+          C: "Lwx"
+          D: "Crisp"
+    difficulty: HARD
+  - text: "Quel joueur a été élu meilleur joueur de l'année 2013 par HLTV sur Counter-Strike: Global Offensive ?"
+    answers:
+      A: "kennyS"
+      B: "GeT_RiGhT"
+      C: "markeloff"
+      D: "Edward"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named best player of the year 2013 by HLTV in Counter-Strike: Global Offensive?"
+        answers:
+          A: "kennyS"
+          B: "GeT_RiGhT"
+          C: "markeloff"
+          D: "Edward"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté les Worlds de League of Legends 2012 ?"
+    answers:
+      A: "Azubu Frost"
+      B: "Taipei Assassins"
+      C: "CLG.EU"
+      D: "Moscow Five"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the League of Legends Worlds 2012?"
+        answers:
+          A: "Azubu Frost"
+          B: "Taipei Assassins"
+          C: "CLG.EU"
+          D: "Moscow Five"
+    difficulty: HARD
+  - text: "Dans Dota 2, quel joueur est le premier à avoir dépassé les 6 millions de dollars de gains en tournois ?"
+    answers:
+      A: "Miracle-"
+      B: "Notail"
+      C: "Kuroky"
+      D: "Puppey"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Dota 2, which player was the first to surpass $6 million in tournament earnings?"
+        answers:
+          A: "Miracle-"
+          B: "Notail"
+          C: "Kuroky"
+          D: "Puppey"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2013 ?"
+    answers:
+      A: "Bengi"
+      B: "Piglet"
+      C: "Faker"
+      D: "Impact"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was named MVP of the League of Legends Worlds 2013?"
+        answers:
+          A: "Bengi"
+          B: "Piglet"
+          C: "Faker"
+          D: "Impact"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté la première saison de la LCS EU en 2013 ?"
+    answers:
+      A: "SK Gaming"
+      B: "Gambit Gaming"
+      C: "Fnatic"
+      D: "Evil Geniuses"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the first season of the EU LCS in 2013?"
+        answers:
+          A: "SK Gaming"
+          B: "Gambit Gaming"
+          C: "Fnatic"
+          D: "Evil Geniuses"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu meilleur joueur de l'année 2019 par HLTV sur Counter-Strike: Global Offensive ?"
+    answers:
+      A: "s1mple"
+      B: "Twistzz"
+      C: "device"
+      D: "ZywOo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named best player of the year 2019 by HLTV in Counter-Strike: Global Offensive?"
+        answers:
+          A: "s1mple"
+          B: "Twistzz"
+          C: "device"
+          D: "ZywOo"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté The International 2012 sur Dota 2 ?"
+    answers:
+      A: "Natus Vincere"
+      B: "Team DK"
+      C: "LGD Gaming"
+      D: "Invictus Gaming"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won The International 2012 in Dota 2?"
+        answers:
+          A: "Natus Vincere"
+          B: "Team DK"
+          C: "LGD Gaming"
+          D: "Invictus Gaming"
+    difficulty: HARD
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2011 ?"
+    answers:
+      A: "xPeke"
+      B: "Shushei"
+      C: "LamiaZealot"
+      D: "Cyanide"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named MVP of the League of Legends Worlds 2011?"
+        answers:
+          A: "xPeke"
+          B: "Shushei"
+          C: "LamiaZealot"
+          D: "Cyanide"
+    difficulty: EXPERT
+  - text: "Quelle est la première équipe à avoir remporté deux fois The International sur Dota 2 ?"
+    answers:
+      A: "Alliance"
+      B: "Team Liquid"
+      C: "OG"
+      D: "Newbee"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the first team to have won The International in Dota 2 twice?"
+        answers:
+          A: "Alliance"
+          B: "Team Liquid"
+          C: "OG"
+          D: "Newbee"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu MVP des Worlds de League of Legends 2023 ?"
+    answers:
+      A: "Gumayusi"
+      B: "Oner"
+      C: "Faker"
+      D: "Zeus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named MVP of the League of Legends Worlds 2023?"
+        answers:
+          A: "Gumayusi"
+          B: "Oner"
+          C: "Faker"
+          D: "Zeus"
+    difficulty: HARD

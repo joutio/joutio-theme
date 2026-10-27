@@ -1,0 +1,1632 @@
+topic:
+  id: topic-musique-classique
+  names:
+    fr: "Musique classique"
+    en: "Classical Music"
+  description: "Compositeurs, œuvres et instruments qui ont marqué l'histoire de la musique classique, du baroque à l'époque moderne."
+  category: MUSIC
+  titles:
+    fr:
+      FER: "Doigt sur la touche"
+      BRONZE: "Page tourneuse"
+      ARGENT: "Soliste du dimanche"
+      OR: "Membre de quatuor"
+      PLATINE: "Chef d'orchestre"
+      EMERAUDE: "Compositeur de cour"
+      DIAMANT: "Immortel du conservatoire"
+    en:
+      FER: "Key Tapper"
+      BRONZE: "Page Turner"
+      ARGENT: "Sunday Soloist"
+      OR: "String Quartet Player"
+      PLATINE: "Orchestra Conductor"
+      EMERAUDE: "Court Composer"
+      DIAMANT: "Conservatory Immortal"
+  imageUrl: wikipedia/music/Johann_Sebastian_Bach.jpg
+questions:
+  - text: "Qui a composé la célèbre Toccata et fugue en ré mineur ?"
+    imageUrl: wikipedia/music/Johann_Sebastian_Bach.jpg
+    answers:
+      A: "Jean-Sébastien Bach"
+      B: "Antonio Vivaldi"
+      C: "Georg Friedrich Haendel"
+      D: "Joseph Haydn"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the famous Toccata and Fugue in D minor?"
+        answers:
+          A: "Johann Sebastian Bach"
+          B: "Antonio Vivaldi"
+          C: "George Frideric Handel"
+          D: "Joseph Haydn"
+    difficulty: EASY
+  - text: "Qui a composé l'opéra La Flûte enchantée ?"
+    imageUrl: wikipedia/music/Wolfgang-amadeus-mozart_1.jpg
+    answers:
+      A: "Richard Wagner"
+      B: "Ludwig van Beethoven"
+      C: "Giuseppe Verdi"
+      D: "Wolfgang Amadeus Mozart"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the opera The Magic Flute?"
+        answers:
+          A: "Richard Wagner"
+          B: "Ludwig van Beethoven"
+          C: "Giuseppe Verdi"
+          D: "Wolfgang Amadeus Mozart"
+    difficulty: EASY
+  - text: "Qui a composé la Neuvième Symphonie ?"
+    imageUrl: wikipedia/music/Beethoven.jpg
+    answers:
+      A: "Johannes Brahms"
+      B: "Franz Schubert"
+      C: "Hector Berlioz"
+      D: "Ludwig van Beethoven"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the Ninth Symphony?"
+        answers:
+          A: "Johannes Brahms"
+          B: "Franz Schubert"
+          C: "Hector Berlioz"
+          D: "Ludwig van Beethoven"
+    difficulty: EASY
+  - text: "Quel compositeur polonais a écrit des nocturnes ?"
+    imageUrl: wikipedia/music/Frederic_Chopin_photo.jpg
+    answers:
+      A: "Franz Liszt"
+      B: "Bedřich Smetana"
+      C: "Antonín Dvořák"
+      D: "Frédéric Chopin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Polish composer wrote nocturnes?"
+        answers:
+          A: "Franz Liszt"
+          B: "Bedřich Smetana"
+          C: "Antonín Dvořák"
+          D: "Frédéric Chopin"
+    difficulty: EASY
+  - text: "Qui a composé Les Quatre Saisons ?"
+    imageUrl: wikipedia/music/Antonio_Vivaldi.jpg
+    answers:
+      A: "Jean-Sébastien Bach"
+      B: "Antonio Vivaldi"
+      C: "Georg Friedrich Haendel"
+      D: "Claudio Monteverdi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed The Four Seasons?"
+        answers:
+          A: "Johann Sebastian Bach"
+          B: "Antonio Vivaldi"
+          C: "George Frideric Handel"
+          D: "Claudio Monteverdi"
+    difficulty: EASY
+  - text: "Qui a composé le ballet Le Lac des cygnes ?"
+    imageUrl: wikipedia/music/Pyotr_Ilyich_Tchaikovsky.jpg
+    answers:
+      A: "Serge Prokofiev"
+      B: "Pyotr Ilitch Tchaïkovski"
+      C: "Igor Stravinsky"
+      D: "Modeste Moussorgski"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the ballet Swan Lake?"
+        answers:
+          A: "Sergei Prokofiev"
+          B: "Pyotr Ilyich Tchaikovsky"
+          C: "Igor Stravinsky"
+          D: "Modest Mussorgsky"
+    difficulty: EASY
+  - text: "Quel compositeur a écrit la Sérénade pour cordes en do majeur, op. 48 ?"
+    answers:
+      A: "Antonín Dvořák"
+      B: "Jean Sibelius"
+      C: "Edvard Grieg"
+      D: "Pyotr Ilyich Tchaikovsky"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the Serenade for Strings in C major, Op. 48?"
+        answers:
+          A: "Antonín Dvořák"
+          B: "Jean Sibelius"
+          C: "Edvard Grieg"
+          D: "Pyotr Ilyich Tchaikovsky"
+    difficulty: HARD
+  - text: "En quelle année a été créée la Symphonie n° 9 « Du nouveau monde » d'Antonín Dvořák ?"
+    answers:
+      A: "1875"
+      B: "1885"
+      C: "1901"
+      D: "1893"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was Antonín Dvořák's Symphony No. 9 \"From the New World\" premiered?"
+        answers:
+          A: "1875"
+          B: "1885"
+          C: "1901"
+          D: "1893"
+    difficulty: HARD
+  - text: "Quel est le nom du premier mouvement de la Symphonie fantastique d'Hector Berlioz ?"
+    answers:
+      A: "Scène aux champs"
+      B: "Un bal"
+      C: "Rêveries – Passions"
+      D: "Marche au supplice"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first movement of Hector Berlioz's Symphonie fantastique?"
+        answers:
+          A: "Scène aux champs"
+          B: "Un bal"
+          C: "Rêveries – Passions"
+          D: "Marche au supplice"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra Wozzeck ?"
+    answers:
+      A: "Paul Hindemith"
+      B: "Arnold Schönberg"
+      C: "Anton Webern"
+      D: "Alban Berg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the opera Wozzeck?"
+        answers:
+          A: "Paul Hindemith"
+          B: "Arnold Schoenberg"
+          C: "Anton Webern"
+          D: "Alban Berg"
+    difficulty: MEDIUM
+  - text: "Combien de symphonies Franz Schubert a-t-il achevées ?"
+    answers:
+      A: "10"
+      B: "8"
+      C: "9"
+      D: "7"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many symphonies did Franz Schubert complete?"
+        answers:
+          A: "10"
+          B: "8"
+          C: "9"
+          D: "7"
+    difficulty: EXPERT
+  - text: "Quel instrument à cordes frottées est le plus aigu de la famille des violons ?"
+    answers:
+      A: "L'alto"
+      B: "Le violon"
+      C: "Le violoncelle"
+      D: "La contrebasse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which bowed string instrument is the highest-pitched in the violin family?"
+        answers:
+          A: "The viola"
+          B: "The violin"
+          C: "The cello"
+          D: "The double bass"
+    difficulty: EASY
+  - text: "Quel compositeur a écrit le poème symphonique Les Préludes ?"
+    answers:
+      A: "Richard Wagner"
+      B: "Franz Liszt"
+      C: "Hector Berlioz"
+      D: "Richard Strauss"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the symphonic poem Les Préludes?"
+        answers:
+          A: "Richard Wagner"
+          B: "Franz Liszt"
+          C: "Hector Berlioz"
+          D: "Richard Strauss"
+    difficulty: MEDIUM
+  - text: "Quel est le nombre de concertos pour piano composés par Ludwig van Beethoven ?"
+    answers:
+      A: "5"
+      B: "4"
+      C: "3"
+      D: "6"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many piano concertos did Ludwig van Beethoven compose?"
+        answers:
+          A: "5"
+          B: "4"
+          C: "3"
+          D: "6"
+    difficulty: HARD
+  - text: "Quel opéra de Giuseppe Verdi met en scène le personnage de Rigoletto ?"
+    answers:
+      A: "Rigoletto"
+      B: "La Traviata"
+      C: "Il Trovatore"
+      D: "Aida"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Giuseppe Verdi opera features the character Rigoletto?"
+        answers:
+          A: "Rigoletto"
+          B: "La Traviata"
+          C: "Il Trovatore"
+          D: "Aida"
+    difficulty: EASY
+  - text: "Quelle est la tonalité de la Symphonie n° 5 de Ludwig van Beethoven ?"
+    answers:
+      A: "Fa majeur"
+      B: "Ré mineur"
+      C: "Mi bémol majeur"
+      D: "Do mineur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the key of Ludwig van Beethoven's Symphony No. 5?"
+        answers:
+          A: "F major"
+          B: "D minor"
+          C: "E-flat major"
+          D: "C minor"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit les Variations sur un thème de Haydn, op. 56a ?"
+    answers:
+      A: "Johannes Brahms"
+      B: "Franz Liszt"
+      C: "Richard Wagner"
+      D: "Anton Bruckner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the Variations on a Theme by Haydn, Op. 56a?"
+        answers:
+          A: "Johannes Brahms"
+          B: "Franz Liszt"
+          C: "Richard Wagner"
+          D: "Anton Bruckner"
+    difficulty: EXPERT
+  - text: "Quel est le nom du célèbre air chanté par la Reine de la Nuit dans La Flûte enchantée ?"
+    answers:
+      A: "O zittre nicht, mein lieber Sohn"
+      B: "Dies Bildnis ist bezaubernd schön"
+      C: "Der Hölle Rache"
+      D: "Ein Mädchen oder Weibchen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the famous aria sung by the Queen of the Night in The Magic Flute?"
+        answers:
+          A: "O zittre nicht, mein lieber Sohn"
+          B: "Dies Bildnis ist bezaubernd schön"
+          C: "Der Hölle Rache"
+          D: "Ein Mädchen oder Weibchen"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit la Rhapsodie espagnole pour orchestre ?"
+    answers:
+      A: "Isaac Albéniz"
+      B: "Claude Debussy"
+      C: "Manuel de Falla"
+      D: "Maurice Ravel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the Rhapsodie espagnole for orchestra?"
+        answers:
+          A: "Isaac Albéniz"
+          B: "Claude Debussy"
+          C: "Manuel de Falla"
+          D: "Maurice Ravel"
+    difficulty: HARD
+  - text: "Quel instrument est utilisé pour jouer la partie de cor anglais dans le deuxième mouvement de la Symphonie du Nouveau Monde ?"
+    answers:
+      A: "Le cor anglais"
+      B: "Le hautbois"
+      C: "La clarinette"
+      D: "Le basson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which instrument is used to play the English horn part in the second movement of the New World Symphony?"
+        answers:
+          A: "The English horn"
+          B: "The oboe"
+          C: "The clarinet"
+          D: "The bassoon"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra Peter Grimes ?"
+    answers:
+      A: "Benjamin Britten"
+      B: "Ralph Vaughan Williams"
+      C: "William Walton"
+      D: "Edward Elgar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the opera Peter Grimes?"
+        answers:
+          A: "Benjamin Britten"
+          B: "Ralph Vaughan Williams"
+          C: "William Walton"
+          D: "Edward Elgar"
+    difficulty: MEDIUM
+  - text: "Combien de mouvements comporte la Symphonie n° 6 « Pastorale » de Ludwig van Beethoven ?"
+    answers:
+      A: "4"
+      B: "6"
+      C: "5"
+      D: "3"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many movements does Ludwig van Beethoven's Symphony No. 6 \"Pastoral\" have?"
+        answers:
+          A: "4"
+          B: "6"
+          C: "5"
+          D: "3"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du personnage principal de l'opéra Carmen de Georges Bizet ?"
+    answers:
+      A: "Micaëla"
+      B: "Carmen"
+      C: "Don José"
+      D: "Escamillo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the main character in Georges Bizet's opera Carmen?"
+        answers:
+          A: "Micaëla"
+          B: "Carmen"
+          C: "Don José"
+          D: "Escamillo"
+    difficulty: EASY
+  - text: "Quel compositeur a écrit la suite orchestrale Les Planètes ?"
+    answers:
+      A: "Edward Elgar"
+      B: "Gustav Holst"
+      C: "Ralph Vaughan Williams"
+      D: "Benjamin Britten"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the orchestral suite The Planets?"
+        answers:
+          A: "Edward Elgar"
+          B: "Gustav Holst"
+          C: "Ralph Vaughan Williams"
+          D: "Benjamin Britten"
+    difficulty: EASY
+  - text: "Quel est le nom du troisième mouvement de la Symphonie n° 3 « Héroïque » de Beethoven ?"
+    answers:
+      A: "Marche funèbre"
+      B: "Scherzo"
+      C: "Allegro con brio"
+      D: "Finale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the third movement of Beethoven's Symphony No. 3 \"Eroica\"?"
+        answers:
+          A: "Funeral March"
+          B: "Scherzo"
+          C: "Allegro con brio"
+          D: "Finale"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra La Khovanchtchina ?"
+    answers:
+      A: "Nikolaï Rimski-Korsakov"
+      B: "Modeste Moussorgski"
+      C: "Alexandre Borodine"
+      D: "Mikhaïl Glinka"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the opera Khovanshchina?"
+        answers:
+          A: "Nikolai Rimsky-Korsakov"
+          B: "Modest Mussorgsky"
+          C: "Alexander Borodin"
+          D: "Mikhail Glinka"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit le poème symphonique 'Don Juan', op. 20 ?"
+    answers:
+      A: "Jean Sibelius"
+      B: "Gustav Mahler"
+      C: "Richard Strauss"
+      D: "Claude Debussy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the symphonic poem 'Don Juan', Op. 20?"
+        answers:
+          A: "Jean Sibelius"
+          B: "Gustav Mahler"
+          C: "Richard Strauss"
+          D: "Claude Debussy"
+    difficulty: HARD
+  - text: "En quelle année a été créée la Symphonie n° 5 de Gustav Mahler ?"
+    answers:
+      A: "1906"
+      B: "1902"
+      C: "1904"
+      D: "1900"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was Gustav Mahler's Symphony No. 5 premiered?"
+        answers:
+          A: "1906"
+          B: "1902"
+          C: "1904"
+          D: "1900"
+    difficulty: EXPERT
+  - text: "Quel est le nom du deuxième mouvement de la Symphonie n° 9 de Beethoven ?"
+    answers:
+      A: "Molto vivace"
+      B: "Scherzo: Molto vivace"
+      C: "Allegro assai"
+      D: "Andante moderato"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the second movement of Beethoven's Symphony No. 9?"
+        answers:
+          A: "Molto vivace"
+          B: "Scherzo: Molto vivace"
+          C: "Allegro assai"
+          D: "Andante moderato"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit l'opéra 'Elektra', créé en 1909 ?"
+    answers:
+      A: "Alban Berg"
+      B: "Arnold Schoenberg"
+      C: "Richard Strauss"
+      D: "Paul Hindemith"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the opera 'Elektra', premiered in 1909?"
+        answers:
+          A: "Alban Berg"
+          B: "Arnold Schoenberg"
+          C: "Richard Strauss"
+          D: "Paul Hindemith"
+    difficulty: HARD
+  - text: "Quel est le nombre de concertos pour piano de Mozart ?"
+    answers:
+      A: "21"
+      B: "27"
+      C: "23"
+      D: "25"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many piano concertos did Mozart write?"
+        answers:
+          A: "21"
+          B: "27"
+          C: "23"
+          D: "25"
+    difficulty: EXPERT
+  - text: "Qui a composé la 'Symphonie n° 3' dite 'Liturgique' ?"
+    answers:
+      A: "Arthur Honegger"
+      B: "Darius Milhaud"
+      C: "Francis Poulenc"
+      D: "Germaine Tailleferre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 3' known as 'Liturgique'?"
+        answers:
+          A: "Arthur Honegger"
+          B: "Darius Milhaud"
+          C: "Francis Poulenc"
+          D: "Germaine Tailleferre"
+    difficulty: EXPERT
+  - text: "Quel est le nom du célèbre air de basse dans 'Don Giovanni' de Mozart ?"
+    answers:
+      A: "Fin ch'han dal vino"
+      B: "Madamina, il catalogo è questo"
+      C: "Deh, vieni alla finestra"
+      D: "Metà di voi qua vadano"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the famous bass aria in Mozart's 'Don Giovanni'?"
+        answers:
+          A: "Fin ch'han dal vino"
+          B: "Madamina, il catalogo è questo"
+          C: "Deh, vieni alla finestra"
+          D: "Metà di voi qua vadano"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit 'Les Offrandes oubliées' ?"
+    answers:
+      A: "Karlheinz Stockhausen"
+      B: "Pierre Boulez"
+      C: "Olivier Messiaen"
+      D: "Luciano Berio"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote 'Les Offrandes oubliées'?"
+        answers:
+          A: "Karlheinz Stockhausen"
+          B: "Pierre Boulez"
+          C: "Olivier Messiaen"
+          D: "Luciano Berio"
+    difficulty: EXPERT
+  - text: "Quel instrument joue le solo dans 'Le Cygne' du Carnaval des animaux ?"
+    answers:
+      A: "Violoncelle"
+      B: "Violon"
+      C: "Contrebasse"
+      D: "Alto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which instrument plays the solo in 'The Swan' from The Carnival of the Animals?"
+        answers:
+          A: "Cello"
+          B: "Violin"
+          C: "Double bass"
+          D: "Viola"
+    difficulty: MEDIUM
+  - text: "Qui a composé l'opéra 'Dialogues des Carmélites' ?"
+    answers:
+      A: "Francis Poulenc"
+      B: "Olivier Messiaen"
+      C: "Darius Milhaud"
+      D: "Arthur Honegger"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the opera 'Dialogues des Carmélites'?"
+        answers:
+          A: "Francis Poulenc"
+          B: "Olivier Messiaen"
+          C: "Darius Milhaud"
+          D: "Arthur Honegger"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la dernière symphonie de Mozart ?"
+    answers:
+      A: "Symphonie n° 38 'Prague'"
+      B: "Symphonie n° 40"
+      C: "Symphonie n° 39"
+      D: "Symphonie n° 41 'Jupiter'"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Mozart's last symphony?"
+        answers:
+          A: "Symphony No. 38 'Prague'"
+          B: "Symphony No. 40"
+          C: "Symphony No. 39"
+          D: "Symphony No. 41 'Jupiter'"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit le 'Concerto pour violon et orchestre' dit 'À la mémoire d'un ange' ?"
+    answers:
+      A: "Alban Berg"
+      B: "Arnold Schoenberg"
+      C: "Anton Webern"
+      D: "Igor Stravinsky"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the 'Violin Concerto' known as 'To the Memory of an Angel'?"
+        answers:
+          A: "Alban Berg"
+          B: "Arnold Schoenberg"
+          C: "Anton Webern"
+          D: "Igor Stravinsky"
+    difficulty: EXPERT
+  - text: "Qui a composé la 'Symphonie n° 4' dite 'Romantique' ?"
+    answers:
+      A: "Anton Bruckner"
+      B: "Gustav Mahler"
+      C: "Johannes Brahms"
+      D: "Franz Schmidt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 4' known as 'Romantic'?"
+        answers:
+          A: "Anton Bruckner"
+          B: "Gustav Mahler"
+          C: "Johannes Brahms"
+          D: "Franz Schmidt"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier mouvement de la Symphonie n° 5 de Beethoven ?"
+    answers:
+      A: "Allegro"
+      B: "Andante con moto"
+      C: "Scherzo: Allegro"
+      D: "Allegro con brio"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first movement of Beethoven's Symphony No. 5?"
+        answers:
+          A: "Allegro"
+          B: "Andante con moto"
+          C: "Scherzo: Allegro"
+          D: "Allegro con brio"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit 'Le Mandarin merveilleux' ?"
+    answers:
+      A: "Béla Bartók"
+      B: "Zoltán Kodály"
+      C: "Ernő Dohnányi"
+      D: "Franz Liszt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote 'The Miraculous Mandarin'?"
+        answers:
+          A: "Béla Bartók"
+          B: "Zoltán Kodály"
+          C: "Ernő Dohnányi"
+          D: "Franz Liszt"
+    difficulty: EXPERT
+  - text: "Qui a composé l'opéra 'Lulu' ?"
+    answers:
+      A: "Anton Webern"
+      B: "Arnold Schoenberg"
+      C: "Alban Berg"
+      D: "Richard Strauss"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the opera 'Lulu'?"
+        answers:
+          A: "Anton Webern"
+          B: "Arnold Schoenberg"
+          C: "Alban Berg"
+          D: "Richard Strauss"
+    difficulty: EXPERT
+  - text: "Quel est le nombre de cordes sur une harpe de concert ?"
+    answers:
+      A: "42"
+      B: "44"
+      C: "50"
+      D: "47"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many strings does a concert harp have?"
+        answers:
+          A: "42"
+          B: "44"
+          C: "50"
+          D: "47"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit le 'Concerto pour orchestre' ?"
+    answers:
+      A: "Béla Bartók"
+      B: "Zoltán Kodály"
+      C: "Igor Stravinsky"
+      D: "Paul Hindemith"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the 'Concerto for Orchestra'?"
+        answers:
+          A: "Béla Bartók"
+          B: "Zoltán Kodály"
+          C: "Igor Stravinsky"
+          D: "Paul Hindemith"
+    difficulty: MEDIUM
+  - text: "Qui a composé la 'Symphonie n° 2' dite 'Résurrection' ?"
+    answers:
+      A: "Johannes Brahms"
+      B: "Anton Bruckner"
+      C: "Gustav Mahler"
+      D: "Richard Strauss"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 2' known as 'Resurrection'?"
+        answers:
+          A: "Johannes Brahms"
+          B: "Anton Bruckner"
+          C: "Gustav Mahler"
+          D: "Richard Strauss"
+    difficulty: HARD
+  - text: "Quel est le nom du troisième mouvement de la Symphonie n° 3 de Beethoven ?"
+    answers:
+      A: "Scherzo: Allegro vivace"
+      B: "Marcia funebre: Adagio assai"
+      C: "Allegro con brio"
+      D: "Finale: Allegro molto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the third movement of Beethoven's Symphony No. 3?"
+        answers:
+          A: "Scherzo: Allegro vivace"
+          B: "Marcia funebre: Adagio assai"
+          C: "Allegro con brio"
+          D: "Finale: Allegro molto"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit la Symphonie n° 3 en ré mineur, dite « Liturgique » ?"
+    answers:
+      A: "Darius Milhaud"
+      B: "Francis Poulenc"
+      C: "Arthur Honegger"
+      D: "Olivier Messiaen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote Symphony No. 3 in D minor, known as the \"Liturgique\"?"
+        answers:
+          A: "Darius Milhaud"
+          B: "Francis Poulenc"
+          C: "Arthur Honegger"
+          D: "Olivier Messiaen"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier mouvement de la Symphonie n° 6 « Pathétique » de Tchaïkovski ?"
+    answers:
+      A: "Allegro ma non tanto"
+      B: "Allegro con brio"
+      C: "Andante cantabile"
+      D: "Adagio – Allegro non troppo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first movement of Tchaikovsky's Symphony No. 6 \"Pathétique\"?"
+        answers:
+          A: "Allegro ma non tanto"
+          B: "Allegro con brio"
+          C: "Andante cantabile"
+          D: "Adagio – Allegro non troppo"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit l'opéra « Le Chevalier à la rose » ?"
+    answers:
+      A: "Richard Wagner"
+      B: "Richard Strauss"
+      C: "Gustav Mahler"
+      D: "Erich Wolfgang Korngold"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the opera \"Der Rosenkavalier\"?"
+        answers:
+          A: "Richard Wagner"
+          B: "Richard Strauss"
+          C: "Gustav Mahler"
+          D: "Erich Wolfgang Korngold"
+    difficulty: HARD
+  - text: "Quel est le nom du célèbre air de soprano dans « La Wally » de Catalani ?"
+    answers:
+      A: "Un bel dì vedremo"
+      B: "Vissi d'arte"
+      C: "Ebben? Ne andrò lontana"
+      D: "O mio babbino caro"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the famous soprano aria in Catalani's \"La Wally\"?"
+        answers:
+          A: "Un bel dì vedremo"
+          B: "Vissi d'arte"
+          C: "Ebben? Ne andrò lontana"
+          D: "O mio babbino caro"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit le « Concerto pour violon en ré majeur, op. 77 » ?"
+    answers:
+      A: "Antonín Dvořák"
+      B: "Félix Mendelssohn"
+      C: "Max Bruch"
+      D: "Johannes Brahms"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the \"Violin Concerto in D major, op. 77\"?"
+        answers:
+          A: "Antonín Dvořák"
+          B: "Félix Mendelssohn"
+          C: "Max Bruch"
+          D: "Johannes Brahms"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du troisième mouvement de la Symphonie n° 5 de Chostakovitch ?"
+    answers:
+      A: "Adagio"
+      B: "Allegretto"
+      C: "Andante"
+      D: "Largo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the third movement of Shostakovich's Symphony No. 5?"
+        answers:
+          A: "Adagio"
+          B: "Allegretto"
+          C: "Andante"
+          D: "Largo"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit la suite « Ibéria » pour orchestre ?"
+    answers:
+      A: "Manuel de Falla"
+      B: "Isaac Albéniz"
+      C: "Enrique Granados"
+      D: "Joaquín Rodrigo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the orchestral suite \"Ibéria\"?"
+        answers:
+          A: "Manuel de Falla"
+          B: "Isaac Albéniz"
+          C: "Enrique Granados"
+          D: "Joaquín Rodrigo"
+    difficulty: HARD
+  - text: "Quel est le nom du deuxième mouvement de la Symphonie n° 3 « Héroïque » de Beethoven ?"
+    answers:
+      A: "Allegro con brio"
+      B: "Marcia funebre: Adagio assai"
+      C: "Scherzo: Allegro vivace"
+      D: "Finale: Allegro molto"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the second movement of Beethoven's Symphony No. 3 \"Eroica\"?"
+        answers:
+          A: "Allegro con brio"
+          B: "Marcia funebre: Adagio assai"
+          C: "Scherzo: Allegro vivace"
+          D: "Finale: Allegro molto"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra « The Turn of the Screw » ?"
+    answers:
+      A: "Ralph Vaughan Williams"
+      B: "Benjamin Britten"
+      C: "William Walton"
+      D: "Michael Tippett"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the opera \"The Turn of the Screw\"?"
+        answers:
+          A: "Ralph Vaughan Williams"
+          B: "Benjamin Britten"
+          C: "William Walton"
+          D: "Michael Tippett"
+    difficulty: HARD
+  - text: "Quel est le nombre total de symphonies composées par Wolfgang Amadeus Mozart ?"
+    answers:
+      A: "39"
+      B: "41"
+      C: "45"
+      D: "50"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the total number of symphonies composed by Wolfgang Amadeus Mozart?"
+        answers:
+          A: "39"
+          B: "41"
+          C: "45"
+          D: "50"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit la « Rhapsodie sur un thème de Paganini » ?"
+    answers:
+      A: "Edvard Grieg"
+      B: "Franz Liszt"
+      C: "Johannes Brahms"
+      D: "Sergueï Rachmaninov"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the \"Rhapsody on a Theme of Paganini\"?"
+        answers:
+          A: "Edvard Grieg"
+          B: "Franz Liszt"
+          C: "Johannes Brahms"
+          D: "Sergei Rachmaninoff"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier mouvement de la Symphonie n° 9 « Du nouveau monde » de Dvořák ?"
+    answers:
+      A: "Allegro con fuoco"
+      B: "Largo"
+      C: "Scherzo: Molto vivace"
+      D: "Adagio – Allegro molto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first movement of Dvořák's Symphony No. 9 \"From the New World\"?"
+        answers:
+          A: "Allegro con fuoco"
+          B: "Largo"
+          C: "Scherzo: Molto vivace"
+          D: "Adagio – Allegro molto"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra « La Femme sans ombre » ?"
+    answers:
+      A: "Richard Strauss"
+      B: "Richard Wagner"
+      C: "Engelbert Humperdinck"
+      D: "Franz Schreker"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the opera \"Die Frau ohne Schatten\"?"
+        answers:
+          A: "Richard Strauss"
+          B: "Richard Wagner"
+          C: "Engelbert Humperdinck"
+          D: "Franz Schreker"
+    difficulty: EXPERT
+  - text: "Quel est le nom du célèbre air de ténor dans « La Bohème » de Puccini ?"
+    answers:
+      A: "Che gelida manina"
+      B: "Nessun dorma"
+      C: "E lucevan le stelle"
+      D: "Addio, fiorito asil"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the famous tenor aria in Puccini's \"La Bohème\"?"
+        answers:
+          A: "Che gelida manina"
+          B: "Nessun dorma"
+          C: "E lucevan le stelle"
+          D: "Addio, fiorito asil"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit la « Symphonie n° 4 en fa mineur, op. 36 » ?"
+    answers:
+      A: "Anton Bruckner"
+      B: "Johannes Brahms"
+      C: "Piotr Ilitch Tchaïkovski"
+      D: "Gustav Mahler"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the 'Symphony No. 4 in F minor, Op. 36'?"
+        answers:
+          A: "Anton Bruckner"
+          B: "Johannes Brahms"
+          C: "Pyotr Ilyich Tchaikovsky"
+          D: "Gustav Mahler"
+    difficulty: HARD
+  - text: "Quel est le nom du troisième mouvement de la Symphonie n° 6 « Pathétique » de Tchaïkovski ?"
+    answers:
+      A: "Andante"
+      B: "Allegro con grazia"
+      C: "Adagio lamentoso"
+      D: "Allegro molto vivace"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the third movement of Tchaikovsky's Symphony No. 6 'Pathétique'?"
+        answers:
+          A: "Andante"
+          B: "Allegro con grazia"
+          C: "Adagio lamentoso"
+          D: "Allegro molto vivace"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit le « Concerto pour piano n° 2 en sol majeur » ?"
+    answers:
+      A: "Darius Milhaud"
+      B: "Francis Poulenc"
+      C: "Maurice Ravel"
+      D: "Camille Saint-Saëns"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the 'Piano Concerto No. 2 in G major'?"
+        answers:
+          A: "Darius Milhaud"
+          B: "Francis Poulenc"
+          C: "Maurice Ravel"
+          D: "Camille Saint-Saëns"
+    difficulty: HARD
+  - text: "Quel est le nom du célèbre air de baryton dans « Le Barbier de Séville » de Rossini ?"
+    answers:
+      A: "Ecco ridente in cielo"
+      B: "La calunnia"
+      C: "Una voce poco fa"
+      D: "Largo al factotum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the famous baritone aria in Rossini's 'The Barber of Seville'?"
+        answers:
+          A: "Ecco ridente in cielo"
+          B: "La calunnia"
+          C: "Una voce poco fa"
+          D: "Largo al factotum"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit la « Symphonie n° 3 en mi bémol majeur, op. 97 » ?"
+    answers:
+      A: "Félix Mendelssohn"
+      B: "Johannes Brahms"
+      C: "Robert Schumann"
+      D: "Antonín Dvořák"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the 'Symphony No. 3 in E-flat major, Op. 97'?"
+        answers:
+          A: "Felix Mendelssohn"
+          B: "Johannes Brahms"
+          C: "Robert Schumann"
+          D: "Antonín Dvořák"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier mouvement de la Symphonie n° 2 « Résurrection » de Mahler ?"
+    answers:
+      A: "In ruhig fließender Bewegung"
+      B: "Andante moderato"
+      C: "Allegro maestoso"
+      D: "Urlicht"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first movement of Mahler's Symphony No. 2 'Resurrection'?"
+        answers:
+          A: "In ruhig fließender Bewegung"
+          B: "Andante moderato"
+          C: "Allegro maestoso"
+          D: "Urlicht"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra 'Wozzeck', créé en 1925 ?"
+    answers:
+      A: "Alban Berg"
+      B: "Arnold Schönberg"
+      C: "Anton Webern"
+      D: "Paul Hindemith"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the opera 'Wozzeck', premiered in 1925?"
+        answers:
+          A: "Alban Berg"
+          B: "Arnold Schoenberg"
+          C: "Anton Webern"
+          D: "Paul Hindemith"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier mouvement de la Symphonie n° 5 de Chostakovitch ?"
+    answers:
+      A: "Allegretto"
+      B: "Largo"
+      C: "Moderato"
+      D: "Presto"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first movement of Shostakovich's Symphony No. 5?"
+        answers:
+          A: "Allegretto"
+          B: "Largo"
+          C: "Moderato"
+          D: "Presto"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit la 'Symphonie n° 3' dite 'Liturgique' ?"
+    answers:
+      A: "Darius Milhaud"
+      B: "Arthur Honegger"
+      C: "Francis Poulenc"
+      D: "Germaine Tailleferre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the 'Symphony No. 3' known as 'Liturgique'?"
+        answers:
+          A: "Darius Milhaud"
+          B: "Arthur Honegger"
+          C: "Francis Poulenc"
+          D: "Germaine Tailleferre"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit la « Symphonie n° 3 en ré mineur, op. 47 » ?"
+    answers:
+      A: "Ralph Vaughan Williams"
+      B: "Carl Nielsen"
+      C: "Jean Sibelius"
+      D: "Gustav Mahler"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the 'Symphony No. 3 in D minor, Op. 47'?"
+        answers:
+          A: "Ralph Vaughan Williams"
+          B: "Carl Nielsen"
+          C: "Jean Sibelius"
+          D: "Gustav Mahler"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra « Les Troyens » ?"
+    answers:
+      A: "Hector Berlioz"
+      B: "Charles Gounod"
+      C: "Jules Massenet"
+      D: "Camille Saint-Saëns"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the opera 'Les Troyens'?"
+        answers:
+          A: "Hector Berlioz"
+          B: "Charles Gounod"
+          C: "Jules Massenet"
+          D: "Camille Saint-Saëns"
+    difficulty: HARD
+  - text: "Quel est le nom du célèbre air de ténor dans « Rigoletto » de Verdi ?"
+    answers:
+      A: "E lucevan le stelle"
+      B: "La donna è mobile"
+      C: "Nessun dorma"
+      D: "Celeste Aida"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the famous tenor aria in Verdi's 'Rigoletto'?"
+        answers:
+          A: "E lucevan le stelle"
+          B: "La donna è mobile"
+          C: "Nessun dorma"
+          D: "Celeste Aida"
+    difficulty: MEDIUM
+  - text: "Qui a composé la « Symphonie n° 5 en ré mineur, op. 47 » ?"
+    answers:
+      A: "Gustav Mahler"
+      B: "Jean Sibelius"
+      C: "Dmitri Chostakovitch"
+      D: "Carl Nielsen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 5 in D minor, Op. 47'?"
+        answers:
+          A: "Gustav Mahler"
+          B: "Jean Sibelius"
+          C: "Dmitri Shostakovich"
+          D: "Carl Nielsen"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit le poème symphonique « Don Juan », op. 20 ?"
+    answers:
+      A: "Richard Strauss"
+      B: "Franz Liszt"
+      C: "Hector Berlioz"
+      D: "Claude Debussy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the symphonic poem 'Don Juan', Op. 20?"
+        answers:
+          A: "Richard Strauss"
+          B: "Franz Liszt"
+          C: "Hector Berlioz"
+          D: "Claude Debussy"
+    difficulty: HARD
+  - text: "Quel est le nom du premier mouvement de la Symphonie n° 3 « Héroïque » de Beethoven ?"
+    answers:
+      A: "Allegro con brio"
+      B: "Marcia funebre. Adagio assai"
+      C: "Scherzo. Allegro vivace"
+      D: "Finale. Allegro molto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first movement of Beethoven's Symphony No. 3 'Eroica'?"
+        answers:
+          A: "Allegro con brio"
+          B: "Marcia funebre. Adagio assai"
+          C: "Scherzo. Allegro vivace"
+          D: "Finale. Allegro molto"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit l'opéra « Peter Grimes », créé en 1945 ?"
+    answers:
+      A: "Benjamin Britten"
+      B: "Michael Tippett"
+      C: "William Walton"
+      D: "Ralph Vaughan Williams"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the opera 'Peter Grimes', premiered in 1945?"
+        answers:
+          A: "Benjamin Britten"
+          B: "Michael Tippett"
+          C: "William Walton"
+          D: "Ralph Vaughan Williams"
+    difficulty: HARD
+  - text: "Qui a composé la « Rhapsodie espagnole » pour orchestre ?"
+    answers:
+      A: "Maurice Ravel"
+      B: "Claude Debussy"
+      C: "Manuel de Falla"
+      D: "Isaac Albéniz"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the 'Rhapsodie espagnole' for orchestra?"
+        answers:
+          A: "Maurice Ravel"
+          B: "Claude Debussy"
+          C: "Manuel de Falla"
+          D: "Isaac Albéniz"
+    difficulty: HARD
+  - text: "Quel est le nom du célèbre air de soprano dans « Turandot » de Puccini ?"
+    answers:
+      A: "Vissi d'arte"
+      B: "Un bel dì vedremo"
+      C: "Sì, mi chiamano Mimì"
+      D: "Nessun dorma"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the famous soprano aria in Puccini's 'Turandot'?"
+        answers:
+          A: "Vissi d'arte"
+          B: "Un bel dì vedremo"
+          C: "Sì, mi chiamano Mimì"
+          D: "Nessun dorma"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit l'opéra « La Clémence de Titus » ?"
+    answers:
+      A: "Christoph Willibald Gluck"
+      B: "Wolfgang Amadeus Mozart"
+      C: "Joseph Haydn"
+      D: "Ludwig van Beethoven"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the opera 'La Clemenza di Tito'?"
+        answers:
+          A: "Christoph Willibald Gluck"
+          B: "Wolfgang Amadeus Mozart"
+          C: "Joseph Haydn"
+          D: "Ludwig van Beethoven"
+    difficulty: HARD
+  - text: "Qui a composé la « Symphonie n° 1 en ré majeur, op. 25 » dite « Classique » ?"
+    answers:
+      A: "Dmitri Chostakovitch"
+      B: "Igor Stravinsky"
+      C: "Sergueï Prokofiev"
+      D: "Nikolaï Rimski-Korsakov"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 1 in D major, Op. 25' known as 'Classical'?"
+        answers:
+          A: "Dmitri Shostakovich"
+          B: "Igor Stravinsky"
+          C: "Sergei Prokofiev"
+          D: "Nikolai Rimsky-Korsakov"
+    difficulty: HARD
+  - text: "Quel est le nom du deuxième mouvement de la Symphonie n° 2 « Résurrection » de Mahler ?"
+    answers:
+      A: "Allegro maestoso"
+      B: "Andante moderato"
+      C: "In ruhig fließender Bewegung"
+      D: "Urlicht. Sehr feierlich"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the second movement of Mahler's Symphony No. 2 'Resurrection'?"
+        answers:
+          A: "Allegro maestoso"
+          B: "Andante moderato"
+          C: "In ruhig fließender Bewegung"
+          D: "Urlicht. Sehr feierlich"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit le « Concerto pour piano n° 1 en si bémol mineur, op. 23 » ?"
+    answers:
+      A: "Sergueï Rachmaninov"
+      B: "Modeste Moussorgski"
+      C: "Alexandre Scriabine"
+      D: "Piotr Ilitch Tchaïkovski"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the 'Piano Concerto No. 1 in B-flat minor, Op. 23'?"
+        answers:
+          A: "Sergei Rachmaninoff"
+          B: "Modest Mussorgsky"
+          C: "Alexander Scriabin"
+          D: "Pyotr Ilyich Tchaikovsky"
+    difficulty: HARD
+  - text: "Quel est le nom du célèbre air de basse dans « La Flûte enchantée » de Mozart ?"
+    answers:
+      A: "In diesen heil'gen Hallen"
+      B: "Dies Bildnis ist bezaubernd schön"
+      C: "Der Vogelfänger bin ich ja"
+      D: "Ach, ich fühl's"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the famous bass aria in Mozart's 'The Magic Flute'?"
+        answers:
+          A: "In diesen heil'gen Hallen"
+          B: "Dies Bildnis ist bezaubernd schön"
+          C: "Der Vogelfänger bin ich ja"
+          D: "Ach, ich fühl's"
+    difficulty: MEDIUM
+  - text: "Qui a composé la « Symphonie n° 7 en ré mineur » dite « Leningrad » ?"
+    answers:
+      A: "Sergueï Prokofiev"
+      B: "Dmitri Chostakovitch"
+      C: "Aram Khatchatourian"
+      D: "Gueorgui Sviridov"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 7 in D minor' known as 'Leningrad'?"
+        answers:
+          A: "Sergei Prokofiev"
+          B: "Dmitri Shostakovich"
+          C: "Aram Khachaturian"
+          D: "Georgy Sviridov"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit l'opéra « Orfeo ed Euridice » (1762) ?"
+    answers:
+      A: "Claudio Monteverdi"
+      B: "Georg Friedrich Haendel"
+      C: "Christoph Willibald Gluck"
+      D: "Jean-Philippe Rameau"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the opera 'Orfeo ed Euridice' (1762)?"
+        answers:
+          A: "Claudio Monteverdi"
+          B: "George Frideric Handel"
+          C: "Christoph Willibald Gluck"
+          D: "Jean-Philippe Rameau"
+    difficulty: HARD
+  - text: "Quel est le nom du premier mouvement de la Symphonie n° 4 « Italienne » de Mendelssohn ?"
+    answers:
+      A: "Andante con moto"
+      B: "Con moto moderato"
+      C: "Allegro vivace"
+      D: "Saltarello. Presto"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first movement of Mendelssohn's Symphony No. 4 'Italian'?"
+        answers:
+          A: "Andante con moto"
+          B: "Con moto moderato"
+          C: "Allegro vivace"
+          D: "Saltarello. Presto"
+    difficulty: EXPERT
+  - text: "Qui a composé la « Symphonie n° 9 en mi mineur, op. 95 » dite « Du nouveau monde » ?"
+    answers:
+      A: "Leoš Janáček"
+      B: "Bedřich Smetana"
+      C: "Antonín Dvořák"
+      D: "Bohuslav Martinů"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the 'Symphony No. 9 in E minor, Op. 95' known as 'From the New World'?"
+        answers:
+          A: "Leoš Janáček"
+          B: "Bedřich Smetana"
+          C: "Antonín Dvořák"
+          D: "Bohuslav Martinů"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit la suite « Le Tombeau de Couperin » ?"
+    answers:
+      A: "Claude Debussy"
+      B: "Francis Poulenc"
+      C: "Maurice Ravel"
+      D: "Erik Satie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which composer wrote the suite 'Le Tombeau de Couperin'?"
+        answers:
+          A: "Claude Debussy"
+          B: "Francis Poulenc"
+          C: "Maurice Ravel"
+          D: "Erik Satie"
+    difficulty: HARD
+  - text: "Quel est le nom du troisième mouvement de la Symphonie n° 9 de Beethoven ?"
+    answers:
+      A: "Allegro ma non troppo, un poco maestoso"
+      B: "Molto vivace"
+      C: "Presto – Allegro assai"
+      D: "Adagio molto e cantabile"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the third movement of Beethoven's Symphony No. 9?"
+        answers:
+          A: "Allegro ma non troppo, un poco maestoso"
+          B: "Molto vivace"
+          C: "Presto – Allegro assai"
+          D: "Adagio molto e cantabile"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit le poème symphonique « Les Préludes » ?"
+    answers:
+      A: "Bedřich Smetana"
+      B: "Hector Berlioz"
+      C: "Richard Strauss"
+      D: "Franz Liszt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the symphonic poem 'Les Préludes'?"
+        answers:
+          A: "Bedřich Smetana"
+          B: "Hector Berlioz"
+          C: "Richard Strauss"
+          D: "Franz Liszt"
+    difficulty: HARD
+  - text: "Quel est le nom du célèbre air de soprano dans « Norma » de Bellini ?"
+    answers:
+      A: "Sempre libera"
+      B: "Caro nome"
+      C: "Una furtiva lagrima"
+      D: "Casta diva"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the famous soprano aria in Bellini's \"Norma\"?"
+        answers:
+          A: "Sempre libera"
+          B: "Caro nome"
+          C: "Una furtiva lagrima"
+          D: "Casta diva"
+    difficulty: MEDIUM
+  - text: "Qui a composé la « Symphonie n° 8 en si mineur » dite « Inachevée » ?"
+    answers:
+      A: "Franz Schubert"
+      B: "Robert Schumann"
+      C: "Johannes Brahms"
+      D: "Anton Bruckner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the \"Symphony No. 8 in B minor\", known as the \"Unfinished\"?"
+        answers:
+          A: "Franz Schubert"
+          B: "Robert Schumann"
+          C: "Johannes Brahms"
+          D: "Anton Bruckner"
+    difficulty: MEDIUM
+  - text: "Quel compositeur a écrit l'opéra « Pelléas et Mélisande » ?"
+    answers:
+      A: "Maurice Ravel"
+      B: "Claude Debussy"
+      C: "Gabriel Fauré"
+      D: "Erik Satie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which composer wrote the opera \"Pelléas et Mélisande\"?"
+        answers:
+          A: "Maurice Ravel"
+          B: "Claude Debussy"
+          C: "Gabriel Fauré"
+          D: "Erik Satie"
+    difficulty: HARD
+  - text: "Qui a composé le « Concerto pour violoncelle en si mineur, op. 104 » ?"
+    answers:
+      A: "Édouard Lalo"
+      B: "Camille Saint-Saëns"
+      C: "Antonín Dvořák"
+      D: "Robert Schumann"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the \"Cello Concerto in B minor, Op. 104\"?"
+        answers:
+          A: "Édouard Lalo"
+          B: "Camille Saint-Saëns"
+          C: "Antonín Dvořák"
+          D: "Robert Schumann"
+    difficulty: HARD
+  - text: "Quel est le nom du célèbre air de ténor dans « La fille du régiment » de Donizetti ?"
+    answers:
+      A: "Una furtiva lagrima"
+      B: "Ah! mes amis, quel jour de fête!"
+      C: "Pour mon âme"
+      D: "Quanto è bella"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the famous tenor aria in Donizetti's \"La fille du régiment\"?"
+        answers:
+          A: "Una furtiva lagrima"
+          B: "Ah! mes amis, quel jour de fête!"
+          C: "Pour mon âme"
+          D: "Quanto è bella"
+    difficulty: EXPERT
+  - text: "Quel compositeur a écrit l'opéra « Elektra », créé en 1909 ?"
+    answers:
+      A: "Richard Strauss"
+      B: "Richard Wagner"
+      C: "Arnold Schönberg"
+      D: "Alban Berg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the opera \"Elektra\", premiered in 1909?"
+        answers:
+          A: "Richard Strauss"
+          B: "Richard Wagner"
+          C: "Arnold Schönberg"
+          D: "Alban Berg"
+    difficulty: HARD
+  - text: "Quel est le nom du troisième mouvement de la Symphonie n° 1 de Mahler ?"
+    answers:
+      A: "Kräftig bewegt, doch nicht zu schnell"
+      B: "Feierlich und gemessen, ohne zu schleppen"
+      C: "Langsam, schleppend"
+      D: "Stürmisch bewegt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the third movement of Mahler's Symphony No. 1?"
+        answers:
+          A: "Kräftig bewegt, doch nicht zu schnell"
+          B: "Feierlich und gemessen, ohne zu schleppen"
+          C: "Langsam, schleppend"
+          D: "Stürmisch bewegt"
+    difficulty: EXPERT
+  - text: "Qui a composé la « Symphonie n° 3 en ut majeur, op. 52 » ?"
+    answers:
+      A: "Gustav Mahler"
+      B: "Carl Nielsen"
+      C: "Jean Sibelius"
+      D: "Dmitri Chostakovitch"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the \"Symphony No. 3 in C major, Op. 52\"?"
+        answers:
+          A: "Gustav Mahler"
+          B: "Carl Nielsen"
+          C: "Jean Sibelius"
+          D: "Dmitri Shostakovich"
+    difficulty: EXPERT
+  - text: "Quel est le nom du célèbre air de basse dans « Don Giovanni » de Mozart ?"
+    answers:
+      A: "Metà di voi qua vadano"
+      B: "Fin ch'han dal vino"
+      C: "Deh, vieni alla finestra"
+      D: "Madamina, il catalogo è questo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the famous bass aria in Mozart's \"Don Giovanni\"?"
+        answers:
+          A: "Metà di voi qua vadano"
+          B: "Fin ch'han dal vino"
+          C: "Deh, vieni alla finestra"
+          D: "Madamina, il catalogo è questo"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit les « Variations sur un thème de Haydn », op. 56a ?"
+    answers:
+      A: "Johannes Brahms"
+      B: "Franz Liszt"
+      C: "Richard Wagner"
+      D: "Anton Bruckner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the \"Variations on a Theme by Haydn\", Op. 56a?"
+        answers:
+          A: "Johannes Brahms"
+          B: "Franz Liszt"
+          C: "Richard Wagner"
+          D: "Anton Bruckner"
+    difficulty: HARD

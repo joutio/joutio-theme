@@ -1,0 +1,1631 @@
+topic:
+  id: topic-culture-internet-et-memes
+  names:
+    fr: "Culture internet & memes"
+    en: "Internet Culture & Memes"
+  description: "Plongez dans la culture internet et ses memes les plus cultes : des lolcats aux danses virales de TikTok, en passant par Doge, Grumpy Cat, le rickroll et les grands phénomènes viraux. Testez vos connaissances sur les plateformes (YouTube, Reddit, Twitter/X, TikTok), le vocabulaire du web (troll, hashtag, thread, DM) et les moments qui ont marqué l'histoire d'internet."
+  category: ENTERTAINMENT
+  titles:
+    fr:
+      FER: "Lurker du dimanche"
+      BRONZE: "Posteur de meme"
+      ARGENT: "Threadeur actif"
+      OR: "Vétéran du rickroll"
+      PLATINE: "Archiviste de Reddit"
+      EMERAUDE: "Légende virale"
+      DIAMANT: "Divinité du web"
+    en:
+      FER: "Sunday Lurker"
+      BRONZE: "Meme Poster"
+      ARGENT: "Active Threader"
+      OR: "Rickroll Veteran"
+      PLATINE: "Reddit Archivist"
+      EMERAUDE: "Viral Legend"
+      DIAMANT: "Web Deity"
+  imageUrl: wikipedia/entertainment/A_Shiba_Inu.jpg
+questions:
+  - text: "Quel est le nom du compte Twitter (devenu X) qui a popularisé le format « ... us » ?"
+    answers:
+      A: "@US_History"
+      B: "@USvsTHEM"
+      C: "@us vs them"
+      D: "@us_irl"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Twitter (now X) account that popularized the \"... us\" format?"
+        answers:
+          A: "@US_History"
+          B: "@USvsTHEM"
+          C: "@us vs them"
+          D: "@us_irl"
+    difficulty: EXPERT
+  - text: "En quelle année a été créé le site 4chan, berceau de nombreux memes ?"
+    answers:
+      A: "2005"
+      B: "2003"
+      C: "2007"
+      D: "2001"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the site 4chan, the birthplace of many memes, created?"
+        answers:
+          A: "2005"
+          B: "2003"
+          C: "2007"
+          D: "2001"
+    difficulty: HARD
+  - text: "Quel est le véritable nom de la fille du meme « Ermahgerd » ?"
+    answers:
+      A: "Jessica Lee"
+      B: "Sarah Jones"
+      C: "Emily Smith"
+      D: "Maggie Goldenberger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the real name of the girl in the \"Ermahgerd\" meme?"
+        answers:
+          A: "Jessica Lee"
+          B: "Sarah Jones"
+          C: "Emily Smith"
+          D: "Maggie Goldenberger"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme montrant un homme interrompant une cérémonie pour crier « I object! » ?"
+    answers:
+      A: "I Object Guy"
+      B: "Wedding Crasher"
+      C: "Objection Boy"
+      D: "Protest Kid"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme showing a man interrupting a ceremony to shout \"I object!\"?"
+        answers:
+          A: "I Object Guy"
+          B: "Wedding Crasher"
+          C: "Objection Boy"
+          D: "Protest Kid"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme où un homme demande « Do you know the way? » ?"
+    answers:
+      A: "The Way"
+      B: "Wrong Way"
+      C: "Way Meme"
+      D: "Do You Know the Way"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme where a man asks \"Do you know the way?\"?"
+        answers:
+          A: "The Way"
+          B: "Wrong Way"
+          C: "Way Meme"
+          D: "Do You Know the Way"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme où un homme crie « This is Sparta! » ?"
+    answers:
+      A: "This is Sparta"
+      B: "Sparta Kick"
+      C: "Sparta Meme"
+      D: "Sparta Remix"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme where a man shouts \"This is Sparta!\"?"
+        answers:
+          A: "This is Sparta"
+          B: "Sparta Kick"
+          C: "Sparta Meme"
+          D: "Sparta Remix"
+    difficulty: EASY
+  - text: "Quelle race est la vedette du meme « Doge » ?"
+    imageUrl: wikipedia/entertainment/Shiba_inu_taiki.jpg
+    answers:
+      A: "Un corgi"
+      B: "Un husky"
+      C: "Un labrador"
+      D: "Un shiba inu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What breed stars in the \"Doge\" meme?"
+        answers:
+          A: "A corgi"
+          B: "A husky"
+          C: "A labrador"
+          D: "A shiba inu"
+    difficulty: EASY
+  - text: "Quel est le nom du meme montrant un homme qui dit « Ain't nobody got time for that » ?"
+    answers:
+      A: "Ain't Nobody Got Time"
+      B: "Sweet Brown"
+      C: "No Time Meme"
+      D: "Busy Woman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme showing a woman who says \"Ain't nobody got time for that\"?"
+        answers:
+          A: "Ain't Nobody Got Time"
+          B: "Sweet Brown"
+          C: "No Time Meme"
+          D: "Busy Woman"
+    difficulty: EXPERT
+  - text: "Quel est le vrai nom de Grumpy Cat ?"
+    imageUrl: wikipedia/entertainment/Grumpy_Cat_by_Gage_Skidmore.jpg
+    answers:
+      A: "Maru"
+      B: "Lil Bub"
+      C: "Tardar Sauce"
+      D: "Nala"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Grumpy Cat's real name?"
+        answers:
+          A: "Maru"
+          B: "Lil Bub"
+          C: "Tardar Sauce"
+          D: "Nala"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme où un homme dit « Hide your kids, hide your wife » ?"
+    answers:
+      A: "Antoine Dodson"
+      B: "Hide Your Kids"
+      C: "Intruder Alert"
+      D: "Bed Intruder"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"Hide your kids, hide your wife\"?"
+        answers:
+          A: "Antoine Dodson"
+          B: "Hide Your Kids"
+          C: "Intruder Alert"
+          D: "Bed Intruder"
+    difficulty: HARD
+  - text: "Quel est le nom du meme montrant un homme qui dit « I'm the Juggernaut, bitch! » ?"
+    answers:
+      A: "Juggernaut Meme"
+      B: "I'm the Juggernaut"
+      C: "X-Men Meme"
+      D: "Juggernaut Bitch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm the Juggernaut, bitch!\"?"
+        answers:
+          A: "Juggernaut Meme"
+          B: "I'm the Juggernaut"
+          C: "X-Men Meme"
+          D: "Juggernaut Bitch"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme où un homme dit « Look at all those chickens » ?"
+    answers:
+      A: "Chicken Man"
+      B: "Chickens Meme"
+      C: "Look at All Those Chickens"
+      D: "Farm Meme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"Look at all those chickens\"?"
+        answers:
+          A: "Chicken Man"
+          B: "Chickens Meme"
+          C: "Look at All Those Chickens"
+          D: "Farm Meme"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme montrant un homme qui dit « I like turtles » ?"
+    answers:
+      A: "Turtle Boy"
+      B: "Zombie Kid"
+      C: "I Like Turtles"
+      D: "Turtle Meme"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme showing a boy who says \"I like turtles\"?"
+        answers:
+          A: "Turtle Boy"
+          B: "Zombie Kid"
+          C: "I Like Turtles"
+          D: "Turtle Meme"
+    difficulty: EXPERT
+  - text: "Quel rongeur est le « Dramatic Chipmunk » ?"
+    imageUrl: wikipedia/entertainment/Cynomys_ludovicianus_GNP_21.jpg
+    answers:
+      A: "Un chien de prairie"
+      B: "Une marmotte"
+      C: "Un écureuil"
+      D: "Un hamster"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What rodent is the \"Dramatic Chipmunk\"?"
+        answers:
+          A: "A prairie dog"
+          B: "A marmot"
+          C: "A squirrel"
+          D: "A hamster"
+    difficulty: HARD
+  - text: "Quel est le nom du meme où un homme dit « Charlie bit my finger » ?"
+    answers:
+      A: "Bit Finger"
+      B: "Charlie Meme"
+      C: "Charlie Bit My Finger"
+      D: "Charlie's Finger"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme where a boy says \"Charlie bit my finger\"?"
+        answers:
+          A: "Bit Finger"
+          B: "Charlie Meme"
+          C: "Charlie Bit My Finger"
+          D: "Charlie's Finger"
+    difficulty: EASY
+  - text: "Quel est le nom du meme montrant un homme qui dit « Shoes » ?"
+    answers:
+      A: "Shoes Meme"
+      B: "Shoes"
+      C: "Shoes Guy"
+      D: "Get Your Shoes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"Shoes\"?"
+        answers:
+          A: "Shoes Meme"
+          B: "Shoes"
+          C: "Shoes Guy"
+          D: "Get Your Shoes"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme où un homme dit « I'm a bad man » ?"
+    answers:
+      A: "I'm a Bad Man"
+      B: "Bad Man"
+      C: "Bad Man Meme"
+      D: "Bad Guy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm a bad man\"?"
+        answers:
+          A: "I'm a Bad Man"
+          B: "Bad Man"
+          C: "Bad Man Meme"
+          D: "Bad Guy"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme montrant un homme qui dit « I'm not a rapper » ?"
+    answers:
+      A: "I'm Not a Rapper"
+      B: "Not a Rapper"
+      C: "Rapper Meme"
+      D: "Bad Rapper"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm not a rapper\"?"
+        answers:
+          A: "I'm Not a Rapper"
+          B: "Not a Rapper"
+          C: "Rapper Meme"
+          D: "Bad Rapper"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme où un homme dit « I'm the one who knocks » ?"
+    answers:
+      A: "One Who Knocks"
+      B: "I'm the One Who Knocks"
+      C: "Knocks Meme"
+      D: "Breaking Bad Meme"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm the one who knocks\"?"
+        answers:
+          A: "One Who Knocks"
+          B: "I'm the One Who Knocks"
+          C: "Knocks Meme"
+          D: "Breaking Bad Meme"
+    difficulty: HARD
+  - text: "Quel est le nom du meme montrant un homme qui dit « I am your father » ?"
+    answers:
+      A: "Star Wars Meme"
+      B: "Father Meme"
+      C: "I Am Your Father"
+      D: "Vader Meme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I am your father\"?"
+        answers:
+          A: "Star Wars Meme"
+          B: "Father Meme"
+          C: "I Am Your Father"
+          D: "Vader Meme"
+    difficulty: EASY
+  - text: "Quel est le nom du meme où un homme dit « I'll be back » ?"
+    answers:
+      A: "Terminator Meme"
+      B: "Back Meme"
+      C: "I'll Be Back"
+      D: "Schwarzenegger Meme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'll be back\"?"
+        answers:
+          A: "Terminator Meme"
+          B: "Back Meme"
+          C: "I'll Be Back"
+          D: "Schwarzenegger Meme"
+    difficulty: EASY
+  - text: "Quel dessinateur a créé Pepe en 2005 ?"
+    imageUrl: wikipedia/entertainment/European_Common_Frog_Rana_temporaria.jpg
+    answers:
+      A: "Chris Torres"
+      B: "David Firth"
+      C: "Carlos Ramirez"
+      D: "Matt Furie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which cartoonist created Pepe in 2005?"
+        answers:
+          A: "Chris Torres"
+          B: "David Firth"
+          C: "Carlos Ramirez"
+          D: "Matt Furie"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme montrant un homme qui dit « I'm gonna build a wall » ?"
+    answers:
+      A: "Build a Wall"
+      B: "Wall Meme"
+      C: "Trump Meme"
+      D: "I'm Gonna Build a Wall"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm gonna build a wall\"?"
+        answers:
+          A: "Build a Wall"
+          B: "Wall Meme"
+          C: "Trump Meme"
+          D: "I'm Gonna Build a Wall"
+    difficulty: EXPERT
+  - text: "Quel est le nom du meme où un homme dit « I'm not a crook » ?"
+    answers:
+      A: "Not a Crook"
+      B: "I'm Not a Crook"
+      C: "Crook Meme"
+      D: "Nixon Meme"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm not a crook\"?"
+        answers:
+          A: "Not a Crook"
+          B: "I'm Not a Crook"
+          C: "Crook Meme"
+          D: "Nixon Meme"
+    difficulty: HARD
+  - text: "Quelle est la première vidéo jamais mise en ligne sur YouTube ?"
+    answers:
+      A: "Me at the zoo"
+      B: "Charlie bit my finger"
+      C: "Nyan Cat"
+      D: "Rickroll"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first video ever uploaded to YouTube?"
+        answers:
+          A: "Me at the zoo"
+          B: "Charlie bit my finger"
+          C: "Nyan Cat"
+          D: "Rickroll"
+    difficulty: MEDIUM
+  - text: "En quelle année le mème « Nyan Cat » a-t-il été mis en ligne pour la première fois ?"
+    answers:
+      A: "2009"
+      B: "2010"
+      C: "2012"
+      D: "2011"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the \"Nyan Cat\" meme first uploaded?"
+        answers:
+          A: "2009"
+          B: "2010"
+          C: "2012"
+          D: "2011"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème mettant en scène un homme qui demande « Do you know the way? »"
+    answers:
+      A: "Crazy Russian"
+      B: "Ugandan Knuckles"
+      C: "Soviet Womble"
+      D: "African Kid"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme featuring a man who asks \"Do you know the way?\""
+        answers:
+          A: "Crazy Russian"
+          B: "Ugandan Knuckles"
+          C: "Soviet Womble"
+          D: "African Kid"
+    difficulty: EXPERT
+  - text: "Quel mème de 2012 montre un homme en train de danser sur « Gangnam Style » ?"
+    answers:
+      A: "Harlem Shake"
+      B: "Psy"
+      C: "Nyan Cat"
+      D: "Doge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 2012 meme shows a man dancing to \"Gangnam Style\"?"
+        answers:
+          A: "Harlem Shake"
+          B: "Psy"
+          C: "Nyan Cat"
+          D: "Doge"
+    difficulty: MEDIUM
+  - text: "Quel site a été fondé par Alexis Ohanian et Steve Huffman en 2005 ?"
+    answers:
+      A: "Digg"
+      B: "Tumblr"
+      C: "4chan"
+      D: "Reddit"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which site was founded by Alexis Ohanian and Steve Huffman in 2005?"
+        answers:
+          A: "Digg"
+          B: "Tumblr"
+          C: "4chan"
+          D: "Reddit"
+    difficulty: HARD
+  - text: "Quel est le nom du mème montrant un homme qui dit « I'm the Juggernaut, bitch! » ?"
+    answers:
+      A: "X-Men"
+      B: "Juggernaut"
+      C: "Vinnie Jones"
+      D: "Cain Marko"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm the Juggernaut, bitch!\"?"
+        answers:
+          A: "X-Men"
+          B: "Juggernaut"
+          C: "Vinnie Jones"
+          D: "Cain Marko"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème où un homme dit « Look at all those chickens » ?"
+    answers:
+      A: "Chicken Man"
+      B: "Chicken Little"
+      C: "Chicken Nugget"
+      D: "Look at all those chickens"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"Look at all those chickens\"?"
+        answers:
+          A: "Chicken Man"
+          B: "Chicken Little"
+          C: "Chicken Nugget"
+          D: "Look at all those chickens"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème montrant un homme qui dit « I like turtles » ?"
+    answers:
+      A: "Turtle Boy"
+      B: "Turtle Man"
+      C: "Zombie Kid"
+      D: "I like turtles"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I like turtles\"?"
+        answers:
+          A: "Turtle Boy"
+          B: "Turtle Man"
+          C: "Zombie Kid"
+          D: "I like turtles"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème où un homme dit « Charlie bit my finger » ?"
+    answers:
+      A: "Bit My Finger"
+      B: "Charlie"
+      C: "Charlie Bit My Finger"
+      D: "Charlie and Harry"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"Charlie bit my finger\"?"
+        answers:
+          A: "Bit My Finger"
+          B: "Charlie"
+          C: "Charlie Bit My Finger"
+          D: "Charlie and Harry"
+    difficulty: EASY
+  - text: "Quel est le nom du mème montrant un homme qui dit « Shoes » ?"
+    answers:
+      A: "Shoes Guy"
+      B: "Shoes"
+      C: "Shoes Man"
+      D: "Shoes on the other foot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"Shoes\"?"
+        answers:
+          A: "Shoes Guy"
+          B: "Shoes"
+          C: "Shoes Man"
+          D: "Shoes on the other foot"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème où un homme dit « I'm a bad man » ?"
+    answers:
+      A: "Bad Man"
+      B: "Bad Guy"
+      C: "Bad Ass"
+      D: "I'm a bad man"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm a bad man\"?"
+        answers:
+          A: "Bad Man"
+          B: "Bad Guy"
+          C: "Bad Ass"
+          D: "I'm a bad man"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème montrant un homme qui dit « I'm not a rapper » ?"
+    answers:
+      A: "Not a rapper"
+      B: "Rapper"
+      C: "I'm not a rapper"
+      D: "Rap God"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm not a rapper\"?"
+        answers:
+          A: "Not a rapper"
+          B: "Rapper"
+          C: "I'm not a rapper"
+          D: "Rap God"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème où un homme dit « I'm the one who knocks » ?"
+    answers:
+      A: "Walter White"
+      B: "Breaking Bad"
+      C: "I'm the one who knocks"
+      D: "Heisenberg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm the one who knocks\"?"
+        answers:
+          A: "Walter White"
+          B: "Breaking Bad"
+          C: "I'm the one who knocks"
+          D: "Heisenberg"
+    difficulty: HARD
+  - text: "Quel est le nom du mème montrant un homme qui dit « I am your father » ?"
+    answers:
+      A: "Darth Vader"
+      B: "I am your father"
+      C: "Star Wars"
+      D: "Luke"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I am your father\"?"
+        answers:
+          A: "Darth Vader"
+          B: "I am your father"
+          C: "Star Wars"
+          D: "Luke"
+    difficulty: EASY
+  - text: "Quel est le nom du mème où un homme dit « I'll be back » ?"
+    answers:
+      A: "Terminator"
+      B: "Arnold"
+      C: "I'll be back"
+      D: "The Terminator"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'll be back\"?"
+        answers:
+          A: "Terminator"
+          B: "Arnold"
+          C: "I'll be back"
+          D: "The Terminator"
+    difficulty: EASY
+  - text: "Quel est le nom du mème montrant un homme qui dit « I'm gonna build a wall » ?"
+    answers:
+      A: "Build a wall"
+      B: "I'm gonna build a wall"
+      C: "The Wall"
+      D: "Trump"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm gonna build a wall\"?"
+        answers:
+          A: "Build a wall"
+          B: "I'm gonna build a wall"
+          C: "The Wall"
+          D: "Trump"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème où un homme dit « I'm not a crook » ?"
+    answers:
+      A: "I'm not a crook"
+      B: "Nixon"
+      C: "Crook"
+      D: "Not a crook"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm not a crook\"?"
+        answers:
+          A: "I'm not a crook"
+          B: "Nixon"
+          C: "Crook"
+          D: "Not a crook"
+    difficulty: HARD
+  - text: "Quel est le nom du mème où un homme dit « I'm the captain now » ?"
+    answers:
+      A: "Captain Phillips"
+      B: "Captain Obvious"
+      C: "Look at me"
+      D: "I'm the captain now"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm the captain now\"?"
+        answers:
+          A: "Captain Phillips"
+          B: "Captain Obvious"
+          C: "Look at me"
+          D: "I'm the captain now"
+    difficulty: HARD
+  - text: "Quel site a lancé le bouton « like » en 2009 ?"
+    answers:
+      A: "Twitter"
+      B: "Instagram"
+      C: "Facebook"
+      D: "YouTube"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which site launched the \"like\" button in 2009?"
+        answers:
+          A: "Twitter"
+          B: "Instagram"
+          C: "Facebook"
+          D: "YouTube"
+    difficulty: HARD
+  - text: "Quel est le nom du mème où un homme dit « I'm gonna build a wall » ?"
+    answers:
+      A: "Build the Wall"
+      B: "Trump Wall"
+      C: "I'm gonna build a wall"
+      D: "The Wall"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm gonna build a wall\"?"
+        answers:
+          A: "Build the Wall"
+          B: "Trump Wall"
+          C: "I'm gonna build a wall"
+          D: "The Wall"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème montrant un homme qui dit « I'm not a crook » ?"
+    answers:
+      A: "Nixon Now"
+      B: "Tricky Dick"
+      C: "Watergate"
+      D: "I'm not a crook"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm not a crook\"?"
+        answers:
+          A: "Nixon Now"
+          B: "Tricky Dick"
+          C: "Watergate"
+          D: "I'm not a crook"
+    difficulty: HARD
+  - text: "Quel est le nom du mème où un homme dit « Hide your kids, hide your wife » ?"
+    answers:
+      A: "Auto-Tune the News"
+      B: "Bed Intruder Song"
+      C: "Antoine Dodson"
+      D: "Hide Yo Kids, Hide Yo Wife"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"Hide your kids, hide your wife\"?"
+        answers:
+          A: "Auto-Tune the News"
+          B: "Bed Intruder Song"
+          C: "Antoine Dodson"
+          D: "Hide Yo Kids, Hide Yo Wife"
+    difficulty: HARD
+  - text: "Quel est le nom du mème montrant un homme qui dit « Ain't nobody got time for that » ?"
+    answers:
+      A: "Kimberly Wilkins"
+      B: "Sweet Brown"
+      C: "Ain't Nobody Got Time for That"
+      D: "I Got Bronchitis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"Ain't nobody got time for that\"?"
+        answers:
+          A: "Kimberly Wilkins"
+          B: "Sweet Brown"
+          C: "Ain't Nobody Got Time for That"
+          D: "I Got Bronchitis"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème où un homme dit « This is Sparta! » ?"
+    answers:
+      A: "This is Sparta!"
+      B: "300"
+      C: "Leonidas"
+      D: "Sparta Remix"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"This is Sparta!\"?"
+        answers:
+          A: "This is Sparta!"
+          B: "300"
+          C: "Leonidas"
+          D: "Sparta Remix"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du mème montrant un homme qui dit « Do you know the way? » ?"
+    answers:
+      A: "Wayne's World"
+      B: "The Way"
+      C: "No Way"
+      D: "Do You Know the Way?"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"Do you know the way?\"?"
+        answers:
+          A: "Wayne's World"
+          B: "The Way"
+          C: "No Way"
+          D: "Do You Know the Way?"
+    difficulty: EXPERT
+  - text: "Quel mème de 2004 montre un homme dansant sur la chanson « Dragostea Din Tei » ?"
+    answers:
+      A: "Nyan Cat"
+      B: "Trololo"
+      C: "Numa Numa"
+      D: "Gangnam Style"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 2004 meme shows a man dancing to the song \"Dragostea Din Tei\"?"
+        answers:
+          A: "Nyan Cat"
+          B: "Trololo"
+          C: "Numa Numa"
+          D: "Gangnam Style"
+    difficulty: EXPERT
+  - text: "Quel est le vrai nom de l'homme derrière le mème « Numa Numa » ?"
+    answers:
+      A: "Gary Brolsma"
+      B: "Chris Crocker"
+      C: "Jared Leto"
+      D: "Judson Laipply"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the real name of the man behind the \"Numa Numa\" meme?"
+        answers:
+          A: "Gary Brolsma"
+          B: "Chris Crocker"
+          C: "Jared Leto"
+          D: "Judson Laipply"
+    difficulty: MEDIUM
+  - text: "Quel mème de 2006 montre une femme demandant « Leave Britney Alone! » ?"
+    answers:
+      A: "Chris Crocker"
+      B: "Antoine Dodson"
+      C: "Sweet Brown"
+      D: "Kim Kardashian"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2006 meme shows a woman asking \"Leave Britney Alone!\"?"
+        answers:
+          A: "Chris Crocker"
+          B: "Antoine Dodson"
+          C: "Sweet Brown"
+          D: "Kim Kardashian"
+    difficulty: MEDIUM
+  - text: "Quel mème de 2007 montre un homme chantant « Chocolate Rain » ?"
+    answers:
+      A: "Tay Zonday"
+      B: "Rebecca Black"
+      C: "Rick Astley"
+      D: "PSY"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2007 meme shows a man singing \"Chocolate Rain\"?"
+        answers:
+          A: "Tay Zonday"
+          B: "Rebecca Black"
+          C: "Rick Astley"
+          D: "PSY"
+    difficulty: MEDIUM
+  - text: "Quel mème de 2003 montre un adolescent imitant un sabre laser avec un manche à balai ?"
+    answers:
+      A: "Star Wars Kid"
+      B: "Lightsaber Kid"
+      C: "Jedi Boy"
+      D: "Force Master"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2003 meme shows a teenager imitating a lightsaber with a broom handle?"
+        answers:
+          A: "Star Wars Kid"
+          B: "Lightsaber Kid"
+          C: "Jedi Boy"
+          D: "Force Master"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom du « Star Wars Kid » ?"
+    answers:
+      A: "Gary Brolsma"
+      B: "Ghyslain Raza"
+      C: "Chris Crocker"
+      D: "Tay Zonday"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the real name of the \"Star Wars Kid\"?"
+        answers:
+          A: "Gary Brolsma"
+          B: "Ghyslain Raza"
+          C: "Chris Crocker"
+          D: "Tay Zonday"
+    difficulty: HARD
+  - text: "Quelle chanson est utilisée dans le mème « Trololo » ?"
+    answers:
+      A: "« Korobeiniki »"
+      B: "« Kalinka »"
+      C: "« Ochi Chernye »"
+      D: "« I Am Glad, 'Cause I'm Finally Returning Back Home »"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which song is used in the \"Trololo\" meme?"
+        answers:
+          A: "\"Korobeiniki\""
+          B: "\"Kalinka\""
+          C: "\"Ochi Chernye\""
+          D: "\"I Am Glad, 'Cause I'm Finally Returning Back Home\""
+    difficulty: HARD
+  - text: "Qui est l'homme derrière le mème « Trololo » ?"
+    answers:
+      A: "Nikolai Baskov"
+      B: "Vitas"
+      C: "Eduard Khil"
+      D: "Dima Bilan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the man behind the \"Trololo\" meme?"
+        answers:
+          A: "Nikolai Baskov"
+          B: "Vitas"
+          C: "Eduard Khil"
+          D: "Dima Bilan"
+    difficulty: MEDIUM
+  - text: "Quel mème de 2013 montre une femme disant « Ain't nobody got time for that » ?"
+    answers:
+      A: "Sweet Brown"
+      B: "Antoine Dodson"
+      C: "Chris Crocker"
+      D: "Grumpy Cat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2013 meme shows a woman saying \"Ain't nobody got time for that\"?"
+        answers:
+          A: "Sweet Brown"
+          B: "Antoine Dodson"
+          C: "Chris Crocker"
+          D: "Grumpy Cat"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de « Sweet Brown » ?"
+    answers:
+      A: "Tay Zonday"
+      B: "Antoinette Dodson"
+      C: "Kimberly Wilkins"
+      D: "Rebecca Black"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the real name of \"Sweet Brown\"?"
+        answers:
+          A: "Tay Zonday"
+          B: "Antoinette Dodson"
+          C: "Kimberly Wilkins"
+          D: "Rebecca Black"
+    difficulty: HARD
+  - text: "Quel mème de 2013 montre un homme disant « Hide your kids, hide your wife » ?"
+    answers:
+      A: "Antoine Dodson"
+      B: "Sweet Brown"
+      C: "Chris Crocker"
+      D: "Tay Zonday"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2013 meme shows a man saying \"Hide your kids, hide your wife\"?"
+        answers:
+          A: "Antoine Dodson"
+          B: "Sweet Brown"
+          C: "Chris Crocker"
+          D: "Tay Zonday"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom d'« Antoine Dodson » ?"
+    answers:
+      A: "Antoine Dodson"
+      B: "Kevin Dodson"
+      C: "Michael Dodson"
+      D: "James Dodson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the real name of \"Antoine Dodson\"?"
+        answers:
+          A: "Antoine Dodson"
+          B: "Kevin Dodson"
+          C: "Michael Dodson"
+          D: "James Dodson"
+    difficulty: EXPERT
+  - text: "Quel mème de 2011 montre un homme disant « I'm the Juggernaut, bitch! » ?"
+    answers:
+      A: "Juggernaut Bitch"
+      B: "I'm the Juggernaut"
+      C: "X-Men Meme"
+      D: "Juggernaut Rage"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2011 meme shows a man saying \"I'm the Juggernaut, bitch!\"?"
+        answers:
+          A: "Juggernaut Bitch"
+          B: "I'm the Juggernaut"
+          C: "X-Men Meme"
+          D: "Juggernaut Rage"
+    difficulty: HARD
+  - text: "Quel mème de 2009 montre un homme disant « I'm not a rapper » ?"
+    answers:
+      A: "I Am a Rapper"
+      B: "Rapper Meme"
+      C: "Not a Rapper"
+      D: "I'm Not a Rapper"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 2009 meme shows a man saying \"I'm not a rapper\"?"
+        answers:
+          A: "I Am a Rapper"
+          B: "Rapper Meme"
+          C: "Not a Rapper"
+          D: "I'm Not a Rapper"
+    difficulty: HARD
+  - text: "Quel mème de 2010 montre un homme disant « I'm the captain now » ?"
+    answers:
+      A: "Captain Phillips"
+      B: "I'm the Captain"
+      C: "Look at Me"
+      D: "Captain Meme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 2010 meme shows a man saying \"I'm the captain now\"?"
+        answers:
+          A: "Captain Phillips"
+          B: "I'm the Captain"
+          C: "Look at Me"
+          D: "Captain Meme"
+    difficulty: MEDIUM
+  - text: "Quel mème de 2007 montre un homme disant « I like turtles » ?"
+    answers:
+      A: "Turtle Boy"
+      B: "I Like Turtles"
+      C: "Zombie Kid"
+      D: "Turtle Meme"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 2007 meme shows a man saying \"I like turtles\"?"
+        answers:
+          A: "Turtle Boy"
+          B: "I Like Turtles"
+          C: "Zombie Kid"
+          D: "Turtle Meme"
+    difficulty: MEDIUM
+  - text: "Quel mème de 2007 montre un enfant disant « Charlie bit my finger » ?"
+    answers:
+      A: "Charlie the Unicorn"
+      B: "Charlie Bit My Finger"
+      C: "Charlie Brown"
+      D: "Charlie Sheen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 2007 meme shows a child saying \"Charlie bit my finger\"?"
+        answers:
+          A: "Charlie the Unicorn"
+          B: "Charlie Bit My Finger"
+          C: "Charlie Brown"
+          D: "Charlie Sheen"
+    difficulty: EASY
+  - text: "Quel mème de 2006 montre un homme disant « Shoes » ?"
+    answers:
+      A: "Shoes"
+      B: "Shoe Man"
+      C: "Shoes Meme"
+      D: "Shoe Thief"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2006 meme shows a man saying \"Shoes\"?"
+        answers:
+          A: "Shoes"
+          B: "Shoe Man"
+          C: "Shoes Meme"
+          D: "Shoe Thief"
+    difficulty: MEDIUM
+  - text: "Quel mème de 2007 montre un homme disant « I'm a bad man » ?"
+    answers:
+      A: "Bad Meme"
+      B: "Bad Boy"
+      C: "Bad Man"
+      D: "I'm Bad"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 2007 meme shows a man saying \"I'm a bad man\"?"
+        answers:
+          A: "Bad Meme"
+          B: "Bad Boy"
+          C: "Bad Man"
+          D: "I'm Bad"
+    difficulty: HARD
+  - text: "Quel mème de 2008 montre un homme disant « I'll be back » ?"
+    answers:
+      A: "Terminator"
+      B: "I'll Be Back"
+      C: "Arnold Meme"
+      D: "Comeback"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 2008 meme shows a man saying \"I'll be back\"?"
+        answers:
+          A: "Terminator"
+          B: "I'll Be Back"
+          C: "Arnold Meme"
+          D: "Comeback"
+    difficulty: EXPERT
+  - text: "Quel redditeur a créé le subreddit r/place en 2017 ?"
+    answers:
+      A: "Un développeur de Reddit nommé Josh Wardle"
+      B: "Un groupe d'utilisateurs anonymes"
+      C: "La communauté r/place elle-même"
+      D: "Reddit a lancé r/place sans créateur unique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Redditor created the subreddit r/place in 2017?"
+        answers:
+          A: "A Reddit developer named Josh Wardle"
+          B: "A group of anonymous users"
+          C: "The r/place community itself"
+          D: "Reddit launched r/place without a single creator"
+    difficulty: EXPERT
+  - text: "En quelle année la vidéo « Rickroll » a-t-elle été uploadée sur YouTube ?"
+    answers:
+      A: "2006"
+      B: "2007"
+      C: "2008"
+      D: "2009"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the \"Rickroll\" video uploaded to YouTube?"
+        answers:
+          A: "2006"
+          B: "2007"
+          C: "2008"
+          D: "2009"
+    difficulty: HARD
+  - text: "Quel est le vrai nom de l'acteur incarnant le personnage de « Salt Bae » ?"
+    answers:
+      A: "Recep İvedik"
+      B: "Nusret Gökçe"
+      C: "Cem Yılmaz"
+      D: "Burak Özçivit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the real name of the actor who plays the character \"Salt Bae\"?"
+        answers:
+          A: "Recep İvedik"
+          B: "Nusret Gökçe"
+          C: "Cem Yılmaz"
+          D: "Burak Özçivit"
+    difficulty: HARD
+  - text: "Quel site web a popularisé le terme « troll » dans les années 1990 ?"
+    answers:
+      A: "Something Awful"
+      B: "4chan"
+      C: "Reddit"
+      D: "Digg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which website popularized the term \"troll\" in the 1990s?"
+        answers:
+          A: "Something Awful"
+          B: "4chan"
+          C: "Reddit"
+          D: "Digg"
+    difficulty: HARD
+  - text: "Que signifie l'acronyme « OC » sur Reddit ?"
+    answers:
+      A: "Original Content"
+      B: "Official Comment"
+      C: "Over Clocked"
+      D: "On Camera"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the acronym \"OC\" mean on Reddit?"
+        answers:
+          A: "Original Content"
+          B: "Official Comment"
+          C: "Over Clocked"
+          D: "On Camera"
+    difficulty: EASY
+  - text: "Quel mème de 2007 montre une loutre tenant un objet ?"
+    answers:
+      A: "Doge"
+      B: "Grumpy Cat"
+      C: "Nyan Cat"
+      D: "IKEA Monkey"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 2007 meme shows an otter holding an object?"
+        answers:
+          A: "Doge"
+          B: "Grumpy Cat"
+          C: "Nyan Cat"
+          D: "IKEA Monkey"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème montrant un homme qui dit « I'm not a monkey » ?"
+    answers:
+      A: "Monkey Jesus"
+      B: "Monkey See, Monkey Do"
+      C: "Monkey Dust"
+      D: "Monkey Business"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the meme showing a man who says \"I'm not a monkey\"?"
+        answers:
+          A: "Monkey Jesus"
+          B: "Monkey See, Monkey Do"
+          C: "Monkey Dust"
+          D: "Monkey Business"
+    difficulty: EXPERT
+  - text: "Quel groupe a composé la chanson « Nyan Cat » ?"
+    answers:
+      A: "DaniwellP"
+      B: "Hatsune Miku"
+      C: "The Living Tombstone"
+      D: "Ken Ashcorp"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which group composed the song \"Nyan Cat\"?"
+        answers:
+          A: "DaniwellP"
+          B: "Hatsune Miku"
+          C: "The Living Tombstone"
+          D: "Ken Ashcorp"
+    difficulty: HARD
+  - text: "Quel est le nom du chien de la race Shiba Inu utilisé dans le mème « Doge » ?"
+    answers:
+      A: "Shiba"
+      B: "Kabosu"
+      C: "Inu"
+      D: "Doge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Shiba Inu dog used in the \"Doge\" meme?"
+        answers:
+          A: "Shiba"
+          B: "Kabosu"
+          C: "Inu"
+          D: "Doge"
+    difficulty: HARD
+  - text: "En quelle année le mème « Grumpy Cat » est-il devenu viral ?"
+    answers:
+      A: "2010"
+      B: "2011"
+      C: "2012"
+      D: "2013"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the \"Grumpy Cat\" meme go viral?"
+        answers:
+          A: "2010"
+          B: "2011"
+          C: "2012"
+          D: "2013"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de « Grumpy Cat » ?"
+    answers:
+      A: "Tard"
+      B: "Tardar Sauce"
+      C: "Grumpy"
+      D: "Sauce"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the real name of \"Grumpy Cat\"?"
+        answers:
+          A: "Tard"
+          B: "Tardar Sauce"
+          C: "Grumpy"
+          D: "Sauce"
+    difficulty: HARD
+  - text: "Quel mème montre un homme disant « Hide your kids, hide your wife » ?"
+    answers:
+      A: "Keyboard Cat"
+      B: "Sweet Brown"
+      C: "Antoine Dodson"
+      D: "Dramatic Chipmunk"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which meme shows a man saying \"Hide your kids, hide your wife\"?"
+        answers:
+          A: "Keyboard Cat"
+          B: "Sweet Brown"
+          C: "Antoine Dodson"
+          D: "Dramatic Chipmunk"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de l'homme derrière le mème « Trololo » ?"
+    answers:
+      A: "Eduard Khil"
+      B: "Vitas"
+      C: "Ivan Rebroff"
+      D: "Alexei Lalas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the real name of the man behind the \"Trololo\" meme?"
+        answers:
+          A: "Eduard Khil"
+          B: "Vitas"
+          C: "Ivan Rebroff"
+          D: "Alexei Lalas"
+    difficulty: HARD
+  - text: "En quelle année le mème « Nyan Cat » a-t-il été mis en ligne ?"
+    answers:
+      A: "2009"
+      B: "2010"
+      C: "2012"
+      D: "2011"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the \"Nyan Cat\" meme uploaded?"
+        answers:
+          A: "2009"
+          B: "2010"
+          C: "2012"
+          D: "2011"
+    difficulty: HARD
+  - text: "Quel mème montre un homme dansant sur la chanson « Dragostea Din Tei » ?"
+    answers:
+      A: "Numa Numa"
+      B: "Trololo"
+      C: "Chocolate Rain"
+      D: "Star Wars Kid"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which meme shows a man dancing to the song \"Dragostea Din Tei\"?"
+        answers:
+          A: "Numa Numa"
+          B: "Trololo"
+          C: "Chocolate Rain"
+          D: "Star Wars Kid"
+    difficulty: MEDIUM
+  - text: "Quelle est l'origine du nom « lolcat » ?"
+    answers:
+      A: "Une référence à un dessin animé"
+      B: "Un jeu de mots sur « lollipop »"
+      C: "Une fusion de « LOL » et « cat »"
+      D: "Un acronyme pour « Lots Of Laughs Cat »"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the origin of the name \"lolcat\"?"
+        answers:
+          A: "A reference to a cartoon"
+          B: "A pun on \"lollipop\""
+          C: "A fusion of \"LOL\" and \"cat\""
+          D: "An acronym for \"Lots Of Laughs Cat\""
+    difficulty: MEDIUM
+  - text: "Quel site a hébergé le tout premier lolcat, « I Can Has Cheezburger? », en 2007 ?"
+    answers:
+      A: "Reddit"
+      B: "4chan"
+      C: "Tumblr"
+      D: "Imgur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which site hosted the very first lolcat, \"I Can Has Cheezburger?\", in 2007?"
+        answers:
+          A: "Reddit"
+          B: "4chan"
+          C: "Tumblr"
+          D: "Imgur"
+    difficulty: HARD
+  - text: "Quel mème de 2012 montre un homme disant « Ain't nobody got time for that » ?"
+    answers:
+      A: "Kimberly Wilkins"
+      B: "Antoine Dodson"
+      C: "B Antoine"
+      D: "Sweet Brown"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 2012 meme shows a man saying \"Ain't nobody got time for that\"?"
+        answers:
+          A: "Kimberly Wilkins"
+          B: "Antoine Dodson"
+          C: "B Antoine"
+          D: "Sweet Brown"
+    difficulty: MEDIUM
+  - text: "En quelle année le mème « Doge » a-t-il été créé ?"
+    answers:
+      A: "2008"
+      B: "2013"
+      C: "2012"
+      D: "2010"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the \"Doge\" meme created?"
+        answers:
+          A: "2008"
+          B: "2013"
+          C: "2012"
+          D: "2010"
+    difficulty: HARD
+  - text: "Quel est le premier sous-titre de rickroll sur YouTube ?"
+    answers:
+      A: "Rick Astley - Never Gonna Give You Up"
+      B: "Rickroll"
+      C: "Never Gonna Give You Up (Official Music Video)"
+      D: "Rick Astley - Never Gonna Give You Up (Official Video)"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first subtitle of the YouTube rickroll?"
+        answers:
+          A: "Rick Astley - Never Gonna Give You Up"
+          B: "Rickroll"
+          C: "Never Gonna Give You Up (Official Music Video)"
+          D: "Rick Astley - Never Gonna Give You Up (Official Video)"
+    difficulty: EXPERT
+  - text: "Qui a créé le site « I Can Has Cheezburger? » ?"
+    answers:
+      A: "Alexis Ohanian"
+      B: "Ben Huh"
+      C: "Eric Nakagawa et Kari Unebasami"
+      D: "Steve Huffman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who created the site \"I Can Has Cheezburger?\"?"
+        answers:
+          A: "Alexis Ohanian"
+          B: "Ben Huh"
+          C: "Eric Nakagawa and Kari Unebasami"
+          D: "Steve Huffman"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mème où un homme crie « They took our jobs! » ?"
+    answers:
+      A: "South Park - They Took Our Jobs"
+      B: "Trollface"
+      C: "Forever Alone"
+      D: "Rage Guy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme where a man yells \"They took our jobs!\"?"
+        answers:
+          A: "South Park - They Took Our Jobs"
+          B: "Trollface"
+          C: "Forever Alone"
+          D: "Rage Guy"
+    difficulty: HARD
+  - text: "Quel mème de 2013 est associé à la chanson « What Does the Fox Say? » ?"
+    answers:
+      A: "Gangnam Style"
+      B: "Harlem Shake"
+      C: "The Fox (What Does the Fox Say?)"
+      D: "The Fox Song"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 2013 meme is associated with the song \"What Does the Fox Say?\"?"
+        answers:
+          A: "Gangnam Style"
+          B: "Harlem Shake"
+          C: "The Fox (What Does the Fox Say?)"
+          D: "The Fox Song"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de « Scumbag Steve » ?"
+    answers:
+      A: "Steve Smith"
+      B: "Blake Boston"
+      C: "John Doe"
+      D: "Mike Jones"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the real name of \"Scumbag Steve\"?"
+        answers:
+          A: "Steve Smith"
+          B: "Blake Boston"
+          C: "John Doe"
+          D: "Mike Jones"
+    difficulty: HARD
+  - text: "Quel mème montre un homme disant « I'm the Juggernaut, bitch! » ?"
+    answers:
+      A: "Juggernaut"
+      B: "I'm the Juggernaut"
+      C: "X-Men Juggernaut"
+      D: "Juggernaut Bitch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which meme shows a man saying \"I'm the Juggernaut, bitch!\"?"
+        answers:
+          A: "Juggernaut"
+          B: "I'm the Juggernaut"
+          C: "X-Men Juggernaut"
+          D: "Juggernaut Bitch"
+    difficulty: HARD
+  - text: "Quel ver a frappé Internet en 1988 ?"
+    imageUrl: wikipedia/entertainment/Data_center_infrastructure_in_the_United_States.jpg
+    answers:
+      A: "Le ver ILOVEYOU"
+      B: "Le ver Morris"
+      C: "Le ver Melissa"
+      D: "Le ver Code Red"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which worm hit the Internet in 1988?"
+        answers:
+          A: "The ILOVEYOU worm"
+          B: "The Morris worm"
+          C: "The Melissa worm"
+          D: "The Code Red worm"
+    difficulty: HARD
+  - text: "Quel est le nom du mème où un homme dit « I like turtles » ?"
+    answers:
+      A: "Turtle Boy"
+      B: "Zombie Kid"
+      C: "I Like Turtles"
+      D: "Turtle Kid"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I like turtles\"?"
+        answers:
+          A: "Turtle Boy"
+          B: "Zombie Kid"
+          C: "I Like Turtles"
+          D: "Turtle Kid"
+    difficulty: MEDIUM
+  - text: "En quelle année « Chocolate Rain » a-t-il été mis en ligne ?"
+    answers:
+      A: "2006"
+      B: "2009"
+      C: "2008"
+      D: "2007"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was \"Chocolate Rain\" uploaded?"
+        answers:
+          A: "2006"
+          B: "2009"
+          C: "2008"
+          D: "2007"
+    difficulty: HARD
+  - text: "Quel est le nom du mème où un homme dit « I'm not a rapper » ?"
+    answers:
+      A: "I'm Not a Rapper"
+      B: "Not a Rapper"
+      C: "Rapper"
+      D: "I Am a Rapper"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the meme where a man says \"I'm not a rapper\"?"
+        answers:
+          A: "I'm Not a Rapper"
+          B: "Not a Rapper"
+          C: "Rapper"
+          D: "I Am a Rapper"
+    difficulty: HARD
+  - text: "Quel est le nom du compte Twitter/X qui a popularisé le mème « Cursed Images » en 2015 ?"
+    answers:
+      A: "@cursedpics"
+      B: "@weirdpics"
+      C: "@cursedimages"
+      D: "@cursedimages_"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Twitter/X account that popularized the \"Cursed Images\" meme in 2015?"
+        answers:
+          A: "@cursedpics"
+          B: "@weirdpics"
+          C: "@cursedimages"
+          D: "@cursedimages_"
+    difficulty: EXPERT
+  - text: "En quelle année le mème « Distracted Boyfriend » a-t-il été photographié ?"
+    answers:
+      A: "2015"
+      B: "2017"
+      C: "2016"
+      D: "2018"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the \"Distracted Boyfriend\" meme photographed?"
+        answers:
+          A: "2015"
+          B: "2017"
+          C: "2016"
+          D: "2018"
+    difficulty: HARD

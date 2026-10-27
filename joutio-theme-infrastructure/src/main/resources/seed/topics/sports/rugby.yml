@@ -1,0 +1,1631 @@
+topic:
+  id: topic-rugby
+  names:
+    fr: "Rugby"
+    en: "Rugby"
+  description: "Le rugby, sport de contact né en Angleterre, se pratique à XV comme à VII. Ce thème couvre le Tournoi des Six Nations, la Coupe du monde et ses vainqueurs, les grandes nations du rugby, le XV de France, des légendes comme Jonah Lomu ou Richie McCaw, ainsi que les règles essentielles : essai, mêlée, touche, transformation, pénalité et drop."
+  category: SPORTS
+  titles:
+    fr:
+      FER: "Bleu du banc"
+      BRONZE: "Pilier du dimanche"
+      ARGENT: "Troisième ligne"
+      OR: "Demi de mêlée"
+      PLATINE: "Capitaine du XV"
+      EMERAUDE: "Champion du monde"
+      DIAMANT: "Légende du rugby"
+    en:
+      FER: "Benchwarmer"
+      BRONZE: "Sunday Prop"
+      ARGENT: "Flanker"
+      OR: "Scrum-Half"
+      PLATINE: "XV Captain"
+      EMERAUDE: "World Champion"
+      DIAMANT: "Rugby Legend"
+  imageUrl: wikipedia/sports/Fiji_national_rugby_union_team,_2013_IRB_Pacific_Nations_Cup_Champions.jpg
+questions:
+  - text: "Quel pays a coorganisé la Coupe du monde de rugby 2023 avec la France ?"
+    answers:
+      A: "Aucun, la France a organisé seule"
+      B: "L'Italie"
+      C: "L'Espagne"
+      D: "Le Royaume-Uni"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country co-hosted the 2023 Rugby World Cup with France?"
+        answers:
+          A: "None, France hosted alone"
+          B: "Italy"
+          C: "Spain"
+          D: "United Kingdom"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record d'essais marqués en Coupe du monde de rugby ?"
+    answers:
+      A: "Jonah Lomu"
+      B: "Bryan Habana"
+      C: "Richie McCaw"
+      D: "Julian Savea"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for most tries scored in a Rugby World Cup?"
+        answers:
+          A: "Jonah Lomu"
+          B: "Bryan Habana"
+          C: "Richie McCaw"
+          D: "Julian Savea"
+    difficulty: HARD
+  - text: "En quelle année l'Italie a-t-elle rejoint le Tournoi des Cinq Nations, qui est devenu le Tournoi des Six Nations ?"
+    answers:
+      A: "1996"
+      B: "1998"
+      C: "2000"
+      D: "2002"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Italy join the Five Nations, which became the Six Nations?"
+        answers:
+          A: "1996"
+          B: "1998"
+          C: "2000"
+          D: "2002"
+    difficulty: HARD
+  - text: "Qui est le meilleur marqueur de points de l'histoire du Tournoi des Six Nations ?"
+    answers:
+      A: "Ronan O'Gara"
+      B: "Neil Jenkins"
+      C: "Owen Farrell"
+      D: "Jonny Wilkinson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the all-time top points scorer in Six Nations history?"
+        answers:
+          A: "Ronan O'Gara"
+          B: "Neil Jenkins"
+          C: "Owen Farrell"
+          D: "Jonny Wilkinson"
+    difficulty: EXPERT
+  - text: "Sur cette photo, quelle est la forme du ballon de rugby ?"
+    imageUrl: wikipedia/sports/Rhino_Rugby_Ball_(4022791854).jpg
+    answers:
+      A: "Ovale"
+      B: "Ronde"
+      C: "Carrée"
+      D: "Triangulaire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In this photo, what is the shape of the rugby ball?"
+        answers:
+          A: "Oval"
+          B: "Round"
+          C: "Square"
+          D: "Triangular"
+    difficulty: EASY
+  - text: "Quel pays a remporté la première édition du Tournoi des Six Nations en 2000 ?"
+    answers:
+      A: "France"
+      B: "Angleterre"
+      C: "Pays de Galles"
+      D: "Irlande"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won the first edition of the Six Nations in 2000?"
+        answers:
+          A: "France"
+          B: "England"
+          C: "Wales"
+          D: "Ireland"
+    difficulty: MEDIUM
+  - text: "Quel joueur néo-zélandais a été élu meilleur joueur du monde World Rugby à trois reprises ?"
+    answers:
+      A: "Kieran Read"
+      B: "Dan Carter"
+      C: "Beauden Barrett"
+      D: "Richie McCaw"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which New Zealand player has been named World Rugby Player of the Year three times?"
+        answers:
+          A: "Kieran Read"
+          B: "Dan Carter"
+          C: "Beauden Barrett"
+          D: "Richie McCaw"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté la Coupe du monde de rugby 1991 ?"
+    answers:
+      A: "Australie"
+      B: "Angleterre"
+      C: "Afrique du Sud"
+      D: "Nouvelle-Zélande"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the 1991 Rugby World Cup?"
+        answers:
+          A: "Australia"
+          B: "England"
+          C: "South Africa"
+          D: "New Zealand"
+    difficulty: HARD
+  - text: "Quel poste est occupé par le joueur portant le numéro 7 ?"
+    answers:
+      A: "Ailier"
+      B: "Talonneur"
+      C: "Pilier"
+      D: "Centre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What position is played by the player wearing number 7?"
+        answers:
+          A: "Wing"
+          B: "Hooker"
+          C: "Prop"
+          D: "Centre"
+    difficulty: MEDIUM
+  - text: "Quelle est la longueur maximale d'un terrain de rugby à XV ?"
+    answers:
+      A: "120 mètres"
+      B: "160 mètres"
+      C: "100 mètres"
+      D: "144 mètres"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum length of a rugby union pitch?"
+        answers:
+          A: "120 metres"
+          B: "160 metres"
+          C: "100 metres"
+          D: "144 metres"
+    difficulty: EXPERT
+  - text: "Combien de points vaut un essai de pénalité ?"
+    answers:
+      A: "5"
+      B: "7"
+      C: "3"
+      D: "2"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many points is a penalty try worth?"
+        answers:
+          A: "5"
+          B: "7"
+          C: "3"
+          D: "2"
+    difficulty: EASY
+  - text: "Quelle équipe a remporté le premier Tournoi des Six Nations en 2000 ?"
+    answers:
+      A: "France"
+      B: "Pays de Galles"
+      C: "Angleterre"
+      D: "Irlande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the first Six Nations in 2000?"
+        answers:
+          A: "France"
+          B: "Wales"
+          C: "England"
+          D: "Ireland"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record de points marqués en une seule édition de la Coupe du monde ?"
+    answers:
+      A: "Jonny Wilkinson"
+      B: "Dan Carter"
+      C: "Grant Fox"
+      D: "Gavin Hastings"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for most points scored in a single Rugby World Cup?"
+        answers:
+          A: "Jonny Wilkinson"
+          B: "Dan Carter"
+          C: "Grant Fox"
+          D: "Gavin Hastings"
+    difficulty: EXPERT
+  - text: "En quelle année le rugby à XV est-il devenu professionnel ?"
+    answers:
+      A: "1985"
+      B: "1990"
+      C: "2000"
+      D: "1995"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did rugby union become professional?"
+        answers:
+          A: "1985"
+          B: "1990"
+          C: "2000"
+          D: "1995"
+    difficulty: HARD
+  - text: "Quel joueur a remporté la Coupe du monde avec l'Afrique du Sud en 1995 et a été capitaine ?"
+    answers:
+      A: "Siya Kolisi"
+      B: "John Smit"
+      C: "Francois Pienaar"
+      D: "Victor Matfield"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the Rugby World Cup with South Africa in 1995 and was captain?"
+        answers:
+          A: "Siya Kolisi"
+          B: "John Smit"
+          C: "Francois Pienaar"
+          D: "Victor Matfield"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté la Coupe du monde de rugby 1999 ?"
+    answers:
+      A: "Australie"
+      B: "France"
+      C: "Nouvelle-Zélande"
+      D: "Afrique du Sud"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the 1999 Rugby World Cup?"
+        answers:
+          A: "Australia"
+          B: "France"
+          C: "New Zealand"
+          D: "South Africa"
+    difficulty: HARD
+  - text: "Quel est le nom du trophée remis au vainqueur du Tournoi des Six Nations ?"
+    answers:
+      A: "Trophée Webb Ellis"
+      B: "Trophée Calcutta"
+      C: "Trophée Triple Couronne"
+      D: "Trophée des Six Nations"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the trophy awarded to the winner of the Six Nations Tournament?"
+        answers:
+          A: "Webb Ellis Trophy"
+          B: "Calcutta Cup"
+          C: "Triple Crown Trophy"
+          D: "Six Nations Trophy"
+    difficulty: HARD
+  - text: "Quel joueur néo-zélandais a marqué un essai légendaire en demi-finale de la Coupe du monde 1995 contre l'Angleterre ?"
+    answers:
+      A: "Josh Kronfeld"
+      B: "Christian Cullen"
+      C: "Jeff Wilson"
+      D: "Jonah Lomu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which New Zealand player scored a legendary try in the semi-final of the 1995 Rugby World Cup against England?"
+        answers:
+          A: "Josh Kronfeld"
+          B: "Christian Cullen"
+          C: "Jeff Wilson"
+          D: "Jonah Lomu"
+    difficulty: HARD
+  - text: "Combien de joueurs dans un pack ?"
+    imageUrl: wikipedia/sports/CSA_Steaua_Bucuresti_-_Timisoara_Saracens_Rugby_Scrum_2017.jpg
+    answers:
+      A: "5"
+      B: "8"
+      C: "7"
+      D: "6"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many players are in a pack?"
+        answers:
+          A: "5"
+          B: "8"
+          C: "7"
+          D: "6"
+    difficulty: EASY
+  - text: "Quelle nation a remporté la Coupe du monde de rugby 2007 ?"
+    answers:
+      A: "Angleterre"
+      B: "Afrique du Sud"
+      C: "Nouvelle-Zélande"
+      D: "France"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which nation won the 2007 Rugby World Cup?"
+        answers:
+          A: "England"
+          B: "South Africa"
+          C: "New Zealand"
+          D: "France"
+    difficulty: HARD
+  - text: "Quel est le nombre maximum de remplacements autorisés dans un match international de rugby à XV ?"
+    answers:
+      A: "8"
+      B: "7"
+      C: "6"
+      D: "9"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the maximum number of replacements allowed in an international rugby union match?"
+        answers:
+          A: "8"
+          B: "7"
+          C: "6"
+          D: "9"
+    difficulty: EXPERT
+  - text: "Quel joueur a été capitaine de l'équipe de France lors du Grand Chelem de 2010 ?"
+    answers:
+      A: "Fabien Pelous"
+      B: "Raphaël Ibañez"
+      C: "Thierry Dusautoir"
+      D: "Lionel Nallet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player captained the France team during the 2010 Grand Slam?"
+        answers:
+          A: "Fabien Pelous"
+          B: "Raphaël Ibañez"
+          C: "Thierry Dusautoir"
+          D: "Lionel Nallet"
+    difficulty: HARD
+  - text: "Quel pays a remporté la Coupe du monde de rugby 2023 en France ?"
+    answers:
+      A: "France"
+      B: "Nouvelle-Zélande"
+      C: "Afrique du Sud"
+      D: "Angleterre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the 2023 Rugby World Cup in France?"
+        answers:
+          A: "France"
+          B: "New Zealand"
+          C: "South Africa"
+          D: "England"
+    difficulty: MEDIUM
+  - text: "Qui a été le meilleur marqueur d'essais de la Coupe du monde 2019 ?"
+    answers:
+      A: "Jonny May"
+      B: "Makazole Mapimpi"
+      C: "Kotaro Matsushima"
+      D: "Josh Adams"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the top try scorer of the 2019 Rugby World Cup?"
+        answers:
+          A: "Jonny May"
+          B: "Makazole Mapimpi"
+          C: "Kotaro Matsushima"
+          D: "Josh Adams"
+    difficulty: EXPERT
+  - text: "Combien de fois l'Afrique du Sud a-t-elle remporté la Coupe du monde de rugby ?"
+    answers:
+      A: "2"
+      B: "3"
+      C: "4"
+      D: "1"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many times has South Africa won the Rugby World Cup?"
+        answers:
+          A: "2"
+          B: "3"
+          C: "4"
+          D: "1"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record d'essais marqués en une seule édition du Tournoi des Six Nations ?"
+    answers:
+      A: "Jonny May"
+      B: "Louis Rees-Zammit"
+      C: "George North"
+      D: "Jacob Stockdale"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for tries scored in a single Six Nations Tournament?"
+        answers:
+          A: "Jonny May"
+          B: "Louis Rees-Zammit"
+          C: "George North"
+          D: "Jacob Stockdale"
+    difficulty: EXPERT
+  - text: "Qui a été le capitaine de l'équipe de France lors du Grand Chelem de 2022 ?"
+    answers:
+      A: "Guilhem Guirado"
+      B: "Charles Ollivon"
+      C: "Antoine Dupont"
+      D: "Thierry Dusautoir"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who captained the France team during the 2022 Grand Slam?"
+        answers:
+          A: "Guilhem Guirado"
+          B: "Charles Ollivon"
+          C: "Antoine Dupont"
+          D: "Thierry Dusautoir"
+    difficulty: HARD
+  - text: "Quel joueur néo-zélandais a été élu meilleur joueur du monde World Rugby en 2019 ?"
+    answers:
+      A: "Ardie Savea"
+      B: "Beauden Barrett"
+      C: "Brodie Retallick"
+      D: "Kieran Read"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which New Zealand player was named World Rugby Player of the Year in 2019?"
+        answers:
+          A: "Ardie Savea"
+          B: "Beauden Barrett"
+          C: "Brodie Retallick"
+          D: "Kieran Read"
+    difficulty: EXPERT
+  - text: "Quel joueur français a été élu meilleur joueur du monde World Rugby en 2002 ?"
+    answers:
+      A: "Fabien Galthié"
+      B: "Frédéric Michalak"
+      C: "Thierry Dusautoir"
+      D: "Vincent Clerc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French player was named World Rugby Player of the Year in 2002?"
+        answers:
+          A: "Fabien Galthié"
+          B: "Frédéric Michalak"
+          C: "Thierry Dusautoir"
+          D: "Vincent Clerc"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté la première édition de la Coupe du monde de rugby à VII en 1993 ?"
+    answers:
+      A: "Fidji"
+      B: "Angleterre"
+      C: "Australie"
+      D: "Nouvelle-Zélande"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won the first edition of the Rugby Sevens World Cup in 1993?"
+        answers:
+          A: "Fiji"
+          B: "England"
+          C: "Australia"
+          D: "New Zealand"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record d'essais marqués en test-match avec l'équipe de France ?"
+    answers:
+      A: "Vincent Clerc"
+      B: "Serge Blanco"
+      C: "Philippe Saint-André"
+      D: "Damien Traille"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for most tries scored in test matches for France?"
+        answers:
+          A: "Vincent Clerc"
+          B: "Serge Blanco"
+          C: "Philippe Saint-André"
+          D: "Damien Traille"
+    difficulty: EXPERT
+  - text: "En quelle année l'Angleterre a-t-elle remporté son premier Grand Chelem dans le Tournoi des Six Nations ?"
+    answers:
+      A: "1992"
+      B: "2000"
+      C: "2003"
+      D: "2011"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did England win their first Grand Slam in the Six Nations Championship?"
+        answers:
+          A: "1992"
+          B: "2000"
+          C: "2003"
+          D: "2011"
+    difficulty: EXPERT
+  - text: "Quel joueur a marqué l'essai décisif pour l'Afrique du Sud en finale de la Coupe du monde 2019 ?"
+    answers:
+      A: "Makazole Mapimpi"
+      B: "Handré Pollard"
+      C: "Duane Vermeulen"
+      D: "Cheslin Kolbe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player scored the decisive try for South Africa in the 2019 World Cup final?"
+        answers:
+          A: "Makazole Mapimpi"
+          B: "Handré Pollard"
+          C: "Duane Vermeulen"
+          D: "Cheslin Kolbe"
+    difficulty: EXPERT
+  - text: "Quel est le nombre maximum de points qu'une équipe peut marquer sur une action à la suite d'un essai ?"
+    answers:
+      A: "7"
+      B: "5"
+      C: "8"
+      D: "10"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the maximum number of points a team can score from a single play following a try?"
+        answers:
+          A: "7"
+          B: "5"
+          C: "8"
+          D: "10"
+    difficulty: HARD
+  - text: "Quel joueur a été le capitaine de la Nouvelle-Zélande lors de la Coupe du monde 2015 ?"
+    answers:
+      A: "Dan Carter"
+      B: "Kieran Read"
+      C: "Richie McCaw"
+      D: "Ma'a Nonu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player captained New Zealand at the 2015 World Cup?"
+        answers:
+          A: "Dan Carter"
+          B: "Kieran Read"
+          C: "Richie McCaw"
+          D: "Ma'a Nonu"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté le Tournoi des Six Nations 2021 ?"
+    answers:
+      A: "Pays de Galles"
+      B: "Irlande"
+      C: "Angleterre"
+      D: "France"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the 2021 Six Nations Championship?"
+        answers:
+          A: "Wales"
+          B: "Ireland"
+          C: "England"
+          D: "France"
+    difficulty: HARD
+  - text: "Quel joueur a été élu meilleur joueur du monde World Rugby en 2021 ?"
+    answers:
+      A: "Maro Itoje"
+      B: "Antoine Dupont"
+      C: "Ardie Savea"
+      D: "Michael Hooper"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named World Rugby Player of the Year in 2021?"
+        answers:
+          A: "Maro Itoje"
+          B: "Antoine Dupont"
+          C: "Ardie Savea"
+          D: "Michael Hooper"
+    difficulty: HARD
+  - text: "Quelle nation a remporté la Coupe du monde de rugby 2011 ?"
+    answers:
+      A: "Nouvelle-Zélande"
+      B: "France"
+      C: "Australie"
+      D: "Afrique du Sud"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which nation won the 2011 Rugby World Cup?"
+        answers:
+          A: "New Zealand"
+          B: "France"
+          C: "Australia"
+          D: "South Africa"
+    difficulty: HARD
+  - text: "Quel joueur détient le record de points marqués en une seule édition du Tournoi des Six Nations ?"
+    answers:
+      A: "Neil Jenkins"
+      B: "Ronan O'Gara"
+      C: "Jonny Wilkinson"
+      D: "Leigh Halfpenny"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for most points scored in a single Six Nations Championship?"
+        answers:
+          A: "Neil Jenkins"
+          B: "Ronan O'Gara"
+          C: "Jonny Wilkinson"
+          D: "Leigh Halfpenny"
+    difficulty: EXPERT
+  - text: "Quel poste est occupé par le joueur portant le numéro 9 ?"
+    answers:
+      A: "Demi d'ouverture"
+      B: "Ailier"
+      C: "Centre"
+      D: "Demi de mêlée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which position is played by the player wearing number 9?"
+        answers:
+          A: "Fly-half"
+          B: "Wing"
+          C: "Centre"
+          D: "Scrum-half"
+    difficulty: EASY
+  - text: "Quel pays a remporté la médaille d'or du rugby à VII aux Jeux olympiques de 2016 ?"
+    answers:
+      A: "Afrique du Sud"
+      B: "Grande-Bretagne"
+      C: "Fidji"
+      D: "Nouvelle-Zélande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the gold medal in rugby sevens at the 2016 Olympic Games?"
+        answers:
+          A: "South Africa"
+          B: "Great Britain"
+          C: "Fiji"
+          D: "New Zealand"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de test-matchs joués avec les All Blacks ?"
+    answers:
+      A: "Richie McCaw"
+      B: "Keven Mealamu"
+      C: "Kieran Read"
+      D: "Sam Whitelock"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for most test matches played for the All Blacks?"
+        answers:
+          A: "Richie McCaw"
+          B: "Keven Mealamu"
+          C: "Kieran Read"
+          D: "Sam Whitelock"
+    difficulty: EXPERT
+  - text: "En quelle année l'Afrique du Sud a-t-elle remporté sa première Coupe du monde de rugby ?"
+    answers:
+      A: "1995"
+      B: "1999"
+      C: "1991"
+      D: "2003"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did South Africa win their first Rugby World Cup?"
+        answers:
+          A: "1995"
+          B: "1999"
+          C: "1991"
+          D: "2003"
+    difficulty: MEDIUM
+  - text: "Quel stade a accueilli la finale de la Coupe du monde de rugby 2015 ?"
+    answers:
+      A: "Stade Olympique de Londres"
+      B: "Stade de Wembley"
+      C: "Stade de Twickenham"
+      D: "Stade de Manchester"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which stadium hosted the 2015 Rugby World Cup final?"
+        answers:
+          A: "London Olympic Stadium"
+          B: "Wembley Stadium"
+          C: "Twickenham Stadium"
+          D: "Manchester Stadium"
+    difficulty: HARD
+  - text: "Quel joueur a marqué l'essai victorieux pour l'Afrique du Sud en finale de la Coupe du monde 1995 ?"
+    answers:
+      A: "Joel Stransky"
+      B: "Francois Pienaar"
+      C: "James Small"
+      D: "Os du Randt"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player scored the winning try for South Africa in the 1995 World Cup final?"
+        answers:
+          A: "Joel Stransky"
+          B: "Francois Pienaar"
+          C: "James Small"
+          D: "Os du Randt"
+    difficulty: EXPERT
+  - text: "Qui est le meilleur marqueur d'essais de l'histoire des All Blacks ?"
+    answers:
+      A: "Doug Howlett"
+      B: "Julian Savea"
+      C: "Joe Rokocoko"
+      D: "Christian Cullen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the all-time top try scorer in All Blacks history?"
+        answers:
+          A: "Doug Howlett"
+          B: "Julian Savea"
+          C: "Joe Rokocoko"
+          D: "Christian Cullen"
+    difficulty: HARD
+  - text: "Quel joueur français a été capitaine lors du Grand Chelem de 2004 ?"
+    answers:
+      A: "Fabien Pelous"
+      B: "Raphaël Ibañez"
+      C: "Thierry Dusautoir"
+      D: "Jean-Baptiste Élissalde"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French player was captain during the 2004 Grand Slam?"
+        answers:
+          A: "Fabien Pelous"
+          B: "Raphaël Ibañez"
+          C: "Thierry Dusautoir"
+          D: "Jean-Baptiste Élissalde"
+    difficulty: EXPERT
+  - text: "Combien de points vaut un essai dans le rugby à VII ?"
+    answers:
+      A: "4 points"
+      B: "7 points"
+      C: "5 points"
+      D: "3 points"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many points is a try worth in rugby sevens?"
+        answers:
+          A: "4 points"
+          B: "7 points"
+          C: "5 points"
+          D: "3 points"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le prix World Rugby de meilleur joueur du monde en 2018 ?"
+    answers:
+      A: "Beauden Barrett"
+      B: "Kieran Read"
+      C: "Owen Farrell"
+      D: "Johnny Sexton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the World Rugby Men's 15s Player of the Year award in 2018?"
+        answers:
+          A: "Beauden Barrett"
+          B: "Kieran Read"
+          C: "Owen Farrell"
+          D: "Johnny Sexton"
+    difficulty: EXPERT
+  - text: "Quel est le nom du trophée décerné au vainqueur du Tournoi des Six Nations ?"
+    answers:
+      A: "Trophée Dave Gallaher"
+      B: "Trophée Guillaume Webb Ellis"
+      C: "Trophée des Six Nations"
+      D: "Trophée des Cinq Nations"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the trophy awarded to the winner of the Six Nations Championship?"
+        answers:
+          A: "Dave Gallaher Trophy"
+          B: "William Webb Ellis Trophy"
+          C: "Six Nations Trophy"
+          D: "Five Nations Trophy"
+    difficulty: EXPERT
+  - text: "Quel joueur a marqué le drop de la victoire pour l'Angleterre en finale de la Coupe du monde 2003 ?"
+    answers:
+      A: "Matt Dawson"
+      B: "Jonny Wilkinson"
+      C: "Will Greenwood"
+      D: "Jason Robinson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player scored the winning drop goal for England in the 2003 Rugby World Cup final?"
+        answers:
+          A: "Matt Dawson"
+          B: "Jonny Wilkinson"
+          C: "Will Greenwood"
+          D: "Jason Robinson"
+    difficulty: HARD
+  - text: "Quel joueur a marqué 4 essais en un match de Coupe du monde 1995 contre l'Angleterre ?"
+    answers:
+      A: "Jonah Lomu"
+      B: "Jeff Wilson"
+      C: "Christian Cullen"
+      D: "Marc Ellis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player scored 4 tries in a 1995 Rugby World Cup match against England?"
+        answers:
+          A: "Jonah Lomu"
+          B: "Jeff Wilson"
+          C: "Christian Cullen"
+          D: "Marc Ellis"
+    difficulty: EXPERT
+  - text: "Qui détient le record du plus grand nombre de points marqués en test-match avec les All Blacks ?"
+    answers:
+      A: "Dan Carter"
+      B: "Beauden Barrett"
+      C: "Richie McCaw"
+      D: "Andrew Mehrtens"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who holds the record for the most points scored in Test matches for the All Blacks?"
+        answers:
+          A: "Dan Carter"
+          B: "Beauden Barrett"
+          C: "Richie McCaw"
+          D: "Andrew Mehrtens"
+    difficulty: EXPERT
+  - text: "En quelle année l'Irlande a-t-elle remporté son premier Grand Chelem dans le Tournoi des Six Nations ?"
+    answers:
+      A: "2018"
+      B: "2014"
+      C: "2009"
+      D: "2023"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Ireland win their first Grand Slam in the Six Nations?"
+        answers:
+          A: "2018"
+          B: "2014"
+          C: "2009"
+          D: "2023"
+    difficulty: HARD
+  - text: "Quel arbitre a officié lors de la finale de la Coupe du monde 2019 ?"
+    answers:
+      A: "Romain Poite"
+      B: "Nigel Owens"
+      C: "Wayne Barnes"
+      D: "Jérôme Garcès"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which referee officiated the 2019 Rugby World Cup final?"
+        answers:
+          A: "Romain Poite"
+          B: "Nigel Owens"
+          C: "Wayne Barnes"
+          D: "Jérôme Garcès"
+    difficulty: EXPERT
+  - text: "Quel joueur a été capitaine de l'Angleterre lors de la Coupe du monde 2003 ?"
+    answers:
+      A: "Lawrence Dallaglio"
+      B: "Phil Vickery"
+      C: "Jonny Wilkinson"
+      D: "Martin Johnson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player captained England at the 2003 Rugby World Cup?"
+        answers:
+          A: "Lawrence Dallaglio"
+          B: "Phil Vickery"
+          C: "Jonny Wilkinson"
+          D: "Martin Johnson"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record d'essais marqués avec l'équipe d'Angleterre ?"
+    answers:
+      A: "Ben Cohen"
+      B: "Rory Underwood"
+      C: "Will Greenwood"
+      D: "Jason Robinson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for most tries scored for England?"
+        answers:
+          A: "Ben Cohen"
+          B: "Rory Underwood"
+          C: "Will Greenwood"
+          D: "Jason Robinson"
+    difficulty: HARD
+  - text: "Combien de points vaut un essai dans le rugby à XV féminin ?"
+    answers:
+      A: "7 points"
+      B: "5 points"
+      C: "4 points"
+      D: "6 points"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many points is a try worth in women's rugby union?"
+        answers:
+          A: "7 points"
+          B: "5 points"
+          C: "4 points"
+          D: "6 points"
+    difficulty: EASY
+  - text: "Quelle forme ont les poteaux de rugby ?"
+    imageUrl: wikipedia/sports/Goal_posts_and_stand,_St_Ives_Rugby_Club,_Cornwall_-_August_2025.jpg
+    answers:
+      A: "La forme d'un U"
+      B: "La forme d'un H"
+      C: "La forme d'un Y"
+      D: "La forme d'un T"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What shape are rugby goalposts?"
+        answers:
+          A: "U-shaped"
+          B: "H-shaped"
+          C: "Y-shaped"
+          D: "T-shaped"
+    difficulty: EASY
+  - text: "Quel pays a remporté le premier Tournoi des Cinq Nations en 1910 ?"
+    answers:
+      A: "France"
+      B: "Pays de Galles"
+      C: "Angleterre"
+      D: "Irlande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the first Five Nations Championship in 1910?"
+        answers:
+          A: "France"
+          B: "Wales"
+          C: "England"
+          D: "Ireland"
+    difficulty: HARD
+  - text: "Quel joueur a été élu meilleur joueur du monde World Rugby en 2017 ?"
+    answers:
+      A: "Owen Farrell"
+      B: "Beauden Barrett"
+      C: "Rieko Ioane"
+      D: "Jonathan Sexton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named World Rugby Player of the Year in 2017?"
+        answers:
+          A: "Owen Farrell"
+          B: "Beauden Barrett"
+          C: "Rieko Ioane"
+          D: "Jonathan Sexton"
+    difficulty: HARD
+  - text: "Quel joueur français détient le record d'essais marqués en test-match ?"
+    answers:
+      A: "Vincent Clerc"
+      B: "Serge Blanco"
+      C: "Philippe Sella"
+      D: "Damien Traille"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French player holds the record for most tries scored in test matches?"
+        answers:
+          A: "Vincent Clerc"
+          B: "Serge Blanco"
+          C: "Philippe Sella"
+          D: "Damien Traille"
+    difficulty: EXPERT
+  - text: "Quel capitaine a soulevé le trophée Webb Ellis en 1999 ?"
+    answers:
+      A: "John Eales"
+      B: "Martin Johnson"
+      C: "Sean Fitzpatrick"
+      D: "Raphaël Ibañez"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which captain lifted the Webb Ellis Trophy in 1999?"
+        answers:
+          A: "John Eales"
+          B: "Martin Johnson"
+          C: "Sean Fitzpatrick"
+          D: "Raphaël Ibañez"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté le premier Championnat du monde de rugby à VII en 1993 ?"
+    answers:
+      A: "Nouvelle-Zélande"
+      B: "Fidji"
+      C: "Australie"
+      D: "Angleterre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the first Rugby Sevens World Championship in 1993?"
+        answers:
+          A: "New Zealand"
+          B: "Fiji"
+          C: "Australia"
+          D: "England"
+    difficulty: EXPERT
+  - text: "Combien de points vaut un drop réussi dans le rugby à VII ?"
+    answers:
+      A: "2 points"
+      B: "5 points"
+      C: "3 points"
+      D: "4 points"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many points is a successful drop goal worth in rugby sevens?"
+        answers:
+          A: "2 points"
+          B: "5 points"
+          C: "3 points"
+          D: "4 points"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record d'essais marqués dans l'histoire du Tournoi des Six Nations ?"
+    answers:
+      A: "Shane Williams"
+      B: "Brian O'Driscoll"
+      C: "Chris Ashton"
+      D: "George North"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for most tries scored in Six Nations history?"
+        answers:
+          A: "Shane Williams"
+          B: "Brian O'Driscoll"
+          C: "Chris Ashton"
+          D: "George North"
+    difficulty: EXPERT
+  - text: "En quelle année l'Afrique du Sud a-t-elle remporté sa première Coupe du monde de rugby à VII ?"
+    answers:
+      A: "2009"
+      B: "2022"
+      C: "2017"
+      D: "2013"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did South Africa win its first Rugby Sevens World Cup?"
+        answers:
+          A: "2009"
+          B: "2022"
+          C: "2017"
+          D: "2013"
+    difficulty: EXPERT
+  - text: "Quel joueur a été capitaine de l'équipe de France lors du Grand Chelem de 1987 ?"
+    answers:
+      A: "Philippe Sella"
+      B: "Daniel Dubroca"
+      C: "Pierre Berbizier"
+      D: "Éric Champ"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player captained the France team during the 1987 Grand Slam?"
+        answers:
+          A: "Philippe Sella"
+          B: "Daniel Dubroca"
+          C: "Pierre Berbizier"
+          D: "Éric Champ"
+    difficulty: EXPERT
+  - text: "Quel joueur néo-zélandais a été élu meilleur joueur du monde World Rugby en 2015 ?"
+    answers:
+      A: "Dan Carter"
+      B: "Richie McCaw"
+      C: "Julian Savea"
+      D: "Beauden Barrett"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which New Zealand player was named World Rugby Player of the Year in 2015?"
+        answers:
+          A: "Dan Carter"
+          B: "Richie McCaw"
+          C: "Julian Savea"
+          D: "Beauden Barrett"
+    difficulty: HARD
+  - text: "Quel stade de rugby anglais est visible sur cette photo ?"
+    imageUrl: wikipedia/sports/Twickenham_Stadium_-_May_2012.jpg
+    answers:
+      A: "Wembley"
+      B: "Twickenham"
+      C: "Old Trafford"
+      D: "Stamford Bridge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which English rugby stadium is shown in this photo?"
+        answers:
+          A: "Wembley"
+          B: "Twickenham"
+          C: "Old Trafford"
+          D: "Stamford Bridge"
+    difficulty: HARD
+  - text: "Quel club a remporté la première édition de la Champions Cup (ex-Coupe d'Europe) en 1996 ?"
+    answers:
+      A: "Stade Toulousain"
+      B: "CA Brive"
+      C: "Leicester Tigers"
+      D: "Bath Rugby"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which club won the first edition of the Champions Cup (formerly European Cup) in 1996?"
+        answers:
+          A: "Stade Toulousain"
+          B: "CA Brive"
+          C: "Leicester Tigers"
+          D: "Bath Rugby"
+    difficulty: HARD
+  - text: "Quel poste porte traditionnellement le numéro 12 ?"
+    answers:
+      A: "Ailier"
+      B: "Premier centre"
+      C: "Demi d'ouverture"
+      D: "Deuxième centre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which position traditionally wears number 12?"
+        answers:
+          A: "Wing"
+          B: "Inside centre"
+          C: "Fly-half"
+          D: "Outside centre"
+    difficulty: EASY
+  - text: "Quelle équipe a remporté le Tournoi des Six Nations 2020 ?"
+    answers:
+      A: "Pays de Galles"
+      B: "France"
+      C: "Irlande"
+      D: "Angleterre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the 2020 Six Nations Championship?"
+        answers:
+          A: "Wales"
+          B: "France"
+          C: "Ireland"
+          D: "England"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté le premier tournoi des Six Nations en 2000 ?"
+    answers:
+      A: "Angleterre"
+      B: "France"
+      C: "Pays de Galles"
+      D: "Irlande"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the first Six Nations tournament in 2000?"
+        answers:
+          A: "England"
+          B: "France"
+          C: "Wales"
+          D: "Ireland"
+    difficulty: HARD
+  - text: "Qui a remporté le titre de meilleur joueur du monde World Rugby en 2019 ?"
+    answers:
+      A: "Kieran Read"
+      B: "Alun Wyn Jones"
+      C: "Pieter-Steph du Toit"
+      D: "Owen Farrell"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the World Rugby Player of the Year award in 2019?"
+        answers:
+          A: "Kieran Read"
+          B: "Alun Wyn Jones"
+          C: "Pieter-Steph du Toit"
+          D: "Owen Farrell"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été le capitaine de la Nouvelle-Zélande lors de la Coupe du monde 2011 ?"
+    answers:
+      A: "Richie McCaw"
+      B: "Kieran Read"
+      C: "Dan Carter"
+      D: "Tana Umaga"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was the captain of New Zealand at the 2011 World Cup?"
+        answers:
+          A: "Richie McCaw"
+          B: "Kieran Read"
+          C: "Dan Carter"
+          D: "Tana Umaga"
+    difficulty: MEDIUM
+  - text: "Combien de points vaut une transformation réussie au rugby à XV ?"
+    answers:
+      A: "1"
+      B: "3"
+      C: "2"
+      D: "5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many points is a successful conversion worth in rugby union?"
+        answers:
+          A: "1"
+          B: "3"
+          C: "2"
+          D: "5"
+    difficulty: EASY
+  - text: "Quel stade écossais de rugby est visible sur cette photo ?"
+    imageUrl: wikipedia/sports/Murrayfield_Stadium_-_May_2017.jpg
+    answers:
+      A: "Murrayfield"
+      B: "Ibrox Stadium"
+      C: "Hampden Park"
+      D: "Celtic Park"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Scottish rugby stadium is visible in this photo?"
+        answers:
+          A: "Murrayfield"
+          B: "Ibrox Stadium"
+          C: "Hampden Park"
+          D: "Celtic Park"
+    difficulty: HARD
+  - text: "Quel pays a remporté la Coupe du monde de rugby à VII en 2001 ?"
+    answers:
+      A: "Fidji"
+      B: "Nouvelle-Zélande"
+      C: "Australie"
+      D: "Afrique du Sud"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the Rugby Sevens World Cup in 2001?"
+        answers:
+          A: "Fiji"
+          B: "New Zealand"
+          C: "Australia"
+          D: "South Africa"
+    difficulty: EXPERT
+  - text: "Quel joueur a marqué l'essai de la victoire pour la Nouvelle-Zélande en finale de la Coupe du monde 2011 ?"
+    answers:
+      A: "Israel Dagg"
+      B: "Ma'a Nonu"
+      C: "Tony Woodcock"
+      D: "Cory Jane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player scored the winning try for New Zealand in the 2011 World Cup final?"
+        answers:
+          A: "Israel Dagg"
+          B: "Ma'a Nonu"
+          C: "Tony Woodcock"
+          D: "Cory Jane"
+    difficulty: HARD
+  - text: "En quelle année l'Italie a-t-elle rejoint le Tournoi des Six Nations ?"
+    answers:
+      A: "2000"
+      B: "1999"
+      C: "1998"
+      D: "2001"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Italy join the Six Nations Tournament?"
+        answers:
+          A: "2000"
+          B: "1999"
+          C: "1998"
+          D: "2001"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été élu meilleur joueur du monde World Rugby en 2016 ?"
+    answers:
+      A: "Owen Farrell"
+      B: "Beauden Barrett"
+      C: "Maro Itoje"
+      D: "Kieran Read"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player was named World Rugby Player of the Year in 2016?"
+        answers:
+          A: "Owen Farrell"
+          B: "Beauden Barrett"
+          C: "Maro Itoje"
+          D: "Kieran Read"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté le Tournoi des Six Nations 2019 ?"
+    answers:
+      A: "Angleterre"
+      B: "Pays de Galles"
+      C: "Irlande"
+      D: "Écosse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the 2019 Six Nations Tournament?"
+        answers:
+          A: "England"
+          B: "Wales"
+          C: "Ireland"
+          D: "Scotland"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record du plus grand nombre d'essais marqués en une seule édition du Tournoi des Six Nations ?"
+    answers:
+      A: "Jonny May"
+      B: "Shane Williams"
+      C: "Brian O'Driscoll"
+      D: "Chris Ashton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most tries scored in a single Six Nations Tournament?"
+        answers:
+          A: "Jonny May"
+          B: "Shane Williams"
+          C: "Brian O'Driscoll"
+          D: "Chris Ashton"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu meilleur joueur du monde World Rugby en 2014 ?"
+    answers:
+      A: "Kieran Read"
+      B: "Richie McCaw"
+      C: "Brodie Retallick"
+      D: "Julian Savea"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was named World Rugby Player of the Year in 2014?"
+        answers:
+          A: "Kieran Read"
+          B: "Richie McCaw"
+          C: "Brodie Retallick"
+          D: "Julian Savea"
+    difficulty: HARD
+  - text: "Quel poste porte traditionnellement le numéro 13 ?"
+    answers:
+      A: "Centre"
+      B: "Ailier"
+      C: "Arrière"
+      D: "Demi d'ouverture"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which position traditionally wears number 13?"
+        answers:
+          A: "Centre"
+          B: "Wing"
+          C: "Full-back"
+          D: "Fly-half"
+    difficulty: EASY
+  - text: "Quelle équipe a remporté le Tournoi des Six Nations 2018 ?"
+    answers:
+      A: "Écosse"
+      B: "Pays de Galles"
+      C: "Angleterre"
+      D: "Irlande"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the 2018 Six Nations Tournament?"
+        answers:
+          A: "Scotland"
+          B: "Wales"
+          C: "England"
+          D: "Ireland"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record du plus grand nombre de test-matchs joués avec l'équipe d'Angleterre ?"
+    answers:
+      A: "Jason Leonard"
+      B: "Ben Youngs"
+      C: "Dylan Hartley"
+      D: "Owen Farrell"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for the most test matches played for England?"
+        answers:
+          A: "Jason Leonard"
+          B: "Ben Youngs"
+          C: "Dylan Hartley"
+          D: "Owen Farrell"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record d'essais marqués en une seule Coupe du monde ?"
+    answers:
+      A: "Julian Savea"
+      B: "Bryan Habana"
+      C: "Jonah Lomu"
+      D: "Doug Howlett"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for tries scored in a single World Cup?"
+        answers:
+          A: "Julian Savea"
+          B: "Bryan Habana"
+          C: "Jonah Lomu"
+          D: "Doug Howlett"
+    difficulty: HARD
+  - text: "En quelle année la France a-t-elle remporté son premier Grand Chelem dans le Tournoi des Cinq Nations ?"
+    answers:
+      A: "1987"
+      B: "1977"
+      C: "1981"
+      D: "1968"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did France win its first Grand Slam in the Five Nations Tournament?"
+        answers:
+          A: "1987"
+          B: "1977"
+          C: "1981"
+          D: "1968"
+    difficulty: EXPERT
+  - text: "Quel joueur a été élu meilleur joueur du monde World Rugby en 2009 ?"
+    answers:
+      A: "Richie McCaw"
+      B: "Thierry Dusautoir"
+      C: "Kieran Read"
+      D: "Shane Williams"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player was named World Rugby Player of the Year in 2009?"
+        answers:
+          A: "Richie McCaw"
+          B: "Thierry Dusautoir"
+          C: "Kieran Read"
+          D: "Shane Williams"
+    difficulty: HARD
+  - text: "Combien de points vaut un essai dans le rugby à XIII ?"
+    answers:
+      A: "6"
+      B: "5"
+      C: "4"
+      D: "7"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many points is a try worth in rugby league?"
+        answers:
+          A: "6"
+          B: "5"
+          C: "4"
+          D: "7"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record d'essais marqués avec l'équipe d'Irlande ?"
+    answers:
+      A: "Shane Horgan"
+      B: "Tommy Bowe"
+      C: "Brian O'Driscoll"
+      D: "Denis Hickie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for most tries scored for the Ireland team?"
+        answers:
+          A: "Shane Horgan"
+          B: "Tommy Bowe"
+          C: "Brian O'Driscoll"
+          D: "Denis Hickie"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté la Coupe du monde de rugby à VII en 2005 ?"
+    answers:
+      A: "Fidji"
+      B: "Nouvelle-Zélande"
+      C: "Angleterre"
+      D: "Afrique du Sud"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the Rugby Sevens World Cup in 2005?"
+        answers:
+          A: "Fiji"
+          B: "New Zealand"
+          C: "England"
+          D: "South Africa"
+    difficulty: EXPERT
+  - text: "Quel poste porte traditionnellement le numéro 7 ?"
+    answers:
+      A: "Ailier gauche"
+      B: "Talonneur"
+      C: "Pilier gauche"
+      D: "Centre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which position traditionally wears the number 7?"
+        answers:
+          A: "Left wing"
+          B: "Hooker"
+          C: "Loosehead prop"
+          D: "Centre"
+    difficulty: EASY
+  - text: "En quelle année l'Afrique du Sud a-t-elle remporté sa première Coupe du monde de rugby à XV ?"
+    answers:
+      A: "2019"
+      B: "1999"
+      C: "2007"
+      D: "1995"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did South Africa win its first Rugby Union World Cup?"
+        answers:
+          A: "2019"
+          B: "1999"
+          C: "2007"
+          D: "1995"
+    difficulty: MEDIUM
+  - text: "Quel arbitre a officié lors de la finale de la Coupe du monde 2015 ?"
+    answers:
+      A: "Jérôme Garcès"
+      B: "Nigel Owens"
+      C: "Wayne Barnes"
+      D: "Romain Poite"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which referee officiated the 2015 World Cup final?"
+        answers:
+          A: "Jérôme Garcès"
+          B: "Nigel Owens"
+          C: "Wayne Barnes"
+          D: "Romain Poite"
+    difficulty: EXPERT
+  - text: "Quel joueur a marqué le plus de points en Coupe du monde de rugby à XV ?"
+    answers:
+      A: "Dan Carter"
+      B: "Jonny Wilkinson"
+      C: "Gavin Hastings"
+      D: "Michael Lynagh"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player has scored the most points in Rugby Union World Cup history?"
+        answers:
+          A: "Dan Carter"
+          B: "Jonny Wilkinson"
+          C: "Gavin Hastings"
+          D: "Michael Lynagh"
+    difficulty: HARD
+  - text: "Quelle est la couleur du maillot de l'équipe des Barbarians ?"
+    answers:
+      A: "Rouge et blanc"
+      B: "Bleu et blanc"
+      C: "Noir et blanc"
+      D: "Vert et blanc"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What color is the Barbarians team jersey?"
+        answers:
+          A: "Red and white"
+          B: "Blue and white"
+          C: "Black and white"
+          D: "Green and white"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record du plus grand nombre de transformations réussies en Coupe du monde ?"
+    answers:
+      A: "Dan Carter"
+      B: "Jonny Wilkinson"
+      C: "Percy Montgomery"
+      D: "Frédéric Michalak"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for most successful conversions in World Cup history?"
+        answers:
+          A: "Dan Carter"
+          B: "Jonny Wilkinson"
+          C: "Percy Montgomery"
+          D: "Frédéric Michalak"
+    difficulty: EXPERT

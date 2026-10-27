@@ -1,0 +1,1666 @@
+topic:
+  id: topic-game-of-thrones
+  names:
+    fr: "Game of Thrones"
+    en: "Game of Thrones"
+  description: "Plongez dans les Sept Couronnes : maisons Stark, Lannister et Targaryen, Daenerys et ses dragons, le Trône de fer, la Garde de Nuit et les grandes batailles de la série adaptée de George R. R. Martin, entre complots, dragons et marcheurs blancs."
+  category: TELEVISION
+  titles:
+    fr:
+      FER: "Mangeur de tourte"
+      BRONZE: "Écuyer de Winterfell"
+      ARGENT: "Frère juré"
+      OR: "Maître des chuchoteurs"
+      PLATINE: "Main du roi"
+      EMERAUDE: "Sang du dragon"
+      DIAMANT: "Roi de la Nuit"
+    en:
+      FER: "Pie Muncher"
+      BRONZE: "Winterfell Squire"
+      ARGENT: "Sworn Brother"
+      OR: "Master of Whisperers"
+      PLATINE: "Hand of the King"
+      EMERAUDE: "Blood of the Dragon"
+      DIAMANT: "Night King"
+  imageUrl: wikipedia/television/Trono_de_Hierro,_CIFP_Carlos_III_(20200909_085438).jpg
+questions:
+  - text: "Qui a créé la série Game of Thrones ?"
+    imageUrl: wikipedia/television/David_Benioff_&_D._B._Weiss_(27963816763).jpg
+    answers:
+      A: "J. J. Abrams et Damon Lindelof"
+      B: "Vince Gilligan et Peter Gould"
+      C: "David Benioff et D. B. Weiss"
+      D: "David Simon et Ed Burns"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who created the Game of Thrones series?"
+        answers:
+          A: "J. J. Abrams and Damon Lindelof"
+          B: "Vince Gilligan and Peter Gould"
+          C: "David Benioff and D. B. Weiss"
+          D: "David Simon and Ed Burns"
+    difficulty: EASY
+  - text: "Quel est le surnom de Petyr Baelish ?"
+    answers:
+      A: "Littlefinger"
+      B: "Le Mouron"
+      C: "L'Araignée"
+      D: "Le Limier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Petyr Baelish's nickname?"
+        answers:
+          A: "Littlefinger"
+          B: "The Pimp"
+          C: "The Spider"
+          D: "The Hound"
+    difficulty: MEDIUM
+  - text: "Qui a poussé Bran Stark de la tour de Winterfell ?"
+    answers:
+      A: "Jaime Lannister"
+      B: "Cersei Lannister"
+      C: "Joffrey Baratheon"
+      D: "Theon Greyjoy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who pushed Bran Stark from the tower of Winterfell?"
+        answers:
+          A: "Jaime Lannister"
+          B: "Cersei Lannister"
+          C: "Joffrey Baratheon"
+          D: "Theon Greyjoy"
+    difficulty: EASY
+  - text: "Qui a écrit les romans à l'origine de la série ?"
+    imageUrl: wikipedia/television/George_R._R._Martin_(54743091101).jpg
+    answers:
+      A: "George R. R. Martin"
+      B: "J. R. R. Tolkien"
+      C: "Philip Pullman"
+      D: "Robert Jordan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote the novels that the series is based on?"
+        answers:
+          A: "George R. R. Martin"
+          B: "J. R. R. Tolkien"
+          C: "Philip Pullman"
+          D: "Robert Jordan"
+    difficulty: EASY
+  - text: "Quel est le nom de l'épée longue de Jon Snow ?"
+    answers:
+      A: "Oathkeeper"
+      B: "Ice"
+      C: "Longclaw"
+      D: "Widow's Wail"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Jon Snow's longsword?"
+        answers:
+          A: "Oathkeeper"
+          B: "Ice"
+          C: "Longclaw"
+          D: "Widow's Wail"
+    difficulty: MEDIUM
+  - text: "Combien de dragons Daenerys a-t-elle fait éclore ?"
+    answers:
+      A: "Un"
+      B: "Trois"
+      C: "Deux"
+      D: "Quatre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many dragons did Daenerys hatch?"
+        answers:
+          A: "One"
+          B: "Three"
+          C: "Two"
+          D: "Four"
+    difficulty: EASY
+  - text: "Quel est le véritable nom de famille de Gendry ?"
+    answers:
+      A: "Waters"
+      B: "Baratheon"
+      C: "Rivers"
+      D: "Storm"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Gendry's true surname?"
+        answers:
+          A: "Waters"
+          B: "Baratheon"
+          C: "Rivers"
+          D: "Storm"
+    difficulty: HARD
+  - text: "Qui a tué le roi Aerys II Targaryen ?"
+    answers:
+      A: "Robert Baratheon"
+      B: "Ned Stark"
+      C: "Tywin Lannister"
+      D: "Jaime Lannister"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who killed King Aerys II Targaryen?"
+        answers:
+          A: "Robert Baratheon"
+          B: "Ned Stark"
+          C: "Tywin Lannister"
+          D: "Jaime Lannister"
+    difficulty: HARD
+  - text: "Quel titre porte Varys au conseil restreint ?"
+    answers:
+      A: "Maître des navires"
+      B: "Maître de la monnaie"
+      C: "Maître des chuchoteurs"
+      D: "Grand Mestre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What title does Varys hold on the small council?"
+        answers:
+          A: "Master of Ships"
+          B: "Master of Coin"
+          C: "Master of Whisperers"
+          D: "Grand Maester"
+    difficulty: HARD
+  - text: "Quel est le nom du loup-garou de Bran Stark ?"
+    answers:
+      A: "Fantôme"
+      B: "Dama"
+      C: "Nymeria"
+      D: "Été"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Bran Stark's direwolf?"
+        answers:
+          A: "Ghost"
+          B: "Dama"
+          C: "Nymeria"
+          D: "Summer"
+    difficulty: HARD
+  - text: "Quelle est la durée du Mur tel qu'il est décrit dans les livres ?"
+    answers:
+      A: "Environ 100 lieues"
+      B: "Environ 300 lieues"
+      C: "Environ 500 lieues"
+      D: "Environ 50 lieues"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the length of the Wall as described in the books?"
+        answers:
+          A: "About 100 leagues"
+          B: "About 300 leagues"
+          C: "About 500 leagues"
+          D: "About 50 leagues"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la maîtresse-épéiste qui entraîne Arya à Braavos ?"
+    answers:
+      A: "L'Affligée"
+      B: "La Miséricorde"
+      C: "La Servante"
+      D: "La Bienveillante"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the swordswoman who trains Arya in Braavos?"
+        answers:
+          A: "The Sorrowful"
+          B: "The Mercy"
+          C: "The Servant"
+          D: "The Kind"
+    difficulty: HARD
+  - text: "Quel personnage est connu sous le nom de « la Montagne » ?"
+    answers:
+      A: "Bronn"
+      B: "Sandor Clegane"
+      C: "Loras Tyrell"
+      D: "Gregor Clegane"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is known as \"the Mountain\"?"
+        answers:
+          A: "Bronn"
+          B: "Sandor Clegane"
+          C: "Loras Tyrell"
+          D: "Gregor Clegane"
+    difficulty: EASY
+  - text: "Quel est le nom du roi de la nuit dans la série ?"
+    answers:
+      A: "Le Roi-Hiver"
+      B: "Le Roi des Marcheurs"
+      C: "Le Grand Autre"
+      D: "Le Roi de la Nuit"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Night King in the series?"
+        answers:
+          A: "The Winter King"
+          B: "The King of the Walkers"
+          C: "The Great Other"
+          D: "The Night King"
+    difficulty: EXPERT
+  - text: "Quelle maison détient le siège de Accalmie ?"
+    answers:
+      A: "Martell"
+      B: "Tyrell"
+      C: "Baratheon"
+      D: "Tully"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which house holds the seat of Storm's End?"
+        answers:
+          A: "Martell"
+          B: "Tyrell"
+          C: "Baratheon"
+          D: "Tully"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épée valyrienne de la famille Stark ?"
+    answers:
+      A: "Serment"
+      B: "Longclaw"
+      C: "Cœur-de-Lion"
+      D: "Ice"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Valyrian sword of House Stark?"
+        answers:
+          A: "Oathkeeper"
+          B: "Longclaw"
+          C: "Lion's Tooth"
+          D: "Ice"
+    difficulty: HARD
+  - text: "Qui est le père biologique de Joffrey, Myrcella et Tommen ?"
+    answers:
+      A: "Jaime Lannister"
+      B: "Robert Baratheon"
+      C: "Stannis Baratheon"
+      D: "Renly Baratheon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the biological father of Joffrey, Myrcella, and Tommen?"
+        answers:
+          A: "Jaime Lannister"
+          B: "Robert Baratheon"
+          C: "Stannis Baratheon"
+          D: "Renly Baratheon"
+    difficulty: EASY
+  - text: "Quel est le nom de la cité libre où Arya s'entraîne à devenir une femme sans visage ?"
+    answers:
+      A: "Volantis"
+      B: "Lys"
+      C: "Pentos"
+      D: "Braavos"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the free city where Arya trains to become a Faceless Man?"
+        answers:
+          A: "Volantis"
+          B: "Lys"
+          C: "Pentos"
+          D: "Braavos"
+    difficulty: MEDIUM
+  - text: "Quel titre Daenerys porte-t-elle en tant que souveraine de Meereen ?"
+    answers:
+      A: "Khaleesi"
+      B: "Reine des Dragons"
+      C: "Mhysa"
+      D: "Reine de Meereen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What title does Daenerys hold as ruler of Meereen?"
+        answers:
+          A: "Khaleesi"
+          B: "Queen of Dragons"
+          C: "Mhysa"
+          D: "Queen of Meereen"
+    difficulty: HARD
+  - text: "Quel personnage prononce la phrase « Un Lannister paie toujours ses dettes » ?"
+    answers:
+      A: "Tyrion Lannister"
+      B: "Cersei Lannister"
+      C: "Tywin Lannister"
+      D: "Jaime Lannister"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character says the line \"A Lannister always pays his debts\"?"
+        answers:
+          A: "Tyrion Lannister"
+          B: "Cersei Lannister"
+          C: "Tywin Lannister"
+          D: "Jaime Lannister"
+    difficulty: EASY
+  - text: "Quel est le nom de la bataille où Jon Snow affronte Ramsay Bolton ?"
+    answers:
+      A: "La bataille des Crocs"
+      B: "La bataille de Winterfell"
+      C: "La bataille des Bâtards"
+      D: "La bataille du Nord"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the battle where Jon Snow faces Ramsay Bolton?"
+        answers:
+          A: "The Battle of the Fangs"
+          B: "The Battle of Winterfell"
+          C: "The Battle of the Bastards"
+          D: "The Battle of the North"
+    difficulty: HARD
+  - text: "Quel est le nom du géant qui accompagne Mance Rayder ?"
+    answers:
+      A: "Mag le Puissant"
+      B: "Wun Wun"
+      C: "Dongo"
+      D: "Grand Jon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the giant who accompanies Mance Rayder?"
+        answers:
+          A: "Mag the Mighty"
+          B: "Wun Wun"
+          C: "Dongo"
+          D: "Big Jon"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épée valyrienne de Joffrey Baratheon ?"
+    answers:
+      A: "Cœur de Lion"
+      B: "Veuve Éplorée"
+      C: "Serment"
+      D: "Vigilance"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Joffrey Baratheon's Valyrian sword?"
+        answers:
+          A: "Lion's Tooth"
+          B: "Widow's Wail"
+          C: "Oathkeeper"
+          D: "Vigilance"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi de la montagne et des collines selon l'état civil ?"
+    answers:
+      A: "Dontos Hollard"
+      B: "Sandor Clegane"
+      C: "Lothor Brune"
+      D: "Gregor Clegane"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Mountain and the Hill according to civil records?"
+        answers:
+          A: "Dontos Hollard"
+          B: "Sandor Clegane"
+          C: "Lothor Brune"
+          D: "Gregor Clegane"
+    difficulty: EXPERT
+  - text: "Quel personnage a tué le roi Renly Baratheon ?"
+    answers:
+      A: "Brienne de Torth"
+      B: "Stannis Baratheon"
+      C: "L'ombre engendrée par Mélisandre"
+      D: "Mélisandre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character killed King Renly Baratheon?"
+        answers:
+          A: "Brienne of Tarth"
+          B: "Stannis Baratheon"
+          C: "The shadow spawned by Melisandre"
+          D: "Melisandre"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du loup-garou albinos de Jon Snow ?"
+    answers:
+      A: "Fantôme"
+      B: "Été"
+      C: "Nymeria"
+      D: "Vent Gris"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Jon Snow's albino direwolf?"
+        answers:
+          A: "Ghost"
+          B: "Summer"
+          C: "Nymeria"
+          D: "Grey Wind"
+    difficulty: HARD
+  - text: "Quel est le véritable nom du roi de la nuit dans la série ?"
+    answers:
+      A: "Le Roi de la Nuit n'a pas de nom révélé"
+      B: "Brandon Stark l'Ancien"
+      C: "Le Treizième Lord Commandant"
+      D: "Le Corbeau à trois yeux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the real name of the Night King in the series?"
+        answers:
+          A: "The Night King has no revealed name"
+          B: "Brandon Stark the Elder"
+          C: "The Thirteenth Lord Commander"
+          D: "The Three-Eyed Raven"
+    difficulty: EXPERT
+  - text: "Quelle est la particularité physique de Tyrion Lannister à sa naissance ?"
+    answers:
+      A: "Il est né avec une queue"
+      B: "Il est né avec des yeux violets"
+      C: "Il est né nain"
+      D: "Il est né albinos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Tyrion Lannister's physical peculiarity at birth?"
+        answers:
+          A: "He was born with a tail"
+          B: "He was born with purple eyes"
+          C: "He was born a dwarf"
+          D: "He was born albino"
+    difficulty: HARD
+  - text: "Quel est le nom du château des Frey situé sur le Trident ?"
+    answers:
+      A: "Corcolline"
+      B: "Harrenhal"
+      C: "Vivesaigues"
+      D: "Les Jumeaux"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Frey castle located on the Trident?"
+        answers:
+          A: "Casterly Rock"
+          B: "Harrenhal"
+          C: "Riverrun"
+          D: "The Twins"
+    difficulty: EXPERT
+  - text: "Qui est la mère de Joffrey, Myrcella et Tommen ?"
+    answers:
+      A: "Margaery Tyrell"
+      B: "Cersei Lannister"
+      C: "Sansa Stark"
+      D: "Lysa Arryn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the mother of Joffrey, Myrcella, and Tommen?"
+        answers:
+          A: "Margaery Tyrell"
+          B: "Cersei Lannister"
+          C: "Sansa Stark"
+          D: "Lysa Arryn"
+    difficulty: EASY
+  - text: "Quel acteur incarne Tyrion Lannister ?"
+    imageUrl: wikipedia/television/Peter_Dinklage_by_Gage_Skidmore.jpg
+    answers:
+      A: "Nikolaj Coster-Waldau"
+      B: "Peter Dinklage"
+      C: "Liam Cunningham"
+      D: "Conleth Hill"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Tyrion Lannister?"
+        answers:
+          A: "Nikolaj Coster-Waldau"
+          B: "Peter Dinklage"
+          C: "Liam Cunningham"
+          D: "Conleth Hill"
+    difficulty: EASY
+  - text: "Quelle actrice incarne Daenerys Targaryen ?"
+    imageUrl: wikipedia/television/Emilia_Clarke_Comic_Con_2011_(cropped).jpg
+    answers:
+      A: "Lena Headey"
+      B: "Sophie Turner"
+      C: "Natalie Dormer"
+      D: "Emilia Clarke"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actress plays Daenerys Targaryen?"
+        answers:
+          A: "Lena Headey"
+          B: "Sophie Turner"
+          C: "Natalie Dormer"
+          D: "Emilia Clarke"
+    difficulty: EASY
+  - text: "Quel acteur incarne Jon Snow ?"
+    imageUrl: wikipedia/television/Kit_Harington_2011_cropped.jpg
+    answers:
+      A: "Isaac Hempstead Wright"
+      B: "Richard Madden"
+      C: "Alfie Allen"
+      D: "Kit Harington"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Jon Snow?"
+        answers:
+          A: "Isaac Hempstead Wright"
+          B: "Richard Madden"
+          C: "Alfie Allen"
+          D: "Kit Harington"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Cersei Lannister ?"
+    imageUrl: wikipedia/television/Lena_headey_gcc_2019.jpg
+    answers:
+      A: "Diana Rigg"
+      B: "Michelle Fairley"
+      C: "Carice van Houten"
+      D: "Lena Headey"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actress plays Cersei Lannister?"
+        answers:
+          A: "Diana Rigg"
+          B: "Michelle Fairley"
+          C: "Carice van Houten"
+          D: "Lena Headey"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Sansa Stark ?"
+    imageUrl: wikipedia/television/Sophie_Turner_(40553144273)_(cropped).jpg
+    answers:
+      A: "Emilia Clarke"
+      B: "Maisie Williams"
+      C: "Sophie Turner"
+      D: "Natalie Dormer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays Sansa Stark?"
+        answers:
+          A: "Emilia Clarke"
+          B: "Maisie Williams"
+          C: "Sophie Turner"
+          D: "Natalie Dormer"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Arya Stark ?"
+    imageUrl: wikipedia/television/Maisie_Williams_by_Gage_Skidmore_3.jpg
+    answers:
+      A: "Maisie Williams"
+      B: "Sophie Turner"
+      C: "Emilia Clarke"
+      D: "Lena Headey"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress plays Arya Stark?"
+        answers:
+          A: "Maisie Williams"
+          B: "Sophie Turner"
+          C: "Emilia Clarke"
+          D: "Lena Headey"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Jaime Lannister ?"
+    imageUrl: wikipedia/television/Nikolaj_Coster-Waldau_by_Gage_Skidmore.jpg
+    answers:
+      A: "Peter Dinklage"
+      B: "Nikolaj Coster-Waldau"
+      C: "Charles Dance"
+      D: "Iain Glen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Jaime Lannister?"
+        answers:
+          A: "Peter Dinklage"
+          B: "Nikolaj Coster-Waldau"
+          C: "Charles Dance"
+          D: "Iain Glen"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Khal Drogo ?"
+    imageUrl: wikipedia/television/Jason_Momoa_by_Gage_Skidmore.jpg
+    answers:
+      A: "Dave Bautista"
+      B: "Manu Bennett"
+      C: "Jason Momoa"
+      D: "Karl Urban"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Khal Drogo?"
+        answers:
+          A: "Dave Bautista"
+          B: "Manu Bennett"
+          C: "Jason Momoa"
+          D: "Karl Urban"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Brienne de Tarth ?"
+    imageUrl: wikipedia/television/Gwendoline_Christie_by_Gage_Skidmore.jpg
+    answers:
+      A: "Carice van Houten"
+      B: "Lena Headey"
+      C: "Natalie Dormer"
+      D: "Gwendoline Christie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actress plays Brienne of Tarth?"
+        answers:
+          A: "Carice van Houten"
+          B: "Lena Headey"
+          C: "Natalie Dormer"
+          D: "Gwendoline Christie"
+    difficulty: HARD
+  - text: "Quel acteur incarne Tywin Lannister ?"
+    imageUrl: wikipedia/television/Charles_Dance_2012_(cropped).jpg
+    answers:
+      A: "Liam Cunningham"
+      B: "Sean Bean"
+      C: "Charles Dance"
+      D: "Jerome Flynn"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Tywin Lannister?"
+        answers:
+          A: "Liam Cunningham"
+          B: "Sean Bean"
+          C: "Charles Dance"
+          D: "Jerome Flynn"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Margaery Tyrell ?"
+    imageUrl: wikipedia/television/Natalie_Dormer_by_Gage_Skidmore_2.jpg
+    answers:
+      A: "Natalie Dormer"
+      B: "Emilia Clarke"
+      C: "Sophie Turner"
+      D: "Maisie Williams"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress plays Margaery Tyrell?"
+        answers:
+          A: "Natalie Dormer"
+          B: "Emilia Clarke"
+          C: "Sophie Turner"
+          D: "Maisie Williams"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Jorah Mormont ?"
+    imageUrl: wikipedia/television/Iain_Glen.jpg
+    answers:
+      A: "Jerome Flynn"
+      B: "Liam Cunningham"
+      C: "Rory McCann"
+      D: "Iain Glen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Jorah Mormont?"
+        answers:
+          A: "Jerome Flynn"
+          B: "Liam Cunningham"
+          C: "Rory McCann"
+          D: "Iain Glen"
+    difficulty: HARD
+  - text: "Quel acteur incarne Petyr Baelish ?"
+    imageUrl: wikipedia/television/Aidan_Gillen_(headshot).jpg
+    answers:
+      A: "Aidan Gillen"
+      B: "Conleth Hill"
+      C: "Alfie Allen"
+      D: "Jacob Anderson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Petyr Baelish?"
+        answers:
+          A: "Aidan Gillen"
+          B: "Conleth Hill"
+          C: "Alfie Allen"
+          D: "Jacob Anderson"
+    difficulty: HARD
+  - text: "Quel acteur incarne Theon Greyjoy ?"
+    imageUrl: wikipedia/television/Alfie_Allen_by_Gage_Skidmore.jpg
+    answers:
+      A: "Kit Harington"
+      B: "Richard Madden"
+      C: "Alfie Allen"
+      D: "Iain Glen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Theon Greyjoy?"
+        answers:
+          A: "Kit Harington"
+          B: "Richard Madden"
+          C: "Alfie Allen"
+          D: "Iain Glen"
+    difficulty: HARD
+  - text: "Quel acteur incarne Sandor Clegane, le Limier ?"
+    imageUrl: wikipedia/television/Rory_McCann_SDCC_2014.jpg
+    answers:
+      A: "Jerome Flynn"
+      B: "Rory McCann"
+      C: "Liam Cunningham"
+      D: "Charles Dance"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Sandor Clegane, the Hound?"
+        answers:
+          A: "Jerome Flynn"
+          B: "Rory McCann"
+          C: "Liam Cunningham"
+          D: "Charles Dance"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Varys ?"
+    imageUrl: wikipedia/television/Conleth_Hill_by_Gage_Skidmore.jpg
+    answers:
+      A: "Kristian Nairn"
+      B: "Aidan Gillen"
+      C: "Jacob Anderson"
+      D: "Conleth Hill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Varys?"
+        answers:
+          A: "Kristian Nairn"
+          B: "Aidan Gillen"
+          C: "Jacob Anderson"
+          D: "Conleth Hill"
+    difficulty: HARD
+  - text: "Quel acteur incarne Hodor ?"
+    imageUrl: wikipedia/television/Kristian_Nairn_2014.jpg
+    answers:
+      A: "Kristian Nairn"
+      B: "Conleth Hill"
+      C: "John Bradley"
+      D: "Rory McCann"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Hodor?"
+        answers:
+          A: "Kristian Nairn"
+          B: "Conleth Hill"
+          C: "John Bradley"
+          D: "Rory McCann"
+    difficulty: HARD
+  - text: "Quel acteur incarne Bran Stark ?"
+    imageUrl: wikipedia/television/Isaac_Hempstead_Wright_by_Gage_Skidmore.jpg
+    answers:
+      A: "Dean-Charles Chapman"
+      B: "Jack Gleeson"
+      C: "Isaac Hempstead Wright"
+      D: "Alfie Allen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Bran Stark?"
+        answers:
+          A: "Dean-Charles Chapman"
+          B: "Jack Gleeson"
+          C: "Isaac Hempstead Wright"
+          D: "Alfie Allen"
+    difficulty: HARD
+  - text: "Quel acteur incarne Ned Stark ?"
+    imageUrl: wikipedia/television/Sean_Bean_September_2015.jpg
+    answers:
+      A: "Mark Addy"
+      B: "Sean Bean"
+      C: "Stephen Dillane"
+      D: "Liam Cunningham"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Ned Stark?"
+        answers:
+          A: "Mark Addy"
+          B: "Sean Bean"
+          C: "Stephen Dillane"
+          D: "Liam Cunningham"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Catelyn Stark ?"
+    imageUrl: wikipedia/television/Michelle_Fairley_by_Gage_Skidmore.jpg
+    answers:
+      A: "Carice van Houten"
+      B: "Lena Headey"
+      C: "Michelle Fairley"
+      D: "Diana Rigg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays Catelyn Stark?"
+        answers:
+          A: "Carice van Houten"
+          B: "Lena Headey"
+          C: "Michelle Fairley"
+          D: "Diana Rigg"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Robb Stark ?"
+    imageUrl: wikipedia/television/Richard_Madden_by_Gage_Skidmore.jpg
+    answers:
+      A: "Richard Madden"
+      B: "Kit Harington"
+      C: "Alfie Allen"
+      D: "Isaac Hempstead Wright"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Robb Stark?"
+        answers:
+          A: "Richard Madden"
+          B: "Kit Harington"
+          C: "Alfie Allen"
+          D: "Isaac Hempstead Wright"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Bronn ?"
+    imageUrl: wikipedia/television/Jerome_Flynn_2013_(cropped).jpg
+    answers:
+      A: "Jerome Flynn"
+      B: "Rory McCann"
+      C: "Liam Cunningham"
+      D: "Iain Glen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Bronn?"
+        answers:
+          A: "Jerome Flynn"
+          B: "Rory McCann"
+          C: "Liam Cunningham"
+          D: "Iain Glen"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Olenna Tyrell ?"
+    imageUrl: wikipedia/television/Diana_Rigg_at_the_Entertainment_Media_Show,_London,_October_2011.jpg
+    answers:
+      A: "Diana Rigg"
+      B: "Natalie Dormer"
+      C: "Carice van Houten"
+      D: "Michelle Fairley"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress plays Olenna Tyrell?"
+        answers:
+          A: "Diana Rigg"
+          B: "Natalie Dormer"
+          C: "Carice van Houten"
+          D: "Michelle Fairley"
+    difficulty: HARD
+  - text: "Quel acteur incarne Davos Mervault ?"
+    imageUrl: wikipedia/television/Liam_Cunningham_by_Gage_Skidmore.jpg
+    answers:
+      A: "Iain Glen"
+      B: "Liam Cunningham"
+      C: "Stephen Dillane"
+      D: "Conleth Hill"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Davos Seaworth?"
+        answers:
+          A: "Iain Glen"
+          B: "Liam Cunningham"
+          C: "Stephen Dillane"
+          D: "Conleth Hill"
+    difficulty: HARD
+  - text: "Quelle actrice incarne Mélisandre ?"
+    imageUrl: wikipedia/television/Carice_van_Houten_by_Gage_Skidmore.jpg
+    answers:
+      A: "Diana Rigg"
+      B: "Carice van Houten"
+      C: "Natalie Dormer"
+      D: "Lena Headey"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actress plays Melisandre?"
+        answers:
+          A: "Diana Rigg"
+          B: "Carice van Houten"
+          C: "Natalie Dormer"
+          D: "Lena Headey"
+    difficulty: HARD
+  - text: "Quel acteur incarne Samwell Tarly ?"
+    imageUrl: wikipedia/television/John_Bradley_by_Gage_Skidmore.jpg
+    answers:
+      A: "Kristian Nairn"
+      B: "Jacob Anderson"
+      C: "John Bradley"
+      D: "Conleth Hill"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Samwell Tarly?"
+        answers:
+          A: "Kristian Nairn"
+          B: "Jacob Anderson"
+          C: "John Bradley"
+          D: "Conleth Hill"
+    difficulty: MEDIUM
+  - text: "Quel titre porte Daenerys en tant que souveraine de Meereen ?"
+    answers:
+      A: "Reine des Andals et des Premiers Hommes"
+      B: "Reine de Meereen"
+      C: "Mhysa"
+      D: "Khaleesi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What title does Daenerys hold as ruler of Meereen?"
+        answers:
+          A: "Queen of the Andals and the First Men"
+          B: "Queen of Meereen"
+          C: "Mhysa"
+          D: "Khaleesi"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la lame en acier valyrien de Jon Snow ?"
+    answers:
+      A: "Longuegriffe"
+      B: "Grandegriffe"
+      C: "Griffe-de-loup"
+      D: "Corbeau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Jon Snow's Valyrian steel blade?"
+        answers:
+          A: "Longclaw"
+          B: "Greatclaw"
+          C: "Wolfclaw"
+          D: "Raven"
+    difficulty: HARD
+  - text: "Quel membre de la Garde de Nuit est connu sous le surnom de « Grenn » ?"
+    answers:
+      A: "Un ancien voleur"
+      B: "Un géant desEyrie"
+      C: "Un bâtard de Winterfell"
+      D: "Un frère roux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which member of the Night's Watch is known by the nickname 'Grenn'?"
+        answers:
+          A: "A former thief"
+          B: "A giant from the Eyrie"
+          C: "A bastard of Winterfell"
+          D: "A red-haired brother"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sorcière qui ressuscite Jon Snow ?"
+    answers:
+      A: "Kinvara"
+      B: "Mélisandre"
+      C: "Quaithe"
+      D: "La Prêtresse rouge de Volantis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the sorceress who resurrects Jon Snow?"
+        answers:
+          A: "Kinvara"
+          B: "Melisandre"
+          C: "Quaithe"
+          D: "The Red Priestess of Volantis"
+    difficulty: HARD
+  - text: "Ces cosplayeurs incarnent des personnages de quelle série ?"
+    imageUrl: wikipedia/television/Cosplay_at_Lucca_Comics_&_Games_2021_-_Game_of_Thrones_characters.jpg
+    answers:
+      A: "Game of Thrones"
+      B: "Vikings"
+      C: "The Witcher"
+      D: "Le Seigneur des anneaux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "These cosplayers portray characters from which series?"
+        answers:
+          A: "Game of Thrones"
+          B: "Vikings"
+          C: "The Witcher"
+          D: "The Lord of the Rings"
+    difficulty: MEDIUM
+  - text: "Quelle créature ce cosplayeur incarne-t-il ?"
+    imageUrl: wikipedia/television/Pyrkon_2017_GoT_Cosplay_White_Walker.jpg
+    answers:
+      A: "Un zombie"
+      B: "Un géant"
+      C: "Un dragon"
+      D: "Un marcheur blanc"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which creature is this cosplayer portraying?"
+        answers:
+          A: "A zombie"
+          B: "A giant"
+          C: "A dragon"
+          D: "A White Walker"
+    difficulty: MEDIUM
+  - text: "Quels personnages incarnent ces cosplayeurs ?"
+    imageUrl: wikipedia/television/NYCC_2017_Daenerys_Targaryen_and_Jon_Snow_Cosplay.jpg
+    answers:
+      A: "Cersei et Jaime Lannister"
+      B: "Daenerys Targaryen et Jon Snow"
+      C: "Arya et Sansa Stark"
+      D: "Khal Drogo et Daenerys"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which characters are these cosplayers portraying?"
+        answers:
+          A: "Cersei and Jaime Lannister"
+          B: "Daenerys Targaryen and Jon Snow"
+          C: "Arya and Sansa Stark"
+          D: "Khal Drogo and Daenerys"
+    difficulty: HARD
+  - text: "Quels personnages ces cosplayeurs représentent-ils ?"
+    imageUrl: wikipedia/television/Cosplay_of_Khal_Drogo_and_Daenerys_Targaryen_at_Japan_Expo_2016_(27779482023).jpg
+    answers:
+      A: "Robb et Talisa Stark"
+      B: "Jon Snow et Ygritte"
+      C: "Khal Drogo et Daenerys Targaryen"
+      D: "Viserys et Daenerys"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which characters do these cosplayers represent?"
+        answers:
+          A: "Robb and Talisa Stark"
+          B: "Jon Snow and Ygritte"
+          C: "Khal Drogo and Daenerys Targaryen"
+          D: "Viserys and Daenerys"
+    difficulty: HARD
+  - text: "Quelle reine ce cosplay met-il en scène ?"
+    imageUrl: wikipedia/television/Cersei_Lannister_cosplayer_(35679923826).jpg
+    answers:
+      A: "Margaery Tyrell"
+      B: "Daenerys Targaryen"
+      C: "Cersei Lannister"
+      D: "Mélisandre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which queen does this cosplay depict?"
+        answers:
+          A: "Margaery Tyrell"
+          B: "Daenerys Targaryen"
+          C: "Cersei Lannister"
+          D: "Melisandre"
+    difficulty: HARD
+  - text: "Quels personnages ces deux cosplayeurs incarnent-ils ?"
+    imageUrl: wikipedia/television/Arya_Stark_&_Jaqen_H'ghar_cosplayer_(35718287895).jpg
+    answers:
+      A: "Sansa Stark et Petyr Baelish"
+      B: "Arya Stark et Gendry"
+      C: "Arya Stark et Jaqen H'ghar"
+      D: "Arya Stark et Sandor Clegane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which characters are these two cosplayers portraying?"
+        answers:
+          A: "Sansa Stark and Petyr Baelish"
+          B: "Arya Stark and Gendry"
+          C: "Arya Stark and Jaqen H'ghar"
+          D: "Arya Stark and Sandor Clegane"
+    difficulty: HARD
+  - text: "Dans quelle ville a lieu cette convention ?"
+    imageUrl: wikipedia/television/NYCC_2017_Cosplay_of_Game_of_Thrones.jpg
+    answers:
+      A: "New York"
+      B: "San Diego"
+      C: "Londres"
+      D: "Paris"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city does this convention take place?"
+        answers:
+          A: "New York"
+          B: "San Diego"
+          C: "London"
+          D: "Paris"
+    difficulty: EXPERT
+  - text: "Quelle ville croate sert de décor à Port-Réal ?"
+    imageUrl: wikipedia/television/Dubrovnik_Old_Town_From_Minceta_Tower.jpg
+    answers:
+      A: "Rovinj"
+      B: "Split"
+      C: "Zadar"
+      D: "Dubrovnik"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Croatian city serves as the setting for King's Landing?"
+        answers:
+          A: "Rovinj"
+          B: "Split"
+          C: "Zadar"
+          D: "Dubrovnik"
+    difficulty: EXPERT
+  - text: "Quelle cité de la série a été tournée ici ?"
+    imageUrl: wikipedia/television/Malta_Mdina_BW_2011-10-05_13-02-11_1.jpg
+    answers:
+      A: "Braavos"
+      B: "Port-Réal"
+      C: "Volantis"
+      D: "Mereen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which city from the series was filmed here?"
+        answers:
+          A: "Braavos"
+          B: "King's Landing"
+          C: "Volantis"
+          D: "Meereen"
+    difficulty: HARD
+  - text: "Quelle route de la série représente cette allée ?"
+    imageUrl: wikipedia/television/The_Dark_Hedges.jpg
+    answers:
+      A: "Le Mur"
+      B: "La Route royale"
+      C: "La Route de la soie"
+      D: "Le Chemin des rois"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which route from the series does this path represent?"
+        answers:
+          A: "The Wall"
+          B: "The Kingsroad"
+          C: "The Silk Road"
+          D: "The Kings' Path"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi Fou que Jaime Lannister a tué ?"
+    answers:
+      A: "Aegon IV Targaryen"
+      B: "Viserys I Targaryen"
+      C: "Aerys II Targaryen"
+      D: "Maegor le Cruel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Mad King whom Jaime Lannister killed?"
+        answers:
+          A: "Aegon IV Targaryen"
+          B: "Viserys I Targaryen"
+          C: "Aerys II Targaryen"
+          D: "Maegor the Cruel"
+    difficulty: HARD
+  - text: "Quelle est la seule maison majeure de Westeros à avoir pour emblème un kraken ?"
+    answers:
+      A: "Maison Greyjoy"
+      B: "Maison Harloi"
+      C: "Maison Manderly"
+      D: "Maison Velaryon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which is the only major house of Westeros to have a kraken as its emblem?"
+        answers:
+          A: "House Greyjoy"
+          B: "House Harlaw"
+          C: "House Manderly"
+          D: "House Velaryon"
+    difficulty: HARD
+  - text: "À quel personnage appartient cette robe ?"
+    imageUrl: wikipedia/television/Game_of_Thrones_Oslo_exhibition_2014_-_Daenerys's_blue_dress.jpg
+    answers:
+      A: "Cersei Lannister"
+      B: "Daenerys Targaryen"
+      C: "Margaery Tyrell"
+      D: "Sansa Stark"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character does this dress belong to?"
+        answers:
+          A: "Cersei Lannister"
+          B: "Daenerys Targaryen"
+          C: "Margaery Tyrell"
+          D: "Sansa Stark"
+    difficulty: HARD
+  - text: "Dans quelle ville cette tapisserie est-elle exposée ?"
+    imageUrl: wikipedia/television/Game_of_Thrones_Tapestry.jpg
+    answers:
+      A: "Londres"
+      B: "Dublin"
+      C: "Édimbourg"
+      D: "Belfast"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which city is this tapestry displayed?"
+        answers:
+          A: "London"
+          B: "Dublin"
+          C: "Edinburgh"
+          D: "Belfast"
+    difficulty: EXPERT
+  - text: "Quel est le nom du loup-garou de Rickon Stark ?"
+    answers:
+      A: "Été"
+      B: "Vent Gris"
+      C: "Fantôme"
+      D: "Écume"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Rickon Stark's direwolf?"
+        answers:
+          A: "Summer"
+          B: "Grey Wind"
+          C: "Ghost"
+          D: "Shaggydog"
+    difficulty: EXPERT
+  - text: "Quel personnage a prononcé la phrase « Le chaos n'est qu'un trou » ?"
+    answers:
+      A: "Sandor Clegane"
+      B: "Varys"
+      C: "Tyrion Lannister"
+      D: "Petyr Baelish"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character said the line \"Chaos isn't a pit\"?"
+        answers:
+          A: "Sandor Clegane"
+          B: "Varys"
+          C: "Tyrion Lannister"
+          D: "Petyr Baelish"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la cité libre où se trouve la Maison du Noir et Blanc ?"
+    answers:
+      A: "Lys"
+      B: "Volantis"
+      C: "Braavos"
+      D: "Myr"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the free city where the House of Black and White is located?"
+        answers:
+          A: "Lys"
+          B: "Volantis"
+          C: "Braavos"
+          D: "Myr"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi des marcheurs blancs dans la série ?"
+    answers:
+      A: "Le Roi de la Nuit"
+      B: "Le Grand Autre"
+      C: "Le Marcheur Blanc"
+      D: "Le Corbeau à trois yeux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the king of the White Walkers in the series?"
+        answers:
+          A: "The Night King"
+          B: "The Great Other"
+          C: "The White Walker"
+          D: "The Three-Eyed Raven"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la bataille où Stannis Baratheon est vaincu par les Bolton ?"
+    answers:
+      A: "La bataille des Bâtards"
+      B: "La bataille de Winterfell"
+      C: "La bataille de Fort-Neige"
+      D: "La bataille de la Baie des esclaves"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the battle where Stannis Baratheon is defeated by the Boltons?"
+        answers:
+          A: "The Battle of the Bastards"
+          B: "The Battle of Winterfell"
+          C: "The Battle of Snowfort"
+          D: "The Battle of Slaver's Bay"
+    difficulty: EXPERT
+  - text: "Quel personnage est le fondateur de la Garde de Nuit selon la légende ?"
+    answers:
+      A: "Le Roi de la Nuit"
+      B: "Bran le Maudit"
+      C: "Brandon le Bâtisseur"
+      D: "L'Ancien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is the legendary founder of the Night's Watch?"
+        answers:
+          A: "The Night King"
+          B: "Bran the Accursed"
+          C: "Brandon the Builder"
+          D: "The Old One"
+    difficulty: EXPERT
+  - text: "Quel âge a Tommen Baratheon lorsqu'il devient roi ?"
+    answers:
+      A: "10 ans"
+      B: "12 ans"
+      C: "8 ans"
+      D: "14 ans"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How old is Tommen Baratheon when he becomes king?"
+        answers:
+          A: "10 years old"
+          B: "12 years old"
+          C: "8 years old"
+          D: "14 years old"
+    difficulty: EXPERT
+  - text: "Quel est le nom complet de la principale épée en acier valyrien de la maison Tarly ?"
+    answers:
+      A: "Corvenin"
+      B: "Dame Forlorn"
+      C: "Hardecombe"
+      D: "Cœur de Cendre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the full name of House Tarly's main Valyrian steel sword?"
+        answers:
+          A: "Heartsbane"
+          B: "Lady Forlorn"
+          C: "Hardecombe"
+          D: "Ashen Heart"
+    difficulty: EXPERT
+  - text: "Quel personnage est le premier à appeler Daenerys « Mère des Dragons » ?"
+    answers:
+      A: "Missandei"
+      B: "Jorah Mormont"
+      C: "Daario Naharis"
+      D: "Barristan Selmy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is the first to call Daenerys \"Mother of Dragons\"?"
+        answers:
+          A: "Missandei"
+          B: "Jorah Mormont"
+          C: "Daario Naharis"
+          D: "Barristan Selmy"
+    difficulty: EXPERT
+  - text: "Combien de fois Tyrion Lannister a-t-il été nommé Main du Roi dans la série ?"
+    answers:
+      A: "2 fois"
+      B: "3 fois"
+      C: "1 fois"
+      D: "4 fois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many times was Tyrion Lannister named Hand of the King in the series?"
+        answers:
+          A: "2 times"
+          B: "3 times"
+          C: "1 time"
+          D: "4 times"
+    difficulty: EXPERT
+  - text: "Quel est le nom du cheval offert à Arya Stark par Sandor Clegane ?"
+    answers:
+      A: "Courage"
+      B: "Étranger"
+      C: "Argent"
+      D: "Tempête"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the horse given to Arya Stark by Sandor Clegane?"
+        answers:
+          A: "Courage"
+          B: "Stranger"
+          C: "Silver"
+          D: "Storm"
+    difficulty: EXPERT
+  - text: "Quel maître d'armes de Winterfell est tué par Theon Greyjoy ?"
+    answers:
+      A: "Jory Cassel"
+      B: "Rodrik Cassel"
+      C: "Hallis Mollen"
+      D: "Alyn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Winterfell master-at-arms is killed by Theon Greyjoy?"
+        answers:
+          A: "Jory Cassel"
+          B: "Rodrik Cassel"
+          C: "Hallis Mollen"
+          D: "Alyn"
+    difficulty: EXPERT
+  - text: "Quel est le nom du navire de Daenerys Targaryen lorsqu'elle quitte Essos pour Westeros ?"
+    answers:
+      A: "Merlin de Braavos"
+      B: "Vif-Argent"
+      C: "Souffle du Dragon"
+      D: "Brise-Glace"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Daenerys Targaryen's ship when she leaves Essos for Westeros?"
+        answers:
+          A: "Merlin of Braavos"
+          B: "Quicksilver"
+          C: "Dragon's Breath"
+          D: "Icebreaker"
+    difficulty: EXPERT
+  - text: "Quel personnage a tué le roi de la Nuit lors de la bataille de Winterfell ?"
+    answers:
+      A: "Bran Stark"
+      B: "Arya Stark"
+      C: "Jon Snow"
+      D: "Daenerys Targaryen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character killed the Night King during the Battle of Winterfell?"
+        answers:
+          A: "Bran Stark"
+          B: "Arya Stark"
+          C: "Jon Snow"
+          D: "Daenerys Targaryen"
+    difficulty: HARD
+  - text: "Quel est le nom du loup-géant de Rickon Stark ?"
+    answers:
+      A: "Été"
+      B: "Fantôme"
+      C: "Feuille"
+      D: "Croc Blanc"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Rickon Stark's direwolf?"
+        answers:
+          A: "Summer"
+          B: "Ghost"
+          C: "Leaf"
+          D: "Shaggydog"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la ville où Jon Snow et Ygritte sont capturés par les sauvageons ?"
+    answers:
+      A: "Peyredragon"
+      B: "Tertre-aux-Corbeaux"
+      C: "Vieilles-Cailloux"
+      D: "Hautjardin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the town where Jon Snow and Ygritte are captured by the wildlings?"
+        answers:
+          A: "Dragonstone"
+          B: "Crow's Rest"
+          C: "Oldstones"
+          D: "Highgarden"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la lame en acier valyrien de Brienne de Torth ?"
+    answers:
+      A: "Veilleuse"
+      B: "Sang-de-Feu"
+      C: "Hurleuse"
+      D: "Gardienne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Brienne of Tarth's Valyrian steel blade?"
+        answers:
+          A: "Vigil"
+          B: "Fireblood"
+          C: "Howler"
+          D: "Oathkeeper"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la reine des épines ?"
+    answers:
+      A: "Olenna Tyrell"
+      B: "Lysa Arryn"
+      C: "Margaery Tyrell"
+      D: "Cersei Lannister"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Queen of Thorns?"
+        answers:
+          A: "Olenna Tyrell"
+          B: "Lysa Arryn"
+          C: "Margaery Tyrell"
+          D: "Cersei Lannister"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi de la montagne et des collines ?"
+    answers:
+      A: "Beric Dondarrion"
+      B: "Sandor Clegane"
+      C: "Dontos Hollard"
+      D: "Gregor Clegane"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Mountain and the Hills?"
+        answers:
+          A: "Beric Dondarrion"
+          B: "Sandor Clegane"
+          C: "Dontos Hollard"
+          D: "Gregor Clegane"
+    difficulty: EXPERT
+  - text: "Quel personnage a tué le roi Aerys II Targaryen ?"
+    answers:
+      A: "Robert Baratheon"
+      B: "Jaime Lannister"
+      C: "Ned Stark"
+      D: "Tywin Lannister"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character killed King Aerys II Targaryen?"
+        answers:
+          A: "Robert Baratheon"
+          B: "Jaime Lannister"
+          C: "Ned Stark"
+          D: "Tywin Lannister"
+    difficulty: HARD
+  - text: "Quel est le nom du loup-garou de Sansa Stark ?"
+    answers:
+      A: "Nymeria"
+      B: "Été"
+      C: "Fantôme"
+      D: "Dame"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Sansa Stark's direwolf?"
+        answers:
+          A: "Nymeria"
+          B: "Summer"
+          C: "Ghost"
+          D: "Lady"
+    difficulty: EXPERT
+  - text: "Quel est le nom du château des Bolton ?"
+    answers:
+      A: "Fort-Levant"
+      B: "Moat Cailin"
+      C: "Karhold"
+      D: "Le Dreadfort"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Boltons' castle?"
+        answers:
+          A: "Eastwatch"
+          B: "Moat Cailin"
+          C: "Karhold"
+          D: "The Dreadfort"
+    difficulty: HARD
+  - text: "Quel personnage a poussé Bran Stark de la tour de Winterfell ?"
+    answers:
+      A: "Jaime Lannister"
+      B: "Cersei Lannister"
+      C: "Joffrey Baratheon"
+      D: "Theon Greyjoy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character pushed Bran Stark from the tower of Winterfell?"
+        answers:
+          A: "Jaime Lannister"
+          B: "Cersei Lannister"
+          C: "Joffrey Baratheon"
+          D: "Theon Greyjoy"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épée en acier valyrien de Samwell Tarly ?"
+    answers:
+      A: "Serpentsourire"
+      B: "Dard"
+      C: "Hurlenfer"
+      D: "Cœursbrisés"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Samwell Tarly's Valyrian steel sword?"
+        answers:
+          A: "Serpentsmile"
+          B: "Sting"
+          C: "Longclaw"
+          D: "Heartsbane"
+    difficulty: EXPERT
+  - text: "Quel est le nom du louveteau de Bran Stark ?"
+    answers:
+      A: "Fantôme"
+      B: "Été"
+      C: "Dama"
+      D: "Vent Gris"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Bran Stark's direwolf pup?"
+        answers:
+          A: "Ghost"
+          B: "Summer"
+          C: "Lady"
+          D: "Grey Wind"
+    difficulty: EXPERT
+  - text: "Qui a tué le roi de la Nuit lors de la bataille de Winterfell ?"
+    answers:
+      A: "Daenerys Targaryen"
+      B: "Jon Snow"
+      C: "Bran Stark"
+      D: "Arya Stark"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who killed the Night King during the battle of Winterfell?"
+        answers:
+          A: "Daenerys Targaryen"
+          B: "Jon Snow"
+          C: "Bran Stark"
+          D: "Arya Stark"
+    difficulty: HARD

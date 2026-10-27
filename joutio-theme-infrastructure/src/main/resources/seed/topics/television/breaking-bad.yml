@@ -1,0 +1,1651 @@
+topic:
+  id: topic-breaking-bad
+  names:
+    fr: "Breaking Bad"
+    en: "Breaking Bad"
+  description: "Plongez dans l'univers d'Albuquerque : Walter White, Jesse Pinkman, Heisenberg, Gus Fring et les scènes cultes de la série créée par Vince Gilligan, entre chimie, cartels et descente aux enfers."
+  category: TELEVISION
+  titles:
+    fr:
+      FER: "Laveur de caravane"
+      BRONZE: "Cuisinier du dimanche"
+      ARGENT: "Petit chimiste"
+      OR: "Associé de Jesse"
+      PLATINE: "Baron de la drogue"
+      EMERAUDE: "Heisenberg"
+      DIAMANT: "L'Homme au chapeau"
+    en:
+      FER: "Car Wash Trainee"
+      BRONZE: "Sunday Cook"
+      ARGENT: "Lab Assistant"
+      OR: "Jesse's Partner"
+      PLATINE: "Drug Lord"
+      EMERAUDE: "Heisenberg"
+      DIAMANT: "The One Who Knocks"
+  imageUrl: wikipedia/television/Breaking_Bad_1986_Fleetwood_Bounder,_Diecast_Convention,_Mexico_2017.jpg
+questions:
+  - text: "Qui a créé la série Breaking Bad ?"
+    imageUrl: wikipedia/television/Vince_Gilligan_PaleyFest_2010.jpg
+    answers:
+      A: "Matthew Weiner"
+      B: "Vince Gilligan"
+      C: "David Chase"
+      D: "Shawn Ryan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who created the series Breaking Bad?"
+        answers:
+          A: "Matthew Weiner"
+          B: "Vince Gilligan"
+          C: "David Chase"
+          D: "Shawn Ryan"
+    difficulty: EASY
+  - text: "Quel est le nom complet de l'entreprise fondée par Walter White et Elliott Schwartz ?"
+    answers:
+      A: "Los Alamos Laboratories"
+      B: "Gray Matter Technologies"
+      C: "Albuquerque Isotopes"
+      D: "Sandia Solutions"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the full name of the company founded by Walter White and Elliott Schwartz?"
+        answers:
+          A: "Los Alamos Laboratories"
+          B: "Gray Matter Technologies"
+          C: "Albuquerque Isotopes"
+          D: "Sandia Solutions"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de famille de Skyler, l'épouse de Walter White ?"
+    answers:
+      A: "Schrader"
+      B: "White"
+      C: "Pinkman"
+      D: "Ehrmantraut"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the last name of Skyler, Walter White's wife?"
+        answers:
+          A: "Schrader"
+          B: "White"
+          C: "Pinkman"
+          D: "Ehrmantraut"
+    difficulty: MEDIUM
+  - text: "Quel est le deuxième prénom de Walter White ?"
+    answers:
+      A: "James"
+      B: "Michael"
+      C: "Hartwell"
+      D: "Robert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Walter White's middle name?"
+        answers:
+          A: "James"
+          B: "Michael"
+          C: "Hartwell"
+          D: "Robert"
+    difficulty: HARD
+  - text: "Quel est le nom de famille de Hank, le beau-frère de Walter ?"
+    answers:
+      A: "Fring"
+      B: "Schwartz"
+      C: "Salamanca"
+      D: "Schrader"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the last name of Hank, Walter's brother-in-law?"
+        answers:
+          A: "Fring"
+          B: "Schwartz"
+          C: "Salamanca"
+          D: "Schrader"
+    difficulty: EASY
+  - text: "Dans quelle ville se déroule la série ?"
+    imageUrl: wikipedia/television/Breaking_Bad_Season_4_(5610151969).jpg
+    answers:
+      A: "Phoenix"
+      B: "Albuquerque"
+      C: "El Paso"
+      D: "Santa Fe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the series set?"
+        answers:
+          A: "Phoenix"
+          B: "Albuquerque"
+          C: "El Paso"
+          D: "Santa Fe"
+    difficulty: EASY
+  - text: "Quel est le nom du trafiquant que Walter et Jesse rencontrent dans le désert lors de l'épisode 1 de la saison 1 ?"
+    answers:
+      A: "Tuco"
+      B: "Krazy-8"
+      C: "Combo"
+      D: "Skinny Pete"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the drug dealer Walter and Jesse meet in the desert in season 1, episode 1?"
+        answers:
+          A: "Tuco"
+          B: "Krazy-8"
+          C: "Combo"
+          D: "Skinny Pete"
+    difficulty: HARD
+  - text: "Quel est le nom de famille de Gustavo « Gus » Fring ?"
+    answers:
+      A: "Salamanca"
+      B: "Fring"
+      C: "Ehrmantraut"
+      D: "Gomez"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the last name of Gustavo \"Gus\" Fring?"
+        answers:
+          A: "Salamanca"
+          B: "Fring"
+          C: "Ehrmantraut"
+          D: "Gomez"
+    difficulty: MEDIUM
+  - text: "Quel personnage est connu pour dire « Yeah, science! » ?"
+    answers:
+      A: "Jesse Pinkman"
+      B: "Walter White"
+      C: "Saul Goodman"
+      D: "Gale Boetticher"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is known for saying \"Yeah, science!\"?"
+        answers:
+          A: "Jesse Pinkman"
+          B: "Walter White"
+          C: "Saul Goodman"
+          D: "Gale Boetticher"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du restaurant de poulet frit utilisé comme couverture par Gus Fring ?"
+    answers:
+      A: "Los Pollos Hermanos"
+      B: "El Pollo Loco"
+      C: "Pollo Feliz"
+      D: "La Cocina de Gus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the fried chicken restaurant used as a front by Gus Fring?"
+        answers:
+          A: "Los Pollos Hermanos"
+          B: "El Pollo Loco"
+          C: "Pollo Feliz"
+          D: "La Cocina de Gus"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cartel mexicain auquel appartient Tuco Salamanca ?"
+    answers:
+      A: "Cartel de Juárez"
+      B: "Cartel de Sinaloa"
+      C: "Cartel del Golfo"
+      D: "Los Zetas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Mexican cartel to which Tuco Salamanca belongs?"
+        answers:
+          A: "Juárez Cartel"
+          B: "Sinaloa Cartel"
+          C: "Gulf Cartel"
+          D: "Los Zetas"
+    difficulty: HARD
+  - text: "Quel est le nom de la femme de Hank Schrader ?"
+    answers:
+      A: "Wendy"
+      B: "Skyler"
+      C: "Marie"
+      D: "Jane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Hank Schrader's wife?"
+        answers:
+          A: "Wendy"
+          B: "Skyler"
+          C: "Marie"
+          D: "Jane"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du jeune chimiste que Gus engage pour superviser la production de méthamphétamine ?"
+    answers:
+      A: "Tyrus Kitt"
+      B: "Walter White Jr."
+      C: "Victor"
+      D: "Gale Boetticher"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the young chemist Gus hires to oversee methamphetamine production?"
+        answers:
+          A: "Tyrus Kitt"
+          B: "Walter White Jr."
+          C: "Victor"
+          D: "Gale Boetticher"
+    difficulty: HARD
+  - text: "Quel est l'alias de Walter White ?"
+    imageUrl: wikipedia/television/Dry_brush_portrait_of_Walter_White_from_Breaking_Bad_by_SD_(2015).jpg
+    answers:
+      A: "Heisenberg"
+      B: "Cap'n Cook"
+      C: "Scarface"
+      D: "Mr. Mayhem"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Walter White's alias?"
+        answers:
+          A: "Heisenberg"
+          B: "Cap'n Cook"
+          C: "Scarface"
+          D: "Mr. Mayhem"
+    difficulty: EASY
+  - text: "Quel est le nom du premier laboratoire souterrain utilisé par Walter et Jesse ?"
+    answers:
+      A: "Le Meth Lab"
+      B: "Le Blue Sky Lab"
+      C: "Le Crystal Palace"
+      D: "Le Superlab"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first underground lab used by Walter and Jesse?"
+        answers:
+          A: "The Meth Lab"
+          B: "The Blue Sky Lab"
+          C: "The Crystal Palace"
+          D: "The Superlab"
+    difficulty: HARD
+  - text: "Quel est le nom de la société de lavage de voitures que Walter utilise pour blanchir son argent ?"
+    answers:
+      A: "A1A Car Wash"
+      B: "Blue Sky Wash"
+      C: "Heisenberg Cleaners"
+      D: "Los Pollos Wash"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the car wash company Walter uses to launder his money?"
+        answers:
+          A: "A1A Car Wash"
+          B: "Blue Sky Wash"
+          C: "Heisenberg Cleaners"
+          D: "Los Pollos Wash"
+    difficulty: MEDIUM
+  - text: "Quel personnage est surnommé « Le Cousin » et est un tueur à gages de la famille Salamanca ?"
+    answers:
+      A: "Hector Salamanca"
+      B: "Leonel Salamanca"
+      C: "Marco Salamanca"
+      D: "Lalo Salamanca"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is nicknamed \"The Cousin\" and is a hitman for the Salamanca family?"
+        answers:
+          A: "Hector Salamanca"
+          B: "Leonel Salamanca"
+          C: "Marco Salamanca"
+          D: "Lalo Salamanca"
+    difficulty: HARD
+  - text: "Quel est le nom du tueur à gages qui travaille pour Gus et qui est un ancien policier de Philadelphie ?"
+    answers:
+      A: "Mike Ehrmantraut"
+      B: "Victor"
+      C: "Tyrus Kitt"
+      D: "Gaff"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the hitman who works for Gus and is a former Philadelphia police officer?"
+        answers:
+          A: "Mike Ehrmantraut"
+          B: "Victor"
+          C: "Tyrus Kitt"
+          D: "Gaff"
+    difficulty: HARD
+  - text: "Complétez : « I am the ______. »"
+    imageUrl: wikipedia/television/Bryan_Cranston_PaleyFest_2010.jpg
+    answers:
+      A: "cook"
+      B: "one who knocks"
+      C: "boss"
+      D: "danger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Complete: \"I am the ______.\""
+        answers:
+          A: "cook"
+          B: "one who knocks"
+          C: "boss"
+          D: "danger"
+    difficulty: EASY
+  - text: "Quel est le nom de l'avocat véreux qui aide Walter et Jesse ?"
+    answers:
+      A: "Elliott Schwartz"
+      B: "Gale Boetticher"
+      C: "Saul Goodman"
+      D: "Adam Pinkman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the sleazy lawyer who helps Walter and Jesse?"
+        answers:
+          A: "Elliott Schwartz"
+          B: "Gale Boetticher"
+          C: "Saul Goodman"
+          D: "Adam Pinkman"
+    difficulty: EASY
+  - text: "Quel est le nom du neurologue qui traite Walter White ?"
+    answers:
+      A: "Dr. Bruckner"
+      B: "Dr. Chavez"
+      C: "Dr. Goodman"
+      D: "Dr. Delcavoli"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the neurologist who treats Walter White?"
+        answers:
+          A: "Dr. Bruckner"
+          B: "Dr. Chavez"
+          C: "Dr. Goodman"
+          D: "Dr. Delcavoli"
+    difficulty: EXPERT
+  - text: "Quel couvre-chef symbolise Heisenberg ?"
+    imageUrl: wikipedia/television/SDCC_2014_-_Heisenberg_(14812213561).jpg
+    answers:
+      A: "Un fedora noir"
+      B: "Un bandana"
+      C: "Une casquette de baseball"
+      D: "Un chapeau pork pie noir"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which headwear symbolizes Heisenberg?"
+        answers:
+          A: "A black fedora"
+          B: "A bandana"
+          C: "A baseball cap"
+          D: "A black pork pie hat"
+    difficulty: EASY
+  - text: "Quel est le nom de la compagnie aérienne impliquée dans la catastrophe aérienne de la saison 2 ?"
+    answers:
+      A: "Southwest Airlines"
+      B: "Oceanic Airlines"
+      C: "Wayfarer 515"
+      D: "Albuquerque Air"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the airline involved in the plane crash in season 2?"
+        answers:
+          A: "Southwest Airlines"
+          B: "Oceanic Airlines"
+          C: "Wayfarer 515"
+          D: "Albuquerque Air"
+    difficulty: HARD
+  - text: "Quel est le nom du bar utilisé par Walter et Jesse pour leur première transaction avec Gus ?"
+    answers:
+      A: "El Griego"
+      B: "Los Pollos Hermanos"
+      C: "The Dog House"
+      D: "J. P. Wynne High School"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the bar used by Walter and Jesse for their first transaction with Gus?"
+        answers:
+          A: "El Griego"
+          B: "Los Pollos Hermanos"
+          C: "The Dog House"
+          D: "J. P. Wynne High School"
+    difficulty: EXPERT
+  - text: "Quel est le nom du principal rival de Gus Fring dans le trafic de méthamphétamine à Albuquerque ?"
+    answers:
+      A: "Tuco Salamanca"
+      B: "Hector Salamanca"
+      C: "Juan Bolsa"
+      D: "Don Eladio"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Gus Fring's main rival in the meth trade in Albuquerque?"
+        answers:
+          A: "Tuco Salamanca"
+          B: "Hector Salamanca"
+          C: "Juan Bolsa"
+          D: "Don Eladio"
+    difficulty: HARD
+  - text: "Quel est le nom de naissance de Tuco Salamanca ?"
+    answers:
+      A: "Alberto"
+      B: "Octavio"
+      C: "Esteban"
+      D: "Hector"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Tuco Salamanca's birth name?"
+        answers:
+          A: "Alberto"
+          B: "Octavio"
+          C: "Esteban"
+          D: "Hector"
+    difficulty: EXPERT
+  - text: "Quel objet Walter utilise-t-il pour tuer Emilio dans la saison 1 ?"
+    answers:
+      A: "Un tournevis"
+      B: "Un câble électrique"
+      C: "Un extincteur"
+      D: "Un bocal de verre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What object does Walter use to kill Emilio in season 1?"
+        answers:
+          A: "A screwdriver"
+          B: "An electrical cable"
+          C: "A fire extinguisher"
+          D: "A glass jar"
+    difficulty: HARD
+  - text: "Quel livre dédicacé par Gale ?"
+    imageUrl: wikipedia/television/Leaves_of_Grass_prop_from_Breaking_Bad_on_exhibit_at_the_Museum_of_Moving_Image_in_Astoria,_NY.jpg
+    answers:
+      A: "L'Art de la guerre"
+      B: "Moby Dick"
+      C: "Le Vieil Homme et la Mer"
+      D: "Leaves of Grass"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which book did Gale sign?"
+        answers:
+          A: "The Art of War"
+          B: "Moby Dick"
+          C: "The Old Man and the Sea"
+          D: "Leaves of Grass"
+    difficulty: HARD
+  - text: "Quel est le nom du trafiquant que Jesse et Walter enlèvent dans la saison 1 ?"
+    answers:
+      A: "Krazy-8"
+      B: "No-Doze"
+      C: "Gonzo"
+      D: "Combo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the dealer that Jesse and Walter kidnap in season 1?"
+        answers:
+          A: "Krazy-8"
+          B: "No-Doze"
+          C: "Gonzo"
+          D: "Combo"
+    difficulty: EXPERT
+  - text: "Quel est le nom de famille de Jane Margolis ?"
+    answers:
+      A: "Margolis"
+      B: "Cantillo"
+      C: "Reyes"
+      D: "Ortega"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Jane Margolis's last name?"
+        answers:
+          A: "Margolis"
+          B: "Cantillo"
+          C: "Reyes"
+          D: "Ortega"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du tatouage que Jesse a sur le bras ?"
+    answers:
+      A: "Un dragon"
+      B: "Une croix"
+      C: "Un serpent"
+      D: "Un aigle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the tattoo Jesse has on his arm?"
+        answers:
+          A: "A dragon"
+          B: "A cross"
+          C: "A snake"
+          D: "An eagle"
+    difficulty: EXPERT
+  - text: "Quelle tenue portent-ils pour cuisiner ?"
+    imageUrl: wikipedia/television/Hazmat_suit_and_mask_worn_by_Walter_White_in_the_T.V._show_Breaking_Bad.jpg
+    answers:
+      A: "Une combinaison hazmat"
+      B: "Un tablier de cuisine"
+      C: "Une blouse d'hôpital"
+      D: "Un poncho"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What outfit do they wear to cook?"
+        answers:
+          A: "A hazmat suit"
+          B: "A cooking apron"
+          C: "A hospital gown"
+          D: "A poncho"
+    difficulty: EASY
+  - text: "Quel personnage est tué par Walter avec une voiture dans la saison 3 ?"
+    answers:
+      A: "Jane"
+      B: "Gale Boetticher"
+      C: "Combo"
+      D: "Les deux dealers de Gus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is killed by Walter with a car in season 3?"
+        answers:
+          A: "Jane"
+          B: "Gale Boetticher"
+          C: "Combo"
+          D: "Gus's two dealers"
+    difficulty: HARD
+  - text: "Quel est le nom du supermarché où Walter et Jesse ont leur premier rendez-vous ?"
+    answers:
+      A: "Los Pollos Hermanos"
+      B: "Twisters"
+      C: "Albuquerque Dog House"
+      D: "El Michoacano"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the supermarket where Walter and Jesse have their first meeting?"
+        answers:
+          A: "Los Pollos Hermanos"
+          B: "Twisters"
+          C: "Albuquerque Dog House"
+          D: "El Michoacano"
+    difficulty: HARD
+  - text: "Quel est le nom du laboratoire souterrain utilisé par Walter et Jesse après la mort de Gale ?"
+    answers:
+      A: "Le laboratoire de Los Pollos Hermanos"
+      B: "Le labo de la blanchisserie"
+      C: "Le superlabo"
+      D: "Le labo de l'hôpital"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the underground lab used by Walter and Jesse after Gale's death?"
+        answers:
+          A: "The Los Pollos Hermanos lab"
+          B: "The laundry lab"
+          C: "The superlab"
+          D: "The hospital lab"
+    difficulty: HARD
+  - text: "Quel est le nom de la compagnie aérienne impliquée dans la catastrophe de la saison 2 ?"
+    answers:
+      A: "Southwest Airlines"
+      B: "Oceanic Airlines"
+      C: "Delta Airlines"
+      D: "Wayfarer 515"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the airline involved in the season 2 disaster?"
+        answers:
+          A: "Southwest Airlines"
+          B: "Oceanic Airlines"
+          C: "Delta Airlines"
+          D: "Wayfarer 515"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage qui prononce la réplique « I am the one who knocks » ?"
+    answers:
+      A: "Skyler White"
+      B: "Walter White"
+      C: "Hank Schrader"
+      D: "Gus Fring"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the character who says the line \"I am the one who knocks\"?"
+        answers:
+          A: "Skyler White"
+          B: "Walter White"
+          C: "Hank Schrader"
+          D: "Gus Fring"
+    difficulty: EASY
+  - text: "Quel acteur incarne Jesse Pinkman ?"
+    imageUrl: wikipedia/television/Aaron_Paul_at_the_68th_Annual_Peabody_Awards_for_Breaking_Bad.jpg
+    answers:
+      A: "Dean Norris"
+      B: "Bryan Cranston"
+      C: "Aaron Paul"
+      D: "RJ Mitte"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Jesse Pinkman?"
+        answers:
+          A: "Dean Norris"
+          B: "Bryan Cranston"
+          C: "Aaron Paul"
+          D: "RJ Mitte"
+    difficulty: EASY
+  - text: "Quel est le nom de l'épisode où Walter dit « I am the one who knocks » ?"
+    answers:
+      A: "Box Cutter"
+      B: "Fly"
+      C: "Cornered"
+      D: "Crawl Space"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the episode where Walter says \"I am the one who knocks\"?"
+        answers:
+          A: "Box Cutter"
+          B: "Fly"
+          C: "Cornered"
+          D: "Crawl Space"
+    difficulty: EXPERT
+  - text: "Quel était le lien entre Jesse et Walter avant la série ?"
+    imageUrl: wikipedia/television/Dragon_Con_2013_-_Breaking_Bad_(9680705630).jpg
+    answers:
+      A: "Jesse était son neveu"
+      B: "Jesse était son voisin"
+      C: "Jesse était son élève au lycée"
+      D: "Jesse était son collègue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the connection between Jesse and Walter before the series?"
+        answers:
+          A: "Jesse was his nephew"
+          B: "Jesse was his neighbor"
+          C: "Jesse was his high school student"
+          D: "Jesse was his colleague"
+    difficulty: EXPERT
+  - text: "Quel est le nom du personnage qui tue Gale Boetticher ?"
+    answers:
+      A: "Walter White"
+      B: "Gus Fring"
+      C: "Jesse Pinkman"
+      D: "Mike Ehrmantraut"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the character who kills Gale Boetticher?"
+        answers:
+          A: "Walter White"
+          B: "Gus Fring"
+          C: "Jesse Pinkman"
+          D: "Mike Ehrmantraut"
+    difficulty: MEDIUM
+  - text: "Quel est le numéro de l'unité de stockage que Walter et Jesse cambriolent dans la saison 2 ?"
+    answers:
+      A: "Unité 57"
+      B: "Unité 34"
+      C: "Unité 12"
+      D: "Unité 89"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the number of the storage unit that Walter and Jesse break into in season 2?"
+        answers:
+          A: "Unit 57"
+          B: "Unit 34"
+          C: "Unit 12"
+          D: "Unit 89"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du capitaine de l'avion impliqué dans la catastrophe aérienne de la saison 2 ?"
+    answers:
+      A: "Robert"
+      B: "William"
+      C: "Donald"
+      D: "James"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of the plane captain involved in the season 2 plane crash?"
+        answers:
+          A: "Robert"
+          B: "William"
+          C: "Donald"
+          D: "James"
+    difficulty: EXPERT
+  - text: "Quel véhicule sert de laboratoire mobile à Walt et Jesse ?"
+    imageUrl: wikipedia/television/Albuquerque,_New_Mexico,_USA_(48598079817).jpg
+    answers:
+      A: "Un bus scolaire"
+      B: "Un van Volkswagen"
+      C: "Un camping-car Fleetwood Bounder"
+      D: "Un camion de livraison"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which vehicle serves as Walt and Jesse's mobile lab?"
+        answers:
+          A: "A school bus"
+          B: "A Volkswagen van"
+          C: "A Fleetwood Bounder RV"
+          D: "A delivery truck"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du bar où Walter et Jesse ont leur premier rendez-vous avec Gus Fring ?"
+    answers:
+      A: "Los Pollos Hermanos"
+      B: "Twisters"
+      C: "The Dog House"
+      D: "El Griego"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the bar where Walter and Jesse have their first meeting with Gus Fring?"
+        answers:
+          A: "Los Pollos Hermanos"
+          B: "Twisters"
+          C: "The Dog House"
+          D: "El Griego"
+    difficulty: EXPERT
+  - text: "Où ce graffiti de Walter White a-t-il été pris ?"
+    imageUrl: wikipedia/television/BCN_-_20150817_-_8_(21767191479).jpg
+    answers:
+      A: "Barcelone"
+      B: "Albuquerque"
+      C: "Madrid"
+      D: "Valence"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where was this Walter White graffiti taken?"
+        answers:
+          A: "Barcelona"
+          B: "Albuquerque"
+          C: "Madrid"
+          D: "Valencia"
+    difficulty: EXPERT
+  - text: "Combien de temps Walter pense-t-il avoir à vivre lors de son diagnostic initial ?"
+    answers:
+      A: "6 mois"
+      B: "1 an"
+      C: "2 ans"
+      D: "3 mois"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How long does Walter think he has to live at his initial diagnosis?"
+        answers:
+          A: "6 months"
+          B: "1 year"
+          C: "2 years"
+          D: "3 months"
+    difficulty: HARD
+  - text: "Quels personnages ces cosplayeurs incarnent-ils ?"
+    imageUrl: wikipedia/television/SDCC_2014_-_Pinkman_and_White_(14818260795).jpg
+    answers:
+      A: "Gus et Mike"
+      B: "Hank et Gomez"
+      C: "Walter White et Jesse Pinkman"
+      D: "Tuco et Hector"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which characters are these cosplayers portraying?"
+        answers:
+          A: "Gus and Mike"
+          B: "Hank and Gomez"
+          C: "Walter White and Jesse Pinkman"
+          D: "Tuco and Hector"
+    difficulty: EXPERT
+  - text: "Quel est le nom du laboratoire souterrain de Gus Fring, situé sous une blanchisserie industrielle ?"
+    answers:
+      A: "The Hole"
+      B: "The Cave"
+      C: "The Bunker"
+      D: "Superlab"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Gus Fring's underground lab, located beneath an industrial laundry?"
+        answers:
+          A: "The Hole"
+          B: "The Cave"
+          C: "The Bunker"
+          D: "Superlab"
+    difficulty: HARD
+  - text: "Quel accessoire protège leur visage ?"
+    imageUrl: wikipedia/television/Breaking_Bad_gas_mask.jpg
+    answers:
+      A: "Un masque à gaz"
+      B: "Des lunettes de ski"
+      C: "Un masque de carnaval"
+      D: "Un casque de chantier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which accessory protects their face?"
+        answers:
+          A: "A gas mask"
+          B: "Ski goggles"
+          C: "A carnival mask"
+          D: "A construction helmet"
+    difficulty: MEDIUM
+  - text: "Cette maison d'Albuquerque sert de décor à quel personnage ?"
+    imageUrl: wikipedia/television/322_16th_Street_SW,_Albuquerque,_New_Mexico_-_front_facade_-_May_2026.jpg
+    answers:
+      A: "Gus Fring"
+      B: "Walter White"
+      C: "Hank Schrader"
+      D: "Jesse Pinkman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "This Albuquerque house serves as the set for which character?"
+        answers:
+          A: "Gus Fring"
+          B: "Walter White"
+          C: "Hank Schrader"
+          D: "Jesse Pinkman"
+    difficulty: HARD
+  - text: "Ce duplex sert de décor à quel duo de la série ?"
+    imageUrl: wikipedia/television/323_Terrace_Street_SE,_Albuquerque,_New_Mexico_-_May_2026.jpg
+    answers:
+      A: "Jesse et Jane"
+      B: "Walt et Skyler"
+      C: "Hank et Marie"
+      D: "Gus et Mike"
+    correctAnswer: A
+    translations:
+      en:
+        text: "This duplex serves as the set for which duo from the series?"
+        answers:
+          A: "Jesse and Jane"
+          B: "Walt and Skyler"
+          C: "Hank and Marie"
+          D: "Gus and Mike"
+    difficulty: HARD
+  - text: "À quel couple appartient cette maison ?"
+    imageUrl: wikipedia/television/4901_Cumbre_del_Sur_Court_NE,_Albuquerque,_New_Mexico_-_May_2026.jpg
+    answers:
+      A: "Jesse et Jane"
+      B: "Walt et Skyler"
+      C: "Gus et Lydia"
+      D: "Hank et Marie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which couple does this house belong to?"
+        answers:
+          A: "Jesse and Jane"
+          B: "Walt and Skyler"
+          C: "Gus and Lydia"
+          D: "Hank and Marie"
+    difficulty: HARD
+  - text: "Quel est le nom du neveu de Tuco Salamanca qui apparaît dans la saison 2 ?"
+    answers:
+      A: "Marco"
+      B: "Leonel"
+      C: "Hector"
+      D: "Joaquin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Tuco Salamanca's nephew who appears in season 2?"
+        answers:
+          A: "Marco"
+          B: "Leonel"
+          C: "Hector"
+          D: "Joaquin"
+    difficulty: EXPERT
+  - text: "Quel est le nom du personnage qui aide Jesse à se débarrasser du corps de Drew Sharp ?"
+    answers:
+      A: "Saul Goodman"
+      B: "Todd Alquist"
+      C: "Walter White"
+      D: "Mike Ehrmantraut"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the character who helps Jesse dispose of Drew Sharp's body?"
+        answers:
+          A: "Saul Goodman"
+          B: "Todd Alquist"
+          C: "Walter White"
+          D: "Mike Ehrmantraut"
+    difficulty: EXPERT
+  - text: "Quel est le nom de famille de Gale Boetticher ?"
+    answers:
+      A: "Boettiche"
+      B: "Boettcher"
+      C: "Boetticher"
+      D: "Boettic"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Gale Boetticher's last name?"
+        answers:
+          A: "Boettiche"
+          B: "Boettcher"
+          C: "Boetticher"
+          D: "Boettic"
+    difficulty: HARD
+  - text: "Quel est le nom du trafiquant que Walter et Jesse tuent dans le camping-car dans la saison 1 ?"
+    answers:
+      A: "Emilio"
+      B: "Krazy-8"
+      C: "Tuco"
+      D: "No-Doze"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dealer Walter and Jesse kill in the RV in season 1?"
+        answers:
+          A: "Emilio"
+          B: "Krazy-8"
+          C: "Tuco"
+          D: "No-Doze"
+    difficulty: EXPERT
+  - text: "Quel acteur joue le rôle de Gustavo « Gus » Fring ?"
+    answers:
+      A: "Steven Bauer"
+      B: "Mark Margolis"
+      C: "Raymond Cruz"
+      D: "Giancarlo Esposito"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the role of Gustavo \"Gus\" Fring?"
+        answers:
+          A: "Steven Bauer"
+          B: "Mark Margolis"
+          C: "Raymond Cruz"
+          D: "Giancarlo Esposito"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du personnage qui tue Andrea Cantillo ?"
+    answers:
+      A: "Jack Welker"
+      B: "Todd Alquist"
+      C: "Lydia Rodarte-Quayle"
+      D: "Kenny"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the character who kills Andrea Cantillo?"
+        answers:
+          A: "Jack Welker"
+          B: "Todd Alquist"
+          C: "Lydia Rodarte-Quayle"
+          D: "Kenny"
+    difficulty: HARD
+  - text: "Qui dirige Los Pollos Hermanos ?"
+    imageUrl: wikipedia/television/Pyrkon_2026_23_-_Los_Pollos_Hermanos.jpg
+    answers:
+      A: "Max Arciniega"
+      B: "Don Eladio"
+      C: "Gustavo Fring"
+      D: "Mike Ehrmantraut"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who runs Los Pollos Hermanos?"
+        answers:
+          A: "Max Arciniega"
+          B: "Don Eladio"
+          C: "Gustavo Fring"
+          D: "Mike Ehrmantraut"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du commanditaire qui engage Jack Welker pour tuer Walter dans la saison 5 ?"
+    answers:
+      A: "Declan"
+      B: "Todd Alquist"
+      C: "Lydia Rodarte-Quayle"
+      D: "Gus Fring"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the client who hires Jack Welker to kill Walter in season 5?"
+        answers:
+          A: "Declan"
+          B: "Todd Alquist"
+          C: "Lydia Rodarte-Quayle"
+          D: "Gus Fring"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la société de recyclage utilisée comme couverture par Walt et Jesse pour se procurer des produits chimiques ?"
+    answers:
+      A: "Los Pollos Hermanos"
+      B: "A1A Car Wash"
+      C: "Vamonos Pest"
+      D: "Bogdan's"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the recycling company used as a cover by Walt and Jesse to obtain chemicals?"
+        answers:
+          A: "Los Pollos Hermanos"
+          B: "A1A Car Wash"
+          C: "Vamonos Pest"
+          D: "Bogdan's"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'infirmière qui s'occupe de Walter lors de son hospitalisation dans la saison 1 ?"
+    answers:
+      A: "Infirmière Carol"
+      B: "Infirmière Susan"
+      C: "Infirmière Kathy"
+      D: "Infirmière Davis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the nurse who takes care of Walter during his hospitalization in season 1?"
+        answers:
+          A: "Nurse Carol"
+          B: "Nurse Susan"
+          C: "Nurse Kathy"
+          D: "Nurse Davis"
+    difficulty: EXPERT
+  - text: "Quel avocat représente Walter et Jesse ?"
+    imageUrl: wikipedia/television/Bob_Odenkirk_and_Lavell_Crawford_Breaking_Bad.jpg
+    answers:
+      A: "Saul Goodman"
+      B: "Chuck McGill"
+      C: "Kim Wexler"
+      D: "Howard Hamlin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which lawyer represents Walter and Jesse?"
+        answers:
+          A: "Saul Goodman"
+          B: "Chuck McGill"
+          C: "Kim Wexler"
+          D: "Howard Hamlin"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plan d'eau où Jesse et Walter se rendent pour cuisiner dans le camping-car ?"
+    answers:
+      A: "Lac To'hajiilee"
+      B: "Lac Mead"
+      C: "Lac Powell"
+      D: "Lac Granite"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the body of water where Jesse and Walter go to cook in the RV?"
+        answers:
+          A: "Lake To'hajiilee"
+          B: "Lake Mead"
+          C: "Lake Powell"
+          D: "Lake Granite"
+    difficulty: EXPERT
+  - text: "Qui est le fidèle homme de main de Saul ?"
+    imageUrl: wikipedia/television/Bob_Odenkirk_Lavell_Crawford_during_shooting_Breaking_Bad.jpg
+    answers:
+      A: "Tyrus"
+      B: "Huell Babineaux"
+      C: "Victor"
+      D: "Kuby"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is Saul's loyal henchman?"
+        answers:
+          A: "Tyrus"
+          B: "Huell Babineaux"
+          C: "Victor"
+          D: "Kuby"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'épisode de la saison 4 où Gus Fring meurt ?"
+    answers:
+      A: "Salud"
+      B: "Crawl Space"
+      C: "End Times"
+      D: "Face Off"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the season 4 episode in which Gus Fring dies?"
+        answers:
+          A: "Salud"
+          B: "Crawl Space"
+          C: "End Times"
+          D: "Face Off"
+    difficulty: HARD
+  - text: "Quel est le nom de la rivale de Gus Fring qui dirige un cartel rival à Albuquerque ?"
+    answers:
+      A: "Lydia Rodarte-Quayle"
+      B: "Don Eladio"
+      C: "Tuco Salamanca"
+      D: "Hector Salamanca"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Gus Fring's rival who runs a rival cartel in Albuquerque?"
+        answers:
+          A: "Lydia Rodarte-Quayle"
+          B: "Don Eladio"
+          C: "Tuco Salamanca"
+          D: "Hector Salamanca"
+    difficulty: EXPERT
+  - text: "Quel est le nom du médecin qui diagnostique le cancer de Walter White ?"
+    answers:
+      A: "Dr. Bruckner"
+      B: "Dr. Chavez"
+      C: "Dr. Goodman"
+      D: "Dr. Delcavoli"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the doctor who diagnoses Walter White's cancer?"
+        answers:
+          A: "Dr. Bruckner"
+          B: "Dr. Chavez"
+          C: "Dr. Goodman"
+          D: "Dr. Delcavoli"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la fleur utilisée par Walter pour empoisonner Brock ?"
+    answers:
+      A: "Muguet"
+      B: "Belladone"
+      C: "Digitale"
+      D: "Ciguë"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the flower used by Walter to poison Brock?"
+        answers:
+          A: "Lily of the valley"
+          B: "Belladonna"
+          C: "Foxglove"
+          D: "Hemlock"
+    difficulty: EXPERT
+  - text: "Quel est le nom du personnage qui achète le camping-car de Walter et Jesse ?"
+    answers:
+      A: "Combo"
+      B: "Skinny Pete"
+      C: "Badger"
+      D: "Krazy-8"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the character who buys Walter and Jesse's RV?"
+        answers:
+          A: "Combo"
+          B: "Skinny Pete"
+          C: "Badger"
+          D: "Krazy-8"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'entreprise de blanchisserie industrielle sous laquelle se trouve le super-labo de Gus ?"
+    answers:
+      A: "Lavanderia Brillante"
+      B: "Vamonos Pest"
+      C: "A1A Car Wash"
+      D: "Los Pollos Hermanos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the industrial laundry business under which Gus's superlab is located?"
+        answers:
+          A: "Lavanderia Brillante"
+          B: "Vamonos Pest"
+          C: "A1A Car Wash"
+          D: "Los Pollos Hermanos"
+    difficulty: HARD
+  - text: "Quel est le nom du trafiquant que Walt et Jesse tuent dans le camping-car au début de la saison 1 ?"
+    answers:
+      A: "Gonzo"
+      B: "Krazy-8"
+      C: "Tuco Salamanca"
+      D: "Emilio Koyama"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the dealer whom Walt and Jesse kill in the RV at the beginning of season 1?"
+        answers:
+          A: "Gonzo"
+          B: "Krazy-8"
+          C: "Tuco Salamanca"
+          D: "Emilio Koyama"
+    difficulty: EXPERT
+  - text: "Comment Hector Salamanca communique-t-il ?"
+    imageUrl: wikipedia/television/2014_Dragon_Con_Cosplay_-_Hector_Salamanca_(14937129410).jpg
+    answers:
+      A: "Avec une ardoise"
+      B: "Avec une cloche"
+      C: "Avec un ordinateur"
+      D: "En langue des signes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How does Hector Salamanca communicate?"
+        answers:
+          A: "With a slate"
+          B: "With a bell"
+          C: "With a computer"
+          D: "In sign language"
+    difficulty: MEDIUM
+  - text: "Dans quel épisode de la saison 4 Gus Fring meurt-il ?"
+    answers:
+      A: "End Times"
+      B: "Crawl Space"
+      C: "Face Off"
+      D: "Hermanos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which season 4 episode does Gus Fring die?"
+        answers:
+          A: "End Times"
+          B: "Crawl Space"
+          C: "Face Off"
+          D: "Hermanos"
+    difficulty: HARD
+  - text: "Quel est le nom du cartel mexicain que Gus Fring trahit dans la saison 4 ?"
+    answers:
+      A: "Cartel de Juárez"
+      B: "Cartel de Sinaloa"
+      C: "Cartel de Tijuana"
+      D: "Cartel del Golfo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Mexican cartel that Gus Fring betrays in season 4?"
+        answers:
+          A: "Juárez Cartel"
+          B: "Sinaloa Cartel"
+          C: "Tijuana Cartel"
+          D: "Gulf Cartel"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plan d'eau où Jesse et Walt cuisinent dans le camping-car ?"
+    answers:
+      A: "Lac Mead"
+      B: "To'hajiilee"
+      C: "Vasquez Rocks"
+      D: "Désert de Sonora"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the body of water where Jesse and Walt cook in the RV?"
+        answers:
+          A: "Lake Mead"
+          B: "To'hajiilee"
+          C: "Vasquez Rocks"
+          D: "Sonoran Desert"
+    difficulty: EXPERT
+  - text: "Quel est le nom du personnage qui achète le camping-car de Walt et Jesse ?"
+    answers:
+      A: "Clovis"
+      B: "Skinny Pete"
+      C: "Badger"
+      D: "Combo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the character who buys Walt and Jesse's RV?"
+        answers:
+          A: "Clovis"
+          B: "Skinny Pete"
+          C: "Badger"
+          D: "Combo"
+    difficulty: EXPERT
+  - text: "Quel est le nom du laboratoire souterrain utilisé par Walt et Jesse après la mort de Gale ?"
+    answers:
+      A: "Labo de Los Pollos Hermanos"
+      B: "Labo de Vamonos Pest"
+      C: "Superlabo"
+      D: "Labo de la blanchisserie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the underground lab used by Walt and Jesse after Gale's death?"
+        answers:
+          A: "Los Pollos Hermanos lab"
+          B: "Vamonos Pest lab"
+          C: "Superlab"
+          D: "Laundry lab"
+    difficulty: HARD
+  - text: "Quel est le nom du trafiquant que Walter et Jesse rencontrent dans le désert et qui est écrasé par un distributeur de billets dans la saison 2 ?"
+    answers:
+      A: "Tuco Salamanca"
+      B: "No-Doze"
+      C: "Gonzo"
+      D: "Skinny Pete"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dealer Walter and Jesse meet in the desert who is crushed by an ATM in season 2?"
+        answers:
+          A: "Tuco Salamanca"
+          B: "No-Doze"
+          C: "Gonzo"
+          D: "Skinny Pete"
+    difficulty: HARD
+  - text: "Quel est le nom du cartel mexicain dont Gus Fring prend sa revanche dans l'épisode « Salud » ?"
+    answers:
+      A: "Cartel de Sonora"
+      B: "Cartel de Sinaloa"
+      C: "Cartel de Tijuana"
+      D: "Cartel de Juárez"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Mexican cartel that Gus Fring takes revenge on in the episode \"Salud\"?"
+        answers:
+          A: "Sonora Cartel"
+          B: "Sinaloa Cartel"
+          C: "Tijuana Cartel"
+          D: "Juárez Cartel"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la drogue que Jesse commence à consommer après la mort de Jane ?"
+    answers:
+      A: "Cocaïne"
+      B: "Héroïne"
+      C: "Méthamphétamine"
+      D: "Crystal meth"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the drug Jesse starts using after Jane's death?"
+        answers:
+          A: "Cocaine"
+          B: "Heroin"
+          C: "Methamphetamine"
+          D: "Crystal meth"
+    difficulty: EXPERT
+  - text: "Quel est le nom du personnage qui tue Combo dans la saison 2 ?"
+    answers:
+      A: "Tuco Salamanca"
+      B: "Un enfant de 11 ans"
+      C: "Hank Schrader"
+      D: "Gus Fring"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the character who kills Combo in season 2?"
+        answers:
+          A: "Tuco Salamanca"
+          B: "An 11-year-old boy"
+          C: "Hank Schrader"
+          D: "Gus Fring"
+    difficulty: HARD
+  - text: "Combien de temps Walter pense-t-il avoir à vivre après son diagnostic initial ?"
+    answers:
+      A: "6 mois"
+      B: "2 ans"
+      C: "1 an"
+      D: "3 mois"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long does Walter think he has to live after his initial diagnosis?"
+        answers:
+          A: "6 months"
+          B: "2 years"
+          C: "1 year"
+          D: "3 months"
+    difficulty: HARD
+  - text: "Quel est le nom du numéro de téléphone que Jesse utilise pour contacter Walt après la mort de Jane ?"
+    answers:
+      A: "Le numéro de la ligne dédiée au labo"
+      B: "Le numéro de Badger"
+      C: "Le téléphone jetable qu'il avait gardé"
+      D: "Le numéro de Saul Goodman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the phone number Jesse uses to contact Walt after Jane's death?"
+        answers:
+          A: "The lab's dedicated line number"
+          B: "Badger's number"
+          C: "The disposable phone he had kept"
+          D: "Saul Goodman's number"
+    difficulty: EXPERT
+  - text: "Quel objet Walt utilise-t-il pour tenter de tuer Gus Fring dans la saison 4 ?"
+    answers:
+      A: "Un fusil de sniper"
+      B: "Une voiture piégée"
+      C: "Une bombe artisanale"
+      D: "Un poison dans son café"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What object does Walt use to try to kill Gus Fring in season 4?"
+        answers:
+          A: "A sniper rifle"
+          B: "A car bomb"
+          C: "A homemade bomb"
+          D: "Poison in his coffee"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage qui aide Walt à cacher l'argent dans la saison 5 ?"
+    answers:
+      A: "Saul Goodman"
+      B: "Skyler White"
+      C: "Hank Schrader"
+      D: "Jesse Pinkman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the character who helps Walt hide the money in season 5?"
+        answers:
+          A: "Saul Goodman"
+          B: "Skyler White"
+          C: "Hank Schrader"
+          D: "Jesse Pinkman"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la maison de retraite où vit Hector Salamanca ?"
+    answers:
+      A: "Casa Tranquila"
+      B: "Villa Serena"
+      C: "Casa de los Ancianos"
+      D: "El Descanso"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the retirement home where Hector Salamanca lives?"
+        answers:
+          A: "Casa Tranquila"
+          B: "Villa Serena"
+          C: "Casa de los Ancianos"
+          D: "El Descanso"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'arme que Jesse utilise pour tuer Gale ?"
+    answers:
+      A: "Un revolver"
+      B: "Un pistolet"
+      C: "Un couteau"
+      D: "Un poison"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the weapon Jesse uses to kill Gale?"
+        answers:
+          A: "A revolver"
+          B: "A pistol"
+          C: "A knife"
+          D: "A poison"
+    difficulty: HARD
+  - text: "Quel acteur incarne Gus Fring ?"
+    imageUrl: wikipedia/television/Giancarlo_Esposito_Breaking_Bad.jpg
+    answers:
+      A: "Giancarlo Esposito"
+      B: "Steven Bauer"
+      C: "Mark Margolis"
+      D: "Raymond Cruz"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Gus Fring?"
+        answers:
+          A: "Giancarlo Esposito"
+          B: "Steven Bauer"
+          C: "Mark Margolis"
+          D: "Raymond Cruz"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Hank Schrader ?"
+    imageUrl: wikipedia/television/Breaking_Bad_-_Dean_Norris.jpg
+    answers:
+      A: "Jonathan Banks"
+      B: "Bob Odenkirk"
+      C: "Charles Baker"
+      D: "Dean Norris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Hank Schrader?"
+        answers:
+          A: "Jonathan Banks"
+          B: "Bob Odenkirk"
+          C: "Charles Baker"
+          D: "Dean Norris"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Skyler White ?"
+    imageUrl: wikipedia/television/Anna_Gunn_PaleyFest_2010.jpg
+    answers:
+      A: "Betsy Brandt"
+      B: "Krysten Ritter"
+      C: "Anna Gunn"
+      D: "Laura Fraser"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays Skyler White?"
+        answers:
+          A: "Betsy Brandt"
+          B: "Krysten Ritter"
+          C: "Anna Gunn"
+          D: "Laura Fraser"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Walter White Jr. ?"
+    imageUrl: wikipedia/television/38th_Annual_Saturn_Awards_-_RJ_Mitte_from_Breaking_Bad_(13971794539).jpg
+    answers:
+      A: "Jesse Plemons"
+      B: "Charles Baker"
+      C: "Matt Jones"
+      D: "RJ Mitte"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Walter White Jr.?"
+        answers:
+          A: "Jesse Plemons"
+          B: "Charles Baker"
+          C: "Matt Jones"
+          D: "RJ Mitte"
+    difficulty: HARD
+  - text: "Quel est le nom du bar où Walt et Jesse ont leur premier rendez-vous avec Gus Fring ?"
+    answers:
+      A: "Le Buffalo Bar"
+      B: "Le Bar Rio"
+      C: "Le El Dorado"
+      D: "Le Los Pollos Hermanos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the bar where Walt and Jesse have their first meeting with Gus Fring?"
+        answers:
+          A: "The Buffalo Bar"
+          B: "The Bar Rio"
+          C: "The El Dorado"
+          D: "The Los Pollos Hermanos"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Skinny Pete ?"
+    imageUrl: wikipedia/television/Charles_Baker_2016.jpg
+    answers:
+      A: "RJ Mitte"
+      B: "Matt Jones"
+      C: "Charles Baker"
+      D: "Jesse Plemons"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Skinny Pete?"
+        answers:
+          A: "RJ Mitte"
+          B: "Matt Jones"
+          C: "Charles Baker"
+          D: "Jesse Plemons"
+    difficulty: HARD
+  - text: "Quel est le nom de la plaque d'immatriculation de la Pontiac Aztek de Walt ?"
+    answers:
+      A: "NM 8-4-2-1"
+      B: "NM 1-2-3-4"
+      C: "NM 5-5-5-5"
+      D: "NM 9-8-7-6"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the license plate number on Walt's Pontiac Aztek?"
+        answers:
+          A: "NM 8-4-2-1"
+          B: "NM 1-2-3-4"
+          C: "NM 5-5-5-5"
+          D: "NM 9-8-7-6"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épisode où Hank découvre que Walt est Heisenberg ?"
+    answers:
+      A: "Blood Money"
+      B: "Rabid Dog"
+      C: "Confessions"
+      D: "Gliding Over All"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the episode where Hank discovers that Walt is Heisenberg?"
+        answers:
+          A: "Blood Money"
+          B: "Rabid Dog"
+          C: "Confessions"
+          D: "Gliding Over All"
+    difficulty: HARD
+  - text: "Quel est le nom de la substance que Walt utilise pour faire exploser la voiture de Gus ?"
+    answers:
+      A: "Du TATP"
+      B: "De la nitroglycérine"
+      C: "Du C4"
+      D: "Du fulminate de mercure"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the substance Walt uses to blow up Gus's car?"
+        answers:
+          A: "TATP"
+          B: "Nitroglycerin"
+          C: "C4"
+          D: "Mercury fulminate"
+    difficulty: EXPERT
+  - text: "Quel est le titre du premier épisode de la série ?"
+    answers:
+      A: "Pilot"
+      B: "Cat's in the Bag..."
+      C: "And the Bag's in the River"
+      D: "Cancer Man"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the first episode of the series?"
+        answers:
+          A: "Pilot"
+          B: "Cat's in the Bag..."
+          C: "And the Bag's in the River"
+          D: "Cancer Man"
+    difficulty: MEDIUM
+  - text: "En quelle année est né l'acteur Bryan Cranston ?"
+    answers:
+      A: "1956"
+      B: "1953"
+      C: "1959"
+      D: "1962"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was actor Bryan Cranston born?"
+        answers:
+          A: "1956"
+          B: "1953"
+          C: "1959"
+          D: "1962"
+    difficulty: HARD

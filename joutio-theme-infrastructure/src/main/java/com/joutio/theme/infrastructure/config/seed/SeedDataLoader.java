@@ -1,0 +1,382 @@
+package com.joutio.theme.infrastructure.config.seed;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.joutio.microservice.core.domain.model.i18n.Language;
+import com.joutio.theme.domain.model.QuestionChoice;
+import com.joutio.theme.domain.model.QuestionContent;
+import com.joutio.theme.domain.model.QuestionDifficulty;
+import com.joutio.theme.domain.model.TopicCategory;
+import com.joutio.theme.domain.model.TopicTitles;
+import com.joutio.theme.infrastructure.properties.AppProperties;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+import org.springframework.core.io.support.ResourcePatternResolver;
+import org.springframework.stereotype.Component;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.EnumMap;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Set;
+
+import static com.joutio.theme.domain.model.TopicRules.MAX_NAME_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PUBLISH;
+
+/**
+ * Charge les fichiers de seed YAML des thèmes ({@code app.seed-data.location}).
+ *
+ * <p>Un fichier = un thème, rangé par catégorie ({@code seed/topics/<categorie>/<theme>.yml}).
+ * Chaque fichier est validé indépendamment : un fichier invalide est loggé puis ignoré,
+ * les autres restent chargés.</p>
+ *
+ * <p>Les textes de questions peuvent être dupliqués (questions visuelles) ; l'unicité de la
+ * paire {@code (text, imageUrl)} est en revanche validée par fichier : c'est la clé de
+ * réparation stable utilisée par {@code DataSeeder}.</p>
+ */
+@Component
+public class SeedDataLoader {
+
+    private static final Logger logger = LoggerFactory.getLogger(SeedDataLoader.class);
+
+    private static final int MAX_DESCRIPTION_LENGTH = 500;
+    private static final int MAX_QUESTION_TEXT_LENGTH = 255;
+    private static final int MAX_IMAGE_URL_LENGTH = 1024;
+
+    private final ResourcePatternResolver resourcePatternResolver;
+    private final ObjectMapper yamlMapper;
+    private final String locationPattern;
+    private final String imageBaseUrl;
+
+    @Autowired
+    public SeedDataLoader(AppProperties properties) {
+        this(properties.seedData().location(), properties.seedData().imageBaseUrl(),
+                new PathMatchingResourcePatternResolver());
+    }
+
+    SeedDataLoader(String locationPattern, String imageBaseUrl, ResourcePatternResolver resourcePatternResolver) {
+        this.locationPattern = locationPattern;
+        this.imageBaseUrl = imageBaseUrl == null ? "" : imageBaseUrl.trim();
+        this.resourcePatternResolver = resourcePatternResolver;
+        this.yamlMapper = new ObjectMapper(new YAMLFactory());
+    }
+
+    /**
+     * Charge et valide toutes les définitions de thèmes trouvées par le pattern configuré,
+     * triées par nom de fichier.
+     */
+    public List<TopicSeedDefinition> loadAll() {
+        List<Resource> resources = discover();
+        List<TopicSeedDefinition> definitions = new ArrayList<>();
+        Set<String> topicIds = new HashSet<>();
+
+        for (Resource resource : resources) {
+            String filename = Objects.requireNonNullElse(resource.getFilename(), resource.getDescription());
+            try {
+                TopicSeedDefinition definition = load(resource);
+                if (!topicIds.add(definition.topicId())) {
+                    logger.error("Duplicate topic id '{}' in seed file {}, skipping", definition.topicId(), filename);
+                    continue;
+                }
+                definitions.add(definition);
+            } catch (Exception e) {
+                logger.error("Invalid seed file {}, skipping: {}", filename, e.getMessage());
+            }
+        }
+
+        logger.info("Loaded {} topic seed definition(s) matched by {}", definitions.size(), locationPattern);
+        return definitions;
+    }
+
+    TopicSeedDefinition load(Resource resource) throws IOException {
+        try (InputStream inputStream = resource.getInputStream()) {
+            RawSeedFile file = yamlMapper.readValue(inputStream, RawSeedFile.class);
+            return validate(file);
+        }
+    }
+
+    private List<Resource> discover() {
+        try {
+            Resource[] resources = resourcePatternResolver.getResources(locationPattern);
+            List<Resource> sorted = new ArrayList<>(List.of(resources));
+            sorted.sort(Comparator.comparing(resource -> Objects.requireNonNull(resource.getFilename())));
+            return sorted;
+        } catch (IOException e) {
+            throw new IllegalStateException("Unable to discover seed files with pattern " + locationPattern, e);
+        }
+    }
+
+    private TopicSeedDefinition validate(RawSeedFile file) {
+        if (file == null || file.topic() == null) {
+            throw new SeedDataValidationException("missing 'topic' section");
+        }
+
+        RawSeedTopic rawTopic = file.topic();
+        String topicId = requireNonBlank(rawTopic.id(), "topic.id");
+        Map<Language, String> names = validateNames(rawTopic.names());
+        String description = rawTopic.description();
+        if (description != null && description.length() > MAX_DESCRIPTION_LENGTH) {
+            throw new SeedDataValidationException("topic.description exceeds " + MAX_DESCRIPTION_LENGTH + " characters");
+        }
+        TopicCategory category = parseCategory(rawTopic.category());
+        String topicImageUrl = validateImageUrl(rawTopic.imageUrl(), "topic.imageUrl");
+
+        List<RawSeedQuestion> rawQuestions = file.questions();
+        if (rawQuestions == null || rawQuestions.isEmpty()) {
+            throw new SeedDataValidationException("missing 'questions' section");
+        }
+        if (rawQuestions.size() < MIN_QUESTIONS_TO_PUBLISH) {
+            throw new SeedDataValidationException(
+                    "at least " + MIN_QUESTIONS_TO_PUBLISH + " questions are required to publish a topic");
+        }
+
+        List<QuestionSeedDefinition> questions = new ArrayList<>(rawQuestions.size());
+        Map<QuestionIdentity, Integer> seenQuestions = new HashMap<>();
+        for (int i = 0; i < rawQuestions.size(); i++) {
+            RawSeedQuestion raw = rawQuestions.get(i);
+            if (raw == null) {
+                throw new SeedDataValidationException("questions[" + i + "] is empty");
+            }
+            String context = "questions[" + i + "]";
+            String text = requireNonBlank(raw.text(), context + ".text");
+            if (text.length() > MAX_QUESTION_TEXT_LENGTH) {
+                throw new SeedDataValidationException(context + ".text exceeds " + MAX_QUESTION_TEXT_LENGTH + " characters");
+            }
+
+            Map<QuestionChoice, String> answers = validateAnswers(raw.answers(), context);
+            QuestionChoice correctAnswer = parseChoice(raw.correctAnswer(), context + ".correctAnswer");
+            if (!answers.containsKey(correctAnswer)) {
+                throw new SeedDataValidationException(context + ".correctAnswer must match one of the answers");
+            }
+            QuestionDifficulty difficulty = parseDifficulty(raw.difficulty(), context + ".difficulty");
+
+            Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
+            contents.put(Language.FR, new QuestionContent(Language.FR, text, answers));
+            contents.putAll(validateTranslations(raw.translations(), context));
+
+            QuestionIdentity identity = new QuestionIdentity(text, validateImageUrl(raw.imageUrl(), context + ".imageUrl"));
+            Integer firstIndex = seenQuestions.putIfAbsent(identity, i);
+            if (firstIndex != null) {
+                throw new SeedDataValidationException(
+                        context + ".text/.imageUrl is duplicated (same text and imageUrl as questions[" + firstIndex + "]): " + text);
+            }
+
+            questions.add(new QuestionSeedDefinition(contents, correctAnswer, identity.imageUrl(), difficulty));
+        }
+
+        return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl,
+                validateTitles(rawTopic.titles()), List.copyOf(questions));
+    }
+
+    /**
+     * Valide les titres personnalisés du seed ({@code topic.titles.<langue>.<TIER>} : paliers
+     * connus, libellés non vides et bornés) ; {@code null} si absents (repli client).
+     */
+    private Map<Language, Map<String, String>> validateTitles(Map<String, Map<String, String>> raw) {
+        if (raw == null || raw.isEmpty()) {
+            return null;
+        }
+        Map<Language, Map<String, String>> byLanguage = new EnumMap<>(Language.class);
+        raw.forEach((code, byTier) -> {
+            Language language;
+            try {
+                language = Language.fromCode(code);
+            } catch (RuntimeException error) {
+                throw new SeedDataValidationException("topic.titles: unknown language '" + code + "'");
+            }
+            byLanguage.put(language, byTier);
+        });
+        try {
+            return TopicTitles.normalize(byLanguage);
+        } catch (IllegalArgumentException error) {
+            throw new SeedDataValidationException("topic.titles: " + error.getMessage());
+        }
+    }
+
+    private Map<Language, QuestionContent> validateTranslations(Map<String, RawSeedTranslation> rawTranslations,
+                                                                String context) {
+        if (rawTranslations == null || rawTranslations.isEmpty()) {
+            return Map.of();
+        }
+
+        Map<Language, QuestionContent> translations = new EnumMap<>(Language.class);
+        for (Map.Entry<String, RawSeedTranslation> entry : rawTranslations.entrySet()) {
+            String translationContext = context + ".translations." + entry.getKey();
+            Language language = parseLanguage(entry.getKey(), translationContext);
+            if (language == Language.FR) {
+                throw new SeedDataValidationException(
+                        translationContext + " is the French content of the question (already defined by text/answers)");
+            }
+            RawSeedTranslation raw = entry.getValue();
+            if (raw == null) {
+                throw new SeedDataValidationException(translationContext + " is empty");
+            }
+
+            String text = requireNonBlank(raw.text(), translationContext + ".text");
+            if (text.length() > MAX_QUESTION_TEXT_LENGTH) {
+                throw new SeedDataValidationException(
+                        translationContext + ".text exceeds " + MAX_QUESTION_TEXT_LENGTH + " characters");
+            }
+            translations.put(language,
+                    new QuestionContent(language, text, validateAnswers(raw.answers(), translationContext)));
+        }
+        return translations;
+    }
+
+    private Language parseLanguage(String rawLanguage, String context) {
+        String value = requireNonBlank(rawLanguage, context);
+        try {
+            return Language.fromCode(value);
+        } catch (RuntimeException e) {
+            throw new SeedDataValidationException(
+                    context + " '" + value + "' is invalid (allowed: fr, en)", e);
+        }
+    }
+
+    private Map<QuestionChoice, String> validateAnswers(Map<String, String> rawAnswers, String context) {        if (rawAnswers == null || rawAnswers.size() != QuestionChoice.values().length) {
+            throw new SeedDataValidationException(
+                    context + ".answers must define exactly the choices " + List.of(QuestionChoice.values()));
+        }
+
+        Map<QuestionChoice, String> answers = new EnumMap<>(QuestionChoice.class);
+        for (QuestionChoice choice : QuestionChoice.values()) {
+            String value = rawAnswers.get(choice.name());
+            if (value == null || value.isBlank()) {
+                throw new SeedDataValidationException(context + ".answers." + choice.name() + " is required");
+            }
+            answers.put(choice, value);
+        }
+        return Collections.unmodifiableMap(answers);
+    }
+
+    private Map<Language, String> validateNames(Map<String, String> rawNames) {
+        if (rawNames == null || rawNames.isEmpty()) {
+            throw new SeedDataValidationException("topic.names is required (at least fr)");
+        }
+        Map<Language, String> names = new EnumMap<>(Language.class);
+        for (Map.Entry<String, String> entry : rawNames.entrySet()) {
+            String context = "topic.names." + entry.getKey();
+            Language language = parseLanguage(entry.getKey(), context);
+            String value = requireNonBlank(entry.getValue(), context);
+            if (value.length() > MAX_NAME_LENGTH) {
+                throw new SeedDataValidationException(context + " exceeds " + MAX_NAME_LENGTH + " characters");
+            }
+            names.put(language, value);
+        }
+        if (!names.containsKey(Language.FR)) {
+            throw new SeedDataValidationException("topic.names must define the French name (fr)");
+        }
+        return names;
+    }
+
+    private TopicCategory parseCategory(String rawCategory) {
+        String value = requireNonBlank(rawCategory, "topic.category");
+        try {
+            return TopicCategory.valueOf(value.toUpperCase(Locale.ROOT));
+        } catch (IllegalArgumentException e) {
+            throw new SeedDataValidationException("topic.category '" + value + "' is invalid (allowed: "
+                    + List.of(TopicCategory.values()) + ")", e);
+        }
+    }
+
+    private QuestionChoice parseChoice(String rawChoice, String context) {
+        String value = requireNonBlank(rawChoice, context);
+        try {
+            return QuestionChoice.valueOf(value.toUpperCase(Locale.ROOT));
+        } catch (IllegalArgumentException e) {
+            throw new SeedDataValidationException(context + " '" + value + "' is invalid (allowed: A, B, C, D)", e);
+        }
+    }
+
+    /**
+     * Difficulté initiale optionnelle : absente = la question sera classée par le calcul sur
+     * les réponses réelles.
+     */
+    private QuestionDifficulty parseDifficulty(String rawDifficulty, String context) {
+        if (rawDifficulty == null || rawDifficulty.isBlank()) {
+            return null;
+        }
+        String value = rawDifficulty.trim();
+        try {
+            return QuestionDifficulty.valueOf(value.toUpperCase(Locale.ROOT));
+        } catch (IllegalArgumentException e) {
+            throw new SeedDataValidationException(context + " '" + value + "' is invalid (allowed: "
+                    + List.of(QuestionDifficulty.values()) + ")", e);
+        }
+    }
+
+    /**
+     * Valide un {@code imageUrl} : URL absolue http(s), ou chemin relatif (ex.
+     * {@code wikipedia/<categorie>/<fichier>}) résolu via {@code app.seed-data.image-base-url}.
+     * Les binaires du seed vivent dans {@code joutio-workspace/product/wikipedia} (voir
+     * {@code scripts/seed-images.py}).
+     */
+    private String validateImageUrl(String rawUrl, String context) {
+        if (rawUrl == null || rawUrl.isBlank()) {
+            return null;
+        }
+        String url = rawUrl.trim();
+        try {
+            URI uri = URI.create(url);
+            String scheme = uri.getScheme();
+            if (scheme == null) {
+                url = resolveRelativeImageUrl(url, context);
+            } else if (!(scheme.equalsIgnoreCase("http") || scheme.equalsIgnoreCase("https"))) {
+                throw new SeedDataValidationException(context + " must be an http(s) URL or a relative seed path");
+            }
+        } catch (IllegalArgumentException e) {
+            throw new SeedDataValidationException(context + " is not a valid URL: " + url, e);
+        }
+        if (url.length() > MAX_IMAGE_URL_LENGTH) {
+            throw new SeedDataValidationException(context + " exceeds " + MAX_IMAGE_URL_LENGTH + " characters");
+        }
+        return url;
+    }
+
+    private String resolveRelativeImageUrl(String relativePath, String context) {
+        if (imageBaseUrl.isBlank()) {
+            throw new SeedDataValidationException(context + " is relative ('" + relativePath
+                    + "') but app.seed-data.image-base-url is not configured");
+        }
+        String base = imageBaseUrl.endsWith("/") ? imageBaseUrl : imageBaseUrl + "/";
+        String path = relativePath.startsWith("/") ? relativePath.substring(1) : relativePath;
+        return base + path;
+    }
+
+    private String requireNonBlank(String value, String context) {
+        if (value == null || value.isBlank()) {
+            throw new SeedDataValidationException(context + " is required");
+        }
+        return value.trim();
+    }
+
+    record RawSeedFile(RawSeedTopic topic, List<RawSeedQuestion> questions) {
+    }
+
+    record RawSeedTopic(String id, Map<String, String> names, String description, String category,
+                        String imageUrl, Map<String, Map<String, String>> titles) {
+    }
+
+    record RawSeedQuestion(String text,
+                           String imageUrl,
+                           Map<String, String> answers,
+                           String correctAnswer,
+                           String difficulty,
+                           Map<String, RawSeedTranslation> translations) {
+    }
+
+    record RawSeedTranslation(String text, Map<String, String> answers) {
+    }
+}

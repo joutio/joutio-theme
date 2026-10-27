@@ -1,0 +1,1631 @@
+topic:
+  id: topic-kaamelott
+  names:
+    fr: "Kaamelott"
+    en: "Kaamelott"
+  description: "Kaamelott est une série télévisée française créée par Alexandre Astier et diffusée sur M6 de 2005 à 2009. Elle revisite la légende arthurienne sur un ton burlesque : le roi Arthur, entouré de chevaliers souvent incompétents comme Perceval, Karadoc ou Bohort, tente de mener la quête du Graal depuis son château. Six Livres, 458 épisodes et des répliques devenues cultes."
+  category: TELEVISION
+  titles:
+    fr:
+      FER: "Bouseux de Carmélide"
+      BRONZE: "Chevalier de la Table Ronde"
+      ARGENT: "Roi de Bretagne"
+      OR: "Roi d'Angleterre"
+      PLATINE: "Roi de Gaule"
+      EMERAUDE: "Roi de Bourgogne"
+      DIAMANT: "Roi de Carmélide"
+    en:
+      FER: "Peasant of Carmélide"
+      BRONZE: "Knight of the Round Table"
+      ARGENT: "King of Brittany"
+      OR: "King of England"
+      PLATINE: "King of Gaul"
+      EMERAUDE: "King of Burgundy"
+      DIAMANT: "King of Carmélide"
+  imageUrl: wikipedia/television/Dedicaces_du_DVD_du_Livre_VI_de_Kaamelott.jpg
+questions:
+  - text: "Combien d'épisodes compte la série Kaamelott au total ?"
+    answers:
+      A: "458"
+      B: "412"
+      C: "501"
+      D: "375"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many episodes does the series Kaamelott have in total?"
+        answers:
+          A: "458"
+          B: "412"
+          C: "501"
+          D: "375"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épée d'Arthur dans la série ?"
+    answers:
+      A: "Caliburn"
+      B: "Excalibur"
+      C: "Durandal"
+      D: "Joyeuse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Arthur's sword in the series?"
+        answers:
+          A: "Caliburn"
+          B: "Excalibur"
+          C: "Durandal"
+          D: "Joyeuse"
+    difficulty: MEDIUM
+  - text: "Quel personnage est le père de Guenièvre ?"
+    answers:
+      A: "Bohort"
+      B: "Loth"
+      C: "Léodagan"
+      D: "Calogrenant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is Guinevere's father?"
+        answers:
+          A: "Bohort"
+          B: "Loth"
+          C: "Léodagan"
+          D: "Calogrenant"
+    difficulty: EASY
+  - text: "Qui est le frère de Guenièvre ?"
+    answers:
+      A: "Gauvain"
+      B: "Yvain"
+      C: "Lancelot"
+      D: "Perceval"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is Guinevere's brother?"
+        answers:
+          A: "Gauvain"
+          B: "Yvain"
+          C: "Lancelot"
+          D: "Perceval"
+    difficulty: MEDIUM
+  - text: "Quel chevalier est le fils du roi Loth ?"
+    answers:
+      A: "Gauvain"
+      B: "Yvain"
+      C: "Bohort"
+      D: "Karadoc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which knight is the son of King Loth?"
+        answers:
+          A: "Gauvain"
+          B: "Yvain"
+          C: "Bohort"
+          D: "Karadoc"
+    difficulty: HARD
+  - text: "Quel personnage est le demi-frère d'Arthur ?"
+    answers:
+      A: "Bohort"
+      B: "Yvain"
+      C: "Lancelot"
+      D: "Gauvain"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is Arthur's half-brother?"
+        answers:
+          A: "Bohort"
+          B: "Yvain"
+          C: "Lancelot"
+          D: "Gauvain"
+    difficulty: MEDIUM
+  - text: "Quel roi est le père biologique d'Arthur ?"
+    answers:
+      A: "Léodagan"
+      B: "Uther Pendragon"
+      C: "Loth"
+      D: "Hoël"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which king is Arthur's biological father?"
+        answers:
+          A: "Léodagan"
+          B: "Uther Pendragon"
+          C: "Loth"
+          D: "Hoël"
+    difficulty: MEDIUM
+  - text: "Quel chevalier est le frère de Bohort ?"
+    answers:
+      A: "Yvain"
+      B: "Gauvain"
+      C: "Lionel"
+      D: "Calogrenant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which knight is Bohort's brother?"
+        answers:
+          A: "Yvain"
+          B: "Gauvain"
+          C: "Lionel"
+          D: "Calogrenant"
+    difficulty: EASY
+  - text: "Quel est le nom de la femme de Bohort ?"
+    answers:
+      A: "Mevanwi"
+      B: "Séli"
+      C: "Guenièvre"
+      D: "La Dame du Lac"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Bohort's wife?"
+        answers:
+          A: "Mevanwi"
+          B: "Séli"
+          C: "Guenièvre"
+          D: "La Dame du Lac"
+    difficulty: HARD
+  - text: "Qui est le dieu des Baths dans Kaamelott ?"
+    answers:
+      A: "Bélénos"
+      B: "Taranis"
+      C: "Cernunnos"
+      D: "Lug"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the god of the Baths in Kaamelott?"
+        answers:
+          A: "Bélénos"
+          B: "Taranis"
+          C: "Cernunnos"
+          D: "Lug"
+    difficulty: EXPERT
+  - text: "Quel personnage est le tavernier ?"
+    answers:
+      A: "Roparzh"
+      B: "Le Tavernier"
+      C: "Glaudius"
+      D: "Père Blaise"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is the tavern keeper?"
+        answers:
+          A: "Roparzh"
+          B: "Le Tavernier"
+          C: "Glaudius"
+          D: "Père Blaise"
+    difficulty: EASY
+  - text: "Quel est le nom du forgeron ?"
+    answers:
+      A: "Roparzh"
+      B: "Caius"
+      C: "Glaudius"
+      D: "Breccan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the blacksmith?"
+        answers:
+          A: "Roparzh"
+          B: "Caius"
+          C: "Glaudius"
+          D: "Breccan"
+    difficulty: HARD
+  - text: "Quel est le nom du chef des Pictes ?"
+    answers:
+      A: "Angus"
+      B: "Mac Liam"
+      C: "Kenneth"
+      D: "Bryce"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Picts' chief?"
+        answers:
+          A: "Angus"
+          B: "Mac Liam"
+          C: "Kenneth"
+          D: "Bryce"
+    difficulty: HARD
+  - text: "Qui est le roi des Pictes ?"
+    answers:
+      A: "Angus"
+      B: "Mac Liam"
+      C: "Kenneth"
+      D: "Bryce"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the king of the Picts?"
+        answers:
+          A: "Angus"
+          B: "Mac Liam"
+          C: "Kenneth"
+          D: "Bryce"
+    difficulty: EXPERT
+  - text: "Quel comédien joue Merlin dans Kaamelott ?"
+    imageUrl: wikipedia/television/Jacques_Chambon.jpg
+    answers:
+      A: "Jacques Chambon"
+      B: "Lionnel Astier"
+      C: "Franck Pitiot"
+      D: "Bruno Fontaine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Merlin in Kaamelott?"
+        answers:
+          A: "Jacques Chambon"
+          B: "Lionnel Astier"
+          C: "Franck Pitiot"
+          D: "Bruno Fontaine"
+    difficulty: MEDIUM
+  - text: "Quel personnage est le maître d'armes ?"
+    answers:
+      A: "Lancelot"
+      B: "Perceval"
+      C: "Le Maître d'Armes"
+      D: "Gauvain"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is the Master at Arms?"
+        answers:
+          A: "Lancelot"
+          B: "Perceval"
+          C: "The Master at Arms"
+          D: "Gauvain"
+    difficulty: MEDIUM
+  - text: "Quelle actrice joue Guenièvre ?"
+    imageUrl: wikipedia/television/Anne_girouard_cropped.jpg
+    answers:
+      A: "Joëlle Sevilla"
+      B: "Audrey Fleurot"
+      C: "Anne Girouard"
+      D: "Caroline Ferrus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays Guinevere?"
+        answers:
+          A: "Joëlle Sevilla"
+          B: "Audrey Fleurot"
+          C: "Anne Girouard"
+          D: "Caroline Ferrus"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du médecin de Kaamelott ?"
+    answers:
+      A: "Caius"
+      B: "Glaudius"
+      C: "Breccan"
+      D: "Angharad"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Kaamelott's doctor?"
+        answers:
+          A: "Caius"
+          B: "Glaudius"
+          C: "Breccan"
+          D: "Angharad"
+    difficulty: HARD
+  - text: "Quel personnage est le juriste de Kaamelott ?"
+    answers:
+      A: "Maître d'Armes"
+      B: "Roparzh"
+      C: "Père Blaise"
+      D: "Jurisconsulte"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is Kaamelott's jurist?"
+        answers:
+          A: "Master at Arms"
+          B: "Roparzh"
+          C: "Father Blaise"
+          D: "Jurisconsult"
+    difficulty: HARD
+  - text: "Quel est le nom de l'aubergiste de Kaamelott ?"
+    answers:
+      A: "Glaudius"
+      B: "Le Tavernier"
+      C: "Roparzh"
+      D: "Breccan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Kaamelott's innkeeper?"
+        answers:
+          A: "Glaudius"
+          B: "The Tavern Keeper"
+          C: "Roparzh"
+          D: "Breccan"
+    difficulty: HARD
+  - text: "Quel personnage est le chef des gardes ?"
+    answers:
+      A: "Gauvain"
+      B: "Lancelot"
+      C: "Perceval"
+      D: "Le Chef des Gardes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is the chief of the guards?"
+        answers:
+          A: "Gauvain"
+          B: "Lancelot"
+          C: "Perceval"
+          D: "The Chief of the Guards"
+    difficulty: HARD
+  - text: "Quel est le nom du chef des mercenaires ?"
+    answers:
+      A: "Perceval"
+      B: "Kadoc"
+      C: "Karadoc"
+      D: "Bohort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the chief of the mercenaries?"
+        answers:
+          A: "Perceval"
+          B: "Kadoc"
+          C: "Karadoc"
+          D: "Bohort"
+    difficulty: EXPERT
+  - text: "En quelle année a débuté la diffusion de Kaamelott sur M6 ?"
+    answers:
+      A: "2005"
+      B: "2003"
+      C: "2007"
+      D: "2009"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Kaamelott first air on M6?"
+        answers:
+          A: "2005"
+          B: "2003"
+          C: "2007"
+          D: "2009"
+    difficulty: MEDIUM
+  - text: "Combien de Livres composent la série Kaamelott ?"
+    answers:
+      A: "4"
+      B: "6"
+      C: "5"
+      D: "7"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many Books make up the Kaamelott series?"
+        answers:
+          A: "4"
+          B: "6"
+          C: "5"
+          D: "7"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du château où réside Arthur ?"
+    answers:
+      A: "Kamelot"
+      B: "Camelot"
+      C: "Kaamelott"
+      D: "Kaamelot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the castle where Arthur resides?"
+        answers:
+          A: "Kamelot"
+          B: "Camelot"
+          C: "Kaamelott"
+          D: "Kaamelot"
+    difficulty: EASY
+  - text: "Qui interprète le roi Arthur dans Kaamelott ?"
+    imageUrl: wikipedia/television/A_Astier_Dedicace_octobre_2018.jpg
+    answers:
+      A: "Lionnel Astier"
+      B: "Franck Pitiot"
+      C: "Alexandre Astier"
+      D: "Jacques Chambon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays King Arthur in Kaamelott?"
+        answers:
+          A: "Lionnel Astier"
+          B: "Franck Pitiot"
+          C: "Alexandre Astier"
+          D: "Jacques Chambon"
+    difficulty: EASY
+  - text: "Quel acteur incarne le roi Arthur ?"
+    answers:
+      A: "Alain Chabat"
+      B: "Lionnel Astier"
+      C: "Alexandre Astier"
+      D: "Jean Reno"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor portrays King Arthur?"
+        answers:
+          A: "Alain Chabat"
+          B: "Lionnel Astier"
+          C: "Alexandre Astier"
+          D: "Jean Reno"
+    difficulty: EASY
+  - text: "En quelle année s'est achevée la diffusion de Kaamelott sur M6 ?"
+    answers:
+      A: "2007"
+      B: "2008"
+      C: "2009"
+      D: "2010"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Kaamelott finish airing on M6?"
+        answers:
+          A: "2007"
+          B: "2008"
+          C: "2009"
+          D: "2010"
+    difficulty: HARD
+  - text: "Quel est le nom du village où Perceval et Karadoc ont leurs habitudes ?"
+    answers:
+      A: "Vannes"
+      B: "Paimpont"
+      C: "Avelot"
+      D: "Broceliande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the village where Perceval and Karadoc hang out?"
+        answers:
+          A: "Vannes"
+          B: "Paimpont"
+          C: "Avelot"
+          D: "Broceliande"
+    difficulty: HARD
+  - text: "Quel chevalier est surnommé « le Sanguinaire » ?"
+    answers:
+      A: "Gauvain"
+      B: "Lancelot"
+      C: "Bohort"
+      D: "Perceval"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which knight is nicknamed \"the Bloodthirsty\"?"
+        answers:
+          A: "Gauvain"
+          B: "Lancelot"
+          C: "Bohort"
+          D: "Perceval"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la femme de Karadoc ?"
+    answers:
+      A: "Guenièvre"
+      B: "Mevanwi"
+      C: "Séli"
+      D: "Dame du Lac"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Karadoc's wife?"
+        answers:
+          A: "Guenièvre"
+          B: "Mevanwi"
+          C: "Séli"
+          D: "Dame du Lac"
+    difficulty: EXPERT
+  - text: "Quel beau-père colérique d'Arthur ?"
+    imageUrl: wikipedia/television/Lionnel_Astier_2012.jpg
+    answers:
+      A: "Calogrenant"
+      B: "Loth"
+      C: "Goustan"
+      D: "Léodagan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which hot-tempered father-in-law of Arthur?"
+        answers:
+          A: "Calogrenant"
+          B: "Loth"
+          C: "Goustan"
+          D: "Léodagan"
+    difficulty: MEDIUM
+  - text: "Quel personnage est le père de Perceval ?"
+    answers:
+      A: "Le roi Loth"
+      B: "On ne le voit jamais"
+      C: "Père Blaise"
+      D: "Léodagan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is Perceval's father?"
+        answers:
+          A: "King Loth"
+          B: "He is never seen"
+          C: "Père Blaise"
+          D: "Léodagan"
+    difficulty: HARD
+  - text: "Quel est le nom du cheval de Perceval ?"
+    answers:
+      A: "On ne le voit jamais"
+      B: "Tornado"
+      C: "Bayard"
+      D: "Mistigri"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Perceval's horse?"
+        answers:
+          A: "He is never seen"
+          B: "Tornado"
+          C: "Bayard"
+          D: "Mistigri"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Karadoc ?"
+    answers:
+      A: "Perceval"
+      B: "Bohort"
+      C: "Kadoc"
+      D: "Venec"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Karadoc's brother?"
+        answers:
+          A: "Perceval"
+          B: "Bohort"
+          C: "Kadoc"
+          D: "Venec"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épouse de Bohort ?"
+    answers:
+      A: "Séli"
+      B: "Mevanwi"
+      C: "Guenièvre"
+      D: "Dame du Lac"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Bohort's wife?"
+        answers:
+          A: "Séli"
+          B: "Mevanwi"
+          C: "Guenièvre"
+          D: "Dame du Lac"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi de Carmélide ?"
+    answers:
+      A: "Léodagan"
+      B: "Loth"
+      C: "Arthur"
+      D: "Bohort"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the king of Carmélide?"
+        answers:
+          A: "Léodagan"
+          B: "Loth"
+          C: "Arthur"
+          D: "Bohort"
+    difficulty: HARD
+  - text: "Quel est le nom du dieu des Baths dans Kaamelott ?"
+    answers:
+      A: "Bathus"
+      B: "Bath"
+      C: "Bathos"
+      D: "Batheus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the god of the Baths in Kaamelott?"
+        answers:
+          A: "Bathus"
+          B: "Bath"
+          C: "Bathos"
+          D: "Batheus"
+    difficulty: EXPERT
+  - text: "Quel personnage est le tavernier de Kaamelott ?"
+    answers:
+      A: "Yvain"
+      B: "Guevin"
+      C: "Roparzh"
+      D: "Venec"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is the tavern keeper of Kaamelott?"
+        answers:
+          A: "Yvain"
+          B: "Guevin"
+          C: "Roparzh"
+          D: "Venec"
+    difficulty: EASY
+  - text: "Quel est le nom du forgeron de Kaamelott ?"
+    answers:
+      A: "Guevin"
+      B: "Brendan"
+      C: "Venec"
+      D: "Roparzh"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the blacksmith of Kaamelott?"
+        answers:
+          A: "Guevin"
+          B: "Brendan"
+          C: "Venec"
+          D: "Roparzh"
+    difficulty: HARD
+  - text: "Quel est le nom du maître d'armes de Kaamelott ?"
+    answers:
+      A: "Le maître d'armes n'a pas de nom"
+      B: "Le Seigneur Perceval"
+      C: "Le chevalier Perceval"
+      D: "Perceval"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the master of arms of Kaamelott?"
+        answers:
+          A: "The master of arms has no name"
+          B: "Lord Perceval"
+          C: "Sir Perceval"
+          D: "Perceval"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du juriste de Kaamelott ?"
+    answers:
+      A: "Maître Guevin"
+      B: "Maître Roparzh"
+      C: "Maître Blaise"
+      D: "Maître Venec"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the jurist of Kaamelott?"
+        answers:
+          A: "Maître Guevin"
+          B: "Maître Roparzh"
+          C: "Maître Blaise"
+          D: "Maître Venec"
+    difficulty: HARD
+  - text: "Combien de temps dure approximativement chaque épisode de Kaamelott (format court) ?"
+    answers:
+      A: "3 minutes 30"
+      B: "7 minutes"
+      C: "12 minutes"
+      D: "26 minutes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Approximately how long does each episode of Kaamelott last (short format)?"
+        answers:
+          A: "3 minutes 30"
+          B: "7 minutes"
+          C: "12 minutes"
+          D: "26 minutes"
+    difficulty: HARD
+  - text: "Quel est le nom du neveu d'Arthur qui apparaît dans la série ?"
+    answers:
+      A: "Galehaut"
+      B: "Yvain"
+      C: "Gauvain"
+      D: "Bohort"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Arthur's nephew who appears in the series?"
+        answers:
+          A: "Galehaut"
+          B: "Yvain"
+          C: "Gauvain"
+          D: "Bohort"
+    difficulty: EXPERT
+  - text: "Quelle est la profession d'Angharad, qui apparaît dans les derniers livres ?"
+    answers:
+      A: "Servante"
+      B: "Guérisseuse"
+      C: "Cuisinière"
+      D: "Prêtresse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the profession of Angharad, who appears in the later books?"
+        answers:
+          A: "Servant"
+          B: "Healer"
+          C: "Cook"
+          D: "Priestess"
+    difficulty: EXPERT
+  - text: "Quel personnage incarne le « Duc d'Aquitaine » dans la série ?"
+    answers:
+      A: "Léodagan"
+      B: "Loth"
+      C: "Arthur"
+      D: "Bohort"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character plays the \"Duke of Aquitaine\" in the series?"
+        answers:
+          A: "Léodagan"
+          B: "Loth"
+          C: "Arthur"
+          D: "Bohort"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épouse de Léodagan ?"
+    answers:
+      A: "Angharad"
+      B: "Guenièvre"
+      C: "Mevanwi"
+      D: "Séli"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Léodagan's wife?"
+        answers:
+          A: "Angharad"
+          B: "Guenièvre"
+          C: "Mevanwi"
+          D: "Séli"
+    difficulty: MEDIUM
+  - text: "Dans quel lieu Perceval et Karadoc passent-ils le plus clair de leur temps libre ?"
+    answers:
+      A: "Les écuries"
+      B: "La bibliothèque"
+      C: "La salle de garde"
+      D: "La taverne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where do Perceval and Karadoc spend most of their free time?"
+        answers:
+          A: "The stables"
+          B: "The library"
+          C: "The guard room"
+          D: "The tavern"
+    difficulty: EASY
+  - text: "Quel est le nom du chien de Perceval ?"
+    answers:
+      A: "Rex"
+      B: "Guenièvre"
+      C: "Fidèle"
+      D: "Il n'en a pas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Perceval's dog?"
+        answers:
+          A: "Rex"
+          B: "Guenièvre"
+          C: "Fidèle"
+          D: "He doesn't have one"
+    difficulty: EXPERT
+  - text: "Combien de frères et sœurs a Guenièvre dans Kaamelott ?"
+    answers:
+      A: "Une sœur et un frère"
+      B: "Deux frères"
+      C: "Un frère"
+      D: "Aucun"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many brothers and sisters does Guenièvre have in Kaamelott?"
+        answers:
+          A: "One sister and one brother"
+          B: "Two brothers"
+          C: "One brother"
+          D: "None"
+    difficulty: EXPERT
+  - text: "Quel est le titre du premier épisode de la série (Livre I) ?"
+    answers:
+      A: "Le Sacrifice"
+      B: "Les Chevaliers de la Table Ronde"
+      C: "La Quête"
+      D: "Le Graal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the first episode of the series (Book I)?"
+        answers:
+          A: "The Sacrifice"
+          B: "The Knights of the Round Table"
+          C: "The Quest"
+          D: "The Grail"
+    difficulty: MEDIUM
+  - text: "Quel personnage est le père de Bohort ?"
+    answers:
+      A: "Le roi Ban"
+      B: "Le roi Loth"
+      C: "Le roi Léodagan"
+      D: "Le roi Pellinore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is Bohort's father?"
+        answers:
+          A: "King Ban"
+          B: "King Loth"
+          C: "King Léodagan"
+          D: "King Pellinore"
+    difficulty: HARD
+  - text: "Quel est le nom de la mère de Bohort et de Lyonnel ?"
+    answers:
+      A: "La reine Mevanwi"
+      B: "La reine Séli"
+      C: "La reine Guenièvre"
+      D: "La reine Élaine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Bohort and Lyonnel's mother?"
+        answers:
+          A: "Queen Mevanwi"
+          B: "Queen Séli"
+          C: "Queen Guenièvre"
+          D: "Queen Élaine"
+    difficulty: EXPERT
+  - text: "Quel chevalier est amoureux de la reine Guenièvre ?"
+    answers:
+      A: "Perceval"
+      B: "Bohort"
+      C: "Gauvain"
+      D: "Lancelot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which knight is in love with Queen Guenièvre?"
+        answers:
+          A: "Perceval"
+          B: "Bohort"
+          C: "Gauvain"
+          D: "Lancelot"
+    difficulty: EASY
+  - text: "Quel est le nom du frère de Lancelot ?"
+    answers:
+      A: "Bohort"
+      B: "Lyonnel"
+      C: "Galehaut"
+      D: "Il n'a pas de frère"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Lancelot's brother?"
+        answers:
+          A: "Bohort"
+          B: "Lyonnel"
+          C: "Galehaut"
+          D: "He has no brother"
+    difficulty: EXPERT
+  - text: "Quel personnage est le fils de Karadoc et Mevanwi ?"
+    answers:
+      A: "Il n'a pas d'enfant"
+      B: "Yvain"
+      C: "Guenièvre"
+      D: "Perceval"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is the son of Karadoc and Mevanwi?"
+        answers:
+          A: "He has no children"
+          B: "Yvain"
+          C: "Guenièvre"
+          D: "Perceval"
+    difficulty: HARD
+  - text: "Quel est le nom du roi de Gaunes, ennemi d'Arthur ?"
+    answers:
+      A: "Le roi Ban"
+      B: "Le roi Léodagan"
+      C: "Le roi Loth"
+      D: "Le roi Pellinore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the King of Gaunes, Arthur's enemy?"
+        answers:
+          A: "King Ban"
+          B: "King Léodagan"
+          C: "King Loth"
+          D: "King Pellinore"
+    difficulty: EXPERT
+  - text: "Quelle arme Arthur utilise-t-il pour reconnaître le véritable Excalibur ?"
+    answers:
+      A: "La poignée"
+      B: "Le fourreau"
+      C: "La pierre"
+      D: "La garde"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which weapon does Arthur use to recognize the true Excalibur?"
+        answers:
+          A: "The hilt"
+          B: "The scabbard"
+          C: "The stone"
+          D: "The guard"
+    difficulty: EXPERT
+  - text: "Quel personnage est chargé de l'intendance du château ?"
+    answers:
+      A: "Le Père Blaise"
+      B: "Guenièvre"
+      C: "Séli"
+      D: "Angharad"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is in charge of the castle's stewardship?"
+        answers:
+          A: "Father Blaise"
+          B: "Guenièvre"
+          C: "Séli"
+          D: "Angharad"
+    difficulty: HARD
+  - text: "Quel est le nom de la résidence de Perceval et Karadoc ?"
+    answers:
+      A: "Le château de Kaamelott"
+      B: "La villa de Karadoc"
+      C: "La chaumière de Perceval"
+      D: "La tour de Bohort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Perceval and Karadoc's residence?"
+        answers:
+          A: "The castle of Kaamelott"
+          B: "Karadoc's villa"
+          C: "Perceval's cottage"
+          D: "Bohort's tower"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cheval de Karadoc ?"
+    answers:
+      A: "Gros Blanc"
+      B: "Petit Gris"
+      C: "Il n'en a pas"
+      D: "Tornado"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Karadoc's horse?"
+        answers:
+          A: "Big White"
+          B: "Little Grey"
+          C: "He doesn't have one"
+          D: "Tornado"
+    difficulty: EXPERT
+  - text: "Quel titre porte le chef des armées d'Arthur ?"
+    answers:
+      A: "Maréchal"
+      B: "Amiral"
+      C: "Sénéchal"
+      D: "Connétable"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What title does the leader of Arthur's armies hold?"
+        answers:
+          A: "Marshal"
+          B: "Admiral"
+          C: "Seneschal"
+          D: "Constable"
+    difficulty: HARD
+  - text: "Dans le Livre VI, quel personnage est retrouvé amnésique à Rome ?"
+    answers:
+      A: "Perceval"
+      B: "Arthur"
+      C: "Lancelot"
+      D: "Bohort"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Book VI, which character is found amnesiac in Rome?"
+        answers:
+          A: "Perceval"
+          B: "Arthur"
+          C: "Lancelot"
+          D: "Bohort"
+    difficulty: HARD
+  - text: "Quel est le nom complet du chevalier dit « le Sanguinaire » ?"
+    answers:
+      A: "Caius Camillus"
+      B: "Bohort de Gaunes"
+      C: "Léodagan de Carmélide"
+      D: "Yvain de Carmélide"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the full name of the knight known as \"the Bloodthirsty\"?"
+        answers:
+          A: "Caius Camillus"
+          B: "Bohort de Gaunes"
+          C: "Léodagan de Carmélide"
+          D: "Yvain de Carmélide"
+    difficulty: EXPERT
+  - text: "Quel personnage est le mari de Séli et le père de Guenièvre ?"
+    answers:
+      A: "Loth d'Orcanie"
+      B: "Léodagan"
+      C: "Bohort"
+      D: "Karadoc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is Séli's husband and Guenièvre's father?"
+        answers:
+          A: "Loth d'Orcanie"
+          B: "Léodagan"
+          C: "Bohort"
+          D: "Karadoc"
+    difficulty: MEDIUM
+  - text: "Dans quel pays se déroule principalement l'action du Livre VI ?"
+    answers:
+      A: "Camelot"
+      B: "Gaules"
+      C: "Bretagne"
+      D: "Rome"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which country does the action of Book VI mainly take place?"
+        answers:
+          A: "Camelot"
+          B: "Gaul"
+          C: "Brittany"
+          D: "Rome"
+    difficulty: HARD
+  - text: "Quel personnage est le jumeau de Bohort ?"
+    answers:
+      A: "Léodagan"
+      B: "Gauvain"
+      C: "Yvain"
+      D: "Lyonnel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is Bohort's twin?"
+        answers:
+          A: "Léodagan"
+          B: "Gauvain"
+          C: "Yvain"
+          D: "Lyonnel"
+    difficulty: HARD
+  - text: "Quelle est la profession de Guenièvre avant son mariage avec Arthur ?"
+    answers:
+      A: "Reine de Carmélide"
+      B: "Princesse d'Orcanie"
+      C: "Fille du roi Loth"
+      D: "Dame de compagnie de Séli"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was Guenièvre's role before her marriage to Arthur?"
+        answers:
+          A: "Queen of Carmélide"
+          B: "Princess of Orcanie"
+          C: "Daughter of King Loth"
+          D: "Séli's lady-in-waiting"
+    difficulty: MEDIUM
+  - text: "Quel personnage meurt dans le Livre V lors de l'attaque du château ?"
+    answers:
+      A: "Loth"
+      B: "Yvain"
+      C: "Gauvain"
+      D: "Bohort"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character dies in Book V during the attack on the castle?"
+        answers:
+          A: "Loth"
+          B: "Yvain"
+          C: "Gauvain"
+          D: "Bohort"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épée que Lancelot retire du rocher dans le Livre V ?"
+    answers:
+      A: "Caliburn"
+      B: "Excalibur"
+      C: "Durandal"
+      D: "Joyeuse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the sword Lancelot pulls from the rock in Book V?"
+        answers:
+          A: "Caliburn"
+          B: "Excalibur"
+          C: "Durandal"
+          D: "Joyeuse"
+    difficulty: HARD
+  - text: "Quel personnage est le rédacteur des « Quêtes » du roi Arthur ?"
+    answers:
+      A: "Gauvain"
+      B: "Merlin"
+      C: "Père Blaise"
+      D: "Perceval"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is the writer of King Arthur's \"Quests\"?"
+        answers:
+          A: "Gauvain"
+          B: "Merlin"
+          C: "Père Blaise"
+          D: "Perceval"
+    difficulty: HARD
+  - text: "Dans quel lieu Perceval et Karadoc emménagent-ils dans le Livre IV ?"
+    answers:
+      A: "La Taverne"
+      B: "Une chaumière"
+      C: "Une grotte"
+      D: "Le château de Camelot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where do Perceval and Karadoc move into in Book IV?"
+        answers:
+          A: "The Tavern"
+          B: "A cottage"
+          C: "A cave"
+          D: "Camelot Castle"
+    difficulty: HARD
+  - text: "Quel personnage est amoureux de Guenièvre dans les premiers livres ?"
+    answers:
+      A: "Karadoc"
+      B: "Bohort"
+      C: "Perceval"
+      D: "Lancelot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is in love with Guenièvre in the early books?"
+        answers:
+          A: "Karadoc"
+          B: "Bohort"
+          C: "Perceval"
+          D: "Lancelot"
+    difficulty: EASY
+  - text: "Quel est le nom de l'auberge où Perceval et Karadoc passent leur temps ?"
+    answers:
+      A: "La Cervoise"
+      B: "Le Chaudron"
+      C: "Le Sanglier"
+      D: "La Taverne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the inn where Perceval and Karadoc spend their time?"
+        answers:
+          A: "The Cervoise"
+          B: "The Cauldron"
+          C: "The Boar"
+          D: "The Tavern"
+    difficulty: HARD
+  - text: "Quel personnage est le neveu d'Arthur ?"
+    answers:
+      A: "Yvain"
+      B: "Gauvain"
+      C: "Lionel"
+      D: "Bohort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is Arthur's nephew?"
+        answers:
+          A: "Yvain"
+          B: "Gauvain"
+          C: "Lionel"
+          D: "Bohort"
+    difficulty: HARD
+  - text: "Combien d'épisodes compte environ la série Kaamelott ?"
+    answers:
+      A: "458"
+      B: "350"
+      C: "600"
+      D: "250"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Approximately how many episodes does the series Kaamelott have?"
+        answers:
+          A: "458"
+          B: "350"
+          C: "600"
+          D: "250"
+    difficulty: MEDIUM
+  - text: "Quel personnage est le père de Bohort et de Lyonnel ?"
+    answers:
+      A: "Le duc d'Aquitaine"
+      B: "Le roi Ban"
+      C: "Le roi Léodagan"
+      D: "Le roi Loth"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is the father of Bohort and Lyonnel?"
+        answers:
+          A: "The Duke of Aquitaine"
+          B: "King Ban"
+          C: "King Léodagan"
+          D: "King Loth"
+    difficulty: HARD
+  - text: "Quelle est la particularité de la Dame du Lac dans la série ?"
+    answers:
+      A: "Elle vit dans une grotte"
+      B: "Elle est muette"
+      C: "Elle apparaît toujours dans un rayon de lumière"
+      D: "Elle est invisible"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the peculiarity of the Lady of the Lake in the series?"
+        answers:
+          A: "She lives in a cave"
+          B: "She is mute"
+          C: "She always appears in a beam of light"
+          D: "She is invisible"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de famille d'Arthur dans Kaamelott ?"
+    answers:
+      A: "De Bretagne"
+      B: "D'Artois"
+      C: "Pendragon"
+      D: "Du Lac"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Arthur's surname in Kaamelott?"
+        answers:
+          A: "De Bretagne"
+          B: "D'Artois"
+          C: "Pendragon"
+          D: "Du Lac"
+    difficulty: EXPERT
+  - text: "Quel personnage est le frère de Lancelot ?"
+    answers:
+      A: "Lyonnel"
+      B: "Gauvain"
+      C: "Yvain"
+      D: "Bohort"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is Lancelot's brother?"
+        answers:
+          A: "Lyonnel"
+          B: "Gauvain"
+          C: "Yvain"
+          D: "Bohort"
+    difficulty: EXPERT
+  - text: "Dans quel épisode du Livre I Perceval et Karadoc rencontrent-ils la Dame du Lac ?"
+    answers:
+      A: "Le Sacrifice"
+      B: "Le Duel"
+      C: "La Ronde"
+      D: "La Botte Secrète"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which episode of Book I do Perceval and Karadoc meet the Lady of the Lake?"
+        answers:
+          A: "Le Sacrifice"
+          B: "Le Duel"
+          C: "La Ronde"
+          D: "La Botte Secrète"
+    difficulty: EXPERT
+  - text: "Quel est le nom du tavernier qui apparaît régulièrement dans les premiers livres ?"
+    answers:
+      A: "Yvain"
+      B: "Guenièvre"
+      C: "Roparzh"
+      D: "Kadoc"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the tavern keeper who appears regularly in the early books?"
+        answers:
+          A: "Yvain"
+          B: "Guenièvre"
+          C: "Roparzh"
+          D: "Kadoc"
+    difficulty: HARD
+  - text: "Quelle est la particularité physique de Grüdü, le chef des mercenaires ?"
+    answers:
+      A: "Il est nain"
+      B: "Il est géant"
+      C: "Il est borgne"
+      D: "Il a une main en moins"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the physical peculiarity of Grüdü, the leader of the mercenaries?"
+        answers:
+          A: "He is a dwarf"
+          B: "He is a giant"
+          C: "He is one-eyed"
+          D: "He is missing a hand"
+    difficulty: HARD
+  - text: "Quel personnage est responsable de la cuisine à Kaamelott ?"
+    answers:
+      A: "Le Père Blaise"
+      B: "Guenièvre"
+      C: "Séli"
+      D: "Angharad"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is in charge of the kitchen at Kaamelott?"
+        answers:
+          A: "Le Père Blaise"
+          B: "Guenièvre"
+          C: "Séli"
+          D: "Angharad"
+    difficulty: HARD
+  - text: "Dans le Livre IV, quel personnage Arthur nomme-t-il « Duc de Bretagne » ?"
+    answers:
+      A: "Léodagan"
+      B: "Karadoc"
+      C: "Perceval"
+      D: "Bohort"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Book IV, which character does Arthur name \"Duke of Brittany\"?"
+        answers:
+          A: "Léodagan"
+          B: "Karadoc"
+          C: "Perceval"
+          D: "Bohort"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chevalier qui accompagne Arthur à Rome dans le Livre VI ?"
+    answers:
+      A: "Perceval"
+      B: "Bohort"
+      C: "Karadoc"
+      D: "Lancelot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the knight who accompanies Arthur to Rome in Book VI?"
+        answers:
+          A: "Perceval"
+          B: "Bohort"
+          C: "Karadoc"
+          D: "Lancelot"
+    difficulty: EXPERT
+  - text: "Combien de temps s'écoule entre la fin du Livre V et le début du Livre VI ?"
+    answers:
+      A: "Dix ans"
+      B: "Un an"
+      C: "Quelques mois"
+      D: "Vingt ans"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How much time passes between the end of Book V and the beginning of Book VI?"
+        answers:
+          A: "Ten years"
+          B: "One year"
+          C: "A few months"
+          D: "Twenty years"
+    difficulty: EXPERT
+  - text: "Quelle est la spécialité culinaire de Karadoc ?"
+    answers:
+      A: "Le civet de lapin"
+      B: "Le ragoût de sanglier"
+      C: "La tarte aux pommes"
+      D: "Le poulet rôti"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Karadoc's culinary specialty?"
+        answers:
+          A: "Rabbit stew"
+          B: "Boar stew"
+          C: "Apple pie"
+          D: "Roast chicken"
+    difficulty: MEDIUM
+  - text: "Dans le Livre III, quel personnage est fait prisonnier par les Romains ?"
+    answers:
+      A: "Perceval"
+      B: "Karadoc"
+      C: "Bohort"
+      D: "Lancelot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Book III, which character is taken prisoner by the Romans?"
+        answers:
+          A: "Perceval"
+          B: "Karadoc"
+          C: "Bohort"
+          D: "Lancelot"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la mère de Perceval ?"
+    answers:
+      A: "La reine Guenièvre"
+      B: "La reine Anne"
+      C: "La reine Séli"
+      D: "La reine Mevanwi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Perceval's mother?"
+        answers:
+          A: "Queen Guenièvre"
+          B: "Queen Anne"
+          C: "Queen Séli"
+          D: "Queen Mevanwi"
+    difficulty: EXPERT
+  - text: "Quel personnage est chargé de l'éducation du jeune Gauvain ?"
+    answers:
+      A: "Perceval"
+      B: "Karadoc"
+      C: "Bohort"
+      D: "Lancelot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is responsible for the education of young Gauvain?"
+        answers:
+          A: "Perceval"
+          B: "Karadoc"
+          C: "Bohort"
+          D: "Lancelot"
+    difficulty: HARD
+  - text: "Quelle est la fonction de Méléagant à la cour d'Arthur ?"
+    answers:
+      A: "Chef des armées"
+      B: "Conseiller"
+      C: "Intendant"
+      D: "Ambassadeur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Méléagant's role at Arthur's court?"
+        answers:
+          A: "Head of the armies"
+          B: "Advisor"
+          C: "Steward"
+          D: "Ambassador"
+    difficulty: EXPERT
+  - text: "Dans le Livre V, quel personnage trahit Arthur en s'alliant avec Lancelot ?"
+    answers:
+      A: "Perceval"
+      B: "Karadoc"
+      C: "Bohort"
+      D: "Guenièvre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Book V, which character betrays Arthur by allying with Lancelot?"
+        answers:
+          A: "Perceval"
+          B: "Karadoc"
+          C: "Bohort"
+          D: "Guenièvre"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Perceval ?"
+    answers:
+      A: "Yvain"
+      B: "Galaad"
+      C: "Lyonnel"
+      D: "Gauvain"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Perceval's brother?"
+        answers:
+          A: "Yvain"
+          B: "Galaad"
+          C: "Lyonnel"
+          D: "Gauvain"
+    difficulty: EXPERT
+  - text: "Quel personnage est le meilleur ami de Perceval ?"
+    answers:
+      A: "Karadoc"
+      B: "Bohort"
+      C: "Lancelot"
+      D: "Yvain"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is Perceval's best friend?"
+        answers:
+          A: "Karadoc"
+          B: "Bohort"
+          C: "Lancelot"
+          D: "Yvain"
+    difficulty: MEDIUM
+  - text: "Quelle est la particularité de la famille de Perceval ?"
+    answers:
+      A: "Ils sont tous paysans"
+      B: "Ils sont tous chevaliers"
+      C: "Ils sont tous pêcheurs"
+      D: "Ils sont tous marchands"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is special about Perceval's family?"
+        answers:
+          A: "They are all peasants"
+          B: "They are all knights"
+          C: "They are all fishermen"
+          D: "They are all merchants"
+    difficulty: HARD
+  - text: "Dans le Livre VI, quel personnage Arthur retrouve-t-il à Rome ?"
+    answers:
+      A: "Perceval"
+      B: "Karadoc"
+      C: "Lancelot"
+      D: "Guenièvre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Book VI, which character does Arthur find again in Rome?"
+        answers:
+          A: "Perceval"
+          B: "Karadoc"
+          C: "Lancelot"
+          D: "Guenièvre"
+    difficulty: HARD
+  - text: "Quel est le nom du fils de Lancelot et de la Dame du Lac ?"
+    answers:
+      A: "Galaad"
+      B: "Bohort"
+      C: "Yvain"
+      D: "Gauvain"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the son of Lancelot and the Lady of the Lake?"
+        answers:
+          A: "Galaad"
+          B: "Bohort"
+          C: "Yvain"
+          D: "Gauvain"
+    difficulty: EXPERT
+  - text: "Quel spectacle d'Astier sur les extraterrestres ?"
+    imageUrl: wikipedia/television/Alexandre_Astier_-_ExoConference.jpg
+    answers:
+      A: "« Que ma joie demeure »"
+      B: "« L'Exoconférence »"
+      C: "« Le Jour du froment »"
+      D: "« David et Madame Hansen »"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Astier show is about extraterrestrials?"
+        answers:
+          A: "“Que ma joie demeure”"
+          B: "“L'Exoconférence”"
+          C: "“Le Jour du froment”"
+          D: "“David et Madame Hansen”"
+    difficulty: EXPERT
+  - text: "Dans le Livre I, quel objet Perceval doit-il rapporter à Arthur comme preuve de sa quête ?"
+    answers:
+      A: "Un fer à repasser"
+      B: "Un morceau de la Table Ronde"
+      C: "Une dent de dragon"
+      D: "Une corne de brume"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Book I, which object must Perceval bring back to Arthur as proof of his quest?"
+        answers:
+          A: "An iron"
+          B: "A piece of the Round Table"
+          C: "A dragon's tooth"
+          D: "A foghorn"
+    difficulty: EXPERT

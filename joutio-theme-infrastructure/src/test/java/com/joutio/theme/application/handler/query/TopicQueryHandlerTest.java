@@ -1,0 +1,81 @@
+package com.joutio.theme.application.handler.query;
+
+import com.joutio.theme.domain.model.ImageReferenceCount;
+import com.joutio.theme.domain.model.Topic;
+import com.joutio.theme.domain.model.TopicCategory;
+import com.joutio.theme.domain.model.TopicFacetCount;
+import com.joutio.theme.domain.model.TopicPage;
+import com.joutio.theme.domain.port.out.ImageReferenceRepositoryPort;
+import com.joutio.theme.domain.port.out.TopicRepositoryPort;
+import com.joutio.theme.domain.query.TopicQuery;
+import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+class TopicQueryHandlerTest {
+
+    private final TopicRepositoryPort repository = mock(TopicRepositoryPort.class);
+    private final ImageReferenceRepositoryPort imageReferenceRepository = mock(ImageReferenceRepositoryPort.class);
+    private final TopicQueryHandler handler = new TopicQueryHandler(repository, imageReferenceRepository);
+
+    @Test
+    void facets_normalizes_text_and_passes_scope() {
+        when(repository.countByCategory("poke", List.of("t1")))
+                .thenReturn(List.of(new TopicFacetCount(TopicCategory.GAMES, 2)));
+
+        List<TopicFacetCount> facets = handler.handle(
+                new TopicQuery.TopicFacetsQuery("  Poké  ", List.of("t1")));
+
+        assertThat(facets).containsExactly(new TopicFacetCount(TopicCategory.GAMES, 2));
+        verify(repository).countByCategory("poke", List.of("t1"));
+    }
+
+    @Test
+    void facets_treats_blank_text_as_no_filter() {
+        when(repository.countByCategory(null, null)).thenReturn(List.of());
+
+        handler.handle(new TopicQuery.TopicFacetsQuery("   ", null));
+
+        verify(repository).countByCategory(null, null);
+    }
+
+    @Test
+    void topics_by_ids_delegates_to_repository() {
+        Topic topic = Topic.builder().topicId("t1").names(java.util.Map.of(com.joutio.microservice.core.domain.model.i18n.Language.FR, "Pokémon")).build();
+        when(repository.findAllByIds(List.of("t1"))).thenReturn(List.of(topic));
+
+        assertThat(handler.handle(new TopicQuery.GetTopicsByIdsQuery(List.of("t1"))))
+                .containsExactly(topic);
+    }
+
+    @Test
+    void topics_by_creator_delegates_to_repository() {
+        TopicPage page = TopicPage.builder()
+                .topics(List.of())
+                .page(0)
+                .size(20)
+                .totalElements(0)
+                .totalPages(0)
+                .build();
+        when(repository.findByCreatorId("u1", 0, 20)).thenReturn(page);
+
+        assertThat(handler.handle(new TopicQuery.GetTopicsByCreatorQuery("u1", 0, 20)))
+                .isSameAs(page);
+    }
+
+    @Test
+    void image_references_delegates_to_repository() {
+        List<String> urls = List.of("https://media.joutio.com/joutio-media/uploads/a.jpg");
+        List<ImageReferenceCount> counts = List.of(new ImageReferenceCount(urls.getFirst(), 3));
+        when(imageReferenceRepository.countByImageUrls(urls)).thenReturn(counts);
+
+        assertThat(handler.handle(new TopicQuery.CountImageReferencesQuery(urls)))
+                .containsExactlyElementsOf(counts);
+        verify(imageReferenceRepository).countByImageUrls(urls);
+    }
+}

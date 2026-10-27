@@ -1,0 +1,1626 @@
+topic:
+  id: topic-marques-et-slogans
+  names:
+    fr: "Marques & slogans"
+    en: "Brands & Slogans"
+  description: "Des slogans cultes aux grands fondateurs d'entreprises, en passant par le vocabulaire de l'économie : testez vos connaissances sur les marques et le monde du business."
+  category: BUSINESS
+  imageUrl: wikipedia/business/1_times_square_night_2013.jpg
+  titles:
+    fr:
+      FER: "Stagiaire en marketing"
+      BRONZE: "Slogan mémorisé"
+      ARGENT: "Logo reconnaissable"
+      OR: "Campagne décryptée"
+      PLATINE: "Stratégie de marque"
+      EMERAUDE: "Fondateur visionnaire"
+      DIAMANT: "Icône du business"
+    en:
+      FER: "Marketing Intern"
+      BRONZE: "Slogan Reciter"
+      ARGENT: "Logo Spotter"
+      OR: "Campaign Analyst"
+      PLATINE: "Brand Strategist"
+      EMERAUDE: "Visionary Founder"
+      DIAMANT: "Business Icon"
+questions:
+  - text: "Quel est le slogan historique de la marque de déodorant Axe ?"
+    answers:
+      A: "L'effet Axe"
+      B: "Le spray qui fait tourner les têtes"
+      C: "Le parfum de l'homme moderne"
+      D: "Axe, c'est tout un art"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the historic slogan of the deodorant brand Axe?"
+        answers:
+          A: "The Axe effect"
+          B: "The spray that turns heads"
+          C: "The scent of the modern man"
+          D: "Axe, it's a whole art"
+    difficulty: MEDIUM
+  - text: "Quelle entreprise a pour slogan « L'imagination à l'état pur » ?"
+    answers:
+      A: "Disney"
+      B: "Pixar"
+      C: "L'Oréal"
+      D: "Samsung"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which company has the slogan \"Pure imagination\"?"
+        answers:
+          A: "Disney"
+          B: "Pixar"
+          C: "L'Oréal"
+          D: "Samsung"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fondateur de la marque de chaussures de sport Adidas ?"
+    answers:
+      A: "Fritz Weber"
+      B: "Rudolf Dassler"
+      C: "Karl Adidas"
+      D: "Adolf Dassler"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the founder of the sports shoe brand Adidas?"
+        answers:
+          A: "Fritz Weber"
+          B: "Rudolf Dassler"
+          C: "Karl Adidas"
+          D: "Adolf Dassler"
+    difficulty: MEDIUM
+  - text: "Que signifie le sigle SA dans le nom d'une entreprise française ?"
+    answers:
+      A: "Société Avancée"
+      B: "Société d'Action"
+      C: "Société Anonyme"
+      D: "Syndicat Autonome"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the abbreviation SA mean in the name of a French company?"
+        answers:
+          A: "Société Avancée"
+          B: "Société d'Action"
+          C: "Société Anonyme"
+          D: "Syndicat Autonome"
+    difficulty: EASY
+  - text: "Quel est le slogan de la marque de bière Heineken ?"
+    answers:
+      A: "La bière qui aime les hommes"
+      B: "Heineken, l'apéro qui a du goût"
+      C: "Heineken, la bière qui ouvre les esprits"
+      D: "Heineken, la bière des hommes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the beer brand Heineken?"
+        answers:
+          A: "The beer that loves men"
+          B: "Heineken, the aperitif with taste"
+          C: "Heineken, the beer that opens minds"
+          D: "Heineken, the beer of men"
+    difficulty: HARD
+  - text: "Quelle marque de luxe italienne a pour fondateur Guccio Gucci ?"
+    answers:
+      A: "Prada"
+      B: "Versace"
+      C: "Gucci"
+      D: "Armani"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian luxury brand was founded by Guccio Gucci?"
+        answers:
+          A: "Prada"
+          B: "Versace"
+          C: "Gucci"
+          D: "Armani"
+    difficulty: EASY
+  - text: "Quel est le nom du fondateur de la marque de cosmétiques Nivea ?"
+    answers:
+      A: "Oskar Troplowitz"
+      B: "Paul Beiersdorf"
+      C: "Hans Schwarzkopf"
+      D: "Josef Müller"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the founder of the cosmetics brand Nivea?"
+        answers:
+          A: "Oskar Troplowitz"
+          B: "Paul Beiersdorf"
+          C: "Hans Schwarzkopf"
+          D: "Josef Müller"
+    difficulty: EXPERT
+  - text: "Quel groupe français est propriétaire de la marque de champagne Moët & Chandon ?"
+    answers:
+      A: "Pernod Ricard"
+      B: "LVMH"
+      C: "L'Oréal"
+      D: "Kering"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French group owns the champagne brand Moët & Chandon?"
+        answers:
+          A: "Pernod Ricard"
+          B: "LVMH"
+          C: "L'Oréal"
+          D: "Kering"
+    difficulty: HARD
+  - text: "Quelle est la date de création de la marque de voiture Tesla Motors ?"
+    answers:
+      A: "2003"
+      B: "2001"
+      C: "2005"
+      D: "2007"
+    correctAnswer: A
+    translations:
+      en:
+        text: "When was the car brand Tesla Motors founded?"
+        answers:
+          A: "2003"
+          B: "2001"
+          C: "2005"
+          D: "2007"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de lessive Dash ?"
+    answers:
+      A: "La propreté, c'est Dash"
+      B: "Dash, la propreté au quotidien"
+      C: "Dash, la lessive des mamans"
+      D: "La lessive qui lave plus blanc"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the slogan of the laundry detergent brand Dash?"
+        answers:
+          A: "Cleanliness is Dash"
+          B: "Dash, everyday cleanliness"
+          C: "Dash, the detergent of mothers"
+          D: "The detergent that washes whiter"
+    difficulty: EXPERT
+  - text: "Quel est le fondateur de la marque de vêtements Zara ?"
+    answers:
+      A: "Amancio Ortega"
+      B: "Isak Andic"
+      C: "Enrique Peña"
+      D: "Pablo Isla"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the founder of the clothing brand Zara?"
+        answers:
+          A: "Amancio Ortega"
+          B: "Isak Andic"
+          C: "Enrique Peña"
+          D: "Pablo Isla"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de café Carte Noire ?"
+    answers:
+      A: "Le café des hommes"
+      B: "Carte Noire, l'intensité d'un goût"
+      C: "Un café nommé désir"
+      D: "Le plaisir à l'état pur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the coffee brand Carte Noire?"
+        answers:
+          A: "The coffee of men"
+          B: "Carte Noire, the intensity of a taste"
+          C: "A coffee named desire"
+          D: "Pleasure in its purest form"
+    difficulty: HARD
+  - text: "Quelle entreprise a pour slogan « Parce que vous le valez bien » ?"
+    answers:
+      A: "Yves Rocher"
+      B: "Lancôme"
+      C: "Garnier"
+      D: "L'Oréal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which company has the slogan \"Because you're worth it\"?"
+        answers:
+          A: "Yves Rocher"
+          B: "Lancôme"
+          C: "Garnier"
+          D: "L'Oréal"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du fondateur de la marque de chaussures de sport Puma ?"
+    answers:
+      A: "Fritz Weber"
+      B: "Adolf Dassler"
+      C: "Karl Puma"
+      D: "Rudolf Dassler"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the founder of the sports shoe brand Puma?"
+        answers:
+          A: "Fritz Weber"
+          B: "Adolf Dassler"
+          C: "Karl Puma"
+          D: "Rudolf Dassler"
+    difficulty: EXPERT
+  - text: "Que signifie le sigle SARL ?"
+    answers:
+      A: "Société Anonyme à Responsabilité Limitée"
+      B: "Société à Responsabilité Limitée"
+      C: "Société Anonyme de Répartition Limitée"
+      D: "Société d'Action à Responsabilité Limitée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the abbreviation SARL mean?"
+        answers:
+          A: "Société Anonyme à Responsabilité Limitée"
+          B: "Société à Responsabilité Limitée"
+          C: "Société Anonyme de Répartition Limitée"
+          D: "Société d'Action à Responsabilité Limitée"
+    difficulty: EASY
+  - text: "Quel est le slogan de la marque de voiture Peugeot ?"
+    answers:
+      A: "Peugeot, bougeons ensemble"
+      B: "Peugeot, le futur se conduit"
+      C: "Peugeot, la route de l'avenir"
+      D: "Peugeot, l'excellence à la française"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the slogan of the car brand Peugeot?"
+        answers:
+          A: "Peugeot, let's move together"
+          B: "Peugeot, the future drives"
+          C: "Peugeot, the road to the future"
+          D: "Peugeot, French excellence"
+    difficulty: HARD
+  - text: "Quel est le nom du fondateur de la marque de cosmétiques Yves Rocher ?"
+    answers:
+      A: "Yves Rocher"
+      B: "François Dalle"
+      C: "Eugène Schueller"
+      D: "Jean-Paul Agon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the founder of the cosmetics brand Yves Rocher?"
+        answers:
+          A: "Yves Rocher"
+          B: "François Dalle"
+          C: "Eugène Schueller"
+          D: "Jean-Paul Agon"
+    difficulty: MEDIUM
+  - text: "Quel est le slogan de la marque de biscuits Lu ?"
+    answers:
+      A: "Lu, on aime raconter"
+      B: "Lu, le plaisir à l'état pur"
+      C: "Lu, l'ami des gourmands"
+      D: "Lu, la pause préférée des Français"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the slogan of the biscuit brand Lu?"
+        answers:
+          A: "Lu, we love to tell stories"
+          B: "Lu, pleasure in its purest form"
+          C: "Lu, the friend of food lovers"
+          D: "Lu, the favorite break of the French"
+    difficulty: HARD
+  - text: "Quel groupe français possède la marque de voiture Renault ?"
+    answers:
+      A: "Renault SA"
+      B: "Groupe Renault-Nissan"
+      C: "PSA"
+      D: "Fiat Chrysler"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French group owns the car brand Renault?"
+        answers:
+          A: "Renault SA"
+          B: "Renault-Nissan Group"
+          C: "PSA"
+          D: "Fiat Chrysler"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du fondateur de la marque de luxe Chanel ?"
+    answers:
+      A: "Coco Chanel"
+      B: "Christian Dior"
+      C: "Yves Saint Laurent"
+      D: "Pierre Cardin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the founder of the luxury brand Chanel?"
+        answers:
+          A: "Coco Chanel"
+          B: "Christian Dior"
+          C: "Yves Saint Laurent"
+          D: "Pierre Cardin"
+    difficulty: EASY
+  - text: "Quel est le slogan de la marque de montres suisses Rolex ?"
+    answers:
+      A: "Un chronomètre à chaque seconde de votre vie"
+      B: "L'éternité en un instant"
+      C: "Le temps est de votre côté"
+      D: "Le luxe à votre poignet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the Swiss watch brand Rolex?"
+        answers:
+          A: "A chronometer for every second of your life"
+          B: "Eternity in an instant"
+          C: "Time is on your side"
+          D: "Luxury on your wrist"
+    difficulty: HARD
+  - text: "Quelle marque de chaussures de sport utilise le slogan « ImpossiBeast » ?"
+    answers:
+      A: "Puma"
+      B: "Asics"
+      C: "Adidas"
+      D: "New Balance"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sports shoe brand uses the slogan \"ImpossiBeast\"?"
+        answers:
+          A: "Puma"
+          B: "Asics"
+          C: "Adidas"
+          D: "New Balance"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fondateur de la marque de cosmétiques Lush ?"
+    answers:
+      A: "Anita Roddick"
+      B: "Yves Rocher"
+      C: "Mark Constantine"
+      D: "Estée Lauder"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the founder of the cosmetics brand Lush?"
+        answers:
+          A: "Anita Roddick"
+          B: "Yves Rocher"
+          C: "Mark Constantine"
+          D: "Estée Lauder"
+    difficulty: EXPERT
+  - text: "Que signifie l'acronyme EURL dans le droit français ?"
+    answers:
+      A: "Entreprise universelle à revenus limités"
+      B: "Entreprise unique à responsabilité limitée"
+      C: "Établissement unifié à responsabilité légale"
+      D: "Entreprise unipersonnelle à responsabilité limitée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the acronym EURL mean in French law?"
+        answers:
+          A: "Universal limited income company"
+          B: "Unique limited liability company"
+          C: "Unified legal liability establishment"
+          D: "Single-person limited liability company"
+    difficulty: MEDIUM
+  - text: "En quelle année a été créée la marque de luxe française Chanel ?"
+    answers:
+      A: "1913"
+      B: "1909"
+      C: "1921"
+      D: "1935"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the French luxury brand Chanel created?"
+        answers:
+          A: "1913"
+          B: "1909"
+          C: "1921"
+          D: "1935"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de déodorant Axe ?"
+    answers:
+      A: "La force de la séduction"
+      B: "The Axe Effect"
+      C: "Le pouvoir de la séduction"
+      D: "L'invasion des irrésistibles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the slogan of the deodorant brand Axe?"
+        answers:
+          A: "The force of seduction"
+          B: "The Axe Effect"
+          C: "The power of seduction"
+          D: "The invasion of the irresistible"
+    difficulty: MEDIUM
+  - text: "Quel groupe français possède la marque de bagages Louis Vuitton ?"
+    answers:
+      A: "Kering"
+      B: "Hermès"
+      C: "LVMH"
+      D: "Richemont"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French group owns the luggage brand Louis Vuitton?"
+        answers:
+          A: "Kering"
+          B: "Hermès"
+          C: "LVMH"
+          D: "Richemont"
+    difficulty: MEDIUM
+  - text: "Quel est le pays d'origine de la marque de vêtements de sport Erima ?"
+    answers:
+      A: "Pays-Bas"
+      B: "Autriche"
+      C: "Suisse"
+      D: "Allemagne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the country of origin of the sportswear brand Erima?"
+        answers:
+          A: "Netherlands"
+          B: "Austria"
+          C: "Switzerland"
+          D: "Germany"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fondateur de l'entreprise japonaise Sony ?"
+    answers:
+      A: "Konosuke Matsushita"
+      B: "Satoshi Tajiri"
+      C: "Soichiro Honda"
+      D: "Akio Morita"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the founder of the Japanese company Sony?"
+        answers:
+          A: "Konosuke Matsushita"
+          B: "Satoshi Tajiri"
+          C: "Soichiro Honda"
+          D: "Akio Morita"
+    difficulty: HARD
+  - text: "Quelle marque de yaourts utilise le slogan « Et si on changeait tout ? » ?"
+    answers:
+      A: "Danone"
+      B: "Activia"
+      C: "Nestlé"
+      D: "Yoplait"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which yogurt brand uses the slogan \"What if we changed everything?\"?"
+        answers:
+          A: "Danone"
+          B: "Activia"
+          C: "Nestlé"
+          D: "Yoplait"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de soda Schweppes ?"
+    answers:
+      A: "L'original depuis 1783"
+      B: "L'effervescence à l'état pur"
+      C: "Le goût de l'original"
+      D: "L'eau qui pétille"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the slogan of the soda brand Schweppes?"
+        answers:
+          A: "The original since 1783"
+          B: "Effervescence in its purest form"
+          C: "The taste of the original"
+          D: "The water that sparkles"
+    difficulty: EXPERT
+  - text: "Quel est le nom de famille des fondateurs de la marque de chaussures de sport New Balance ?"
+    answers:
+      A: "Riley"
+      B: "Knight"
+      C: "Dassler"
+      D: "Bush"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the surname of the founders of the sports shoe brand New Balance?"
+        answers:
+          A: "Riley"
+          B: "Knight"
+          C: "Dassler"
+          D: "Bush"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de voiture Toyota ?"
+    answers:
+      A: "Drive your dreams"
+      B: "Shift the future"
+      C: "Let's Go Places"
+      D: "Move forward"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the car brand Toyota?"
+        answers:
+          A: "Drive your dreams"
+          B: "Shift the future"
+          C: "Let's Go Places"
+          D: "Move forward"
+    difficulty: HARD
+  - text: "Quelle est l'année de création de la marque de luxe italienne Prada ?"
+    answers:
+      A: "1911"
+      B: "1913"
+      C: "1921"
+      D: "1935"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Italian luxury brand Prada founded?"
+        answers:
+          A: "1911"
+          B: "1913"
+          C: "1921"
+          D: "1935"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fondateur du groupe de luxe suisse Richemont ?"
+    answers:
+      A: "Johann Rupert"
+      B: "François Pinault"
+      C: "Bernard Arnault"
+      D: "Axel Dumas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the founder of the Swiss luxury group Richemont?"
+        answers:
+          A: "Johann Rupert"
+          B: "François Pinault"
+          C: "Bernard Arnault"
+          D: "Axel Dumas"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de boisson énergisante Red Bull ?"
+    answers:
+      A: "Red Bull vous réveille"
+      B: "Red Bull donne des ailes"
+      C: "L'énergie à l'état pur"
+      D: "Stimulez votre corps"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the slogan of the energy drink brand Red Bull?"
+        answers:
+          A: "Red Bull wakes you up"
+          B: "Red Bull gives you wings"
+          C: "Energy in its purest form"
+          D: "Stimulate your body"
+    difficulty: MEDIUM
+  - text: "Quelle entreprise a pour slogan « L'innovation pour la vie » ?"
+    answers:
+      A: "Philips"
+      B: "Siemens"
+      C: "Bosch"
+      D: "Panasonic"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which company has the slogan \"Innovation for life\"?"
+        answers:
+          A: "Philips"
+          B: "Siemens"
+          C: "Bosch"
+          D: "Panasonic"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fondateur de la marque de chaussures de luxe italienne Ferragamo ?"
+    answers:
+      A: "Tod's Diego Della Valle"
+      B: "Mario Prada"
+      C: "Guccio Gucci"
+      D: "Salvatore Ferragamo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the founder of the Italian luxury shoe brand Ferragamo?"
+        answers:
+          A: "Tod's Diego Della Valle"
+          B: "Mario Prada"
+          C: "Guccio Gucci"
+          D: "Salvatore Ferragamo"
+    difficulty: EXPERT
+  - text: "Que signifie le sigle SAS en droit français ?"
+    answers:
+      A: "Société à responsabilité simplifiée"
+      B: "Société anonyme simplifiée"
+      C: "Société par actions simplifiée"
+      D: "Société d'actionnariat salarié"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the acronym SAS mean in French law?"
+        answers:
+          A: "Simplified limited liability company"
+          B: "Simplified public limited company"
+          C: "Simplified joint-stock company"
+          D: "Employee shareholder company"
+    difficulty: MEDIUM
+  - text: "Quel groupe agroalimentaire français possède la marque de biscuits Lu ?"
+    answers:
+      A: "Danone"
+      B: "Nestlé"
+      C: "Kraft Foods"
+      D: "Mondelez"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French food group owns the biscuit brand Lu?"
+        answers:
+          A: "Danone"
+          B: "Nestlé"
+          C: "Kraft Foods"
+          D: "Mondelez"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de piles Duracell ?"
+    answers:
+      A: "La puissance des piles"
+      B: "La pile qui ne s'arrête jamais"
+      C: "L'énergie infinie"
+      D: "L'énergie qui dure plus longtemps"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the slogan of the battery brand Duracell?"
+        answers:
+          A: "The power of batteries"
+          B: "The battery that never stops"
+          C: "Infinite energy"
+          D: "The energy that lasts longer"
+    difficulty: HARD
+  - text: "Quelle marque de voiture a pour slogan « L'aventure, c'est maintenant » ?"
+    answers:
+      A: "Jeep"
+      B: "Nissan"
+      C: "Land Rover"
+      D: "Suzuki"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which car brand has the slogan \"Adventure is now\"?"
+        answers:
+          A: "Jeep"
+          B: "Nissan"
+          C: "Land Rover"
+          D: "Suzuki"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de céréales Kellogg's ?"
+    answers:
+      A: "Le meilleur du matin"
+      B: "Le goût de la victoire"
+      C: "Petit déjeuner de champions"
+      D: "C'est fort en goût"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the cereal brand Kellogg's?"
+        answers:
+          A: "The best of the morning"
+          B: "The taste of victory"
+          C: "Breakfast of champions"
+          D: "It's big on taste"
+    difficulty: EXPERT
+  - text: "Qui a fondé la marque de vêtements de sport Nike ?"
+    answers:
+      A: "Michael Jordan"
+      B: "Adolf Dassler"
+      C: "Rudolf Dassler"
+      D: "Phil Knight et Bill Bowerman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who founded the sportswear brand Nike?"
+        answers:
+          A: "Michael Jordan"
+          B: "Adolf Dassler"
+          C: "Rudolf Dassler"
+          D: "Phil Knight and Bill Bowerman"
+    difficulty: HARD
+  - text: "En quelle année a été fondée la marque américaine Nike ?"
+    answers:
+      A: "1964"
+      B: "1968"
+      C: "1972"
+      D: "1980"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the American brand Nike founded?"
+        answers:
+          A: "1964"
+          B: "1968"
+          C: "1972"
+          D: "1980"
+    difficulty: HARD
+  - text: "Que signifie le sigle EURL ?"
+    answers:
+      A: "Entreprise Unipersonnelle à Responsabilité Limitée"
+      B: "Entreprise Unie à Responsabilité Limitée"
+      C: "Entreprise Universelle à Responsabilité Limitée"
+      D: "Entreprise Unique à Responsabilité Limitée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the acronym EURL stand for?"
+        answers:
+          A: "Single-Member Limited Liability Company"
+          B: "United Limited Liability Company"
+          C: "Universal Limited Liability Company"
+          D: "Unique Limited Liability Company"
+    difficulty: EASY
+  - text: "Quel est le slogan de la marque de lessive Omo ?"
+    answers:
+      A: "La propreté qui se voit"
+      B: "Le propre est plus propre"
+      C: "Laver plus blanc"
+      D: "Plus blanc que blanc"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the slogan of the laundry detergent brand Omo?"
+        answers:
+          A: "Cleanliness you can see"
+          B: "Clean is cleaner"
+          C: "Washes whiter"
+          D: "Whiter than white"
+    difficulty: EXPERT
+  - text: "Qui a fondé la marque de cosmétiques L'Oréal ?"
+    answers:
+      A: "Liliane Bettencourt"
+      B: "Eugène Schueller"
+      C: "François Dalle"
+      D: "Jean-Paul Agon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the cosmetics brand L'Oréal?"
+        answers:
+          A: "Liliane Bettencourt"
+          B: "Eugène Schueller"
+          C: "François Dalle"
+          D: "Jean-Paul Agon"
+    difficulty: MEDIUM
+  - text: "En quelle année a été créée la marque de luxe italienne Gucci ?"
+    answers:
+      A: "1921"
+      B: "1913"
+      C: "1925"
+      D: "1930"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Italian luxury brand Gucci created?"
+        answers:
+          A: "1921"
+          B: "1913"
+          C: "1925"
+          D: "1930"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de voiture Volkswagen ?"
+    answers:
+      A: "L'automobile, c'est la vie"
+      B: "Roulez en sécurité"
+      C: "La voiture de l'avenir"
+      D: "Das Auto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the slogan of the car brand Volkswagen?"
+        answers:
+          A: "The automobile is life"
+          B: "Drive safely"
+          C: "The car of the future"
+          D: "Das Auto"
+    difficulty: HARD
+  - text: "Que signifie le sigle SNC en droit des sociétés français ?"
+    answers:
+      A: "Société en Nombre Collectif"
+      B: "Société Nationale Collective"
+      C: "Société Nouvelle de Commerce"
+      D: "Société en Nom Collectif"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the acronym SNC stand for in French company law?"
+        answers:
+          A: "Collective Number Company"
+          B: "National Collective Company"
+          C: "New Commerce Company"
+          D: "General Partnership"
+    difficulty: EASY
+  - text: "Quel groupe français est propriétaire de la marque de cosmétiques Yves Rocher ?"
+    answers:
+      A: "L'Oréal"
+      B: "LVMH"
+      C: "Groupe Rocher"
+      D: "Coty"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French group owns the cosmetics brand Yves Rocher?"
+        answers:
+          A: "L'Oréal"
+          B: "LVMH"
+          C: "Groupe Rocher"
+          D: "Coty"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de papier toilette Lotus ?"
+    answers:
+      A: "Un confort absolu"
+      B: "Doux comme une plume"
+      C: "L'essentiel pour votre confort"
+      D: "Le papier qui vous veut du bien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the slogan of the toilet paper brand Lotus?"
+        answers:
+          A: "Absolute comfort"
+          B: "Soft as a feather"
+          C: "The essential for your comfort"
+          D: "The paper that wants the best for you"
+    difficulty: EXPERT
+  - text: "Qui a fondé la marque de chaussures de sport Asics ?"
+    answers:
+      A: "Kihachiro Onitsuka"
+      B: "Phil Knight"
+      C: "Adi Dassler"
+      D: "Bill Bowerman"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who founded the sports shoe brand Asics?"
+        answers:
+          A: "Kihachiro Onitsuka"
+          B: "Phil Knight"
+          C: "Adi Dassler"
+          D: "Bill Bowerman"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de montres Omega ?"
+    answers:
+      A: "L'élégance du temps"
+      B: "Le temps est précieux"
+      C: "Maître du temps"
+      D: "Signé Omega"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the slogan of the watch brand Omega?"
+        answers:
+          A: "The elegance of time"
+          B: "Time is precious"
+          C: "Master of time"
+          D: "Signed Omega"
+    difficulty: HARD
+  - text: "En quelle année a été fondée la marque de luxe française Cartier ?"
+    answers:
+      A: "1850"
+      B: "1847"
+      C: "1860"
+      D: "1839"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the French luxury brand Cartier founded?"
+        answers:
+          A: "1850"
+          B: "1847"
+          C: "1860"
+          D: "1839"
+    difficulty: MEDIUM
+  - text: "Qui a fondé la marque de cosmétiques américaine Estée Lauder ?"
+    answers:
+      A: "Estée Lauder"
+      B: "Helena Rubinstein"
+      C: "Elizabeth Arden"
+      D: "Coco Chanel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who founded the American cosmetics brand Estée Lauder?"
+        answers:
+          A: "Estée Lauder"
+          B: "Helena Rubinstein"
+          C: "Elizabeth Arden"
+          D: "Coco Chanel"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de boisson Oasis ?"
+    answers:
+      A: "La soif de vivre"
+      B: "Oasis, c'est bon la vie"
+      C: "Le goût de l'évasion"
+      D: "Choisissez le goût"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the slogan of the beverage brand Oasis?"
+        answers:
+          A: "The thirst for life"
+          B: "Oasis, life is good"
+          C: "The taste of escape"
+          D: "Choose the flavor"
+    difficulty: HARD
+  - text: "Que signifie le sigle SASU en droit français ?"
+    answers:
+      A: "Société par Actions et Statuts Uniques"
+      B: "Société Anonyme à Statut Unique"
+      C: "Société par Actions Simplifiée Unipersonnelle"
+      D: "Société d'Action Simple et Unique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the acronym SASU stand for in French law?"
+        answers:
+          A: "Company with Shares and Single Articles"
+          B: "Single-Status Public Limited Company"
+          C: "Single-Member Simplified Joint-Stock Company"
+          D: "Simple and Unique Action Company"
+    difficulty: MEDIUM
+  - text: "Quel est le slogan de la marque de déodorant Rexona ?"
+    answers:
+      A: "La fraîcheur qui dure"
+      B: "Ne vous arrêtez jamais"
+      C: "Pour une confiance sans limite"
+      D: "Restez frais toute la journée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the slogan of the deodorant brand Rexona?"
+        answers:
+          A: "Freshness that lasts"
+          B: "Never stop"
+          C: "For limitless confidence"
+          D: "Stay fresh all day long"
+    difficulty: EXPERT
+  - text: "Quel slogan est associé à la marque de whisky Johnnie Walker ?"
+    answers:
+      A: "Keep Walking"
+      B: "Just Do It"
+      C: "Think Different"
+      D: "Because I'm Worth It"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which slogan is associated with the whisky brand Johnnie Walker?"
+        answers:
+          A: "Keep Walking"
+          B: "Just Do It"
+          C: "Think Different"
+          D: "Because I'm Worth It"
+    difficulty: HARD
+  - text: "Quelle entreprise utilise le slogan « Parce que vous le valez bien » ?"
+    answers:
+      A: "Yves Saint Laurent"
+      B: "Garnier"
+      C: "Nivea"
+      D: "L'Oréal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which company uses the slogan \"Because you're worth it\"?"
+        answers:
+          A: "Yves Saint Laurent"
+          B: "Garnier"
+          C: "Nivea"
+          D: "L'Oréal"
+    difficulty: EASY
+  - text: "Quel est le slogan de la marque de voiture Audi ?"
+    answers:
+      A: "La route est à nous"
+      B: "Le plaisir de conduire"
+      C: "L'avance par la technologie"
+      D: "L'avenir est à nous"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the car brand Audi?"
+        answers:
+          A: "The road is ours"
+          B: "The joy of driving"
+          C: "Advancement through technology"
+          D: "The future is ours"
+    difficulty: MEDIUM
+  - text: "Quelle marque de bière utilise le slogan « La bière des connaisseurs » ?"
+    answers:
+      A: "Heineken"
+      B: "Stella Artois"
+      C: "Leffe"
+      D: "Kronenbourg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which beer brand uses the slogan \"The beer of connoisseurs\"?"
+        answers:
+          A: "Heineken"
+          B: "Stella Artois"
+          C: "Leffe"
+          D: "Kronenbourg"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de chocolat Kinder ?"
+    answers:
+      A: "Le goût de l'enfance"
+      B: "Une pause douceur"
+      C: "Le plaisir à l'état pur"
+      D: "Le chocolat des grands"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the slogan of the chocolate brand Kinder?"
+        answers:
+          A: "The taste of childhood"
+          B: "A sweet break"
+          C: "Pure pleasure"
+          D: "Chocolate for grown-ups"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de lessive Persil ?"
+    answers:
+      A: "La propreté au quotidien"
+      B: "La lessive des experts"
+      C: "Le propre parfait"
+      D: "Le blanc éclatant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the laundry detergent brand Persil?"
+        answers:
+          A: "Everyday cleanliness"
+          B: "The experts' detergent"
+          C: "Perfectly clean"
+          D: "Dazzling white"
+    difficulty: HARD
+  - text: "Quelle entreprise a pour slogan « La passion du goût » ?"
+    answers:
+      A: "McCain"
+      B: "Danone"
+      C: "Nestlé"
+      D: "Bonduelle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which company has the slogan \"The passion for taste\"?"
+        answers:
+          A: "McCain"
+          B: "Danone"
+          C: "Nestlé"
+          D: "Bonduelle"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de voiture Renault ?"
+    answers:
+      A: "Renault, le futur en marche"
+      B: "Renault, l'aventure continue"
+      C: "Renault, la voiture à vivre"
+      D: "Renault, créateur d'automobiles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the slogan of the car brand Renault?"
+        answers:
+          A: "Renault, the future in motion"
+          B: "Renault, the adventure continues"
+          C: "Renault, the car to live with"
+          D: "Renault, creator of automobiles"
+    difficulty: HARD
+  - text: "Quelle marque de déodorant utilise le slogan « Ne vous arrêtez jamais » ?"
+    answers:
+      A: "Axe"
+      B: "Narta"
+      C: "Dove"
+      D: "Rexona"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which deodorant brand uses the slogan \"Never stop\"?"
+        answers:
+          A: "Axe"
+          B: "Narta"
+          C: "Dove"
+          D: "Rexona"
+    difficulty: EXPERT
+  - text: "Quel groupe japonais possède la marque de cosmétiques Shiseido ?"
+    answers:
+      A: "Kao"
+      B: "Estée Lauder"
+      C: "L'Oréal"
+      D: "Shiseido Group"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese group owns the cosmetics brand Shiseido?"
+        answers:
+          A: "Kao"
+          B: "Estée Lauder"
+          C: "L'Oréal"
+          D: "Shiseido Group"
+    difficulty: HARD
+  - text: "En quelle année a été fondée la marque de luxe italienne Versace ?"
+    answers:
+      A: "1998"
+      B: "1968"
+      C: "1988"
+      D: "1978"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Italian luxury brand Versace founded?"
+        answers:
+          A: "1998"
+          B: "1968"
+          C: "1988"
+          D: "1978"
+    difficulty: EXPERT
+  - text: "Qui a fondé la marque de chaussures de sport Adidas ?"
+    answers:
+      A: "Phil Knight"
+      B: "Rudolf Dassler"
+      C: "Adolf Dassler"
+      D: "Bill Bowerman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the sports shoe brand Adidas?"
+        answers:
+          A: "Phil Knight"
+          B: "Rudolf Dassler"
+          C: "Adolf Dassler"
+          D: "Bill Bowerman"
+    difficulty: MEDIUM
+  - text: "Quel est le slogan de la marque de pneus Michelin ?"
+    answers:
+      A: "La route est à nous"
+      B: "Une meilleure façon d'avancer"
+      C: "Le pneu de référence"
+      D: "L'innovation pour la vie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the slogan of the tire brand Michelin?"
+        answers:
+          A: "The road is ours"
+          B: "A better way forward"
+          C: "The reference tire"
+          D: "Innovation for life"
+    difficulty: MEDIUM
+  - text: "Quelle marque de boisson gazeuse utilise le slogan « L'original » ?"
+    answers:
+      A: "Coca-Cola"
+      B: "Schweppes"
+      C: "Pepsi"
+      D: "Orangina"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which soft drink brand uses the slogan \"The original\"?"
+        answers:
+          A: "Coca-Cola"
+          B: "Schweppes"
+          C: "Pepsi"
+          D: "Orangina"
+    difficulty: HARD
+  - text: "Quelle entreprise a pour slogan « La vie est faite de choix » ?"
+    answers:
+      A: "Reebok"
+      B: "Adidas"
+      C: "Puma"
+      D: "Nike"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which company has the slogan \"Life is made of choices\"?"
+        answers:
+          A: "Reebok"
+          B: "Adidas"
+          C: "Puma"
+          D: "Nike"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de café Lavazza ?"
+    answers:
+      A: "L'Italie dans une tasse"
+      B: "Le goût de l'Italie"
+      C: "L'expresso parfait"
+      D: "La pause italienne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the coffee brand Lavazza?"
+        answers:
+          A: "Italy in a cup"
+          B: "The taste of Italy"
+          C: "The perfect espresso"
+          D: "The Italian break"
+    difficulty: EXPERT
+  - text: "Qui a fondé la marque de vêtements de luxe Gucci ?"
+    answers:
+      A: "Mario Gucci"
+      B: "Giorgio Gucci"
+      C: "Aldo Gucci"
+      D: "Guccio Gucci"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who founded the luxury clothing brand Gucci?"
+        answers:
+          A: "Mario Gucci"
+          B: "Giorgio Gucci"
+          C: "Aldo Gucci"
+          D: "Guccio Gucci"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de voiture BMW ?"
+    answers:
+      A: "La route est à nous"
+      B: "L'avenir est à nous"
+      C: "Le plaisir de conduire"
+      D: "L'avance par la technologie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the car brand BMW?"
+        answers:
+          A: "The road is ours"
+          B: "The future is ours"
+          C: "The joy of driving"
+          D: "Advancement through technology"
+    difficulty: MEDIUM
+  - text: "Quelle marque de yaourts utilise le slogan « Le plaisir à l'état pur » ?"
+    answers:
+      A: "Yoplait"
+      B: "La Laitière"
+      C: "Activia"
+      D: "Danone"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which yogurt brand uses the slogan \"Pure pleasure\"?"
+        answers:
+          A: "Yoplait"
+          B: "La Laitière"
+          C: "Activia"
+          D: "Danone"
+    difficulty: EXPERT
+  - text: "Quel groupe français possède la marque de chaussures de sport Le Coq Sportif ?"
+    answers:
+      A: "Vivarte"
+      B: "Airesis"
+      C: "Decathlon"
+      D: "Lacoste"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French group owns the sports shoe brand Le Coq Sportif?"
+        answers:
+          A: "Vivarte"
+          B: "Airesis"
+          C: "Decathlon"
+          D: "Lacoste"
+    difficulty: HARD
+  - text: "En quelle année a été fondée la marque italienne de luxe Prada ?"
+    answers:
+      A: "1913"
+      B: "1923"
+      C: "1903"
+      D: "1933"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Italian luxury brand Prada founded?"
+        answers:
+          A: "1913"
+          B: "1923"
+          C: "1903"
+          D: "1933"
+    difficulty: EXPERT
+  - text: "Quel est le slogan de la marque de rasoirs Gillette ?"
+    answers:
+      A: "Le rasage de près"
+      B: "La perfection au masculin"
+      C: "Le meilleur d'un homme"
+      D: "Pour homme, pour tous"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the slogan of the razor brand Gillette?"
+        answers:
+          A: "The close shave"
+          B: "Perfection for men"
+          C: "The best a man can get"
+          D: "For men, for all"
+    difficulty: MEDIUM
+  - text: "Qui a fondé la marque de cosmétiques Nivea ?"
+    answers:
+      A: "Hans Schwarzkopf"
+      B: "Paul Beiersdorf"
+      C: "Oskar Troplowitz"
+      D: "Friedrich Karl Henkel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the cosmetics brand Nivea?"
+        answers:
+          A: "Hans Schwarzkopf"
+          B: "Paul Beiersdorf"
+          C: "Oskar Troplowitz"
+          D: "Friedrich Karl Henkel"
+    difficulty: HARD
+  - text: "Que signifie le sigle SA en droit des sociétés français ?"
+    answers:
+      A: "Société anonyme"
+      B: "Société par actions"
+      C: "Société agricole"
+      D: "Société artisanale"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the acronym SA mean in French company law?"
+        answers:
+          A: "Société anonyme"
+          B: "Société par actions"
+          C: "Société agricole"
+          D: "Société artisanale"
+    difficulty: EASY
+  - text: "Quel est le slogan de la marque de détergent Ajax ?"
+    answers:
+      A: "Plus fort que la saleté"
+      B: "Le pouvoir du propre"
+      C: "Nettoie plus blanc"
+      D: "Pour un intérieur impeccable"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the slogan of the detergent brand Ajax?"
+        answers:
+          A: "Stronger than dirt"
+          B: "The power of clean"
+          C: "Cleans whiter"
+          D: "For a spotless home"
+    difficulty: EXPERT
+  - text: "Quelle marque de vêtements utilise le slogan « L'élégance est une attitude » ?"
+    answers:
+      A: "Hugo Boss"
+      B: "Ralph Lauren"
+      C: "Tommy Hilfiger"
+      D: "Lacoste"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which clothing brand uses the slogan \"Elegance is an attitude\"?"
+        answers:
+          A: "Hugo Boss"
+          B: "Ralph Lauren"
+          C: "Tommy Hilfiger"
+          D: "Lacoste"
+    difficulty: EXPERT
+  - text: "En quelle année a été fondée la marque de luxe française Chanel ?"
+    answers:
+      A: "1905"
+      B: "1910"
+      C: "1915"
+      D: "1920"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the French luxury brand Chanel founded?"
+        answers:
+          A: "1905"
+          B: "1910"
+          C: "1915"
+          D: "1920"
+    difficulty: MEDIUM
+  - text: "Qui a fondé la marque de chaussures de sport New Balance ?"
+    answers:
+      A: "Adolf Dassler"
+      B: "William J. Riley"
+      C: "Paul Fireman"
+      D: "Phil Knight"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the sports shoe brand New Balance?"
+        answers:
+          A: "Adolf Dassler"
+          B: "William J. Riley"
+          C: "Paul Fireman"
+          D: "Phil Knight"
+    difficulty: EXPERT
+  - text: "Quel groupe détient la marque de cosmétiques The Body Shop ?"
+    answers:
+      A: "Natura &Co"
+      B: "L'Oréal"
+      C: "Estée Lauder"
+      D: "Coty"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which group owns the cosmetics brand The Body Shop?"
+        answers:
+          A: "Natura &Co"
+          B: "L'Oréal"
+          C: "Estée Lauder"
+          D: "Coty"
+    difficulty: HARD
+  - text: "Que signifie le sigle EIRL en droit français ?"
+    answers:
+      A: "Établissement individuel à responsabilité limitée"
+      B: "Entreprise individuelle à responsabilité légale"
+      C: "Entrepreneur individuel à responsabilité limitée"
+      D: "Entreprise indépendante à risque limité"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the acronym EIRL mean in French law?"
+        answers:
+          A: "Établissement individuel à responsabilité limitée"
+          B: "Entreprise individuelle à responsabilité légale"
+          C: "Entrepreneur individuel à responsabilité limitée"
+          D: "Entreprise indépendante à risque limité"
+    difficulty: HARD
+  - text: "Qui a fondé la marque de cosmétiques Clarins ?"
+    answers:
+      A: "Jean-Paul Agon"
+      B: "Yves Rocher"
+      C: "Jacques Courtin-Clarins"
+      D: "Françoise Bettencourt Meyers"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the cosmetics brand Clarins?"
+        answers:
+          A: "Jean-Paul Agon"
+          B: "Yves Rocher"
+          C: "Jacques Courtin-Clarins"
+          D: "Françoise Bettencourt Meyers"
+    difficulty: HARD
+  - text: "En quelle année a été fondée la marque de luxe italienne Armani ?"
+    answers:
+      A: "1970"
+      B: "1980"
+      C: "1975"
+      D: "1985"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the Italian luxury brand Armani founded?"
+        answers:
+          A: "1970"
+          B: "1980"
+          C: "1975"
+          D: "1985"
+    difficulty: EXPERT
+  - text: "Qui a fondé la marque de chaussures de sport Puma ?"
+    answers:
+      A: "Adolf Dassler"
+      B: "Rudolf Dassler"
+      C: "Horst Dassler"
+      D: "Armin Dassler"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the sports shoe brand Puma?"
+        answers:
+          A: "Adolf Dassler"
+          B: "Rudolf Dassler"
+          C: "Horst Dassler"
+          D: "Armin Dassler"
+    difficulty: HARD
+  - text: "Quel est le slogan de la marque de boisson Coca-Cola ?"
+    answers:
+      A: "Taste the Feeling"
+      B: "Open Happiness"
+      C: "Share a Coke"
+      D: "Always Coca-Cola"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the slogan of the beverage brand Coca-Cola?"
+        answers:
+          A: "Taste the Feeling"
+          B: "Open Happiness"
+          C: "Share a Coke"
+          D: "Always Coca-Cola"
+    difficulty: EASY
+  - text: "Quelle entreprise a pour slogan « L'imagination au pouvoir » ?"
+    answers:
+      A: "Disney"
+      B: "Apple"
+      C: "Google"
+      D: "Sony"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which company has the slogan \"Imagination at work\"?"
+        answers:
+          A: "Disney"
+          B: "Apple"
+          C: "Google"
+          D: "Sony"
+    difficulty: EXPERT
+  - text: "Qui a fondé la marque de cosmétiques Yves Saint Laurent Beauté ?"
+    answers:
+      A: "Yves Saint Laurent"
+      B: "Pierre Bergé"
+      C: "François Pinault"
+      D: "Bernard Arnault"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who founded the cosmetics brand Yves Saint Laurent Beauté?"
+        answers:
+          A: "Yves Saint Laurent"
+          B: "Pierre Bergé"
+          C: "François Pinault"
+          D: "Bernard Arnault"
+    difficulty: EXPERT
+  - text: "Quelle entreprise a pour slogan « Because I'm worth it » ?"
+    answers:
+      A: "Lancôme"
+      B: "L'Oréal"
+      C: "Garnier"
+      D: "Nivea"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which company has the slogan \"Because I'm worth it\"?"
+        answers:
+          A: "Lancôme"
+          B: "L'Oréal"
+          C: "Garnier"
+          D: "Nivea"
+    difficulty: MEDIUM
+  - text: "Quel groupe possède la marque de luxe Gucci ?"
+    answers:
+      A: "LVMH"
+      B: "Kering"
+      C: "Richemont"
+      D: "Prada Group"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which group owns the luxury brand Gucci?"
+        answers:
+          A: "LVMH"
+          B: "Kering"
+          C: "Richemont"
+          D: "Prada Group"
+    difficulty: HARD
+  - text: "En quelle année a été fondée la marque de luxe italienne Gucci ?"
+    answers:
+      A: "1913"
+      B: "1921"
+      C: "1932"
+      D: "1945"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Italian luxury brand Gucci founded?"
+        answers:
+          A: "1913"
+          B: "1921"
+          C: "1932"
+          D: "1945"
+    difficulty: EXPERT
+  - text: "Quelle marque de boisson énergisante utilise le slogan « Red Bull donne des ailes » ?"
+    answers:
+      A: "Monster"
+      B: "Red Bull"
+      C: "Burn"
+      D: "Rockstar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which energy drink brand uses the slogan \"Red Bull gives you wings\"?"
+        answers:
+          A: "Monster"
+          B: "Red Bull"
+          C: "Burn"
+          D: "Rockstar"
+    difficulty: EASY

@@ -1,0 +1,86 @@
+package com.joutio.theme.application.handler.query;
+
+import com.joutio.microservice.core.infrastructure.in.api.response.SearchResponse;
+import com.joutio.theme.domain.exception.TopicProblems;
+import com.joutio.theme.domain.model.ImageReferenceCount;
+import com.joutio.theme.domain.model.Topic;
+import com.joutio.theme.domain.model.TopicFacetCount;
+import com.joutio.theme.domain.model.TopicPage;
+import com.joutio.theme.domain.model.TopicSort;
+import com.joutio.theme.domain.port.out.ImageReferenceRepositoryPort;
+import com.joutio.theme.domain.port.out.TopicRepositoryPort;
+import com.joutio.theme.domain.query.TopicQuery;
+import com.joutio.theme.domain.util.SearchText;
+import org.axonframework.queryhandling.QueryHandler;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+
+@Component
+public class TopicQueryHandler {
+
+    private final TopicRepositoryPort topicRepositoryPort;
+    private final ImageReferenceRepositoryPort imageReferenceRepositoryPort;
+
+    public TopicQueryHandler(TopicRepositoryPort topicRepositoryPort,
+                             ImageReferenceRepositoryPort imageReferenceRepositoryPort) {
+        this.topicRepositoryPort = topicRepositoryPort;
+        this.imageReferenceRepositoryPort = imageReferenceRepositoryPort;
+    }
+
+    @QueryHandler
+    public SearchResponse<Topic> handle(TopicQuery.TopicSearchQuery query) {
+        return topicRepositoryPort.findAll(query.request());
+    }
+
+    @QueryHandler
+    public Topic handle(TopicQuery.GetTopicByIdQuery query) {
+        return topicRepositoryPort.findById(query.topicId())
+                .orElseThrow(() -> new TopicProblems.TopicNotFoundProblem(query.topicId()));
+    }
+
+    @QueryHandler
+    public boolean handle(TopicQuery.TopicExistsByIdQuery query) {
+        return topicRepositoryPort.existsById(query.topicId());
+    }
+
+    @QueryHandler
+    public List<TopicFacetCount> handle(TopicQuery.TopicFacetsQuery query) {
+        String normalizedName = normalize(query.nameQuery());
+        return topicRepositoryPort.countByCategory(normalizedName, query.topicIds());
+    }
+
+    @QueryHandler
+    public TopicPage handle(TopicQuery.GetTopicPageQuery query) {
+        return topicRepositoryPort.findPage(
+                normalize(query.nameQuery()),
+                query.category(),
+                query.sort() == null ? TopicSort.POPULAR : query.sort(),
+                query.page(),
+                query.size());
+    }
+
+    @QueryHandler
+    public List<Topic> handle(TopicQuery.GetTopicsByIdsQuery query) {
+        return topicRepositoryPort.findAllByIds(query.topicIds());
+    }
+
+    @QueryHandler
+    public List<Topic> handle(TopicQuery.GetAdminTopicOptionsQuery query) {
+        return topicRepositoryPort.findAllForAdmin();
+    }
+
+    @QueryHandler
+    public TopicPage handle(TopicQuery.GetTopicsByCreatorQuery query) {
+        return topicRepositoryPort.findByCreatorId(query.creatorId(), query.page(), query.size());
+    }
+
+    @QueryHandler
+    public List<ImageReferenceCount> handle(TopicQuery.CountImageReferencesQuery query) {
+        return imageReferenceRepositoryPort.countByImageUrls(query.imageUrls());
+    }
+
+    private static String normalize(String nameQuery) {
+        return nameQuery == null || nameQuery.isBlank() ? null : SearchText.normalize(nameQuery);
+    }
+}

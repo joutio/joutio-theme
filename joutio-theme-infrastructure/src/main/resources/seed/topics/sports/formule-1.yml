@@ -1,0 +1,1631 @@
+topic:
+  id: topic-formule-1
+  names:
+    fr: "Formule 1"
+    en: "Formula 1"
+  description: "Plongez dans la légende de la Formule 1 : pilotes mythiques comme Fangio, Senna, Prost, Schumacher et Hamilton, écuries de légende telles que Ferrari, McLaren, Williams, Lotus et Mercedes, circuits cultes comme Monaco, Monza, Spa-Francorchamps et Silverstone. Règles, innovations techniques et titres historiques : testez vos connaissances sur la plus prestigieuse catégorie du sport automobile."
+  category: SPORTS
+  titles:
+    fr:
+      FER: "Pilote de karting"
+      BRONZE: "Rookie en F3"
+      ARGENT: "Pilote de Formule 2"
+      OR: "Pilote de réserve"
+      PLATINE: "Pilote titulaire"
+      EMERAUDE: "Champion du monde"
+      DIAMANT: "Légende de la F1"
+    en:
+      FER: "Go-kart driver"
+      BRONZE: "F3 rookie"
+      ARGENT: "Formula 2 driver"
+      OR: "Reserve driver"
+      PLATINE: "Race driver"
+      EMERAUDE: "World champion"
+      DIAMANT: "F1 legend"
+  imageUrl: wikipedia/sports/2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_Gilles_Villeneuve_(37994472814).jpg
+questions:
+  - text: "Quel pilote détient le record du plus grand nombre de Hat-tricks (pole, victoire, meilleur tour) en carrière ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Ayrton Senna"
+      C: "Jim Clark"
+      D: "Lewis Hamilton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver holds the record for the most career Hat-tricks (pole, win, fastest lap)?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Ayrton Senna"
+          C: "Jim Clark"
+          D: "Lewis Hamilton"
+    difficulty: EXPERT
+  - text: "En quelle année le système de qualification en trois phases (Q1, Q2, Q3) a-t-il été introduit ?"
+    answers:
+      A: "2003"
+      B: "2010"
+      C: "2006"
+      D: "2014"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the three-part qualifying system (Q1, Q2, Q3) introduced?"
+        answers:
+          A: "2003"
+          B: "2010"
+          C: "2006"
+          D: "2014"
+    difficulty: EXPERT
+  - text: "Quel circuit a accueilli le Grand Prix de France de Formule 1 en 2018 après dix ans d'absence ?"
+    answers:
+      A: "Magny-Cours"
+      B: "Reims-Gueux"
+      C: "Dijon-Prenois"
+      D: "Paul Ricard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which circuit hosted the Formula 1 French Grand Prix in 2018 after a ten-year absence?"
+        answers:
+          A: "Magny-Cours"
+          B: "Reims-Gueux"
+          C: "Dijon-Prenois"
+          D: "Paul Ricard"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le Grand Prix de Monaco 1984 sous une pluie battante, course arrêtée prématurément ?"
+    answers:
+      A: "Alain Prost"
+      B: "Ayrton Senna"
+      C: "Stefan Bellof"
+      D: "Nigel Mansell"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 1984 Monaco Grand Prix in torrential rain, with the race stopped early?"
+        answers:
+          A: "Alain Prost"
+          B: "Ayrton Senna"
+          C: "Stefan Bellof"
+          D: "Nigel Mansell"
+    difficulty: HARD
+  - text: "Quel moteur équipait la Benetton B194 de Michael Schumacher en 1994 ?"
+    answers:
+      A: "Renault"
+      B: "Ford"
+      C: "Ferrari"
+      D: "Honda"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which engine powered Michael Schumacher's Benetton B194 in 1994?"
+        answers:
+          A: "Renault"
+          B: "Ford"
+          C: "Ferrari"
+          D: "Honda"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1964 avec Ferrari ?"
+    answers:
+      A: "Jim Clark"
+      B: "Graham Hill"
+      C: "John Surtees"
+      D: "Jack Brabham"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1964 with Ferrari?"
+        answers:
+          A: "Jim Clark"
+          B: "Graham Hill"
+          C: "John Surtees"
+          D: "Jack Brabham"
+    difficulty: EXPERT
+  - text: "Quel pilote a été le premier à remporter 100 podiums en Formule 1 ?"
+    answers:
+      A: "Lewis Hamilton"
+      B: "Michael Schumacher"
+      C: "Sebastian Vettel"
+      D: "Fernando Alonso"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver was the first to achieve 100 podiums in Formula 1?"
+        answers:
+          A: "Lewis Hamilton"
+          B: "Michael Schumacher"
+          C: "Sebastian Vettel"
+          D: "Fernando Alonso"
+    difficulty: HARD
+  - text: "En quelle année le Grand Prix de Singapour a-t-il fait son apparition au calendrier ?"
+    answers:
+      A: "2006"
+      B: "2008"
+      C: "2007"
+      D: "2009"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Singapore Grand Prix first appear on the calendar?"
+        answers:
+          A: "2006"
+          B: "2008"
+          C: "2007"
+          D: "2009"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le Grand Prix d'Europe 1993 à Donington Park, souvent considéré comme l'une des meilleures courses sous la pluie ?"
+    answers:
+      A: "Ayrton Senna"
+      B: "Michael Schumacher"
+      C: "Alain Prost"
+      D: "Damon Hill"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 1993 European Grand Prix at Donington Park, often considered one of the best wet races?"
+        answers:
+          A: "Ayrton Senna"
+          B: "Michael Schumacher"
+          C: "Alain Prost"
+          D: "Damon Hill"
+    difficulty: HARD
+  - text: "Quel circuit accueille le GP d'Italie ?"
+    imageUrl: wikipedia/sports/Monza_banking_2003.jpg
+    answers:
+      A: "Monza"
+      B: "Imola"
+      C: "Mugello"
+      D: "Misano"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which circuit hosts the Italian GP?"
+        answers:
+          A: "Monza"
+          B: "Imola"
+          C: "Mugello"
+          D: "Misano"
+    difficulty: EASY
+  - text: "Quel nom porte ce raidillon à Spa-Francorchamps ?"
+    imageUrl: wikipedia/sports/Kurve_Eau_Rouge-Raidillon.jpg
+    answers:
+      A: "L'Eau Rouge"
+      B: "Le Casino"
+      C: "La Rascasse"
+      D: "La Parabolique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of this steep bend at Spa-Francorchamps?"
+        answers:
+          A: "L'Eau Rouge"
+          B: "Le Casino"
+          C: "La Rascasse"
+          D: "La Parabolique"
+    difficulty: EASY
+  - text: "Quel pilote a remporté le titre de champion du monde de Formule 1 en 1976 après une saison marquée par son accident au Nürburgring ?"
+    answers:
+      A: "Niki Lauda"
+      B: "James Hunt"
+      C: "Jody Scheckter"
+      D: "Mario Andretti"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1976 after a season marked by his crash at the Nürburgring?"
+        answers:
+          A: "Niki Lauda"
+          B: "James Hunt"
+          C: "Jody Scheckter"
+          D: "Mario Andretti"
+    difficulty: MEDIUM
+  - text: "Quel est le seul pilote à avoir remporté le championnat du monde de Formule 1 et les 24 Heures du Mans dans la même année ?"
+    answers:
+      A: "Ayrton Senna"
+      B: "Graham Hill"
+      C: "Jack Brabham"
+      D: "Phil Hill"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the only driver to have won the Formula 1 World Championship and the 24 Hours of Le Mans in the same year?"
+        answers:
+          A: "Ayrton Senna"
+          B: "Graham Hill"
+          C: "Jack Brabham"
+          D: "Phil Hill"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix d'Italie 1971 avec un moteur Ford-Cosworth, signant la première victoire de l'écurie Tyrrell ?"
+    answers:
+      A: "Jackie Stewart"
+      B: "Ronnie Peterson"
+      C: "Emerson Fittipaldi"
+      D: "François Cevert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1971 Italian Grand Prix with a Ford-Cosworth engine, securing Tyrrell's first victory?"
+        answers:
+          A: "Jackie Stewart"
+          B: "Ronnie Peterson"
+          C: "Emerson Fittipaldi"
+          D: "François Cevert"
+    difficulty: EXPERT
+  - text: "Quelle écurie a introduit le premier système de suspension active en Formule 1 ?"
+    answers:
+      A: "Williams"
+      B: "McLaren"
+      C: "Lotus"
+      D: "Ferrari"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team introduced the first active suspension system in Formula 1?"
+        answers:
+          A: "Williams"
+          B: "McLaren"
+          C: "Lotus"
+          D: "Ferrari"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix de Hongrie 1986, devenant le premier pilote à gagner avec un moteur turbocompressé et un châssis à effet de sol ?"
+    answers:
+      A: "Nelson Piquet"
+      B: "Ayrton Senna"
+      C: "Nigel Mansell"
+      D: "Alain Prost"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 1986 Hungarian Grand Prix, becoming the first driver to win with a turbocharged engine and a ground-effect chassis?"
+        answers:
+          A: "Nelson Piquet"
+          B: "Ayrton Senna"
+          C: "Nigel Mansell"
+          D: "Alain Prost"
+    difficulty: EXPERT
+  - text: "Quel pilote a été le premier à utiliser le numéro 1 sur sa voiture après avoir été champion du monde ?"
+    answers:
+      A: "Juan Manuel Fangio"
+      B: "Alberto Ascari"
+      C: "Giuseppe Farina"
+      D: "Mike Hawthorn"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver was the first to use the number 1 on his car after becoming world champion?"
+        answers:
+          A: "Juan Manuel Fangio"
+          B: "Alberto Ascari"
+          C: "Giuseppe Farina"
+          D: "Mike Hawthorn"
+    difficulty: EXPERT
+  - text: "En quelle année le Grand Prix de Grande-Bretagne a-t-il été déplacé de Brands Hatch à Silverstone de façon permanente ?"
+    answers:
+      A: "1985"
+      B: "1986"
+      C: "1987"
+      D: "1988"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the British Grand Prix move permanently from Brands Hatch to Silverstone?"
+        answers:
+          A: "1985"
+          B: "1986"
+          C: "1987"
+          D: "1988"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix du Japon 1988, offrant à McLaren sa première victoire avec le moteur Honda ?"
+    answers:
+      A: "Ayrton Senna"
+      B: "Alain Prost"
+      C: "Gerhard Berger"
+      D: "Nelson Piquet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 1988 Japanese Grand Prix, giving McLaren its first victory with the Honda engine?"
+        answers:
+          A: "Ayrton Senna"
+          B: "Alain Prost"
+          C: "Gerhard Berger"
+          D: "Nelson Piquet"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix de Belgique 1998, marqué par un carambolage géant au départ sous la pluie ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "David Coulthard"
+      C: "Ralf Schumacher"
+      D: "Damon Hill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1998 Belgian Grand Prix, marked by a massive pile-up at the start in the rain?"
+        answers:
+          A: "Michael Schumacher"
+          B: "David Coulthard"
+          C: "Ralf Schumacher"
+          D: "Damon Hill"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1979 avec l'écurie Ferrari ?"
+    answers:
+      A: "Jody Scheckter"
+      B: "Gilles Villeneuve"
+      C: "Carlos Reutemann"
+      D: "Patrick Depailler"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1979 with the Ferrari team?"
+        answers:
+          A: "Jody Scheckter"
+          B: "Gilles Villeneuve"
+          C: "Carlos Reutemann"
+          D: "Patrick Depailler"
+    difficulty: MEDIUM
+  - text: "Quel pilote a été le premier à remporter un Grand Prix avec une voiture à moteur V12 ?"
+    answers:
+      A: "Juan Manuel Fangio"
+      B: "John Surtees"
+      C: "Phil Hill"
+      D: "Stirling Moss"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver was the first to win a Grand Prix with a V12-engined car?"
+        answers:
+          A: "Juan Manuel Fangio"
+          B: "John Surtees"
+          C: "Phil Hill"
+          D: "Stirling Moss"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix d'Espagne 1996 sous une pluie torrentielle, sa première victoire en F1 ?"
+    answers:
+      A: "Jean Alesi"
+      B: "Damon Hill"
+      C: "Jacques Villeneuve"
+      D: "Michael Schumacher"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1996 Spanish Grand Prix in torrential rain, his first F1 victory?"
+        answers:
+          A: "Jean Alesi"
+          B: "Damon Hill"
+          C: "Jacques Villeneuve"
+          D: "Michael Schumacher"
+    difficulty: HARD
+  - text: "En quelle année le Grand Prix de Bahreïn a-t-il fait ses débuts au calendrier de la Formule 1 ?"
+    answers:
+      A: "2002"
+      B: "2004"
+      C: "2003"
+      D: "2005"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Bahrain Grand Prix make its debut on the Formula 1 calendar?"
+        answers:
+          A: "2002"
+          B: "2004"
+          C: "2003"
+          D: "2005"
+    difficulty: MEDIUM
+  - text: "Quel pilote détient le record du plus grand nombre de victoires en une seule saison de Formule 1 ?"
+    answers:
+      A: "Max Verstappen"
+      B: "Sebastian Vettel"
+      C: "Lewis Hamilton"
+      D: "Michael Schumacher"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver holds the record for the most wins in a single Formula 1 season?"
+        answers:
+          A: "Max Verstappen"
+          B: "Sebastian Vettel"
+          C: "Lewis Hamilton"
+          D: "Michael Schumacher"
+    difficulty: EASY
+  - text: "Quel moteur équipait la McLaren MP4/4 de 1988 ?"
+    answers:
+      A: "Ford-Cosworth"
+      B: "Renault"
+      C: "Honda"
+      D: "TAG-Porsche"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which engine powered the 1988 McLaren MP4/4?"
+        answers:
+          A: "Ford-Cosworth"
+          B: "Renault"
+          C: "Honda"
+          D: "TAG-Porsche"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1978 avec l'écurie Lotus ?"
+    answers:
+      A: "Ronnie Peterson"
+      B: "Mario Andretti"
+      C: "Niki Lauda"
+      D: "James Hunt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1978 with the Lotus team?"
+        answers:
+          A: "Ronnie Peterson"
+          B: "Mario Andretti"
+          C: "Niki Lauda"
+          D: "James Hunt"
+    difficulty: MEDIUM
+  - text: "Quel circuit a accueilli le premier Grand Prix de Russie de Formule 1 en 2014 ?"
+    answers:
+      A: "Circuit de Kazan"
+      B: "Moscou Raceway"
+      C: "Circuit de Sotchi"
+      D: "Circuit de Saint-Pétersbourg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which circuit hosted the first Formula 1 Russian Grand Prix in 2014?"
+        answers:
+          A: "Kazan Circuit"
+          B: "Moscow Raceway"
+          C: "Sochi Circuit"
+          D: "Saint Petersburg Circuit"
+    difficulty: MEDIUM
+  - text: "Quel pilote a été le premier à remporter un Grand Prix avec une voiture à moteur V12 en Formule 1 ?"
+    answers:
+      A: "Juan Manuel Fangio"
+      B: "Phil Hill"
+      C: "Stirling Moss"
+      D: "Jack Brabham"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver was the first to win a Grand Prix with a V12-engined car in Formula 1?"
+        answers:
+          A: "Juan Manuel Fangio"
+          B: "Phil Hill"
+          C: "Stirling Moss"
+          D: "Jack Brabham"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix du Canada 2011, la course la plus longue de l'histoire de la F1 ?"
+    answers:
+      A: "Sebastian Vettel"
+      B: "Michael Schumacher"
+      C: "Jenson Button"
+      D: "Mark Webber"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 2011 Canadian Grand Prix, the longest race in F1 history?"
+        answers:
+          A: "Sebastian Vettel"
+          B: "Michael Schumacher"
+          C: "Jenson Button"
+          D: "Mark Webber"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le Grand Prix de Hongrie 1986, devenant le premier à gagner avec un moteur turbocompressé et un châssis à effet de sol ?"
+    answers:
+      A: "Nigel Mansell"
+      B: "Ayrton Senna"
+      C: "Nelson Piquet"
+      D: "Alain Prost"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1986 Hungarian Grand Prix, becoming the first to win with a turbocharged engine and a ground-effect chassis?"
+        answers:
+          A: "Nigel Mansell"
+          B: "Ayrton Senna"
+          C: "Nelson Piquet"
+          D: "Alain Prost"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1976 après une saison marquée par son accident au Nürburgring ?"
+    answers:
+      A: "Niki Lauda"
+      B: "Mario Andretti"
+      C: "Jody Scheckter"
+      D: "James Hunt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1976 Formula 1 World Championship after a season marked by his crash at the Nürburgring?"
+        answers:
+          A: "Niki Lauda"
+          B: "Mario Andretti"
+          C: "Jody Scheckter"
+          D: "James Hunt"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le Grand Prix de France 2018 après dix ans d'absence du circuit ?"
+    answers:
+      A: "Kimi Räikkönen"
+      B: "Sebastian Vettel"
+      C: "Max Verstappen"
+      D: "Lewis Hamilton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 2018 French Grand Prix after a ten-year absence from the circuit?"
+        answers:
+          A: "Kimi Räikkönen"
+          B: "Sebastian Vettel"
+          C: "Max Verstappen"
+          D: "Lewis Hamilton"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde 1962 avec BRM ?"
+    answers:
+      A: "Jim Clark"
+      B: "John Surtees"
+      C: "Graham Hill"
+      D: "Jack Brabham"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1962 World Championship with BRM?"
+        answers:
+          A: "Jim Clark"
+          B: "John Surtees"
+          C: "Graham Hill"
+          D: "Jack Brabham"
+    difficulty: EXPERT
+  - text: "Combien de fois Niki Lauda a-t-il été champion du monde de F1 ?"
+    answers:
+      A: "2"
+      B: "3"
+      C: "4"
+      D: "1"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many times was Niki Lauda Formula 1 World Champion?"
+        answers:
+          A: "2"
+          B: "3"
+          C: "4"
+          D: "1"
+    difficulty: EASY
+  - text: "Quelle écurie a remporté le premier titre constructeurs en 1958 ?"
+    answers:
+      A: "Ferrari"
+      B: "Cooper"
+      C: "Vanwall"
+      D: "Maserati"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the first Constructors' Championship in 1958?"
+        answers:
+          A: "Ferrari"
+          B: "Cooper"
+          C: "Vanwall"
+          D: "Maserati"
+    difficulty: EXPERT
+  - text: "Quel pilote détient le record du plus grand nombre de départs en Grand Prix ?"
+    answers:
+      A: "Fernando Alonso"
+      B: "Kimi Räikkönen"
+      C: "Rubens Barrichello"
+      D: "Michael Schumacher"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver holds the record for the most Grand Prix starts?"
+        answers:
+          A: "Fernando Alonso"
+          B: "Kimi Räikkönen"
+          C: "Rubens Barrichello"
+          D: "Michael Schumacher"
+    difficulty: EASY
+  - text: "En quelle année le KERS a-t-il été introduit en Formule 1 ?"
+    answers:
+      A: "2009"
+      B: "2008"
+      C: "2007"
+      D: "2010"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which year was KERS introduced in Formula 1?"
+        answers:
+          A: "2009"
+          B: "2008"
+          C: "2007"
+          D: "2010"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le Grand Prix de Monaco 1996 sous la pluie avec Ligier ?"
+    answers:
+      A: "Olivier Panis"
+      B: "Jean Alesi"
+      C: "David Coulthard"
+      D: "Mika Häkkinen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 1996 Monaco Grand Prix in the rain with Ligier?"
+        answers:
+          A: "Olivier Panis"
+          B: "Jean Alesi"
+          C: "David Coulthard"
+          D: "Mika Häkkinen"
+    difficulty: EXPERT
+  - text: "Quel moteur équipait la Williams FW14B de 1992 ?"
+    answers:
+      A: "Ford-Cosworth"
+      B: "Renault"
+      C: "Honda"
+      D: "Ferrari"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which engine powered the 1992 Williams FW14B?"
+        answers:
+          A: "Ford-Cosworth"
+          B: "Renault"
+          C: "Honda"
+          D: "Ferrari"
+    difficulty: HARD
+  - text: "Quel pilote a été le premier champion du monde de Formule 1 à titre posthume ?"
+    answers:
+      A: "François Cevert"
+      B: "Ronnie Peterson"
+      C: "Jochen Rindt"
+      D: "Jim Clark"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver was the first posthumous Formula 1 World Champion?"
+        answers:
+          A: "François Cevert"
+          B: "Ronnie Peterson"
+          C: "Jochen Rindt"
+          D: "Jim Clark"
+    difficulty: EXPERT
+  - text: "Quel circuit a accueilli le premier Grand Prix d'Azerbaïdjan en 2016 ?"
+    answers:
+      A: "Circuit de Sotchi"
+      B: "Circuit de Bakou"
+      C: "Circuit de Singapour"
+      D: "Circuit de Istanbul"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which circuit hosted the first Azerbaijan Grand Prix in 2016?"
+        answers:
+          A: "Sochi Autodrom"
+          B: "Baku City Circuit"
+          C: "Marina Bay Street Circuit"
+          D: "Istanbul Park"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le championnat du monde 1973 avec Tyrrell ?"
+    answers:
+      A: "Ronnie Peterson"
+      B: "Emerson Fittipaldi"
+      C: "François Cevert"
+      D: "Jackie Stewart"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1973 World Championship with Tyrrell?"
+        answers:
+          A: "Ronnie Peterson"
+          B: "Emerson Fittipaldi"
+          C: "François Cevert"
+          D: "Jackie Stewart"
+    difficulty: HARD
+  - text: "Quelle écurie a été la première à utiliser un châssis en fibre de carbone en F1 ?"
+    answers:
+      A: "McLaren"
+      B: "Brabham"
+      C: "Ferrari"
+      D: "Lotus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team was the first to use a carbon fibre chassis in F1?"
+        answers:
+          A: "McLaren"
+          B: "Brabham"
+          C: "Ferrari"
+          D: "Lotus"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le premier Grand Prix de l'histoire avec une voiture à moteur arrière ?"
+    answers:
+      A: "Stirling Moss"
+      B: "Jack Brabham"
+      C: "Cooper"
+      D: "Fangio"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the first Grand Prix in history with a rear-engined car?"
+        answers:
+          A: "Stirling Moss"
+          B: "Jack Brabham"
+          C: "Cooper"
+          D: "Fangio"
+    difficulty: EXPERT
+  - text: "Combien de victoires Ayrton Senna a-t-il remportées à Monaco ?"
+    answers:
+      A: "4"
+      B: "5"
+      C: "6"
+      D: "3"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many wins did Ayrton Senna take at Monaco?"
+        answers:
+          A: "4"
+          B: "5"
+          C: "6"
+          D: "3"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le Grand Prix d'Europe 1999 à Nürburgring, sa première victoire en F1 ?"
+    answers:
+      A: "Eddie Irvine"
+      B: "Johnny Herbert"
+      C: "Ralf Schumacher"
+      D: "Heinz-Harald Frentzen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 1999 European Grand Prix at Nürburgring, his first F1 victory?"
+        answers:
+          A: "Eddie Irvine"
+          B: "Johnny Herbert"
+          C: "Ralf Schumacher"
+          D: "Heinz-Harald Frentzen"
+    difficulty: EXPERT
+  - text: "Quel pilote a été le premier à remporter 100 Grands Prix en F1 ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Alain Prost"
+      C: "Sebastian Vettel"
+      D: "Lewis Hamilton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver was the first to win 100 Grands Prix in F1?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Alain Prost"
+          C: "Sebastian Vettel"
+          D: "Lewis Hamilton"
+    difficulty: HARD
+  - text: "Quelle écurie a introduit le premier système de boîte de vitesses semi-automatique en F1 ?"
+    answers:
+      A: "Williams"
+      B: "Ferrari"
+      C: "McLaren"
+      D: "Lotus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team introduced the first semi-automatic gearbox system in F1?"
+        answers:
+          A: "Williams"
+          B: "Ferrari"
+          C: "McLaren"
+          D: "Lotus"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le championnat du monde 1967 avec Brabham ?"
+    answers:
+      A: "Jack Brabham"
+      B: "Denny Hulme"
+      C: "Jim Clark"
+      D: "Graham Hill"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 1967 World Championship with Brabham?"
+        answers:
+          A: "Jack Brabham"
+          B: "Denny Hulme"
+          C: "Jim Clark"
+          D: "Graham Hill"
+    difficulty: EXPERT
+  - text: "Quel Grand Prix se déroule dans ce port ?"
+    imageUrl: wikipedia/sports/Monaco_Harbour_on_F1_RaceDay_(27333999194).jpg
+    answers:
+      A: "Le Grand Prix de Monaco"
+      B: "Le Grand Prix de Singapour"
+      C: "Le Grand Prix de Macao"
+      D: "Le Grand Prix d'Azerbaïdjan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Grand Prix takes place in this harbor?"
+        answers:
+          A: "The Monaco Grand Prix"
+          B: "The Singapore Grand Prix"
+          C: "The Macau Grand Prix"
+          D: "The Azerbaijan Grand Prix"
+    difficulty: EASY
+  - text: "En quelle année le Grand Prix de Turquie a-t-il fait ses débuts en F1 ?"
+    answers:
+      A: "2004"
+      B: "2007"
+      C: "2006"
+      D: "2005"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Turkish Grand Prix make its F1 debut?"
+        answers:
+          A: "2004"
+          B: "2007"
+          C: "2006"
+          D: "2005"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le Grand Prix d'Australie 2002 après un carambolage au premier virage ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "David Coulthard"
+      C: "Rubens Barrichello"
+      D: "Juan Pablo Montoya"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 2002 Australian Grand Prix after a first-corner pileup?"
+        answers:
+          A: "Michael Schumacher"
+          B: "David Coulthard"
+          C: "Rubens Barrichello"
+          D: "Juan Pablo Montoya"
+    difficulty: EXPERT
+  - text: "Quel pilote a été le premier à remporter un Grand Prix avec une voiture à moteur turbocompressé en F1 ?"
+    answers:
+      A: "René Arnoux"
+      B: "Didier Pironi"
+      C: "Alain Prost"
+      D: "Jean-Pierre Jabouille"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver was the first to win a Grand Prix with a turbocharged engine car in F1?"
+        answers:
+          A: "René Arnoux"
+          B: "Didier Pironi"
+          C: "Alain Prost"
+          D: "Jean-Pierre Jabouille"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le GP de France 1979 avec l'écurie Renault, première victoire d'un moteur turbocompressé en F1 ?"
+    answers:
+      A: "René Arnoux"
+      B: "Jean-Pierre Jabouille"
+      C: "Gilles Villeneuve"
+      D: "Didier Pironi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 1979 French GP with Renault, the first F1 win for a turbocharged engine?"
+        answers:
+          A: "René Arnoux"
+          B: "Jean-Pierre Jabouille"
+          C: "Gilles Villeneuve"
+          D: "Didier Pironi"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de F1 en 1964 avec Ferrari ?"
+    answers:
+      A: "Jim Clark"
+      B: "Graham Hill"
+      C: "John Surtees"
+      D: "Jack Brabham"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1964 F1 World Championship with Ferrari?"
+        answers:
+          A: "Jim Clark"
+          B: "Graham Hill"
+          C: "John Surtees"
+          D: "Jack Brabham"
+    difficulty: MEDIUM
+  - text: "En quelle année la Lotus 72 a-t-elle été introduite en Formule 1, avec sa suspension avant in-board et son aileron arrière en forme de coin ?"
+    answers:
+      A: "1970"
+      B: "1969"
+      C: "1968"
+      D: "1971"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Lotus 72 introduced in Formula 1, with its inboard front suspension and wedge-shaped rear wing?"
+        answers:
+          A: "1970"
+          B: "1969"
+          C: "1968"
+          D: "1971"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le GP d'Italie 1971 avec Tyrrell, première victoire de l'écurie ?"
+    answers:
+      A: "Jackie Stewart"
+      B: "Emerson Fittipaldi"
+      C: "François Cevert"
+      D: "Ronnie Peterson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1971 Italian GP with Tyrrell, the team's first victory?"
+        answers:
+          A: "Jackie Stewart"
+          B: "Emerson Fittipaldi"
+          C: "François Cevert"
+          D: "Ronnie Peterson"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de F1 en 1979 avec Ferrari ?"
+    answers:
+      A: "Gilles Villeneuve"
+      B: "Jody Scheckter"
+      C: "Jacques Laffite"
+      D: "Didier Pironi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 1979 F1 World Championship with Ferrari?"
+        answers:
+          A: "Gilles Villeneuve"
+          B: "Jody Scheckter"
+          C: "Jacques Laffite"
+          D: "Didier Pironi"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le GP d'Espagne 1996 sous une pluie torrentielle, sa première victoire en F1 ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Damon Hill"
+      C: "Jacques Villeneuve"
+      D: "Jean Alesi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 1996 Spanish GP in torrential rain, his first F1 victory?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Damon Hill"
+          C: "Jacques Villeneuve"
+          D: "Jean Alesi"
+    difficulty: MEDIUM
+  - text: "En quelle année le GP de Bahreïn a-t-il fait ses débuts au calendrier de la F1 ?"
+    answers:
+      A: "2004"
+      B: "2003"
+      C: "2002"
+      D: "2005"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Bahrain GP make its debut on the F1 calendar?"
+        answers:
+          A: "2004"
+          B: "2003"
+          C: "2002"
+          D: "2005"
+    difficulty: HARD
+  - text: "Quel pilote détient le record du plus grand nombre de victoires en une seule saison de F1 ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Max Verstappen"
+      C: "Lewis Hamilton"
+      D: "Sebastian Vettel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver holds the record for the most wins in a single F1 season?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Max Verstappen"
+          C: "Lewis Hamilton"
+          D: "Sebastian Vettel"
+    difficulty: EASY
+  - text: "Quel pilote a remporté le championnat du monde de F1 en 1978 avec Lotus ?"
+    answers:
+      A: "Carlos Reutemann"
+      B: "Ronnie Peterson"
+      C: "Niki Lauda"
+      D: "Mario Andretti"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the F1 World Championship in 1978 with Lotus?"
+        answers:
+          A: "Carlos Reutemann"
+          B: "Ronnie Peterson"
+          C: "Niki Lauda"
+          D: "Mario Andretti"
+    difficulty: MEDIUM
+  - text: "Quel circuit a accueilli le premier GP de Russie de F1 en 2014 ?"
+    answers:
+      A: "Moscou"
+      B: "Kazan"
+      C: "Saint-Pétersbourg"
+      D: "Sotchi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which circuit hosted the first F1 Russian GP in 2014?"
+        answers:
+          A: "Moscow"
+          B: "Kazan"
+          C: "Saint Petersburg"
+          D: "Sochi"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le GP du Canada 2011, la course la plus longue de l'histoire de la F1 ?"
+    answers:
+      A: "Sebastian Vettel"
+      B: "Lewis Hamilton"
+      C: "Jenson Button"
+      D: "Mark Webber"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 2011 Canadian GP, the longest race in F1 history?"
+        answers:
+          A: "Sebastian Vettel"
+          B: "Lewis Hamilton"
+          C: "Jenson Button"
+          D: "Mark Webber"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de F1 en 1976 après une saison marquée par son accident au Nürburgring ?"
+    answers:
+      A: "Niki Lauda"
+      B: "Clay Regazzoni"
+      C: "Jody Scheckter"
+      D: "James Hunt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the F1 World Championship in 1976 after a season marked by his crash at the Nürburgring?"
+        answers:
+          A: "Niki Lauda"
+          B: "Clay Regazzoni"
+          C: "Jody Scheckter"
+          D: "James Hunt"
+    difficulty: EASY
+  - text: "Quel pilote a remporté le GP de Monaco 1996 sous la pluie avec Ligier ?"
+    answers:
+      A: "Jean Alesi"
+      B: "Olivier Panis"
+      C: "Gerhard Berger"
+      D: "Mika Häkkinen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 1996 Monaco GP in the rain with Ligier?"
+        answers:
+          A: "Jean Alesi"
+          B: "Olivier Panis"
+          C: "Gerhard Berger"
+          D: "Mika Häkkinen"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1968 avec Lotus ?"
+    answers:
+      A: "Jochen Rindt"
+      B: "Jackie Stewart"
+      C: "Denny Hulme"
+      D: "Graham Hill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1968 with Lotus?"
+        answers:
+          A: "Jochen Rindt"
+          B: "Jackie Stewart"
+          C: "Denny Hulme"
+          D: "Graham Hill"
+    difficulty: MEDIUM
+  - text: "En quelle année le Grand Prix de Singapour a-t-il fait ses débuts en Formule 1 ?"
+    answers:
+      A: "2006"
+      B: "2008"
+      C: "2007"
+      D: "2009"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Singapore Grand Prix make its Formula 1 debut?"
+        answers:
+          A: "2006"
+          B: "2008"
+          C: "2007"
+          D: "2009"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le Grand Prix de Monaco 2004 ?"
+    answers:
+      A: "Jarno Trulli"
+      B: "Rubens Barrichello"
+      C: "Michael Schumacher"
+      D: "Jenson Button"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 2004 Monaco Grand Prix?"
+        answers:
+          A: "Jarno Trulli"
+          B: "Rubens Barrichello"
+          C: "Michael Schumacher"
+          D: "Jenson Button"
+    difficulty: MEDIUM
+  - text: "Quelle écurie a remporté le championnat du monde des constructeurs en 1982 ?"
+    answers:
+      A: "McLaren"
+      B: "Ferrari"
+      C: "Williams"
+      D: "Renault"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the Constructors' World Championship in 1982?"
+        answers:
+          A: "McLaren"
+          B: "Ferrari"
+          C: "Williams"
+          D: "Renault"
+    difficulty: HARD
+  - text: "Quel pilote a été le premier à remporter un Grand Prix avec une voiture à moteur V6 turbo hybride en Formule 1 ?"
+    answers:
+      A: "Lewis Hamilton"
+      B: "Daniel Ricciardo"
+      C: "Sebastian Vettel"
+      D: "Nico Rosberg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver was the first to win a Grand Prix with a hybrid turbo V6 engine car in Formula 1?"
+        answers:
+          A: "Lewis Hamilton"
+          B: "Daniel Ricciardo"
+          C: "Sebastian Vettel"
+          D: "Nico Rosberg"
+    difficulty: EXPERT
+  - text: "En quelle année le système de récupération d'énergie cinétique (KERS) a-t-il été introduit en Formule 1 ?"
+    answers:
+      A: "2009"
+      B: "2008"
+      C: "2007"
+      D: "2010"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Kinetic Energy Recovery System (KERS) introduced in Formula 1?"
+        answers:
+          A: "2009"
+          B: "2008"
+          C: "2007"
+          D: "2010"
+    difficulty: HARD
+  - text: "Quel circuit a accueilli le premier Grand Prix d'Inde de Formule 1 en 2011 ?"
+    answers:
+      A: "Jaypee International Circuit"
+      B: "Circuit de Chennai"
+      C: "Buddh International Circuit"
+      D: "Greater Noida Circuit"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which circuit hosted the first Formula 1 Indian Grand Prix in 2011?"
+        answers:
+          A: "Jaypee International Circuit"
+          B: "Chennai Circuit"
+          C: "Buddh International Circuit"
+          D: "Greater Noida Circuit"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1980 avec Williams ?"
+    answers:
+      A: "Carlos Reutemann"
+      B: "Alan Jones"
+      C: "Nelson Piquet"
+      D: "Didier Pironi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1980 with Williams?"
+        answers:
+          A: "Carlos Reutemann"
+          B: "Alan Jones"
+          C: "Nelson Piquet"
+          D: "Didier Pironi"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le Grand Prix de Belgique 1998 sous la pluie, après un carambolage au départ ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Ralf Schumacher"
+      C: "Damon Hill"
+      D: "Eddie Irvine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1998 Belgian Grand Prix in the rain, after a pile-up at the start?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Ralf Schumacher"
+          C: "Damon Hill"
+          D: "Eddie Irvine"
+    difficulty: HARD
+  - text: "Quelle écurie engageait la P34 de 1976 ?"
+    imageUrl: wikipedia/sports/ScheckterJody1976-07-31Tyrrell-FordP34.jpg
+    answers:
+      A: "Tyrrell"
+      B: "March"
+      C: "Shadow"
+      D: "Hesketh"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team entered the P34 in 1976?"
+        answers:
+          A: "Tyrrell"
+          B: "March"
+          C: "Shadow"
+          D: "Hesketh"
+    difficulty: EXPERT
+  - text: "Quelle écurie a été la première à utiliser un moteur V12 en Formule 1 ?"
+    answers:
+      A: "Lamborghini"
+      B: "Ferrari"
+      C: "Honda"
+      D: "Matra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team was the first to use a V12 engine in Formula 1?"
+        answers:
+          A: "Lamborghini"
+          B: "Ferrari"
+          C: "Honda"
+          D: "Matra"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1966 avec Brabham ?"
+    answers:
+      A: "John Surtees"
+      B: "Denny Hulme"
+      C: "Jim Clark"
+      D: "Jack Brabham"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1966 with Brabham?"
+        answers:
+          A: "John Surtees"
+          B: "Denny Hulme"
+          C: "Jim Clark"
+          D: "Jack Brabham"
+    difficulty: HARD
+  - text: "Combien de victoires Kimi Räikkönen a-t-il remportées avec l'écurie Ferrari ?"
+    answers:
+      A: "10"
+      B: "9"
+      C: "8"
+      D: "11"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many wins did Kimi Räikkönen take with the Ferrari team?"
+        answers:
+          A: "10"
+          B: "9"
+          C: "8"
+          D: "11"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix de Hongrie 1997 ?"
+    answers:
+      A: "Jean Alesi"
+      B: "Damon Hill"
+      C: "Michael Schumacher"
+      D: "Jacques Villeneuve"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1997 Hungarian Grand Prix?"
+        answers:
+          A: "Jean Alesi"
+          B: "Damon Hill"
+          C: "Michael Schumacher"
+          D: "Jacques Villeneuve"
+    difficulty: HARD
+  - text: "En quelle année le Grand Prix de Corée du Sud a-t-il fait ses débuts en Formule 1 ?"
+    answers:
+      A: "2009"
+      B: "2012"
+      C: "2011"
+      D: "2010"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Korean Grand Prix make its Formula 1 debut?"
+        answers:
+          A: "2009"
+          B: "2012"
+          C: "2011"
+          D: "2010"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1992 avec Williams ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Riccardo Patrese"
+      C: "Ayrton Senna"
+      D: "Nigel Mansell"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1992 with Williams?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Riccardo Patrese"
+          C: "Ayrton Senna"
+          D: "Nigel Mansell"
+    difficulty: EASY
+  - text: "Quel pilote a remporté le Grand Prix d'Italie 2006 à Monza, sa première victoire en Formule 1 ?"
+    answers:
+      A: "Heikki Kovalainen"
+      B: "Robert Kubica"
+      C: "Robert Doornbos"
+      D: "Vitantonio Liuzzi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 2006 Italian Grand Prix at Monza, his first Formula 1 victory?"
+        answers:
+          A: "Heikki Kovalainen"
+          B: "Robert Kubica"
+          C: "Robert Doornbos"
+          D: "Vitantonio Liuzzi"
+    difficulty: HARD
+  - text: "Quelle écurie a introduit le premier aileron avant en Formule 1 ?"
+    answers:
+      A: "Lotus"
+      B: "Ferrari"
+      C: "McLaren"
+      D: "Brabham"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team introduced the first front wing in Formula 1?"
+        answers:
+          A: "Lotus"
+          B: "Ferrari"
+          C: "McLaren"
+          D: "Brabham"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1983 avec Brabham ?"
+    answers:
+      A: "René Arnoux"
+      B: "Riccardo Patrese"
+      C: "Alain Prost"
+      D: "Nelson Piquet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1983 with Brabham?"
+        answers:
+          A: "René Arnoux"
+          B: "Riccardo Patrese"
+          C: "Alain Prost"
+          D: "Nelson Piquet"
+    difficulty: HARD
+  - text: "Combien de pole positions Sebastian Vettel a-t-il obtenues avec Red Bull ?"
+    answers:
+      A: "44"
+      B: "45"
+      C: "46"
+      D: "47"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many pole positions did Sebastian Vettel take with Red Bull?"
+        answers:
+          A: "44"
+          B: "45"
+          C: "46"
+          D: "47"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le Grand Prix de France 1986 au Paul Ricard ?"
+    answers:
+      A: "Nigel Mansell"
+      B: "Nelson Piquet"
+      C: "Alain Prost"
+      D: "Ayrton Senna"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1986 French Grand Prix at Paul Ricard?"
+        answers:
+          A: "Nigel Mansell"
+          B: "Nelson Piquet"
+          C: "Alain Prost"
+          D: "Ayrton Senna"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le GP de Saint-Marin 2005 au volant de la Renault ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Kimi Räikkönen"
+      C: "Fernando Alonso"
+      D: "Jenson Button"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 2005 San Marino GP at the wheel of the Renault?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Kimi Räikkönen"
+          C: "Fernando Alonso"
+          D: "Jenson Button"
+    difficulty: HARD
+  - text: "Quel pilote a signé la pole position du GP de Monaco 2007 ?"
+    answers:
+      A: "Kimi Räikkönen"
+      B: "Lewis Hamilton"
+      C: "Fernando Alonso"
+      D: "Felipe Massa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver took pole position for the 2007 Monaco GP?"
+        answers:
+          A: "Kimi Räikkönen"
+          B: "Lewis Hamilton"
+          C: "Fernando Alonso"
+          D: "Felipe Massa"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le GP d'Europe 1997 à Jerez, sa première victoire en F1 ?"
+    answers:
+      A: "Jacques Villeneuve"
+      B: "David Coulthard"
+      C: "Mika Häkkinen"
+      D: "Heinz-Harald Frentzen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1997 European GP at Jerez, his first F1 victory?"
+        answers:
+          A: "Jacques Villeneuve"
+          B: "David Coulthard"
+          C: "Mika Häkkinen"
+          D: "Heinz-Harald Frentzen"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le championnat du monde de F1 1994 ?"
+    answers:
+      A: "Damon Hill"
+      B: "Nigel Mansell"
+      C: "Ayrton Senna"
+      D: "Michael Schumacher"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1994 F1 World Championship?"
+        answers:
+          A: "Damon Hill"
+          B: "Nigel Mansell"
+          C: "Ayrton Senna"
+          D: "Michael Schumacher"
+    difficulty: EASY
+  - text: "Quel pilote a remporté le GP du Brésil 2003, sa première victoire en F1 ?"
+    answers:
+      A: "Giancarlo Fisichella"
+      B: "Kimi Räikkönen"
+      C: "Rubens Barrichello"
+      D: "David Coulthard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 2003 Brazilian GP, his first F1 victory?"
+        answers:
+          A: "Giancarlo Fisichella"
+          B: "Kimi Räikkönen"
+          C: "Rubens Barrichello"
+          D: "David Coulthard"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de F1 1988 ?"
+    answers:
+      A: "Alain Prost"
+      B: "Nigel Mansell"
+      C: "Ayrton Senna"
+      D: "Nelson Piquet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1988 F1 World Championship?"
+        answers:
+          A: "Alain Prost"
+          B: "Nigel Mansell"
+          C: "Ayrton Senna"
+          D: "Nelson Piquet"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le GP de Monaco 1994 ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Damon Hill"
+      C: "Gerhard Berger"
+      D: "Mika Häkkinen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 1994 Monaco GP?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Damon Hill"
+          C: "Gerhard Berger"
+          D: "Mika Häkkinen"
+    difficulty: HARD
+  - text: "Quel pilote détient le record du tour le plus rapide en course, établi à Monza en 2004 ?"
+    answers:
+      A: "Kimi Räikkönen"
+      B: "Michael Schumacher"
+      C: "Juan Pablo Montoya"
+      D: "Rubens Barrichello"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver holds the record for the fastest race lap, set at Monza in 2004?"
+        answers:
+          A: "Kimi Räikkönen"
+          B: "Michael Schumacher"
+          C: "Juan Pablo Montoya"
+          D: "Rubens Barrichello"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le GP d'Espagne 2012, sa première victoire en F1 ?"
+    answers:
+      A: "Fernando Alonso"
+      B: "Pastor Maldonado"
+      C: "Kimi Räikkönen"
+      D: "Lewis Hamilton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 2012 Spanish GP, his first F1 victory?"
+        answers:
+          A: "Fernando Alonso"
+          B: "Pastor Maldonado"
+          C: "Kimi Räikkönen"
+          D: "Lewis Hamilton"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde de F1 2007 ?"
+    answers:
+      A: "Lewis Hamilton"
+      B: "Kimi Räikkönen"
+      C: "Fernando Alonso"
+      D: "Felipe Massa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the 2007 F1 World Championship?"
+        answers:
+          A: "Lewis Hamilton"
+          B: "Kimi Räikkönen"
+          C: "Fernando Alonso"
+          D: "Felipe Massa"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le GP de Hongrie 2006, sa première victoire en F1 ?"
+    answers:
+      A: "Kimi Räikkönen"
+      B: "Fernando Alonso"
+      C: "Jenson Button"
+      D: "Pedro de la Rosa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 2006 Hungarian GP, his first F1 victory?"
+        answers:
+          A: "Kimi Räikkönen"
+          B: "Fernando Alonso"
+          C: "Jenson Button"
+          D: "Pedro de la Rosa"
+    difficulty: HARD
+  - text: "Quel moteur équipait la monoplace championne 1975 ?"
+    imageUrl: wikipedia/sports/Ferrari_312T_(19817663389).jpg
+    answers:
+      A: "Un V12 à 60°"
+      B: "Un V6 turbo"
+      C: "Un V8"
+      D: "Un flat-12"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which engine powered the 1975 championship-winning car?"
+        answers:
+          A: "A 60° V12"
+          B: "A turbo V6"
+          C: "A V8"
+          D: "A flat-12"
+    difficulty: EXPERT

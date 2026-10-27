@@ -1,0 +1,118 @@
+package com.joutio.theme.infrastructure.out.persistence.entity;
+
+import com.joutio.microservice.core.domain.model.search.FieldType;
+import com.joutio.microservice.core.domain.model.search.Searchable;
+import com.joutio.theme.domain.model.QuestionStatus;
+import com.joutio.theme.domain.model.TopicCategory;
+import com.joutio.theme.domain.model.TopicStatus;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.time.Instant;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * TopicEntity - Entité JPA pour la projection read-only du thème
+ * Mise à jour via les Event Handlers (projection)
+ */
+@Setter
+@Getter
+@Entity
+@Table(name = "topic_entry", indexes = {
+        @Index(name = "idx_topic_entry_creator", columnList = "creator_id"),
+        @Index(name = "idx_topic_entry_status", columnList = "status"),
+        @Index(name = "idx_topic_entry_category", columnList = "category")
+})
+public class TopicEntity {
+
+    @Id
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "topic_id", length = 255, nullable = false)
+    private String topicId;
+
+    /** Nom français (référence, toujours présent). */
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "name_fr", length = 255, nullable = false)
+    private String nameFr;
+
+    /** Nom anglais (optionnel — repli FR). */
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "name_en", length = 255)
+    private String nameEn;
+
+    /** `name_fr` normalisé (minuscules, sans accents) — cible des recherches textuelles. */
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "name_fr_normalized", length = 255)
+    private String nameFrNormalized;
+
+    /** `name_en` normalisé (minuscules, sans accents) — cible des recherches textuelles. */
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "name_en_normalized", length = 255)
+    private String nameEnNormalized;
+
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "description", length = 500)
+    private String description;
+
+    @Searchable(type = FieldType.STRING)
+    @Enumerated(EnumType.STRING)
+    @Column(name = "category", nullable = false)
+    private TopicCategory category;
+
+    @Searchable(type = FieldType.STRING)
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status", nullable = false)
+    private TopicStatus status;
+
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "creator_id", length = 255, nullable = false)
+    private String creatorId;
+
+    @Searchable(type = FieldType.NUMBER)
+    @Column(name = "followers_counter")
+    private Integer followersCounter;
+
+    /** Parties jouées sur ce thème (compteur communautaire, cf. `TopicGamesProjection`). */
+    @Column(name = "games_counter")
+    private Integer gamesCounter;
+
+    @Column(name = "emoji", length = 16)
+    private String emoji;
+
+    @Column(name = "color", length = 16)
+    private String color;
+
+    /** Illustration de couverture : URL externe (http/https), longueur max 1024. */
+    @Column(name = "image_url", length = 1024)
+    private String imageUrl;
+
+    /** Bannière de la fiche sujet (panoramique, distincte de la couverture) : URL max 1024. */
+    @Column(name = "banner_url", length = 1024)
+    private String bannerUrl;
+
+    /** Titres personnalisés par palier et par langue (JSON), ou {@code null} (repli client). */
+    @Column(name = "title_names", columnDefinition = "TEXT")
+    private String titleNames;
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    @CollectionTable(name = "topic_questions_counter", joinColumns = @JoinColumn(name = "topic_id"))
+    @MapKeyEnumerated(EnumType.STRING)
+    @MapKeyColumn(name = "question_status")
+    @Column(name = "counter", nullable = false)
+    private Map<QuestionStatus, Integer> questionsCounter = new HashMap<>();
+
+    @Searchable(type = FieldType.DATE)
+    @Column(name = "created_at", nullable = false)
+    private Instant createdAt;
+
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "updated_by", length = 255)
+    private String updatedBy;
+
+    @Searchable(type = FieldType.DATE)
+    @Column(name = "updated_at")
+    private Instant updatedAt;
+}
+

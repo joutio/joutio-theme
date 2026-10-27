@@ -1,0 +1,1631 @@
+topic:
+  id: topic-star-wars
+  names:
+    fr: "Star Wars"
+    en: "Star Wars"
+  description: "La saga créée par George Lucas : trilogie originale, prélogie, postlogie et films dérivés. Personnages légendaires, planètes mythiques, vaisseaux, droïdes, sabres laser et maîtrise de la Force dans une galaxie lointaine, avec la musique de John Williams."
+  category: MOVIES
+  titles:
+    fr:
+      FER: "Recrue de Mos Eisley"
+      BRONZE: "Padawan de Coruscant"
+      ARGENT: "Chevalier de la République"
+      OR: "Général de l'Alliance"
+      PLATINE: "Maître du Conseil Jedi"
+      EMERAUDE: "Élu de la Prophétie"
+      DIAMANT: "Esprit de la Force"
+    en:
+      FER: "Mos Eisley Rookie"
+      BRONZE: "Coruscant Padawan"
+      ARGENT: "Republic Knight"
+      OR: "Rebel Alliance General"
+      PLATINE: "Jedi Council Master"
+      EMERAUDE: "The Chosen One"
+      DIAMANT: "Force Spirit"
+  imageUrl: wikipedia/movies/Cosplay_of_Aayla_Secura_at_Star_Wars_Celebration_2017.jpg
+questions:
+  - text: "Quel est le nom de l'ordre 66 dans Star Wars ?"
+    answers:
+      A: "Ordre 65"
+      B: "Ordre 67"
+      C: "Ordre 66"
+      D: "Ordre 99"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Order 66 in Star Wars?"
+        answers:
+          A: "Order 65"
+          B: "Order 67"
+          C: "Order 66"
+          D: "Order 99"
+    difficulty: MEDIUM
+  - text: "Qui a entraîné Anakin Skywalker dans la Force ?"
+    answers:
+      A: "Obi-Wan Kenobi"
+      B: "Yoda"
+      C: "Mace Windu"
+      D: "Qui-Gon Jinn"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who trained Anakin Skywalker in the Force?"
+        answers:
+          A: "Obi-Wan Kenobi"
+          B: "Yoda"
+          C: "Mace Windu"
+          D: "Qui-Gon Jinn"
+    difficulty: EASY
+  - text: "Quel est le nom du chasseur stellaire personnel de Dark Vador ?"
+    answers:
+      A: "TIE Defender"
+      B: "TIE Interceptor"
+      C: "TIE Bomber"
+      D: "TIE Advanced x1"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Darth Vader's personal starfighter?"
+        answers:
+          A: "TIE Defender"
+          B: "TIE Interceptor"
+          C: "TIE Bomber"
+          D: "TIE Advanced x1"
+    difficulty: HARD
+  - text: "Qui a joué le rôle de Padmé Amidala dans la prélogie ?"
+    answers:
+      A: "Keira Knightley"
+      B: "Natalie Portman"
+      C: "Carrie Fisher"
+      D: "Daisy Ridley"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who played Padmé Amidala in the prequel trilogy?"
+        answers:
+          A: "Keira Knightley"
+          B: "Natalie Portman"
+          C: "Carrie Fisher"
+          D: "Daisy Ridley"
+    difficulty: MEDIUM
+  - text: "Quelles armes manient-ils en duel ?"
+    imageUrl: wikipedia/movies/Lightsaber_demo_by_Les_Gardiens_de_la_Force_at_Brussels_Comic_Con_2019_(33420891878).jpg
+    answers:
+      A: "des blasters"
+      B: "des bâtons gaffi"
+      C: "des électro-bâtons"
+      D: "des sabres laser"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What weapons do they wield in a duel?"
+        answers:
+          A: "blasters"
+          B: "gaffi sticks"
+          C: "electrostaffs"
+          D: "lightsabers"
+    difficulty: EASY
+  - text: "Quel est le numéro de la base Echo sur Hoth ?"
+    answers:
+      A: "Base Delta"
+      B: "Base Alpha"
+      C: "Base Echo"
+      D: "Base Gamma"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the designation of Echo Base on Hoth?"
+        answers:
+          A: "Delta Base"
+          B: "Alpha Base"
+          C: "Echo Base"
+          D: "Gamma Base"
+    difficulty: HARD
+  - text: "Qui a composé la musique de tous les films Star Wars ?"
+    answers:
+      A: "Hans Zimmer"
+      B: "Michael Giacchino"
+      C: "John Williams"
+      D: "Danny Elfman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the music for all the Star Wars films?"
+        answers:
+          A: "Hans Zimmer"
+          B: "Michael Giacchino"
+          C: "John Williams"
+          D: "Danny Elfman"
+    difficulty: EASY
+  - text: "Quel est le nom de la planète natale de Chewbacca ?"
+    answers:
+      A: "Endor"
+      B: "Corellia"
+      C: "Naboo"
+      D: "Kashyyyk"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Chewbacca's home planet?"
+        answers:
+          A: "Endor"
+          B: "Corellia"
+          C: "Naboo"
+          D: "Kashyyyk"
+    difficulty: HARD
+  - text: "Quel vaisseau est le Faucon Millenium ?"
+    answers:
+      A: "X-wing"
+      B: "YT-1300"
+      C: "TIE Fighter"
+      D: "Star Destroyer"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What kind of ship is the Millennium Falcon?"
+        answers:
+          A: "X-wing"
+          B: "YT-1300"
+          C: "TIE Fighter"
+          D: "Star Destroyer"
+    difficulty: EASY
+  - text: "Qui a tué Jabba le Hutt ?"
+    answers:
+      A: "Leia Organa"
+      B: "Luke Skywalker"
+      C: "Han Solo"
+      D: "Lando Calrissian"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who killed Jabba the Hutt?"
+        answers:
+          A: "Leia Organa"
+          B: "Luke Skywalker"
+          C: "Han Solo"
+          D: "Lando Calrissian"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du sabre laser de Dark Vador ?"
+    answers:
+      A: "Sabre laser rouge"
+      B: "Sabre de Sang"
+      C: "Sabre noir"
+      D: "Sabre de Vador"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Darth Vader's lightsaber?"
+        answers:
+          A: "Red lightsaber"
+          B: "Blood Saber"
+          C: "Black Saber"
+          D: "Vader's Saber"
+    difficulty: EXPERT
+  - text: "Qui est le chasseur de primes qui capture Han Solo dans « L'Empire contre-attaque » ?"
+    answers:
+      A: "Dengar"
+      B: "IG-88"
+      C: "Bossk"
+      D: "Boba Fett"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the bounty hunter who captures Han Solo in 'The Empire Strikes Back'?"
+        answers:
+          A: "Dengar"
+          B: "IG-88"
+          C: "Bossk"
+          D: "Boba Fett"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du maître Jedi qui a découvert Anakin sur Tatooine ?"
+    answers:
+      A: "Qui-Gon Jinn"
+      B: "Obi-Wan Kenobi"
+      C: "Yoda"
+      D: "Mace Windu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Jedi Master who discovered Anakin on Tatooine?"
+        answers:
+          A: "Qui-Gon Jinn"
+          B: "Obi-Wan Kenobi"
+          C: "Yoda"
+          D: "Mace Windu"
+    difficulty: EASY
+  - text: "Quel est le nom de la reine de Naboo dans « La Menace fantôme » ?"
+    answers:
+      A: "Sabé"
+      B: "Padmé Amidala"
+      C: "Mon Mothma"
+      D: "Bail Organa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Queen of Naboo in 'The Phantom Menace'?"
+        answers:
+          A: "Sabé"
+          B: "Padmé Amidala"
+          C: "Mon Mothma"
+          D: "Bail Organa"
+    difficulty: MEDIUM
+  - text: "Quel droïde est le fidèle compagnon de Anakin Skywalker ?"
+    answers:
+      A: "K-2SO"
+      B: "C-3PO"
+      C: "BB-8"
+      D: "R2-D2"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which droid is Anakin Skywalker's loyal companion?"
+        answers:
+          A: "K-2SO"
+          B: "C-3PO"
+          C: "BB-8"
+          D: "R2-D2"
+    difficulty: EASY
+  - text: "Quel est le nom de l'arme secrète de l'Empire dans « Le Retour du Jedi » ?"
+    answers:
+      A: "Étoile Noire"
+      B: "Étoile de la Mort"
+      C: "Base Starkiller"
+      D: "Canon à ions"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Empire's secret weapon in \"Return of the Jedi\"?"
+        answers:
+          A: "Black Star"
+          B: "Death Star"
+          C: "Starkiller Base"
+          D: "Ion cannon"
+    difficulty: MEDIUM
+  - text: "Qui a joué le rôle de Dark Maul dans « La Menace fantôme » ?"
+    answers:
+      A: "Peter Serafinowicz"
+      B: "Ray Park"
+      C: "Sam Witwer"
+      D: "David Prowse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who played the role of Darth Maul in \"The Phantom Menace\"?"
+        answers:
+          A: "Peter Serafinowicz"
+          B: "Ray Park"
+          C: "Sam Witwer"
+          D: "David Prowse"
+    difficulty: HARD
+  - text: "Quel est le nom du vaisseau amiral de l'Empire dans « Un nouvel espoir » ?"
+    answers:
+      A: "Malevolence"
+      B: "Executor"
+      C: "Finalizer"
+      D: "Devastator"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Empire's flagship in \"A New Hope\"?"
+        answers:
+          A: "Malevolence"
+          B: "Executor"
+          C: "Finalizer"
+          D: "Devastator"
+    difficulty: HARD
+  - text: "Qui a entraîné Luke Skywalker sur Dagobah ?"
+    answers:
+      A: "Obi-Wan Kenobi"
+      B: "Qui-Gon Jinn"
+      C: "Yoda"
+      D: "Mace Windu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who trained Luke Skywalker on Dagobah?"
+        answers:
+          A: "Obi-Wan Kenobi"
+          B: "Qui-Gon Jinn"
+          C: "Yoda"
+          D: "Mace Windu"
+    difficulty: EASY
+  - text: "Quel est le nom de la planète volcanique où Anakin et Obi-Wan s'affrontent ?"
+    answers:
+      A: "Kamino"
+      B: "Geonosis"
+      C: "Mustafar"
+      D: "Utapau"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the volcanic planet where Anakin and Obi-Wan face off?"
+        answers:
+          A: "Kamino"
+          B: "Geonosis"
+          C: "Mustafar"
+          D: "Utapau"
+    difficulty: MEDIUM
+  - text: "Qui est le père de Kylo Ren ?"
+    answers:
+      A: "Luke Skywalker"
+      B: "Obi-Wan Kenobi"
+      C: "Lando Calrissian"
+      D: "Han Solo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is Kylo Ren's father?"
+        answers:
+          A: "Luke Skywalker"
+          B: "Obi-Wan Kenobi"
+          C: "Lando Calrissian"
+          D: "Han Solo"
+    difficulty: EASY
+  - text: "Quel est le nom du croiseur mon calamari amiral de la flotte rebelle à Endor ?"
+    answers:
+      A: "Liberty"
+      B: "Home One"
+      C: "Defiance"
+      D: "Independence"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Mon Calamari cruiser flagship of the Rebel fleet at Endor?"
+        answers:
+          A: "Liberty"
+          B: "Home One"
+          C: "Defiance"
+          D: "Independence"
+    difficulty: EXPERT
+  - text: "Quel est le nom du vaisseau de comte Dooku dans « L'Attaque des clones » ?"
+    answers:
+      A: "Solar Sailer"
+      B: "Invisible Hand"
+      C: "Geonosian"
+      D: "Grievous"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Count Dooku's ship in \"Attack of the Clones\"?"
+        answers:
+          A: "Solar Sailer"
+          B: "Invisible Hand"
+          C: "Geonosian"
+          D: "Grievous"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la planète natale de Jango Fett ?"
+    answers:
+      A: "Kamino"
+      B: "Galidraan"
+      C: "Mandalore"
+      D: "Concord Dawn"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Jango Fett's home planet?"
+        answers:
+          A: "Kamino"
+          B: "Galidraan"
+          C: "Mandalore"
+          D: "Concord Dawn"
+    difficulty: HARD
+  - text: "Quel est le numéro de la station de combat Étoile de la Mort dans « Un nouvel espoir » ?"
+    answers:
+      A: "DS-4"
+      B: "DS-2"
+      C: "DS-3"
+      D: "DS-1"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the number of the Death Star battle station in \"A New Hope\"?"
+        answers:
+          A: "DS-4"
+          B: "DS-2"
+          C: "DS-3"
+          D: "DS-1"
+    difficulty: EXPERT
+  - text: "Qui a joué le rôle de Mace Windu dans la prélogie ?"
+    answers:
+      A: "Samuel L. Jackson"
+      B: "Denzel Washington"
+      C: "Morgan Freeman"
+      D: "Laurence Fishburne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who played the role of Mace Windu in the prequel trilogy?"
+        answers:
+          A: "Samuel L. Jackson"
+          B: "Denzel Washington"
+          C: "Morgan Freeman"
+          D: "Laurence Fishburne"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chasseur stellaire personnel de Luke Skywalker dans « Un nouvel espoir » ?"
+    answers:
+      A: "X-wing"
+      B: "Y-wing"
+      C: "A-wing"
+      D: "B-wing"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Luke Skywalker's personal starfighter in \"A New Hope\"?"
+        answers:
+          A: "X-wing"
+          B: "Y-wing"
+          C: "A-wing"
+          D: "B-wing"
+    difficulty: HARD
+  - text: "Quel est le nom du maître Jedi qui a formé Obi-Wan Kenobi ?"
+    answers:
+      A: "Qui-Gon Jinn"
+      B: "Mace Windu"
+      C: "Yoda"
+      D: "Ki-Adi-Mundi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Jedi master who trained Obi-Wan Kenobi?"
+        answers:
+          A: "Qui-Gon Jinn"
+          B: "Mace Windu"
+          C: "Yoda"
+          D: "Ki-Adi-Mundi"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chasseur de primes qui travaille pour Jabba le Hutt et apparaît dans « Un nouvel espoir » ?"
+    answers:
+      A: "Greedo"
+      B: "Boba Fett"
+      C: "Dengar"
+      D: "Bossk"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the bounty hunter who works for Jabba the Hutt and appears in \"A New Hope\"?"
+        answers:
+          A: "Greedo"
+          B: "Boba Fett"
+          C: "Dengar"
+          D: "Bossk"
+    difficulty: HARD
+  - text: "Quelle espèce ce cosplay représente-t-il ?"
+    imageUrl: wikipedia/movies/Ewok_jedi_Cosplay_from_Star_Wars_Celebration_2017.jpg
+    answers:
+      A: "un Jawa"
+      B: "un Gungan"
+      C: "un Wookiee"
+      D: "un Ewok"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which species does this cosplay represent?"
+        answers:
+          A: "a Jawa"
+          B: "a Gungan"
+          C: "a Wookiee"
+          D: "an Ewok"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la planète glaciaire où la base Echo est située ?"
+    answers:
+      A: "Rhen Var"
+      B: "Ilum"
+      C: "Hoth"
+      D: "Mygeeto"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the icy planet where Echo Base is located?"
+        answers:
+          A: "Rhen Var"
+          B: "Ilum"
+          C: "Hoth"
+          D: "Mygeeto"
+    difficulty: EASY
+  - text: "Quel est le nom du vaisseau de transport de troupes impérial vu dans « L'Empire contre-attaque » ?"
+    answers:
+      A: "AT-RT"
+      B: "AT-ST"
+      C: "AT-TE"
+      D: "AT-AT"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Imperial troop transport seen in \"The Empire Strikes Back\"?"
+        answers:
+          A: "AT-RT"
+          B: "AT-ST"
+          C: "AT-TE"
+          D: "AT-AT"
+    difficulty: EXPERT
+  - text: "Quel est le nom du sabre laser de Mace Windu ?"
+    answers:
+      A: "Sabre de Mace"
+      B: "Sabre de l'élu"
+      C: "Sabre de la Force"
+      D: "Sabre de Windu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Mace Windu's lightsaber?"
+        answers:
+          A: "Mace's Saber"
+          B: "The Chosen One's Saber"
+          C: "The Force Saber"
+          D: "Windu's Saber"
+    difficulty: EXPERT
+  - text: "Qui a entraîné Rey dans la Force dans la postlogie ?"
+    answers:
+      A: "Leia Organa"
+      B: "Luke Skywalker"
+      C: "Kylo Ren"
+      D: "Snoke"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who trained Rey in the Force in the sequel trilogy?"
+        answers:
+          A: "Leia Organa"
+          B: "Luke Skywalker"
+          C: "Kylo Ren"
+          D: "Snoke"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du vaisseau amiral de la Première Ordre dans « Le Réveil de la Force » ?"
+    answers:
+      A: "Supremacy"
+      B: "Finalizer"
+      C: "Resurgent"
+      D: "Executor"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the First Order's flagship in \"The Force Awakens\"?"
+        answers:
+          A: "Supremacy"
+          B: "Finalizer"
+          C: "Resurgent"
+          D: "Executor"
+    difficulty: HARD
+  - text: "Quel est le nom de la planète désertique où Rey vit au début de « Le Réveil de la Force » ?"
+    answers:
+      A: "Pasaana"
+      B: "Tatooine"
+      C: "Jedha"
+      D: "Jakku"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the desert planet where Rey lives at the beginning of \"The Force Awakens\"?"
+        answers:
+          A: "Pasaana"
+          B: "Tatooine"
+          C: "Jedha"
+          D: "Jakku"
+    difficulty: EASY
+  - text: "Quel est le nom du droïde astromécano de Poe Dameron dans la postlogie ?"
+    answers:
+      A: "BB-8"
+      B: "R2-D2"
+      C: "D-O"
+      D: "CB-23"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Poe Dameron's astromech droid in the sequel trilogy?"
+        answers:
+          A: "BB-8"
+          B: "R2-D2"
+          C: "D-O"
+          D: "CB-23"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chasseur stellaire personnel de Kylo Ren dans « Le Réveil de la Force » ?"
+    answers:
+      A: "TIE silencer"
+      B: "TIE advanced"
+      C: "TIE interceptor"
+      D: "TIE bomber"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Kylo Ren's personal starfighter in \"The Force Awakens\"?"
+        answers:
+          A: "TIE silencer"
+          B: "TIE advanced"
+          C: "TIE interceptor"
+          D: "TIE bomber"
+    difficulty: HARD
+  - text: "Quel est le nom de la planète natale de Finn ?"
+    answers:
+      A: "Inconnue"
+      B: "Jakku"
+      C: "Coruscant"
+      D: "Corellia"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Finn's home planet?"
+        answers:
+          A: "Unknown"
+          B: "Jakku"
+          C: "Coruscant"
+          D: "Corellia"
+    difficulty: EXPERT
+  - text: "Quel est le nom du vaisseau de Dark Maul dans « La Menace fantôme » ?"
+    answers:
+      A: "Sith Infiltrator"
+      B: "Scimitar"
+      C: "Bloodfin"
+      D: "Nightbrother"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Darth Maul's ship in \"The Phantom Menace\"?"
+        answers:
+          A: "Sith Infiltrator"
+          B: "Scimitar"
+          C: "Bloodfin"
+          D: "Nightbrother"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le jeune Anakin Skywalker dans « La Menace fantôme » ?"
+    answers:
+      A: "Jake Lloyd"
+      B: "Hayden Christensen"
+      C: "Ewan McGregor"
+      D: "Liam Neeson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays young Anakin Skywalker in \"The Phantom Menace\"?"
+        answers:
+          A: "Jake Lloyd"
+          B: "Hayden Christensen"
+          C: "Ewan McGregor"
+          D: "Liam Neeson"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la planète natale de l'Empire dans « Un nouvel espoir » ?"
+    answers:
+      A: "Kessel"
+      B: "Alderaan"
+      C: "Corellia"
+      D: "Coruscant"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Empire's home planet in \"A New Hope\"?"
+        answers:
+          A: "Kessel"
+          B: "Alderaan"
+          C: "Corellia"
+          D: "Coruscant"
+    difficulty: EXPERT
+  - text: "Combien de doigts possède Yoda ?"
+    answers:
+      A: "Quatre"
+      B: "Trois"
+      C: "Cinq"
+      D: "Six"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many fingers does Yoda have?"
+        answers:
+          A: "Four"
+          B: "Three"
+          C: "Five"
+          D: "Six"
+    difficulty: HARD
+  - text: "Quel personnage de la saga ce cosplay incarne-t-il ?"
+    imageUrl: wikipedia/movies/Ahsoka_Tano_Cosplayer_at_Star_Wars_Celebration_2017.jpg
+    answers:
+      A: "Aayla Secura"
+      B: "Asajj Ventress"
+      C: "Ahsoka Tano"
+      D: "Shaak Ti"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which saga character is this cosplay portraying?"
+        answers:
+          A: "Aayla Secura"
+          B: "Asajj Ventress"
+          C: "Ahsoka Tano"
+          D: "Shaak Ti"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du sabre laser à double lame utilisé par Dark Maul ?"
+    answers:
+      A: "Sabre courbe"
+      B: "Sabre double"
+      C: "Sabre croisé"
+      D: "Sabre long"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the double-bladed lightsaber used by Darth Maul?"
+        answers:
+          A: "Curved saber"
+          B: "Double saber"
+          C: "Crossguard saber"
+          D: "Long saber"
+    difficulty: HARD
+  - text: "Qui a joué le rôle de l'amiral Ackbar dans la trilogie originale ?"
+    answers:
+      A: "Timothy D. Rose"
+      B: "Erik Bauersfeld"
+      C: "Frank Oz"
+      D: "Peter Mayhew"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who played the role of Admiral Ackbar in the original trilogy?"
+        answers:
+          A: "Timothy D. Rose"
+          B: "Erik Bauersfeld"
+          C: "Frank Oz"
+          D: "Peter Mayhew"
+    difficulty: HARD
+  - text: "Quel est le nom du croiseur de l'Alliance Rebelle détruit lors de la bataille de Scarif ?"
+    answers:
+      A: "Liberty"
+      B: "Home One"
+      C: "Profundity"
+      D: "Redemption"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Rebel Alliance cruiser destroyed during the Battle of Scarif?"
+        answers:
+          A: "Liberty"
+          B: "Home One"
+          C: "Profundity"
+          D: "Redemption"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur TIE personnel de l'amiral Thrawn ?"
+    answers:
+      A: "TIE Bomber"
+      B: "TIE Interceptor"
+      C: "TIE Advanced"
+      D: "TIE Defender"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Admiral Thrawn's personal TIE fighter?"
+        answers:
+          A: "TIE Bomber"
+          B: "TIE Interceptor"
+          C: "TIE Advanced"
+          D: "TIE Defender"
+    difficulty: EXPERT
+  - text: "Quel est le nom du groupe de contrebandiers dirigé par Enfys Nest ?"
+    answers:
+      A: "Partisans"
+      B: "Cloud-Riders"
+      C: "Aurora"
+      D: "Crimson Dawn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the group of smugglers led by Enfys Nest?"
+        answers:
+          A: "Partisans"
+          B: "Cloud-Riders"
+          C: "Aurora"
+          D: "Crimson Dawn"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la ville souterraine sur la planète Corellia ?"
+    answers:
+      A: "Coronet"
+      B: "Coruscant"
+      C: "Canto Bight"
+      D: "Jedha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the underground city on the planet Corellia?"
+        answers:
+          A: "Coronet"
+          B: "Coruscant"
+          C: "Canto Bight"
+          D: "Jedha"
+    difficulty: EXPERT
+  - text: "Quel est le nom du vaisseau de Dryden Vos dans « Solo » ?"
+    answers:
+      A: "Aurora"
+      B: "Vermillion"
+      C: "First Light"
+      D: "Halo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Dryden Vos's ship in \"Solo\"?"
+        answers:
+          A: "Aurora"
+          B: "Vermillion"
+          C: "First Light"
+          D: "Halo"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la reine de Naboo qui précède Padmé Amidala ?"
+    answers:
+      A: "Reine Kylantha"
+      B: "Reine Apailana"
+      C: "Reine Neeyutnee"
+      D: "Reine Jamillia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the queen of Naboo who preceded Padmé Amidala?"
+        answers:
+          A: "Queen Kylantha"
+          B: "Queen Apailana"
+          C: "Queen Neeyutnee"
+          D: "Queen Jamillia"
+    difficulty: EXPERT
+  - text: "À quel peuple de Tatooine appartient ce cosplay ?"
+    imageUrl: wikipedia/movies/Tusken_Raider_Cosplay_at_Star_Wars_Celebration_V.jpg
+    answers:
+      A: "les Jawas"
+      B: "les Tuskens"
+      C: "les Gungans"
+      D: "les Ewoks"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which people of Tatooine does this cosplay belong?"
+        answers:
+          A: "the Jawas"
+          B: "the Tuskens"
+          C: "the Gungans"
+          D: "the Ewoks"
+    difficulty: HARD
+  - text: "Quel est le nom du maître Jedi qui a formé Qui-Gon Jinn ?"
+    answers:
+      A: "Yoda"
+      B: "Comte Dooku"
+      C: "Mace Windu"
+      D: "Obi-Wan Kenobi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Jedi Master who trained Qui-Gon Jinn?"
+        answers:
+          A: "Yoda"
+          B: "Count Dooku"
+          C: "Mace Windu"
+          D: "Obi-Wan Kenobi"
+    difficulty: HARD
+  - text: "Quel est le nom du sabre laser de Yoda ?"
+    answers:
+      A: "Sabre court"
+      B: "Sabre double"
+      C: "Sabre courbe"
+      D: "Sabre long"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Yoda's lightsaber?"
+        answers:
+          A: "Short saber"
+          B: "Double saber"
+          C: "Curved saber"
+          D: "Long saber"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur stellaire personnel de Poe Dameron ?"
+    answers:
+      A: "Blue Leader"
+      B: "Red Five"
+      C: "Black One"
+      D: "Gold Leader"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Poe Dameron's personal starfighter?"
+        answers:
+          A: "Blue Leader"
+          B: "Red Five"
+          C: "Black One"
+          D: "Gold Leader"
+    difficulty: HARD
+  - text: "Quel est le nom du droïde de protocole de la Résistance dans la postlogie ?"
+    answers:
+      A: "C-3PO"
+      B: "R2-D2"
+      C: "BB-8"
+      D: "D-O"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Resistance protocol droid in the sequel trilogy?"
+        answers:
+          A: "C-3PO"
+          B: "R2-D2"
+          C: "BB-8"
+          D: "D-O"
+    difficulty: HARD
+  - text: "Quel est le nom du vaisseau de transport de troupes de la Résistance dans « Le Dernier Jedi » ?"
+    answers:
+      A: "Anodyne"
+      B: "Ninka"
+      C: "Raddus"
+      D: "Vigil"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Resistance troop transport in \"The Last Jedi\"?"
+        answers:
+          A: "Anodyne"
+          B: "Ninka"
+          C: "Raddus"
+          D: "Vigil"
+    difficulty: EXPERT
+  - text: "Quel est le nom du maître Jedi qui a formé Mace Windu ?"
+    answers:
+      A: "Obi-Wan Kenobi"
+      B: "Comte Dooku"
+      C: "Qui-Gon Jinn"
+      D: "Yoda"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Jedi Master who trained Mace Windu?"
+        answers:
+          A: "Obi-Wan Kenobi"
+          B: "Count Dooku"
+          C: "Qui-Gon Jinn"
+          D: "Yoda"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la planète natale de l'amiral Ackbar ?"
+    answers:
+      A: "Chandrila"
+      B: "Dac"
+      C: "Mon Cala"
+      D: "Bothawui"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Admiral Ackbar's home planet?"
+        answers:
+          A: "Chandrila"
+          B: "Dac"
+          C: "Mon Cala"
+          D: "Bothawui"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur stellaire personnel de l'Empereur Palpatine ?"
+    answers:
+      A: "TIE Advanced"
+      B: "Lambda"
+      C: "Delta-7"
+      D: "Eta-2"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Emperor Palpatine's personal starfighter?"
+        answers:
+          A: "TIE Advanced"
+          B: "Lambda"
+          C: "Delta-7"
+          D: "Eta-2"
+    difficulty: EXPERT
+  - text: "Quel est le nom du sabre laser de Kylo Ren ?"
+    answers:
+      A: "Sabre long"
+      B: "Sabre double"
+      C: "Sabre courbe"
+      D: "Sabre croisé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Kylo Ren's lightsaber?"
+        answers:
+          A: "Long saber"
+          B: "Double-bladed saber"
+          C: "Curved saber"
+          D: "Crossguard saber"
+    difficulty: HARD
+  - text: "Quel est le nom de famille de l'acteur qui incarne Boba Fett dans « L'Empire contre-attaque » ?"
+    answers:
+      A: "Morrison"
+      B: "Bulloch"
+      C: "Logan"
+      D: "Kurtz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the surname of the actor who plays Boba Fett in \"The Empire Strikes Back\"?"
+        answers:
+          A: "Morrison"
+          B: "Bulloch"
+          C: "Logan"
+          D: "Kurtz"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur de primes qui capture Han Solo sur Bespin dans « L'Empire contre-attaque » ?"
+    answers:
+      A: "IG-88"
+      B: "Dengar"
+      C: "Bossk"
+      D: "Boba Fett"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the bounty hunter who captures Han Solo on Bespin in \"The Empire Strikes Back\"?"
+        answers:
+          A: "IG-88"
+          B: "Dengar"
+          C: "Bossk"
+          D: "Boba Fett"
+    difficulty: HARD
+  - text: "Quel est le nom du sabre laser à double lame utilisé par Dark Maul dans « La Menace fantôme » ?"
+    answers:
+      A: "Sabre double"
+      B: "Sabre à deux lames"
+      C: "Sabrestaff"
+      D: "Sabre laser à double lame"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the double-bladed lightsaber used by Darth Maul in \"The Phantom Menace\"?"
+        answers:
+          A: "Double saber"
+          B: "Two-bladed saber"
+          C: "Saberstaff"
+          D: "Double-bladed lightsaber"
+    difficulty: HARD
+  - text: "Quel est le nom de la sénatrice qui s'oppose à la loi de régulation de la Banque Intergalactique dans « L'Attaque des clones » ?"
+    answers:
+      A: "Bail Organa"
+      B: "Mon Mothma"
+      C: "Padmé Amidala"
+      D: "Lux Bonteri"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the senator who opposes the Banking Clan regulation bill in \"Attack of the Clones\"?"
+        answers:
+          A: "Bail Organa"
+          B: "Mon Mothma"
+          C: "Padmé Amidala"
+          D: "Lux Bonteri"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur de primes qui aide Obi-Wan sur Kamino dans « L'Attaque des clones » ?"
+    answers:
+      A: "Aurra Sing"
+      B: "Boba Fett"
+      C: "Cad Bane"
+      D: "Jango Fett"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the bounty hunter who helps Obi-Wan on Kamino in \"Attack of the Clones\"?"
+        answers:
+          A: "Aurra Sing"
+          B: "Boba Fett"
+          C: "Cad Bane"
+          D: "Jango Fett"
+    difficulty: HARD
+  - text: "En quelle année est sorti « La Revanche des Sith » ?"
+    answers:
+      A: "2005"
+      B: "2004"
+      C: "2003"
+      D: "2006"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was \"Revenge of the Sith\" released?"
+        answers:
+          A: "2005"
+          B: "2004"
+          C: "2003"
+          D: "2006"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du vaisseau de sauvetage utilisé par Padmé et Anakin au début de « La Revanche des Sith » ?"
+    answers:
+      A: "Jedi Interceptor"
+      B: "Radiant VII"
+      C: "Tantive IV"
+      D: "Sundered Heart"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the escape shuttle used by Padmé and Anakin at the beginning of \"Revenge of the Sith\"?"
+        answers:
+          A: "Jedi Interceptor"
+          B: "Radiant VII"
+          C: "Tantive IV"
+          D: "Sundered Heart"
+    difficulty: EXPERT
+  - text: "Qui a réalisé « Rogue One: A Star Wars Story » ?"
+    answers:
+      A: "Gareth Edwards"
+      B: "J.J. Abrams"
+      C: "Rian Johnson"
+      D: "Ron Howard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed \"Rogue One: A Star Wars Story\"?"
+        answers:
+          A: "Gareth Edwards"
+          B: "J.J. Abrams"
+          C: "Rian Johnson"
+          D: "Ron Howard"
+    difficulty: HARD
+  - text: "Quel est le nom de la planète où se trouve le temple Jedi détruit dans « Le Réveil de la Force » ?"
+    answers:
+      A: "Yavin 4"
+      B: "Dantooine"
+      C: "Ilum"
+      D: "Dagobah"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the planet where the destroyed Jedi temple is located in \"The Force Awakens\"?"
+        answers:
+          A: "Yavin 4"
+          B: "Dantooine"
+          C: "Ilum"
+          D: "Dagobah"
+    difficulty: HARD
+  - text: "Quel est le nom du chef de la Résistance dans la postlogie ?"
+    answers:
+      A: "Amilyn Holdo"
+      B: "Leia Organa"
+      C: "Poe Dameron"
+      D: "Finn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the leader of the Resistance in the sequel trilogy?"
+        answers:
+          A: "Amilyn Holdo"
+          B: "Leia Organa"
+          C: "Poe Dameron"
+          D: "Finn"
+    difficulty: HARD
+  - text: "Quel est le nom du sabre laser utilisé par Dark Vador dans la trilogie originale ?"
+    answers:
+      A: "Sabre de Count Dooku"
+      B: "Sabre d'Anakin Skywalker"
+      C: "Sabre de Dark Maul"
+      D: "Sabre de Mace Windu"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the lightsaber used by Darth Vader in the original trilogy?"
+        answers:
+          A: "Count Dooku's saber"
+          B: "Anakin Skywalker's saber"
+          C: "Darth Maul's saber"
+          D: "Mace Windu's saber"
+    difficulty: HARD
+  - text: "Quel est le nom de la planète natale de Boba Fett ?"
+    answers:
+      A: "Kamino"
+      B: "Géonosis"
+      C: "Concord Dawn"
+      D: "Mandalore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Boba Fett's home planet?"
+        answers:
+          A: "Kamino"
+          B: "Geonosis"
+          C: "Concord Dawn"
+          D: "Mandalore"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur stellaire personnel de Dark Vador dans « Un nouvel espoir » ?"
+    answers:
+      A: "TIE Advanced x1"
+      B: "TIE Interceptor"
+      C: "TIE Bomber"
+      D: "TIE Defender"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Darth Vader's personal starfighter in \"A New Hope\"?"
+        answers:
+          A: "TIE Advanced x1"
+          B: "TIE Interceptor"
+          C: "TIE Bomber"
+          D: "TIE Defender"
+    difficulty: EXPERT
+  - text: "Qui a composé la musique de tous les films de la saga Skywalker ?"
+    answers:
+      A: "Danny Elfman"
+      B: "Hans Zimmer"
+      C: "Michael Giacchino"
+      D: "John Williams"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the music for all the films in the Skywalker saga?"
+        answers:
+          A: "Danny Elfman"
+          B: "Hans Zimmer"
+          C: "Michael Giacchino"
+          D: "John Williams"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du droïde astromécano de la reine Amidala dans « La Menace fantôme » ?"
+    answers:
+      A: "R4-P17"
+      B: "R5-D4"
+      C: "R2-D2"
+      D: "R3-S6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Queen Amidala's astromech droid in \"The Phantom Menace\"?"
+        answers:
+          A: "R4-P17"
+          B: "R5-D4"
+          C: "R2-D2"
+          D: "R3-S6"
+    difficulty: HARD
+  - text: "En quelle année est sorti « Le Réveil de la Force » ?"
+    answers:
+      A: "2015"
+      B: "2014"
+      C: "2013"
+      D: "2016"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was \"The Force Awakens\" released?"
+        answers:
+          A: "2015"
+          B: "2014"
+          C: "2013"
+          D: "2016"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la planète où Anakin et Padmé se marient en secret dans « L'Attaque des clones » ?"
+    answers:
+      A: "Alderaan"
+      B: "Coruscant"
+      C: "Tatooine"
+      D: "Naboo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the planet where Anakin and Padmé secretly marry in \"Attack of the Clones\"?"
+        answers:
+          A: "Alderaan"
+          B: "Coruscant"
+          C: "Tatooine"
+          D: "Naboo"
+    difficulty: HARD
+  - text: "Quel est le nom du vaisseau amiral de la flotte rebelle lors de la bataille d'Endor ?"
+    answers:
+      A: "Liberty"
+      B: "Home One"
+      C: "Nautilian"
+      D: "Independence"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Rebel fleet's flagship at the Battle of Endor?"
+        answers:
+          A: "Liberty"
+          B: "Home One"
+          C: "Nautilian"
+          D: "Independence"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la super-arme de la Première Ordre dans « Le Réveil de la Force » ?"
+    answers:
+      A: "Canon à ions"
+      B: "Étoile de la Mort"
+      C: "Base Starkiller"
+      D: "Bouclier planétaire"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the First Order's superweapon in \"The Force Awakens\"?"
+        answers:
+          A: "Ion cannon"
+          B: "Death Star"
+          C: "Starkiller Base"
+          D: "Planetary shield"
+    difficulty: HARD
+  - text: "Quel est le nom du maître Jedi qui a formé Count Dooku ?"
+    answers:
+      A: "Mace Windu"
+      B: "Yoda"
+      C: "Qui-Gon Jinn"
+      D: "Obi-Wan Kenobi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Jedi Master who trained Count Dooku?"
+        answers:
+          A: "Mace Windu"
+          B: "Yoda"
+          C: "Qui-Gon Jinn"
+          D: "Obi-Wan Kenobi"
+    difficulty: HARD
+  - text: "Quel est le nom de la planète natale de l'Empereur Palpatine ?"
+    answers:
+      A: "Alderaan"
+      B: "Coruscant"
+      C: "Naboo"
+      D: "Corellia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Emperor Palpatine's home planet?"
+        answers:
+          A: "Alderaan"
+          B: "Coruscant"
+          C: "Naboo"
+          D: "Corellia"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur stellaire personnel de Luke Skywalker dans « Le Retour du Jedi » ?"
+    answers:
+      A: "B-wing"
+      B: "Y-wing"
+      C: "A-wing"
+      D: "X-wing"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Luke Skywalker's personal starfighter in \"Return of the Jedi\"?"
+        answers:
+          A: "B-wing"
+          B: "Y-wing"
+          C: "A-wing"
+          D: "X-wing"
+    difficulty: EXPERT
+  - text: "Quel vaisseau constitue le vaisseau amiral de Dark Vador lors de la bataille d'Endor ?"
+    answers:
+      A: "Le Devastator"
+      B: "L'Executor"
+      C: "Le Finalizer"
+      D: "Le Ravager"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ship serves as Darth Vader's flagship during the Battle of Endor?"
+        answers:
+          A: "The Devastator"
+          B: "The Executor"
+          C: "The Finalizer"
+          D: "The Ravager"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le jeune Boba Fett dans « L'Attaque des clones » ?"
+    answers:
+      A: "Temuera Morrison"
+      B: "Jay Laga'aia"
+      C: "Bodie Taylor"
+      D: "Daniel Logan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays young Boba Fett in \"Attack of the Clones\"?"
+        answers:
+          A: "Temuera Morrison"
+          B: "Jay Laga'aia"
+          C: "Bodie Taylor"
+          D: "Daniel Logan"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chasseur de primes qui capture Han Solo sur Bespin ?"
+    answers:
+      A: "IG-88"
+      B: "Boba Fett"
+      C: "Zuckuss"
+      D: "Dengar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the bounty hunter who captures Han Solo on Bespin?"
+        answers:
+          A: "IG-88"
+          B: "Boba Fett"
+          C: "Zuckuss"
+          D: "Dengar"
+    difficulty: HARD
+  - text: "Quelle planète est le monde natal des Wookiees ?"
+    answers:
+      A: "Ryloth"
+      B: "Endor"
+      C: "Kashyyyk"
+      D: "Felucia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which planet is the homeworld of the Wookiees?"
+        answers:
+          A: "Ryloth"
+          B: "Endor"
+          C: "Kashyyyk"
+          D: "Felucia"
+    difficulty: MEDIUM
+  - text: "À quel peuple appartient l'armure portée par ce cosplay ?"
+    imageUrl: wikipedia/movies/Mandalorian_Cosplay_at_Star_Wars_Celebration_2017_02.jpg
+    answers:
+      A: "les Kaminoens"
+      B: "les Gungans"
+      C: "les Mandaloriens"
+      D: "les Ewoks"
+    correctAnswer: C
+    translations:
+      en:
+        text: "To which people does the armor worn by this cosplay belong?"
+        answers:
+          A: "the Kaminoans"
+          B: "the Gungans"
+          C: "the Mandalorians"
+          D: "the Ewoks"
+    difficulty: HARD
+  - text: "Quel Sith a formé Dark Maul ?"
+    answers:
+      A: "Dark Tyranus"
+      B: "Dark Sidious"
+      C: "Dark Plagueis"
+      D: "Dark Vador"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Sith trained Darth Maul?"
+        answers:
+          A: "Darth Tyranus"
+          B: "Darth Sidious"
+          C: "Darth Plagueis"
+          D: "Darth Vader"
+    difficulty: HARD
+  - text: "Quel est le vrai nom de Dark Vador ?"
+    answers:
+      A: "Owen Lars"
+      B: "Anakin Skywalker"
+      C: "Cliegg Lars"
+      D: "Ben Kenobi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Darth Vader's real name?"
+        answers:
+          A: "Owen Lars"
+          B: "Anakin Skywalker"
+          C: "Cliegg Lars"
+          D: "Ben Kenobi"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du croiseur stellaire de classe Venator qui sert de vaisseau amiral à Obi-Wan Kenobi durant les guerres des clones ?"
+    answers:
+      A: "Guarlara"
+      B: "Resolute"
+      C: "Negotiator"
+      D: "Endurance"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Venator-class Star Destroyer that serves as Obi-Wan Kenobi's flagship during the Clone Wars?"
+        answers:
+          A: "Guarlara"
+          B: "Resolute"
+          C: "Negotiator"
+          D: "Endurance"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la planète où se déroule la bataille finale de « La Revanche des Sith » entre Yoda et Dark Sidious ?"
+    answers:
+      A: "Coruscant"
+      B: "Utapau"
+      C: "Mustafar"
+      D: "Kashyyyk"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the planet where the final battle of \"Revenge of the Sith\" between Yoda and Darth Sidious takes place?"
+        answers:
+          A: "Coruscant"
+          B: "Utapau"
+          C: "Mustafar"
+          D: "Kashyyyk"
+    difficulty: HARD
+  - text: "Quel est le nom du chasseur de primes qui est le père de Boba Fett ?"
+    answers:
+      A: "Bossk"
+      B: "Jango Fett"
+      C: "IG-88"
+      D: "Dengar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the bounty hunter who is Boba Fett's father?"
+        answers:
+          A: "Bossk"
+          B: "Jango Fett"
+          C: "IG-88"
+          D: "Dengar"
+    difficulty: HARD
+  - text: "Dans « L'Attaque des clones », quel est le nom du bar où Obi-Wan Kenobi rencontre Zam Wesell ?"
+    answers:
+      A: "Cantina Mos Eisley"
+      B: "Dex's Diner"
+      C: "Bar Outlander"
+      D: "Club Obi-Wan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In \"Attack of the Clones\", what is the name of the bar where Obi-Wan Kenobi meets Zam Wesell?"
+        answers:
+          A: "Mos Eisley Cantina"
+          B: "Dex's Diner"
+          C: "Outlander Bar"
+          D: "Club Obi-Wan"
+    difficulty: EXPERT
+  - text: "Quel est le nom du système stellaire où se trouve la planète Kamino ?"
+    answers:
+      A: "Système Rishi"
+      B: "Système Kamino"
+      C: "Système Abrion"
+      D: "Système Extrictus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the star system where the planet Kamino is located?"
+        answers:
+          A: "Rishi System"
+          B: "Kamino System"
+          C: "Abrion System"
+          D: "Extrictus System"
+    difficulty: EXPERT
+  - text: "Quel est le nom du vaisseau de transport utilisé par les clones pour débarquer sur Geonosis dans « L'Attaque des clones » ?"
+    answers:
+      A: "Chasseur TIE"
+      B: "Navette de classe Lambda"
+      C: "Transport de troupes GR-75"
+      D: "Canonnière LAAT/i"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the transport ship used by the clones to land on Geonosis in \"Attack of the Clones\"?"
+        answers:
+          A: "TIE Fighter"
+          B: "Lambda-class Shuttle"
+          C: "GR-75 Troop Transport"
+          D: "LAAT/i Gunship"
+    difficulty: EXPERT
+  - text: "Quel est le nom du sabre laser utilisé par Asajj Ventress, l'apprentie de Count Dooku ?"
+    answers:
+      A: "Sabre à lame courbe unique"
+      B: "Sabre à double lame"
+      C: "Sabre laser standard"
+      D: "Sabre courbé à double lame"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the lightsaber used by Asajj Ventress, Count Dooku's apprentice?"
+        answers:
+          A: "Single curved-blade saber"
+          B: "Double-bladed saber"
+          C: "Standard lightsaber"
+          D: "Curved double-bladed saber"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la planète où se déroule la bataille de Hoth dans « L'Empire contre-attaque » ?"
+    answers:
+      A: "Ilum"
+      B: "Rhen Var"
+      C: "Hoth"
+      D: "Mygeeto"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the planet where the Battle of Hoth takes place in \"The Empire Strikes Back\"?"
+        answers:
+          A: "Ilum"
+          B: "Rhen Var"
+          C: "Hoth"
+          D: "Mygeeto"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du droïde assassin envoyé par les Séparatistes pour tuer Padmé Amidala dans « L'Attaque des clones » ?"
+    answers:
+      A: "C-3PO"
+      B: "HK-47"
+      C: "R2-D2"
+      D: "IG-88"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the assassin droid sent by the Separatists to kill Padmé Amidala in \"Attack of the Clones\"?"
+        answers:
+          A: "C-3PO"
+          B: "HK-47"
+          C: "R2-D2"
+          D: "IG-88"
+    difficulty: HARD

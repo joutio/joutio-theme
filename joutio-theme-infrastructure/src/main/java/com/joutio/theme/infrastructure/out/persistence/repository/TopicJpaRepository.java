@@ -1,0 +1,61 @@
+package com.joutio.theme.infrastructure.out.persistence.repository;
+
+import com.joutio.theme.domain.model.TopicStatus;
+import com.joutio.theme.infrastructure.out.persistence.entity.TopicEntity;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.Collection;
+import java.util.List;
+
+/**
+ * Repository JPA pour les projections de thèmes
+ */
+@Repository
+public interface TopicJpaRepository extends JpaRepository<TopicEntity, String>, JpaSpecificationExecutor<TopicEntity> {
+
+    @Query("""
+            select t.category, count(t)
+            from TopicEntity t
+            where t.status = :status
+              and (:normalizedName is null or t.nameFrNormalized like concat('%', cast(:normalizedName as string), '%') or t.nameEnNormalized like concat('%', cast(:normalizedName as string), '%'))
+            group by t.category
+            """)
+    List<Object[]> countByCategory(@Param("status") TopicStatus status,
+                                   @Param("normalizedName") String normalizedName);
+
+    @Query("""
+            select t.category, count(t)
+            from TopicEntity t
+            where t.status = :status
+              and (:normalizedName is null or t.nameFrNormalized like concat('%', cast(:normalizedName as string), '%') or t.nameEnNormalized like concat('%', cast(:normalizedName as string), '%'))
+              and t.topicId in :topicIds
+            group by t.category
+            """)
+    List<Object[]> countByCategoryInIds(@Param("status") TopicStatus status,
+                                        @Param("normalizedName") String normalizedName,
+                                        @Param("topicIds") Collection<String> topicIds);
+
+    Page<TopicEntity> findByCreatorIdOrderByUpdatedAtDesc(String creatorId, Pageable pageable);
+
+    @Query("""
+            select t.imageUrl, count(t)
+            from TopicEntity t
+            where t.imageUrl in :urls
+            group by t.imageUrl
+            """)
+    List<Object[]> countByImageUrlIn(@Param("urls") Collection<String> urls);
+
+    @Query("""
+            select t.bannerUrl, count(t)
+            from TopicEntity t
+            where t.bannerUrl in :urls
+            group by t.bannerUrl
+            """)
+    List<Object[]> countByBannerUrlIn(@Param("urls") Collection<String> urls);
+}

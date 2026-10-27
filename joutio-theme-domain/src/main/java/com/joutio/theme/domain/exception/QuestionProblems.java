@@ -1,0 +1,148 @@
+package com.joutio.theme.domain.exception;
+
+import com.joutio.microservice.core.domain.exception.ProblemCategory;
+import com.joutio.microservice.core.domain.model.i18n.Language;
+
+import java.util.Map;
+
+/**
+ * Exceptions spécifiques au domaine Question
+ */
+public final class QuestionProblems {
+
+    private QuestionProblems() {
+        // Classe utilitaire
+    }
+
+    public static class QuestionNotFoundProblem extends QuestionProblem {
+        public QuestionNotFoundProblem(String questionId) {
+            super(questionId, "urn:joutio:question:notFound",
+                    ProblemCategory.BUSINESS_RESOURCE_MISSING,
+                    "Question not found",
+                    "The question " + questionId + " was not found", null);
+        }
+    }
+
+    public static class QuestionTextEmptyProblem extends QuestionProblem {
+        public QuestionTextEmptyProblem(String questionId) {
+            super(questionId, "urn:joutio:question:textEmpty",
+                    "Question text cannot be empty",
+                    "The question text must not be empty");
+        }
+    }
+
+    public static class QuestionAnswersInvalidProblem extends QuestionProblem {
+        public QuestionAnswersInvalidProblem(String questionId) {
+            super(questionId, "urn:joutio:question:answersInvalid",
+                    "Invalid answers",
+                    "A question must have exactly 4 answers (A, B, C, D)");
+        }
+    }
+
+    public static class QuestionCorrectAnswerMissingProblem extends QuestionProblem {
+        public QuestionCorrectAnswerMissingProblem(String questionId) {
+            super(questionId, "urn:joutio:question:correctAnswerMissing",
+                    "Correct answer missing",
+                    "The correct answer must be provided and match one of the choices");
+        }
+    }
+
+    public static class QuestionContentsEmptyProblem extends QuestionProblem {
+        public QuestionContentsEmptyProblem(String questionId) {
+            super(questionId, "urn:joutio:question:contentsEmpty",
+                    "Question contents are required",
+                    "A question must have at least one localized content");
+        }
+    }
+
+    public static class QuestionContentLanguageMismatchProblem extends QuestionProblem {
+        public QuestionContentLanguageMismatchProblem(String questionId, Language key, Language contentLanguage) {
+            super(questionId, "urn:joutio:question:languageMismatch",
+                    "Content language mismatch",
+                    "The content language must match its map key",
+                    Map.of("key", String.valueOf(key), "contentLanguage", String.valueOf(contentLanguage)));
+        }
+    }
+
+    public static class QuestionAlreadyApprovedProblem extends QuestionProblem {
+        public QuestionAlreadyApprovedProblem(String questionId) {
+            super(questionId, "urn:joutio:question:alreadyApproved",
+                    "Question already approved",
+                    "The question " + questionId + " has already been approved");
+        }
+    }
+
+    public static class QuestionAlreadyRejectedProblem extends QuestionProblem {
+        public QuestionAlreadyRejectedProblem(String questionId) {
+            super(questionId, "urn:joutio:question:alreadyRejected",
+                    "Question already rejected",
+                    "The question " + questionId + " has already been rejected");
+        }
+    }
+
+    public static class NotEnoughApprovedQuestionsProblem extends QuestionProblem {
+        public NotEnoughApprovedQuestionsProblem(String topicId, int current, int required) {
+            super(topicId, "urn:joutio:question:notEnough",
+                    "Not enough approved questions",
+                    "Topic requires at least " + required + " approved questions to be published, but only " + current + " exist",
+                    Map.of("current", current, "required", required));
+        }
+    }
+
+    public static class QuestionLanguageMissingProblem extends QuestionProblem {
+        public QuestionLanguageMissingProblem(String questionId) {
+            super(questionId, "urn:joutio:question:languageMissing",
+                    ProblemCategory.VALIDATION,
+                    "Question language missing",
+                    "A language is required", null);
+        }
+    }
+
+    public static class QuestionTranslationAlreadyExistsProblem extends QuestionProblem {
+        public QuestionTranslationAlreadyExistsProblem(String questionId, Language language) {
+            super(questionId, "urn:joutio:question:translationExists",
+                    ProblemCategory.VALIDATION,
+                    "Question translation already exists",
+                    "A content already exists for language " + language,
+                    Map.of("language", language));
+        }
+    }
+
+    public static class QuestionLanguageNotFoundProblem extends QuestionProblem {
+        public QuestionLanguageNotFoundProblem(String questionId, Language language) {
+            super(questionId, "urn:joutio:question:languageNotFound",
+                    ProblemCategory.BUSINESS_RESOURCE_MISSING,
+                    "Question content not found",
+                    "No content exists for language " + language + " on question " + questionId,
+                    Map.of("language", language));
+        }
+    }
+
+    public static class QuestionTextTooLongProblem extends QuestionProblem {
+        public QuestionTextTooLongProblem(String questionId, int maxLength) {
+            super(questionId, "urn:joutio:question:textTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Question text too long",
+                    "The question text must not exceed " + maxLength + " characters", null);
+        }
+    }
+
+    public static class QuestionImageUrlTooLongProblem extends QuestionProblem {
+        public QuestionImageUrlTooLongProblem(String questionId, int maxLength) {
+            super(questionId, "urn:joutio:question:imageUrlTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Question image URL too long",
+                    "The question image URL must not exceed " + maxLength + " characters", null);
+        }
+    }
+
+    public static class QuestionNoteTooLongProblem extends QuestionProblem {
+        public QuestionNoteTooLongProblem(String questionId, int maxLength) {
+            super(questionId, "urn:joutio:question:noteTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Question moderation note too long",
+                    "The moderation note must not exceed " + maxLength + " characters", null);
+        }
+    }
+}
+

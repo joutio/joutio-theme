@@ -1,0 +1,1645 @@
+topic:
+  id: topic-judaisme
+  names:
+    fr: "Judaïsme"
+    en: "Judaism"
+  description: "Textes fondateurs, fêtes et traditions du judaïsme : Torah, patriarches, Chabbat, fêtes de pèlerinage, symboles et grandes figures de l'histoire juive."
+  category: RELIGION
+  titles:
+    fr:
+      FER: "Chercheur de Hametz"
+      BRONZE: "Porteur de Kippa"
+      ARGENT: "Allumeur de Bougies"
+      OR: "Lecteur de Haftarah"
+      PLATINE: "Disciple des Sages"
+      EMERAUDE: "Gardien de la Tradition"
+      DIAMANT: "Lumière des Nations"
+    en:
+      FER: "Hametz Hunter"
+      BRONZE: "Kippah Wearer"
+      ARGENT: "Candle Lighter"
+      OR: "Haftarah Reader"
+      PLATINE: "Disciple of Sages"
+      EMERAUDE: "Keeper of Tradition"
+      DIAMANT: "Light unto Nations"
+  imageUrl: wikipedia/religion/Westen_(Wailing)_Wall,_Jerusalem,_2007.jpg
+questions:
+  - text: "Quel est le nom hébreu du livre des Nombres, quatrième livre de la Torah ?"
+    answers:
+      A: "Devarim"
+      B: "Vayikra"
+      C: "Bamidbar"
+      D: "Shemot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Hebrew name of the Book of Numbers, the fourth book of the Torah?"
+        answers:
+          A: "Devarim"
+          B: "Vayikra"
+          C: "Bamidbar"
+          D: "Shemot"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur traditionnel du livre des Psaumes selon la tradition juive ?"
+    answers:
+      A: "Salomon"
+      B: "Moïse"
+      C: "David"
+      D: "Isaïe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the traditional author of the Book of Psalms according to Jewish tradition?"
+        answers:
+          A: "Solomon"
+          B: "Moses"
+          C: "David"
+          D: "Isaiah"
+    difficulty: MEDIUM
+  - text: "Quelle fête commémore la traversée de la mer Rouge et le don de la Torah ?"
+    answers:
+      A: "Pessah"
+      B: "Souccot"
+      C: "Hanouka"
+      D: "Chavouot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which holiday commemorates the crossing of the Red Sea and the giving of the Torah?"
+        answers:
+          A: "Pessah"
+          B: "Sukkot"
+          C: "Hanukkah"
+          D: "Shavuot"
+    difficulty: MEDIUM
+  - text: "Combien de jours dure la fête de Souccot en Israël ?"
+    answers:
+      A: "10 jours"
+      B: "8 jours"
+      C: "5 jours"
+      D: "7 jours"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many days does the festival of Sukkot last in Israel?"
+        answers:
+          A: "10 days"
+          B: "8 days"
+          C: "5 days"
+          D: "7 days"
+    difficulty: HARD
+  - text: "Quel aliment est traditionnellement mangé à Souccot pour rappeler les constructions fragiles ?"
+    answers:
+      A: "Les fruits de la récolte"
+      B: "Le pain sans levain"
+      C: "Les beignets"
+      D: "Les galettes de pommes de terre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which food is traditionally eaten on Sukkot to recall the fragile dwellings?"
+        answers:
+          A: "Harvest fruits"
+          B: "Unleavened bread"
+          C: "Doughnuts"
+          D: "Potato pancakes"
+    difficulty: HARD
+  - text: "Quel est le nom hébreu du Chabbat qui précède Yom Kippour ?"
+    answers:
+      A: "Chabbat Chouvah"
+      B: "Chabbat HaGadol"
+      C: "Chabbat Chira"
+      D: "Chabbat Zachor"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the Hebrew name of the Shabbat that precedes Yom Kippur?"
+        answers:
+          A: "Chabbat Chouvah"
+          B: "Chabbat HaGadol"
+          C: "Chabbat Chira"
+          D: "Chabbat Zachor"
+    difficulty: EXPERT
+  - text: "Quel plat est traditionnellement consommé pour le repas de Rosh Hashana ?"
+    answers:
+      A: "Du poisson sans écaille"
+      B: "Des galettes de pommes de terre"
+      C: "Des pommes trempées dans le miel"
+      D: "Du pain levé de forme ronde"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dish is traditionally eaten for the Rosh Hashana meal?"
+        answers:
+          A: "Fish without scales"
+          B: "Potato pancakes"
+          C: "Apples dipped in honey"
+          D: "Round leavened bread"
+    difficulty: HARD
+  - text: "Quel symbole est fixé sur le montant des portes dans les foyers juifs ?"
+    answers:
+      A: "La mezouza"
+      B: "La menora"
+      C: "Le chofar"
+      D: "Les tefilines"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which symbol is affixed to the doorposts in Jewish homes?"
+        answers:
+          A: "The mezuzah"
+          B: "The menorah"
+          C: "The shofar"
+          D: "The tefillin"
+    difficulty: EASY
+  - text: "Quel est le nom du châle de prière porté par les hommes juifs ?"
+    answers:
+      A: "Le talit"
+      B: "Les tefilines"
+      C: "La kippa"
+      D: "Le shtreimel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the prayer shawl worn by Jewish men?"
+        answers:
+          A: "The tallit"
+          B: "The tefillin"
+          C: "The kippah"
+          D: "The shtreimel"
+    difficulty: MEDIUM
+  - text: "Combien de fois la Torah est-elle lue intégralement chaque année dans le cycle synagogal ?"
+    answers:
+      A: "Quatre fois"
+      B: "Deux fois"
+      C: "Trois fois"
+      D: "Une fois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many times is the Torah read in full each year in the synagogue cycle?"
+        answers:
+          A: "Four times"
+          B: "Twice"
+          C: "Three times"
+          D: "Once"
+    difficulty: HARD
+  - text: "Quel jour de la semaine lit-on le cantique de la mer Rouge dans le calendrier synagogal ?"
+    answers:
+      A: "Le lundi"
+      B: "Le jeudi"
+      C: "Le samedi"
+      D: "Le mardi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "On which day of the week is the Song of the Sea read in the synagogue calendar?"
+        answers:
+          A: "Monday"
+          B: "Thursday"
+          C: "Saturday"
+          D: "Tuesday"
+    difficulty: EXPERT
+  - text: "Qui est la première femme du roi David selon le livre de Samuel ?"
+    answers:
+      A: "Bethsabée"
+      B: "Mical"
+      C: "Abigaïl"
+      D: "Achinoam"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is King David's first wife according to the Book of Samuel?"
+        answers:
+          A: "Bathsheba"
+          B: "Michal"
+          C: "Abigail"
+          D: "Ahinoam"
+    difficulty: EXPERT
+  - text: "Quel prophète est connu pour avoir été avalé par un grand poisson ?"
+    answers:
+      A: "Amos"
+      B: "Élie"
+      C: "Élisée"
+      D: "Jonas"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which prophet is known for having been swallowed by a great fish?"
+        answers:
+          A: "Amos"
+          B: "Elijah"
+          C: "Elisha"
+          D: "Jonah"
+    difficulty: EASY
+  - text: "Quel tribunal religieux est appelé 'Sanhédrin' dans la tradition juive ?"
+    answers:
+      A: "La Grande Assemblée"
+      B: "Le Beth Din"
+      C: "Le Knesset"
+      D: "Le Choulhan Aroukh"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which religious court is called the 'Sanhedrin' in Jewish tradition?"
+        answers:
+          A: "The Great Assembly"
+          B: "The Beth Din"
+          C: "The Knesset"
+          D: "The Shulchan Aruch"
+    difficulty: HARD
+  - text: "Quel est le nom du traité de la Michna qui traite des lois du Chabbat ?"
+    answers:
+      A: "Traité Berakhot"
+      B: "Traité Erouvin"
+      C: "Traité Chabbat"
+      D: "Traité Pessahim"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Mishnah tractate that deals with the laws of Shabbat?"
+        answers:
+          A: "Tractate Berakhot"
+          B: "Tractate Eruvin"
+          C: "Tractate Shabbat"
+          D: "Tractate Pesachim"
+    difficulty: EXPERT
+  - text: "Quel est ce mur, vestige du Temple de Jérusalem ?"
+    imageUrl: wikipedia/religion/Westen_(Wailing)_Wall,_Jerusalem,_2007.jpg
+    answers:
+      A: "Le mur d'Hérode"
+      B: "Le mur de David"
+      C: "Le mur des Lamentations"
+      D: "Le mur des Prophètes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this wall, a remnant of the Temple of Jerusalem?"
+        answers:
+          A: "Herod's Wall"
+          B: "David's Wall"
+          C: "The Western Wall"
+          D: "The Prophets' Wall"
+    difficulty: EASY
+  - text: "Quels rouleaux sont lus à la synagogue ?"
+    imageUrl: wikipedia/religion/Two_Torah_scrolls.jpg
+    answers:
+      A: "Des parchemins du Talmud"
+      B: "Des évangélaires"
+      C: "Des rouleaux de la Torah"
+      D: "Des rouleaux de la Bible grecque"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scrolls are read in the synagogue?"
+        answers:
+          A: "Talmud scrolls"
+          B: "Gospels"
+          C: "Torah scrolls"
+          D: "Greek Bible scrolls"
+    difficulty: MEDIUM
+  - text: "Quel édifice est ici représenté ?"
+    imageUrl: wikipedia/religion/Praha_Spanish_Synagogue_Interior_01.jpg
+    answers:
+      A: "Une madrasa"
+      B: "Une église"
+      C: "Un temple grec"
+      D: "Une synagogue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which building is shown here?"
+        answers:
+          A: "A madrasa"
+          B: "A church"
+          C: "A Greek temple"
+          D: "A synagogue"
+    difficulty: MEDIUM
+  - text: "Quel symbole à sept branches est gravé ?"
+    imageUrl: wikipedia/religion/The_temple_menorah_on_the_Magdala_Stone_(replica).png
+    answers:
+      A: "La ménorah"
+      B: "L'étoile de David"
+      C: "Le chofar"
+      D: "Le loulav"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which seven-branched symbol is engraved?"
+        answers:
+          A: "The menorah"
+          B: "The Star of David"
+          C: "The shofar"
+          D: "The lulav"
+    difficulty: EASY
+  - text: "Combien de branches a la hanoukkia ?"
+    imageUrl: wikipedia/religion/Rostov-on-Don,_Hanukkah_Jewish_festival,_Hanukkah_menorah,_Judaism_in_Russia.jpg
+    answers:
+      A: "7"
+      B: "9"
+      C: "12"
+      D: "8"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many branches does the hanukkiah have?"
+        answers:
+          A: "7"
+          B: "9"
+          C: "12"
+          D: "8"
+    difficulty: HARD
+  - text: "Quel est ce symbole à six branches ?"
+    imageUrl: wikipedia/religion/Star_of_David_2021.jpg
+    answers:
+      A: "L'étoile de David"
+      B: "Le sceau de Salomon"
+      C: "La croix"
+      D: "Le pentagramme"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this six-branched symbol?"
+        answers:
+          A: "The Star of David"
+          B: "The Seal of Solomon"
+          C: "The cross"
+          D: "The pentagram"
+    difficulty: EASY
+  - text: "Quelles bougies sont allumées au début du Chabbat ?"
+    imageUrl: wikipedia/religion/Shabbat_Candles.jpg
+    answers:
+      A: "Les bougies d'Hanoukka"
+      B: "Les bougies de Chabbat"
+      C: "Les cierges de Yom Kippour"
+      D: "Les bougies de Pourim"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which candles are lit at the beginning of Shabbat?"
+        answers:
+          A: "Hanukkah candles"
+          B: "Shabbat candles"
+          C: "Yom Kippur candles"
+          D: "Purim candles"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on ce pain tressé du Chabbat ?"
+    imageUrl: wikipedia/religion/Challah_Bread_Six_Braid_1.jpg
+    answers:
+      A: "La fougasse"
+      B: "Le matzah"
+      C: "Le bagel"
+      D: "La hallah"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this braided Shabbat bread called?"
+        answers:
+          A: "Fougasse"
+          B: "Matzah"
+          C: "Bagel"
+          D: "Challah"
+    difficulty: MEDIUM
+  - text: "Quel plat est utilisé lors du séder de Pessah ?"
+    imageUrl: wikipedia/religion/Passover_Seder_plate,_original.jpg
+    answers:
+      A: "Le plateau du séder"
+      B: "Le plateau de Chabbat"
+      C: "Le plat de Pourim"
+      D: "Le panier de Souccot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which dish is used during the Passover Seder?"
+        answers:
+          A: "The Seder plate"
+          B: "The Shabbat plate"
+          C: "The Purim dish"
+          D: "The Sukkot basket"
+    difficulty: MEDIUM
+  - text: "Quel pain sans levain est mangé à Pessah ?"
+    imageUrl: wikipedia/religion/Matzah.jpg
+    answers:
+      A: "Le pain complet"
+      B: "Le matzah"
+      C: "La hallah"
+      D: "La galette de maïs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which unleavened bread is eaten at Passover?"
+        answers:
+          A: "Whole wheat bread"
+          B: "Matzah"
+          C: "Challah"
+          D: "Corn flatbread"
+    difficulty: EASY
+  - text: "De quel animal provient traditionnellement ce chofar ?"
+    imageUrl: wikipedia/religion/Shofar-16-Zachi-Evenor.jpg
+    answers:
+      A: "La chèvre"
+      B: "Le bélier"
+      C: "Le taureau"
+      D: "L'antilope"
+    correctAnswer: B
+    translations:
+      en:
+        text: "From which animal does this shofar traditionally come?"
+        answers:
+          A: "Goat"
+          B: "Ram"
+          C: "Bull"
+          D: "Antelope"
+    difficulty: HARD
+  - text: "Quelle fête de jeûne ce tableau représente-t-il ?"
+    imageUrl: wikipedia/religion/Maurycy_Gottlieb_-_Jews_Praying_in_the_Synagogue_on_Yom_Kippur.jpg
+    answers:
+      A: "Yom Kippour"
+      B: "Hanoukka"
+      C: "Pessah"
+      D: "Pourim"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which fasting holiday does this painting depict?"
+        answers:
+          A: "Yom Kippur"
+          B: "Hanukkah"
+          C: "Passover"
+          D: "Purim"
+    difficulty: HARD
+  - text: "Quel objet est fixé aux montants des portes ?"
+    imageUrl: wikipedia/religion/Mezuzah_IMG_2124.jpg
+    answers:
+      A: "La tephilla"
+      B: "Le talit"
+      C: "La mezouza"
+      D: "La kippa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which object is fixed to doorposts?"
+        answers:
+          A: "The tefillah"
+          B: "The tallit"
+          C: "The mezuzah"
+          D: "The kippah"
+    difficulty: EASY
+  - text: "Comment appelle-t-on ces phylactères portés pour la prière ?"
+    imageUrl: wikipedia/religion/Tefillin.jpg
+    answers:
+      A: "Les tallitot"
+      B: "Les tefillin"
+      C: "Les kippot"
+      D: "Les mezouzot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What are these phylacteries worn for prayer called?"
+        answers:
+          A: "Tallitot"
+          B: "Tefillin"
+          C: "Kippot"
+          D: "Mezuzot"
+    difficulty: HARD
+  - text: "Comment appelle-t-on ce châle de prière ?"
+    imageUrl: wikipedia/religion/Prayer_Shawl_Tallit_gadol.jpg
+    answers:
+      A: "Le shtreimel"
+      B: "Le talit"
+      C: "Le tefillin"
+      D: "Le kitel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this prayer shawl called?"
+        answers:
+          A: "Shtreimel"
+          B: "Tallit"
+          C: "Tefillin"
+          D: "Kittel"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on cette calotte juive ?"
+    imageUrl: wikipedia/religion/Kipa.jpg
+    answers:
+      A: "Le voile"
+      B: "Le turban"
+      C: "La kippa"
+      D: "La casquette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this Jewish skullcap called?"
+        answers:
+          A: "The veil"
+          B: "The turban"
+          C: "The kippa"
+          D: "The cap"
+    difficulty: EASY
+  - text: "Où ces manuscrits ont-ils été découverts ?"
+    imageUrl: wikipedia/religion/Psalms_Scroll.jpg
+    answers:
+      A: "À Qumrân, près de la mer Morte"
+      B: "À Jérusalem"
+      C: "À Alexandrie"
+      D: "À Babylone"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where were these manuscripts discovered?"
+        answers:
+          A: "At Qumran, near the Dead Sea"
+          B: "In Jerusalem"
+          C: "In Alexandria"
+          D: "In Babylon"
+    difficulty: MEDIUM
+  - text: "Quelle forteresse domine la mer Morte ?"
+    imageUrl: wikipedia/religion/Israel-2013-Aerial_21-Masada.jpg
+    answers:
+      A: "Megiddo"
+      B: "Hazor"
+      C: "Massada"
+      D: "Gamla"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which fortress overlooks the Dead Sea?"
+        answers:
+          A: "Megiddo"
+          B: "Hazor"
+          C: "Masada"
+          D: "Gamla"
+    difficulty: HARD
+  - text: "Quel est le nom de cette écriture ?"
+    imageUrl: wikipedia/religion/Alefbet_Hebrew.png
+    answers:
+      A: "L'alphabet grec"
+      B: "L'alphabet arabe"
+      C: "L'alphabet cyrillique"
+      D: "L'alphabet hébreu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of this script?"
+        answers:
+          A: "The Greek alphabet"
+          B: "The Arabic alphabet"
+          C: "The Cyrillic alphabet"
+          D: "The Hebrew alphabet"
+    difficulty: HARD
+  - text: "Combien de temps dura l'exil des Juifs à Babylone selon la prophétie de Jérémie ?"
+    answers:
+      A: "40 ans"
+      B: "70 ans"
+      C: "100 ans"
+      D: "120 ans"
+    correctAnswer: B
+    translations:
+      en:
+        text: "According to Jeremiah's prophecy, how long did the Jews' exile in Babylon last?"
+        answers:
+          A: "40 years"
+          B: "70 years"
+          C: "100 years"
+          D: "120 years"
+    difficulty: EXPERT
+  - text: "Quel est le nom du lieu où Jacob a eu son rêve de l'échelle ?"
+    answers:
+      A: "Béthel"
+      B: "Hébron"
+      C: "Beer-Sheva"
+      D: "Sinaï"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the place where Jacob had his dream of the ladder?"
+        answers:
+          A: "Bethel"
+          B: "Hebron"
+          C: "Beer-Sheva"
+          D: "Sinai"
+    difficulty: HARD
+  - text: "Quelle reine juive est célébrée lors de la fête de Pourim ?"
+    answers:
+      A: "Esther"
+      B: "Ruth"
+      C: "Débora"
+      D: "Yaël"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Jewish queen is celebrated during the festival of Purim?"
+        answers:
+          A: "Esther"
+          B: "Ruth"
+          C: "Deborah"
+          D: "Jael"
+    difficulty: MEDIUM
+  - text: "Quel rouleau est lu lors de la fête de Pourim ?"
+    answers:
+      A: "Le Cantique des Cantiques"
+      B: "L'Ecclésiaste"
+      C: "La Meguila d'Esther"
+      D: "Les Lamentations"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scroll is read during the festival of Purim?"
+        answers:
+          A: "The Song of Songs"
+          B: "Ecclesiastes"
+          C: "The Megillah of Esther"
+          D: "Lamentations"
+    difficulty: HARD
+  - text: "Quel est le nom du rouleau lu lors de la fête de Ticha be-Av ?"
+    answers:
+      A: "Ruth"
+      B: "Chir HaChirim"
+      C: "Kohelet"
+      D: "Eikha"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the scroll read during the festival of Tisha B'Av?"
+        answers:
+          A: "Ruth"
+          B: "Chir HaChirim"
+          C: "Kohelet"
+          D: "Eikha"
+    difficulty: EXPERT
+  - text: "Quel est le nom hébreu du cinquième livre de la Torah, appelé Deutéronome en français ?"
+    answers:
+      A: "Devarim"
+      B: "Vayikra"
+      C: "Bamidbar"
+      D: "Shemot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the Hebrew name of the fifth book of the Torah, called Deuteronomy in English?"
+        answers:
+          A: "Devarim"
+          B: "Vayikra"
+          C: "Bamidbar"
+          D: "Shemot"
+    difficulty: HARD
+  - text: "Quel est le nom du traité de la Michna qui traite principalement des lois de Pourim ?"
+    answers:
+      A: "Sanhédrin"
+      B: "Meguila"
+      C: "Berakhot"
+      D: "Chabbat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Mishnah tractate that deals mainly with the laws of Purim?"
+        answers:
+          A: "Sanhedrin"
+          B: "Megillah"
+          C: "Berakhot"
+          D: "Shabbat"
+    difficulty: EXPERT
+  - text: "Quelle est la durée de la fête de Chavouot en diaspora (hors Israël) ?"
+    answers:
+      A: "Sept jours"
+      B: "Un jour"
+      C: "Trois jours"
+      D: "Deux jours"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How long does the festival of Shavuot last in the diaspora (outside Israel)?"
+        answers:
+          A: "Seven days"
+          B: "One day"
+          C: "Three days"
+          D: "Two days"
+    difficulty: EXPERT
+  - text: "Quel est le nom hébreu du pain tressé consommé lors des repas de Chabbat ?"
+    answers:
+      A: "Halla"
+      B: "Matza"
+      C: "Pita"
+      D: "Laffa"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the Hebrew name of the braided bread eaten at Shabbat meals?"
+        answers:
+          A: "Challah"
+          B: "Matzah"
+          C: "Pita"
+          D: "Laffa"
+    difficulty: HARD
+  - text: "Quel patriarche est célèbre pour avoir été prêt à sacrifier son fils Isaac ?"
+    answers:
+      A: "Jacob"
+      B: "Abraham"
+      C: "Isaac"
+      D: "Joseph"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which patriarch is famous for having been ready to sacrifice his son Isaac?"
+        answers:
+          A: "Jacob"
+          B: "Abraham"
+          C: "Isaac"
+          D: "Joseph"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la fête qui commémore le miracle de la fiole d'huile au Temple ?"
+    answers:
+      A: "Chavouot"
+      B: "Pourim"
+      C: "Hanoukka"
+      D: "Souccot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the festival that commemorates the miracle of the oil flask in the Temple?"
+        answers:
+          A: "Shavuot"
+          B: "Purim"
+          C: "Hanukkah"
+          D: "Sukkot"
+    difficulty: MEDIUM
+  - text: "Quel est le nom hébreu du livre des Lamentations, lu lors du jeûne de Ticha be-Av ?"
+    answers:
+      A: "Kohelet"
+      B: "Eikha"
+      C: "Chir HaChirim"
+      D: "Ruth"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the Hebrew name of the Book of Lamentations, read on the fast of Tisha B'Av?"
+        answers:
+          A: "Kohelet"
+          B: "Eikha"
+          C: "Shir HaShirim"
+          D: "Ruth"
+    difficulty: EXPERT
+  - text: "Combien de jours dure la fête de Hanoukka ?"
+    answers:
+      A: "12 jours"
+      B: "7 jours"
+      C: "10 jours"
+      D: "8 jours"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many days does the festival of Hanukkah last?"
+        answers:
+          A: "12 days"
+          B: "7 days"
+          C: "10 days"
+          D: "8 days"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la fête au cours de laquelle on jeûne pendant 25 heures ?"
+    answers:
+      A: "Souccot"
+      B: "Rosh Hashana"
+      C: "Pessah"
+      D: "Yom Kippour"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the festival on which one fasts for 25 hours?"
+        answers:
+          A: "Sukkot"
+          B: "Rosh Hashanah"
+          C: "Pesach"
+          D: "Yom Kippur"
+    difficulty: HARD
+  - text: "Quel est le nom du couvre-chef traditionnel porté par les hommes juifs pratiquants ?"
+    answers:
+      A: "Shtreimel"
+      B: "Tefillin"
+      C: "Talit"
+      D: "Kippa"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the traditional head covering worn by observant Jewish men?"
+        answers:
+          A: "Shtreimel"
+          B: "Tefillin"
+          C: "Tallit"
+          D: "Kippah"
+    difficulty: MEDIUM
+  - text: "Quel est le nom hébreu du rouleau de la Torah ?"
+    answers:
+      A: "Mishna"
+      B: "Tanakh"
+      C: "Talmud"
+      D: "Sefer Torah"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the Hebrew name for the Torah scroll?"
+        answers:
+          A: "Mishnah"
+          B: "Tanakh"
+          C: "Talmud"
+          D: "Sefer Torah"
+    difficulty: HARD
+  - text: "Combien de sections (parachiot) compte le livre de la Genèse ?"
+    answers:
+      A: "10"
+      B: "12"
+      C: "15"
+      D: "20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many sections (parashiot) does the Book of Genesis have?"
+        answers:
+          A: "10"
+          B: "12"
+          C: "15"
+          D: "20"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la fête des Semaines, appelée aussi fête des Prémices ?"
+    answers:
+      A: "Pessah"
+      B: "Chavouot"
+      C: "Souccot"
+      D: "Hanoukka"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Festival of Weeks, also called the Festival of First Fruits?"
+        answers:
+          A: "Pesach"
+          B: "Shavuot"
+          C: "Sukkot"
+          D: "Hanukkah"
+    difficulty: HARD
+  - text: "Quel est le nom du livre de la Bible hébraïque qui suit immédiatement la Torah ?"
+    answers:
+      A: "Josué"
+      B: "Juges"
+      C: "Samuel"
+      D: "Rois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the book of the Hebrew Bible that immediately follows the Torah?"
+        answers:
+          A: "Joshua"
+          B: "Judges"
+          C: "Samuel"
+          D: "Kings"
+    difficulty: HARD
+  - text: "Quel est le nombre de commandements (mitzvot) que contient la Torah selon la tradition rabbinique ?"
+    answers:
+      A: "500"
+      B: "600"
+      C: "712"
+      D: "613"
+    correctAnswer: D
+    translations:
+      en:
+        text: "According to rabbinic tradition, how many commandments (mitzvot) does the Torah contain?"
+        answers:
+          A: "500"
+          B: "600"
+          C: "712"
+          D: "613"
+    difficulty: EXPERT
+  - text: "Quelle est la première des dix plaies d'Égypte selon le livre de l'Exode ?"
+    answers:
+      A: "Les poux"
+      B: "Les grenouilles"
+      C: "L'eau changée en sang"
+      D: "Les mouches"
+    correctAnswer: C
+    translations:
+      en:
+        text: "According to the Book of Exodus, what is the first of the ten plagues of Egypt?"
+        answers:
+          A: "Lice"
+          B: "Frogs"
+          C: "Water turned to blood"
+          D: "Flies"
+    difficulty: HARD
+  - text: "Qui est la prophétesse qui a guidé les Israélites après la mort de Moïse ?"
+    answers:
+      A: "Houlda"
+      B: "Myriam"
+      C: "Débora"
+      D: "Sarah"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the prophetess who led the Israelites after the death of Moses?"
+        answers:
+          A: "Huldah"
+          B: "Miriam"
+          C: "Deborah"
+          D: "Sarah"
+    difficulty: EXPERT
+  - text: "Quel roi de Judée a fait construire le Premier Temple de Jérusalem ?"
+    answers:
+      A: "Josias"
+      B: "David"
+      C: "Ézéchias"
+      D: "Salomon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which king of Judah built the First Temple in Jerusalem?"
+        answers:
+          A: "Josiah"
+          B: "David"
+          C: "Hezekiah"
+          D: "Solomon"
+    difficulty: HARD
+  - text: "Quel est le nom du jour de repos hebdomadaire dans le judaïsme ?"
+    answers:
+      A: "Rosh Hodesh"
+      B: "Yom Tov"
+      C: "Chabbat"
+      D: "Lag BaOmer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the weekly day of rest in Judaism?"
+        answers:
+          A: "Rosh Chodesh"
+          B: "Yom Tov"
+          C: "Shabbat"
+          D: "Lag BaOmer"
+    difficulty: EASY
+  - text: "Quel est le nom de la fête des Cabanes, célébrée à l'automne ?"
+    answers:
+      A: "Souccot"
+      B: "Pessah"
+      C: "Chavouot"
+      D: "Hanoukka"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Festival of Booths, celebrated in the autumn?"
+        answers:
+          A: "Sukkot"
+          B: "Pesach"
+          C: "Shavuot"
+          D: "Hanukkah"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du traité talmudique qui détaille les lois de la fête de Souccot ?"
+    answers:
+      A: "Traité Beitzah"
+      B: "Traité Souccot"
+      C: "Traité Rosh Hashana"
+      D: "Traité Moed Katan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Talmudic tractate that details the laws of the festival of Sukkot?"
+        answers:
+          A: "Tractate Beitzah"
+          B: "Tractate Sukkah"
+          C: "Tractate Rosh Hashanah"
+          D: "Tractate Moed Katan"
+    difficulty: EXPERT
+  - text: "Combien de jours dure la fête de Hanoukka en dehors d'Israël selon la coutume majoritaire ?"
+    answers:
+      A: "7 jours"
+      B: "8 jours"
+      C: "9 jours"
+      D: "6 jours"
+    correctAnswer: B
+    translations:
+      en:
+        text: "According to majority custom, how many days does Hanukkah last outside of Israel?"
+        answers:
+          A: "7 days"
+          B: "8 days"
+          C: "9 days"
+          D: "6 days"
+    difficulty: HARD
+  - text: "Quel est le nom hébreu du livre des Chroniques ?"
+    answers:
+      A: "Nehemia"
+      B: "Melakhim"
+      C: "Ezra"
+      D: "Divrei Hayamim"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the Hebrew name of the Book of Chronicles?"
+        answers:
+          A: "Nehemia"
+          B: "Melakhim"
+          C: "Ezra"
+          D: "Divrei Hayamim"
+    difficulty: EXPERT
+  - text: "Qui a succédé à Moïse comme chef des Israélites selon la Bible ?"
+    answers:
+      A: "Aaron"
+      B: "Caleb"
+      C: "Josué"
+      D: "Othniel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who succeeded Moses as leader of the Israelites according to the Bible?"
+        answers:
+          A: "Aaron"
+          B: "Caleb"
+          C: "Joshua"
+          D: "Othniel"
+    difficulty: MEDIUM
+  - text: "Quel rouleau est lu à la synagogue lors de la fête de Chavouot ?"
+    answers:
+      A: "Le rouleau de Ruth"
+      B: "Le rouleau d'Esther"
+      C: "Le Cantique des Cantiques"
+      D: "L'Ecclésiaste"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scroll is read in the synagogue on the festival of Shavuot?"
+        answers:
+          A: "The Scroll of Ruth"
+          B: "The Scroll of Esther"
+          C: "The Song of Songs"
+          D: "Ecclesiastes"
+    difficulty: EXPERT
+  - text: "Combien de générations séparent Abraham de Moïse selon la chronologie biblique traditionnelle ?"
+    answers:
+      A: "4 générations"
+      B: "7 générations"
+      C: "10 générations"
+      D: "12 générations"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many generations separate Abraham from Moses according to traditional biblical chronology?"
+        answers:
+          A: "4 generations"
+          B: "7 generations"
+          C: "10 generations"
+          D: "12 generations"
+    difficulty: EXPERT
+  - text: "Quel est le nom du traité de la Michna qui traite des lois de Yom Kippour ?"
+    answers:
+      A: "Traité Chabbat"
+      B: "Traité Taanit"
+      C: "Traité Megilla"
+      D: "Traité Yoma"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Mishnah tractate that deals with the laws of Yom Kippur?"
+        answers:
+          A: "Tractate Shabbat"
+          B: "Tractate Taanit"
+          C: "Tractate Megilla"
+          D: "Tractate Yoma"
+    difficulty: EXPERT
+  - text: "Qui était le grand prêtre qui a officié lors de l'inauguration du Temple de Salomon ?"
+    answers:
+      A: "Zadok"
+      B: "Aaron"
+      C: "Eli"
+      D: "Abiathar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the high priest who officiated at the inauguration of Solomon's Temple?"
+        answers:
+          A: "Zadok"
+          B: "Aaron"
+          C: "Eli"
+          D: "Abiathar"
+    difficulty: EXPERT
+  - text: "Quel est le nom hébreu de la fête de Ticha be-Av ?"
+    answers:
+      A: "Yom HaShoah"
+      B: "Yom Kippour"
+      C: "Tisha B'Av"
+      D: "Tzom Gedaliah"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Hebrew name of the fast of Tisha B'Av?"
+        answers:
+          A: "Yom HaShoah"
+          B: "Yom Kippur"
+          C: "Tisha B'Av"
+          D: "Tzom Gedaliah"
+    difficulty: EXPERT
+  - text: "Quel prophète a eu la vision de la vallée des ossements desséchés ?"
+    answers:
+      A: "Jérémie"
+      B: "Ézéchiel"
+      C: "Isaïe"
+      D: "Daniel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which prophet had the vision of the valley of dry bones?"
+        answers:
+          A: "Jeremiah"
+          B: "Ezekiel"
+          C: "Isaiah"
+          D: "Daniel"
+    difficulty: HARD
+  - text: "Combien de jours de deuil sont observés après le décès d'un parent proche selon la loi juive, avant les autres phases ?"
+    answers:
+      A: "3 jours"
+      B: "5 jours"
+      C: "30 jours"
+      D: "7 jours"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many days of mourning are observed after the death of a close relative according to Jewish law, before the other phases?"
+        answers:
+          A: "3 days"
+          B: "5 days"
+          C: "30 days"
+          D: "7 days"
+    difficulty: EXPERT
+  - text: "Quel est le nom du traité de la Michna qui traite principalement des lois de Pessah ?"
+    answers:
+      A: "Traité Pessahim"
+      B: "Traité Shekalim"
+      C: "Traité Yoma"
+      D: "Traité Souccot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Mishnah tractate that deals mainly with the laws of Passover?"
+        answers:
+          A: "Tractate Pesahim"
+          B: "Tractate Shekalim"
+          C: "Tractate Yoma"
+          D: "Tractate Sukkot"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur traditionnel du livre de l'Ecclésiaste ?"
+    answers:
+      A: "Salomon"
+      B: "David"
+      C: "Isaïe"
+      D: "Jérémie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the traditional author of the Book of Ecclesiastes?"
+        answers:
+          A: "Solomon"
+          B: "David"
+          C: "Isaiah"
+          D: "Jeremiah"
+    difficulty: HARD
+  - text: "Quel est le nom de la prière centrale récitée trois fois par jour dans le judaïsme ?"
+    answers:
+      A: "Kaddish"
+      B: "Shema"
+      C: "Alenou"
+      D: "Amida"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the central prayer recited three times a day in Judaism?"
+        answers:
+          A: "Kaddish"
+          B: "Shema"
+          C: "Aleinu"
+          D: "Amidah"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du jeûne qui commémore l'assassinat de Guedalia, gouverneur de Judée ?"
+    answers:
+      A: "Ticha be-Av"
+      B: "Tzom Gedaliah"
+      C: "Yom Kippour"
+      D: "Taanit Esther"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the fast that commemorates the assassination of Gedaliah, governor of Judah?"
+        answers:
+          A: "Tisha B'Av"
+          B: "Tzom Gedaliah"
+          C: "Yom Kippur"
+          D: "Taanit Esther"
+    difficulty: EXPERT
+  - text: "Combien de livres composent le Tanakh (Bible hébraïque) ?"
+    answers:
+      A: "36 livres"
+      B: "39 livres"
+      C: "27 livres"
+      D: "24 livres"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many books make up the Tanakh (Hebrew Bible)?"
+        answers:
+          A: "36 books"
+          B: "39 books"
+          C: "27 books"
+          D: "24 books"
+    difficulty: HARD
+  - text: "Quel roi de Judée a reconstruit le Temple après l'exil babylonien ?"
+    answers:
+      A: "Josias"
+      B: "Hérode"
+      C: "Zorobabel"
+      D: "Ézéchias"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which king of Judea rebuilt the Temple after the Babylonian exile?"
+        answers:
+          A: "Josiah"
+          B: "Herod"
+          C: "Zerubbabel"
+          D: "Hezekiah"
+    difficulty: EXPERT
+  - text: "Quel est le nom hébreu de la fête de Pourim ?"
+    answers:
+      A: "Chavouot"
+      B: "Hanoukka"
+      C: "Pourim"
+      D: "Souccot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Hebrew name of the festival of Purim?"
+        answers:
+          A: "Shavuot"
+          B: "Hanukkah"
+          C: "Purim"
+          D: "Sukkot"
+    difficulty: HARD
+  - text: "Quel est le nom du traité de la Michna qui traite des lois de la fête de Hanoukka ?"
+    answers:
+      A: "Traité Chabbat"
+      B: "Traité Souccot"
+      C: "Traité Taanit"
+      D: "Traité Moed Katan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Mishnah tractate that deals with the laws of the festival of Hanukkah?"
+        answers:
+          A: "Tractate Shabbat"
+          B: "Tractate Sukkot"
+          C: "Tractate Taanit"
+          D: "Tractate Moed Katan"
+    difficulty: EXPERT
+  - text: "Qui est la femme de Moïse selon le livre de l'Exode ?"
+    answers:
+      A: "Miriam"
+      B: "Séphora"
+      C: "Ruth"
+      D: "Débora"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is Moses' wife according to the Book of Exodus?"
+        answers:
+          A: "Miriam"
+          B: "Zipporah"
+          C: "Ruth"
+          D: "Deborah"
+    difficulty: HARD
+  - text: "Selon la Torah, quel est le nom du fils aîné de Jacob ?"
+    answers:
+      A: "Ruben"
+      B: "Siméon"
+      C: "Lévi"
+      D: "Juda"
+    correctAnswer: A
+    translations:
+      en:
+        text: "According to the Torah, what is the name of Jacob's firstborn son?"
+        answers:
+          A: "Reuben"
+          B: "Simeon"
+          C: "Levi"
+          D: "Judah"
+    difficulty: HARD
+  - text: "Quel est le nom du traité talmudique qui traite des dommages et des compensations ?"
+    answers:
+      A: "Baba Kamma"
+      B: "Baba Batra"
+      C: "Baba Metzia"
+      D: "Sanhédrin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Talmudic tractate that deals with damages and compensation?"
+        answers:
+          A: "Bava Kamma"
+          B: "Bava Batra"
+          C: "Bava Metzia"
+          D: "Sanhedrin"
+    difficulty: EXPERT
+  - text: "Quel est le nom hébreu du livre des Nombres ?"
+    answers:
+      A: "Vayikra"
+      B: "Bamidbar"
+      C: "Devarim"
+      D: "Shemot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the Hebrew name of the Book of Numbers?"
+        answers:
+          A: "Vayikra"
+          B: "Bamidbar"
+          C: "Devarim"
+          D: "Shemot"
+    difficulty: EXPERT
+  - text: "Qui a mené la révolte des Maccabées contre les Séleucides ?"
+    answers:
+      A: "Hillel"
+      B: "Jean Hyrcan"
+      C: "Simon bar Kokhba"
+      D: "Judas Maccabée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who led the Maccabean revolt against the Seleucids?"
+        answers:
+          A: "Hillel"
+          B: "John Hyrcanus"
+          C: "Simon bar Kokhba"
+          D: "Judas Maccabeus"
+    difficulty: HARD
+  - text: "Quel est le nom de la fête qui marque la fin de la lecture annuelle de la Torah ?"
+    answers:
+      A: "Simhat Torah"
+      B: "Chemini Atséret"
+      C: "Chavouot"
+      D: "Roch Hachana"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the festival that marks the end of the annual Torah reading cycle?"
+        answers:
+          A: "Simchat Torah"
+          B: "Shemini Atzeret"
+          C: "Shavuot"
+          D: "Rosh Hashanah"
+    difficulty: HARD
+  - text: "Combien de temps les Israélites ont-ils erré dans le désert selon la Bible ?"
+    answers:
+      A: "12 ans"
+      B: "70 ans"
+      C: "40 ans"
+      D: "120 ans"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How long did the Israelites wander in the desert according to the Bible?"
+        answers:
+          A: "12 years"
+          B: "70 years"
+          C: "40 years"
+          D: "120 years"
+    difficulty: MEDIUM
+  - text: "Qui a succédé à Salomon comme roi d'Israël ?"
+    answers:
+      A: "Abia"
+      B: "Jéroboam"
+      C: "Roboam"
+      D: "Asa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who succeeded Solomon as king of Israel?"
+        answers:
+          A: "Abijah"
+          B: "Jeroboam"
+          C: "Rehoboam"
+          D: "Asa"
+    difficulty: EXPERT
+  - text: "Quel prophète a été avalé par un grand poisson ?"
+    answers:
+      A: "Jonas"
+      B: "Élie"
+      C: "Élisée"
+      D: "Amos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which prophet was swallowed by a great fish?"
+        answers:
+          A: "Jonah"
+          B: "Elijah"
+          C: "Elisha"
+          D: "Amos"
+    difficulty: EASY
+  - text: "Quel est le nom hébreu de la fête de Hanoukka ?"
+    answers:
+      A: "Pessah"
+      B: "Pourim"
+      C: "Souccot"
+      D: "Hanoukka"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the Hebrew name of the festival of Hanukkah?"
+        answers:
+          A: "Pesach"
+          B: "Purim"
+          C: "Sukkot"
+          D: "Hanukkah"
+    difficulty: HARD
+  - text: "Combien de jours dure la fête de Pessah en diaspora ?"
+    answers:
+      A: "7"
+      B: "8"
+      C: "9"
+      D: "10"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many days does the festival of Pesach last in the diaspora?"
+        answers:
+          A: "7"
+          B: "8"
+          C: "9"
+          D: "10"
+    difficulty: HARD
+  - text: "Que commémore la fête de Lag Ba'omer ?"
+    answers:
+      A: "Le don de la Torah"
+      B: "La traversée de la mer Rouge"
+      C: "La destruction du Temple"
+      D: "La fin d'une épidémie parmi les étudiants de Rabbi Akiva"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the festival of Lag Ba'omer commemorate?"
+        answers:
+          A: "The giving of the Torah"
+          B: "The crossing of the Red Sea"
+          C: "The destruction of the Temple"
+          D: "The end of a plague among Rabbi Akiva's students"
+    difficulty: EXPERT
+  - text: "Quel est le nom du rouleau lu à la synagogue lors de Pourim ?"
+    answers:
+      A: "Meguilat Ruth"
+      B: "Meguilat Eikha"
+      C: "Meguilat Esther"
+      D: "Meguilat Kohelet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the scroll read in the synagogue on Purim?"
+        answers:
+          A: "Megillat Ruth"
+          B: "Megillat Eikha"
+          C: "Megillat Esther"
+          D: "Megillat Kohelet"
+    difficulty: HARD
+  - text: "Quel est le nom du traité de la Michna qui traite des lois du mariage ?"
+    answers:
+      A: "Ketouvot"
+      B: "Guittin"
+      C: "Kiddouchin"
+      D: "Yevamot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Mishnah tractate that deals with the laws of marriage?"
+        answers:
+          A: "Ketubot"
+          B: "Gittin"
+          C: "Kiddushin"
+          D: "Yevamot"
+    difficulty: EXPERT
+  - text: "Qui a écrit le Choulhan Aroukh, code de loi juive ?"
+    answers:
+      A: "Joseph Caro"
+      B: "Moïse Maïmonide"
+      C: "Rabbi Akiva"
+      D: "Rachi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote the Shulchan Arukh, a code of Jewish law?"
+        answers:
+          A: "Joseph Caro"
+          B: "Moses Maimonides"
+          C: "Rabbi Akiva"
+          D: "Rashi"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la bénédiction récitée avant l'étude de la Torah ?"
+    answers:
+      A: "Birkat HaMazon"
+      B: "Birkat HaTorah"
+      C: "Chema Israël"
+      D: "Amida"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the blessing recited before studying the Torah?"
+        answers:
+          A: "Birkat HaMazon"
+          B: "Birkat HaTorah"
+          C: "Shema Israel"
+          D: "Amida"
+    difficulty: EXPERT
+  - text: "Combien de fils de Jacob sont à l'origine des tribus d'Israël ?"
+    answers:
+      A: "10"
+      B: "12"
+      C: "11"
+      D: "13"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many sons of Jacob are the origin of the tribes of Israel?"
+        answers:
+          A: "10"
+          B: "12"
+          C: "11"
+          D: "13"
+    difficulty: HARD
+  - text: "Quel est le nom de la fête qui commémore la réception de la Torah au mont Sinaï ?"
+    answers:
+      A: "Roch Hachana"
+      B: "Souccot"
+      C: "Pessah"
+      D: "Chavouot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the holiday that commemorates the receiving of the Torah at Mount Sinai?"
+        answers:
+          A: "Rosh Hashanah"
+          B: "Sukkot"
+          C: "Pesach"
+          D: "Shavuot"
+    difficulty: MEDIUM
+  - text: "Qui était le grand prêtre qui a jugé Jésus selon les Évangiles ?"
+    answers:
+      A: "Gamaliel"
+      B: "Anne"
+      C: "Hillel"
+      D: "Caïphe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the high priest who judged Jesus according to the Gospels?"
+        answers:
+          A: "Gamaliel"
+          B: "Annas"
+          C: "Hillel"
+          D: "Caiaphas"
+    difficulty: HARD
+  - text: "Quel est le nom du premier livre de la Mishna ?"
+    answers:
+      A: "Zeraïm"
+      B: "Moëd"
+      C: "Nashim"
+      D: "Nezikin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first book of the Mishnah?"
+        answers:
+          A: "Zeraim"
+          B: "Moed"
+          C: "Nashim"
+          D: "Nezikin"
+    difficulty: EXPERT
+  - text: "Quel sage a compilé la Mishna au début du IIIe siècle ?"
+    answers:
+      A: "Rabbi Yohanan ben Zakkaï"
+      B: "Rabbi Akiva"
+      C: "Rabbi Yehouda HaNassi"
+      D: "Hillel l'Ancien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sage compiled the Mishnah in the early 3rd century?"
+        answers:
+          A: "Rabbi Yohanan ben Zakkai"
+          B: "Rabbi Akiva"
+          C: "Rabbi Yehuda HaNassi"
+          D: "Hillel the Elder"
+    difficulty: EXPERT
+  - text: "Quel est le nom du cinquième ordre de la Mishna ?"
+    answers:
+      A: "Zeraïm"
+      B: "Kodachim"
+      C: "Moëd"
+      D: "Nezikin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the fifth order of the Mishnah?"
+        answers:
+          A: "Zeraim"
+          B: "Kodashim"
+          C: "Moed"
+          D: "Nezikin"
+    difficulty: EXPERT

@@ -1,0 +1,1631 @@
+topic:
+  id: topic-mer-et-oceans
+  names:
+    fr: "Mer & océans"
+    en: "Sea & Oceans"
+  description: "Explorez les mers et les océans : les grands bassins du globe, la fosse des Mariannes, les marées et les vagues, les courants comme le Gulf Stream, sans oublier les baleines, requins, dauphins, tortues et récifs coralliens. Un thème pour découvrir les richesses et les mystères du monde marin."
+  category: NATURE
+  titles:
+    fr:
+      FER: "Baigneur du dimanche"
+      BRONZE: "Plongeur en apnée"
+      ARGENT: "Nageur de récif"
+      OR: "Explorateur des abysses"
+      PLATINE: "Maître des courants"
+      EMERAUDE: "Seigneur des marées"
+      DIAMANT: "Gardien de l'Atlantide"
+    en:
+      FER: "Sunday Swimmer"
+      BRONZE: "Freediver"
+      ARGENT: "Reef Navigator"
+      OR: "Abyss Explorer"
+      PLATINE: "Current Master"
+      EMERAUDE: "Lord of the Tides"
+      DIAMANT: "Atlantis Guardian"
+  imageUrl: wikipedia/nature/Coral_(Galaxea_fascicularis),_mar_Rojo,_Egipto,_2023-04-18,_DD_128.jpg
+questions:
+  - text: "Quelle fosse océanique est la plus profonde de l'océan Atlantique ?"
+    answers:
+      A: "Fosse des Kouriles"
+      B: "Fosse des Sandwich du Sud"
+      C: "Fosse de Java"
+      D: "Fosse de Porto Rico"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ocean trench is the deepest in the Atlantic Ocean?"
+        answers:
+          A: "Kuril Trench"
+          B: "South Sandwich Trench"
+          C: "Java Trench"
+          D: "Puerto Rico Trench"
+    difficulty: EXPERT
+  - text: "Quel est le plus grand animal vivant sur Terre ?"
+    imageUrl: wikipedia/nature/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg
+    answers:
+      A: "L'éléphant d'Afrique"
+      B: "Le grand requin blanc"
+      C: "Le cachalot"
+      D: "La baleine bleue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the largest living animal on Earth?"
+        answers:
+          A: "The African elephant"
+          B: "The great white shark"
+          C: "The sperm whale"
+          D: "The blue whale"
+    difficulty: EASY
+  - text: "Quel est le nom du point le plus profond de la fosse des Mariannes ?"
+    answers:
+      A: "Horizon Deep"
+      B: "Challenger Deep"
+      C: "Milwaukee Deep"
+      D: "Galathea Depth"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the deepest point of the Mariana Trench?"
+        answers:
+          A: "Horizon Deep"
+          B: "Challenger Deep"
+          C: "Milwaukee Deep"
+          D: "Galathea Depth"
+    difficulty: HARD
+  - text: "Quelle mer est la plus salée du monde ?"
+    answers:
+      A: "Mer Morte"
+      B: "Mer Rouge"
+      C: "Mer Méditerranée"
+      D: "Mer Baltique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sea is the saltiest in the world?"
+        answers:
+          A: "Dead Sea"
+          B: "Red Sea"
+          C: "Mediterranean Sea"
+          D: "Baltic Sea"
+    difficulty: HARD
+  - text: "Quel est le plus long détroit du monde ?"
+    answers:
+      A: "Détroit de Malacca"
+      B: "Détroit de Gibraltar"
+      C: "Détroit de Magellan"
+      D: "Détroit de Béring"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the longest strait in the world?"
+        answers:
+          A: "Strait of Malacca"
+          B: "Strait of Gibraltar"
+          C: "Strait of Magellan"
+          D: "Bering Strait"
+    difficulty: EXPERT
+  - text: "Où la tortue marine pond-elle ses œufs ?"
+    imageUrl: wikipedia/nature/Green_turtle_swimming_over_coral_reefs_in_Kona.jpg
+    answers:
+      A: "Dans les abysses"
+      B: "Sur les plages de sable"
+      C: "Dans les récifs coralliens"
+      D: "Sous la banquise"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where does the sea turtle lay its eggs?"
+        answers:
+          A: "In the abyss"
+          B: "On sandy beaches"
+          C: "In coral reefs"
+          D: "Under the ice pack"
+    difficulty: EASY
+  - text: "Quel est le plus grand récif corallien du monde ?"
+    answers:
+      A: "Récif de l'Amazone"
+      B: "Grande Barrière de Corail"
+      C: "Récif de Nouvelle-Calédonie"
+      D: "Récif de la mer Rouge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the largest coral reef in the world?"
+        answers:
+          A: "Amazon Reef"
+          B: "Great Barrier Reef"
+          C: "New Caledonia Reef"
+          D: "Red Sea Reef"
+    difficulty: EASY
+  - text: "Quel pourcentage de la surface terrestre est couvert par les océans ?"
+    answers:
+      A: "Environ 50%"
+      B: "Environ 71%"
+      C: "Environ 61%"
+      D: "Environ 81%"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What percentage of the Earth's surface is covered by oceans?"
+        answers:
+          A: "About 50%"
+          B: "About 71%"
+          C: "About 61%"
+          D: "About 81%"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plus grand courant océanique chaud de l'Atlantique Nord ?"
+    answers:
+      A: "Gulf Stream"
+      B: "Courant de Humboldt"
+      C: "Courant du Labrador"
+      D: "Courant des Canaries"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the largest warm ocean current in the North Atlantic?"
+        answers:
+          A: "Gulf Stream"
+          B: "Humboldt Current"
+          C: "Labrador Current"
+          D: "Canary Current"
+    difficulty: MEDIUM
+  - text: "Quel phénomène océanique est responsable du climat aride des côtes du Pérou ?"
+    answers:
+      A: "El Niño"
+      B: "La Niña"
+      C: "Mousson"
+      D: "Courant de Humboldt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ocean phenomenon is responsible for the arid climate of the coasts of Peru?"
+        answers:
+          A: "El Niño"
+          B: "La Niña"
+          C: "Monsoon"
+          D: "Humboldt Current"
+    difficulty: HARD
+  - text: "Quel est le plus grand mammifère marin ?"
+    answers:
+      A: "Baleine bleue"
+      B: "Cachalot"
+      C: "Orque"
+      D: "Éléphant de mer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the largest marine mammal?"
+        answers:
+          A: "Blue whale"
+          B: "Sperm whale"
+          C: "Orca"
+          D: "Elephant seal"
+    difficulty: EASY
+  - text: "Quel requin est le plus grand poisson du monde ?"
+    answers:
+      A: "Grand requin blanc"
+      B: "Requin baleine"
+      C: "Requin pèlerin"
+      D: "Requin tigre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which shark is the largest fish in the world?"
+        answers:
+          A: "Great white shark"
+          B: "Whale shark"
+          C: "Basking shark"
+          D: "Tiger shark"
+    difficulty: EASY
+  - text: "Combien d'espèces de tortues marines existent actuellement ?"
+    answers:
+      A: "7"
+      B: "5"
+      C: "3"
+      D: "9"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many species of sea turtles currently exist?"
+        answers:
+          A: "7"
+          B: "5"
+          C: "3"
+          D: "9"
+    difficulty: HARD
+  - text: "Quel cétacé est capable de plonger à plus de 2000 mètres de profondeur ?"
+    answers:
+      A: "Baleine à bosse"
+      B: "Dauphin commun"
+      C: "Cachalot"
+      D: "Orque"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which cetacean is capable of diving to depths of more than 2000 meters?"
+        answers:
+          A: "Humpback whale"
+          B: "Common dolphin"
+          C: "Sperm whale"
+          D: "Orca"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand récif corallien de l'hémisphère Nord ?"
+    answers:
+      A: "Grande Barrière de Corail"
+      B: "Récif de Floride"
+      C: "Récif de Belize"
+      D: "Récif de la mer Rouge"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Northern Hemisphere?"
+        answers:
+          A: "Great Barrier Reef"
+          B: "Florida Reef"
+          C: "Belize Reef"
+          D: "Red Sea Reef"
+    difficulty: EXPERT
+  - text: "Quelle est la principale cause des marées océaniques ?"
+    answers:
+      A: "Les séismes sous-marins"
+      B: "Les vents dominants"
+      C: "La rotation de la Terre"
+      D: "L'attraction gravitationnelle de la Lune et du Soleil"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the main cause of ocean tides?"
+        answers:
+          A: "Undersea earthquakes"
+          B: "Prevailing winds"
+          C: "The rotation of the Earth"
+          D: "The gravitational pull of the Moon and the Sun"
+    difficulty: EASY
+  - text: "Quels organismes construisent les récifs coralliens ?"
+    imageUrl: wikipedia/nature/Coral_Outcrop_Flynn_Reef.jpg
+    answers:
+      A: "Des éponges"
+      B: "Des algues unicellulaires"
+      C: "Des crustacés"
+      D: "Des polypes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which organisms build coral reefs?"
+        answers:
+          A: "Sponges"
+          B: "Single-celled algae"
+          C: "Crustaceans"
+          D: "Polyps"
+    difficulty: MEDIUM
+  - text: "Quel détroit sépare l'Asie de l'Amérique du Nord ?"
+    answers:
+      A: "Détroit de Béring"
+      B: "Détroit de Gibraltar"
+      C: "Détroit de Malacca"
+      D: "Détroit de Magellan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which strait separates Asia from North America?"
+        answers:
+          A: "Bering Strait"
+          B: "Strait of Gibraltar"
+          C: "Strait of Malacca"
+          D: "Strait of Magellan"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plus profond canyon sous-marin du monde ?"
+    answers:
+      A: "Canyon de Monterey"
+      B: "Canyon de Baltimore"
+      C: "Canyon de Zhemchug"
+      D: "Canyon de Hudson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the world's deepest underwater canyon?"
+        answers:
+          A: "Monterey Canyon"
+          B: "Baltimore Canyon"
+          C: "Zhemchug Canyon"
+          D: "Hudson Canyon"
+    difficulty: EXPERT
+  - text: "Quel phénomène climatique est associé à un réchauffement anormal des eaux du Pacifique équatorial ?"
+    answers:
+      A: "Mousson indienne"
+      B: "La Niña"
+      C: "Oscillation nord-atlantique"
+      D: "El Niño"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which climate phenomenon is associated with abnormal warming of the equatorial Pacific waters?"
+        answers:
+          A: "Indian monsoon"
+          B: "La Niña"
+          C: "North Atlantic Oscillation"
+          D: "El Niño"
+    difficulty: EASY
+  - text: "Quel animal marin est connu pour utiliser des outils, comme des éponges, pour se protéger ?"
+    answers:
+      A: "Dauphin"
+      B: "Grand requin blanc"
+      C: "Pieuvre"
+      D: "Tortue verte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which marine animal is known for using tools, such as sponges, for protection?"
+        answers:
+          A: "Dolphin"
+          B: "Great white shark"
+          C: "Octopus"
+          D: "Green turtle"
+    difficulty: HARD
+  - text: "Quelle est la vitesse approximative du Gulf Stream au large de la Floride ?"
+    answers:
+      A: "2 km/h"
+      B: "10 km/h"
+      C: "6 km/h"
+      D: "15 km/h"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate speed of the Gulf Stream off the coast of Florida?"
+        answers:
+          A: "2 km/h"
+          B: "10 km/h"
+          C: "6 km/h"
+          D: "15 km/h"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la plus grande fosse océanique de la Méditerranée ?"
+    answers:
+      A: "Fosse de Java"
+      B: "Fosse des Mariannes"
+      C: "Fosse de Porto Rico"
+      D: "Fosse de Calypso"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the largest ocean trench in the Mediterranean?"
+        answers:
+          A: "Java Trench"
+          B: "Mariana Trench"
+          C: "Puerto Rico Trench"
+          D: "Calypso Trench"
+    difficulty: EXPERT
+  - text: "Quel détroit sépare l'Europe de l'Asie ?"
+    answers:
+      A: "Détroit de Gibraltar"
+      B: "Détroit du Bosphore"
+      C: "Détroit des Dardanelles"
+      D: "Détroit de Messine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which strait separates Europe from Asia?"
+        answers:
+          A: "Strait of Gibraltar"
+          B: "Bosphorus Strait"
+          C: "Dardanelles Strait"
+          D: "Strait of Messina"
+    difficulty: HARD
+  - text: "Quelle mer est bordée par la France au nord ?"
+    answers:
+      A: "Manche"
+      B: "Mer du Nord"
+      C: "Mer Méditerranée"
+      D: "Mer Baltique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sea borders France to the north?"
+        answers:
+          A: "English Channel"
+          B: "North Sea"
+          C: "Mediterranean Sea"
+          D: "Baltic Sea"
+    difficulty: EASY
+  - text: "Quel est le nom du plus grand delta fluvial du monde ?"
+    answers:
+      A: "Delta du Nil"
+      B: "Delta du Gange"
+      C: "Delta du Mékong"
+      D: "Delta du Mississippi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the world's largest river delta?"
+        answers:
+          A: "Nile Delta"
+          B: "Ganges Delta"
+          C: "Mekong Delta"
+          D: "Mississippi Delta"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus profond lac du monde ?"
+    answers:
+      A: "Lac Tanganyika"
+      B: "Lac Baïkal"
+      C: "Lac Supérieur"
+      D: "Lac Malawi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the world's deepest lake?"
+        answers:
+          A: "Lake Tanganyika"
+          B: "Lake Baikal"
+          C: "Lake Superior"
+          D: "Lake Malawi"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la mer située entre l'Italie et les Balkans ?"
+    answers:
+      A: "Mer Adriatique"
+      B: "Mer Tyrrhénienne"
+      C: "Mer Ionienne"
+      D: "Mer Égée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the sea located between Italy and the Balkans?"
+        answers:
+          A: "Adriatic Sea"
+          B: "Tyrrhenian Sea"
+          C: "Ionian Sea"
+          D: "Aegean Sea"
+    difficulty: MEDIUM
+  - text: "Quel courant océanique est le plus puissant du monde ?"
+    answers:
+      A: "Gulf Stream"
+      B: "Courant de Humboldt"
+      C: "Courant circumpolaire antarctique"
+      D: "Courant du Kuroshio"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ocean current is the most powerful in the world?"
+        answers:
+          A: "Gulf Stream"
+          B: "Humboldt Current"
+          C: "Antarctic Circumpolar Current"
+          D: "Kuroshio Current"
+    difficulty: HARD
+  - text: "Quelle est la profondeur moyenne des océans ?"
+    answers:
+      A: "Environ 3 700 m"
+      B: "Environ 2 000 m"
+      C: "Environ 1 000 m"
+      D: "Environ 5 000 m"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the average depth of the oceans?"
+        answers:
+          A: "About 3,700 m"
+          B: "About 2,000 m"
+          C: "About 1,000 m"
+          D: "About 5,000 m"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand poisson cartilagineux ?"
+    answers:
+      A: "Requin baleine"
+      B: "Requin blanc"
+      C: "Requin pèlerin"
+      D: "Requin tigre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest cartilaginous fish?"
+        answers:
+          A: "Whale shark"
+          B: "Great white shark"
+          C: "Basking shark"
+          D: "Tiger shark"
+    difficulty: HARD
+  - text: "Quel pourcentage de l'eau sur Terre est salée ?"
+    answers:
+      A: "Environ 99 %"
+      B: "Environ 90 %"
+      C: "Environ 97 %"
+      D: "Environ 85 %"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What percentage of Earth's water is saltwater?"
+        answers:
+          A: "About 99%"
+          B: "About 90%"
+          C: "About 97%"
+          D: "About 85%"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plus grand récif corallien de l'océan Atlantique ?"
+    answers:
+      A: "Récif des Bahamas"
+      B: "Récif de la Floride"
+      C: "Récif de Belice"
+      D: "Récif des Abrolhos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Atlantic Ocean?"
+        answers:
+          A: "Bahamas Reef"
+          B: "Florida Reef"
+          C: "Belize Barrier Reef"
+          D: "Abrolhos Reef"
+    difficulty: EXPERT
+  - text: "Quel phénomène océanique est responsable du climat doux des îles Britanniques ?"
+    answers:
+      A: "El Niño"
+      B: "Gulf Stream"
+      C: "La Niña"
+      D: "Courant de Humboldt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ocean phenomenon is responsible for the mild climate of the British Isles?"
+        answers:
+          A: "El Niño"
+          B: "Gulf Stream"
+          C: "La Niña"
+          D: "Humboldt Current"
+    difficulty: HARD
+  - text: "À quel embranchement appartient cet animal ?"
+    imageUrl: wikipedia/nature/Chrysaora_quinquecirrha.jpg
+    answers:
+      A: "Les mollusques"
+      B: "Les cnidaires"
+      C: "Les arthropodes"
+      D: "Les échinodermes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which phylum does this animal belong?"
+        answers:
+          A: "Mollusks"
+          B: "Cnidarians"
+          C: "Arthropods"
+          D: "Echinoderms"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand banc de sable sous-marin du monde ?"
+    answers:
+      A: "Banc de Saya de Malha"
+      B: "Banc de Rockall"
+      C: "Banc de Dogger"
+      D: "Grand Banc de Terre-Neuve"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the world's largest underwater sandbank?"
+        answers:
+          A: "Saya de Malha Bank"
+          B: "Rockall Bank"
+          C: "Dogger Bank"
+          D: "Grand Banks of Newfoundland"
+    difficulty: EXPERT
+  - text: "Quelle est la vitesse approximative du son dans l'eau de mer ?"
+    answers:
+      A: "Environ 500 m/s"
+      B: "Environ 1 500 m/s"
+      C: "Environ 3 000 m/s"
+      D: "Environ 5 000 m/s"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate speed of sound in seawater?"
+        answers:
+          A: "About 500 m/s"
+          B: "About 1,500 m/s"
+          C: "About 3,000 m/s"
+          D: "About 5,000 m/s"
+    difficulty: HARD
+  - text: "Quel détroit sépare l'Asie de l'Afrique ?"
+    answers:
+      A: "Détroit de Gibraltar"
+      B: "Détroit de Malacca"
+      C: "Détroit de Bab-el-Mandeb"
+      D: "Détroit d'Ormuz"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which strait separates Asia from Africa?"
+        answers:
+          A: "Strait of Gibraltar"
+          B: "Strait of Malacca"
+          C: "Bab-el-Mandeb Strait"
+          D: "Strait of Hormuz"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la plus grande mer intérieure du monde ?"
+    answers:
+      A: "Mer Noire"
+      B: "Mer Méditerranée"
+      C: "Mer Caspienne"
+      D: "Mer Rouge"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the world's largest inland sea?"
+        answers:
+          A: "Black Sea"
+          B: "Mediterranean Sea"
+          C: "Caspian Sea"
+          D: "Red Sea"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand amphipode connu ?"
+    answers:
+      A: "Themisto gaudichaudii"
+      B: "Hirondellea gigas"
+      C: "Gammarus oceanicus"
+      D: "Alicella gigantea"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the largest known amphipod?"
+        answers:
+          A: "Themisto gaudichaudii"
+          B: "Hirondellea gigas"
+          C: "Gammarus oceanicus"
+          D: "Alicella gigantea"
+    difficulty: EXPERT
+  - text: "Quel est le nom scientifique du grand requin blanc ?"
+    imageUrl: wikipedia/nature/White_shark.jpg
+    answers:
+      A: "Galeocerdo cuvier"
+      B: "Carcharodon carcharias"
+      C: "Isurus oxyrinchus"
+      D: "Rhincodon typus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the scientific name of the great white shark?"
+        answers:
+          A: "Galeocerdo cuvier"
+          B: "Carcharodon carcharias"
+          C: "Isurus oxyrinchus"
+          D: "Rhincodon typus"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plus long fleuve se jetant dans l'océan Atlantique ?"
+    answers:
+      A: "Amazone"
+      B: "Mississippi"
+      C: "Congo"
+      D: "Paraná"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the longest river flowing into the Atlantic Ocean?"
+        answers:
+          A: "Amazon"
+          B: "Mississippi"
+          C: "Congo"
+          D: "Paraná"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand récif corallien de l'océan Indien ?"
+    answers:
+      A: "Récif des Maldives"
+      B: "Récif de l'atoll de Tubbataha"
+      C: "Récif de Nouvelle-Calédonie"
+      D: "Récif de Saya de Malha"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Indian Ocean?"
+        answers:
+          A: "Maldives Reef"
+          B: "Tubbataha Atoll Reef"
+          C: "New Caledonia Barrier Reef"
+          D: "Saya de Malha Reef"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand canyon sous-marin du monde ?"
+    answers:
+      A: "Canyon de Monterey"
+      B: "Canyon de Baltimore"
+      C: "Canyon de Nazaré"
+      D: "Canyon de Zhemchug"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the world's largest underwater canyon?"
+        answers:
+          A: "Monterey Canyon"
+          B: "Baltimore Canyon"
+          C: "Nazaré Canyon"
+          D: "Zhemchug Canyon"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la plus grande baie du monde ?"
+    answers:
+      A: "Baie de Fundy"
+      B: "Baie de Chesapeake"
+      C: "Baie d'Hudson"
+      D: "Golfe du Bengale"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the world's largest bay?"
+        answers:
+          A: "Bay of Fundy"
+          B: "Chesapeake Bay"
+          C: "Hudson Bay"
+          D: "Bay of Bengal"
+    difficulty: EXPERT
+  - text: "Quel détroit relie la mer Méditerranée à l'océan Atlantique ?"
+    answers:
+      A: "Détroit de Messine"
+      B: "Détroit de Gibraltar"
+      C: "Détroit des Dardanelles"
+      D: "Détroit de Bonifacio"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which strait connects the Mediterranean Sea to the Atlantic Ocean?"
+        answers:
+          A: "Strait of Messina"
+          B: "Strait of Gibraltar"
+          C: "Dardanelles Strait"
+          D: "Strait of Bonifacio"
+    difficulty: EASY
+  - text: "Quelle fosse océanique est la plus profonde de l'océan Indien ?"
+    answers:
+      A: "Fosse des Mariannes"
+      B: "Fosse des Tonga"
+      C: "Fosse des Kouriles"
+      D: "Fosse de Java"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ocean trench is the deepest in the Indian Ocean?"
+        answers:
+          A: "Mariana Trench"
+          B: "Tonga Trench"
+          C: "Kuril Trench"
+          D: "Java Trench"
+    difficulty: EXPERT
+  - text: "Quel est le nom du point le plus profond de la fosse des Kouriles ?"
+    answers:
+      A: "Challenger Deep"
+      B: "Horizon Deep"
+      C: "Vitiaz Deep"
+      D: "Milwaukee Deep"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the deepest point of the Kuril Trench?"
+        answers:
+          A: "Challenger Deep"
+          B: "Horizon Deep"
+          C: "Vitiaz Deep"
+          D: "Milwaukee Deep"
+    difficulty: EXPERT
+  - text: "Quel pays possède le plus long littoral au monde ?"
+    answers:
+      A: "Canada"
+      B: "Indonésie"
+      C: "Russie"
+      D: "Australie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country has the longest coastline in the world?"
+        answers:
+          A: "Canada"
+          B: "Indonesia"
+          C: "Russia"
+          D: "Australia"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand récif corallien de la mer Rouge ?"
+    answers:
+      A: "Récif de Shaab Rumi"
+      B: "Récif de Sanganeb"
+      C: "Récif de Ras Mohammed"
+      D: "Récif de Tubbataha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Red Sea?"
+        answers:
+          A: "Shaab Rumi Reef"
+          B: "Sanganeb Reef"
+          C: "Ras Mohammed Reef"
+          D: "Tubbataha Reef"
+    difficulty: EXPERT
+  - text: "Quelle est la profondeur moyenne de l'océan Pacifique ?"
+    answers:
+      A: "2 000 m"
+      B: "3 000 m"
+      C: "5 000 m"
+      D: "4 000 m"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the average depth of the Pacific Ocean?"
+        answers:
+          A: "2,000 m"
+          B: "3,000 m"
+          C: "5,000 m"
+          D: "4,000 m"
+    difficulty: HARD
+  - text: "Quel détroit sépare l'île de Taïwan de la Chine continentale ?"
+    answers:
+      A: "Détroit de Cook"
+      B: "Détroit de Malacca"
+      C: "Détroit de Bass"
+      D: "Détroit de Taïwan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which strait separates the island of Taiwan from mainland China?"
+        answers:
+          A: "Cook Strait"
+          B: "Strait of Malacca"
+          C: "Bass Strait"
+          D: "Taiwan Strait"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'amphipode géant découvert dans la fosse des Kermadec ?"
+    answers:
+      A: "Alicella gigantea"
+      B: "Hirondellea gigas"
+      C: "Eurythenes gryllus"
+      D: "Bathynomus giganteus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the giant amphipod discovered in the Kermadec Trench?"
+        answers:
+          A: "Alicella gigantea"
+          B: "Hirondellea gigas"
+          C: "Eurythenes gryllus"
+          D: "Bathynomus giganteus"
+    difficulty: EXPERT
+  - text: "Quelle est la température approximative de l'eau au fond de l'océan ?"
+    answers:
+      A: "0°C"
+      B: "2°C"
+      C: "10°C"
+      D: "4°C"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the approximate water temperature at the bottom of the ocean?"
+        answers:
+          A: "0°C"
+          B: "2°C"
+          C: "10°C"
+          D: "4°C"
+    difficulty: HARD
+  - text: "Quel est le nom de l'expédition océanographique qui a découvert la fosse des Mariannes en 1875 ?"
+    answers:
+      A: "Expédition Beagle"
+      B: "Expédition Titanic"
+      C: "Expédition Challenger"
+      D: "Expédition Endeavour"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the oceanographic expedition that discovered the Mariana Trench in 1875?"
+        answers:
+          A: "Beagle Expedition"
+          B: "Titanic Expedition"
+          C: "Challenger Expedition"
+          D: "Endeavour Expedition"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand récif corallien de l'océan Pacifique ?"
+    answers:
+      A: "Récif de Tubbataha"
+      B: "Grande Barrière de corail"
+      C: "Récif de Saya de Malha"
+      D: "Récif de Kingman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Pacific Ocean?"
+        answers:
+          A: "Tubbataha Reef"
+          B: "Great Barrier Reef"
+          C: "Saya de Malha Reef"
+          D: "Kingman Reef"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la fosse océanique la plus profonde de la mer Méditerranée ?"
+    answers:
+      A: "Fosse des Kouriles"
+      B: "Fosse des Mariannes"
+      C: "Fosse de Porto Rico"
+      D: "Fosse de Calypso"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the deepest ocean trench in the Mediterranean Sea?"
+        answers:
+          A: "Kuril Trench"
+          B: "Mariana Trench"
+          C: "Puerto Rico Trench"
+          D: "Calypso Trench"
+    difficulty: EXPERT
+  - text: "Quel pourcentage approximatif de la surface terrestre est couvert par les océans ?"
+    answers:
+      A: "76%"
+      B: "61%"
+      C: "81%"
+      D: "71%"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What approximate percentage of the Earth's surface is covered by oceans?"
+        answers:
+          A: "76%"
+          B: "61%"
+          C: "81%"
+          D: "71%"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a dirigé l'expédition Challenger de 1872 à 1876 ?"
+    answers:
+      A: "Robert Ballard"
+      B: "Jacques Cousteau"
+      C: "John Murray"
+      D: "Charles Wyville Thomson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist led the Challenger expedition from 1872 to 1876?"
+        answers:
+          A: "Robert Ballard"
+          B: "Jacques Cousteau"
+          C: "John Murray"
+          D: "Charles Wyville Thomson"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand poisson osseux du monde ?"
+    answers:
+      A: "Le requin-baleine"
+      B: "Le poisson-lune"
+      C: "Le thon rouge"
+      D: "L'espadon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest bony fish in the world?"
+        answers:
+          A: "Whale shark"
+          B: "Ocean sunfish"
+          C: "Bluefin tuna"
+          D: "Swordfish"
+    difficulty: HARD
+  - text: "Quelle est la longueur approximative du plus grand récif corallien du monde, la Grande Barrière de corail ?"
+    answers:
+      A: "1 200 km"
+      B: "2 300 km"
+      C: "3 500 km"
+      D: "800 km"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate length of the world's largest coral reef, the Great Barrier Reef?"
+        answers:
+          A: "1,200 km"
+          B: "2,300 km"
+          C: "3,500 km"
+          D: "800 km"
+    difficulty: HARD
+  - text: "Quel détroit sépare l'Australie de la Papouasie-Nouvelle-Guinée ?"
+    answers:
+      A: "Le détroit de Malacca"
+      B: "Le détroit de Bass"
+      C: "Le détroit de Cook"
+      D: "Le détroit de Torrès"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which strait separates Australia from Papua New Guinea?"
+        answers:
+          A: "Strait of Malacca"
+          B: "Bass Strait"
+          C: "Cook Strait"
+          D: "Torres Strait"
+    difficulty: HARD
+  - text: "Quel courant océanique transporte le plus d'eau au monde ?"
+    answers:
+      A: "Le Gulf Stream"
+      B: "Le courant circumpolaire antarctique"
+      C: "Le Kuroshio"
+      D: "Le courant de Humboldt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ocean current carries the most water in the world?"
+        answers:
+          A: "The Gulf Stream"
+          B: "The Antarctic Circumpolar Current"
+          C: "The Kuroshio"
+          D: "The Humboldt Current"
+    difficulty: HARD
+  - text: "Quelle est la profondeur approximative de la fosse des Mariannes à son point le plus profond ?"
+    answers:
+      A: "9 500 mètres"
+      B: "8 800 mètres"
+      C: "12 500 mètres"
+      D: "11 000 mètres"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the approximate depth of the Mariana Trench at its deepest point?"
+        answers:
+          A: "9,500 meters"
+          B: "8,800 meters"
+          C: "12,500 meters"
+          D: "11,000 meters"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plus grand requin vivant actuellement ?"
+    answers:
+      A: "Le requin pèlerin"
+      B: "Le grand requin blanc"
+      C: "Le requin-tigre"
+      D: "Le requin-baleine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the largest living shark today?"
+        answers:
+          A: "The basking shark"
+          B: "The great white shark"
+          C: "The tiger shark"
+          D: "The whale shark"
+    difficulty: MEDIUM
+  - text: "Quel pourcentage des espèces marines dépend des récifs coralliens ?"
+    answers:
+      A: "25%"
+      B: "10%"
+      C: "50%"
+      D: "75%"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What percentage of marine species depend on coral reefs?"
+        answers:
+          A: "25%"
+          B: "10%"
+          C: "50%"
+          D: "75%"
+    difficulty: HARD
+  - text: "Quel océan borde la côte ouest de l'Amérique du Sud ?"
+    answers:
+      A: "L'océan Pacifique"
+      B: "L'océan Atlantique"
+      C: "L'océan Indien"
+      D: "L'océan Arctique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ocean borders the west coast of South America?"
+        answers:
+          A: "The Pacific Ocean"
+          B: "The Atlantic Ocean"
+          C: "The Indian Ocean"
+          D: "The Arctic Ocean"
+    difficulty: EASY
+  - text: "Quel animal marin est capable de changer de sexe au cours de sa vie ?"
+    answers:
+      A: "Le requin-marteau"
+      B: "Le mérou"
+      C: "La raie manta"
+      D: "Le thon rouge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which marine animal is capable of changing sex during its lifetime?"
+        answers:
+          A: "The hammerhead shark"
+          B: "The grouper"
+          C: "The manta ray"
+          D: "The bluefin tuna"
+    difficulty: HARD
+  - text: "Quel est le nom de la plus grande fosse océanique de la mer Méditerranée ?"
+    answers:
+      A: "La fosse hellénique"
+      B: "La fosse de Calypso"
+      C: "La fosse de Matapan"
+      D: "La fosse de Pliny"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the largest oceanic trench in the Mediterranean Sea?"
+        answers:
+          A: "The Hellenic Trench"
+          B: "The Calypso Deep"
+          C: "The Matapan Trench"
+          D: "The Pliny Trench"
+    difficulty: EXPERT
+  - text: "Quel pourcentage de l'oxygène produit sur Terre provient des océans ?"
+    answers:
+      A: "70%"
+      B: "30%"
+      C: "50%"
+      D: "10%"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What percentage of the oxygen produced on Earth comes from the oceans?"
+        answers:
+          A: "70%"
+          B: "30%"
+          C: "50%"
+          D: "10%"
+    difficulty: HARD
+  - text: "Quel détroit sépare la Sardaigne de la Corse ?"
+    answers:
+      A: "Détroit de Gibraltar"
+      B: "Détroit de Messine"
+      C: "Détroit de Bonifacio"
+      D: "Détroit d'Otrante"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which strait separates Sardinia from Corsica?"
+        answers:
+          A: "Strait of Gibraltar"
+          B: "Strait of Messina"
+          C: "Strait of Bonifacio"
+          D: "Strait of Otranto"
+    difficulty: HARD
+  - text: "Quelle mer borde la côte nord de la Turquie ?"
+    answers:
+      A: "Mer Égée"
+      B: "Mer Noire"
+      C: "Mer Méditerranée"
+      D: "Mer de Marmara"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sea borders the northern coast of Turkey?"
+        answers:
+          A: "Aegean Sea"
+          B: "Black Sea"
+          C: "Mediterranean Sea"
+          D: "Sea of Marmara"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plus grand requin ayant jamais vécu ?"
+    answers:
+      A: "Grand requin blanc"
+      B: "Megalodon"
+      C: "Requin-baleine"
+      D: "Requin pèlerin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest shark that ever lived?"
+        answers:
+          A: "Great white shark"
+          B: "Megalodon"
+          C: "Whale shark"
+          D: "Basking shark"
+    difficulty: HARD
+  - text: "Quelle est la profondeur du point le plus profond de la fosse des Mariannes, le Challenger Deep ?"
+    answers:
+      A: "Environ 8 000 mètres"
+      B: "Environ 11 000 mètres"
+      C: "Environ 6 000 mètres"
+      D: "Environ 13 000 mètres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the depth of the deepest point of the Mariana Trench, the Challenger Deep?"
+        answers:
+          A: "About 8,000 meters"
+          B: "About 11,000 meters"
+          C: "About 6,000 meters"
+          D: "About 13,000 meters"
+    difficulty: HARD
+  - text: "Quel pourcentage de l'oxygène atmosphérique est produit par les océans ?"
+    answers:
+      A: "Environ 70 %"
+      B: "Environ 20 %"
+      C: "Environ 50 %"
+      D: "Environ 10 %"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What percentage of atmospheric oxygen is produced by the oceans?"
+        answers:
+          A: "About 70%"
+          B: "About 20%"
+          C: "About 50%"
+          D: "About 10%"
+    difficulty: HARD
+  - text: "Quelle est la longueur approximative de la Grande Barrière de corail ?"
+    answers:
+      A: "3 000 kilomètres"
+      B: "1 500 kilomètres"
+      C: "2 300 kilomètres"
+      D: "1 000 kilomètres"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate length of the Great Barrier Reef?"
+        answers:
+          A: "3,000 kilometers"
+          B: "1,500 kilometers"
+          C: "2,300 kilometers"
+          D: "1,000 kilometers"
+    difficulty: MEDIUM
+  - text: "Quelle est la profondeur maximale connue de la fosse des Mariannes ?"
+    answers:
+      A: "10 994 m"
+      B: "8 848 m"
+      C: "12 262 m"
+      D: "9 876 m"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the maximum known depth of the Mariana Trench?"
+        answers:
+          A: "10,994 m"
+          B: "8,848 m"
+          C: "12,262 m"
+          D: "9,876 m"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la fosse océanique la plus profonde de l'océan Indien ?"
+    answers:
+      A: "Fosse des Tonga"
+      B: "Fosse de Timor"
+      C: "Fosse de Kermadec"
+      D: "Fosse de Java"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the deepest oceanic trench in the Indian Ocean?"
+        answers:
+          A: "Tonga Trench"
+          B: "Timor Trench"
+          C: "Kermadec Trench"
+          D: "Java Trench"
+    difficulty: EXPERT
+  - text: "Quelle est la profondeur approximative du point le plus profond de la fosse des Kouriles ?"
+    answers:
+      A: "8 000 m"
+      B: "10 500 m"
+      C: "9 500 m"
+      D: "11 000 m"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate depth of the deepest point of the Kuril Trench?"
+        answers:
+          A: "8,000 m"
+          B: "10,500 m"
+          C: "9,500 m"
+          D: "11,000 m"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la fosse océanique la plus profonde de la mer Méditerranée orientale ?"
+    answers:
+      A: "Fosse de Matapan"
+      B: "Fosse de Calypso"
+      C: "Fosse de Rhodes"
+      D: "Fosse de Chypre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the deepest oceanic trench in the eastern Mediterranean Sea?"
+        answers:
+          A: "Matapan Trench"
+          B: "Calypso Trench"
+          C: "Rhodes Trench"
+          D: "Cyprus Trench"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand récif corallien de l'Atlantique ?"
+    answers:
+      A: "Récif de l'Amazonie"
+      B: "Barrière de corail du Belize"
+      C: "Récif des Bermudes"
+      D: "Récif des Canaries"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Atlantic?"
+        answers:
+          A: "Amazon Reef"
+          B: "Belize Barrier Reef"
+          C: "Bermuda Reef"
+          D: "Canary Reef"
+    difficulty: EXPERT
+  - text: "Quel détroit sépare l'île de Honshu de l'île de Hokkaido au Japon ?"
+    answers:
+      A: "Détroit de Tsugaru"
+      B: "Détroit de Corée"
+      C: "Détroit de Bungo"
+      D: "Détroit de Kii"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which strait separates the island of Honshu from the island of Hokkaido in Japan?"
+        answers:
+          A: "Tsugaru Strait"
+          B: "Korea Strait"
+          C: "Bungo Strait"
+          D: "Kii Strait"
+    difficulty: HARD
+  - text: "Quelle est la profondeur maximale de la fosse de Porto Rico ?"
+    answers:
+      A: "Environ 6 500 m"
+      B: "Environ 12 200 m"
+      C: "Environ 10 900 m"
+      D: "Environ 8 400 m"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum depth of the Puerto Rico Trench?"
+        answers:
+          A: "About 6,500 m"
+          B: "About 12,200 m"
+          C: "About 10,900 m"
+          D: "About 8,400 m"
+    difficulty: EXPERT
+  - text: "Quel courant marin traverse l'océan Atlantique du sud vers le nord ?"
+    answers:
+      A: "Courant de Humboldt"
+      B: "Courant de Benguela"
+      C: "Courant de Californie"
+      D: "Gulf Stream"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ocean current crosses the Atlantic Ocean from south to north?"
+        answers:
+          A: "Humboldt Current"
+          B: "Benguela Current"
+          C: "California Current"
+          D: "Gulf Stream"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand récif corallien de l'hémisphère Sud en dehors de la Grande Barrière ?"
+    answers:
+      A: "Récif des Galápagos"
+      B: "Récif de l'île de Pâques"
+      C: "Récif de Nouvelle-Calédonie"
+      D: "Récif de la mer Rouge"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Southern Hemisphere outside the Great Barrier?"
+        answers:
+          A: "Galápagos Reef"
+          B: "Easter Island Reef"
+          C: "New Caledonia Reef"
+          D: "Red Sea Reef"
+    difficulty: EXPERT
+  - text: "Quel détroit sépare l'islande de la côte est du Groenland ?"
+    answers:
+      A: "Détroit de Danemark"
+      B: "Détroit de Davis"
+      C: "Détroit de Nares"
+      D: "Détroit de Béring"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which strait separates Iceland from the east coast of Greenland?"
+        answers:
+          A: "Denmark Strait"
+          B: "Davis Strait"
+          C: "Nares Strait"
+          D: "Bering Strait"
+    difficulty: HARD
+  - text: "Quelle est la longueur approximative du fleuve Amazone jusqu'à son embouchure dans l'Atlantique ?"
+    answers:
+      A: "Environ 4 000 km"
+      B: "Environ 6 400 km"
+      C: "Environ 5 500 km"
+      D: "Environ 7 200 km"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate length of the Amazon River to its mouth in the Atlantic?"
+        answers:
+          A: "About 4,000 km"
+          B: "About 6,400 km"
+          C: "About 5,500 km"
+          D: "About 7,200 km"
+    difficulty: HARD
+  - text: "Quel est le nom de la plus grande baie du monde en superficie ?"
+    answers:
+      A: "Baie de Bengal"
+      B: "Golfe du Mexique"
+      C: "Baie de Hudson"
+      D: "Mer de Béring"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest bay in the world by area?"
+        answers:
+          A: "Bay of Bengal"
+          B: "Gulf of Mexico"
+          C: "Hudson Bay"
+          D: "Bering Sea"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand port naturel de la mer Méditerranée situé en France ?"
+    answers:
+      A: "Port de Gênes"
+      B: "Rade de Toulon"
+      C: "Port de Marseille"
+      D: "Port de Barcelone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest natural harbor in the Mediterranean Sea located in France?"
+        answers:
+          A: "Port of Genoa"
+          B: "Rade de Toulon"
+          C: "Port of Marseille"
+          D: "Port of Barcelona"
+    difficulty: EXPERT
+  - text: "Quel pourcentage approximatif de l'eau sur Terre est salée ?"
+    answers:
+      A: "Environ 97 %"
+      B: "Environ 85 %"
+      C: "Environ 75 %"
+      D: "Environ 90 %"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What approximate percentage of water on Earth is salt water?"
+        answers:
+          A: "About 97%"
+          B: "About 85%"
+          C: "About 75%"
+          D: "About 90%"
+    difficulty: MEDIUM
+  - text: "Quelle est la plus grande profondeur connue de la fosse des Tonga ?"
+    answers:
+      A: "Environ 9 000 m"
+      B: "Environ 11 500 m"
+      C: "Environ 7 500 m"
+      D: "Environ 10 800 m"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the greatest known depth of the Tonga Trench?"
+        answers:
+          A: "About 9,000 m"
+          B: "About 11,500 m"
+          C: "About 7,500 m"
+          D: "About 10,800 m"
+    difficulty: EXPERT
+  - text: "Quel détroit relie la mer Noire à la mer Méditerranée ?"
+    answers:
+      A: "Détroit de Gibraltar"
+      B: "Détroit des Dardanelles"
+      C: "Détroit de Messine"
+      D: "Détroit du Bosphore"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which strait connects the Black Sea to the Mediterranean Sea?"
+        answers:
+          A: "Strait of Gibraltar"
+          B: "Dardanelles Strait"
+          C: "Strait of Messina"
+          D: "Bosphorus Strait"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand poisson cartilagineux du monde ?"
+    answers:
+      A: "Requin blanc"
+      B: "Requin baleine"
+      C: "Requin pèlerin"
+      D: "Raie manta"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest cartilaginous fish in the world?"
+        answers:
+          A: "Great white shark"
+          B: "Whale shark"
+          C: "Basking shark"
+          D: "Manta ray"
+    difficulty: HARD
+  - text: "Quelle mer borde la côte est de la Chine ?"
+    answers:
+      A: "Mer Jaune"
+      B: "Mer de Chine méridionale"
+      C: "Mer de Corail"
+      D: "Mer du Japon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sea borders the east coast of China?"
+        answers:
+          A: "Yellow Sea"
+          B: "South China Sea"
+          C: "Coral Sea"
+          D: "Sea of Japan"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la fosse océanique la plus profonde de la mer des Caraïbes ?"
+    answers:
+      A: "Fosse de Porto Rico"
+      B: "Fosse de la Jamaïque"
+      C: "Fosse de Cayman"
+      D: "Fosse de Cuba"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the deepest ocean trench in the Caribbean Sea?"
+        answers:
+          A: "Puerto Rico Trench"
+          B: "Jamaica Trench"
+          C: "Cayman Trench"
+          D: "Cuba Trench"
+    difficulty: EXPERT
+  - text: "Quel courant marin longe la côte ouest de l'Amérique du Sud ?"
+    answers:
+      A: "Courant de Malouines"
+      B: "Courant du Brésil"
+      C: "Courant de Humboldt"
+      D: "Courant de Guyane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ocean current runs along the west coast of South America?"
+        answers:
+          A: "Falkland Current"
+          B: "Brazil Current"
+          C: "Humboldt Current"
+          D: "Guiana Current"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand récif corallien de la mer des Caraïbes ?"
+    answers:
+      A: "Récif de la Floride"
+      B: "Récif de Cuba"
+      C: "Récif du Belize"
+      D: "Récif de la Jamaïque"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest coral reef in the Caribbean Sea?"
+        answers:
+          A: "Florida Reef"
+          B: "Cuba Reef"
+          C: "Belize Reef"
+          D: "Jamaica Reef"
+    difficulty: EXPERT
+  - text: "Quelle est la profondeur approximative du point le plus profond de la fosse de Java ?"
+    answers:
+      A: "Environ 5 000 m"
+      B: "Environ 9 100 m"
+      C: "Environ 7 300 m"
+      D: "Environ 10 500 m"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate depth of the deepest point of the Java Trench?"
+        answers:
+          A: "About 5,000 m"
+          B: "About 9,100 m"
+          C: "About 7,300 m"
+          D: "About 10,500 m"
+    difficulty: EXPERT
+  - text: "Quel pourcentage de l'eau terrestre est douce ?"
+    answers:
+      A: "Environ 2,5 %"
+      B: "6 %"
+      C: "10 %"
+      D: "0,5 %"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What percentage of Earth's water is fresh water?"
+        answers:
+          A: "About 2.5%"
+          B: "6%"
+          C: "10%"
+          D: "0.5%"
+    difficulty: MEDIUM
+  - text: "Quelle est la salinité moyenne des océans ?"
+    answers:
+      A: "1 %"
+      B: "5 %"
+      C: "Environ 3,5 %"
+      D: "7 %"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the average salinity of the oceans?"
+        answers:
+          A: "1%"
+          B: "5%"
+          C: "About 3.5%"
+          D: "7%"
+    difficulty: HARD

@@ -1,0 +1,524 @@
+## [7.0.0](https://github.com/joutio/joutio-theme/compare/v6.14.0...v7.0.0) (2026-10-25)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** les cartes `topic.titles` utilisent désormais les clés
+FER…DIAMANT ; les anciennes clés sont rejetées par la validation.
+
+### Features
+
+* **theme:** renomme les titres de seed en paliers de rareté ([4140375](https://github.com/joutio/joutio-theme/commit/41403754148f28192e9917fbaf2e5e7e1170ee9f))
+
+## [6.14.0](https://github.com/joutio/joutio-theme/compare/v6.13.1...v6.14.0) (2026-10-22)
+
+### Features
+
+* **theme:** expose l'événement de sujet dépublié pour notification ([99784d2](https://github.com/joutio/joutio-theme/commit/99784d201e8eb24539f2030d840a39a6a1d4094d))
+
+## [6.13.1](https://github.com/joutio/joutio-theme/compare/v6.13.0...v6.13.1) (2026-10-22)
+
+### Bug Fixes
+
+* **theme:** aligne les contrats social et game sur les releases disponibles ([4994bff](https://github.com/joutio/joutio-theme/commit/4994bff25185ed67274d892b98873e5797044eae))
+
+## [6.13.0](https://github.com/joutio/joutio-theme/compare/v6.12.0...v6.13.0) (2026-10-22)
+
+### Features
+
+* **account:** supprime les contenus du compte et repasse les sujets impactés en brouillon ([3e90aa5](https://github.com/joutio/joutio-theme/commit/3e90aa5898c1d4c2594c4ca5bef948cd5c8e34cb))
+
+## [6.12.0](https://github.com/joutio/joutio-theme/compare/v6.11.1...v6.12.0) (2026-10-17)
+
+### Features
+
+* **theme:** ajoute les signalements et la moderation des questions ([9a04e7f](https://github.com/joutio/joutio-theme/commit/9a04e7f93c756b497a232b94e9c752fc739a6ca3))
+
+## [6.11.1](https://github.com/joutio/joutio-theme/compare/v6.11.0...v6.11.1) (2026-10-15)
+
+### Bug Fixes
+
+* **theme:** le tirage ne remonte plus deux fois la meme question ([9a31290](https://github.com/joutio/joutio-theme/commit/9a31290aaa8349f9d6d097b62a425720709e95af))
+
+## [6.11.0](https://github.com/joutio/joutio-theme/compare/v6.10.0...v6.11.0) (2026-10-15)
+
+### Features
+
+* **seed:** theme « Blasons de clubs » (288 ecussons fair use) ([c60c7f2](https://github.com/joutio/joutio-theme/commit/c60c7f2bf43342c05fcda9e939994bfe1e4eb71b))
+
+## [6.10.0](https://github.com/joutio/joutio-theme/compare/v6.9.0...v6.10.0) (2026-10-15)
+
+### Features
+
+* **seed:** couvertures des 25 themes sans visuel ([038974c](https://github.com/joutio/joutio-theme/commit/038974cf0eecad39fdf1c6ec34f68a025699332a))
+
+## [6.9.0](https://github.com/joutio/joutio-theme/compare/v6.8.0...v6.9.0) (2026-10-15)
+
+### Features
+
+* **seed:** titres thématiques des 102 thèmes ([ae9ecf5](https://github.com/joutio/joutio-theme/commit/ae9ecf53e029723dd0abcd97e5cec4c8493fa849))
+
+## [6.8.0](https://github.com/joutio/joutio-theme/compare/v6.7.0...v6.8.0) (2026-10-15)
+
+### Features
+
+* **seed:** fin de la réécriture durcie + suppression des 5 umbrellas ([9c0ca79](https://github.com/joutio/joutio-theme/commit/9c0ca79a5a2cad648e1a7635cab4a0d73c4fd91a))
+
+## [6.7.0](https://github.com/joutio/joutio-theme/compare/v6.6.0...v6.7.0) (2026-10-15)
+
+### Features
+
+* **seed:** mode --titles (titres thématiques à la Joutio) ([9122e3a](https://github.com/joutio/joutio-theme/commit/9122e3a53633e1d6e539cc8486c9d91d807316c3))
+
+## [6.6.0](https://github.com/joutio/joutio-theme/compare/v6.5.0...v6.6.0) (2026-10-15)
+
+### Features
+
+* **theme:** titres personnalisés par grade et par langue ([a47859e](https://github.com/joutio/joutio-theme/commit/a47859e6d8dcd9391a9784df77eb1dc390a5c5ae))
+
+## [6.5.0](https://github.com/joutio/joutio-theme/compare/v6.4.1...v6.5.0) (2026-10-15)
+
+### Features
+
+* **seed:** réécriture durcie des thèmes existants (lot 1/2) ([33bc168](https://github.com/joutio/joutio-theme/commit/33bc16818da44055fd7547f59948e831e0886b1b))
+
+## [6.4.1](https://github.com/joutio/joutio-theme/compare/v6.4.0...v6.4.1) (2026-10-15)
+
+### Bug Fixes
+
+* **seed:** raccourcissement d'image fiable (prompt json + relance) ([6a8a033](https://github.com/joutio/joutio-theme/commit/6a8a03364a0506375e24a44749e7cd1433fd8296))
+
+## [6.4.0](https://github.com/joutio/joutio-theme/compare/v6.3.0...v6.4.0) (2026-10-15)
+
+### Features
+
+* **seed:** réécriture hybride (conserve les images par question) ([0694d82](https://github.com/joutio/joutio-theme/commit/0694d822629d745251b71cac31998c7de5b314a6))
+
+### Bug Fixes
+
+* **seed:** restaure les traductions EN de drapeaux-du-monde ([cb9c1af](https://github.com/joutio/joutio-theme/commit/cb9c1afaef1858a185e60b6c9bb6f8761cb840e3))
+
+## [6.3.0](https://github.com/joutio/joutio-theme/compare/v6.2.1...v6.3.0) (2026-10-15)
+
+### Features
+
+* **seed:** 19 nouveaux thèmes (lot acquisition) ([94770dc](https://github.com/joutio/joutio-theme/commit/94770dc0802fd07961d0de2c14819e771ab507aa))
+
+## [6.2.1](https://github.com/joutio/joutio-theme/compare/v6.2.0...v6.2.1) (2026-10-15)
+
+### Bug Fixes
+
+* **seed:** génération robuste et runner non bloquant ([c04375b](https://github.com/joutio/joutio-theme/commit/c04375b7ebe735c4088916ff79da78ea8051afd0))
+
+## [6.2.0](https://github.com/joutio/joutio-theme/compare/v6.1.0...v6.2.0) (2026-10-15)
+
+### Features
+
+* **seed:** runner batch d'acquisition + manifeste + thème One Piece ([be943ed](https://github.com/joutio/joutio-theme/commit/be943edf480210f163922be8fc1a973bee111b98))
+
+## [6.1.0](https://github.com/joutio/joutio-theme/compare/v6.0.0...v6.1.0) (2026-10-15)
+
+### Features
+
+* **seed:** générateur de thèmes DeepSeek et thème pilote Naruto ([2d1dc0f](https://github.com/joutio/joutio-theme/commit/2d1dc0fdd949992cd81b965ada4bf535103a4d4b))
+
+## [6.0.0](https://github.com/joutio/joutio-theme/compare/v5.10.0...v6.0.0) (2026-10-14)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** migration du compteur de parties en V5 (collision avec la V4 bannière)
+
+### Bug Fixes
+
+* **theme:** migration du compteur de parties en V5 (collision avec la V4 bannière) ([75f4bcc](https://github.com/joutio/joutio-theme/commit/75f4bcc7f8fe33676d1ad173d7cd77a2168f61dc))
+
+## [5.10.0](https://github.com/joutio/joutio-theme/compare/v5.9.0...v5.10.0) (2026-10-14)
+
+### Features
+
+* **theme:** compteur communautaire de parties jouées + tri MOST_PLAYED ([9d643e3](https://github.com/joutio/joutio-theme/commit/9d643e3c2a029f3d8e1d5a31677b7527bdf9c27c))
+
+## [5.9.0](https://github.com/joutio/joutio-theme/compare/v5.8.0...v5.9.0) (2026-10-13)
+
+### Features
+
+* **theme:** comptage des références d'images (console média admin) ([03cc6b9](https://github.com/joutio/joutio-theme/commit/03cc6b90bed376174bcae5ba85b7fe5d9993d3ee))
+
+## [5.8.0](https://github.com/joutio/joutio-theme/compare/v5.7.0...v5.8.0) (2026-10-12)
+
+### Features
+
+* **theme:** images du seed mirorées (chemins relatifs) + bannière de fiche sujet ([a0a43ca](https://github.com/joutio/joutio-theme/commit/a0a43ca9682586dc7bc84541802368cddba6dadd))
+
+## [5.8.0](https://github.com/joutio/joutio-theme/compare/v5.7.0...v5.8.0) (2026-10-12)
+
+### Features
+
+* **theme:** images du seed mirorées (chemins relatifs) + bannière de fiche sujet ([a0a43ca](https://github.com/joutio/joutio-theme/commit/a0a43ca9682586dc7bc84541802368cddba6dadd))
+
+## [5.7.0](https://github.com/joutio/joutio-theme/compare/v5.6.0...v5.7.0) (2026-10-12)
+
+### Features
+
+* **theme:** questions illustrées pour les 28 nouveaux thèmes ([32ffabb](https://github.com/joutio/joutio-theme/commit/32ffabb1979b0a472836101b36d844d7a952b257))
+
+## [5.6.0](https://github.com/joutio/joutio-theme/compare/v5.5.0...v5.6.0) (2026-10-12)
+
+### Features
+
+* **theme:** lot 4 — sport (tennis, F1, rugby, cyclisme, JO, basketball) ([9585f83](https://github.com/joutio/joutio-theme/commit/9585f83519bd5d2ff1a2a3fd61a7c0b0cd7ef63f))
+* **theme:** lot 5 — séries & cinéma (Squid Game, Kaamelott, The Office, Casa de Papel, James Bond, comédies FR) ([12bdc8d](https://github.com/joutio/joutio-theme/commit/12bdc8d6028e2fcc8c977937d625f9eb74965e2d))
+* **theme:** lot 6 — culture française (BD franco-belge, chansons, cuisine, fromages, Eurovision, memes) ([6158928](https://github.com/joutio/joutio-theme/commit/61589285cca3a2736866c0226c17ab20ec4d25dc))
+* **theme:** lot 7 — sciences, nature & histoire (physique, maths, mer, insectes, WW2, Moyen Âge) ([a57b663](https://github.com/joutio/joutio-theme/commit/a57b663aa3c69454f396f28de88ed7f92e3273d4))
+* **theme:** lot 8 — jeux & tech (Nintendo, e-sport, arcade, Internet & IA) ([928b1ff](https://github.com/joutio/joutio-theme/commit/928b1ff773d393e12e2c47ce76e89580f54a9361))
+
+### Bug Fixes
+
+* **theme:** SDK joutio-parent 4.7.1 (cycle de beans Configuration/bus distribué au démarrage) ([6ac4692](https://github.com/joutio/joutio-theme/commit/6ac469261a04075c96c849961d4e33d6cc73c559))
+
+## [5.5.0](https://github.com/joutio/joutio-theme/compare/v5.4.0...v5.5.0) (2026-10-12)
+
+### Features
+
+* **console:** consume joutio-sdk 4.7.0 (lag, commandes en vol, snapshots, scheduled) ([d3648ee](https://github.com/joutio/joutio-theme/commit/d3648ee9dc810304b922def4ea7de4456baeaa24))
+* **theme:** complète les 56 thèmes à 100 questions avec difficulté équilibrée ([55b8892](https://github.com/joutio/joutio-theme/commit/55b8892a27a36a6c275b093fe917c6919ce0ea74))
+* **theme:** difficulté initiale du seed + complétion des thèmes publiés ([eec992f](https://github.com/joutio/joutio-theme/commit/eec992f34fffa74254e850a53f5ed94afb5c6eaa))
+
+## [5.4.0](https://github.com/joutio/joutio-theme/compare/v5.3.0...v5.4.0) (2026-10-12)
+
+### Features
+
+* **theme:** thèmes communautés & nostalgie du seed — lot 2 ([4d53f3d](https://github.com/joutio/joutio-theme/commit/4d53f3d81ac0c9702f09fe66f7349a9264721943))
+* **theme:** thèmes evergreen du seed — lot 3 ([6eb9193](https://github.com/joutio/joutio-theme/commit/6eb91933f3c381e742250496abd3f1e1bc04febc))
+* **theme:** thèmes viraux du seed — lot 1 ([b70020a](https://github.com/joutio/joutio-theme/commit/b70020a06c85258e911b1886e8774691d88c47eb))
+
+### Bug Fixes
+
+* **theme:** contrats social/game alignés sur les versions publiées (anciennes élaguées) ([fd80c39](https://github.com/joutio/joutio-theme/commit/fd80c3993e89ad851dc58d122bccab0c04366327))
+
+## [5.3.0](https://github.com/joutio/joutio-theme/compare/v5.2.0...v5.3.0) (2026-10-12)
+
+### Features
+
+* **console:** consume joutio-sdk 4.6.0 (build-info + API interne event store/scheduled) ([93efed5](https://github.com/joutio/joutio-theme/commit/93efed51a8f0230ef4248b701a13ec776ef6e5a9))
+
+## [5.2.0](https://github.com/joutio/joutio-theme/compare/v5.1.1...v5.2.0) (2026-10-12)
+
+### Features
+
+* **console:** consume joutio-sdk 4.5.2 (DLQ Axon par défaut + agent console) ([b96bb5a](https://github.com/joutio/joutio-theme/commit/b96bb5afce58e4c08db523fa43dafac6a2dc51c6))
+
+## [5.1.1](https://github.com/joutio/joutio-theme/compare/v5.1.0...v5.1.1) (2026-10-12)
+
+### Bug Fixes
+
+* **theme:** seed équilibré A/B/C/D (~25 % ±1) et couvertures uniques ([1dcebf2](https://github.com/joutio/joutio-theme/commit/1dcebf2521d66a917cc05ca1aec670020f551bdb))
+
+## [5.1.0](https://github.com/joutio/joutio-theme/compare/v5.0.0...v5.1.0) (2026-10-12)
+
+### Features
+
+* **theme:** couverture linguistique d'un sujet (query pour la façade) ([e926268](https://github.com/joutio/joutio-theme/commit/e926268b14c490e85b3eea549c9fe029067fe1fe))
+
+## [5.0.0](https://github.com/joutio/joutio-theme/compare/v4.10.1...v5.0.0) (2026-10-11)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** tirage filtré par difficulté cible et questions déjà jouées
+
+### Features
+
+* **theme:** tirage filtré par difficulté cible et questions déjà jouées ([2253a2c](https://github.com/joutio/joutio-theme/commit/2253a2c8d9042be871c76e4a6632f14f0b8b66c7))
+
+## [4.10.1](https://github.com/joutio/joutio-theme/compare/v4.10.0...v4.10.1) (2026-10-11)
+
+### Bug Fixes
+
+* **theme:** éditions de questions → updatedAt du thème (nouveaux thèmes) ([f09e9c6](https://github.com/joutio/joutio-theme/commit/f09e9c63cc404ac5819173c417ac2c5c0dba8420))
+
+## [4.10.0](https://github.com/joutio/joutio-theme/compare/v4.9.0...v4.10.0) (2026-10-09)
+
+### Features
+
+* **theme:** noms de theme multilingues FR/EN + migration V3 ([842c471](https://github.com/joutio/joutio-theme/commit/842c47123268246f36054b8f35518c84e8d929c3))
+
+## [4.9.0](https://github.com/joutio/joutio-theme/compare/v4.8.0...v4.9.0) (2026-10-09)
+
+### Features
+
+* **theme:** film Harry Potter 3 - Prisonnier d'Azkaban (100 q, 40 images) ([3e9bcb0](https://github.com/joutio/joutio-theme/commit/3e9bcb06a176c8288803147e05f48318739814c5))
+* **theme:** film Harry Potter 4 - La Coupe de feu (100 q, 40 images) ([b87614f](https://github.com/joutio/joutio-theme/commit/b87614f6c53d419094065fed2a2097a79aa18a4d))
+* **theme:** film Harry Potter 5 - L'Ordre du Phenix (100 q, 40 images) ([d50bdeb](https://github.com/joutio/joutio-theme/commit/d50bdeb009151162b62b99ba34663318524e7644))
+* **theme:** film Harry Potter 6 - Prince de sang-mele (100 q, 40 images) ([7ad78c9](https://github.com/joutio/joutio-theme/commit/7ad78c9d94f24fc2c0de0727920fa38e190e3415))
+* **theme:** film Harry Potter 7 - Reliques de la Mort 1 (100 q, 40 images) ([2b7571d](https://github.com/joutio/joutio-theme/commit/2b7571dfd5fe4bcf851bab9a4d4b8ec590e81805))
+* **theme:** film Harry Potter 8 - Reliques de la Mort 2 (100 q, 40 images) ([b2b7bb5](https://github.com/joutio/joutio-theme/commit/b2b7bb5ebefd20eea64ef1d9782b1aa53dfd1076))
+* **theme:** films Harry Potter 1-2 (100 questions FR/EN, 40 images chacun) ([af050e0](https://github.com/joutio/joutio-theme/commit/af050e0eecafae56083b419f84332ca35b257676))
+
+## [4.8.0](https://github.com/joutio/joutio-theme/compare/v4.7.1...v4.8.0) (2026-10-09)
+
+### Features
+
+* **theme:** theme Desperate Housewives (100 questions, 40 avec images) ([57b3148](https://github.com/joutio/joutio-theme/commit/57b3148c93b27f20044dd7f4c1fadfb933209f53))
+
+## [4.7.1](https://github.com/joutio/joutio-theme/compare/v4.7.0...v4.7.1) (2026-10-09)
+
+### Bug Fixes
+
+* **theme:** un follow ne met plus a jour updatedAt ([5a56b20](https://github.com/joutio/joutio-theme/commit/5a56b20a17d4930a0c1cb64774375eb9ea0b01dd))
+
+## [4.7.0](https://github.com/joutio/joutio-theme/compare/v4.6.0...v4.7.0) (2026-10-09)
+
+### Features
+
+* **theme:** tri RECENT des themes (updatedAt desc) ([3b03d96](https://github.com/joutio/joutio-theme/commit/3b03d965ee8e8938f9718c3eac575432d61ab7e8))
+
+## [4.6.0](https://github.com/joutio/joutio-theme/compare/v4.5.2...v4.6.0) (2026-10-08)
+
+### Features
+
+* **theme:** theme Game of Thrones (100 questions FR/EN, images libres) ([e61e327](https://github.com/joutio/joutio-theme/commit/e61e3272e113a8bc37e155adf982522c1be0cd9d))
+
+## [4.5.2](https://github.com/joutio/joutio-theme/compare/v4.5.1...v4.5.2) (2026-10-07)
+
+### Bug Fixes
+
+* **theme:** pinne joutio-game-domain 5.2.0 (5.0.0 purge par prune-packages) ([f64340a](https://github.com/joutio/joutio-theme/commit/f64340a9c91d7a9d779541f527f2e69133ef29f8))
+
+## [4.5.1](https://github.com/joutio/joutio-theme/compare/v4.5.0...v4.5.1) (2026-10-07)
+
+### Bug Fixes
+
+* **theme:** retry des seeds sur echec transitoire (dispatch Axon) et metriques de seeding ([f3b21ed](https://github.com/joutio/joutio-theme/commit/f3b21ede47f8a7d808e15876cbf536a861e65bc2))
+
+## [4.5.0](https://github.com/joutio/joutio-theme/compare/v4.4.1...v4.5.0) (2026-10-05)
+
+### Features
+
+* **theme:** theme Breaking Bad (100 questions FR/EN, images libres) ([38ecff3](https://github.com/joutio/joutio-theme/commit/38ecff3da6a30f114f63b66f315d183738b23a4d))
+
+## [4.4.1](https://github.com/joutio/joutio-theme/compare/v4.4.0...v4.4.1) (2026-10-05)
+
+### Bug Fixes
+
+* **theme:** migration contrainte categorie RELIGION ([f398b27](https://github.com/joutio/joutio-theme/commit/f398b27f572784e4e9a49936d4ab63bc3a92663d))
+
+## [4.4.0](https://github.com/joutio/joutio-theme/compare/v4.3.0...v4.4.0) (2026-10-05)
+
+### Features
+
+* **theme:** themes Islam, Judaisme et Christianisme (50 questions FR/EN, images) ([8893e20](https://github.com/joutio/joutio-theme/commit/8893e2057304ae21ff949ef7d7f88276ec7e718f))
+
+## [4.3.0](https://github.com/joutio/joutio-theme/compare/v4.2.0...v4.3.0) (2026-10-05)
+
+### Features
+
+* **theme:** categorie Religions & spiritualite ([82c5264](https://github.com/joutio/joutio-theme/commit/82c5264a2e970d769e0b9ca100954749a7cb94b0))
+
+## [4.2.0](https://github.com/joutio/joutio-theme/compare/v4.1.0...v4.2.0) (2026-10-04)
+
+### Features
+
+* **seed:** traductions anglaises des questions ([942ff3e](https://github.com/joutio/joutio-theme/commit/942ff3e9980044b50498ffc36dde5a33092c9e81))
+
+## [4.1.0](https://github.com/joutio/joutio-theme/compare/v4.0.0...v4.1.0) (2026-10-03)
+
+### Features
+
+* **theme:** per-field topic and question authoring ([5838ba9](https://github.com/joutio/joutio-theme/commit/5838ba9e02f1b14221b2683dafbbd1cac599b3e9))
+
+## [4.0.0](https://github.com/joutio/joutio-theme/compare/v3.0.0...v4.0.0) (2026-09-30)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** Question carries a Map<Language, QuestionContent> contents (no sourceLanguage); CreateQuestionCommand takes localized contents; V1 migration normalized (question_content/question_answer_content); GetRandomApprovedQuestionsQuery filters strictly on required languages; new count query for availability guards.
+
+### Code Refactoring
+
+* **theme:** normalized contents map without source language and strict language selection ([dd47783](https://github.com/joutio/joutio-theme/commit/dd47783e2942f0423e28874bf7ceabf6196f4fac))
+
+## [3.0.0](https://github.com/joutio/joutio-theme/compare/v2.3.0...v3.0.0) (2026-09-30)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** Question carries sourceLanguage + translations; QuestionCreatedEvent and query models changed; V1 migration edited (DB reset required); seed schema supports translations; GetRandomApprovedQuestionsQuery returns all translations.
+
+### Features
+
+* **theme:** multilingual questions with translations snapshot ([a69e363](https://github.com/joutio/joutio-theme/commit/a69e36387fb9a5ded7247eb02c5badbbe3e3009f))
+
+## [2.3.0](https://github.com/joutio/joutio-theme/compare/v2.2.2...v2.3.0) (2026-09-28)
+
+### Features
+
+* **theme:** expand seed catalogs and repair Commons image URLs ([80e68a9](https://github.com/joutio/joutio-theme/commit/80e68a9d101cbc267df0b4b5dde01b09085d9acc))
+* **theme:** key seed repair by (text, imageUrl) identity ([78c1fd3](https://github.com/joutio/joutio-theme/commit/78c1fd3e4b7e1e390f4121745cd4b342163e1176))
+
+## [2.2.2](https://github.com/joutio/joutio-theme/compare/v2.2.1...v2.2.2) (2026-09-27)
+
+### Bug Fixes
+
+* **theme:** background seed and read-model based approval wait ([fcf201f](https://github.com/joutio/joutio-theme/commit/fcf201fb7a2f28bd200b6c547b20364d199e08ce))
+
+## [2.2.1](https://github.com/joutio/joutio-theme/compare/v2.2.0...v2.2.1) (2026-09-27)
+
+### Bug Fixes
+
+* **theme:** autowire the Spring seed loader constructor ([929228f](https://github.com/joutio/joutio-theme/commit/929228f4c053baa1e869f3d0aa43887b4b15243a))
+
+## [2.2.0](https://github.com/joutio/joutio-theme/compare/v2.1.0...v2.2.0) (2026-09-27)
+
+### Features
+
+* **theme:** topic cover image (imageUrl) from command to projection ([594c723](https://github.com/joutio/joutio-theme/commit/594c7238a635ac5598521483d6ed1ed2ac9052af))
+* **theme:** yaml multi-file seed (20 themes) with self-healing repair ([0a61207](https://github.com/joutio/joutio-theme/commit/0a612078e25997328087857da052b4a45afaf820))
+
+## [2.1.0](https://github.com/joutio/joutio-theme/compare/v2.0.0...v2.1.0) (2026-09-27)
+
+### Features
+
+* **theme:** dedicated page/facets/by-ids queries for the BFF views ([d686902](https://github.com/joutio/joutio-theme/commit/d686902f3fe4e5171f06fa03b7243412cef34a74))
+
+## [2.0.0](https://github.com/joutio/joutio-theme/compare/v1.6.7...v2.0.0) (2026-09-25)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** the service no longer exposes its REST API (the BFF is the
+sole surface) and the search use cases now use the SDK SearchRequest/
+SearchResponse DTOs.
+
+### Features
+
+* **theme:** headless service (REST removed) + SDK search contracts ([ae375f8](https://github.com/joutio/joutio-theme/commit/ae375f80dad287de0c53be733a37f22f2ed88720))
+
+## [1.6.7](https://github.com/joutio/joutio-theme/compare/v1.6.6...v1.6.7) (2026-09-24)
+
+### Bug Fixes
+
+* **deps:** bump joutio-parent to 2.4.4 (typed PageResult over query transport) ([ffa350c](https://github.com/joutio/joutio-theme/commit/ffa350c2e9801b436c0692f5139e7ea7be74f92d))
+
+## [1.6.6](https://github.com/joutio/joutio-theme/compare/v1.6.5...v1.6.6) (2026-09-24)
+
+### Bug Fixes
+
+* **deps:** bump joutio-parent to 2.4.3 (bus-only search criteria type info) ([a30e3e2](https://github.com/joutio/joutio-theme/commit/a30e3e20877bf283729efc4607b5b2386ebb296d))
+
+## [1.6.5](https://github.com/joutio/joutio-theme/compare/v1.6.4...v1.6.5) (2026-09-24)
+
+### Bug Fixes
+
+* **deps:** bump joutio-parent to 2.4.2 (search criteria type info) ([40ff3f0](https://github.com/joutio/joutio-theme/commit/40ff3f04e7c4d8970789aab4a991303b1a7777f4))
+
+## [1.6.4](https://github.com/joutio/joutio-theme/compare/v1.6.3...v1.6.4) (2026-09-22)
+
+### Bug Fixes
+
+* **joutio-theme:** upgrade joutio-parent to 2.3.4 ([03ca7ad](https://github.com/joutio/joutio-theme/commit/03ca7ad0c165813e689e970e69ef5ee4839d6a62))
+
+## [1.6.3](https://github.com/joutio/joutio-theme/compare/v1.6.2...v1.6.3) (2026-09-22)
+
+### Bug Fixes
+
+* **joutio-theme:** upgrade joutio-parent to 2.3.3 ([5c53dc4](https://github.com/joutio/joutio-theme/commit/5c53dc42dbe8cab6231417bbd8eb495003576fef))
+
+## [1.6.2](https://github.com/joutio/joutio-theme/compare/v1.6.1...v1.6.2) (2026-09-22)
+
+### Bug Fixes
+
+* **joutio-theme:** upgrade joutio-parent to 2.3.2 ([6015bea](https://github.com/joutio/joutio-theme/commit/6015bea8993d102578227a047a4f94ace57f73e1))
+
+## [1.6.1](https://github.com/joutio/joutio-theme/compare/v1.6.0...v1.6.1) (2026-09-22)
+
+### Bug Fixes
+
+* **theme:** group dependent projections to preserve write-model ordering and upgrade joutio-parent to 2.3.1 ([f54d864](https://github.com/joutio/joutio-theme/commit/f54d86471e9fa1ebc81c6bad46fb70c3aa23172b))
+
+## [1.6.0](https://github.com/joutio/joutio-theme/compare/v1.5.1...v1.6.0) (2026-09-22)
+
+### Features
+
+* **theme:** explicit Axon processing groups ([e93f93e](https://github.com/joutio/joutio-theme/commit/e93f93e2149d0b7b9c6a811aa6a35a6851037eca))
+
+## [1.5.1](https://github.com/joutio/joutio-theme/compare/v1.5.0...v1.5.1) (2026-09-21)
+
+### Bug Fixes
+
+* **config:** honor JOUTIO_SEED_DATA_ENABLED in prod (seed system profile/topics) ([992afca](https://github.com/joutio/joutio-theme/commit/992afcaf6b43fd09d2679a7c9b9ce572358fca56))
+
+## [1.5.0](https://github.com/joutio/joutio-theme/compare/v1.4.6...v1.5.0) (2026-09-21)
+
+### Features
+
+* **projection:** replay-safe counters and idempotent difficulty ([cad26e6](https://github.com/joutio/joutio-theme/commit/cad26e61b99505e0304c18916c9e4478c1c6bb57))
+
+### Bug Fixes
+
+* **observability:** keep readable console logs in local ([874d249](https://github.com/joutio/joutio-theme/commit/874d2499103f3f55f89dcbec6ec0bccbd3cf28d1))
+
+## [1.4.6](https://github.com/joutio/joutio-theme/compare/v1.4.5...v1.4.6) (2026-09-20)
+
+### Bug Fixes
+
+* **deps:** bump joutio-sdk to 2.1.1 ([6ec495a](https://github.com/joutio/joutio-theme/commit/6ec495a6de203ee69327628b10f38e36fa482668))
+
+## [1.4.5](https://github.com/joutio/joutio-theme/compare/v1.4.4...v1.4.5) (2026-09-20)
+
+### Bug Fixes
+
+* **config:** align prod service URLs with joutio-* names ([de46b58](https://github.com/joutio/joutio-theme/commit/de46b589c0d1063abf6a0c707831fdf2dd5abc0c))
+
+## [1.4.4](https://github.com/joutio/joutio-theme/compare/v1.4.3...v1.4.4) (2026-09-20)
+
+### Bug Fixes
+
+* **deps:** bump joutio-sdk to 2.1.0 ([d3059c9](https://github.com/joutio/joutio-theme/commit/d3059c9092235c6a700c6998aea0fce40a0bcc79))
+
+## [1.4.3](https://github.com/joutio/joutio-theme/compare/v1.4.2...v1.4.3) (2026-09-20)
+
+### Bug Fixes
+
+* **system:** use the unified system account ([b3faace](https://github.com/joutio/joutio-theme/commit/b3faacea9631e51ac5cfac5fbeb11bd7662016cb))
+
+## [1.4.2](https://github.com/joutio/joutio-theme/compare/v1.4.1...v1.4.2) (2026-09-20)
+
+### Bug Fixes
+
+* **observability:** remove WebSocket and business KPI metrics (consume joutio-sdk 1.4.3) ([167a2c3](https://github.com/joutio/joutio-theme/commit/167a2c3913dd4a6c4d8319283ac1d2622a657436))
+
+## [1.4.1](https://github.com/joutio/joutio-theme/compare/v1.4.0...v1.4.1) (2026-09-20)
+
+### Bug Fixes
+
+* **observability:** consume joutio-sdk 1.4.2 (Axon activity metrics fix + Swagger server URL) ([e5e06d5](https://github.com/joutio/joutio-theme/commit/e5e06d53cbb0c89de8ed84a7cad8204e848a6c10))
+
+## [1.4.0](https://github.com/joutio/joutio-theme/compare/v1.3.0...v1.4.0) (2026-09-20)
+
+### Features
+
+* **observability:** consume joutio-sdk 1.4.0 (Axon activity metrics) ([09f9edf](https://github.com/joutio/joutio-theme/commit/09f9edf6ecaa8aa86f9c77818c47191b80b6cc9a))
+
+## [1.3.0](https://github.com/joutio/joutio-theme/compare/v1.2.0...v1.3.0) (2026-09-20)
+
+### Features
+
+* **observability:** consume joutio-sdk 1.3.0 (WebSocket metrics) ([ba08976](https://github.com/joutio/joutio-theme/commit/ba089768939857074b1c04ac1ec48d7741f1a74b))
+
+## [1.2.0](https://github.com/joutio/joutio-theme/compare/v1.1.0...v1.2.0) (2026-09-20)
+
+### Features
+
+* **observability:** consume joutio-sdk 1.2.0 (structured logs + tracing) ([a42bb96](https://github.com/joutio/joutio-theme/commit/a42bb96ec92d63f25f19de9908a6f9dd8addf354))
+
+## [1.1.0](https://github.com/joutio/joutio-theme/compare/v1.0.0...v1.1.0) (2026-09-20)
+
+### Features
+
+* **observability:** consume joutio-sdk 1.1.0 (Prometheus metrics) ([ca559bc](https://github.com/joutio/joutio-theme/commit/ca559bca2b6a05588d9cd4c0b64afae20d2a54c3))
+
+## 1.0.0 (2026-09-19)
+
+### Features
+
+* first commit ([dc23d0b](https://github.com/joutio/joutio-theme/commit/dc23d0be2566e3c84972fd1769362ff92b84e1ef))
+
+### Bug Fixes
+
+* **maven:** pin inter-service domains to 0.0.1; align parent to joutio-parent 1.0.0 ([a4f974e](https://github.com/joutio/joutio-theme/commit/a4f974ea217ef2e08ecf11d0dd47f8c9dd242062))

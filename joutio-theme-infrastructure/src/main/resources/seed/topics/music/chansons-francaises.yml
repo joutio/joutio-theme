@@ -1,0 +1,1631 @@
+topic:
+  id: topic-chansons-francaises
+  names:
+    fr: "Chansons françaises"
+    en: "French Songs"
+  description: "Plongez dans le répertoire de la chanson française classique, de Jacques Brel à Édith Piaf, en passant par Georges Brassens, Léo Ferré, Charles Aznavour et Gilbert Bécaud. Interprètes, auteurs-compositeurs et grands titres du patrimoine : testez vos connaissances sur les chansons cultes de la francophonie."
+  category: MUSIC
+  titles:
+    fr:
+      FER: "Chanteur sous la douche"
+      BRONZE: "Répète au piano-bar"
+      ARGENT: "Interprète de cabaret"
+      OR: "Voix des grands boulevards"
+      PLATINE: "Meneur de la chanson rive gauche"
+      EMERAUDE: "Monstre sacré de la chanson"
+      DIAMANT: "Immortel de la chanson française"
+    en:
+      FER: "Shower Singer"
+      BRONZE: "Piano Bar Regular"
+      ARGENT: "Cabaret Performer"
+      OR: "Voice of the Boulevards"
+      PLATINE: "Leader of the Rive Gauche Song"
+      EMERAUDE: "Sacred Monster of Song"
+      DIAMANT: "Immortal of French Chanson"
+  imageUrl: wikipedia/music/Edith_Piaf_zingt_in_ons_land,_Bestanddeelnr_914-6438.jpg
+questions:
+  - text: "Qui chante « La Vie en rose » ?"
+    imageUrl: wikipedia/music/Edith_Piaf_Harcourt_1950_1.jpg
+    answers:
+      A: "Juliette Gréco"
+      B: "Édith Piaf"
+      C: "Dalida"
+      D: "Barbara"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who sings \"La Vie en rose\"?"
+        answers:
+          A: "Juliette Gréco"
+          B: "Édith Piaf"
+          C: "Dalida"
+          D: "Barbara"
+    difficulty: EASY
+  - text: "Qui interprète « Ne me quitte pas » ?"
+    imageUrl: wikipedia/music/Jacques_Brel_portrait_(1962).jpg
+    answers:
+      A: "Georges Brassens"
+      B: "Charles Aznavour"
+      C: "Léo Ferré"
+      D: "Jacques Brel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who performs \"Ne me quitte pas\"?"
+        answers:
+          A: "Georges Brassens"
+          B: "Charles Aznavour"
+          C: "Léo Ferré"
+          D: "Jacques Brel"
+    difficulty: EASY
+  - text: "Qui a écrit et composé « Les Bourgeois », interprétée par Jacques Brel ?"
+    answers:
+      A: "Jacques Brel"
+      B: "Georges Brassens"
+      C: "Jean Ferrat"
+      D: "Léo Ferré"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote and composed \"Les Bourgeois\", performed by Jacques Brel?"
+        answers:
+          A: "Jacques Brel"
+          B: "Georges Brassens"
+          C: "Jean Ferrat"
+          D: "Léo Ferré"
+    difficulty: EASY
+  - text: "En quelle année Édith Piaf a-t-elle enregistré « La Vie en rose » pour la première fois ?"
+    answers:
+      A: "1946"
+      B: "1947"
+      C: "1945"
+      D: "1948"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Édith Piaf first record \"La Vie en rose\"?"
+        answers:
+          A: "1946"
+          B: "1947"
+          C: "1945"
+          D: "1948"
+    difficulty: HARD
+  - text: "Quel album de Jacques Brel contient « Amsterdam » ?"
+    answers:
+      A: "Ces gens-là (1966)"
+      B: "Olympia 1964"
+      C: "Les Bourgeois (1962)"
+      D: "Brel (1968)"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Jacques Brel album contains \"Amsterdam\"?"
+        answers:
+          A: "Ces gens-là (1966)"
+          B: "Olympia 1964"
+          C: "Les Bourgeois (1962)"
+          D: "Brel (1968)"
+    difficulty: EXPERT
+  - text: "Qui chante « La Bohème » ?"
+    imageUrl: wikipedia/music/Charles_Aznavour_1961.jpg
+    answers:
+      A: "Gilbert Bécaud"
+      B: "Jacques Brel"
+      C: "Yves Montand"
+      D: "Charles Aznavour"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who sings \"La Bohème\"?"
+        answers:
+          A: "Gilbert Bécaud"
+          B: "Jacques Brel"
+          C: "Yves Montand"
+          D: "Charles Aznavour"
+    difficulty: EASY
+  - text: "Qui interprète « Les Copains d'abord » ?"
+    imageUrl: wikipedia/music/Brassens_TNP_1966.jpg
+    answers:
+      A: "Jacques Brel"
+      B: "Léo Ferré"
+      C: "Georges Brassens"
+      D: "Serge Reggiani"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who performs \"Les Copains d'abord\"?"
+        answers:
+          A: "Jacques Brel"
+          B: "Léo Ferré"
+          C: "Georges Brassens"
+          D: "Serge Reggiani"
+    difficulty: EASY
+  - text: "Qui a écrit les paroles de « L'Aigle noir » pour Barbara ?"
+    answers:
+      A: "Serge Reggiani"
+      B: "Georges Moustaki"
+      C: "Barbara"
+      D: "Léo Ferré"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote the lyrics of \"L'Aigle noir\" for Barbara?"
+        answers:
+          A: "Serge Reggiani"
+          B: "Georges Moustaki"
+          C: "Barbara"
+          D: "Léo Ferré"
+    difficulty: MEDIUM
+  - text: "Quel est le véritable nom de famille de Charles Aznavour ?"
+    answers:
+      A: "Aznavourian"
+      B: "Aznavouryan"
+      C: "Aznavouroff"
+      D: "Aznavourov"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Charles Aznavour's real family name?"
+        answers:
+          A: "Aznavourian"
+          B: "Aznavouryan"
+          C: "Aznavouroff"
+          D: "Aznavourov"
+    difficulty: HARD
+  - text: "Quelle chanson de Gilbert Bécaud a été reprise par Elvis Presley sous le titre « Let It Be Me » ?"
+    answers:
+      A: "L'Important c'est la rose"
+      B: "Et maintenant"
+      C: "Nathalie"
+      D: "Je t'appartiens"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Gilbert Bécaud song was covered by Elvis Presley as \"Let It Be Me\"?"
+        answers:
+          A: "L'Important c'est la rose"
+          B: "Et maintenant"
+          C: "Nathalie"
+          D: "Je t'appartiens"
+    difficulty: EXPERT
+  - text: "Qui a composé la musique de « La Foule » interprétée par Édith Piaf ?"
+    answers:
+      A: "Carlos Gardel"
+      B: "Astor Piazzolla"
+      C: "Ángel Cabral"
+      D: "Enrique Santos Discépolo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the music for \"La Foule\", performed by Édith Piaf?"
+        answers:
+          A: "Carlos Gardel"
+          B: "Astor Piazzolla"
+          C: "Ángel Cabral"
+          D: "Enrique Santos Discépolo"
+    difficulty: EXPERT
+  - text: "En quelle année Georges Brassens a-t-il reçu le Grand Prix de poésie de l'Académie française ?"
+    answers:
+      A: "1965"
+      B: "1967"
+      C: "1969"
+      D: "1972"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Georges Brassens receive the Grand Prix de poésie de l'Académie française?"
+        answers:
+          A: "1965"
+          B: "1967"
+          C: "1969"
+          D: "1972"
+    difficulty: EXPERT
+  - text: "Quel poète a écrit les paroles de « Avec le temps » de Léo Ferré ?"
+    answers:
+      A: "Paul Éluard"
+      B: "Louis Aragon"
+      C: "Léo Ferré"
+      D: "Jacques Prévert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which poet wrote the lyrics of Léo Ferré's \"Avec le temps\"?"
+        answers:
+          A: "Paul Éluard"
+          B: "Louis Aragon"
+          C: "Léo Ferré"
+          D: "Jacques Prévert"
+    difficulty: MEDIUM
+  - text: "Qui interprète « Le Déserteur », chanson pacifiste de 1954 ?"
+    answers:
+      A: "Georges Brassens"
+      B: "Boris Vian"
+      C: "Léo Ferré"
+      D: "Jacques Brel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who performs \"Le Déserteur\", the 1954 pacifist song?"
+        answers:
+          A: "Georges Brassens"
+          B: "Boris Vian"
+          C: "Léo Ferré"
+          D: "Jacques Brel"
+    difficulty: EASY
+  - text: "Quel est le premier succès de Jacques Brel en France, sorti en 1956 ?"
+    answers:
+      A: "Amsterdam"
+      B: "Ne me quitte pas"
+      C: "Quand on n'a que l'amour"
+      D: "Les Bourgeois"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was Jacques Brel's first hit in France, released in 1956?"
+        answers:
+          A: "Amsterdam"
+          B: "Ne me quitte pas"
+          C: "Quand on n'a que l'amour"
+          D: "Les Bourgeois"
+    difficulty: EXPERT
+  - text: "Qui a écrit « Ne me quitte pas » ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Charles Aznavour"
+      C: "Jacques Brel"
+      D: "Georges Brassens"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote \"Ne me quitte pas\"?"
+        answers:
+          A: "Léo Ferré"
+          B: "Charles Aznavour"
+          C: "Jacques Brel"
+          D: "Georges Brassens"
+    difficulty: EASY
+  - text: "Quel film de 1963 contient la chanson « La Javanaise » de Serge Gainsbourg ?"
+    answers:
+      A: "L'eau à la bouche"
+      B: "Strip-tease"
+      C: "Le Pacha"
+      D: "Anna"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1963 film features the song \"La Javanaise\" by Serge Gainsbourg?"
+        answers:
+          A: "L'eau à la bouche"
+          B: "Strip-tease"
+          C: "Le Pacha"
+          D: "Anna"
+    difficulty: EXPERT
+  - text: "Qui a composé la musique de « La Bohème » de Charles Aznavour ?"
+    answers:
+      A: "Georges Garvarentz"
+      B: "Gilbert Bécaud"
+      C: "Charles Aznavour"
+      D: "Francis Lai"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the music for \"La Bohème\" by Charles Aznavour?"
+        answers:
+          A: "Georges Garvarentz"
+          B: "Gilbert Bécaud"
+          C: "Charles Aznavour"
+          D: "Francis Lai"
+    difficulty: HARD
+  - text: "En quelle année Serge Gainsbourg a-t-il enregistré « Je t'aime... moi non plus » avec Jane Birkin ?"
+    answers:
+      A: "1970"
+      B: "1968"
+      C: "1969"
+      D: "1971"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Serge Gainsbourg record \"Je t'aime... moi non plus\" with Jane Birkin?"
+        answers:
+          A: "1970"
+          B: "1968"
+          C: "1969"
+          D: "1971"
+    difficulty: HARD
+  - text: "Quel artiste a popularisé « Le Plat Pays » en 1962 ?"
+    answers:
+      A: "Charles Aznavour"
+      B: "Georges Brassens"
+      C: "Léo Ferré"
+      D: "Jacques Brel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which artist popularized \"Le Plat Pays\" in 1962?"
+        answers:
+          A: "Charles Aznavour"
+          B: "Georges Brassens"
+          C: "Léo Ferré"
+          D: "Jacques Brel"
+    difficulty: MEDIUM
+  - text: "Qui a écrit « L'important c'est la rose » ?"
+    answers:
+      A: "Gilbert Bécaud"
+      B: "Charles Aznavour"
+      C: "Jacques Brel"
+      D: "Yves Montand"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote \"L'important c'est la rose\"?"
+        answers:
+          A: "Gilbert Bécaud"
+          B: "Charles Aznavour"
+          C: "Jacques Brel"
+          D: "Yves Montand"
+    difficulty: MEDIUM
+  - text: "Quel est le titre de la chanson de Léo Ferré dédiée à la ville de Paris et sortie en 1967 ?"
+    answers:
+      A: "Paris je ne t'aime plus"
+      B: "Paris canaille"
+      C: "Sous le ciel de Paris"
+      D: "La Seine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of Léo Ferré's song dedicated to the city of Paris, released in 1967?"
+        answers:
+          A: "Paris je ne t'aime plus"
+          B: "Paris canaille"
+          C: "Sous le ciel de Paris"
+          D: "La Seine"
+    difficulty: EXPERT
+  - text: "Qui interprète « Syracuse » en 1962 ?"
+    answers:
+      A: "Gilbert Bécaud"
+      B: "Charles Aznavour"
+      C: "Henri Salvador"
+      D: "Yves Montand"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who performed \"Syracuse\" in 1962?"
+        answers:
+          A: "Gilbert Bécaud"
+          B: "Charles Aznavour"
+          C: "Henri Salvador"
+          D: "Yves Montand"
+    difficulty: MEDIUM
+  - text: "Quel auteur-compositeur a écrit « Les Feuilles mortes » pour Yves Montand ?"
+    answers:
+      A: "Georges Brassens"
+      B: "Serge Gainsbourg et Alain Goraguer"
+      C: "Boris Vian et Alain Goraguer"
+      D: "Jacques Prévert et Joseph Kosma"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which songwriter wrote \"Les Feuilles mortes\" for Yves Montand?"
+        answers:
+          A: "Georges Brassens"
+          B: "Serge Gainsbourg and Alain Goraguer"
+          C: "Boris Vian and Alain Goraguer"
+          D: "Jacques Prévert and Joseph Kosma"
+    difficulty: MEDIUM
+  - text: "Qui a écrit et composé « La Javanaise » ?"
+    answers:
+      A: "Jacques Brel"
+      B: "Boris Vian"
+      C: "Georges Brassens"
+      D: "Serge Gainsbourg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote and composed \"La Javanaise\"?"
+        answers:
+          A: "Jacques Brel"
+          B: "Boris Vian"
+          C: "Georges Brassens"
+          D: "Serge Gainsbourg"
+    difficulty: EASY
+  - text: "En quelle année est sortie « Ne me quitte pas » de Jacques Brel ?"
+    answers:
+      A: "1957"
+      B: "1959"
+      C: "1961"
+      D: "1963"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was \"Ne me quitte pas\" by Jacques Brel released?"
+        answers:
+          A: "1957"
+          B: "1959"
+          C: "1961"
+          D: "1963"
+    difficulty: HARD
+  - text: "Qui a composé la musique de « La Bohème » ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Georges Garvarentz"
+      C: "Gilbert Bécaud"
+      D: "Charles Aznavour"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the music for \"La Bohème\"?"
+        answers:
+          A: "Léo Ferré"
+          B: "Georges Garvarentz"
+          C: "Gilbert Bécaud"
+          D: "Charles Aznavour"
+    difficulty: HARD
+  - text: "Quel poète a écrit les paroles de « Avec le temps » ?"
+    answers:
+      A: "Paul Éluard"
+      B: "Louis Aragon"
+      C: "Léo Ferré"
+      D: "Jacques Prévert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which poet wrote the lyrics to \"Avec le temps\"?"
+        answers:
+          A: "Paul Éluard"
+          B: "Louis Aragon"
+          C: "Léo Ferré"
+          D: "Jacques Prévert"
+    difficulty: MEDIUM
+  - text: "Qui a écrit « Les Bourgeois » ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Georges Brassens"
+      C: "Jacques Brel"
+      D: "Jean Ferrat"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote \"Les Bourgeois\"?"
+        answers:
+          A: "Léo Ferré"
+          B: "Georges Brassens"
+          C: "Jacques Brel"
+          D: "Jean Ferrat"
+    difficulty: EASY
+  - text: "Qui a écrit les paroles de « L'Aigle noir » ?"
+    answers:
+      A: "Jacques Brel"
+      B: "Serge Gainsbourg"
+      C: "Barbara"
+      D: "Georges Moustaki"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote the lyrics to \"L'Aigle noir\"?"
+        answers:
+          A: "Jacques Brel"
+          B: "Serge Gainsbourg"
+          C: "Barbara"
+          D: "Georges Moustaki"
+    difficulty: MEDIUM
+  - text: "Qui a composé la musique de « La Foule » ?"
+    answers:
+      A: "Astor Piazzolla"
+      B: "Ángel Cabral"
+      C: "Carlos Gardel"
+      D: "Enrique Santos Discépolo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the music for \"La Foule\"?"
+        answers:
+          A: "Astor Piazzolla"
+          B: "Ángel Cabral"
+          C: "Carlos Gardel"
+          D: "Enrique Santos Discépolo"
+    difficulty: EXPERT
+  - text: "Quelle salle de music-hall parisienne est-ce ?"
+    imageUrl: wikipedia/music/Olympia_Paris_6.jpg
+    answers:
+      A: "Bobino"
+      B: "Le Lido"
+      C: "Le Moulin Rouge"
+      D: "L'Olympia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Parisian music hall is this?"
+        answers:
+          A: "Bobino"
+          B: "Le Lido"
+          C: "Le Moulin Rouge"
+          D: "L'Olympia"
+    difficulty: EXPERT
+  - text: "Qui interprète « Le Déserteur » ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Georges Brassens"
+      C: "Boris Vian"
+      D: "Jacques Brel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who performs \"Le Déserteur\"?"
+        answers:
+          A: "Léo Ferré"
+          B: "Georges Brassens"
+          C: "Boris Vian"
+          D: "Jacques Brel"
+    difficulty: MEDIUM
+  - text: "Quel film de 1963 contient la chanson « La Javanaise » ?"
+    answers:
+      A: "Le Mépris"
+      B: "L'eau à la bouche"
+      C: "Cléo de 5 à 7"
+      D: "Strip-tease"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1963 film features the song \"La Javanaise\"?"
+        answers:
+          A: "Le Mépris"
+          B: "L'eau à la bouche"
+          C: "Cléo de 5 à 7"
+          D: "Strip-tease"
+    difficulty: EXPERT
+  - text: "Quel auteur-compositeur-interprète a écrit et popularisé « Le Métèque » en 1969 ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Georges Moustaki"
+      C: "Serge Reggiani"
+      D: "Yves Duteil"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which singer-songwriter wrote and popularized \"Le Métèque\" in 1969?"
+        answers:
+          A: "Léo Ferré"
+          B: "Georges Moustaki"
+          C: "Serge Reggiani"
+          D: "Yves Duteil"
+    difficulty: MEDIUM
+  - text: "Qui a composé la musique de « Comme d'habitude », créée par Claude François en 1967 ?"
+    answers:
+      A: "Jacques Revaux"
+      B: "Charles Aznavour"
+      C: "Gilbert Bécaud"
+      D: "Michel Legrand"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the music for \"Comme d'habitude\", first performed by Claude François in 1967?"
+        answers:
+          A: "Jacques Revaux"
+          B: "Charles Aznavour"
+          C: "Gilbert Bécaud"
+          D: "Michel Legrand"
+    difficulty: HARD
+  - text: "En quelle année Yves Montand a-t-il enregistré « Les Feuilles mortes » pour la première fois ?"
+    answers:
+      A: "1946"
+      B: "1945"
+      C: "1947"
+      D: "1948"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Yves Montand first record \"Les Feuilles mortes\"?"
+        answers:
+          A: "1946"
+          B: "1945"
+          C: "1947"
+          D: "1948"
+    difficulty: EXPERT
+  - text: "Quel poète et parolier a écrit les paroles de « Que reste-t-il de nos amours ? » de Charles Trenet ?"
+    answers:
+      A: "Louis Aragon"
+      B: "Charles Trenet lui-même"
+      C: "Jacques Prévert"
+      D: "Pierre Mac Orlan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which poet and lyricist wrote the lyrics for Charles Trenet's \"Que reste-t-il de nos amours ?\""
+        answers:
+          A: "Louis Aragon"
+          B: "Charles Trenet himself"
+          C: "Jacques Prévert"
+          D: "Pierre Mac Orlan"
+    difficulty: EXPERT
+  - text: "Qui a écrit « L'important c'est la rose », créée par Gilbert Bécaud en 1967 ?"
+    answers:
+      A: "Maurice Vidalin"
+      B: "Pierre Delanoë"
+      C: "Louis Amade"
+      D: "Claude Lemesle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote \"L'important c'est la rose\", first performed by Gilbert Bécaud in 1967?"
+        answers:
+          A: "Maurice Vidalin"
+          B: "Pierre Delanoë"
+          C: "Louis Amade"
+          D: "Claude Lemesle"
+    difficulty: MEDIUM
+  - text: "Quel interprète a popularisé « La Mer » en 1946 ?"
+    answers:
+      A: "Bourvil"
+      B: "Yves Montand"
+      C: "Charles Trenet"
+      D: "Georges Guétary"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which performer popularized \"La Mer\" in 1946?"
+        answers:
+          A: "Bourvil"
+          B: "Yves Montand"
+          C: "Charles Trenet"
+          D: "Georges Guétary"
+    difficulty: MEDIUM
+  - text: "Quelle chanson de Jacques Brel a été créée en 1961 et figure sur l'album « Marieke » ?"
+    answers:
+      A: "Les Bourgeois"
+      B: "Ne me quitte pas"
+      C: "Amsterdam"
+      D: "Le Plat Pays"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Jacques Brel song was first performed in 1961 and appears on the album \"Marieke\"?"
+        answers:
+          A: "Les Bourgeois"
+          B: "Ne me quitte pas"
+          C: "Amsterdam"
+          D: "Le Plat Pays"
+    difficulty: EXPERT
+  - text: "Qui a écrit et composé « L'Aigle noir », interprétée par Barbara en 1970 ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Georges Moustaki"
+      C: "Barbara elle-même"
+      D: "Serge Gainsbourg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote and composed \"L'Aigle noir\", performed by Barbara in 1970?"
+        answers:
+          A: "Léo Ferré"
+          B: "Georges Moustaki"
+          C: "Barbara herself"
+          D: "Serge Gainsbourg"
+    difficulty: MEDIUM
+  - text: "En quelle année Léo Ferré a-t-il composé « Avec le temps » ?"
+    answers:
+      A: "1969"
+      B: "1972"
+      C: "1971"
+      D: "1970"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Léo Ferré compose \"Avec le temps\"?"
+        answers:
+          A: "1969"
+          B: "1972"
+          C: "1971"
+          D: "1970"
+    difficulty: EXPERT
+  - text: "Quel chanteur a créé « Et maintenant » en 1961 ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Charles Aznavour"
+      C: "Jacques Brel"
+      D: "Gilbert Bécaud"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which singer first performed \"Et maintenant\" in 1961?"
+        answers:
+          A: "Léo Ferré"
+          B: "Charles Aznavour"
+          C: "Jacques Brel"
+          D: "Gilbert Bécaud"
+    difficulty: MEDIUM
+  - text: "Qui a composé la musique de « La Foule », interprétée par Édith Piaf en 1957 ?"
+    answers:
+      A: "Angel Cabral"
+      B: "Enrique Dizeo"
+      C: "Michel Emer"
+      D: "Marguerite Monnot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the music for \"La Foule\", performed by Édith Piaf in 1957?"
+        answers:
+          A: "Angel Cabral"
+          B: "Enrique Dizeo"
+          C: "Michel Emer"
+          D: "Marguerite Monnot"
+    difficulty: EXPERT
+  - text: "Quel est le titre de la chanson de Serge Gainsbourg sortie en 1968 et censurée par la BBC ?"
+    answers:
+      A: "Initials B.B."
+      B: "Bonnie and Clyde"
+      C: "Je t'aime... moi non plus"
+      D: "Harley David (Son of a Bitch)"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the Serge Gainsbourg song released in 1968 and banned by the BBC?"
+        answers:
+          A: "Initials B.B."
+          B: "Bonnie and Clyde"
+          C: "Je t'aime... moi non plus"
+          D: "Harley David (Son of a Bitch)"
+    difficulty: HARD
+  - text: "Qui a écrit les paroles de « La Bohème », interprétée par Charles Aznavour en 1965 ?"
+    answers:
+      A: "Pierre Delanoë"
+      B: "Charles Aznavour"
+      C: "Georges Garvarentz"
+      D: "Jacques Plante"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the lyrics to \"La Bohème\", performed by Charles Aznavour in 1965?"
+        answers:
+          A: "Pierre Delanoë"
+          B: "Charles Aznavour"
+          C: "Georges Garvarentz"
+          D: "Jacques Plante"
+    difficulty: HARD
+  - text: "Quel artiste a popularisé « Le Poinçonneur des Lilas » en 1958 ?"
+    answers:
+      A: "Jacques Dutronc"
+      B: "Boris Vian"
+      C: "Serge Gainsbourg"
+      D: "Antoine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which artist popularized \"Le Poinçonneur des Lilas\" in 1958?"
+        answers:
+          A: "Jacques Dutronc"
+          B: "Boris Vian"
+          C: "Serge Gainsbourg"
+          D: "Antoine"
+    difficulty: MEDIUM
+  - text: "En quelle année Georges Brassens a-t-il enregistré « Les Copains d'abord » ?"
+    answers:
+      A: "1967"
+      B: "1965"
+      C: "1966"
+      D: "1964"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Georges Brassens record \"Les Copains d'abord\"?"
+        answers:
+          A: "1967"
+          B: "1965"
+          C: "1966"
+          D: "1964"
+    difficulty: EXPERT
+  - text: "Qui a créé « La Javanaise » en 1963 ?"
+    answers:
+      A: "Jane Birkin"
+      B: "Juliette Gréco"
+      C: "Brigitte Bardot"
+      D: "Serge Gainsbourg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who first performed \"La Javanaise\" in 1963?"
+        answers:
+          A: "Jane Birkin"
+          B: "Juliette Gréco"
+          C: "Brigitte Bardot"
+          D: "Serge Gainsbourg"
+    difficulty: EASY
+  - text: "Quel auteur-compositeur a écrit « Le Déserteur » en 1954 ?"
+    answers:
+      A: "Boris Vian"
+      B: "Georges Brassens"
+      C: "Léo Ferré"
+      D: "Jacques Brel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which singer-songwriter wrote \"Le Déserteur\" in 1954?"
+        answers:
+          A: "Boris Vian"
+          B: "Georges Brassens"
+          C: "Léo Ferré"
+          D: "Jacques Brel"
+    difficulty: HARD
+  - text: "Quelle chanson de Charles Trenet a été enregistrée en 1938 et reprise par de nombreux artistes ?"
+    answers:
+      A: "Que reste-t-il de nos amours ?"
+      B: "La Mer"
+      C: "Y'a d'la joie"
+      D: "Douce France"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Charles Trenet song was recorded in 1938 and covered by many artists?"
+        answers:
+          A: "Que reste-t-il de nos amours ?"
+          B: "La Mer"
+          C: "Y'a d'la joie"
+          D: "Douce France"
+    difficulty: HARD
+  - text: "Qui a composé la musique de « La Vie en rose » ?"
+    answers:
+      A: "Norbert Glanzberg"
+      B: "Marguerite Monnot"
+      C: "Michel Emer"
+      D: "Louiguy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the music for \"La Vie en rose\"?"
+        answers:
+          A: "Norbert Glanzberg"
+          B: "Marguerite Monnot"
+          C: "Michel Emer"
+          D: "Louiguy"
+    difficulty: HARD
+  - text: "Quel chanteur a créé « Les Champs-Élysées » en 1969 ?"
+    answers:
+      A: "Charles Aznavour"
+      B: "Claude François"
+      C: "Michel Sardou"
+      D: "Joe Dassin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which singer first performed \"Les Champs-Élysées\" in 1969?"
+        answers:
+          A: "Charles Aznavour"
+          B: "Claude François"
+          C: "Michel Sardou"
+          D: "Joe Dassin"
+    difficulty: MEDIUM
+  - text: "Quel chanteur a popularisé « La Mamma » en 1963 ?"
+    answers:
+      A: "Jacques Brel"
+      B: "Gilbert Bécaud"
+      C: "Charles Aznavour"
+      D: "Léo Ferré"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which singer popularized \"La Mamma\" in 1963?"
+        answers:
+          A: "Jacques Brel"
+          B: "Gilbert Bécaud"
+          C: "Charles Aznavour"
+          D: "Léo Ferré"
+    difficulty: HARD
+  - text: "En quelle année Ginette Garcin a-t-elle créé « La Mamma » ?"
+    answers:
+      A: "1959"
+      B: "1963"
+      C: "1961"
+      D: "1965"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Ginette Garcin first perform \"La Mamma\"?"
+        answers:
+          A: "1959"
+          B: "1963"
+          C: "1961"
+          D: "1965"
+    difficulty: EXPERT
+  - text: "Qui a composé la musique de « La Mamma » ?"
+    answers:
+      A: "Charles Dumont"
+      B: "Gilbert Bécaud"
+      C: "Michel Legrand"
+      D: "Georges Garvarentz"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the music for \"La Mamma\"?"
+        answers:
+          A: "Charles Dumont"
+          B: "Gilbert Bécaud"
+          C: "Michel Legrand"
+          D: "Georges Garvarentz"
+    difficulty: EXPERT
+  - text: "Quel interprète a popularisé « Les Cornichons » en 1966 ?"
+    answers:
+      A: "Jacques Dutronc"
+      B: "Nino Ferrer"
+      C: "Serge Gainsbourg"
+      D: "Antoine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which performer popularized \"Les Cornichons\" in 1966?"
+        answers:
+          A: "Jacques Dutronc"
+          B: "Nino Ferrer"
+          C: "Serge Gainsbourg"
+          D: "Antoine"
+    difficulty: MEDIUM
+  - text: "Qui a écrit et composé « Les Cornichons » ?"
+    answers:
+      A: "Jacques Dutronc"
+      B: "Nino Ferrer"
+      C: "Serge Gainsbourg"
+      D: "Michel Polnareff"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote and composed \"Les Cornichons\"?"
+        answers:
+          A: "Jacques Dutronc"
+          B: "Nino Ferrer"
+          C: "Serge Gainsbourg"
+          D: "Michel Polnareff"
+    difficulty: HARD
+  - text: "En quelle année Nino Ferrer a-t-il enregistré « Les Cornichons » ?"
+    answers:
+      A: "1964"
+      B: "1966"
+      C: "1968"
+      D: "1970"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Nino Ferrer record \"Les Cornichons\"?"
+        answers:
+          A: "1964"
+          B: "1966"
+          C: "1968"
+          D: "1970"
+    difficulty: HARD
+  - text: "Quel interprète a popularisé « Le Téléfon » en 1967 ?"
+    answers:
+      A: "Jacques Dutronc"
+      B: "Nino Ferrer"
+      C: "Michel Polnareff"
+      D: "Serge Gainsbourg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which performer popularized “Le Téléfon” in 1967?"
+        answers:
+          A: "Jacques Dutronc"
+          B: "Nino Ferrer"
+          C: "Michel Polnareff"
+          D: "Serge Gainsbourg"
+    difficulty: HARD
+  - text: "Qui a écrit et composé « Le Téléfon » ?"
+    answers:
+      A: "Jacques Dutronc"
+      B: "Nino Ferrer"
+      C: "Serge Gainsbourg"
+      D: "Michel Polnareff"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote and composed “Le Téléfon”?"
+        answers:
+          A: "Jacques Dutronc"
+          B: "Nino Ferrer"
+          C: "Serge Gainsbourg"
+          D: "Michel Polnareff"
+    difficulty: HARD
+  - text: "En quelle année Nino Ferrer a-t-il enregistré « Le Téléfon » ?"
+    answers:
+      A: "1967"
+      B: "1969"
+      C: "1965"
+      D: "1971"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Nino Ferrer record “Le Téléfon”?"
+        answers:
+          A: "1967"
+          B: "1969"
+          C: "1965"
+          D: "1971"
+    difficulty: HARD
+  - text: "Quel interprète a popularisé « Mirza » en 1966 ?"
+    answers:
+      A: "Nino Ferrer"
+      B: "Jacques Dutronc"
+      C: "Michel Polnareff"
+      D: "Antoine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which performer popularized “Mirza” in 1966?"
+        answers:
+          A: "Nino Ferrer"
+          B: "Jacques Dutronc"
+          C: "Michel Polnareff"
+          D: "Antoine"
+    difficulty: HARD
+  - text: "Qui a écrit et composé « Mirza » ?"
+    answers:
+      A: "Nino Ferrer"
+      B: "Jacques Dutronc"
+      C: "Serge Gainsbourg"
+      D: "Michel Polnareff"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote and composed “Mirza”?"
+        answers:
+          A: "Nino Ferrer"
+          B: "Jacques Dutronc"
+          C: "Serge Gainsbourg"
+          D: "Michel Polnareff"
+    difficulty: HARD
+  - text: "En quelle année Nino Ferrer a-t-il enregistré « Mirza » ?"
+    answers:
+      A: "1966"
+      B: "1968"
+      C: "1964"
+      D: "1970"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Nino Ferrer record “Mirza”?"
+        answers:
+          A: "1966"
+          B: "1968"
+          C: "1964"
+          D: "1970"
+    difficulty: HARD
+  - text: "Quel interprète a popularisé « Le Sud » en 1975 ?"
+    answers:
+      A: "Jacques Dutronc"
+      B: "Nino Ferrer"
+      C: "Michel Polnareff"
+      D: "Serge Gainsbourg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which performer popularized “Le Sud” in 1975?"
+        answers:
+          A: "Jacques Dutronc"
+          B: "Nino Ferrer"
+          C: "Michel Polnareff"
+          D: "Serge Gainsbourg"
+    difficulty: HARD
+  - text: "Qui a écrit et composé « Le Sud » ?"
+    answers:
+      A: "Serge Gainsbourg"
+      B: "Jacques Dutronc"
+      C: "Nino Ferrer"
+      D: "Michel Polnareff"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote and composed “Le Sud”?"
+        answers:
+          A: "Serge Gainsbourg"
+          B: "Jacques Dutronc"
+          C: "Nino Ferrer"
+          D: "Michel Polnareff"
+    difficulty: HARD
+  - text: "En quelle année Nino Ferrer a-t-il enregistré « Le Sud » ?"
+    answers:
+      A: "1975"
+      B: "1977"
+      C: "1973"
+      D: "1979"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Nino Ferrer record “Le Sud”?"
+        answers:
+          A: "1975"
+          B: "1977"
+          C: "1973"
+          D: "1979"
+    difficulty: HARD
+  - text: "Quel interprète a popularisé « L'amour est bleu » en 1967 ?"
+    answers:
+      A: "Dalida"
+      B: "Marie Laforêt"
+      C: "Vicky Leandros"
+      D: "Mireille Mathieu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which performer popularized “L'amour est bleu” in 1967?"
+        answers:
+          A: "Dalida"
+          B: "Marie Laforêt"
+          C: "Vicky Leandros"
+          D: "Mireille Mathieu"
+    difficulty: HARD
+  - text: "Quel pays Vicky Leandros représentait-elle à l'Eurovision 1967 avec « L'amour est bleu » ?"
+    answers:
+      A: "Luxembourg"
+      B: "France"
+      C: "Belgique"
+      D: "Monaco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country did Vicky Leandros represent at Eurovision 1967 with “L'amour est bleu”?"
+        answers:
+          A: "Luxembourg"
+          B: "France"
+          C: "Belgium"
+          D: "Monaco"
+    difficulty: EXPERT
+  - text: "Qui a composé la musique de « L'amour est bleu » ?"
+    answers:
+      A: "André Popp"
+      B: "Paul Mauriat"
+      C: "Michel Legrand"
+      D: "Francis Lai"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the music for “L'amour est bleu”?"
+        answers:
+          A: "André Popp"
+          B: "Paul Mauriat"
+          C: "Michel Legrand"
+          D: "Francis Lai"
+    difficulty: EXPERT
+  - text: "Quel interprète a popularisé « Manchester et Liverpool » en 1966 ?"
+    answers:
+      A: "Marie Laforêt"
+      B: "Vicky Leandros"
+      C: "Dalida"
+      D: "Mireille Mathieu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which performer popularized “Manchester et Liverpool” in 1966?"
+        answers:
+          A: "Marie Laforêt"
+          B: "Vicky Leandros"
+          C: "Dalida"
+          D: "Mireille Mathieu"
+    difficulty: HARD
+  - text: "Qui a composé la musique de « Manchester et Liverpool » ?"
+    answers:
+      A: "Paul Mauriat"
+      B: "André Popp"
+      C: "Michel Legrand"
+      D: "Francis Lai"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the music for “Manchester et Liverpool”?"
+        answers:
+          A: "Paul Mauriat"
+          B: "André Popp"
+          C: "Michel Legrand"
+          D: "Francis Lai"
+    difficulty: EXPERT
+  - text: "Quel poète a écrit les paroles de la chanson « Léo » interprétée par Léo Ferré ?"
+    answers:
+      A: "Jacques Prévert"
+      B: "Louis Aragon"
+      C: "Paul Éluard"
+      D: "Guillaume Apollinaire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which poet wrote the lyrics to the song “Léo” performed by Léo Ferré?"
+        answers:
+          A: "Jacques Prévert"
+          B: "Louis Aragon"
+          C: "Paul Éluard"
+          D: "Guillaume Apollinaire"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur des paroles de « Ne me quitte pas » de Jacques Brel ?"
+    answers:
+      A: "Charles Aznavour"
+      B: "Georges Brassens"
+      C: "Léo Ferré"
+      D: "Jacques Brel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the lyrics of Jacques Brel's \"Ne me quitte pas\"?"
+        answers:
+          A: "Charles Aznavour"
+          B: "Georges Brassens"
+          C: "Léo Ferré"
+          D: "Jacques Brel"
+    difficulty: MEDIUM
+  - text: "En quelle année Jacques Brel a-t-il donné son dernier concert à l'Olympia ?"
+    answers:
+      A: "1964"
+      B: "1970"
+      C: "1968"
+      D: "1966"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Jacques Brel give his last concert at the Olympia?"
+        answers:
+          A: "1964"
+          B: "1970"
+          C: "1968"
+          D: "1966"
+    difficulty: EXPERT
+  - text: "Qui a composé la musique de « Ne me quitte pas » ?"
+    answers:
+      A: "Jacques Brel"
+      B: "Gérard Jouannest"
+      C: "François Rauber"
+      D: "Jean Corti"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the music for \"Ne me quitte pas\"?"
+        answers:
+          A: "Jacques Brel"
+          B: "Gérard Jouannest"
+          C: "François Rauber"
+          D: "Jean Corti"
+    difficulty: HARD
+  - text: "Quel album de Jacques Brel contient la chanson « Amsterdam » ?"
+    answers:
+      A: "Les Bourgeois"
+      B: "Marieke"
+      C: "Jef"
+      D: "Ces gens-là"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Jacques Brel album contains the song \"Amsterdam\"?"
+        answers:
+          A: "Les Bourgeois"
+          B: "Marieke"
+          C: "Jef"
+          D: "Ces gens-là"
+    difficulty: EXPERT
+  - text: "Qui a écrit et composé « La Mauvaise Réputation » ?"
+    answers:
+      A: "Léo Ferré"
+      B: "Georges Brassens"
+      C: "Jacques Brel"
+      D: "Serge Gainsbourg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote and composed \"La Mauvaise Réputation\"?"
+        answers:
+          A: "Léo Ferré"
+          B: "Georges Brassens"
+          C: "Jacques Brel"
+          D: "Serge Gainsbourg"
+    difficulty: MEDIUM
+  - text: "En quelle année Georges Brassens a-t-il enregistré « La Mauvaise Réputation » pour la première fois ?"
+    answers:
+      A: "1954"
+      B: "1952"
+      C: "1956"
+      D: "1958"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Georges Brassens first record \"La Mauvaise Réputation\"?"
+        answers:
+          A: "1954"
+          B: "1952"
+          C: "1956"
+          D: "1958"
+    difficulty: HARD
+  - text: "Quel poète a inspiré Georges Brassens pour sa chanson « Les Sabots d'Hélène » ?"
+    answers:
+      A: "Alfred de Musset"
+      B: "Charles Baudelaire"
+      C: "Arthur Rimbaud"
+      D: "Paul Verlaine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which poet inspired Georges Brassens for his song \"Les Sabots d'Hélène\"?"
+        answers:
+          A: "Alfred de Musset"
+          B: "Charles Baudelaire"
+          C: "Arthur Rimbaud"
+          D: "Paul Verlaine"
+    difficulty: EXPERT
+  - text: "Qui a mis en musique le poème « Le Pont Mirabeau » de Guillaume Apollinaire ?"
+    answers:
+      A: "Georges Brassens"
+      B: "Léo Ferré"
+      C: "Jacques Brel"
+      D: "Charles Trenet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who set Guillaume Apollinaire's poem \"Le Pont Mirabeau\" to music?"
+        answers:
+          A: "Georges Brassens"
+          B: "Léo Ferré"
+          C: "Jacques Brel"
+          D: "Charles Trenet"
+    difficulty: EXPERT
+  - text: "En quelle année Léo Ferré a-t-il enregistré la chanson « Paris canaille » ?"
+    answers:
+      A: "1953"
+      B: "1955"
+      C: "1957"
+      D: "1959"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Léo Ferré record the song \"Paris canaille\"?"
+        answers:
+          A: "1953"
+          B: "1955"
+          C: "1957"
+          D: "1959"
+    difficulty: EXPERT
+  - text: "Quel est le titre de la chanson de Charles Aznavour écrite en 1965 pour sa fille ?"
+    answers:
+      A: "La Bohème"
+      B: "Emmenez-moi"
+      C: "Hier encore"
+      D: "Les Comédiens"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the Charles Aznavour song written in 1965 for his daughter?"
+        answers:
+          A: "La Bohème"
+          B: "Emmenez-moi"
+          C: "Hier encore"
+          D: "Les Comédiens"
+    difficulty: HARD
+  - text: "Qui a écrit les paroles de « Hier encore » de Charles Aznavour ?"
+    answers:
+      A: "Georges Garvarentz"
+      B: "Charles Aznavour"
+      C: "Jacques Plante"
+      D: "Gilbert Bécaud"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the lyrics of Charles Aznavour's \"Hier encore\"?"
+        answers:
+          A: "Georges Garvarentz"
+          B: "Charles Aznavour"
+          C: "Jacques Plante"
+          D: "Gilbert Bécaud"
+    difficulty: HARD
+  - text: "En quelle année Charles Aznavour a-t-il remporté le Grand Prix de l'Académie Charles-Cros pour « La Bohème » ?"
+    answers:
+      A: "1966"
+      B: "1965"
+      C: "1967"
+      D: "1968"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Charles Aznavour win the Grand Prix de l'Académie Charles-Cros for \"La Bohème\"?"
+        answers:
+          A: "1966"
+          B: "1965"
+          C: "1967"
+          D: "1968"
+    difficulty: EXPERT
+  - text: "Quel est le titre de la chanson de Gilbert Bécaud qui a été un succès en 1955 ?"
+    answers:
+      A: "Nathalie"
+      B: "Et maintenant"
+      C: "L'Important c'est la rose"
+      D: "Le Jour où la pluie viendra"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the Gilbert Bécaud song that was a hit in 1955?"
+        answers:
+          A: "Nathalie"
+          B: "Et maintenant"
+          C: "L'Important c'est la rose"
+          D: "Le Jour où la pluie viendra"
+    difficulty: EXPERT
+  - text: "Qui a écrit les paroles de « Nathalie » de Gilbert Bécaud ?"
+    answers:
+      A: "Pierre Delanoë"
+      B: "Louis Amade"
+      C: "Maurice Vidalin"
+      D: "Jacques Plante"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the lyrics of Gilbert Bécaud's \"Nathalie\"?"
+        answers:
+          A: "Pierre Delanoë"
+          B: "Louis Amade"
+          C: "Maurice Vidalin"
+          D: "Jacques Plante"
+    difficulty: EXPERT
+  - text: "En quelle année Gilbert Bécaud a-t-il enregistré « Et maintenant » pour la première fois ?"
+    answers:
+      A: "1961"
+      B: "1962"
+      C: "1963"
+      D: "1964"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Gilbert Bécaud first record \"Et maintenant\"?"
+        answers:
+          A: "1961"
+          B: "1962"
+          C: "1963"
+          D: "1964"
+    difficulty: EXPERT
+  - text: "Qui a écrit et composé « L'Aziza » interprétée par Daniel Balavoine ?"
+    answers:
+      A: "Michel Berger"
+      B: "Daniel Balavoine"
+      C: "Luc Plamondon"
+      D: "France Gall"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote and composed \"L'Aziza\", performed by Daniel Balavoine?"
+        answers:
+          A: "Michel Berger"
+          B: "Daniel Balavoine"
+          C: "Luc Plamondon"
+          D: "France Gall"
+    difficulty: HARD
+  - text: "En quelle année Daniel Balavoine a-t-il interprété « L'Aziza » pour la première fois ?"
+    answers:
+      A: "1986"
+      B: "1985"
+      C: "1987"
+      D: "1988"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Daniel Balavoine first perform \"L'Aziza\"?"
+        answers:
+          A: "1986"
+          B: "1985"
+          C: "1987"
+          D: "1988"
+    difficulty: HARD
+  - text: "Quel est le titre de la chanson de Michel Berger interprétée par France Gall en 1987 ?"
+    answers:
+      A: "La Groupie du pianiste"
+      B: "Babacar"
+      C: "Ella, elle l'a"
+      D: "Diego libre dans sa tête"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the Michel Berger song performed by France Gall in 1987?"
+        answers:
+          A: "La Groupie du pianiste"
+          B: "Babacar"
+          C: "Ella, elle l'a"
+          D: "Diego libre dans sa tête"
+    difficulty: HARD
+  - text: "Qui a écrit et composé « La Groupie du pianiste » ?"
+    answers:
+      A: "Michel Berger"
+      B: "Luc Plamondon"
+      C: "France Gall"
+      D: "Julien Clerc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote and composed \"La Groupie du pianiste\"?"
+        answers:
+          A: "Michel Berger"
+          B: "Luc Plamondon"
+          C: "France Gall"
+          D: "Julien Clerc"
+    difficulty: HARD
+  - text: "En quelle année Michel Berger a-t-il composé « La Groupie du pianiste » ?"
+    answers:
+      A: "1983"
+      B: "1981"
+      C: "1982"
+      D: "1980"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Michel Berger compose \"La Groupie du pianiste\"?"
+        answers:
+          A: "1983"
+          B: "1981"
+          C: "1982"
+          D: "1980"
+    difficulty: EXPERT
+  - text: "Quel est le titre de la chanson de Serge Gainsbourg sortie en 1969 et interprétée en duo avec Jane Birkin ?"
+    answers:
+      A: "Le Poinçonneur des Lilas"
+      B: "Bonnie and Clyde"
+      C: "La Javanaise"
+      D: "Je t'aime... moi non plus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the Serge Gainsbourg song released in 1969 and performed as a duet with Jane Birkin?"
+        answers:
+          A: "Le Poinçonneur des Lilas"
+          B: "Bonnie and Clyde"
+          C: "La Javanaise"
+          D: "Je t'aime... moi non plus"
+    difficulty: MEDIUM
+  - text: "Qui a composé la musique de « Je t'aime... moi non plus » ?"
+    answers:
+      A: "Serge Gainsbourg"
+      B: "Jane Birkin"
+      C: "Michel Colombier"
+      D: "Jean-Claude Vannier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the music for \"Je t'aime... moi non plus\"?"
+        answers:
+          A: "Serge Gainsbourg"
+          B: "Jane Birkin"
+          C: "Michel Colombier"
+          D: "Jean-Claude Vannier"
+    difficulty: HARD
+  - text: "En quelle année la chanson « Je t'aime... moi non plus » a-t-elle été enregistrée pour la première fois ?"
+    answers:
+      A: "1967"
+      B: "1968"
+      C: "1969"
+      D: "1970"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the song \"Je t'aime... moi non plus\" first recorded?"
+        answers:
+          A: "1967"
+          B: "1968"
+          C: "1969"
+          D: "1970"
+    difficulty: EXPERT
+  - text: "Quel est le titre de la chanson de Jacques Dutronc sortie en 1966 ?"
+    answers:
+      A: "Le Plus Difficile"
+      B: "Les Playboys"
+      C: "L'Opportuniste"
+      D: "J'aime les filles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the Jacques Dutronc song released in 1966?"
+        answers:
+          A: "Le Plus Difficile"
+          B: "Les Playboys"
+          C: "L'Opportuniste"
+          D: "J'aime les filles"
+    difficulty: EXPERT
+  - text: "Qui a écrit les paroles de « Les Playboys » de Jacques Dutronc ?"
+    answers:
+      A: "Serge Gainsbourg"
+      B: "Jacques Dutronc"
+      C: "Françoise Hardy"
+      D: "Jacques Lanzmann"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the lyrics for Jacques Dutronc's \"Les Playboys\"?"
+        answers:
+          A: "Serge Gainsbourg"
+          B: "Jacques Dutronc"
+          C: "Françoise Hardy"
+          D: "Jacques Lanzmann"
+    difficulty: EXPERT

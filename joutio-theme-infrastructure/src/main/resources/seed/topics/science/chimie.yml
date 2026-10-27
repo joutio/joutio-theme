@@ -1,0 +1,1630 @@
+topic:
+  id: topic-chimie
+  names:
+    fr: "Chimie"
+    en: "Chemistry"
+  description: "Des atomes aux réactions : découvrez les éléments, le tableau périodique, les états de la matière et les grands scientifiques de la chimie."
+  category: SCIENCE
+  titles:
+    fr:
+      FER: "Mélangeur de vinaigre"
+      BRONZE: "Alchimiste amateur"
+      ARGENT: "Titulaire de la burette"
+      OR: "Équilibreur d'équations"
+      PLATINE: "Synthétiseur de polymères"
+      EMERAUDE: "Prix Nobel de chimie"
+      DIAMANT: "Loi de la conservation"
+    en:
+      FER: "Baking Soda Brewer"
+      BRONZE: "Alchemy Trainee"
+      ARGENT: "Burette Handler"
+      OR: "Equation Balancer"
+      PLATINE: "Polymer Synthesizer"
+      EMERAUDE: "Nobel Laureate in Chemistry"
+      DIAMANT: "Law of Conservation"
+  imageUrl: wikipedia/science/Dmitri_Mendeleev_1890s.jpg
+questions:
+  - text: "Quel élément chimique est le plus électronégatif ?"
+    answers:
+      A: "Oxygène"
+      B: "Chlore"
+      C: "Fluor"
+      D: "Azote"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chemical element is the most electronegative?"
+        answers:
+          A: "Oxygen"
+          B: "Chlorine"
+          C: "Fluorine"
+          D: "Nitrogen"
+    difficulty: MEDIUM
+  - text: "Quel est le pourcentage massique d'oxygène dans l'eau ?"
+    answers:
+      A: "75,0 %"
+      B: "66,6 %"
+      C: "50,0 %"
+      D: "88,8 %"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the mass percentage of oxygen in water?"
+        answers:
+          A: "75.0%"
+          B: "66.6%"
+          C: "50.0%"
+          D: "88.8%"
+    difficulty: MEDIUM
+  - text: "Combien de moles y a-t-il dans 36 g d'eau ?"
+    answers:
+      A: "1 mole"
+      B: "0,5 mole"
+      C: "2 moles"
+      D: "4 moles"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many moles are in 36 g of water?"
+        answers:
+          A: "1 mole"
+          B: "0.5 mole"
+          C: "2 moles"
+          D: "4 moles"
+    difficulty: HARD
+  - text: "Quel est le pH d'une solution d'acide chlorhydrique à 0,001 mol/L ?"
+    answers:
+      A: "11"
+      B: "3"
+      C: "7"
+      D: "1"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the pH of a 0.001 mol/L hydrochloric acid solution?"
+        answers:
+          A: "11"
+          B: "3"
+          C: "7"
+          D: "1"
+    difficulty: HARD
+  - text: "Qui a créé le tableau périodique ?"
+    imageUrl: wikipedia/science/Dmitri_Mendeleev_1890s.jpg
+    answers:
+      A: "Dmitri Mendeleïev"
+      B: "Antoine Lavoisier"
+      C: "John Dalton"
+      D: "Ernest Rutherford"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who created the periodic table?"
+        answers:
+          A: "Dmitri Mendeleev"
+          B: "Antoine Lavoisier"
+          C: "John Dalton"
+          D: "Ernest Rutherford"
+    difficulty: EASY
+  - text: "Quelle scientifique a eu deux prix Nobel ?"
+    imageUrl: wikipedia/science/Marie_Curie_c._1920s.jpg
+    answers:
+      A: "Rosalind Franklin"
+      B: "Marie Curie"
+      C: "Lise Meitner"
+      D: "Irène Joliot-Curie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist won two Nobel Prizes?"
+        answers:
+          A: "Rosalind Franklin"
+          B: "Marie Curie"
+          C: "Lise Meitner"
+          D: "Irène Joliot-Curie"
+    difficulty: EASY
+  - text: "Qui a découvert l'électron ?"
+    answers:
+      A: "Ernest Rutherford"
+      B: "James Chadwick"
+      C: "J.J. Thomson"
+      D: "Niels Bohr"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who discovered the electron?"
+        answers:
+          A: "Ernest Rutherford"
+          B: "James Chadwick"
+          C: "J.J. Thomson"
+          D: "Niels Bohr"
+    difficulty: EASY
+  - text: "Quel est le nombre d'Avogadro ?"
+    answers:
+      A: "3,14 × 10^23"
+      B: "6,022 × 10^23"
+      C: "1,60 × 10^-19"
+      D: "9,81 × 10^23"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Avogadro's number?"
+        answers:
+          A: "3.14 × 10^23"
+          B: "6.022 × 10^23"
+          C: "1.60 × 10^-19"
+          D: "9.81 × 10^23"
+    difficulty: MEDIUM
+  - text: "Quel élément a pour configuration électronique [Ar] 3d10 4s1 ?"
+    answers:
+      A: "Nickel"
+      B: "Zinc"
+      C: "Argent"
+      D: "Cuivre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which element has the electron configuration [Ar] 3d10 4s1?"
+        answers:
+          A: "Nickel"
+          B: "Zinc"
+          C: "Silver"
+          D: "Copper"
+    difficulty: EXPERT
+  - text: "Quel est le produit de la réaction entre un acide et une base ?"
+    answers:
+      A: "Un alcool et du dioxyde de carbone"
+      B: "Un oxyde et de l'hydrogène"
+      C: "Un sel et de l'eau"
+      D: "Un acide plus fort et de l'eau"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the product of the reaction between an acid and a base?"
+        answers:
+          A: "An alcohol and carbon dioxide"
+          B: "An oxide and hydrogen"
+          C: "A salt and water"
+          D: "A stronger acid and water"
+    difficulty: EASY
+  - text: "Quel gaz est produit lors de la réaction entre le zinc et l'acide chlorhydrique ?"
+    answers:
+      A: "Oxygène"
+      B: "Dioxyde de carbone"
+      C: "Chlore"
+      D: "Hydrogène"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which gas is produced when zinc reacts with hydrochloric acid?"
+        answers:
+          A: "Oxygen"
+          B: "Carbon dioxide"
+          C: "Chlorine"
+          D: "Hydrogen"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la liaison chimique formée par le partage d'électrons ?"
+    answers:
+      A: "Liaison covalente"
+      B: "Liaison ionique"
+      C: "Liaison métallique"
+      D: "Liaison hydrogène"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the chemical bond formed by sharing electrons?"
+        answers:
+          A: "Covalent bond"
+          B: "Ionic bond"
+          C: "Metallic bond"
+          D: "Hydrogen bond"
+    difficulty: EASY
+  - text: "Quel est le nom du composé CH3COOH ?"
+    answers:
+      A: "Acide formique"
+      B: "Acide butyrique"
+      C: "Acide propionique"
+      D: "Acide acétique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the compound CH3COOH?"
+        answers:
+          A: "Formic acid"
+          B: "Butyric acid"
+          C: "Propionic acid"
+          D: "Acetic acid"
+    difficulty: MEDIUM
+  - text: "Quelle molécule ce modèle représente-t-il ?"
+    imageUrl: wikipedia/science/Water-3D-balls.png
+    answers:
+      A: "Le méthane"
+      B: "L'ammoniac"
+      C: "L'eau"
+      D: "Le dioxyde de carbone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which molecule does this model represent?"
+        answers:
+          A: "Methane"
+          B: "Ammonia"
+          C: "Water"
+          D: "Carbon dioxide"
+    difficulty: HARD
+  - text: "Quel est le nombre d'oxydation du manganèse dans KMnO4 ?"
+    answers:
+      A: "+4"
+      B: "+2"
+      C: "+7"
+      D: "+6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the oxidation number of manganese in KMnO4?"
+        answers:
+          A: "+4"
+          B: "+2"
+          C: "+7"
+          D: "+6"
+    difficulty: EXPERT
+  - text: "Quel élément a été découvert par Marie Curie et Pierre Curie ?"
+    answers:
+      A: "Radium"
+      B: "Polonium"
+      C: "Uranium"
+      D: "Thorium"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which element was discovered by Marie Curie and Pierre Curie?"
+        answers:
+          A: "Radium"
+          B: "Polonium"
+          C: "Uranium"
+          D: "Thorium"
+    difficulty: HARD
+  - text: "Quel est le nom de l'unité de base de la quantité de matière dans le Système international ?"
+    answers:
+      A: "Kilogramme"
+      B: "Mole"
+      C: "Candela"
+      D: "Kelvin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the base unit of amount of substance in the International System?"
+        answers:
+          A: "Kilogram"
+          B: "Mole"
+          C: "Candela"
+          D: "Kelvin"
+    difficulty: EASY
+  - text: "Quel est le pourcentage d'azote dans l'air sec ?"
+    answers:
+      A: "21 %"
+      B: "0,9 %"
+      C: "78 %"
+      D: "50 %"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the percentage of nitrogen in dry air?"
+        answers:
+          A: "21%"
+          B: "0.9%"
+          C: "78%"
+          D: "50%"
+    difficulty: HARD
+  - text: "Quel est le nom du processus de passage direct de l'état solide à l'état gazeux ?"
+    answers:
+      A: "Condensation"
+      B: "Fusion"
+      C: "Évaporation"
+      D: "Sublimation"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the process of direct transition from solid to gaseous state?"
+        answers:
+          A: "Condensation"
+          B: "Melting"
+          C: "Evaporation"
+          D: "Sublimation"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a proposé la théorie atomique ?"
+    imageUrl: wikipedia/science/John_Dalton_by_Charles_Turner.jpg
+    answers:
+      A: "John Dalton"
+      B: "Michael Faraday"
+      C: "Isaac Newton"
+      D: "Robert Boyle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scientist proposed the atomic theory?"
+        answers:
+          A: "John Dalton"
+          B: "Michael Faraday"
+          C: "Isaac Newton"
+          D: "Robert Boyle"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'atome qui a perdu ou gagné des électrons ?"
+    answers:
+      A: "Ion"
+      B: "Isotope"
+      C: "Molécule"
+      D: "Radical"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of an atom that has lost or gained electrons?"
+        answers:
+          A: "Ion"
+          B: "Isotope"
+          C: "Molecule"
+          D: "Radical"
+    difficulty: EASY
+  - text: "Quel est le nombre de protons dans un atome de carbone-14 ?"
+    answers:
+      A: "8"
+      B: "6"
+      C: "14"
+      D: "12"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the number of protons in a carbon-14 atom?"
+        answers:
+          A: "8"
+          B: "6"
+          C: "14"
+          D: "12"
+    difficulty: HARD
+  - text: "Quel est le nom de la réaction entre un alcool et un acide carboxylique ?"
+    answers:
+      A: "Estérification"
+      B: "Saponification"
+      C: "Hydrolyse"
+      D: "Oxydation"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the reaction between an alcohol and a carboxylic acid?"
+        answers:
+          A: "Esterification"
+          B: "Saponification"
+          C: "Hydrolysis"
+          D: "Oxidation"
+    difficulty: HARD
+  - text: "Quel est le nom du scientifique qui a formulé la loi des proportions définies ?"
+    answers:
+      A: "Antoine Lavoisier"
+      B: "Joseph Proust"
+      C: "John Dalton"
+      D: "Amedeo Avogadro"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the scientist who formulated the law of definite proportions?"
+        answers:
+          A: "Antoine Lavoisier"
+          B: "Joseph Proust"
+          C: "John Dalton"
+          D: "Amedeo Avogadro"
+    difficulty: EXPERT
+  - text: "Quel est le symbole chimique du tungstène ?"
+    answers:
+      A: "Ti"
+      B: "W"
+      C: "Ta"
+      D: "Sn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical symbol for tungsten?"
+        answers:
+          A: "Ti"
+          B: "W"
+          C: "Ta"
+          D: "Sn"
+    difficulty: HARD
+  - text: "Qui a formulé la loi des proportions multiples en 1799 ?"
+    answers:
+      A: "Joseph Proust"
+      B: "Antoine Lavoisier"
+      C: "John Dalton"
+      D: "Jöns Jacob Berzelius"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who formulated the law of multiple proportions in 1799?"
+        answers:
+          A: "Joseph Proust"
+          B: "Antoine Lavoisier"
+          C: "John Dalton"
+          D: "Jöns Jacob Berzelius"
+    difficulty: EXPERT
+  - text: "Quel est le nombre d'électrons de valence du fer (Z=26) ?"
+    answers:
+      A: "3"
+      B: "2"
+      C: "6"
+      D: "8"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the number of valence electrons in iron (Z=26)?"
+        answers:
+          A: "3"
+          B: "2"
+          C: "6"
+          D: "8"
+    difficulty: EXPERT
+  - text: "Quel corps simple est liquide à 25 °C et 1 atm ?"
+    answers:
+      A: "Iode"
+      B: "Mercure"
+      C: "Gallium"
+      D: "Césium"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which simple substance is liquid at 25 °C and 1 atm?"
+        answers:
+          A: "Iodine"
+          B: "Mercury"
+          C: "Gallium"
+          D: "Cesium"
+    difficulty: HARD
+  - text: "Quel est le produit majoritaire de l'hydratation de l'éthylène en milieu acide sulfurique ?"
+    answers:
+      A: "Éthanol"
+      B: "Éthanal"
+      C: "Acide acétique"
+      D: "Éther diéthylique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the major product of the hydration of ethylene in sulfuric acid medium?"
+        answers:
+          A: "Ethanol"
+          B: "Ethanal"
+          C: "Acetic acid"
+          D: "Diethyl ether"
+    difficulty: EXPERT
+  - text: "Quel indicateur coloré vire du jaune au bleu entre pH 6,0 et 7,6 ?"
+    answers:
+      A: "Bleu de bromothymol"
+      B: "Rouge de méthyle"
+      C: "Hélianthine"
+      D: "Phénolphtaléine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which colored indicator turns from yellow to blue between pH 6.0 and 7.6?"
+        answers:
+          A: "Bromothymol blue"
+          B: "Methyl red"
+          C: "Methyl orange"
+          D: "Phenolphthalein"
+    difficulty: EXPERT
+  - text: "Quel est le nombre de liaisons σ dans une molécule de benzène C6H6 ?"
+    answers:
+      A: "6"
+      B: "9"
+      C: "15"
+      D: "12"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the number of σ bonds in a benzene molecule C6H6?"
+        answers:
+          A: "6"
+          B: "9"
+          C: "15"
+          D: "12"
+    difficulty: EXPERT
+  - text: "Quel élément du groupe 18 a une masse atomique de 131,29 u ?"
+    answers:
+      A: "Argon"
+      B: "Krypton"
+      C: "Radon"
+      D: "Xénon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which group 18 element has an atomic mass of 131.29 u?"
+        answers:
+          A: "Argon"
+          B: "Krypton"
+          C: "Radon"
+          D: "Xenon"
+    difficulty: EXPERT
+  - text: "Quel savant a découvert le gallium en 1875 ?"
+    answers:
+      A: "Dmitri Mendeleïev"
+      B: "Carl Wilhelm Scheele"
+      C: "Lecoq de Boisbaudran"
+      D: "Humphry Davy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist discovered gallium in 1875?"
+        answers:
+          A: "Dmitri Mendeleev"
+          B: "Carl Wilhelm Scheele"
+          C: "Lecoq de Boisbaudran"
+          D: "Humphry Davy"
+    difficulty: EXPERT
+  - text: "Quel est le nom du composé NaClO3 ?"
+    answers:
+      A: "Chlorite de sodium"
+      B: "Perchlorate de sodium"
+      C: "Chlorate de sodium"
+      D: "Hypochlorite de sodium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the compound NaClO3?"
+        answers:
+          A: "Sodium chlorite"
+          B: "Sodium perchlorate"
+          C: "Sodium chlorate"
+          D: "Sodium hypochlorite"
+    difficulty: HARD
+  - text: "Quelle est la masse molaire du sulfate de cuivre pentahydraté (CuSO4·5H2O) ?"
+    answers:
+      A: "159,6 g/mol"
+      B: "249,7 g/mol"
+      C: "277,7 g/mol"
+      D: "399,6 g/mol"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the molar mass of copper(II) sulfate pentahydrate (CuSO4·5H2O)?"
+        answers:
+          A: "159.6 g/mol"
+          B: "249.7 g/mol"
+          C: "277.7 g/mol"
+          D: "399.6 g/mol"
+    difficulty: EXPERT
+  - text: "Quel est le pH d'une solution aqueuse d'acide sulfurique H2SO4 à 0,005 mol/L (première acidité forte) ?"
+    answers:
+      A: "1,3"
+      B: "2,7"
+      C: "2,3"
+      D: "2,0"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the pH of a 0.005 mol/L aqueous sulfuric acid solution H2SO4 (first strong acidity)?"
+        answers:
+          A: "1.3"
+          B: "2.7"
+          C: "2.3"
+          D: "2.0"
+    difficulty: EXPERT
+  - text: "Quel couple acide/base a un pKa de 4,76 à 25 °C ?"
+    answers:
+      A: "NH4+/NH3"
+      B: "HCN/CN−"
+      C: "H2CO3/HCO3−"
+      D: "CH3COOH/CH3COO−"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which acid/base pair has a pKa of 4.76 at 25 °C?"
+        answers:
+          A: "NH4+/NH3"
+          B: "HCN/CN−"
+          C: "H2CO3/HCO3−"
+          D: "CH3COOH/CH3COO−"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la règle qui prédit l'orientation des additifs électrophiles sur un cycle aromatique substitué ?"
+    answers:
+      A: "Règle de Holleman"
+      B: "Règle de Saytzeff"
+      C: "Règle de Hückel"
+      D: "Règle de Markovnikov"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the rule that predicts the orientation of electrophilic additions on a substituted aromatic ring?"
+        answers:
+          A: "Holleman's rule"
+          B: "Saytzeff's rule"
+          C: "Hückel's rule"
+          D: "Markovnikov's rule"
+    difficulty: EXPERT
+  - text: "Quel élément a pour symbole chimique Mo ?"
+    answers:
+      A: "Manganèse"
+      B: "Molybdène"
+      C: "Magnésium"
+      D: "Mercure"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which element has the chemical symbol Mo?"
+        answers:
+          A: "Manganese"
+          B: "Molybdenum"
+          C: "Magnesium"
+          D: "Mercury"
+    difficulty: HARD
+  - text: "Quel désinfectant est une solution aqueuse de NaClO ?"
+    answers:
+      A: "Eau de Javel"
+      B: "Eau oxygénée"
+      C: "Eau régale"
+      D: "Eau de Dakin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which disinfectant is an aqueous solution of NaClO?"
+        answers:
+          A: "Bleach"
+          B: "Hydrogen peroxide"
+          C: "Aqua regia"
+          D: "Dakin's solution"
+    difficulty: HARD
+  - text: "Quel est le nombre d'atomes dans une molécule de glucose (C6H12O6) ?"
+    answers:
+      A: "6"
+      B: "12"
+      C: "18"
+      D: "24"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the number of atoms in a glucose molecule (C6H12O6)?"
+        answers:
+          A: "6"
+          B: "12"
+          C: "18"
+          D: "24"
+    difficulty: MEDIUM
+  - text: "Quel élément du tableau périodique se situe à la case Z=43 ?"
+    answers:
+      A: "Ruthénium"
+      B: "Rhodium"
+      C: "Palladium"
+      D: "Technétium"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which element of the periodic table is at position Z=43?"
+        answers:
+          A: "Ruthenium"
+          B: "Rhodium"
+          C: "Palladium"
+          D: "Technetium"
+    difficulty: HARD
+  - text: "Quel scientifique a introduit le terme « mole » en chimie ?"
+    answers:
+      A: "Wilhelm Ostwald"
+      B: "Amedeo Avogadro"
+      C: "Stanislao Cannizzaro"
+      D: "Joseph Loschmidt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scientist introduced the term \"mole\" in chemistry?"
+        answers:
+          A: "Wilhelm Ostwald"
+          B: "Amedeo Avogadro"
+          C: "Stanislao Cannizzaro"
+          D: "Joseph Loschmidt"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'isotope de l'hydrogène dont le noyau contient un proton et deux neutrons ?"
+    answers:
+      A: "Protium"
+      B: "Deutérium"
+      C: "Hydrogène-4"
+      D: "Tritium"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the hydrogen isotope whose nucleus contains one proton and two neutrons?"
+        answers:
+          A: "Protium"
+          B: "Deuterium"
+          C: "Hydrogen-4"
+          D: "Tritium"
+    difficulty: EXPERT
+  - text: "Quel chercheur a reçu le prix Nobel de chimie en 1918 pour la synthèse de l'ammoniac ?"
+    answers:
+      A: "Wilhelm Ostwald"
+      B: "Carl Bosch"
+      C: "Walther Nernst"
+      D: "Fritz Haber"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which researcher received the Nobel Prize in Chemistry in 1918 for the synthesis of ammonia?"
+        answers:
+          A: "Wilhelm Ostwald"
+          B: "Carl Bosch"
+          C: "Walther Nernst"
+          D: "Fritz Haber"
+    difficulty: HARD
+  - text: "Quel est le nom du minerai principal dont on extrait l'aluminium ?"
+    answers:
+      A: "Hématite"
+      B: "Cassitérite"
+      C: "Bauxite"
+      D: "Galène"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main ore from which aluminum is extracted?"
+        answers:
+          A: "Hematite"
+          B: "Cassiterite"
+          C: "Bauxite"
+          D: "Galena"
+    difficulty: HARD
+  - text: "Combien de groupes fonctionnels hydroxyle compte une molécule de glycérol ?"
+    answers:
+      A: "1"
+      B: "2"
+      C: "3"
+      D: "4"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many hydroxyl functional groups does a glycerol molecule have?"
+        answers:
+          A: "1"
+          B: "2"
+          C: "3"
+          D: "4"
+    difficulty: HARD
+  - text: "Quel est le catalyseur typique utilisé dans le procédé Haber-Bosch ?"
+    answers:
+      A: "Platine"
+      B: "Oxyde de fer"
+      C: "Vanadium"
+      D: "Nickel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the typical catalyst used in the Haber-Bosch process?"
+        answers:
+          A: "Platinum"
+          B: "Iron oxide"
+          C: "Vanadium"
+          D: "Nickel"
+    difficulty: EXPERT
+  - text: "Quel est le nom du composé chimique de formule H2SO4 ?"
+    answers:
+      A: "Acide sulfureux"
+      B: "Acide sulfurique"
+      C: "Acide sulfhydrique"
+      D: "Acide persulfurique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the chemical compound with formula H2SO4?"
+        answers:
+          A: "Sulfurous acid"
+          B: "Sulfuric acid"
+          C: "Hydrosulfuric acid"
+          D: "Persulfuric acid"
+    difficulty: EASY
+  - text: "Quel élément chimique a pour numéro atomique 92 ?"
+    answers:
+      A: "Thorium"
+      B: "Protactinium"
+      C: "Uranium"
+      D: "Neptunium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chemical element has atomic number 92?"
+        answers:
+          A: "Thorium"
+          B: "Protactinium"
+          C: "Uranium"
+          D: "Neptunium"
+    difficulty: HARD
+  - text: "Quel gaz est responsable de l'effet de serre et est produit par la combustion complète du méthane ?"
+    answers:
+      A: "Monoxyde de carbone"
+      B: "Dioxyde de carbone"
+      C: "Méthane"
+      D: "Ozone"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which gas is responsible for the greenhouse effect and is produced by the complete combustion of methane?"
+        answers:
+          A: "Carbon monoxide"
+          B: "Carbon dioxide"
+          C: "Methane"
+          D: "Ozone"
+    difficulty: MEDIUM
+  - text: "Quel est le pH d'une solution d'acide acétique à 0,1 mol/L ? (pKa = 4,76)"
+    answers:
+      A: "2,9"
+      B: "1,0"
+      C: "4,8"
+      D: "7,0"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the pH of a 0.1 mol/L acetic acid solution? (pKa = 4.76)"
+        answers:
+          A: "2.9"
+          B: "1.0"
+          C: "4.8"
+          D: "7.0"
+    difficulty: EXPERT
+  - text: "Quel élément a pour configuration électronique [Xe] 4f14 5d10 6s1 ?"
+    answers:
+      A: "Platine"
+      B: "Mercure"
+      C: "Or"
+      D: "Thallium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which element has the electron configuration [Xe] 4f14 5d10 6s1?"
+        answers:
+          A: "Platinum"
+          B: "Mercury"
+          C: "Gold"
+          D: "Thallium"
+    difficulty: EXPERT
+  - text: "Comment appelle-t-on la réaction entre un acide et un alcool ?"
+    answers:
+      A: "Saponification"
+      B: "Estérification"
+      C: "Amidation"
+      D: "Hydrolyse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the reaction between an acid and an alcohol called?"
+        answers:
+          A: "Saponification"
+          B: "Esterification"
+          C: "Amidation"
+          D: "Hydrolysis"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a proposé en 1869 une classification périodique des éléments ?"
+    answers:
+      A: "Dmitri Mendeleïev"
+      B: "Lothar Meyer"
+      C: "John Newlands"
+      D: "Antoine Lavoisier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scientist proposed a periodic classification of elements in 1869?"
+        answers:
+          A: "Dmitri Mendeleev"
+          B: "Lothar Meyer"
+          C: "John Newlands"
+          D: "Antoine Lavoisier"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du composé de formule Na2CO3 ?"
+    answers:
+      A: "Carbonate de sodium"
+      B: "Bicarbonate de sodium"
+      C: "Hydroxyde de sodium"
+      D: "Chlorure de sodium"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the compound with formula Na2CO3?"
+        answers:
+          A: "Sodium carbonate"
+          B: "Sodium bicarbonate"
+          C: "Sodium hydroxide"
+          D: "Sodium chloride"
+    difficulty: MEDIUM
+  - text: "Quel est le nombre d'oxydation du soufre dans l'acide sulfurique H2SO4 ?"
+    answers:
+      A: "+6"
+      B: "+4"
+      C: "-2"
+      D: "+2"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the oxidation number of sulfur in sulfuric acid H2SO4?"
+        answers:
+          A: "+6"
+          B: "+4"
+          C: "-2"
+          D: "+2"
+    difficulty: HARD
+  - text: "Quel est le nom de l'unité de mesure de la radioactivité dans le Système international ?"
+    answers:
+      A: "Gray"
+      B: "Sievert"
+      C: "Becquerel"
+      D: "Curie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the unit of measurement for radioactivity in the International System?"
+        answers:
+          A: "Gray"
+          B: "Sievert"
+          C: "Becquerel"
+          D: "Curie"
+    difficulty: HARD
+  - text: "Quel élément est le plus abondant dans la croûte terrestre ?"
+    answers:
+      A: "Silicium"
+      B: "Aluminium"
+      C: "Fer"
+      D: "Oxygène"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which element is the most abundant in the Earth's crust?"
+        answers:
+          A: "Silicon"
+          B: "Aluminum"
+          C: "Iron"
+          D: "Oxygen"
+    difficulty: MEDIUM
+  - text: "Quel savant a découvert le radium et le polonium avec Pierre Curie ?"
+    answers:
+      A: "Lise Meitner"
+      B: "Irène Joliot-Curie"
+      C: "Rosalind Franklin"
+      D: "Marie Curie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist discovered radium and polonium with Pierre Curie?"
+        answers:
+          A: "Lise Meitner"
+          B: "Irène Joliot-Curie"
+          C: "Rosalind Franklin"
+          D: "Marie Curie"
+    difficulty: EASY
+  - text: "Quel est le produit de la réaction entre le sodium et l'eau ?"
+    answers:
+      A: "Carbonate de sodium et dioxyde de carbone"
+      B: "Oxyde de sodium et oxygène"
+      C: "Chlorure de sodium et eau"
+      D: "Hydroxyde de sodium et hydrogène"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the product of the reaction between sodium and water?"
+        answers:
+          A: "Sodium carbonate and carbon dioxide"
+          B: "Sodium oxide and oxygen"
+          C: "Sodium chloride and water"
+          D: "Sodium hydroxide and hydrogen"
+    difficulty: MEDIUM
+  - text: "Quel est le nombre d'atomes dans une molécule de saccharose (C12H22O11) ?"
+    answers:
+      A: "34"
+      B: "56"
+      C: "23"
+      D: "45"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the number of atoms in a molecule of sucrose (C12H22O11)?"
+        answers:
+          A: "34"
+          B: "56"
+          C: "23"
+          D: "45"
+    difficulty: HARD
+  - text: "Quel est le nom du scientifique qui a proposé en 1923 la théorie des acides et bases impliquant le transfert de protons ?"
+    answers:
+      A: "Johannes Brønsted"
+      B: "Gilbert Lewis"
+      C: "Svante Arrhenius"
+      D: "Robert Boyle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the scientist who in 1923 proposed the acid-base theory involving proton transfer?"
+        answers:
+          A: "Johannes Brønsted"
+          B: "Gilbert Lewis"
+          C: "Svante Arrhenius"
+          D: "Robert Boyle"
+    difficulty: EXPERT
+  - text: "Quel est le pourcentage massique de carbone dans le glucose (C6H12O6) ?"
+    answers:
+      A: "40,0 %"
+      B: "53,3 %"
+      C: "6,7 %"
+      D: "26,7 %"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the mass percentage of carbon in glucose (C6H12O6)?"
+        answers:
+          A: "40.0%"
+          B: "53.3%"
+          C: "6.7%"
+          D: "26.7%"
+    difficulty: EXPERT
+  - text: "Quel élément chimique a pour numéro atomique 118 ?"
+    answers:
+      A: "Tennesse"
+      B: "Oganesson"
+      C: "Livermorium"
+      D: "Moscovium"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which chemical element has atomic number 118?"
+        answers:
+          A: "Tennessine"
+          B: "Oganesson"
+          C: "Livermorium"
+          D: "Moscovium"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la loi de vitesse pour une réaction élémentaire bimoléculaire ?"
+    answers:
+      A: "Loi de vitesse d'ordre deux"
+      B: "Loi de vitesse d'ordre un"
+      C: "Loi de vitesse d'ordre zéro"
+      D: "Loi de vitesse d'ordre trois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the rate law for an elementary bimolecular reaction?"
+        answers:
+          A: "Second-order rate law"
+          B: "First-order rate law"
+          C: "Zero-order rate law"
+          D: "Third-order rate law"
+    difficulty: EXPERT
+  - text: "Quel est le produit majoritaire de l'oxydation ménagée d'un alcool primaire ?"
+    answers:
+      A: "Un ester"
+      B: "Une cétone"
+      C: "Un acide carboxylique"
+      D: "Un aldéhyde"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the major product of the controlled oxidation of a primary alcohol?"
+        answers:
+          A: "An ester"
+          B: "A ketone"
+          C: "A carboxylic acid"
+          D: "An aldehyde"
+    difficulty: HARD
+  - text: "Quel élément a pour symbole chimique Sb ?"
+    answers:
+      A: "Étain"
+      B: "Sélénium"
+      C: "Antimoine"
+      D: "Strontium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which element has the chemical symbol Sb?"
+        answers:
+          A: "Tin"
+          B: "Selenium"
+          C: "Antimony"
+          D: "Strontium"
+    difficulty: HARD
+  - text: "Quel est le nombre d'atomes dans une molécule d'acide sulfurique H2SO4 ?"
+    answers:
+      A: "6"
+      B: "7"
+      C: "8"
+      D: "9"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the number of atoms in a molecule of sulfuric acid H2SO4?"
+        answers:
+          A: "6"
+          B: "7"
+          C: "8"
+          D: "9"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du composé chimique de formule NH4NO3 ?"
+    answers:
+      A: "Sulfate d'ammonium"
+      B: "Nitrite d'ammonium"
+      C: "Nitrate d'ammonium"
+      D: "Carbonate d'ammonium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the chemical compound with formula NH4NO3?"
+        answers:
+          A: "Ammonium sulfate"
+          B: "Ammonium nitrite"
+          C: "Ammonium nitrate"
+          D: "Ammonium carbonate"
+    difficulty: MEDIUM
+  - text: "Quel élément a pour configuration électronique [Ar] 3d10 4s2 ?"
+    answers:
+      A: "Cuivre"
+      B: "Zinc"
+      C: "Nickel"
+      D: "Gallium"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which element has the electron configuration [Ar] 3d10 4s2?"
+        answers:
+          A: "Copper"
+          B: "Zinc"
+          C: "Nickel"
+          D: "Gallium"
+    difficulty: EXPERT
+  - text: "Quel est le pH d'une solution d'acide chlorhydrique à 0,01 mol/L ?"
+    answers:
+      A: "1"
+      B: "3"
+      C: "2"
+      D: "4"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the pH of a 0.01 mol/L hydrochloric acid solution?"
+        answers:
+          A: "1"
+          B: "3"
+          C: "2"
+          D: "4"
+    difficulty: HARD
+  - text: "Quel est le nom du processus par lequel un solide passe directement à l'état gazeux ?"
+    answers:
+      A: "Évaporation"
+      B: "Fusion"
+      C: "Sublimation"
+      D: "Condensation"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the process by which a solid directly changes to a gas?"
+        answers:
+          A: "Evaporation"
+          B: "Melting"
+          C: "Sublimation"
+          D: "Condensation"
+    difficulty: EASY
+  - text: "Quel scientifique a reçu le prix Nobel de chimie en 1908 pour ses travaux sur la radioactivité et la désintégration des éléments ?"
+    answers:
+      A: "Marie Curie"
+      B: "Pierre Curie"
+      C: "Henri Becquerel"
+      D: "Ernest Rutherford"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist received the Nobel Prize in Chemistry in 1908 for work on radioactivity and the disintegration of elements?"
+        answers:
+          A: "Marie Curie"
+          B: "Pierre Curie"
+          C: "Henri Becquerel"
+          D: "Ernest Rutherford"
+    difficulty: EXPERT
+  - text: "Quel élément a pour numéro atomique 53 ?"
+    answers:
+      A: "Chlore"
+      B: "Brome"
+      C: "Iode"
+      D: "Fluor"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which element has atomic number 53?"
+        answers:
+          A: "Chlorine"
+          B: "Bromine"
+          C: "Iodine"
+          D: "Fluorine"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la réaction entre un acide carboxylique et un alcool ?"
+    answers:
+      A: "Estérification"
+      B: "Saponification"
+      C: "Hydrolyse"
+      D: "Addition"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the reaction between a carboxylic acid and an alcohol?"
+        answers:
+          A: "Esterification"
+          B: "Saponification"
+          C: "Hydrolysis"
+          D: "Addition"
+    difficulty: MEDIUM
+  - text: "Quel est le nombre d'oxydation du manganèse dans l'ion permanganate MnO4– ?"
+    answers:
+      A: "+2"
+      B: "+4"
+      C: "+5"
+      D: "+7"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the oxidation number of manganese in the permanganate ion MnO4–?"
+        answers:
+          A: "+2"
+          B: "+4"
+          C: "+5"
+          D: "+7"
+    difficulty: EXPERT
+  - text: "Quel est le nom du composé chimique de formule NaHCO3 ?"
+    answers:
+      A: "Carbonate de sodium"
+      B: "Chlorure de sodium"
+      C: "Hydroxyde de sodium"
+      D: "Bicarbonate de sodium"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the chemical compound with the formula NaHCO3?"
+        answers:
+          A: "Sodium carbonate"
+          B: "Sodium chloride"
+          C: "Sodium hydroxide"
+          D: "Sodium bicarbonate"
+    difficulty: MEDIUM
+  - text: "Quel élément a pour symbole chimique W ?"
+    answers:
+      A: "Tungstène"
+      B: "Étain"
+      C: "Titane"
+      D: "Vanadium"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which element has the chemical symbol W?"
+        answers:
+          A: "Tungsten"
+          B: "Tin"
+          C: "Titanium"
+          D: "Vanadium"
+    difficulty: HARD
+  - text: "Quel est le pourcentage massique d'azote dans l'ammoniac NH3 ?"
+    answers:
+      A: "17,6 %"
+      B: "25,0 %"
+      C: "50,0 %"
+      D: "82,4 %"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the mass percentage of nitrogen in ammonia NH3?"
+        answers:
+          A: "17.6%"
+          B: "25.0%"
+          C: "50.0%"
+          D: "82.4%"
+    difficulty: EXPERT
+  - text: "Quel scientifique a proposé en 1923 la théorie des acides et des bases impliquant un transfert de protons ?"
+    answers:
+      A: "Svante Arrhenius"
+      B: "Gilbert Lewis"
+      C: "Johannes Brønsted"
+      D: "Walther Nernst"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist proposed in 1923 the theory of acids and bases involving proton transfer?"
+        answers:
+          A: "Svante Arrhenius"
+          B: "Gilbert Lewis"
+          C: "Johannes Brønsted"
+          D: "Walther Nernst"
+    difficulty: EXPERT
+  - text: "Quel est le nom du minerai principal dont on extrait le fer ?"
+    answers:
+      A: "Bauxite"
+      B: "Hématite"
+      C: "Chalcopyrite"
+      D: "Galène"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the main ore from which iron is extracted?"
+        answers:
+          A: "Bauxite"
+          B: "Hematite"
+          C: "Chalcopyrite"
+          D: "Galena"
+    difficulty: MEDIUM
+  - text: "Quel est le nombre d'électrons de valence du chlore (Z=17) ?"
+    answers:
+      A: "7"
+      B: "3"
+      C: "5"
+      D: "1"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the number of valence electrons of chlorine (Z=17)?"
+        answers:
+          A: "7"
+          B: "3"
+          C: "5"
+          D: "1"
+    difficulty: HARD
+  - text: "Quel est le nom du composé chimique de formule KMnO4 ?"
+    answers:
+      A: "Chromate de potassium"
+      B: "Dichromate de potassium"
+      C: "Manganate de potassium"
+      D: "Permanganate de potassium"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the chemical compound with the formula KMnO4?"
+        answers:
+          A: "Potassium chromate"
+          B: "Potassium dichromate"
+          C: "Potassium manganate"
+          D: "Potassium permanganate"
+    difficulty: HARD
+  - text: "Quel est le nombre d'oxydation du chrome dans l'ion dichromate Cr2O7^2- ?"
+    answers:
+      A: "+6"
+      B: "+3"
+      C: "+7"
+      D: "+12"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the oxidation number of chromium in the dichromate ion Cr2O7^2-?"
+        answers:
+          A: "+6"
+          B: "+3"
+          C: "+7"
+          D: "+12"
+    difficulty: EXPERT
+  - text: "Quel élément chimique a pour numéro atomique 26 ?"
+    answers:
+      A: "Cobalt"
+      B: "Nickel"
+      C: "Fer"
+      D: "Manganèse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chemical element has atomic number 26?"
+        answers:
+          A: "Cobalt"
+          B: "Nickel"
+          C: "Iron"
+          D: "Manganese"
+    difficulty: HARD
+  - text: "Quel scientifique a reçu le prix Nobel de chimie en 1901 pour la découverte de la loi des équilibres chimiques ?"
+    answers:
+      A: "Wilhelm Ostwald"
+      B: "Walther Nernst"
+      C: "Svante Arrhenius"
+      D: "Jacobus Henricus van 't Hoff"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist received the Nobel Prize in Chemistry in 1901 for the discovery of the law of chemical equilibria?"
+        answers:
+          A: "Wilhelm Ostwald"
+          B: "Walther Nernst"
+          C: "Svante Arrhenius"
+          D: "Jacobus Henricus van 't Hoff"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la particule subatomique découverte par James Chadwick en 1932 ?"
+    answers:
+      A: "Proton"
+      B: "Électron"
+      C: "Neutron"
+      D: "Positron"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the subatomic particle discovered by James Chadwick in 1932?"
+        answers:
+          A: "Proton"
+          B: "Electron"
+          C: "Neutron"
+          D: "Positron"
+    difficulty: HARD
+  - text: "Quel est le nom du composé chimique de formule FeS2 ?"
+    answers:
+      A: "Magnétite"
+      B: "Pyrite"
+      C: "Hématite"
+      D: "Sidérite"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the chemical compound with the formula FeS2?"
+        answers:
+          A: "Magnetite"
+          B: "Pyrite"
+          C: "Hematite"
+          D: "Siderite"
+    difficulty: HARD
+  - text: "Quel est le pH d'une solution d'hydroxyde de sodium à 0,001 mol/L ?"
+    answers:
+      A: "3"
+      B: "11"
+      C: "10"
+      D: "12"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the pH of a 0.001 mol/L sodium hydroxide solution?"
+        answers:
+          A: "3"
+          B: "11"
+          C: "10"
+          D: "12"
+    difficulty: HARD
+  - text: "Quel est le nom du scientifique qui a proposé en 1900 le modèle atomique dit 'plum pudding' ?"
+    answers:
+      A: "Joseph John Thomson"
+      B: "Ernest Rutherford"
+      C: "John Dalton"
+      D: "Niels Bohr"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the scientist who proposed the 'plum pudding' atomic model in 1900?"
+        answers:
+          A: "Joseph John Thomson"
+          B: "Ernest Rutherford"
+          C: "John Dalton"
+          D: "Niels Bohr"
+    difficulty: HARD
+  - text: "Quel est le nombre d'électrons de valence du phosphore (Z=15) ?"
+    answers:
+      A: "3"
+      B: "7"
+      C: "5"
+      D: "15"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the number of valence electrons in phosphorus (Z=15)?"
+        answers:
+          A: "3"
+          B: "7"
+          C: "5"
+          D: "15"
+    difficulty: HARD
+  - text: "Quel élément chimique a pour symbole chimique Br ?"
+    answers:
+      A: "Bore"
+      B: "Brome"
+      C: "Baryum"
+      D: "Bismuth"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which chemical element has the chemical symbol Br?"
+        answers:
+          A: "Boron"
+          B: "Bromine"
+          C: "Barium"
+          D: "Bismuth"
+    difficulty: HARD
+  - text: "Quel est le pourcentage massique d'oxygène dans l'eau H2O ? (Arrondi à l'unité)"
+    answers:
+      A: "11%"
+      B: "33%"
+      C: "89%"
+      D: "67%"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the mass percentage of oxygen in water H2O? (Rounded to the nearest whole number)"
+        answers:
+          A: "11%"
+          B: "33%"
+          C: "89%"
+          D: "67%"
+    difficulty: HARD
+  - text: "Quel est le nom de l'isotope de l'hydrogène dont le noyau contient un proton et un neutron ?"
+    answers:
+      A: "Protium"
+      B: "Deutérium"
+      C: "Tritium"
+      D: "Hydrogène-1"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hydrogen isotope whose nucleus contains one proton and one neutron?"
+        answers:
+          A: "Protium"
+          B: "Deuterium"
+          C: "Tritium"
+          D: "Hydrogen-1"
+    difficulty: MEDIUM
+  - text: "Quel est le catalyseur utilisé dans le procédé Ostwald pour l'oxydation de l'ammoniac en monoxyde d'azote ?"
+    answers:
+      A: "Fer"
+      B: "Oxyde de vanadium"
+      C: "Nickel"
+      D: "Platine rhodié"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What catalyst is used in the Ostwald process for the oxidation of ammonia to nitrogen monoxide?"
+        answers:
+          A: "Iron"
+          B: "Vanadium oxide"
+          C: "Nickel"
+          D: "Rhodium-platinum"
+    difficulty: EXPERT
+  - text: "Quel élément fut isolé en 1886 par Henri Moissan par électrolyse du fluorure de potassium dans l'acide fluorhydrique anhydre ?"
+    answers:
+      A: "Le fluor"
+      B: "Le chlore"
+      C: "L'ozone"
+      D: "Le radon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which element was isolated in 1886 by Henri Moissan by electrolysis of potassium fluoride in anhydrous hydrofluoric acid?"
+        answers:
+          A: "Fluorine"
+          B: "Chlorine"
+          C: "Ozone"
+          D: "Radon"
+    difficulty: EXPERT
+  - text: "Quel est le nombre d'oxydation du soufre dans l'ion thiosulfate S2O3^2- ?"
+    answers:
+      A: "+4"
+      B: "+2"
+      C: "+6"
+      D: "+5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the oxidation number of sulfur in the thiosulfate ion S2O3^2-?"
+        answers:
+          A: "+4"
+          B: "+2"
+          C: "+6"
+          D: "+5"
+    difficulty: EXPERT
+  - text: "Quel élément a pour numéro atomique 88 ?"
+    answers:
+      A: "Le radium"
+      B: "Le radon"
+      C: "Le francium"
+      D: "Le rhénium"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which element has atomic number 88?"
+        answers:
+          A: "Radium"
+          B: "Radon"
+          C: "Francium"
+          D: "Rhenium"
+    difficulty: EXPERT
+  - text: "Qui a proposé en 1869 une classification périodique des éléments fondée sur la masse atomique, en laissant des cases vides pour des éléments inconnus ?"
+    answers:
+      A: "Lothar Meyer"
+      B: "John Newlands"
+      C: "Dimitri Mendeleïev"
+      D: "Antoine Lavoisier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who proposed in 1869 a periodic classification of the elements based on atomic mass, leaving empty spaces for unknown elements?"
+        answers:
+          A: "Lothar Meyer"
+          B: "John Newlands"
+          C: "Dmitri Mendeleev"
+          D: "Antoine Lavoisier"
+    difficulty: HARD

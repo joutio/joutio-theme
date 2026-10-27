@@ -1,0 +1,1626 @@
+topic:
+  id: topic-the-walking-dead
+  names:
+    fr: "The Walking Dead"
+    en: "The Walking Dead"
+  description: "Plongez dans l'univers de The Walking Dead, la série post-apocalyptique adaptée de la bande dessinée de Robert Kirkman. Suivez Rick Grimes et son groupe de survivants à travers une Géorgie envahie par les walkers, du camp d'Atlanta à Alexandria, en passant par la prison et le Royaume."
+  category: TELEVISION
+  titles:
+    fr:
+      FER: "Survivant du camp d'Atlanta"
+      BRONZE: "Éclaireur de la prison"
+      ARGENT: "Pillard de Terminus"
+      OR: "Gardien d'Alexandria"
+      PLATINE: "Éclaireur du Royaume"
+      EMERAUDE: "Bras droit de Rick Grimes"
+      DIAMANT: "Légende de la Zone Sauvage"
+    en:
+      FER: "Atlanta Camp Survivor"
+      BRONZE: "Prison Scout"
+      ARGENT: "Terminus Scavenger"
+      OR: "Alexandria Guardian"
+      PLATINE: "Kingdom Scout"
+      EMERAUDE: "Rick Grimes' Right Hand"
+      DIAMANT: "Legend of the Wild Zone"
+  imageUrl: wikipedia/television/The_Walking_Dead_cast_at_Comic-Con_2013.jpg
+questions:
+  - text: "Quel est le nom complet du leader des Sauveurs ?"
+    answers:
+      A: "Simon"
+      B: "Dwight"
+      C: "Negan Smith"
+      D: "Gavin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the full name of the leader of the Saviors?"
+        answers:
+          A: "Simon"
+          B: "Dwight"
+          C: "Negan Smith"
+          D: "Gavin"
+    difficulty: EASY
+  - text: "Quel personnage est tué par Negan avec Lucille lors de sa première apparition ?"
+    answers:
+      A: "Abraham Ford"
+      B: "Glenn Rhee"
+      C: "Sasha Williams"
+      D: "Eugene Porter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is killed by Negan with Lucille during his first appearance?"
+        answers:
+          A: "Abraham Ford"
+          B: "Glenn Rhee"
+          C: "Sasha Williams"
+          D: "Eugene Porter"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du tigre apprivoisé par Ezekiel ?"
+    answers:
+      A: "Shere Khan"
+      B: "Nala"
+      C: "Shiva"
+      D: "Rajah"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the tiger tamed by Ezekiel?"
+        answers:
+          A: "Shere Khan"
+          B: "Nala"
+          C: "Shiva"
+          D: "Rajah"
+    difficulty: EASY
+  - text: "Qui dirige la communauté d'Alexandria avant l'arrivée de Rick ?"
+    answers:
+      A: "Aaron"
+      B: "Reg Monroe"
+      C: "Jessie Anderson"
+      D: "Deanna Monroe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who leads the Alexandria community before Rick's arrival?"
+        answers:
+          A: "Aaron"
+          B: "Reg Monroe"
+          C: "Jessie Anderson"
+          D: "Deanna Monroe"
+    difficulty: MEDIUM
+  - text: "Quel personnage se fait appeler 'Jesus' et est originaire de la communauté de la Colline ?"
+    answers:
+      A: "Alden"
+      B: "Aaron"
+      C: "Eric"
+      D: "Paul Monroe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character goes by 'Jesus' and comes from the Hilltop community?"
+        answers:
+          A: "Alden"
+          B: "Aaron"
+          C: "Eric"
+          D: "Paul Monroe"
+    difficulty: EASY
+  - text: "Dans la saison 4, qui tue la petite fille Lizzie après qu'elle a tué sa sœur ?"
+    answers:
+      A: "Daryl Dixon"
+      B: "Tyresse Williams"
+      C: "Rick Grimes"
+      D: "Carol Peletier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In season 4, who kills young Lizzie after she killed her sister?"
+        answers:
+          A: "Daryl Dixon"
+          B: "Tyresse Williams"
+          C: "Rick Grimes"
+          D: "Carol Peletier"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du groupe de survivants qui enlève Beth Greene à l'hôpital Grady Memorial ?"
+    answers:
+      A: "Les Sauveurs"
+      B: "Les Terminiens"
+      C: "Les Wolves"
+      D: "Les policiers de Grady"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the group of survivors that kidnaps Beth Greene at Grady Memorial Hospital?"
+        answers:
+          A: "The Saviors"
+          B: "The Terminians"
+          C: "The Wolves"
+          D: "The Grady police"
+    difficulty: HARD
+  - text: "Qui tue le Gouverneur lors de l'assaut de la prison dans la saison 4 ?"
+    answers:
+      A: "Rick Grimes"
+      B: "Lilly Chambler"
+      C: "Michonne"
+      D: "Daryl Dixon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who kills the Governor during the prison assault in season 4?"
+        answers:
+          A: "Rick Grimes"
+          B: "Lilly Chambler"
+          C: "Michonne"
+          D: "Daryl Dixon"
+    difficulty: HARD
+  - text: "Quel personnage perd une jambe après avoir été mordu par un walker dans la saison 5 ?"
+    answers:
+      A: "Hershel Greene"
+      B: "Dale Horvath"
+      C: "Bob Stookey"
+      D: "Tyresse Williams"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character loses a leg after being bitten by a walker in season 5?"
+        answers:
+          A: "Hershel Greene"
+          B: "Dale Horvath"
+          C: "Bob Stookey"
+          D: "Tyresse Williams"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la prison où le groupe s'installe dans la saison 3 ?"
+    answers:
+      A: "Prison d'Atlanta"
+      B: "Prison de West Georgia"
+      C: "Prison de Woodbury"
+      D: "Prison de Harrison"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the prison where the group settles in season 3?"
+        answers:
+          A: "Atlanta Prison"
+          B: "West Georgia Prison"
+          C: "Woodbury Prison"
+          D: "Harrison Prison"
+    difficulty: MEDIUM
+  - text: "Qui est le frère de Caesar Martinez, un des hommes du Gouverneur ?"
+    answers:
+      A: "Shumpert"
+      B: "Martinez n'a pas de frère connu"
+      C: "Merle Dixon"
+      D: "Tyreese"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the brother of Caesar Martinez, one of the Governor's men?"
+        answers:
+          A: "Shumpert"
+          B: "Martinez has no known brother"
+          C: "Merle Dixon"
+          D: "Tyreese"
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par Carl Grimes dans la saison 3 lors de l'assaut de la prison ?"
+    answers:
+      A: "Milton Mamet"
+      B: "Merle Dixon"
+      C: "Andrea"
+      D: "Un jeune soldat du Gouverneur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is killed by Carl Grimes in season 3 during the prison assault?"
+        answers:
+          A: "Milton Mamet"
+          B: "Merle Dixon"
+          C: "Andrea"
+          D: "A young soldier of the Governor"
+    difficulty: HARD
+  - text: "Qui tue Andrea dans la saison 3 ?"
+    answers:
+      A: "Michonne"
+      B: "Le Gouverneur"
+      C: "Rick Grimes"
+      D: "Milton Mamet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who kills Andrea in season 3?"
+        answers:
+          A: "Michonne"
+          B: "The Governor"
+          C: "Rick Grimes"
+          D: "Milton Mamet"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la fille de Rick et Lori née dans la saison 4 ?"
+    answers:
+      A: "Sophia"
+      B: "Judith"
+      C: "Beth"
+      D: "Maggie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Rick and Lori's daughter born in season 4?"
+        answers:
+          A: "Sophia"
+          B: "Judith"
+          C: "Beth"
+          D: "Maggie"
+    difficulty: EASY
+  - text: "Qui révèle à Rick que tout le monde est infecté et que la mort entraîne la transformation en walker ?"
+    answers:
+      A: "Le Gouverneur"
+      B: "Le Dr Jenner"
+      C: "Hershel Greene"
+      D: "Milton Mamet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who reveals to Rick that everyone is infected and that death leads to turning into a walker?"
+        answers:
+          A: "The Governor"
+          B: "Dr. Jenner"
+          C: "Hershel Greene"
+          D: "Milton Mamet"
+    difficulty: MEDIUM
+  - text: "Quel personnage est connu pour avoir survécu seul dans la nature et parle peu, utilisant une arbalète ?"
+    answers:
+      A: "Michonne"
+      B: "Daryl Dixon"
+      C: "Morgan Jones"
+      D: "Aaron"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is known for surviving alone in the wild and speaking little, using a crossbow?"
+        answers:
+          A: "Michonne"
+          B: "Daryl Dixon"
+          C: "Morgan Jones"
+          D: "Aaron"
+    difficulty: EASY
+  - text: "Dans la saison 6, qui se fait passer pour un Sauveur pour infiltrer leur base ?"
+    answers:
+      A: "Eugene Porter"
+      B: "Gabriel Stokes"
+      C: "Aaron"
+      D: "Spencer Monroe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In season 6, who poses as a Savior to infiltrate their base?"
+        answers:
+          A: "Eugene Porter"
+          B: "Gabriel Stokes"
+          C: "Aaron"
+          D: "Spencer Monroe"
+    difficulty: HARD
+  - text: "Quel est le nom du chef des Wolves ?"
+    answers:
+      A: "Owen"
+      B: "Negan"
+      C: "Simon"
+      D: "Jadis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the leader of the Wolves?"
+        answers:
+          A: "Owen"
+          B: "Negan"
+          C: "Simon"
+          D: "Jadis"
+    difficulty: EXPERT
+  - text: "Qui tue Beta dans la saison 10 ?"
+    answers:
+      A: "Negan"
+      B: "Daryl Dixon"
+      C: "Aaron"
+      D: "Carol Peletier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who kills Beta in season 10?"
+        answers:
+          A: "Negan"
+          B: "Daryl Dixon"
+          C: "Aaron"
+          D: "Carol Peletier"
+    difficulty: HARD
+  - text: "Quel personnage est tué par Carol dans la saison 10 après qu'il a été révélé comme un espion ?"
+    answers:
+      A: "Gamma"
+      B: "Alpha"
+      C: "Beta"
+      D: "Dante"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is killed by Carol in season 10 after being revealed as a spy?"
+        answers:
+          A: "Gamma"
+          B: "Alpha"
+          C: "Beta"
+          D: "Dante"
+    difficulty: HARD
+  - text: "Quel est le nom du docteur que Rick rencontre à Alexandria et qui devient un allié ?"
+    answers:
+      A: "Dr Denise Cloyd"
+      B: "Dr Eugene Porter"
+      C: "Dr Harlan Carson"
+      D: "Dr Siddiq"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the doctor Rick meets in Alexandria who becomes an ally?"
+        answers:
+          A: "Dr Denise Cloyd"
+          B: "Dr Eugene Porter"
+          C: "Dr Harlan Carson"
+          D: "Dr Siddiq"
+    difficulty: MEDIUM
+  - text: "Qui tue Abraham Ford avec une arbalète ?"
+    answers:
+      A: "Negan"
+      B: "Dwight"
+      C: "Simon"
+      D: "Daryl"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who kills Abraham Ford with a crossbow?"
+        answers:
+          A: "Negan"
+          B: "Dwight"
+          C: "Simon"
+          D: "Daryl"
+    difficulty: EXPERT
+  - text: "Quel personnage devient le leader de la communauté de Oceanside ?"
+    answers:
+      A: "Rachel"
+      B: "Beatrice"
+      C: "Cyndie"
+      D: "Kathy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character becomes the leader of the Oceanside community?"
+        answers:
+          A: "Rachel"
+          B: "Beatrice"
+          C: "Cyndie"
+          D: "Kathy"
+    difficulty: HARD
+  - text: "Quel est le nom de la femme de Glenn et Maggie ?"
+    answers:
+      A: "Sasha Williams"
+      B: "Beth Greene"
+      C: "Maggie Greene"
+      D: "Rosita Espinosa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Glenn and Maggie's wife?"
+        answers:
+          A: "Sasha Williams"
+          B: "Beth Greene"
+          C: "Maggie Greene"
+          D: "Rosita Espinosa"
+    difficulty: EASY
+  - text: "Quel personnage est responsable de la mort de Glenn et Abraham ?"
+    answers:
+      A: "Jadis"
+      B: "Simon"
+      C: "Dwight"
+      D: "Negan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is responsible for the deaths of Glenn and Abraham?"
+        answers:
+          A: "Jadis"
+          B: "Simon"
+          C: "Dwight"
+          D: "Negan"
+    difficulty: EASY
+  - text: "Quel acteur interprète Negan dans la série ?"
+    answers:
+      A: "Jon Bernthal"
+      B: "David Morrissey"
+      C: "Jeffrey Dean Morgan"
+      D: "Michael Rooker"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Negan in the series?"
+        answers:
+          A: "Jon Bernthal"
+          B: "David Morrissey"
+          C: "Jeffrey Dean Morgan"
+          D: "Michael Rooker"
+    difficulty: EASY
+  - text: "Quel est le nom du chef des Chuchoteurs ?"
+    answers:
+      A: "Sigma"
+      B: "Beta"
+      C: "Gamma"
+      D: "Alpha"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the leader of the Whisperers?"
+        answers:
+          A: "Sigma"
+          B: "Beta"
+          C: "Gamma"
+          D: "Alpha"
+    difficulty: MEDIUM
+  - text: "Qui tue Alpha dans la saison 10 ?"
+    answers:
+      A: "Daryl"
+      B: "Carol"
+      C: "Negan"
+      D: "Maggie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who kills Alpha in season 10?"
+        answers:
+          A: "Daryl"
+          B: "Carol"
+          C: "Negan"
+          D: "Maggie"
+    difficulty: MEDIUM
+  - text: "Quel personnage a été mordu à la jambe et amputé par Hershel ?"
+    answers:
+      A: "Dale Horvath"
+      B: "Hershel Greene"
+      C: "Bob Stookey"
+      D: "Tyreese Williams"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character was bitten on the leg and amputated by Hershel?"
+        answers:
+          A: "Dale Horvath"
+          B: "Hershel Greene"
+          C: "Bob Stookey"
+          D: "Tyreese Williams"
+    difficulty: HARD
+  - text: "Dans quelle ville se trouve le CDC où le groupe se réfugie à la fin de la saison 1 ?"
+    answers:
+      A: "Atlanta"
+      B: "Washington D.C."
+      C: "Richmond"
+      D: "Baltimore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is the CDC where the group takes refuge at the end of season 1?"
+        answers:
+          A: "Atlanta"
+          B: "Washington D.C."
+          C: "Richmond"
+          D: "Baltimore"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cheval de Rick dans la saison 2 ?"
+    answers:
+      A: "Trigger"
+      B: "Buttercup"
+      C: "Daisy"
+      D: "Lightning"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Rick's horse in season 2?"
+        answers:
+          A: "Trigger"
+          B: "Buttercup"
+          C: "Daisy"
+          D: "Lightning"
+    difficulty: EXPERT
+  - text: "Qui est le frère de Daryl Dixon ?"
+    answers:
+      A: "Merle Dixon"
+      B: "Shane Walsh"
+      C: "Glenn Rhee"
+      D: "T-Dog"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is Daryl Dixon's brother?"
+        answers:
+          A: "Merle Dixon"
+          B: "Shane Walsh"
+          C: "Glenn Rhee"
+          D: "T-Dog"
+    difficulty: EASY
+  - text: "Quel personnage est tué par Carl dans la saison 3 après l'assaut de la prison ?"
+    answers:
+      A: "Un jeune soldat du Gouverneur"
+      B: "Merle Dixon"
+      C: "Andrea"
+      D: "Milton Mamet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is killed by Carl in season 3 after the prison assault?"
+        answers:
+          A: "A young soldier of the Governor"
+          B: "Merle Dixon"
+          C: "Andrea"
+          D: "Milton Mamet"
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par Carol dans la saison 10 après avoir été révélé comme un espion ?"
+    answers:
+      A: "Alpha"
+      B: "Beta"
+      C: "Gamma"
+      D: "Dante"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is killed by Carol in season 10 after being revealed as a spy?"
+        answers:
+          A: "Alpha"
+          B: "Beta"
+          C: "Gamma"
+          D: "Dante"
+    difficulty: HARD
+  - text: "Quel acteur a été choisi pour incarner Negan ?"
+    answers:
+      A: "Jon Bernthal"
+      B: "Jeffrey Dean Morgan"
+      C: "David Morrissey"
+      D: "Michael Rooker"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor was chosen to play Negan?"
+        answers:
+          A: "Jon Bernthal"
+          B: "Jeffrey Dean Morgan"
+          C: "David Morrissey"
+          D: "Michael Rooker"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la colline où se trouve la communauté de Jesus ?"
+    answers:
+      A: "Alexandria"
+      B: "Le Royaume"
+      C: "La Colline"
+      D: "Oceanside"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the hill where Jesus's community is located?"
+        answers:
+          A: "Alexandria"
+          B: "The Kingdom"
+          C: "The Hill"
+          D: "Oceanside"
+    difficulty: MEDIUM
+  - text: "Quel personnage de la série principale se nomme T-Dog ?"
+    answers:
+      A: "Theodore Douglas"
+      B: "Terrence Davis"
+      C: "Thomas Decker"
+      D: "Tobias Drake"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character in the main series is named T-Dog?"
+        answers:
+          A: "Theodore Douglas"
+          B: "Terrence Davis"
+          C: "Thomas Decker"
+          D: "Tobias Drake"
+    difficulty: EASY
+  - text: "Quel acteur interprète Aaron, le recruteur d'Alexandria ?"
+    answers:
+      A: "Ross Marquand"
+      B: "Jordan Woods-Robinson"
+      C: "Austin Nichols"
+      D: "Jason Douglas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Aaron, the recruiter from Alexandria?"
+        answers:
+          A: "Ross Marquand"
+          B: "Jordan Woods-Robinson"
+          C: "Austin Nichols"
+          D: "Jason Douglas"
+    difficulty: HARD
+  - text: "Quel est le nom de la mère de Maggie Greene ?"
+    answers:
+      A: "Josephine"
+      B: "Bethany"
+      C: "Annette"
+      D: "Lorraine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Maggie Greene's mother?"
+        answers:
+          A: "Josephine"
+          B: "Bethany"
+          C: "Annette"
+          D: "Lorraine"
+    difficulty: HARD
+  - text: "Quel personnage est le maire d'Alexandria avant l'arrivée de Rick ?"
+    answers:
+      A: "Deanna Monroe"
+      B: "Reg Monroe"
+      C: "Nicholas"
+      D: "Spencer Monroe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is the mayor of Alexandria before Rick's arrival?"
+        answers:
+          A: "Deanna Monroe"
+          B: "Reg Monroe"
+          C: "Nicholas"
+          D: "Spencer Monroe"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du frère de Aaron, mort avant les événements de la série ?"
+    answers:
+      A: "Derek"
+      B: "Eric"
+      C: "Mark"
+      D: "Paul"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Aaron's brother, who died before the events of the series?"
+        answers:
+          A: "Derek"
+          B: "Eric"
+          C: "Mark"
+          D: "Paul"
+    difficulty: EXPERT
+  - text: "Quel personnage de la saison 6 se fait appeler 'Paula' et tend un piège à Carol et Maggie ?"
+    answers:
+      A: "Regina"
+      B: "Jadis"
+      C: "Paula"
+      D: "Tanya"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which season 6 character calls herself 'Paula' and sets a trap for Carol and Maggie?"
+        answers:
+          A: "Regina"
+          B: "Jadis"
+          C: "Paula"
+          D: "Tanya"
+    difficulty: HARD
+  - text: "Quel est le nom du chef des Sauveurs qui dirige le poste avancé de la scierie ?"
+    answers:
+      A: "Dwight"
+      B: "Simon"
+      C: "Gavin"
+      D: "Regina"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Saviors' leader who runs the sawmill outpost?"
+        answers:
+          A: "Dwight"
+          B: "Simon"
+          C: "Gavin"
+          D: "Regina"
+    difficulty: EXPERT
+  - text: "Quel personnage meurt d'une appendicite dans la saison 4 ?"
+    answers:
+      A: "Hershel Greene"
+      B: "Zach"
+      C: "Patrick"
+      D: "Ryan Samuels"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character dies of appendicitis in season 4?"
+        answers:
+          A: "Hershel Greene"
+          B: "Zach"
+          C: "Patrick"
+          D: "Ryan Samuels"
+    difficulty: HARD
+  - text: "Quel est le nom du petit ami de Beth Greene tué au début de la saison 4 ?"
+    answers:
+      A: "Randall"
+      B: "Jimmy"
+      C: "Arnold"
+      D: "Zach"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Beth Greene's boyfriend killed at the beginning of season 4?"
+        answers:
+          A: "Randall"
+          B: "Jimmy"
+          C: "Arnold"
+          D: "Zach"
+    difficulty: EXPERT
+  - text: "Quel acteur interprète le Gouverneur dans la série ?"
+    answers:
+      A: "Jeffrey DeMunn"
+      B: "Michael Rooker"
+      C: "David Morrissey"
+      D: "Scott Wilson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays the Governor in the series?"
+        answers:
+          A: "Jeffrey DeMunn"
+          B: "Michael Rooker"
+          C: "David Morrissey"
+          D: "Scott Wilson"
+    difficulty: MEDIUM
+  - text: "Dans quelle ville se situe la communauté d'Alexandria ?"
+    answers:
+      A: "Maryland"
+      B: "Géorgie"
+      C: "Virginie"
+      D: "Caroline du Nord"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which state is the Alexandria community located?"
+        answers:
+          A: "Maryland"
+          B: "Georgia"
+          C: "Virginia"
+          D: "North Carolina"
+    difficulty: HARD
+  - text: "Quel personnage est le premier à mourir dans le premier épisode de la saison 1 ?"
+    answers:
+      A: "Amy Harrison"
+      B: "Jenny Jones"
+      C: "Ed Peletier"
+      D: "Leon Basset"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is the first to die in the first episode of season 1?"
+        answers:
+          A: "Amy Harrison"
+          B: "Jenny Jones"
+          C: "Ed Peletier"
+          D: "Leon Basset"
+    difficulty: HARD
+  - text: "Quel acteur interprète Eugene Porter ?"
+    answers:
+      A: "Seth Gilliam"
+      B: "Michael Cudlitz"
+      C: "Christian Serratos"
+      D: "Josh McDermitt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Eugene Porter?"
+        answers:
+          A: "Seth Gilliam"
+          B: "Michael Cudlitz"
+          C: "Christian Serratos"
+          D: "Josh McDermitt"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cheval que Daryl monte dans la saison 2 ?"
+    answers:
+      A: "Nelly"
+      B: "Scout"
+      C: "Lightning"
+      D: "Buttercup"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the horse Daryl rides in season 2?"
+        answers:
+          A: "Nelly"
+          B: "Scout"
+          C: "Lightning"
+          D: "Buttercup"
+    difficulty: EXPERT
+  - text: "Quel personnage de la saison 5 est tué par un walker dans l'église de Father Gabriel ?"
+    answers:
+      A: "Tyreese Williams"
+      B: "Bob Stookey"
+      C: "Beth Greene"
+      D: "Noah"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which season 5 character is killed by a walker in Father Gabriel's church?"
+        answers:
+          A: "Tyreese Williams"
+          B: "Bob Stookey"
+          C: "Beth Greene"
+          D: "Noah"
+    difficulty: EXPERT
+  - text: "Quel acteur interprète Sasha Williams ?"
+    answers:
+      A: "Christian Serratos"
+      B: "Danai Gurira"
+      C: "Alanna Masterson"
+      D: "Sonequa Martin-Green"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Sasha Williams?"
+        answers:
+          A: "Christian Serratos"
+          B: "Danai Gurira"
+          C: "Alanna Masterson"
+          D: "Sonequa Martin-Green"
+    difficulty: HARD
+  - text: "Quel personnage de la série se fait mordre au bras et se le fait amputer par Hershel ?"
+    answers:
+      A: "Hershel Greene"
+      B: "Dale Horvath"
+      C: "Bob Stookey"
+      D: "Tyreese Williams"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character in the series gets bitten on the arm and has it amputated by Hershel?"
+        answers:
+          A: "Hershel Greene"
+          B: "Dale Horvath"
+          C: "Bob Stookey"
+          D: "Tyreese Williams"
+    difficulty: HARD
+  - text: "Quel est le nom du fils de Morgan Jones ?"
+    answers:
+      A: "Terry"
+      B: "Daryl"
+      C: "Andre"
+      D: "Duane"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Morgan Jones's son?"
+        answers:
+          A: "Terry"
+          B: "Daryl"
+          C: "Andre"
+          D: "Duane"
+    difficulty: HARD
+  - text: "Quel personnage de la saison 7 est connu sous le surnom de 'King Ezekiel' ?"
+    answers:
+      A: "Ezekiel Williams"
+      B: "Ezekiel Sutton"
+      C: "Ezekiel Porter"
+      D: "Ezekiel Greene"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which season 7 character is known by the nickname 'King Ezekiel'?"
+        answers:
+          A: "Ezekiel Williams"
+          B: "Ezekiel Sutton"
+          C: "Ezekiel Porter"
+          D: "Ezekiel Greene"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du groupe de femmes qui vit dans une décharge et parle un langage étrange ?"
+    answers:
+      A: "Les Chuchoteurs"
+      B: "Les Wolves"
+      C: "Les Scavengers"
+      D: "Les Sauveurs"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the group of women who live in a junkyard and speak a strange language?"
+        answers:
+          A: "The Whisperers"
+          B: "The Wolves"
+          C: "The Scavengers"
+          D: "The Saviors"
+    difficulty: HARD
+  - text: "Quel acteur incarne le Gouverneur dans la saison 3 ?"
+    answers:
+      A: "Michael Rooker"
+      B: "David Morrissey"
+      C: "Jon Bernthal"
+      D: "Jeffrey DeMunn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor portrays the Governor in season 3?"
+        answers:
+          A: "Michael Rooker"
+          B: "David Morrissey"
+          C: "Jon Bernthal"
+          D: "Jeffrey DeMunn"
+    difficulty: HARD
+  - text: "Quel est le nom de la prison dans la saison 3 ?"
+    answers:
+      A: "Prison de Woodbury"
+      B: "Pénitencier de West Central"
+      C: "Prison d'Atlanta"
+      D: "Centre correctionnel de Géorgie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the prison in season 3?"
+        answers:
+          A: "Woodbury Prison"
+          B: "West Central Penitentiary"
+          C: "Atlanta Prison"
+          D: "Georgia Correctional Center"
+    difficulty: HARD
+  - text: "Qui tue Merle Dixon dans la saison 3 ?"
+    answers:
+      A: "Michonne"
+      B: "Daryl Dixon"
+      C: "Rick Grimes"
+      D: "Le Gouverneur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who kills Merle Dixon in season 3?"
+        answers:
+          A: "Michonne"
+          B: "Daryl Dixon"
+          C: "Rick Grimes"
+          D: "The Governor"
+    difficulty: HARD
+  - text: "Quel personnage est tué par le Gouverneur lors de l'assaut de la prison dans la saison 4 ?"
+    answers:
+      A: "Hershel Greene"
+      B: "Beth Greene"
+      C: "Maggie Greene"
+      D: "Glenn Rhee"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is killed by the Governor during the prison assault in season 4?"
+        answers:
+          A: "Hershel Greene"
+          B: "Beth Greene"
+          C: "Maggie Greene"
+          D: "Glenn Rhee"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier walker que Rick voit dans l'épisode 1 ?"
+    answers:
+      A: "Jenny"
+      B: "Hannah"
+      C: "Amy"
+      D: "Sophia"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first walker Rick sees in episode 1?"
+        answers:
+          A: "Jenny"
+          B: "Hannah"
+          C: "Amy"
+          D: "Sophia"
+    difficulty: EXPERT
+  - text: "Qui tue Lizzie et Mika dans la saison 4 ?"
+    answers:
+      A: "Carol"
+      B: "Tyrese"
+      C: "Rick"
+      D: "Daryl"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who kills Lizzie and Mika in season 4?"
+        answers:
+          A: "Carol"
+          B: "Tyrese"
+          C: "Rick"
+          D: "Daryl"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe cannibale dans la saison 5 ?"
+    answers:
+      A: "Les Termites"
+      B: "Les Sauveurs"
+      C: "Les Wolves"
+      D: "Les Chuchoteurs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the cannibal group in season 5?"
+        answers:
+          A: "The Termites"
+          B: "The Saviors"
+          C: "The Wolves"
+          D: "The Whisperers"
+    difficulty: HARD
+  - text: "Qui tue Gareth dans la saison 5 ?"
+    answers:
+      A: "Abraham Ford"
+      B: "Rick Grimes"
+      C: "Sasha Williams"
+      D: "Glenn Rhee"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who kills Gareth in season 5?"
+        answers:
+          A: "Abraham Ford"
+          B: "Rick Grimes"
+          C: "Sasha Williams"
+          D: "Glenn Rhee"
+    difficulty: HARD
+  - text: "Quel personnage meurt de la grippe dans la saison 4 ?"
+    answers:
+      A: "Glenn Rhee"
+      B: "Sasha Williams"
+      C: "Hershel Greene"
+      D: "Carol Peletier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character dies of the flu in season 4?"
+        answers:
+          A: "Glenn Rhee"
+          B: "Sasha Williams"
+          C: "Hershel Greene"
+          D: "Carol Peletier"
+    difficulty: EXPERT
+  - text: "Qui est le leader de la communauté de Hilltop ?"
+    answers:
+      A: "Ezekiel"
+      B: "Jesus"
+      C: "Maggie"
+      D: "Gregory"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the leader of the Hilltop community?"
+        answers:
+          A: "Ezekiel"
+          B: "Jesus"
+          C: "Maggie"
+          D: "Gregory"
+    difficulty: HARD
+  - text: "Quel acteur interprète Jesus dans la série ?"
+    answers:
+      A: "Ross Marquand"
+      B: "Tom Payne"
+      C: "Austin Nichols"
+      D: "Khary Payton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Jesus in the series?"
+        answers:
+          A: "Ross Marquand"
+          B: "Tom Payne"
+          C: "Austin Nichols"
+          D: "Khary Payton"
+    difficulty: HARD
+  - text: "Quel personnage est tué par Negan dans le final de la saison 6 ?"
+    answers:
+      A: "Glenn Rhee"
+      B: "Abraham Ford"
+      C: "Daryl Dixon"
+      D: "Michonne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is killed by Negan in the season 6 finale?"
+        answers:
+          A: "Glenn Rhee"
+          B: "Abraham Ford"
+          C: "Daryl Dixon"
+          D: "Michonne"
+    difficulty: MEDIUM
+  - text: "Qui est le frère de Negan ?"
+    answers:
+      A: "Aucun frère"
+      B: "Dwight"
+      C: "Simon"
+      D: "Gavin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is Negan's brother?"
+        answers:
+          A: "No brother"
+          B: "Dwight"
+          C: "Simon"
+          D: "Gavin"
+    difficulty: EXPERT
+  - text: "Quel est le nom du tigre d'Ezekiel ?"
+    answers:
+      A: "Shiva"
+      B: "Nala"
+      C: "Shere Khan"
+      D: "Tigresse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Ezekiel's tiger?"
+        answers:
+          A: "Shiva"
+          B: "Nala"
+          C: "Shere Khan"
+          D: "Tigress"
+    difficulty: MEDIUM
+  - text: "Qui tue Shiva dans la saison 8 ?"
+    answers:
+      A: "Les Sauveurs"
+      B: "Les Chuchoteurs"
+      C: "Une horde de walkers"
+      D: "Les Wolves"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who kills Shiva in season 8?"
+        answers:
+          A: "The Saviors"
+          B: "The Whisperers"
+          C: "A horde of walkers"
+          D: "The Wolves"
+    difficulty: EXPERT
+  - text: "Quel acteur interprète Alpha dans la série ?"
+    answers:
+      A: "Samantha Morton"
+      B: "Cassady McClincy"
+      C: "Lauren Cohan"
+      D: "Danai Gurira"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress plays Alpha in the series?"
+        answers:
+          A: "Samantha Morton"
+          B: "Cassady McClincy"
+          C: "Lauren Cohan"
+          D: "Danai Gurira"
+    difficulty: HARD
+  - text: "Qui tue Jesus dans la saison 9 ?"
+    answers:
+      A: "Beta"
+      B: "Negan"
+      C: "Alpha"
+      D: "Un Chuchoteur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who kills Jesus in season 9?"
+        answers:
+          A: "Beta"
+          B: "Negan"
+          C: "Alpha"
+          D: "A Whisperer"
+    difficulty: HARD
+  - text: "Quel personnage est tué par Carol dans la saison 10 ?"
+    answers:
+      A: "Negan"
+      B: "Beta"
+      C: "Alpha"
+      D: "Gamma"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is killed by Carol in season 10?"
+        answers:
+          A: "Negan"
+          B: "Beta"
+          C: "Alpha"
+          D: "Gamma"
+    difficulty: EXPERT
+  - text: "Quel personnage est le leader de la communauté de Oceanside ?"
+    answers:
+      A: "Rachel"
+      B: "Natania"
+      C: "Cyndie"
+      D: "Bea"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is the leader of the Oceanside community?"
+        answers:
+          A: "Rachel"
+          B: "Natania"
+          C: "Cyndie"
+          D: "Bea"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de l'épisode de la saison 7 où Negan tue Abraham et Glenn ?"
+    answers:
+      A: "S07E03"
+      B: "S07E02"
+      C: "S07E01"
+      D: "S07E04"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the episode number of season 7 where Negan kills Abraham and Glenn?"
+        answers:
+          A: "S07E03"
+          B: "S07E02"
+          C: "S07E01"
+          D: "S07E04"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la femme de Negan ?"
+    answers:
+      A: "Lucille"
+      B: "Annie"
+      C: "Sherry"
+      D: "Alpha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Negan's wife?"
+        answers:
+          A: "Lucille"
+          B: "Annie"
+          C: "Sherry"
+          D: "Alpha"
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par Carl dans la saison 3 ?"
+    answers:
+      A: "Un jeune garçon nommé Jody"
+      B: "Le Gouverneur"
+      C: "Merle Dixon"
+      D: "Un Sauveur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is killed by Carl in season 3?"
+        answers:
+          A: "A young boy named Jody"
+          B: "The Governor"
+          C: "Merle Dixon"
+          D: "A Savior"
+    difficulty: EXPERT
+  - text: "Quel acteur interprète Beta dans la série ?"
+    answers:
+      A: "Cassady McClincy"
+      B: "Samantha Morton"
+      C: "Ryan Hurst"
+      D: "Eleanor Matsuura"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Beta in the series?"
+        answers:
+          A: "Cassady McClincy"
+          B: "Samantha Morton"
+          C: "Ryan Hurst"
+          D: "Eleanor Matsuura"
+    difficulty: HARD
+  - text: "Quel personnage est responsable de la mort de Shiva, le tigre d'Ezekiel ?"
+    answers:
+      A: "Negan"
+      B: "Alpha"
+      C: "Des walkers"
+      D: "Le Gouverneur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is responsible for the death of Shiva, Ezekiel's tiger?"
+        answers:
+          A: "Negan"
+          B: "Alpha"
+          C: "Walkers"
+          D: "The Governor"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la ville où Rick et Michonne trouvent des armes dans la saison 9 ?"
+    answers:
+      A: "Alexandria"
+      B: "Hilltop"
+      C: "Oceanside"
+      D: "Washington D.C."
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the city where Rick and Michonne find weapons in season 9?"
+        answers:
+          A: "Alexandria"
+          B: "Hilltop"
+          C: "Oceanside"
+          D: "Washington D.C."
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par walkers dans le premier épisode de la saison 6 ?"
+    answers:
+      A: "Carter"
+      B: "Deanna"
+      C: "Reg"
+      D: "Nicholas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is killed by walkers in the first episode of season 6?"
+        answers:
+          A: "Carter"
+          B: "Deanna"
+          C: "Reg"
+          D: "Nicholas"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chef des Sauveurs qui dirige le poste avancé du satellite ?"
+    answers:
+      A: "Gavin"
+      B: "Simon"
+      C: "Regina"
+      D: "Dwight"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Savior leader who runs the satellite outpost?"
+        answers:
+          A: "Gavin"
+          B: "Simon"
+          C: "Regina"
+          D: "Dwight"
+    difficulty: EXPERT
+  - text: "Quel personnage de la saison 8 est tué par un walker dans les égouts ?"
+    answers:
+      A: "Eric"
+      B: "Scott"
+      C: "Bruce"
+      D: "Tobin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which season 8 character is killed by a walker in the sewers?"
+        answers:
+          A: "Eric"
+          B: "Scott"
+          C: "Bruce"
+          D: "Tobin"
+    difficulty: EXPERT
+  - text: "Quel est le nom de famille de Gareth, le leader des Terminus ?"
+    answers:
+      A: "Gareth Smith"
+      B: "Gareth n'a pas de nom de famille"
+      C: "Gareth Monroe"
+      D: "Il n'a pas de nom de famille révélé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the last name of Gareth, the leader of Terminus?"
+        answers:
+          A: "Gareth Smith"
+          B: "Gareth has no last name"
+          C: "Gareth Monroe"
+          D: "No last name is revealed"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'hôpital dirigé par Dawn Lerner dans la saison 5 ?"
+    answers:
+      A: "Hôpital Emory"
+      B: "Hôpital Atlanta General"
+      C: "Hôpital Peachtree"
+      D: "Hôpital Grady Memorial"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the hospital run by Dawn Lerner in season 5?"
+        answers:
+          A: "Emory Hospital"
+          B: "Atlanta General Hospital"
+          C: "Peachtree Hospital"
+          D: "Grady Memorial Hospital"
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par Rick à la fin de l'épisode 'The Day Will Come When You Won't Be' ?"
+    answers:
+      A: "Negan"
+      B: "Abraham"
+      C: "Glenn"
+      D: "Personne, Rick ne tue personne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is killed by Rick at the end of the episode 'The Day Will Come When You Won't Be'?"
+        answers:
+          A: "Negan"
+          B: "Abraham"
+          C: "Glenn"
+          D: "No one, Rick doesn't kill anyone"
+    difficulty: HARD
+  - text: "Qui est le leader des Wolves ?"
+    answers:
+      A: "Owen"
+      B: "Wade"
+      C: "Le chef des Wolves n'est pas nommé"
+      D: "Gareth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the leader of the Wolves?"
+        answers:
+          A: "Owen"
+          B: "Wade"
+          C: "The leader of the Wolves is not named"
+          D: "Gareth"
+    difficulty: EXPERT
+  - text: "Dans quel épisode de la saison 4 le Gouverneur attaque-t-il la prison ?"
+    answers:
+      A: "Épisode 6"
+      B: "Épisode 7"
+      C: "Épisode 8"
+      D: "Épisode 9"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which season 4 episode does the Governor attack the prison?"
+        answers:
+          A: "Episode 6"
+          B: "Episode 7"
+          C: "Episode 8"
+          D: "Episode 9"
+    difficulty: EXPERT
+  - text: "Quel personnage dit la réplique : 'C'est comme ça que ça se termine, pas avec un coup d'éclat, mais avec un gémissement' ?"
+    answers:
+      A: "Rick Grimes"
+      B: "Hershel Greene"
+      C: "Morgan Jones"
+      D: "Dale Horvath"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character says the line: 'This is the way the world ends, not with a bang, but with a whimper'?"
+        answers:
+          A: "Rick Grimes"
+          B: "Hershel Greene"
+          C: "Morgan Jones"
+          D: "Dale Horvath"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la femme d'Otis, le tireur qui blesse accidentellement Carl ?"
+    answers:
+      A: "Maggie"
+      B: "Beth"
+      C: "Lori"
+      D: "Patricia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the wife of Otis, the shooter who accidentally wounds Carl?"
+        answers:
+          A: "Maggie"
+          B: "Beth"
+          C: "Lori"
+          D: "Patricia"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Sasha et Tyreese ?"
+    answers:
+      A: "Marcus"
+      B: "Paul"
+      C: "Sasha et Tyreese n'ont pas de frère"
+      D: "Daniel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Sasha and Tyreese's brother?"
+        answers:
+          A: "Marcus"
+          B: "Paul"
+          C: "Sasha and Tyreese have no brother"
+          D: "Daniel"
+    difficulty: HARD
+  - text: "Quel personnage est mordu à l'épaule dans le premier épisode de la saison 5 ?"
+    answers:
+      A: "Bob Stookey"
+      B: "Tyreese"
+      C: "Glenn"
+      D: "Rick"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is bitten on the shoulder in the first episode of season 5?"
+        answers:
+          A: "Bob Stookey"
+          B: "Tyreese"
+          C: "Glenn"
+          D: "Rick"
+    difficulty: EXPERT
+  - text: "Quel est le nom du leader des Hilltop avant Jesus ?"
+    answers:
+      A: "Gregory"
+      B: "Ezekiel"
+      C: "Richard"
+      D: "Alden"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the leader of the Hilltop before Jesus?"
+        answers:
+          A: "Gregory"
+          B: "Ezekiel"
+          C: "Richard"
+          D: "Alden"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la mère de Maggie et Beth ?"
+    answers:
+      A: "Josephine"
+      B: "Patricia"
+      C: "Annette"
+      D: "Lori"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Maggie and Beth's mother?"
+        answers:
+          A: "Josephine"
+          B: "Patricia"
+          C: "Annette"
+          D: "Lori"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe de survivants qui vit dans une décharge et collecte des objets ?"
+    answers:
+      A: "Les Wolves"
+      B: "Les Scavengers"
+      C: "Les Terminus"
+      D: "Les Grady"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the group of survivors who live in a junkyard and collect items?"
+        answers:
+          A: "The Wolves"
+          B: "The Scavengers"
+          C: "The Terminus"
+          D: "The Grady"
+    difficulty: HARD
+  - text: "Quel personnage tue Alpha dans la saison 9 ?"
+    answers:
+      A: "Daryl"
+      B: "Carol"
+      C: "Negan"
+      D: "Michonne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character kills Alpha in season 9?"
+        answers:
+          A: "Daryl"
+          B: "Carol"
+          C: "Negan"
+          D: "Michonne"
+    difficulty: HARD
+  - text: "Quel est le nom du fils de Rick et Michonne ?"
+    answers:
+      A: "Carl"
+      B: "Judith"
+      C: "RJ"
+      D: "Hershel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Rick and Michonne's son?"
+        answers:
+          A: "Carl"
+          B: "Judith"
+          C: "RJ"
+          D: "Hershel"
+    difficulty: MEDIUM
+  - text: "Quel personnage est mordu par un walker dans l'épisode 'Thank You' de la saison 6 ?"
+    answers:
+      A: "Nicholas"
+      B: "Glenn"
+      C: "Heath"
+      D: "Scott"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is bitten by a walker in the season 6 episode 'Thank You'?"
+        answers:
+          A: "Nicholas"
+          B: "Glenn"
+          C: "Heath"
+          D: "Scott"
+    difficulty: EXPERT
+  - text: "Quel est le nom du cheval que Rosita trouve dans la saison 10 ?"
+    answers:
+      A: "Coco"
+      B: "Buttercup"
+      C: "Negan"
+      D: "Daryl"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the horse Rosita finds in season 10?"
+        answers:
+          A: "Coco"
+          B: "Buttercup"
+          C: "Negan"
+          D: "Daryl"
+    difficulty: EXPERT

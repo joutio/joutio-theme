@@ -1,0 +1,1626 @@
+topic:
+  id: topic-annees-90
+  names:
+    fr: "Années 90"
+    en: "The 90s"
+  description: "Plongez dans la culture populaire des années 1990, en France et dans le monde : les tubes dance et les boys bands, le rap français, le grunge, les séries cultes comme Friends ou X-Files, les dessins animés Dragon Ball et Pokémon, et les grands films de l'époque comme Titanic, Matrix ou Le Roi Lion. Un voyage nostalgique à travers une décennie riche en hits, en héros et en souvenirs inoubliables."
+  category: ENTERTAINMENT
+  titles:
+    fr:
+      FER: "Fan de la première heure"
+      BRONZE: "Collectionneur de Pogs"
+      ARGENT: "Accro au Walkman"
+      OR: "Roi du Dancefloor"
+      PLATINE: "Historien du Grunge"
+      EMERAUDE: "Gardien du Temple 90's"
+      DIAMANT: "Légende du Siècle"
+    en:
+      FER: "Fresh Prince Rookie"
+      BRONZE: "Pog Master"
+      ARGENT: "Walkman Wizard"
+      OR: "Dancefloor King"
+      PLATINE: "Grunge Guru"
+      EMERAUDE: "Guardian of the 90s"
+      DIAMANT: "Legend of the Decade"
+  imageUrl: wikipedia/entertainment/Sony_WM-B52_Sports_Walkman_cassette_Player_(51879107619).jpg
+questions:
+  - text: "Quel groupe a sorti l'album \"(What's the Story) Morning Glory?\" en 1995 ?"
+    answers:
+      A: "Blur"
+      B: "Pulp"
+      C: "Oasis"
+      D: "Suede"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which band released the album \"(What's the Story) Morning Glory?\" in 1995?"
+        answers:
+          A: "Blur"
+          B: "Pulp"
+          C: "Oasis"
+          D: "Suede"
+    difficulty: HARD
+  - text: "Qui a réalisé le film \"Pulp Fiction\" sorti en 1994 ?"
+    answers:
+      A: "Martin Scorsese"
+      B: "Joel Coen"
+      C: "David Fincher"
+      D: "Quentin Tarantino"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who directed the film \"Pulp Fiction\" released in 1994?"
+        answers:
+          A: "Martin Scorsese"
+          B: "Joel Coen"
+          C: "David Fincher"
+          D: "Quentin Tarantino"
+    difficulty: EASY
+  - text: "Quel boys band français a sorti le titre \"Même pas cap\" en 1997 ?"
+    answers:
+      A: "2Be3"
+      B: "G-Squad"
+      C: "Worlds Apart"
+      D: "Alliage"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French boy band released the song \"Même pas cap\" in 1997?"
+        answers:
+          A: "2Be3"
+          B: "G-Squad"
+          C: "Worlds Apart"
+          D: "Alliage"
+    difficulty: EXPERT
+  - text: "Quel rappeur français a sorti l'album \"Qui sème le vent récolte le tempo\" en 1991 ?"
+    answers:
+      A: "NTM"
+      B: "IAM"
+      C: "MC Solaar"
+      D: "Ministère A.M.E.R."
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French rapper released the album \"Qui sème le vent récolte le tempo\" in 1991?"
+        answers:
+          A: "NTM"
+          B: "IAM"
+          C: "MC Solaar"
+          D: "Ministère A.M.E.R."
+    difficulty: HARD
+  - text: "Dans la série \"X-Files\", quel est le prénom de l'agent Dana Scully ?"
+    answers:
+      A: "Donna"
+      B: "Diana"
+      C: "Dana"
+      D: "Danaé"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the series \"X-Files\", what is the first name of Agent Dana Scully?"
+        answers:
+          A: "Donna"
+          B: "Diana"
+          C: "Dana"
+          D: "Danaé"
+    difficulty: EASY
+  - text: "Quel est le nom du café où travaillent les personnages de \"Friends\" ?"
+    answers:
+      A: "Central Perk"
+      B: "Central Park"
+      C: "Coffee Bean"
+      D: "The Grind"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the coffee shop where the characters of \"Friends\" work?"
+        answers:
+          A: "Central Perk"
+          B: "Central Park"
+          C: "Coffee Bean"
+          D: "The Grind"
+    difficulty: MEDIUM
+  - text: "Quel chanteur interprète \"Gangsta's Paradise\" en 1995 ?"
+    answers:
+      A: "Dr. Dre"
+      B: "Snoop Dogg"
+      C: "Tupac Shakur"
+      D: "Coolio"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which singer performed \"Gangsta's Paradise\" in 1995?"
+        answers:
+          A: "Dr. Dre"
+          B: "Snoop Dogg"
+          C: "Tupac Shakur"
+          D: "Coolio"
+    difficulty: MEDIUM
+  - text: "En quelle année la série \"Hélène et les Garçons\" a-t-elle été diffusée pour la première fois en France ?"
+    answers:
+      A: "1990"
+      B: "1991"
+      C: "1993"
+      D: "1992"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the series \"Hélène et les Garçons\" first broadcast in France?"
+        answers:
+          A: "1990"
+          B: "1991"
+          C: "1993"
+          D: "1992"
+    difficulty: EXPERT
+  - text: "Quel est le nom du groupe de rock français qui a sorti l'album \"San Francisco\" en 1994 ?"
+    answers:
+      A: "Louise Attaque"
+      B: "Noir Désir"
+      C: "Mano Negra"
+      D: "Téléphone"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the French rock band that released the album \"San Francisco\" in 1994?"
+        answers:
+          A: "Louise Attaque"
+          B: "Noir Désir"
+          C: "Mano Negra"
+          D: "Téléphone"
+    difficulty: EXPERT
+  - text: "Dans \"Dragon Ball Z\", quel est le nom du frère de Goku ?"
+    answers:
+      A: "Bardock"
+      B: "Vegeta"
+      C: "Nappa"
+      D: "Raditz"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Dragon Ball Z\", what is the name of Goku's brother?"
+        answers:
+          A: "Bardock"
+          B: "Vegeta"
+          C: "Nappa"
+          D: "Raditz"
+    difficulty: HARD
+  - text: "Quel acteur incarne le personnage de Jack Traven dans le film \"Speed\" (1994) ?"
+    answers:
+      A: "Tom Cruise"
+      B: "Keanu Reeves"
+      C: "Brad Pitt"
+      D: "Nicolas Cage"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays the character Jack Traven in the film \"Speed\" (1994)?"
+        answers:
+          A: "Tom Cruise"
+          B: "Keanu Reeves"
+          C: "Brad Pitt"
+          D: "Nicolas Cage"
+    difficulty: HARD
+  - text: "Combien de Pokémon étaient disponibles dans les versions Rouge et Bleue à leur sortie en France ?"
+    answers:
+      A: "150"
+      B: "151"
+      C: "152"
+      D: "149"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many Pokémon were available in the Red and Blue versions at their release in France?"
+        answers:
+          A: "150"
+          B: "151"
+          C: "152"
+          D: "149"
+    difficulty: EXPERT
+  - text: "Qui a réalisé le film \"Le Cinquième Élément\" sorti en 1997 ?"
+    answers:
+      A: "Luc Besson"
+      B: "Jean-Pierre Jeunet"
+      C: "Ridley Scott"
+      D: "James Cameron"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed the film \"The Fifth Element\" released in 1997?"
+        answers:
+          A: "Luc Besson"
+          B: "Jean-Pierre Jeunet"
+          C: "Ridley Scott"
+          D: "James Cameron"
+    difficulty: MEDIUM
+  - text: "Quel groupe a sorti le titre \"Barbie Girl\" en 1997 ?"
+    answers:
+      A: "S Club 7"
+      B: "Vengaboys"
+      C: "Eiffel 65"
+      D: "Aqua"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which group released the song \"Barbie Girl\" in 1997?"
+        answers:
+          A: "S Club 7"
+          B: "Vengaboys"
+          C: "Eiffel 65"
+          D: "Aqua"
+    difficulty: EASY
+  - text: "Dans \"Les Chevaliers du Zodiaque\", quel chevalier d'or porte l'armure du Lion ?"
+    answers:
+      A: "Shaka"
+      B: "Aldébaran"
+      C: "Aiolia"
+      D: "Camus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In \"Saint Seiya\", which Gold Saint wears the Leo armor?"
+        answers:
+          A: "Shaka"
+          B: "Aldebaran"
+          C: "Aiolia"
+          D: "Camus"
+    difficulty: EXPERT
+  - text: "Quel film d'animation Disney est sorti en 1998 ?"
+    answers:
+      A: "Mulan"
+      B: "Tarzan"
+      C: "Hercule"
+      D: "Le Roi Lion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Disney animated film was released in 1998?"
+        answers:
+          A: "Mulan"
+          B: "Tarzan"
+          C: "Hercules"
+          D: "The Lion King"
+    difficulty: HARD
+  - text: "Quel est le vrai nom de la chanteuse britannique qui interprète \"Nothing Compares 2 U\" en 1990 ?"
+    answers:
+      A: "Sinéad O'Connor"
+      B: "Dolores O'Riordan"
+      C: "Annie Lennox"
+      D: "Björk"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the real name of the British singer who performed \"Nothing Compares 2 U\" in 1990?"
+        answers:
+          A: "Sinéad O'Connor"
+          B: "Dolores O'Riordan"
+          C: "Annie Lennox"
+          D: "Björk"
+    difficulty: HARD
+  - text: "Quel acteur incarne le personnage de Vincent Vega dans \"Pulp Fiction\" ?"
+    answers:
+      A: "Bruce Willis"
+      B: "Samuel L. Jackson"
+      C: "John Travolta"
+      D: "Tim Roth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays the character Vincent Vega in \"Pulp Fiction\"?"
+        answers:
+          A: "Bruce Willis"
+          B: "Samuel L. Jackson"
+          C: "John Travolta"
+          D: "Tim Roth"
+    difficulty: MEDIUM
+  - text: "Quel groupe de rap français a sorti l'album \"L'École du micro d'argent\" en 1997 ?"
+    answers:
+      A: "IAM"
+      B: "NTM"
+      C: "Sniper"
+      D: "113"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French rap group released the album \"L'École du micro d'argent\" in 1997?"
+        answers:
+          A: "IAM"
+          B: "NTM"
+          C: "Sniper"
+          D: "113"
+    difficulty: HARD
+  - text: "Dans le film \"Titanic\", quel est le nom du bateau qui vient secourir les survivants ?"
+    answers:
+      A: "Le Californian"
+      B: "Le Carpathia"
+      C: "Le Britannic"
+      D: "L'Olympic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the film \"Titanic\", what is the name of the ship that comes to rescue the survivors?"
+        answers:
+          A: "The Californian"
+          B: "The Carpathia"
+          C: "The Britannic"
+          D: "The Olympic"
+    difficulty: EXPERT
+  - text: "Quel film français a remporté la Palme d'or à Cannes en 1993 ?"
+    answers:
+      A: "Les Nuits fauves"
+      B: "La Leçon de piano"
+      C: "Adieu ma concubine"
+      D: "Indochine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French film won the Palme d'Or at Cannes in 1993?"
+        answers:
+          A: "Les Nuits fauves"
+          B: "The Piano"
+          C: "Farewell My Concubine"
+          D: "Indochine"
+    difficulty: EXPERT
+  - text: "Quel réalisateur a dirigé le film \"Basic Instinct\" en 1992 ?"
+    answers:
+      A: "Michael Douglas"
+      B: "Adrian Lyne"
+      C: "Paul Verhoeven"
+      D: "David Fincher"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which director directed the film \"Basic Instinct\" in 1992?"
+        answers:
+          A: "Michael Douglas"
+          B: "Adrian Lyne"
+          C: "Paul Verhoeven"
+          D: "David Fincher"
+    difficulty: HARD
+  - text: "Quel groupe a sorti l'album \"Definitely Maybe\" en 1994 ?"
+    answers:
+      A: "Blur"
+      B: "The Verve"
+      C: "Pulp"
+      D: "Oasis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which band released the album \"Definitely Maybe\" in 1994?"
+        answers:
+          A: "Blur"
+          B: "The Verve"
+          C: "Pulp"
+          D: "Oasis"
+    difficulty: HARD
+  - text: "Quelle chanteuse a sorti l'album \"Ray of Light\" en 1998 ?"
+    answers:
+      A: "Madonna"
+      B: "Whitney Houston"
+      C: "Cher"
+      D: "Janet Jackson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which singer released the album \"Ray of Light\" in 1998?"
+        answers:
+          A: "Madonna"
+          B: "Whitney Houston"
+          C: "Cher"
+          D: "Janet Jackson"
+    difficulty: HARD
+  - text: "Combien d'épisodes compte la première saison de la série \"Friends\" ?"
+    answers:
+      A: "24"
+      B: "22"
+      C: "26"
+      D: "18"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many episodes are in the first season of the series \"Friends\"?"
+        answers:
+          A: "24"
+          B: "22"
+          C: "26"
+          D: "18"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Jack Torrance dans le film \"Shining\" de 1980 ?"
+    answers:
+      A: "Al Pacino"
+      B: "Robert De Niro"
+      C: "Jack Nicholson"
+      D: "Dustin Hoffman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Jack Torrance in the 1980 film \"The Shining\"?"
+        answers:
+          A: "Al Pacino"
+          B: "Robert De Niro"
+          C: "Jack Nicholson"
+          D: "Dustin Hoffman"
+    difficulty: EASY
+  - text: "Quel rappeur français a sorti le titre \"Je danse le Mia\" en 1993 ?"
+    answers:
+      A: "Suprême NTM"
+      B: "Ärsenik"
+      C: "MC Solaar"
+      D: "IAM"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French rapper released the track \"Je danse le Mia\" in 1993?"
+        answers:
+          A: "Suprême NTM"
+          B: "Ärsenik"
+          C: "MC Solaar"
+          D: "IAM"
+    difficulty: EXPERT
+  - text: "Quel est le nom du groupe de rock américain qui a sorti \"Black Hole Sun\" en 1994 ?"
+    answers:
+      A: "Soundgarden"
+      B: "Pearl Jam"
+      C: "Alice in Chains"
+      D: "Stone Temple Pilots"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the American rock band that released \"Black Hole Sun\" in 1994?"
+        answers:
+          A: "Soundgarden"
+          B: "Pearl Jam"
+          C: "Alice in Chains"
+          D: "Stone Temple Pilots"
+    difficulty: HARD
+  - text: "Dans la série \"X-Files\", quel est le nom de l'agent Fox Mulder ?"
+    answers:
+      A: "David"
+      B: "Fox"
+      C: "William"
+      D: "John"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the series \"X-Files\", what is the name of Agent Fox Mulder?"
+        answers:
+          A: "David"
+          B: "Fox"
+          C: "William"
+          D: "John"
+    difficulty: EASY
+  - text: "Quel film de Steven Spielberg est sorti en 1993 et a remporté 7 Oscars ?"
+    answers:
+      A: "Jurassic Park"
+      B: "Hook"
+      C: "Schindler's List"
+      D: "Always"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Steven Spielberg film was released in 1993 and won 7 Oscars?"
+        answers:
+          A: "Jurassic Park"
+          B: "Hook"
+          C: "Schindler's List"
+          D: "Always"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne le personnage de Keanu Reeves dans le film \"Point Break\" (1991) ?"
+    answers:
+      A: "Lori Petty"
+      B: "Gary Busey"
+      C: "Patrick Swayze"
+      D: "John C. McGinley"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays the character of Keanu Reeves in the film \"Point Break\" (1991)?"
+        answers:
+          A: "Lori Petty"
+          B: "Gary Busey"
+          C: "Patrick Swayze"
+          D: "John C. McGinley"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier album studio de Nirvana sorti en 1989 ?"
+    answers:
+      A: "Bleach"
+      B: "In Utero"
+      C: "Nevermind"
+      D: "Incesticide"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Nirvana's first studio album released in 1989?"
+        answers:
+          A: "Bleach"
+          B: "In Utero"
+          C: "Nevermind"
+          D: "Incesticide"
+    difficulty: EXPERT
+  - text: "Dans \"Dragon Ball Z\", quel est le nom du personnage qui fusionne avec Goku pour former Gogeta ?"
+    answers:
+      A: "Piccolo"
+      B: "Gohan"
+      C: "Trunks"
+      D: "Vegeta"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Dragon Ball Z\", what is the name of the character who fuses with Goku to form Gogeta?"
+        answers:
+          A: "Piccolo"
+          B: "Gohan"
+          C: "Trunks"
+          D: "Vegeta"
+    difficulty: EXPERT
+  - text: "Quel réalisateur a dirigé \"Le Cinquième Élément\" en 1997 ?"
+    answers:
+      A: "Luc Besson"
+      B: "Jean-Pierre Jeunet"
+      C: "Ridley Scott"
+      D: "James Cameron"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which director directed \"The Fifth Element\" in 1997?"
+        answers:
+          A: "Luc Besson"
+          B: "Jean-Pierre Jeunet"
+          C: "Ridley Scott"
+          D: "James Cameron"
+    difficulty: MEDIUM
+  - text: "Quel groupe a sorti l'album \"The Downward Spiral\" en 1994 ?"
+    answers:
+      A: "Ministry"
+      B: "Nine Inch Nails"
+      C: "KMFDM"
+      D: "Skinny Puppy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which band released the album \"The Downward Spiral\" in 1994?"
+        answers:
+          A: "Ministry"
+          B: "Nine Inch Nails"
+          C: "KMFDM"
+          D: "Skinny Puppy"
+    difficulty: EXPERT
+  - text: "Quelle actrice incarne le personnage de Trinity dans \"Matrix\" ?"
+    answers:
+      A: "Hugo Weaving"
+      B: "Laurence Fishburne"
+      C: "Carrie-Anne Moss"
+      D: "Keanu Reeves"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays the character of Trinity in \"The Matrix\"?"
+        answers:
+          A: "Hugo Weaving"
+          B: "Laurence Fishburne"
+          C: "Carrie-Anne Moss"
+          D: "Keanu Reeves"
+    difficulty: EASY
+  - text: "Quel est le nom du groupe de rap français qui a sorti l'album \"L'École du micro d'argent\" en 1997 ?"
+    answers:
+      A: "IAM"
+      B: "NTM"
+      C: "Sniper"
+      D: "113"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the French rap group that released the album \"L'École du micro d'argent\" in 1997?"
+        answers:
+          A: "IAM"
+          B: "NTM"
+          C: "Sniper"
+          D: "113"
+    difficulty: HARD
+  - text: "Quel film d'animation Disney est sorti en 1995 ?"
+    answers:
+      A: "Pocahontas"
+      B: "Toy Story"
+      C: "Le Roi Lion"
+      D: "Hercules"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Disney animated film was released in 1995?"
+        answers:
+          A: "Pocahontas"
+          B: "Toy Story"
+          C: "The Lion King"
+          D: "Hercules"
+    difficulty: HARD
+  - text: "Quel chanteur interprète le titre \"Candle in the Wind 1997\" ?"
+    answers:
+      A: "Phil Collins"
+      B: "George Michael"
+      C: "Elton John"
+      D: "Sting"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which singer performs the song \"Candle in the Wind 1997\"?"
+        answers:
+          A: "Phil Collins"
+          B: "George Michael"
+          C: "Elton John"
+          D: "Sting"
+    difficulty: HARD
+  - text: "Quel rappeur français a sorti l'album \"Paris sous les bombes\" en 1995 ?"
+    answers:
+      A: "NTM"
+      B: "IAM"
+      C: "Ministère AMER"
+      D: "Assassin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French rapper released the album \"Paris sous les bombes\" in 1995?"
+        answers:
+          A: "NTM"
+          B: "IAM"
+          C: "Ministère AMER"
+          D: "Assassin"
+    difficulty: EXPERT
+  - text: "Quel groupe de rock a sorti l'album \"OK Computer\" en 1997 ?"
+    answers:
+      A: "Radiohead"
+      B: "Oasis"
+      C: "Blur"
+      D: "Pulp"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which rock band released the album \"OK Computer\" in 1997?"
+        answers:
+          A: "Radiohead"
+          B: "Oasis"
+          C: "Blur"
+          D: "Pulp"
+    difficulty: HARD
+  - text: "Dans la série \"Le Prince de Bel-Air\", quel est le nom du majordome ?"
+    answers:
+      A: "Geoffrey"
+      B: "Philip"
+      C: "Carlton"
+      D: "Jazz"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the series \"The Fresh Prince of Bel-Air\", what is the butler's name?"
+        answers:
+          A: "Geoffrey"
+          B: "Philip"
+          C: "Carlton"
+          D: "Jazz"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti le film \"Jurassic Park\" ?"
+    answers:
+      A: "1994"
+      B: "1992"
+      C: "1993"
+      D: "1995"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the film \"Jurassic Park\" released?"
+        answers:
+          A: "1994"
+          B: "1992"
+          C: "1993"
+          D: "1995"
+    difficulty: EASY
+  - text: "Dans \"Dragon Ball Z\", quel est le nom du fils de Goku et Chi-Chi ?"
+    answers:
+      A: "Goten"
+      B: "Gohan"
+      C: "Trunks"
+      D: "Vegeta"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"Dragon Ball Z\", what is the name of Goku and Chi-Chi's son?"
+        answers:
+          A: "Goten"
+          B: "Gohan"
+          C: "Trunks"
+          D: "Vegeta"
+    difficulty: HARD
+  - text: "Quel acteur incarne le personnage de Morpheus dans \"Matrix\" ?"
+    answers:
+      A: "Hugo Weaving"
+      B: "Laurence Fishburne"
+      C: "Joe Pantoliano"
+      D: "Keanu Reeves"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays the character of Morpheus in \"The Matrix\"?"
+        answers:
+          A: "Hugo Weaving"
+          B: "Laurence Fishburne"
+          C: "Joe Pantoliano"
+          D: "Keanu Reeves"
+    difficulty: MEDIUM
+  - text: "Quel boys band français avait pour membre Lionel Florence ?"
+    answers:
+      A: "Worlds Apart"
+      B: "2Be3"
+      C: "G-Squad"
+      D: "Poetic Lover"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French boy band had Lionel Florence as a member?"
+        answers:
+          A: "Worlds Apart"
+          B: "2Be3"
+          C: "G-Squad"
+          D: "Poetic Lover"
+    difficulty: EXPERT
+  - text: "Quel est le nom du groupe de rock qui a sorti \"Song 2\" en 1997 ?"
+    answers:
+      A: "Oasis"
+      B: "Blur"
+      C: "Pulp"
+      D: "Suede"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the rock band that released \"Song 2\" in 1997?"
+        answers:
+          A: "Oasis"
+          B: "Blur"
+          C: "Pulp"
+          D: "Suede"
+    difficulty: HARD
+  - text: "Dans \"X-Files\", comment s'appelle le chef de la section des affaires non classées ?"
+    answers:
+      A: "Walter Skinner"
+      B: "Cigarette Smoking Man"
+      C: "Alex Krycek"
+      D: "John Doggett"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"X-Files\", what is the name of the head of the X-Files unit?"
+        answers:
+          A: "Walter Skinner"
+          B: "Cigarette Smoking Man"
+          C: "Alex Krycek"
+          D: "John Doggett"
+    difficulty: EXPERT
+  - text: "Quel film a remporté l'Oscar du meilleur film en 1998 ?"
+    answers:
+      A: "L.A. Confidential"
+      B: "Good Will Hunting"
+      C: "Titanic"
+      D: "As Good as It Gets"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which film won the Oscar for Best Picture in 1998?"
+        answers:
+          A: "L.A. Confidential"
+          B: "Good Will Hunting"
+          C: "Titanic"
+          D: "As Good as It Gets"
+    difficulty: EXPERT
+  - text: "Quel rappeur français a sorti l'album \"Le combat continue\" en 1998 ?"
+    answers:
+      A: "Ärsenik"
+      B: "Ideal J"
+      C: "113"
+      D: "Sniper"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French rapper released the album \"Le combat continue\" in 1998?"
+        answers:
+          A: "Ärsenik"
+          B: "Ideal J"
+          C: "113"
+          D: "Sniper"
+    difficulty: EXPERT
+  - text: "Quel groupe a sorti l'album \"Dookie\" en 1994 ?"
+    answers:
+      A: "The Offspring"
+      B: "Green Day"
+      C: "Rancid"
+      D: "Blink-182"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which band released the album \"Dookie\" in 1994?"
+        answers:
+          A: "The Offspring"
+          B: "Green Day"
+          C: "Rancid"
+          D: "Blink-182"
+    difficulty: HARD
+  - text: "Dans \"Friends\", quel est le métier de Ross Geller ?"
+    answers:
+      A: "Professeur de musique"
+      B: "Chef cuisinier"
+      C: "Acteur"
+      D: "Paléontologue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Friends\", what is Ross Geller's job?"
+        answers:
+          A: "Music teacher"
+          B: "Chef"
+          C: "Actor"
+          D: "Paleontologist"
+    difficulty: MEDIUM
+  - text: "Quel chanteur interprète le titre \"I Will Always Love You\" en 1992 ?"
+    answers:
+      A: "Mariah Carey"
+      B: "Whitney Houston"
+      C: "Céline Dion"
+      D: "Toni Braxton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which singer performed the song \"I Will Always Love You\" in 1992?"
+        answers:
+          A: "Mariah Carey"
+          B: "Whitney Houston"
+          C: "Céline Dion"
+          D: "Toni Braxton"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du groupe de rap français qui a sorti \"Nique la police\" en 1995 ?"
+    answers:
+      A: "Ministère AMER"
+      B: "NTM"
+      C: "Assassin"
+      D: "La Rumeur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the French rap group that released \"Nique la police\" in 1995?"
+        answers:
+          A: "Ministère AMER"
+          B: "NTM"
+          C: "Assassin"
+          D: "La Rumeur"
+    difficulty: EXPERT
+  - text: "Dans \"Dragon Ball Z\", quel personnage est le prince des Saiyans ?"
+    answers:
+      A: "Trunks"
+      B: "Goku"
+      C: "Piccolo"
+      D: "Vegeta"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Dragon Ball Z\", which character is the prince of the Saiyans?"
+        answers:
+          A: "Trunks"
+          B: "Goku"
+          C: "Piccolo"
+          D: "Vegeta"
+    difficulty: EASY
+  - text: "Quel film de science-fiction est sorti en 1999 et met en scène un homme qui découvre que sa réalité est une simulation ?"
+    answers:
+      A: "The Truman Show"
+      B: "eXistenZ"
+      C: "Dark City"
+      D: "Matrix"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which science fiction film was released in 1999 and features a man who discovers his reality is a simulation?"
+        answers:
+          A: "The Truman Show"
+          B: "eXistenZ"
+          C: "Dark City"
+          D: "The Matrix"
+    difficulty: MEDIUM
+  - text: "Quel groupe a sorti l'album \"The Miseducation of Lauryn Hill\" en 1998 ?"
+    answers:
+      A: "The Fugees"
+      B: "Lauryn Hill en solo"
+      C: "Black Eyed Peas"
+      D: "Destiny's Child"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which group released the album \"The Miseducation of Lauryn Hill\" in 1998?"
+        answers:
+          A: "The Fugees"
+          B: "Lauryn Hill solo"
+          C: "Black Eyed Peas"
+          D: "Destiny's Child"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le personnage de John McClane dans \"Piège de cristal\" ?"
+    answers:
+      A: "Arnold Schwarzenegger"
+      B: "Bruce Willis"
+      C: "Sylvester Stallone"
+      D: "Mel Gibson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays the character John McClane in \"Die Hard\"?"
+        answers:
+          A: "Arnold Schwarzenegger"
+          B: "Bruce Willis"
+          C: "Sylvester Stallone"
+          D: "Mel Gibson"
+    difficulty: MEDIUM
+  - text: "Dans \"Pokémon\", quel est le nom du Pokémon de type Électrik qui est l'emblème de la série ?"
+    answers:
+      A: "Pikachu"
+      B: "Raichu"
+      C: "Voltali"
+      D: "Élektek"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"Pokémon\", what is the name of the Electric-type Pokémon that is the emblem of the series?"
+        answers:
+          A: "Pikachu"
+          B: "Raichu"
+          C: "Jolteon"
+          D: "Electabuzz"
+    difficulty: EASY
+  - text: "En 1997, quel film a remporté l'Oscar du meilleur film ?"
+    answers:
+      A: "Fargo"
+      B: "Le Patient anglais"
+      C: "Jerry Maguire"
+      D: "Shine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 1997, which film won the Oscar for Best Picture?"
+        answers:
+          A: "Fargo"
+          B: "The English Patient"
+          C: "Jerry Maguire"
+          D: "Shine"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe de rap français originaire de Toulouse qui a sorti l'album \"Qu'est-ce qui fait tourner le monde ?\" en 1997 ?"
+    answers:
+      A: "Iam"
+      B: "Ntm"
+      C: "Fonky Family"
+      D: "Psy 4 De La Rime"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the French rap group from Toulouse that released the album \"Qu'est-ce qui fait tourner le monde ?\" in 1997?"
+        answers:
+          A: "Iam"
+          B: "Ntm"
+          C: "Fonky Family"
+          D: "Psy 4 De La Rime"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti le film \"Le Cinquième Élément\" ?"
+    answers:
+      A: "1995"
+      B: "1997"
+      C: "1996"
+      D: "1998"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the film \"The Fifth Element\" released?"
+        answers:
+          A: "1995"
+          B: "1997"
+          C: "1996"
+          D: "1998"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du boys band français qui a sorti le titre \"Le Feu qui m'attise\" en 1997 ?"
+    answers:
+      A: "2Be3"
+      B: "Alliage"
+      C: "G-Squad"
+      D: "Worlds Apart"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the French boy band that released the song \"Le Feu qui m'attise\" in 1997?"
+        answers:
+          A: "2Be3"
+          B: "Alliage"
+          C: "G-Squad"
+          D: "Worlds Apart"
+    difficulty: EXPERT
+  - text: "Dans la série \"X-Files\", quel est le nom du directeur adjoint du FBI qui supervise Mulder et Scully ?"
+    answers:
+      A: "Scott Blevins"
+      B: "John Doggett"
+      C: "Alvin Kersh"
+      D: "Walter Skinner"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the series \"X-Files\", what is the name of the FBI assistant director who supervises Mulder and Scully?"
+        answers:
+          A: "Scott Blevins"
+          B: "John Doggett"
+          C: "Alvin Kersh"
+          D: "Walter Skinner"
+    difficulty: HARD
+  - text: "Quel groupe de rock a sorti l'album \"Californication\" en 1999 ?"
+    answers:
+      A: "Foo Fighters"
+      B: "Green Day"
+      C: "Rage Against the Machine"
+      D: "Red Hot Chili Peppers"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rock band released the album \"Californication\" in 1999?"
+        answers:
+          A: "Foo Fighters"
+          B: "Green Day"
+          C: "Rage Against the Machine"
+          D: "Red Hot Chili Peppers"
+    difficulty: MEDIUM
+  - text: "Dans le film \"Matrix\", quel est le nom du personnage incarné par Laurence Fishburne ?"
+    answers:
+      A: "Morpheus"
+      B: "Agent Smith"
+      C: "Le Créateur"
+      D: "Cypher"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the film \"Matrix\", what is the name of the character played by Laurence Fishburne?"
+        answers:
+          A: "Morpheus"
+          B: "Agent Smith"
+          C: "The Creator"
+          D: "Cypher"
+    difficulty: MEDIUM
+  - text: "Quel rappeur français a sorti l'album \"Le Code de l'honneur\" en 1998 ?"
+    answers:
+      A: "Passi"
+      B: "Doc Gynéco"
+      C: "Stomy Bugsy"
+      D: "Ménélik"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French rapper released the album \"Le Code de l'honneur\" in 1998?"
+        answers:
+          A: "Passi"
+          B: "Doc Gynéco"
+          C: "Stomy Bugsy"
+          D: "Ménélik"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier long-métrage d'animation des studios DreamWorks, sorti en 1998 ?"
+    answers:
+      A: "Le Prince d'Égypte"
+      B: "Shrek"
+      C: "Fourmiz"
+      D: "Le Géant de fer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of DreamWorks Studios' first animated feature film, released in 1998?"
+        answers:
+          A: "The Prince of Egypt"
+          B: "Shrek"
+          C: "Antz"
+          D: "The Iron Giant"
+    difficulty: HARD
+  - text: "Quel acteur incarne le personnage de Jeff Lebowski dans \"The Big Lebowski\" ?"
+    answers:
+      A: "Jeff Bridges"
+      B: "Steve Buscemi"
+      C: "John Goodman"
+      D: "John Turturro"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays the character of Jeff Lebowski in \"The Big Lebowski\"?"
+        answers:
+          A: "Jeff Bridges"
+          B: "Steve Buscemi"
+          C: "John Goodman"
+          D: "John Turturro"
+    difficulty: HARD
+  - text: "Dans \"Dragon Ball Z\", quel est le nom du premier androïde que les Z Warriors affrontent lors de la saga des androïdes ?"
+    answers:
+      A: "C-17"
+      B: "C-20"
+      C: "C-19"
+      D: "C-18"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In \"Dragon Ball Z\", what is the name of the first android the Z Warriors face during the android saga?"
+        answers:
+          A: "C-17"
+          B: "C-20"
+          C: "C-19"
+          D: "C-18"
+    difficulty: EXPERT
+  - text: "Quel chanteur interprète le titre \"Believe\" en 1998 ?"
+    answers:
+      A: "Ricky Martin"
+      B: "Madonna"
+      C: "Cher"
+      D: "Whitney Houston"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which singer performed the song \"Believe\" in 1998?"
+        answers:
+          A: "Ricky Martin"
+          B: "Madonna"
+          C: "Cher"
+          D: "Whitney Houston"
+    difficulty: HARD
+  - text: "En quelle année est sorti le film \"Le Roi Lion\" ?"
+    answers:
+      A: "1992"
+      B: "1994"
+      C: "1993"
+      D: "1995"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the film \"The Lion King\" released?"
+        answers:
+          A: "1992"
+          B: "1994"
+          C: "1993"
+          D: "1995"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du groupe de rock britannique qui a sorti l'album \"Parklife\" en 1994 ?"
+    answers:
+      A: "Oasis"
+      B: "Pulp"
+      C: "Supergrass"
+      D: "Blur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the British rock band that released the album \"Parklife\" in 1994?"
+        answers:
+          A: "Oasis"
+          B: "Pulp"
+          C: "Supergrass"
+          D: "Blur"
+    difficulty: EXPERT
+  - text: "Dans la série \"Friends\", quel est le nom du singe de Ross ?"
+    answers:
+      A: "Chester"
+      B: "Milo"
+      C: "Bongo"
+      D: "Marcel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the series \"Friends\", what is the name of Ross's monkey?"
+        answers:
+          A: "Chester"
+          B: "Milo"
+          C: "Bongo"
+          D: "Marcel"
+    difficulty: HARD
+  - text: "Quel réalisateur a dirigé le film \"Le Silence des agneaux\" en 1991 ?"
+    answers:
+      A: "David Fincher"
+      B: "Jonathan Demme"
+      C: "Ridley Scott"
+      D: "Michael Mann"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which director directed the film \"The Silence of the Lambs\" in 1991?"
+        answers:
+          A: "David Fincher"
+          B: "Jonathan Demme"
+          C: "Ridley Scott"
+          D: "Michael Mann"
+    difficulty: HARD
+  - text: "Dans \"Pokémon\", quel est le nom du Pokémon de type Eau qui évolue en Staross ?"
+    answers:
+      A: "Poissirène"
+      B: "Tentacool"
+      C: "Stari"
+      D: "Magicarpe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In \"Pokémon\", what is the name of the Water-type Pokémon that evolves into Starmie?"
+        answers:
+          A: "Goldeen"
+          B: "Tentacool"
+          C: "Staryu"
+          D: "Magikarp"
+    difficulty: EXPERT
+  - text: "Quelle chanteuse a sorti l'album \"Jagged Little Pill\" en 1995 ?"
+    answers:
+      A: "Sheryl Crow"
+      B: "Fiona Apple"
+      C: "Jewel"
+      D: "Alanis Morissette"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which singer released the album \"Jagged Little Pill\" in 1995?"
+        answers:
+          A: "Sheryl Crow"
+          B: "Fiona Apple"
+          C: "Jewel"
+          D: "Alanis Morissette"
+    difficulty: HARD
+  - text: "Quel groupe de trip hop britannique a sorti l'album \"Dummy\" en 1994 ?"
+    answers:
+      A: "Massive Attack"
+      B: "Tricky"
+      C: "Portishead"
+      D: "Sneaker Pimps"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which British trip hop group released the album \"Dummy\" in 1994?"
+        answers:
+          A: "Massive Attack"
+          B: "Tricky"
+          C: "Portishead"
+          D: "Sneaker Pimps"
+    difficulty: EXPERT
+  - text: "En quelle année le film \"Pulp Fiction\" est-il sorti ?"
+    answers:
+      A: "1992"
+      B: "1993"
+      C: "1995"
+      D: "1994"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the film \"Pulp Fiction\" released?"
+        answers:
+          A: "1992"
+          B: "1993"
+          C: "1995"
+          D: "1994"
+    difficulty: MEDIUM
+  - text: "Quel rappeur américain a sorti l'album \"The Chronic\" en 1992 ?"
+    answers:
+      A: "Snoop Dogg"
+      B: "Ice Cube"
+      C: "2Pac"
+      D: "Dr. Dre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which American rapper released the album \"The Chronic\" in 1992?"
+        answers:
+          A: "Snoop Dogg"
+          B: "Ice Cube"
+          C: "2Pac"
+          D: "Dr. Dre"
+    difficulty: HARD
+  - text: "Dans la série \"Beverly Hills 90210\", quel est le nom du personnage principal masculin ?"
+    answers:
+      A: "Steve Sanders"
+      B: "Dylan McKay"
+      C: "Brandon Walsh"
+      D: "David Silver"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the series \"Beverly Hills 90210\", what is the name of the main male character?"
+        answers:
+          A: "Steve Sanders"
+          B: "Dylan McKay"
+          C: "Brandon Walsh"
+          D: "David Silver"
+    difficulty: HARD
+  - text: "Quel film de 1995 a remporté la Palme d'or à Cannes ?"
+    answers:
+      A: "Le Goût des autres"
+      B: "Pulp Fiction"
+      C: "Underground"
+      D: "La Haine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1995 film won the Palme d'Or at Cannes?"
+        answers:
+          A: "The Taste of Others"
+          B: "Pulp Fiction"
+          C: "Underground"
+          D: "La Haine"
+    difficulty: EXPERT
+  - text: "Quel groupe de rock a sorti l'album \"Definitely Maybe\" en 1994 ?"
+    answers:
+      A: "Oasis"
+      B: "Blur"
+      C: "Pulp"
+      D: "Supergrass"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which rock band released the album \"Definitely Maybe\" in 1994?"
+        answers:
+          A: "Oasis"
+          B: "Blur"
+          C: "Pulp"
+          D: "Supergrass"
+    difficulty: HARD
+  - text: "Dans \"Le Roi Lion\", qui double Scar en version française ?"
+    answers:
+      A: "Jean Reno"
+      B: "Gérard Depardieu"
+      C: "Richard Bohringer"
+      D: "Michel Leeb"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"The Lion King\", who voices Scar in the French version?"
+        answers:
+          A: "Jean Reno"
+          B: "Gérard Depardieu"
+          C: "Richard Bohringer"
+          D: "Michel Leeb"
+    difficulty: EXPERT
+  - text: "Quel film de 1999 a été réalisé par les frères Wachowski ?"
+    answers:
+      A: "eXistenZ"
+      B: "The Thirteenth Floor"
+      C: "Dark City"
+      D: "Matrix"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1999 film was directed by the Wachowski brothers?"
+        answers:
+          A: "eXistenZ"
+          B: "The Thirteenth Floor"
+          C: "Dark City"
+          D: "The Matrix"
+    difficulty: MEDIUM
+  - text: "Quel chanteur interprète le titre \"Black or White\" en 1991 ?"
+    answers:
+      A: "Prince"
+      B: "George Michael"
+      C: "Michael Jackson"
+      D: "Lenny Kravitz"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which singer performed the song \"Black or White\" in 1991?"
+        answers:
+          A: "Prince"
+          B: "George Michael"
+          C: "Michael Jackson"
+          D: "Lenny Kravitz"
+    difficulty: MEDIUM
+  - text: "Dans \"Dragon Ball Z\", quel est le nom du premier Super Saiyan de la saga ?"
+    answers:
+      A: "Trunks"
+      B: "Vegeta"
+      C: "Gohan"
+      D: "Goku"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Dragon Ball Z\", what is the name of the first Super Saiyan in the saga?"
+        answers:
+          A: "Trunks"
+          B: "Vegeta"
+          C: "Gohan"
+          D: "Goku"
+    difficulty: HARD
+  - text: "Quel film de 1999 met en scène un jeu télévisé dystopique ?"
+    answers:
+      A: "Existenz"
+      B: "Pleasantville"
+      C: "The Truman Show"
+      D: "The Blair Witch Project"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1999 film features a dystopian television game show?"
+        answers:
+          A: "eXistenZ"
+          B: "Pleasantville"
+          C: "The Truman Show"
+          D: "The Blair Witch Project"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe de rock qui a sorti \"Creep\" en 1992 ?"
+    answers:
+      A: "Nirvana"
+      B: "Radiohead"
+      C: "Pearl Jam"
+      D: "Soundgarden"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the rock band that released \"Creep\" in 1992?"
+        answers:
+          A: "Nirvana"
+          B: "Radiohead"
+          C: "Pearl Jam"
+          D: "Soundgarden"
+    difficulty: HARD
+  - text: "Dans \"Pokémon\", quel est le nom du Pokémon de type Feu qui évolue en Reptincel ?"
+    answers:
+      A: "Pikachu"
+      B: "Carapuce"
+      C: "Bulbizarre"
+      D: "Salamèche"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Pokémon\", what is the name of the Fire-type Pokémon that evolves into Charmeleon?"
+        answers:
+          A: "Pikachu"
+          B: "Squirtle"
+          C: "Bulbasaur"
+          D: "Charmander"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne le personnage de Lester Burnham dans \"American Beauty\" ?"
+    answers:
+      A: "Thora Birch"
+      B: "Annette Bening"
+      C: "Kevin Spacey"
+      D: "Wes Bentley"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays the character of Lester Burnham in \"American Beauty\"?"
+        answers:
+          A: "Thora Birch"
+          B: "Annette Bening"
+          C: "Kevin Spacey"
+          D: "Wes Bentley"
+    difficulty: HARD
+  - text: "Quel boys band français a sorti le titre \"Comme un boomerang\" en 1997 ?"
+    answers:
+      A: "2Be3"
+      B: "Alliage"
+      C: "G-Squad"
+      D: "Poetic Lover"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French boy band released the song \"Comme un boomerang\" in 1997?"
+        answers:
+          A: "2Be3"
+          B: "Alliage"
+          C: "G-Squad"
+          D: "Poetic Lover"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti le film \"Le Cercle des poètes disparus\" ?"
+    answers:
+      A: "1989"
+      B: "1990"
+      C: "1991"
+      D: "1992"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the film \"Dead Poets Society\" released?"
+        answers:
+          A: "1989"
+          B: "1990"
+          C: "1991"
+          D: "1992"
+    difficulty: HARD
+  - text: "Quel rappeur français a sorti l'album \"Où je vis\" en 1998 ?"
+    answers:
+      A: "Passi"
+      B: "Stomy Bugsy"
+      C: "Doc Gynéco"
+      D: "MC Solaar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French rapper released the album \"Où je vis\" in 1998?"
+        answers:
+          A: "Passi"
+          B: "Stomy Bugsy"
+          C: "Doc Gynéco"
+          D: "MC Solaar"
+    difficulty: EXPERT
+  - text: "Quel film d'animation Disney est sorti en 1999 ?"
+    answers:
+      A: "Hercule"
+      B: "Mulan"
+      C: "Tarzan"
+      D: "Toy Story 2"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Disney animated film was released in 1999?"
+        answers:
+          A: "Hercules"
+          B: "Mulan"
+          C: "Tarzan"
+          D: "Toy Story 2"
+    difficulty: HARD
+  - text: "Dans \"X-Files\", quel est le nom du partenaire de Mulder ?"
+    answers:
+      A: "Dana Scully"
+      B: "Monica Reyes"
+      C: "John Doggett"
+      D: "Walter Skinner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"X-Files\", what is the name of Mulder's partner?"
+        answers:
+          A: "Dana Scully"
+          B: "Monica Reyes"
+          C: "John Doggett"
+          D: "Walter Skinner"
+    difficulty: EASY
+  - text: "Quel groupe de rock alternatif américain a sorti l'album \"Siamese Dream\" en 1993 ?"
+    answers:
+      A: "Nirvana"
+      B: "The Smashing Pumpkins"
+      C: "Pearl Jam"
+      D: "Soundgarden"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which American alternative rock band released the album \"Siamese Dream\" in 1993?"
+        answers:
+          A: "Nirvana"
+          B: "The Smashing Pumpkins"
+          C: "Pearl Jam"
+          D: "Soundgarden"
+    difficulty: EXPERT
+  - text: "Qui a réalisé le film \"La Cité de la peur\" en 1994 ?"
+    answers:
+      A: "Les Inconnus"
+      B: "Les Nuls"
+      C: "Alain Chabat"
+      D: "Dominique Farrugia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who directed the film \"La Cité de la peur\" in 1994?"
+        answers:
+          A: "Les Inconnus"
+          B: "Les Nuls"
+          C: "Alain Chabat"
+          D: "Dominique Farrugia"
+    difficulty: EXPERT
+  - text: "En quelle année le boys band français 2Be3 a-t-il sorti son premier single \"Partir un jour\" ?"
+    answers:
+      A: "1995"
+      B: "1996"
+      C: "1998"
+      D: "1997"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the French boy band 2Be3 release their first single \"Partir un jour\"?"
+        answers:
+          A: "1995"
+          B: "1996"
+          C: "1998"
+          D: "1997"
+    difficulty: EXPERT
+  - text: "Dans la série \"Le Prince de Bel-Air\", quel est le nom du personnage incarné par Will Smith ?"
+    answers:
+      A: "Carlton Banks"
+      B: "Will Smith"
+      C: "Geoffrey Butler"
+      D: "Philip Banks"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the series \"The Fresh Prince of Bel-Air\", what is the name of the character played by Will Smith?"
+        answers:
+          A: "Carlton Banks"
+          B: "Will Smith"
+          C: "Geoffrey Butler"
+          D: "Philip Banks"
+    difficulty: MEDIUM

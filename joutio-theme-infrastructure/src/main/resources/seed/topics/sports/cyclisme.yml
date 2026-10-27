@@ -1,0 +1,1631 @@
+topic:
+  id: topic-cyclisme
+  names:
+    fr: "Cyclisme & Tour de France"
+    en: "Cycling & Tour de France"
+  description: "Le cyclisme sur route et ses grandes compétitions : le Tour de France, le Giro et la Vuelta, les classiques comme Paris-Roubaix ou Milan-San Remo. Maillots, cols mythiques, contre-la-montre et légendes du peloton telles que Merckx, Hinault, Anquetil ou Indurain."
+  category: SPORTS
+  titles:
+    fr:
+      FER: "Débutant en danseuse"
+      BRONZE: "Échappé du dimanche"
+      ARGENT: "Grimpeur du col"
+      OR: "Rouleur du peloton"
+      PLATINE: "Maillot à pois"
+      EMERAUDE: "Maillot jaune"
+      DIAMANT: "Légende du Tour"
+    en:
+      FER: "Training Wheels"
+      BRONZE: "Sunday Breakaway"
+      ARGENT: "Col Climber"
+      OR: "Peloton Roller"
+      PLATINE: "Polka Dot Jersey"
+      EMERAUDE: "Yellow Jersey"
+      DIAMANT: "Tour Legend"
+  imageUrl: wikipedia/sports/Peloton_during_Simacourbe_climb_of_Tour_de_France_2024_stage_13.jpg
+questions:
+  - text: "Combien de fois Eddy Merckx a-t-il remporté le Tour de France ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "6"
+      D: "5"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many times did Eddy Merckx win the Tour de France?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "6"
+          D: "5"
+    difficulty: EASY
+  - text: "Que porte le meilleur grimpeur du Tour ?"
+    imageUrl: wikipedia/sports/Usoa_Ostolaza_on_the_podium_for_polka_dot_jersey_of_TFIP_2024_stage_2.jpg
+    answers:
+      A: "Le maillot vert"
+      B: "Le maillot à pois"
+      C: "Le maillot jaune"
+      D: "Le maillot blanc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the Tour's best climber wear?"
+        answers:
+          A: "The green jersey"
+          B: "The polka dot jersey"
+          C: "The yellow jersey"
+          D: "The white jersey"
+    difficulty: EASY
+  - text: "Qui a remporté le premier Tour de France en 1903 ?"
+    answers:
+      A: "Gustave Garrigou"
+      B: "Maurice Garin"
+      C: "Lucien Petit-Breton"
+      D: "Philippe Thys"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the first Tour de France in 1903?"
+        answers:
+          A: "Gustave Garrigou"
+          B: "Maurice Garin"
+          C: "Lucien Petit-Breton"
+          D: "Philippe Thys"
+    difficulty: EASY
+  - text: "Quel coureur a été le premier à remporter cinq Tours de France ?"
+    answers:
+      A: "Eddy Merckx"
+      B: "Bernard Hinault"
+      C: "Jacques Anquetil"
+      D: "Miguel Indurain"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider was the first to win five Tours de France?"
+        answers:
+          A: "Eddy Merckx"
+          B: "Bernard Hinault"
+          C: "Jacques Anquetil"
+          D: "Miguel Indurain"
+    difficulty: MEDIUM
+  - text: "Quel est le surnom de Miguel Indurain ?"
+    answers:
+      A: "Le Cannibale"
+      B: "Le Taureau de Navarre"
+      C: "Le Blaireau"
+      D: "Il Falco"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Miguel Indurain's nickname?"
+        answers:
+          A: "The Cannibal"
+          B: "The Bull of Navarre"
+          C: "The Badger"
+          D: "Il Falco"
+    difficulty: EASY
+  - text: "En quelle année Eddy Merckx a-t-il remporté son premier Tour de France ?"
+    answers:
+      A: "1968"
+      B: "1969"
+      C: "1970"
+      D: "1971"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Eddy Merckx win his first Tour de France?"
+        answers:
+          A: "1968"
+          B: "1969"
+          C: "1970"
+          D: "1971"
+    difficulty: MEDIUM
+  - text: "Qui a remporté le Tour de France 1986 ?"
+    answers:
+      A: "Bernard Hinault"
+      B: "Pedro Delgado"
+      C: "Laurent Fignon"
+      D: "Greg LeMond"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who won the 1986 Tour de France?"
+        answers:
+          A: "Bernard Hinault"
+          B: "Pedro Delgado"
+          C: "Laurent Fignon"
+          D: "Greg LeMond"
+    difficulty: MEDIUM
+  - text: "Quel coureur a remporté les Tours de France 1953 et 1954 ?"
+    answers:
+      A: "Fausto Coppi"
+      B: "Louison Bobet"
+      C: "Hugo Koblet"
+      D: "Gino Bartali"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won the Tours de France in 1953 and 1954?"
+        answers:
+          A: "Fausto Coppi"
+          B: "Louison Bobet"
+          C: "Hugo Koblet"
+          D: "Gino Bartali"
+    difficulty: HARD
+  - text: "Comment appelle-t-on le groupe principal des coureurs ?"
+    imageUrl: wikipedia/sports/Peloton_of_Tour_de_France_2023_in_Tourmalet.jpg
+    answers:
+      A: "Le peloton"
+      B: "L'échappée"
+      C: "La bordure"
+      D: "Le gruppetto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the main group of riders called?"
+        answers:
+          A: "The peloton"
+          B: "The breakaway"
+          C: "The echelon"
+          D: "The gruppetto"
+    difficulty: EASY
+  - text: "Qui a remporté Paris-Roubaix quatre fois ?"
+    answers:
+      A: "Roger De Vlaeminck"
+      B: "Tom Boonen"
+      C: "Fabian Cancellara"
+      D: "Johan Museeuw"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won Paris-Roubaix four times?"
+        answers:
+          A: "Roger De Vlaeminck"
+          B: "Tom Boonen"
+          C: "Fabian Cancellara"
+          D: "Johan Museeuw"
+    difficulty: HARD
+  - text: "En quelle année Tom Boonen a-t-il remporté Paris-Roubaix pour la première fois ?"
+    answers:
+      A: "2007"
+      B: "2004"
+      C: "2006"
+      D: "2005"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Tom Boonen win Paris-Roubaix for the first time?"
+        answers:
+          A: "2007"
+          B: "2004"
+          C: "2006"
+          D: "2005"
+    difficulty: EXPERT
+  - text: "Qui a remporté Milan-San Remo à sept reprises ?"
+    answers:
+      A: "Eddy Merckx"
+      B: "Roger De Vlaeminck"
+      C: "Costante Girardengo"
+      D: "Fausto Coppi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won Milan-San Remo seven times?"
+        answers:
+          A: "Eddy Merckx"
+          B: "Roger De Vlaeminck"
+          C: "Costante Girardengo"
+          D: "Fausto Coppi"
+    difficulty: MEDIUM
+  - text: "Quel est le surnom de la côte de la Redoute, célèbre dans Liège-Bastogne-Liège ?"
+    answers:
+      A: "Le Mur"
+      B: "La Roche aux Faucons"
+      C: "La Redoute"
+      D: "Le Stockeu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the nickname of the Côte de la Redoute, famous in Liège-Bastogne-Liège?"
+        answers:
+          A: "The Wall"
+          B: "La Roche aux Faucons"
+          C: "La Redoute"
+          D: "Le Stockeu"
+    difficulty: EXPERT
+  - text: "Quel col a été franchi pour la première fois sur le Tour de France en 1910 ?"
+    answers:
+      A: "Col du Galibier"
+      B: "Col du Tourmalet"
+      C: "Col d'Aubisque"
+      D: "Col de Peyresourde"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mountain pass was crossed for the first time in the Tour de France in 1910?"
+        answers:
+          A: "Col du Galibier"
+          B: "Col du Tourmalet"
+          C: "Col d'Aubisque"
+          D: "Col de Peyresourde"
+    difficulty: HARD
+  - text: "Qui a remporté le Giro en 1980 ?"
+    answers:
+      A: "Francesco Moser"
+      B: "Giuseppe Saronni"
+      C: "Bernard Hinault"
+      D: "Giovanni Battaglin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the Giro in 1980?"
+        answers:
+          A: "Francesco Moser"
+          B: "Giuseppe Saronni"
+          C: "Bernard Hinault"
+          D: "Giovanni Battaglin"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le Giro et le Tour de France la même année en 1982 ?"
+    answers:
+      A: "Francesco Moser"
+      B: "Giuseppe Saronni"
+      C: "Bernard Hinault"
+      D: "Laurent Fignon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won the Giro and the Tour de France in the same year in 1982?"
+        answers:
+          A: "Francesco Moser"
+          B: "Giuseppe Saronni"
+          C: "Bernard Hinault"
+          D: "Laurent Fignon"
+    difficulty: EXPERT
+  - text: "Quel col mythique des Alpes a 21 virages ?"
+    imageUrl: wikipedia/sports/TDFF24_virages_Alpe_d'Huez.jpg
+    answers:
+      A: "L'Alpe d'Huez"
+      B: "Le col du Galibier"
+      C: "Le col de l'Izoard"
+      D: "Le col de la Madeleine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which legendary Alpine pass has 21 hairpin bends?"
+        answers:
+          A: "L'Alpe d'Huez"
+          B: "Col du Galibier"
+          C: "Col de l'Izoard"
+          D: "Col de la Madeleine"
+    difficulty: HARD
+  - text: "Qui a remporté la Vuelta a España en 2011 ?"
+    answers:
+      A: "Chris Froome"
+      B: "Juan José Cobo"
+      C: "Alberto Contador"
+      D: "Denis Menchov"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the Vuelta a España in 2011?"
+        answers:
+          A: "Chris Froome"
+          B: "Juan José Cobo"
+          C: "Alberto Contador"
+          D: "Denis Menchov"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le Tour de France en 2009 ?"
+    answers:
+      A: "Cadel Evans"
+      B: "Andy Schleck"
+      C: "Alberto Contador"
+      D: "Carlos Sastre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won the Tour de France in 2009?"
+        answers:
+          A: "Cadel Evans"
+          B: "Andy Schleck"
+          C: "Alberto Contador"
+          D: "Carlos Sastre"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on cette épreuve chronométrée ?"
+    imageUrl: wikipedia/sports/Jonas_Vingegaard_Time_Trial_-_Tour_de_France_2023_(cropped).jpg
+    answers:
+      A: "Un contre-la-montre"
+      B: "Une course par équipes"
+      C: "Une étape de montagne"
+      D: "Un sprint final"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this timed event called?"
+        answers:
+          A: "A time trial"
+          B: "A team race"
+          C: "A mountain stage"
+          D: "A final sprint"
+    difficulty: EASY
+  - text: "Qui a remporté le Tour de France 2011 ?"
+    answers:
+      A: "Mark Cavendish"
+      B: "Andy Schleck"
+      C: "Alberto Contador"
+      D: "Cadel Evans"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who won the 2011 Tour de France?"
+        answers:
+          A: "Mark Cavendish"
+          B: "Andy Schleck"
+          C: "Alberto Contador"
+          D: "Cadel Evans"
+    difficulty: MEDIUM
+  - text: "Quel coureur a remporté Paris-Roubaix en 2021 ?"
+    answers:
+      A: "Sonny Colbrelli"
+      B: "Mathieu van der Poel"
+      C: "Wout van Aert"
+      D: "Florian Vermeersch"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which rider won Paris-Roubaix in 2021?"
+        answers:
+          A: "Sonny Colbrelli"
+          B: "Mathieu van der Poel"
+          C: "Wout van Aert"
+          D: "Florian Vermeersch"
+    difficulty: HARD
+  - text: "Quel coureur détient le record de victoires d'étapes sur le Tour de France avec 34 victoires ?"
+    answers:
+      A: "Mark Cavendish"
+      B: "Bernard Hinault"
+      C: "Eddy Merckx"
+      D: "Robbie McEwen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider holds the record for Tour de France stage wins with 34 victories?"
+        answers:
+          A: "Mark Cavendish"
+          B: "Bernard Hinault"
+          C: "Eddy Merckx"
+          D: "Robbie McEwen"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du maillot du leader du classement par points du Tour de France ?"
+    answers:
+      A: "Maillot vert"
+      B: "Maillot à pois"
+      C: "Maillot jaune"
+      D: "Maillot blanc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the jersey worn by the leader of the points classification in the Tour de France?"
+        answers:
+          A: "Green jersey"
+          B: "Polka dot jersey"
+          C: "Yellow jersey"
+          D: "White jersey"
+    difficulty: EASY
+  - text: "Quel coureur a remporté Paris-Roubaix en 2019 ?"
+    answers:
+      A: "Niki Terpstra"
+      B: "Philippe Gilbert"
+      C: "Peter Sagan"
+      D: "Sep Vanmarcke"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won Paris-Roubaix in 2019?"
+        answers:
+          A: "Niki Terpstra"
+          B: "Philippe Gilbert"
+          C: "Peter Sagan"
+          D: "Sep Vanmarcke"
+    difficulty: HARD
+  - text: "En quelle année Fabian Cancellara a-t-il remporté son premier Tour des Flandres ?"
+    answers:
+      A: "2008"
+      B: "2014"
+      C: "2012"
+      D: "2010"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Fabian Cancellara win his first Tour of Flanders?"
+        answers:
+          A: "2008"
+          B: "2014"
+          C: "2012"
+          D: "2010"
+    difficulty: EXPERT
+  - text: "Quel coureur détient le record de victoires sur Milan-San Remo avec 7 succès ?"
+    answers:
+      A: "Erik Zabel"
+      B: "Roger De Vlaeminck"
+      C: "Eddy Merckx"
+      D: "Costante Girardengo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider holds the record for Milan-San Remo victories with 7 wins?"
+        answers:
+          A: "Erik Zabel"
+          B: "Roger De Vlaeminck"
+          C: "Eddy Merckx"
+          D: "Costante Girardengo"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du maillot du meilleur grimpeur du Tour d'Italie ?"
+    answers:
+      A: "Maillot vert"
+      B: "Maillot bleu"
+      C: "Maillot cyclamen"
+      D: "Maillot blanc"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the jersey worn by the best climber in the Giro d'Italia?"
+        answers:
+          A: "Green jersey"
+          B: "Blue jersey"
+          C: "Cyclamen jersey"
+          D: "White jersey"
+    difficulty: HARD
+  - text: "Qui a remporté le Tour de France 1998 ?"
+    answers:
+      A: "Jan Ullrich"
+      B: "Erik Zabel"
+      C: "Bjarne Riis"
+      D: "Marco Pantani"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who won the 1998 Tour de France?"
+        answers:
+          A: "Jan Ullrich"
+          B: "Erik Zabel"
+          C: "Bjarne Riis"
+          D: "Marco Pantani"
+    difficulty: MEDIUM
+  - text: "Quel coureur a remporté le Giro, le Tour de France et le Championnat du monde la même année ?"
+    answers:
+      A: "Miguel Indurain"
+      B: "Bernard Hinault"
+      C: "Fausto Coppi"
+      D: "Eddy Merckx"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won the Giro, the Tour de France and the World Championship in the same year?"
+        answers:
+          A: "Miguel Indurain"
+          B: "Bernard Hinault"
+          C: "Fausto Coppi"
+          D: "Eddy Merckx"
+    difficulty: EXPERT
+  - text: "Quel est le surnom de Fabian Cancellara ?"
+    answers:
+      A: "Spartacus"
+      B: "L'Ogre de Grammont"
+      C: "Le Blaireau"
+      D: "Le Taureau de Flandre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Fabian Cancellara's nickname?"
+        answers:
+          A: "Spartacus"
+          B: "The Ogre of Grammont"
+          C: "The Badger"
+          D: "The Bull of Flanders"
+    difficulty: EASY
+  - text: "Qui a remporté le Tour de France 1971 ?"
+    answers:
+      A: "Joop Zoetemelk"
+      B: "Luis Ocaña"
+      C: "Eddy Merckx"
+      D: "Bernard Thévenet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the 1971 Tour de France?"
+        answers:
+          A: "Joop Zoetemelk"
+          B: "Luis Ocaña"
+          C: "Eddy Merckx"
+          D: "Bernard Thévenet"
+    difficulty: HARD
+  - text: "Quel coureur a remporté Paris-Roubaix en 2023 ?"
+    answers:
+      A: "Christophe Laporte"
+      B: "Wout van Aert"
+      C: "Mathieu van der Poel"
+      D: "Stefan Küng"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won Paris-Roubaix in 2023?"
+        answers:
+          A: "Christophe Laporte"
+          B: "Wout van Aert"
+          C: "Mathieu van der Poel"
+          D: "Stefan Küng"
+    difficulty: HARD
+  - text: "Qui a été le premier coureur à remporter le Tour de France et le Giro la même année ?"
+    answers:
+      A: "Fausto Coppi"
+      B: "Eddy Merckx"
+      C: "Bernard Hinault"
+      D: "Jacques Anquetil"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first rider to win the Tour de France and the Giro in the same year?"
+        answers:
+          A: "Fausto Coppi"
+          B: "Eddy Merckx"
+          C: "Bernard Hinault"
+          D: "Jacques Anquetil"
+    difficulty: EXPERT
+  - text: "Quel est le nom du classement du meilleur jeune sur le Tour de France ?"
+    answers:
+      A: "Classement de la montagne"
+      B: "Classement de la combativité"
+      C: "Classement par points"
+      D: "Classement du meilleur jeune"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the best young rider classification at the Tour de France?"
+        answers:
+          A: "Mountains classification"
+          B: "Combativity classification"
+          C: "Points classification"
+          D: "Best young rider classification"
+    difficulty: EASY
+  - text: "Qui a remporté le Tour de France 1985 ?"
+    answers:
+      A: "Laurent Fignon"
+      B: "Greg LeMond"
+      C: "Stephen Roche"
+      D: "Bernard Hinault"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who won the 1985 Tour de France?"
+        answers:
+          A: "Laurent Fignon"
+          B: "Greg LeMond"
+          C: "Stephen Roche"
+          D: "Bernard Hinault"
+    difficulty: HARD
+  - text: "Quel coureur a remporté le Giro 2020 ?"
+    answers:
+      A: "Tao Geoghegan Hart"
+      B: "Jai Hindley"
+      C: "João Almeida"
+      D: "Wilco Kelderman"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which rider won the 2020 Giro?"
+        answers:
+          A: "Tao Geoghegan Hart"
+          B: "Jai Hindley"
+          C: "João Almeida"
+          D: "Wilco Kelderman"
+    difficulty: EXPERT
+  - text: "Quel est le surnom de la côte de la Redoute ?"
+    answers:
+      A: "Le Mur"
+      B: "La Redoute"
+      C: "La Côte des Forges"
+      D: "Le Chemin des Dames"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the nickname of the Côte de la Redoute?"
+        answers:
+          A: "The Wall"
+          B: "La Redoute"
+          C: "La Côte des Forges"
+          D: "Le Chemin des Dames"
+    difficulty: EXPERT
+  - text: "Qui a remporté le Tour de France 2000 ?"
+    answers:
+      A: "Jan Ullrich"
+      B: "Richard Virenque"
+      C: "Marco Pantani"
+      D: "Lance Armstrong"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who won the 2000 Tour de France?"
+        answers:
+          A: "Jan Ullrich"
+          B: "Richard Virenque"
+          C: "Marco Pantani"
+          D: "Lance Armstrong"
+    difficulty: MEDIUM
+  - text: "Quel coureur a remporté le Championnat du monde sur route en 2021 ?"
+    answers:
+      A: "Wout van Aert"
+      B: "Mathieu van der Poel"
+      C: "Sonny Colbrelli"
+      D: "Julian Alaphilippe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won the Road World Championship in 2021?"
+        answers:
+          A: "Wout van Aert"
+          B: "Mathieu van der Poel"
+          C: "Sonny Colbrelli"
+          D: "Julian Alaphilippe"
+    difficulty: HARD
+  - text: "Qui a remporté le Tour de France 1976 ?"
+    answers:
+      A: "Eddy Merckx"
+      B: "Lucien Van Impe"
+      C: "Joop Zoetemelk"
+      D: "Raymond Poulidor"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the 1976 Tour de France?"
+        answers:
+          A: "Eddy Merckx"
+          B: "Lucien Van Impe"
+          C: "Joop Zoetemelk"
+          D: "Raymond Poulidor"
+    difficulty: HARD
+  - text: "Quel coureur a remporté le Tour de France 2011 ?"
+    answers:
+      A: "Andy Schleck"
+      B: "Frank Schleck"
+      C: "Cadel Evans"
+      D: "Thomas Voeckler"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won the 2011 Tour de France?"
+        answers:
+          A: "Andy Schleck"
+          B: "Frank Schleck"
+          C: "Cadel Evans"
+          D: "Thomas Voeckler"
+    difficulty: MEDIUM
+  - text: "Qui a remporté Paris-Roubaix en 2021 ?"
+    answers:
+      A: "Sonny Colbrelli"
+      B: "Mathieu van der Poel"
+      C: "Florian Vermeersch"
+      D: "Gianni Moscon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won Paris-Roubaix in 2021?"
+        answers:
+          A: "Sonny Colbrelli"
+          B: "Mathieu van der Poel"
+          C: "Florian Vermeersch"
+          D: "Gianni Moscon"
+    difficulty: HARD
+  - text: "Quel est le nom de la côte la plus célèbre des Flandres grimpée lors du Tour des Flandres ?"
+    answers:
+      A: "Le Koppenberg"
+      B: "Le Paterberg"
+      C: "Le Vieux Quaremont"
+      D: "Le Mur de Grammont"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the most famous climb in Flanders tackled during the Tour of Flanders?"
+        answers:
+          A: "The Koppenberg"
+          B: "The Paterberg"
+          C: "The Oude Kwaremont"
+          D: "The Mur de Grammont"
+    difficulty: EXPERT
+  - text: "Qui a remporté le Grand Prix de Plouay à trois reprises ?"
+    answers:
+      A: "Benoît Cosnefroy"
+      B: "Thomas Voeckler"
+      C: "Arnaud Démare"
+      D: "Sébastien Turgot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who has won the Grand Prix de Plouay three times?"
+        answers:
+          A: "Benoît Cosnefroy"
+          B: "Thomas Voeckler"
+          C: "Arnaud Démare"
+          D: "Sébastien Turgot"
+    difficulty: EXPERT
+  - text: "Quel coureur a porté le maillot rose du Giro pendant 21 étapes en 2018 ?"
+    answers:
+      A: "Tom Dumoulin"
+      B: "Chris Froome"
+      C: "Simon Yates"
+      D: "Miguel Ángel López"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider wore the pink jersey of the Giro for 21 stages in 2018?"
+        answers:
+          A: "Tom Dumoulin"
+          B: "Chris Froome"
+          C: "Simon Yates"
+          D: "Miguel Ángel López"
+    difficulty: EXPERT
+  - text: "Quelle est la longueur du Tour de France 2023 ?"
+    answers:
+      A: "3 200 km"
+      B: "3 404 km"
+      C: "3 500 km"
+      D: "3 100 km"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the length of the 2023 Tour de France?"
+        answers:
+          A: "3,200 km"
+          B: "3,404 km"
+          C: "3,500 km"
+          D: "3,100 km"
+    difficulty: EXPERT
+  - text: "Qui a remporté le maillot à pois du Tour de France 2021 ?"
+    answers:
+      A: "Wout Poels"
+      B: "Tadej Pogačar"
+      C: "Jonas Vingegaard"
+      D: "Richard Carapaz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the polka dot jersey of the 2021 Tour de France?"
+        answers:
+          A: "Wout Poels"
+          B: "Tadej Pogačar"
+          C: "Jonas Vingegaard"
+          D: "Richard Carapaz"
+    difficulty: EXPERT
+  - text: "En quelle année s'est déroulé le premier Tour d'Italie ?"
+    answers:
+      A: "1911"
+      B: "1903"
+      C: "1905"
+      D: "1909"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the first Tour of Italy take place?"
+        answers:
+          A: "1911"
+          B: "1903"
+          C: "1905"
+          D: "1909"
+    difficulty: HARD
+  - text: "Quel coureur a remporté le Tour de France 2012 ?"
+    answers:
+      A: "Cadel Evans"
+      B: "Andy Schleck"
+      C: "Bradley Wiggins"
+      D: "Alberto Contador"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won the 2012 Tour de France?"
+        answers:
+          A: "Cadel Evans"
+          B: "Andy Schleck"
+          C: "Bradley Wiggins"
+          D: "Alberto Contador"
+    difficulty: MEDIUM
+  - text: "Qui a remporté Paris-Roubaix en 2018 ?"
+    answers:
+      A: "Peter Sagan"
+      B: "Niki Terpstra"
+      C: "Greg Van Avermaet"
+      D: "Sep Vanmarcke"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won Paris-Roubaix in 2018?"
+        answers:
+          A: "Peter Sagan"
+          B: "Niki Terpstra"
+          C: "Greg Van Avermaet"
+          D: "Sep Vanmarcke"
+    difficulty: HARD
+  - text: "Quel coureur a remporté le Tour de France 1979 ?"
+    answers:
+      A: "Bernard Hinault"
+      B: "Joop Zoetemelk"
+      C: "Laurent Fignon"
+      D: "Greg LeMond"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which rider won the 1979 Tour de France?"
+        answers:
+          A: "Bernard Hinault"
+          B: "Joop Zoetemelk"
+          C: "Laurent Fignon"
+          D: "Greg LeMond"
+    difficulty: EXPERT
+  - text: "Qui a remporté la Vuelta a España 2010 ?"
+    answers:
+      A: "Ezequiel Mosquera"
+      B: "Vincenzo Nibali"
+      C: "Joaquim Rodríguez"
+      D: "Alejandro Valverde"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the 2010 Vuelta a España?"
+        answers:
+          A: "Ezequiel Mosquera"
+          B: "Vincenzo Nibali"
+          C: "Joaquim Rodríguez"
+          D: "Alejandro Valverde"
+    difficulty: HARD
+  - text: "Quel est le nom du maillot du leader du classement général du Tour d'Italie ?"
+    answers:
+      A: "Maillot vert"
+      B: "Maillot rouge"
+      C: "Maillot jaune"
+      D: "Maillot rose"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the leader's jersey in the general classification of the Tour of Italy?"
+        answers:
+          A: "Green jersey"
+          B: "Red jersey"
+          C: "Yellow jersey"
+          D: "Pink jersey"
+    difficulty: MEDIUM
+  - text: "Quel coureur a remporté le Tour de France 1974 ?"
+    answers:
+      A: "Luis Ocaña"
+      B: "Eddy Merckx"
+      C: "Raymond Poulidor"
+      D: "Joop Zoetemelk"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won the 1974 Tour de France?"
+        answers:
+          A: "Luis Ocaña"
+          B: "Eddy Merckx"
+          C: "Raymond Poulidor"
+          D: "Joop Zoetemelk"
+    difficulty: EXPERT
+  - text: "Qui a remporté le Tour des Flandres en 2022 ?"
+    answers:
+      A: "Tadej Pogačar"
+      B: "Wout van Aert"
+      C: "Mathieu van der Poel"
+      D: "Mads Pedersen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the Tour of Flanders in 2022?"
+        answers:
+          A: "Tadej Pogačar"
+          B: "Wout van Aert"
+          C: "Mathieu van der Poel"
+          D: "Mads Pedersen"
+    difficulty: HARD
+  - text: "Quel est le nombre de victoires de Mark Cavendish sur le Tour de France ?"
+    answers:
+      A: "34"
+      B: "30"
+      C: "35"
+      D: "32"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Mark Cavendish's number of victories in the Tour de France?"
+        answers:
+          A: "34"
+          B: "30"
+          C: "35"
+          D: "32"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le Tour de France 1969 ?"
+    answers:
+      A: "Raymond Poulidor"
+      B: "Eddy Merckx"
+      C: "Roger Pingeon"
+      D: "Jan Janssen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won the 1969 Tour de France?"
+        answers:
+          A: "Raymond Poulidor"
+          B: "Eddy Merckx"
+          C: "Roger Pingeon"
+          D: "Jan Janssen"
+    difficulty: EXPERT
+  - text: "Qui a remporté Milan-San Remo en 2020 ?"
+    answers:
+      A: "Julian Alaphilippe"
+      B: "Wout van Aert"
+      C: "Mathieu van der Poel"
+      D: "Michael Matthews"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won Milan-San Remo in 2020?"
+        answers:
+          A: "Julian Alaphilippe"
+          B: "Wout van Aert"
+          C: "Mathieu van der Poel"
+          D: "Michael Matthews"
+    difficulty: HARD
+  - text: "Quel est le nom du classement du meilleur grimpeur du Tour de France ?"
+    answers:
+      A: "Classement des grimpeurs"
+      B: "Classement de la montagne"
+      C: "Classement par points"
+      D: "Classement des jeunes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the best climber classification in the Tour de France?"
+        answers:
+          A: "Climbers classification"
+          B: "Mountains classification"
+          C: "Points classification"
+          D: "Young rider classification"
+    difficulty: EASY
+  - text: "Qui a remporté le Tour de France 1957 ?"
+    answers:
+      A: "Charly Gaul"
+      B: "Louison Bobet"
+      C: "Jacques Anquetil"
+      D: "Roger Walkowiak"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the 1957 Tour de France?"
+        answers:
+          A: "Charly Gaul"
+          B: "Louison Bobet"
+          C: "Jacques Anquetil"
+          D: "Roger Walkowiak"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le Giro 2021 ?"
+    answers:
+      A: "Remco Evenepoel"
+      B: "Egan Bernal"
+      C: "Primož Roglič"
+      D: "Damiano Caruso"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won the 2021 Giro?"
+        answers:
+          A: "Remco Evenepoel"
+          B: "Egan Bernal"
+          C: "Primož Roglič"
+          D: "Damiano Caruso"
+    difficulty: MEDIUM
+  - text: "Quelle est la longueur du Tour de France 2022 ?"
+    answers:
+      A: "3 328 km"
+      B: "3 500 km"
+      C: "3 200 km"
+      D: "3 400 km"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the length of the 2022 Tour de France?"
+        answers:
+          A: "3,328 km"
+          B: "3,500 km"
+          C: "3,200 km"
+          D: "3,400 km"
+    difficulty: EXPERT
+  - text: "Qui a remporté le Tour de France 1953 ?"
+    answers:
+      A: "Fausto Coppi"
+      B: "Gino Bartali"
+      C: "Louison Bobet"
+      D: "Hugo Koblet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the 1953 Tour de France?"
+        answers:
+          A: "Fausto Coppi"
+          B: "Gino Bartali"
+          C: "Louison Bobet"
+          D: "Hugo Koblet"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le Tour de France 1963 ?"
+    answers:
+      A: "Rudi Altig"
+      B: "Federico Bahamontes"
+      C: "Raymond Poulidor"
+      D: "Jacques Anquetil"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won the 1963 Tour de France?"
+        answers:
+          A: "Rudi Altig"
+          B: "Federico Bahamontes"
+          C: "Raymond Poulidor"
+          D: "Jacques Anquetil"
+    difficulty: EXPERT
+  - text: "En quelle année Fausto Coppi a-t-il remporté le Tour de France ?"
+    answers:
+      A: "1949"
+      B: "1950"
+      C: "1951"
+      D: "1952"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Fausto Coppi win the Tour de France?"
+        answers:
+          A: "1949"
+          B: "1950"
+          C: "1951"
+          D: "1952"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le Giro 2019 ?"
+    answers:
+      A: "Vincenzo Nibali"
+      B: "Primož Roglič"
+      C: "Miguel Ángel López"
+      D: "Richard Carapaz"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won the 2019 Giro?"
+        answers:
+          A: "Vincenzo Nibali"
+          B: "Primož Roglič"
+          C: "Miguel Ángel López"
+          D: "Richard Carapaz"
+    difficulty: MEDIUM
+  - text: "Qui a remporté la Vuelta a España 2019 ?"
+    answers:
+      A: "Alejandro Valverde"
+      B: "Primož Roglič"
+      C: "Nairo Quintana"
+      D: "Tadej Pogačar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the 2019 Vuelta a España?"
+        answers:
+          A: "Alejandro Valverde"
+          B: "Primož Roglič"
+          C: "Nairo Quintana"
+          D: "Tadej Pogačar"
+    difficulty: HARD
+  - text: "Quel coureur a remporté Paris-Roubaix en 2017 ?"
+    answers:
+      A: "Mathew Hayman"
+      B: "Zdeněk Štybar"
+      C: "Sebastian Langeveld"
+      D: "Greg Van Avermaet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won Paris-Roubaix in 2017?"
+        answers:
+          A: "Mathew Hayman"
+          B: "Zdeněk Štybar"
+          C: "Sebastian Langeveld"
+          D: "Greg Van Avermaet"
+    difficulty: HARD
+  - text: "Qui a remporté le Tour des Flandres en 2021 ?"
+    answers:
+      A: "Kasper Asgreen"
+      B: "Wout van Aert"
+      C: "Mathieu van der Poel"
+      D: "Mads Pedersen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won the Tour of Flanders in 2021?"
+        answers:
+          A: "Kasper Asgreen"
+          B: "Wout van Aert"
+          C: "Mathieu van der Poel"
+          D: "Mads Pedersen"
+    difficulty: HARD
+  - text: "Quel coureur a remporté Milan-San Remo en 2019 ?"
+    answers:
+      A: "Michał Kwiatkowski"
+      B: "Julian Alaphilippe"
+      C: "Peter Sagan"
+      D: "Elia Viviani"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won Milan-San Remo in 2019?"
+        answers:
+          A: "Michał Kwiatkowski"
+          B: "Julian Alaphilippe"
+          C: "Peter Sagan"
+          D: "Elia Viviani"
+    difficulty: HARD
+  - text: "Qui a remporté le Tour de Lombardie en 2020 ?"
+    answers:
+      A: "Vincenzo Nibali"
+      B: "Alejandro Valverde"
+      C: "George Bennett"
+      D: "Jakob Fuglsang"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who won the Tour of Lombardy in 2020?"
+        answers:
+          A: "Vincenzo Nibali"
+          B: "Alejandro Valverde"
+          C: "George Bennett"
+          D: "Jakob Fuglsang"
+    difficulty: EXPERT
+  - text: "Quel est le surnom de la montée de l'Alpe d'Huez ?"
+    answers:
+      A: "Le Géant des Alpes"
+      B: "Le Toit du Tour"
+      C: "Le Col de la Légende"
+      D: "La Montagne des Hollandais"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the nickname of the Alpe d'Huez climb?"
+        answers:
+          A: "The Giant of the Alps"
+          B: "The Roof of the Tour"
+          C: "The Col of Legend"
+          D: "The Mountain of the Dutch"
+    difficulty: MEDIUM
+  - text: "Quel col a été franchi pour la première fois sur le Tour de France 2019 ?"
+    answers:
+      A: "Col de l'Iseran"
+      B: "Col du Galibier"
+      C: "Col du Tourmalet"
+      D: "Col de la Loze"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which col was crossed for the first time in the 2019 Tour de France?"
+        answers:
+          A: "Col de l'Iseran"
+          B: "Col du Galibier"
+          C: "Col du Tourmalet"
+          D: "Col de la Loze"
+    difficulty: EXPERT
+  - text: "En quelle année le Tour de France a-t-il introduit le maillot jaune ?"
+    answers:
+      A: "1921"
+      B: "1920"
+      C: "1919"
+      D: "1922"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Tour de France introduce the yellow jersey?"
+        answers:
+          A: "1921"
+          B: "1920"
+          C: "1919"
+          D: "1922"
+    difficulty: MEDIUM
+  - text: "Quel coureur a remporté le classement général du Tour de France 2020 ?"
+    answers:
+      A: "Primož Roglič"
+      B: "Geraint Thomas"
+      C: "Egan Bernal"
+      D: "Tadej Pogačar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won the general classification of the 2020 Tour de France?"
+        answers:
+          A: "Primož Roglič"
+          B: "Geraint Thomas"
+          C: "Egan Bernal"
+          D: "Tadej Pogačar"
+    difficulty: MEDIUM
+  - text: "Qui a remporté le maillot à pois du Tour de France 2020 ?"
+    answers:
+      A: "Tadej Pogačar"
+      B: "Richard Carapaz"
+      C: "Primož Roglič"
+      D: "Marc Hirschi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won the polka dot jersey at the 2020 Tour de France?"
+        answers:
+          A: "Tadej Pogačar"
+          B: "Richard Carapaz"
+          C: "Primož Roglič"
+          D: "Marc Hirschi"
+    difficulty: HARD
+  - text: "Quel coureur a remporté le maillot vert du Tour de France 2020 ?"
+    answers:
+      A: "Peter Sagan"
+      B: "Matteo Trentin"
+      C: "Wout van Aert"
+      D: "Sam Bennett"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won the green jersey at the 2020 Tour de France?"
+        answers:
+          A: "Peter Sagan"
+          B: "Matteo Trentin"
+          C: "Wout van Aert"
+          D: "Sam Bennett"
+    difficulty: HARD
+  - text: "Quel coureur a remporté le classement général du Tour d'Italie 2022 ?"
+    answers:
+      A: "Richard Carapaz"
+      B: "Jai Hindley"
+      C: "Mikel Landa"
+      D: "Vincenzo Nibali"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won the general classification of the 2022 Giro d'Italia?"
+        answers:
+          A: "Richard Carapaz"
+          B: "Jai Hindley"
+          C: "Mikel Landa"
+          D: "Vincenzo Nibali"
+    difficulty: HARD
+  - text: "Qui a remporté le classement général de la Vuelta a España 2022 ?"
+    answers:
+      A: "Juan Ayuso"
+      B: "Enric Mas"
+      C: "Remco Evenepoel"
+      D: "Primož Roglič"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the general classification of the 2022 Vuelta a España?"
+        answers:
+          A: "Juan Ayuso"
+          B: "Enric Mas"
+          C: "Remco Evenepoel"
+          D: "Primož Roglič"
+    difficulty: HARD
+  - text: "Quel coureur a remporté le Tour de France 2021 ?"
+    answers:
+      A: "Richard Carapaz"
+      B: "Jonas Vingegaard"
+      C: "Tadej Pogačar"
+      D: "Primož Roglič"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won the 2021 Tour de France?"
+        answers:
+          A: "Richard Carapaz"
+          B: "Jonas Vingegaard"
+          C: "Tadej Pogačar"
+          D: "Primož Roglič"
+    difficulty: MEDIUM
+  - text: "Qui a remporté Paris-Roubaix en 2022 ?"
+    answers:
+      A: "Mathieu van der Poel"
+      B: "Wout van Aert"
+      C: "Dylan van Baarle"
+      D: "Yves Lampaert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won Paris-Roubaix in 2022?"
+        answers:
+          A: "Mathieu van der Poel"
+          B: "Wout van Aert"
+          C: "Dylan van Baarle"
+          D: "Yves Lampaert"
+    difficulty: HARD
+  - text: "Quel coureur a remporté Amstel Gold Race en 2023 ?"
+    answers:
+      A: "Mads Pedersen"
+      B: "Ben Healy"
+      C: "Tom Pidcock"
+      D: "Tadej Pogačar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rider won the Amstel Gold Race in 2023?"
+        answers:
+          A: "Mads Pedersen"
+          B: "Ben Healy"
+          C: "Tom Pidcock"
+          D: "Tadej Pogačar"
+    difficulty: EXPERT
+  - text: "Quel est le nom du col le plus haut du Tour de France, culminant à 2 802 mètres ?"
+    answers:
+      A: "Col de l'Iseran"
+      B: "Col du Galibier"
+      C: "Col du Tourmalet"
+      D: "Col de la Bonette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the highest mountain pass in the Tour de France, peaking at 2,802 meters?"
+        answers:
+          A: "Col de l'Iseran"
+          B: "Col du Galibier"
+          C: "Col du Tourmalet"
+          D: "Col de la Bonette"
+    difficulty: EXPERT
+  - text: "Qui a remporté le Giro 2020 ?"
+    answers:
+      A: "Jai Hindley"
+      B: "Tao Geoghegan Hart"
+      C: "João Almeida"
+      D: "Wilco Kelderman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the 2020 Giro?"
+        answers:
+          A: "Jai Hindley"
+          B: "Tao Geoghegan Hart"
+          C: "João Almeida"
+          D: "Wilco Kelderman"
+    difficulty: HARD
+  - text: "En quelle année la Vuelta a España a-t-elle été remportée pour la première fois par un coureur suisse ?"
+    answers:
+      A: "1993"
+      B: "1992"
+      C: "1991"
+      D: "1994"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Vuelta a España first won by a Swiss rider?"
+        answers:
+          A: "1993"
+          B: "1992"
+          C: "1991"
+          D: "1994"
+    difficulty: EXPERT
+  - text: "Quel monument remporte le plus souvent les faveurs des grimpeurs ?"
+    answers:
+      A: "Milan-San Remo"
+      B: "Tour des Flandres"
+      C: "Paris-Roubaix"
+      D: "Tour de Lombardie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which monument most often favors climbers?"
+        answers:
+          A: "Milan-San Remo"
+          B: "Tour of Flanders"
+          C: "Paris-Roubaix"
+          D: "Tour of Lombardy"
+    difficulty: EXPERT
+  - text: "Sur quelle ascension Tom Simpson est-il mort en 1967 ?"
+    imageUrl: wikipedia/sports/Mont_Ventoux_jt01.jpg
+    answers:
+      A: "Le col du Galibier"
+      B: "L'Alpe d'Huez"
+      C: "Le mont Ventoux"
+      D: "Le puy de Dôme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "On which climb did Tom Simpson die in 1967?"
+        answers:
+          A: "Col du Galibier"
+          B: "Alpe d'Huez"
+          C: "Mont Ventoux"
+          D: "Puy de Dôme"
+    difficulty: EXPERT
+  - text: "Qui a remporté le Tour de France 1936 ?"
+    answers:
+      A: "Antonin Magne"
+      B: "Sylvère Maes"
+      C: "Georges Speicher"
+      D: "Romain Maes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the 1936 Tour de France?"
+        answers:
+          A: "Antonin Magne"
+          B: "Sylvère Maes"
+          C: "Georges Speicher"
+          D: "Romain Maes"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le classement général du Tour de France 1996 ?"
+    answers:
+      A: "Jan Ullrich"
+      B: "Bjarne Riis"
+      C: "Miguel Indurain"
+      D: "Laurent Dufaux"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rider won the general classification of the 1996 Tour de France?"
+        answers:
+          A: "Jan Ullrich"
+          B: "Bjarne Riis"
+          C: "Miguel Indurain"
+          D: "Laurent Dufaux"
+    difficulty: HARD
+  - text: "Quel est le surnom du coureur espagnol Miguel Indurain ?"
+    answers:
+      A: "Big Mig"
+      B: "El Pistolero"
+      C: "Il Falco"
+      D: "Le Blaireau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the nickname of Spanish rider Miguel Indurain?"
+        answers:
+          A: "Big Mig"
+          B: "El Pistolero"
+          C: "Il Falco"
+          D: "Le Blaireau"
+    difficulty: MEDIUM
+  - text: "Qui a été le premier coureur à remporter le Giro, le Tour et le Championnat du monde la même année ?"
+    answers:
+      A: "Alfredo Binda"
+      B: "Bernard Hinault"
+      C: "Fausto Coppi"
+      D: "Eddy Merckx"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first rider to win the Giro, the Tour and the World Championship in the same year?"
+        answers:
+          A: "Alfredo Binda"
+          B: "Bernard Hinault"
+          C: "Fausto Coppi"
+          D: "Eddy Merckx"
+    difficulty: EXPERT
+  - text: "En quelle année le Tour de France a-t-il introduit le classement du meilleur grimpeur ?"
+    answers:
+      A: "1936"
+      B: "1934"
+      C: "1935"
+      D: "1933"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Tour de France introduce the best climber classification?"
+        answers:
+          A: "1936"
+          B: "1934"
+          C: "1935"
+          D: "1933"
+    difficulty: EXPERT
+  - text: "Quel coureur a remporté le Tour des Flandres en 2023 ?"
+    answers:
+      A: "Tadej Pogačar"
+      B: "Wout van Aert"
+      C: "Mathieu van der Poel"
+      D: "Mads Pedersen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which rider won the Tour of Flanders in 2023?"
+        answers:
+          A: "Tadej Pogačar"
+          B: "Wout van Aert"
+          C: "Mathieu van der Poel"
+          D: "Mads Pedersen"
+    difficulty: HARD
+  - text: "Qui a remporté la Vuelta a España 2021 ?"
+    answers:
+      A: "Miguel Ángel López"
+      B: "Enric Mas"
+      C: "Primož Roglič"
+      D: "Jack Haig"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the Vuelta a España 2021?"
+        answers:
+          A: "Miguel Ángel López"
+          B: "Enric Mas"
+          C: "Primož Roglič"
+          D: "Jack Haig"
+    difficulty: HARD
+  - text: "Quel est le nom du maillot du leader du classement par points du Tour d'Italie ?"
+    answers:
+      A: "Maillot cyclamen"
+      B: "Maillot vert"
+      C: "Maillot rouge"
+      D: "Maillot bleu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the jersey worn by the leader of the points classification in the Giro d'Italia?"
+        answers:
+          A: "Cyclamen jersey"
+          B: "Green jersey"
+          C: "Red jersey"
+          D: "Blue jersey"
+    difficulty: HARD
+  - text: "Quel coureur a remporté Milan-San Remo en 2021 ?"
+    answers:
+      A: "Wout van Aert"
+      B: "Caleb Ewan"
+      C: "Jasper Stuyven"
+      D: "Mathieu van der Poel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won Milan-San Remo in 2021?"
+        answers:
+          A: "Wout van Aert"
+          B: "Caleb Ewan"
+          C: "Jasper Stuyven"
+          D: "Mathieu van der Poel"
+    difficulty: HARD
+  - text: "Qui a remporté le Tour de Lombardie en 2021 ?"
+    answers:
+      A: "Primož Roglič"
+      B: "Fausto Masnada"
+      C: "Adam Yates"
+      D: "Tadej Pogačar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who won the Tour of Lombardy in 2021?"
+        answers:
+          A: "Primož Roglič"
+          B: "Fausto Masnada"
+          C: "Adam Yates"
+          D: "Tadej Pogačar"
+    difficulty: EXPERT
+  - text: "Quel est le nom du maillot du classement de la montagne du Tour d'Italie ?"
+    answers:
+      A: "Maillot bleu"
+      B: "Maillot vert"
+      C: "Maillot rouge"
+      D: "Maillot blanc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the mountains classification jersey in the Giro d'Italia?"
+        answers:
+          A: "Blue jersey"
+          B: "Green jersey"
+          C: "Red jersey"
+          D: "White jersey"
+    difficulty: HARD
+  - text: "Quel coureur a remporté Paris-Roubaix en 2018 ?"
+    answers:
+      A: "Peter Sagan"
+      B: "Silvan Dillier"
+      C: "Niki Terpstra"
+      D: "Sep Vanmarcke"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rider won Paris-Roubaix in 2018?"
+        answers:
+          A: "Peter Sagan"
+          B: "Silvan Dillier"
+          C: "Niki Terpstra"
+          D: "Sep Vanmarcke"
+    difficulty: HARD

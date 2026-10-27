@@ -1,0 +1,1631 @@
+topic:
+  id: topic-jeux-arcade
+  names:
+    fr: "Jeux d'arcade"
+    en: "Arcade Games"
+  description: "Des salles bruyantes aux bornes mythiques, redécouvrez l'âge d'or du jeu d'arcade : Pong, Space Invaders, Pac-Man, Donkey Kong, Tetris et Street Fighter II. Un thème dédié aux classiques, aux fabricants légendaires (Atari, Namco, Taito, Sega, Capcom) et aux champions des grandes compétitions."
+  category: GAMES
+  titles:
+    fr:
+      FER: "Pièce de 1 franc"
+      BRONZE: "Doigt sur le bouton"
+      ARGENT: "Habitué du flipper"
+      OR: "Chasseur de high score"
+      PLATINE: "As du joystick"
+      EMERAUDE: "Champion du tournoi"
+      DIAMANT: "Légende du game over"
+    en:
+      FER: "Quarter Muncher"
+      BRONZE: "Button Masher"
+      ARGENT: "High Score Chaser"
+      OR: "Joystick Junkie"
+      PLATINE: "Arcade Ace"
+      EMERAUDE: "Tournament Champion"
+      DIAMANT: "Game Over Legend"
+  imageUrl: wikipedia/games/Borne_arcade_Pacman.png
+questions:
+  - text: "Quel jeu d'arcade est considéré comme le premier à avoir utilisé un joystick à 8 directions ?"
+    answers:
+      A: "Space Invaders"
+      B: "Robotron: 2084"
+      C: "Pac-Man"
+      D: "Defender"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which arcade game is considered the first to use an 8-direction joystick?"
+        answers:
+          A: "Space Invaders"
+          B: "Robotron: 2084"
+          C: "Pac-Man"
+          D: "Defender"
+    difficulty: EXPERT
+  - text: "Quel jeu de tir spatial de 1978 ?"
+    imageUrl: wikipedia/games/Space_Invader_Cabinet.jpg
+    answers:
+      A: "Pac-Man"
+      B: "Galaga"
+      C: "Asteroids"
+      D: "Space Invaders"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1978 space shooter game?"
+        answers:
+          A: "Pac-Man"
+          B: "Galaga"
+          C: "Asteroids"
+          D: "Space Invaders"
+    difficulty: HARD
+  - text: "Quel était le nom du premier jeu d'arcade de Nintendo à utiliser le personnage de Mario (alors appelé Jumpman) ?"
+    answers:
+      A: "Radar Scope"
+      B: "Mario Bros."
+      C: "Popeye"
+      D: "Donkey Kong"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of Nintendo's first arcade game to feature the character Mario (then called Jumpman)?"
+        answers:
+          A: "Radar Scope"
+          B: "Mario Bros."
+          C: "Popeye"
+          D: "Donkey Kong"
+    difficulty: HARD
+  - text: "En quelle année la version arcade de Tetris a-t-elle été distribuée par Atari Games ?"
+    answers:
+      A: "1986"
+      B: "1988"
+      C: "1987"
+      D: "1989"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the arcade version of Tetris distributed by Atari Games?"
+        answers:
+          A: "1986"
+          B: "1988"
+          C: "1987"
+          D: "1989"
+    difficulty: EXPERT
+  - text: "Dans Street Fighter II, quel personnage est un ancien catcheur professionnel russe ?"
+    answers:
+      A: "Zangief"
+      B: "Guile"
+      C: "E. Honda"
+      D: "Blanka"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Street Fighter II, which character is a former Russian professional wrestler?"
+        answers:
+          A: "Zangief"
+          B: "Guile"
+          C: "E. Honda"
+          D: "Blanka"
+    difficulty: HARD
+  - text: "Quel appareil se joue avec des batteurs et une bille ?"
+    imageUrl: wikipedia/games/Full_machine_photo_of_the_Getaway_Pinball_machine.jpg
+    answers:
+      A: "Un baby-foot"
+      B: "Un billard"
+      C: "Un bowling"
+      D: "Un flipper"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which device is played with flippers and a ball?"
+        answers:
+          A: "A foosball table"
+          B: "A billiard table"
+          C: "A bowling alley"
+          D: "A pinball machine"
+    difficulty: EASY
+  - text: "Quel jeu d'arcade de 1980 permettait de sauver des humanoïdes tout en combattant des vaisseaux extraterrestres ?"
+    answers:
+      A: "Galaga"
+      B: "Gorf"
+      C: "Asteroids"
+      D: "Defender"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1980 arcade game involved saving humanoids while fighting alien ships?"
+        answers:
+          A: "Galaga"
+          B: "Gorf"
+          C: "Asteroids"
+          D: "Defender"
+    difficulty: MEDIUM
+  - text: "Quelle société a développé la borne d'arcade Vectorbeam pour le jeu Space Wars ?"
+    answers:
+      A: "Atari"
+      B: "Taito"
+      C: "Sega"
+      D: "Cinematronics"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which company developed the Vectorbeam arcade cabinet for the game Space Wars?"
+        answers:
+          A: "Atari"
+          B: "Taito"
+          C: "Sega"
+          D: "Cinematronics"
+    difficulty: EXPERT
+  - text: "Quel animal est Donkey Kong ?"
+    imageUrl: wikipedia/games/Donkey_Kong_arcade.jpg
+    answers:
+      A: "Un dinosaure"
+      B: "Un gorille"
+      C: "Un robot"
+      D: "Un dragon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What animal is Donkey Kong?"
+        answers:
+          A: "A dinosaur"
+          B: "A gorilla"
+          C: "A robot"
+          D: "A dragon"
+    difficulty: EASY
+  - text: "Quel est le nom du premier jeu d'arcade à utiliser un écran vectoriel couleur ?"
+    answers:
+      A: "Tempest"
+      B: "Star Wars"
+      C: "Battlezone"
+      D: "Gravitar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first arcade game to use a color vector display?"
+        answers:
+          A: "Tempest"
+          B: "Star Wars"
+          C: "Battlezone"
+          D: "Gravitar"
+    difficulty: EXPERT
+  - text: "Combien de niveaux différents compte le jeu original Donkey Kong ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "5"
+      D: "6"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many different levels does the original Donkey Kong game have?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "5"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "Quel personnage de Street Fighter II est un moine bouddhiste indien capable d'étirer ses membres ?"
+    answers:
+      A: "Sagat"
+      B: "Vega"
+      C: "Dhalsim"
+      D: "M. Bison"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Street Fighter II character is an Indian Buddhist monk able to stretch his limbs?"
+        answers:
+          A: "Sagat"
+          B: "Vega"
+          C: "Dhalsim"
+          D: "M. Bison"
+    difficulty: MEDIUM
+  - text: "Quel était le nom du premier jeu d'arcade à avoir un high score sauvegardé sur la machine ?"
+    answers:
+      A: "Space Invaders"
+      B: "Asteroids"
+      C: "Pac-Man"
+      D: "Defender"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the first arcade game to have a high score saved on the machine?"
+        answers:
+          A: "Space Invaders"
+          B: "Asteroids"
+          C: "Pac-Man"
+          D: "Defender"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de Sega de 1985 permettait de contrôler un avion de chasse et d'utiliser un stick analogique ?"
+    answers:
+      A: "After Burner"
+      B: "Out Run"
+      C: "Space Harrier"
+      D: "Hang-On"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1985 Sega arcade game let you control a fighter jet and use an analog stick?"
+        answers:
+          A: "After Burner"
+          B: "Out Run"
+          C: "Space Harrier"
+          D: "Hang-On"
+    difficulty: HARD
+  - text: "Quel est le nom du boss final dans le jeu d'arcade Space Invaders ?"
+    answers:
+      A: "UFO"
+      B: "Mothership"
+      C: "Commander"
+      D: "Il n'y a pas de boss final"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the final boss in the arcade game Space Invaders?"
+        answers:
+          A: "UFO"
+          B: "Mothership"
+          C: "Commander"
+          D: "There is no final boss"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1983 a popularisé le genre 'beat them up' avec des personnages comme Billy et Jimmy Lee ?"
+    answers:
+      A: "Double Dragon"
+      B: "Renegade"
+      C: "Spartan X"
+      D: "Kung-Fu Master"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1983 arcade game popularized the 'beat 'em up' genre with characters like Billy and Jimmy Lee?"
+        answers:
+          A: "Double Dragon"
+          B: "Renegade"
+          C: "Spartan X"
+          D: "Kung-Fu Master"
+    difficulty: HARD
+  - text: "Quel est le nom du créateur de Space Invaders ?"
+    answers:
+      A: "Shigeru Miyamoto"
+      B: "Tomohiro Nishikado"
+      C: "Toru Iwatani"
+      D: "Masaya Nakamura"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the creator of Space Invaders?"
+        answers:
+          A: "Shigeru Miyamoto"
+          B: "Tomohiro Nishikado"
+          C: "Toru Iwatani"
+          D: "Masaya Nakamura"
+    difficulty: MEDIUM
+  - text: "Dans Pac-Man, combien de points rapporte chaque pac-gomme (gros point) mangée ?"
+    answers:
+      A: "10"
+      B: "50"
+      C: "20"
+      D: "100"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Pac-Man, how many points does each Power Pellet (big dot) eaten give?"
+        answers:
+          A: "10"
+          B: "50"
+          C: "20"
+          D: "100"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade a été le premier à utiliser le format de carte mère JAMMA ?"
+    answers:
+      A: "Street Fighter II"
+      B: "Double Dragon"
+      C: "Bubble Bobble"
+      D: "R-Type"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which arcade game was the first to use the JAMMA motherboard format?"
+        answers:
+          A: "Street Fighter II"
+          B: "Double Dragon"
+          C: "Bubble Bobble"
+          D: "R-Type"
+    difficulty: EXPERT
+  - text: "Quel était le prix de lancement de la borne d'arcade Pong en 1972 ?"
+    answers:
+      A: "Environ 500 dollars"
+      B: "Environ 1000 dollars"
+      C: "Environ 1500 dollars"
+      D: "Environ 2000 dollars"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the launch price of the Pong arcade cabinet in 1972?"
+        answers:
+          A: "About 500 dollars"
+          B: "About 1000 dollars"
+          C: "About 1500 dollars"
+          D: "About 2000 dollars"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1981 est célèbre pour avoir introduit le personnage de 'Q*bert' ?"
+    answers:
+      A: "Q*bert"
+      B: "Frogger"
+      C: "Zaxxon"
+      D: "Galaga"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1981 arcade game is famous for introducing the character 'Q*bert'?"
+        answers:
+          A: "Q*bert"
+          B: "Frogger"
+          C: "Zaxxon"
+          D: "Galaga"
+    difficulty: EASY
+  - text: "Quel est le nom du premier jeu d'arcade de la compagnie Capcom à avoir utilisé le système CPS-1 ?"
+    answers:
+      A: "Final Fight"
+      B: "Street Fighter II"
+      C: "1941: Counter Attack"
+      D: "Strider"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Capcom's first arcade game to use the CPS-1 system?"
+        answers:
+          A: "Final Fight"
+          B: "Street Fighter II"
+          C: "1941: Counter Attack"
+          D: "Strider"
+    difficulty: EXPERT
+  - text: "Combien de vies le joueur commence-t-il avec dans le jeu original Space Invaders ?"
+    answers:
+      A: "1"
+      B: "5"
+      C: "3"
+      D: "7"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many lives does the player start with in the original Space Invaders?"
+        answers:
+          A: "1"
+          B: "5"
+          C: "3"
+          D: "7"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1981 permettait de contrôler un vaisseau en forme de « V » à travers des tunnels et des ennemis ?"
+    answers:
+      A: "Gravitar"
+      B: "Defender"
+      C: "Tempest"
+      D: "Zaxxon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1981 arcade game let you control a 'V'-shaped ship through tunnels and enemies?"
+        answers:
+          A: "Gravitar"
+          B: "Defender"
+          C: "Tempest"
+          D: "Zaxxon"
+    difficulty: HARD
+  - text: "Dans quel jeu d'arcade de 1980 le vaisseau peut-il se transformer en robot géant ?"
+    answers:
+      A: "Gorf"
+      B: "Bosconian"
+      C: "Galaga"
+      D: "Vanguard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which 1980 arcade game can the ship transform into a giant robot?"
+        answers:
+          A: "Gorf"
+          B: "Bosconian"
+          C: "Galaga"
+          D: "Vanguard"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1981, développé par Konami, se déroule dans un labyrinthe vertical avec des araignées et des squelettes ?"
+    answers:
+      A: "Rally-X"
+      B: "Frogger"
+      C: "Venture"
+      D: "Tutankham"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1981 arcade game, developed by Konami, takes place in a vertical maze with spiders and skeletons?"
+        answers:
+          A: "Rally-X"
+          B: "Frogger"
+          C: "Venture"
+          D: "Tutankham"
+    difficulty: EXPERT
+  - text: "Quel était le nom du premier jeu d'arcade de Namco à utiliser un écran vertical orienté portrait ?"
+    answers:
+      A: "Galaxian"
+      B: "Pac-Man"
+      C: "Dig Dug"
+      D: "King & Balloon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the name of Namco's first arcade game to use a vertically oriented portrait screen?"
+        answers:
+          A: "Galaxian"
+          B: "Pac-Man"
+          C: "Dig Dug"
+          D: "King & Balloon"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1982 permettait de contrôler un vaisseau spatial en utilisant un trackball ?"
+    answers:
+      A: "Missile Command"
+      B: "Marble Madness"
+      C: "Quantum"
+      D: "Centipede"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1982 arcade game let you control a spaceship using a trackball?"
+        answers:
+          A: "Missile Command"
+          B: "Marble Madness"
+          C: "Quantum"
+          D: "Centipede"
+    difficulty: HARD
+  - text: "Quel est le nom du vaisseau que l'on pilote dans le jeu d'arcade Defender ?"
+    answers:
+      A: "Xerces"
+      B: "Vic Viper"
+      C: "Galactic Polaris"
+      D: "Arwing"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the ship you pilot in the arcade game Defender?"
+        answers:
+          A: "Xerces"
+          B: "Vic Viper"
+          C: "Galactic Polaris"
+          D: "Arwing"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1980, développé par Atari, utilisait une manette rotative pour contrôler un château ?"
+    answers:
+      A: "Asteroids"
+      B: "Breakout"
+      C: "Canyon Bomber"
+      D: "Warlords"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1980 arcade game, developed by Atari, used a rotary controller to control a castle?"
+        answers:
+          A: "Asteroids"
+          B: "Breakout"
+          C: "Canyon Bomber"
+          D: "Warlords"
+    difficulty: HARD
+  - text: "Quel était le premier jeu d'arcade à utiliser un écran de 19 pouces en 1979 ?"
+    answers:
+      A: "Galaxian"
+      B: "Lunar Lander"
+      C: "Asteroids"
+      D: "Space Invaders"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which was the first arcade game to use a 19-inch screen in 1979?"
+        answers:
+          A: "Galaxian"
+          B: "Lunar Lander"
+          C: "Asteroids"
+          D: "Space Invaders"
+    difficulty: EXPERT
+  - text: "Dans quel jeu d'arcade de 1981 le joueur incarne un héros qui doit sauver des enfants d'un immeuble en feu ?"
+    answers:
+      A: "Fire Truck"
+      B: "Tapper"
+      C: "The Tower of Druaga"
+      D: "Mappy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which 1981 arcade game does the player control a hero who must save children from a burning building?"
+        answers:
+          A: "Fire Truck"
+          B: "Tapper"
+          C: "The Tower of Druaga"
+          D: "Mappy"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1982, édité par Sega, met en scène un personnage qui doit escalader une montagne tout en évitant des rochers ?"
+    answers:
+      A: "Zippy Race"
+      B: "Congo Bongo"
+      C: "Pengo"
+      D: "Up'n Down"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1982 arcade game, published by Sega, features a character who must climb a mountain while avoiding rocks?"
+        answers:
+          A: "Zippy Race"
+          B: "Congo Bongo"
+          C: "Pengo"
+          D: "Up'n Down"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1983 permettait de contrôler un avion dans un univers de dessin animé et de tirer sur des ennemis avec un pistolet ?"
+    answers:
+      A: "Mappy"
+      B: "Libble Rabble"
+      C: "Dragon Buster"
+      D: "Sky Kid"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1983 arcade game let you control a plane in a cartoon world and shoot enemies with a gun?"
+        answers:
+          A: "Mappy"
+          B: "Libble Rabble"
+          C: "Dragon Buster"
+          D: "Sky Kid"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier jeu d'arcade à avoir introduit un « continue » en échange d'une pièce supplémentaire ?"
+    answers:
+      A: "Space Invaders"
+      B: "Pac-Man"
+      C: "Fantasy"
+      D: "Gee Bee"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first arcade game to introduce a \"continue\" in exchange for an extra coin?"
+        answers:
+          A: "Space Invaders"
+          B: "Pac-Man"
+          C: "Fantasy"
+          D: "Gee Bee"
+    difficulty: EXPERT
+  - text: "Dans Tetris version arcade d'Atari Games, quel est le nom du mode à deux joueurs où les lignes complétées sont envoyées à l'adversaire ?"
+    answers:
+      A: "Co-op"
+      B: "Versus"
+      C: "Team"
+      D: "Duel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the arcade version of Tetris by Atari Games, what is the name of the two-player mode where completed lines are sent to the opponent?"
+        answers:
+          A: "Co-op"
+          B: "Versus"
+          C: "Team"
+          D: "Duel"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1984, développé par Irem, met en scène un commando qui doit détruire des tanks et des hélicoptères ?"
+    answers:
+      A: "10-Yard Fight"
+      B: "Kung-Fu Master"
+      C: "Kickle Cubicle"
+      D: "The Battle-Road"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1984 arcade game, developed by Irem, features a commando who must destroy tanks and helicopters?"
+        answers:
+          A: "10-Yard Fight"
+          B: "Kung-Fu Master"
+          C: "Kickle Cubicle"
+          D: "The Battle-Road"
+    difficulty: HARD
+  - text: "Quel est le nom du premier jeu d'arcade de Capcom à avoir utilisé un système de cartes à collectionner ?"
+    answers:
+      A: "Cadillacs and Dinosaurs"
+      B: "Pnickies"
+      C: "Battle Circuit"
+      D: "Quiz & Dragons"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first Capcom arcade game to use a collectible card system?"
+        answers:
+          A: "Cadillacs and Dinosaurs"
+          B: "Pnickies"
+          C: "Battle Circuit"
+          D: "Quiz & Dragons"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1986, édité par Taito, se joue avec un volant et propose des courses de rallye ?"
+    answers:
+      A: "Super Sprint"
+      B: "Continental Circus"
+      C: "Chase H.Q."
+      D: "Final Lap"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1986 arcade game, published by Taito, is played with a steering wheel and features rally racing?"
+        answers:
+          A: "Super Sprint"
+          B: "Continental Circus"
+          C: "Chase H.Q."
+          D: "Final Lap"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1987, développé par Technos Japan, met en scène deux frères experts en arts martiaux ?"
+    answers:
+      A: "Renegade"
+      B: "The Combatribes"
+      C: "Kunio-kun"
+      D: "Double Dragon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1987 arcade game, developed by Technos Japan, features two brothers who are martial arts experts?"
+        answers:
+          A: "Renegade"
+          B: "The Combatribes"
+          C: "Kunio-kun"
+          D: "Double Dragon"
+    difficulty: MEDIUM
+  - text: "Dans Street Fighter II, quel personnage est un karatéka japonais qui utilise des boules de feu ?"
+    answers:
+      A: "Ryu"
+      B: "Ken"
+      C: "Sagat"
+      D: "Dhalsim"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Street Fighter II, which character is a Japanese karateka who uses fireballs?"
+        answers:
+          A: "Ryu"
+          B: "Ken"
+          C: "Sagat"
+          D: "Dhalsim"
+    difficulty: EASY
+  - text: "Quel jeu d'arcade de 1991, développé par Capcom, a popularisé le système CPS-1 avec un jeu de combat ?"
+    answers:
+      A: "Street Fighter II"
+      B: "Final Fight"
+      C: "1941: Counter Attack"
+      D: "Three Wonders"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1991 arcade game, developed by Capcom, popularized the CPS-1 system with a fighting game?"
+        answers:
+          A: "Street Fighter II"
+          B: "Final Fight"
+          C: "1941: Counter Attack"
+          D: "Three Wonders"
+    difficulty: HARD
+  - text: "Quel est le nom du premier jeu d'arcade à avoir utilisé des graphismes 3D polygonaux en temps réel ?"
+    answers:
+      A: "Virtua Racing"
+      B: "Hard Drivin'"
+      C: "I, Robot"
+      D: "Star Fox"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first arcade game to use real-time polygonal 3D graphics?"
+        answers:
+          A: "Virtua Racing"
+          B: "Hard Drivin'"
+          C: "I, Robot"
+          D: "Star Fox"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1979 permettait de contrôler un vaisseau spatial avec un trackball ?"
+    answers:
+      A: "Asteroids"
+      B: "Missile Command"
+      C: "Defender"
+      D: "Centipede"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1979 arcade game let you control a spaceship with a trackball?"
+        answers:
+          A: "Asteroids"
+          B: "Missile Command"
+          C: "Defender"
+          D: "Centipede"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1980 utilisait une manette rotative pour contrôler un château ?"
+    answers:
+      A: "Tempest"
+      B: "Warlords"
+      C: "Battlezone"
+      D: "Red Baron"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1980 arcade game used a rotary controller to control a castle?"
+        answers:
+          A: "Tempest"
+          B: "Warlords"
+          C: "Battlezone"
+          D: "Red Baron"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1981 a été conçu par Toru Iwatani au sein de Namco ?"
+    answers:
+      A: "Galaga"
+      B: "Pac-Man"
+      C: "Rally-X"
+      D: "Dig Dug"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1981 arcade game was designed by Toru Iwatani at Namco?"
+        answers:
+          A: "Galaga"
+          B: "Pac-Man"
+          C: "Rally-X"
+          D: "Dig Dug"
+    difficulty: MEDIUM
+  - text: "Combien de pièces sont nécessaires pour jouer une partie de Pong en 1972 ?"
+    answers:
+      A: "0 pièce, le jeu était gratuit"
+      B: "3 pièces"
+      C: "2 pièces"
+      D: "1 pièce"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many coins are needed to play a game of Pong in 1972?"
+        answers:
+          A: "0 coins, the game was free"
+          B: "3 coins"
+          C: "2 coins"
+          D: "1 coin"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade utilisait un pistolet optique et était vendu avec une borne en forme de fusil ?"
+    answers:
+      A: "Wild Gunman"
+      B: "Duck Hunt"
+      C: "Hogan's Alley"
+      D: "Shooting Gallery"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which arcade game used a light gun and was sold with a rifle-shaped cabinet?"
+        answers:
+          A: "Wild Gunman"
+          B: "Duck Hunt"
+          C: "Hogan's Alley"
+          D: "Shooting Gallery"
+    difficulty: HARD
+  - text: "Quel est le nom du vaisseau spatial que l'on pilote dans Galaga ?"
+    answers:
+      A: "Galaxian"
+      B: "Star Fighter"
+      C: "Vic Viper"
+      D: "Fighter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the spaceship you pilot in Galaga?"
+        answers:
+          A: "Galaxian"
+          B: "Star Fighter"
+          C: "Vic Viper"
+          D: "Fighter"
+    difficulty: HARD
+  - text: "Dans Donkey Kong, quel est le nom du premier niveau ?"
+    answers:
+      A: "Barrels"
+      B: "Construction"
+      C: "Girders"
+      D: "Ramp"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Donkey Kong, what is the name of the first level?"
+        answers:
+          A: "Barrels"
+          B: "Construction"
+          C: "Girders"
+          D: "Ramp"
+    difficulty: MEDIUM
+  - text: "Combien de fantômes différents apparaissent dans le premier niveau de Pac-Man ?"
+    answers:
+      A: "4"
+      B: "3"
+      C: "5"
+      D: "6"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many different ghosts appear in the first level of Pac-Man?"
+        answers:
+          A: "4"
+          B: "3"
+          C: "5"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du vaisseau que l'on contrôle dans Defender ?"
+    answers:
+      A: "Interceptor"
+      B: "Defender"
+      C: "Starship"
+      D: "Ship"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the ship you control in Defender?"
+        answers:
+          A: "Interceptor"
+          B: "Defender"
+          C: "Starship"
+          D: "Ship"
+    difficulty: HARD
+  - text: "En quelle année le jeu d'arcade Q*bert est-il sorti ?"
+    answers:
+      A: "1983"
+      B: "1982"
+      C: "1981"
+      D: "1984"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the arcade game Q*bert released?"
+        answers:
+          A: "1983"
+          B: "1982"
+          C: "1981"
+          D: "1984"
+    difficulty: MEDIUM
+  - text: "Quel accessoire à poignée dirige le personnage ?"
+    imageUrl: wikipedia/games/Electronics---Arcade-Machine---Joystick---Detailed---(Gentry).jpg
+    answers:
+      A: "Le clavier d'ordinateur"
+      B: "La souris"
+      C: "Le joystick"
+      D: "Le micro"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which handle-equipped accessory controls the character?"
+        answers:
+          A: "Computer keyboard"
+          B: "Mouse"
+          C: "Joystick"
+          D: "Microphone"
+    difficulty: EASY
+  - text: "Quel jeu d'arcade de 1979 a introduit le premier bouton de tir utilisé comme 'pseudo-joystick' ?"
+    answers:
+      A: "Lunar Lander"
+      B: "Galaxian"
+      C: "Space Invaders"
+      D: "Asteroids"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1979 arcade game introduced the first fire button used as a 'pseudo-joystick'?"
+        answers:
+          A: "Lunar Lander"
+          B: "Galaxian"
+          C: "Space Invaders"
+          D: "Asteroids"
+    difficulty: EXPERT
+  - text: "Combien de niveaux composent la version arcade originale de Bubble Bobble ?"
+    answers:
+      A: "50"
+      B: "150"
+      C: "200"
+      D: "100"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many levels make up the original arcade version of Bubble Bobble?"
+        answers:
+          A: "50"
+          B: "150"
+          C: "200"
+          D: "100"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protagoniste de la série d'arcade Double Dragon ?"
+    answers:
+      A: "Billy Lee"
+      B: "Jimmy Lee"
+      C: "Bimmy Lee"
+      D: "Marian"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the protagonist of the Double Dragon arcade series?"
+        answers:
+          A: "Billy Lee"
+          B: "Jimmy Lee"
+          C: "Bimmy Lee"
+          D: "Marian"
+    difficulty: MEDIUM
+  - text: "Dans Street Fighter II, quel personnage est un ancien membre de l'armée de l'air britannique ?"
+    answers:
+      A: "C. Viper"
+      B: "Eagle"
+      C: "Cammy"
+      D: "Birdie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Street Fighter II, which character is a former member of the British air force?"
+        answers:
+          A: "C. Viper"
+          B: "Eagle"
+          C: "Cammy"
+          D: "Birdie"
+    difficulty: HARD
+  - text: "Quel est le nom du système d'arcade de Sega sorti en 1985 et utilisé pour Hang-On ?"
+    answers:
+      A: "System 16"
+      B: "System 1"
+      C: "Model 1"
+      D: "System 2"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Sega's arcade system released in 1985 and used for Hang-On?"
+        answers:
+          A: "System 16"
+          B: "System 1"
+          C: "Model 1"
+          D: "System 2"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1984 permettait de contrôler un hélicoptère et d'utiliser un joystick à retour de force ?"
+    answers:
+      A: "Tiger Heli"
+      B: "Thunder Blade"
+      C: "Twin Cobra"
+      D: "Twin Eagle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1984 arcade game let you control a helicopter and use a force-feedback joystick?"
+        answers:
+          A: "Tiger Heli"
+          B: "Thunder Blade"
+          C: "Twin Cobra"
+          D: "Twin Eagle"
+    difficulty: EXPERT
+  - text: "Quel est le nom du boss final dans le premier jeu d'arcade Metal Slug ?"
+    answers:
+      A: "General Morden"
+      B: "Donald Morden"
+      C: "Allen O'Neil"
+      D: "Tarma Roving"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the final boss in the first Metal Slug arcade game?"
+        answers:
+          A: "General Morden"
+          B: "Donald Morden"
+          C: "Allen O'Neil"
+          D: "Tarma Roving"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1981 permettait de contrôler un personnage qui devait éteindre des incendies et sauver des victimes ?"
+    answers:
+      A: "Rescue"
+      B: "The Firemen"
+      C: "Flame Chase"
+      D: "Fire Trap"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1981 arcade game let you control a character who had to put out fires and save victims?"
+        answers:
+          A: "Rescue"
+          B: "The Firemen"
+          C: "Flame Chase"
+          D: "Fire Trap"
+    difficulty: HARD
+  - text: "Quel est le nom du premier jeu d'arcade à avoir introduit un système de 'continue' en échange d'une pièce, en 1980 ?"
+    answers:
+      A: "Pac-Man"
+      B: "Defender"
+      C: "Space Invaders"
+      D: "Asteroids"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first arcade game to introduce a 'continue' system in exchange for a coin, in 1980?"
+        answers:
+          A: "Pac-Man"
+          B: "Defender"
+          C: "Space Invaders"
+          D: "Asteroids"
+    difficulty: EXPERT
+  - text: "Dans Tetris, quel est le nom de la pièce en forme de T ?"
+    answers:
+      A: "T-piece"
+      B: "T-block"
+      C: "T-tetromino"
+      D: "T-shape"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Tetris, what is the name of the T-shaped piece?"
+        answers:
+          A: "T-piece"
+          B: "T-block"
+          C: "T-tetromino"
+          D: "T-shape"
+    difficulty: EASY
+  - text: "Quel jeu d'arcade de 1981, développé par Konami, met en scène un personnage qui doit escalader une tour tout en évitant des objets ?"
+    answers:
+      A: "Tower of Druaga"
+      B: "Crazy Climber"
+      C: "Elevator Action"
+      D: "Roc'n Rope"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1981 arcade game, developed by Konami, features a character who must climb a tower while avoiding objects?"
+        answers:
+          A: "Tower of Druaga"
+          B: "Crazy Climber"
+          C: "Elevator Action"
+          D: "Roc'n Rope"
+    difficulty: HARD
+  - text: "Quel est le nom du premier jeu d'arcade à avoir utilisé un écran de 19 pouces orienté verticalement ?"
+    answers:
+      A: "Galaxian"
+      B: "Space Invaders"
+      C: "Pac-Man"
+      D: "Donkey Kong"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first arcade game to use a 19-inch vertically oriented screen?"
+        answers:
+          A: "Galaxian"
+          B: "Space Invaders"
+          C: "Pac-Man"
+          D: "Donkey Kong"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1980 de Namco tournait sur une carte mère basée sur deux Z80 ?"
+    answers:
+      A: "Galaxian"
+      B: "Rally-X"
+      C: "Pac-Man"
+      D: "Dig Dug"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1980 Namco arcade game ran on a motherboard based on two Z80s?"
+        answers:
+          A: "Galaxian"
+          B: "Rally-X"
+          C: "Pac-Man"
+          D: "Dig Dug"
+    difficulty: EXPERT
+  - text: "Dans Galaga, quel est le nom de l'astronef que l'on pilote ?"
+    answers:
+      A: "Starship"
+      B: "Galaga"
+      C: "Fighter"
+      D: "Vulcan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Galaga, what is the name of the spaceship you pilot?"
+        answers:
+          A: "Starship"
+          B: "Galaga"
+          C: "Fighter"
+          D: "Vulcan"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de Taito sorti en 1978 a établi un record de popularité au Japon au point de provoquer une pénurie de pièces de 100 yens ?"
+    answers:
+      A: "Defender"
+      B: "Galaxian"
+      C: "Asteroids"
+      D: "Space Invaders"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Taito arcade game released in 1978 set a popularity record in Japan, causing a shortage of 100-yen coins?"
+        answers:
+          A: "Defender"
+          B: "Galaxian"
+          C: "Asteroids"
+          D: "Space Invaders"
+    difficulty: HARD
+  - text: "Quel fabricant a produit la borne d'arcade Vectorbeam en 1979 ?"
+    answers:
+      A: "Cinematronics"
+      B: "Atari"
+      C: "Sega"
+      D: "Williams"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which manufacturer produced the Vectorbeam arcade cabinet in 1979?"
+        answers:
+          A: "Cinematronics"
+          B: "Atari"
+          C: "Sega"
+          D: "Williams"
+    difficulty: EXPERT
+  - text: "Dans le jeu d'arcade Q*bert, quel est le nom du personnage principal ?"
+    answers:
+      A: "Ugg"
+      B: "Coily"
+      C: "Q*bert"
+      D: "Wrongway"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the arcade game Q*bert, what is the name of the main character?"
+        answers:
+          A: "Ugg"
+          B: "Coily"
+          C: "Q*bert"
+          D: "Wrongway"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1982 de Williams est célèbre pour son utilisation d'un joystick à retour de force et d'un écran incliné ?"
+    answers:
+      A: "Defender"
+      B: "Joust"
+      C: "Robotron 2084"
+      D: "Sinistar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1982 Williams arcade game is famous for its use of a force-feedback joystick and a tilted screen?"
+        answers:
+          A: "Defender"
+          B: "Joust"
+          C: "Robotron 2084"
+          D: "Sinistar"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de Nintendo sorti en 1981 a été conçu par Shigeru Miyamoto ?"
+    answers:
+      A: "Donkey Kong"
+      B: "Mario Bros."
+      C: "Popeye"
+      D: "DK Jr."
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Nintendo arcade game released in 1981 was designed by Shigeru Miyamoto?"
+        answers:
+          A: "Donkey Kong"
+          B: "Mario Bros."
+          C: "Popeye"
+          D: "DK Jr."
+    difficulty: EASY
+  - text: "Dans le premier Donkey Kong, quel est le nom du niveau 1 ?"
+    answers:
+      A: "Ramps"
+      B: "Barrels"
+      C: "Elevators"
+      D: "Rivets"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the first Donkey Kong, what is the name of level 1?"
+        answers:
+          A: "Ramps"
+          B: "Barrels"
+          C: "Elevators"
+          D: "Rivets"
+    difficulty: MEDIUM
+  - text: "Dans le jeu d'arcade Pac-Man, quel est le nom du fantôme rouge ?"
+    answers:
+      A: "Pinky"
+      B: "Blinky"
+      C: "Inky"
+      D: "Clyde"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the arcade game Pac-Man, what is the name of the red ghost?"
+        answers:
+          A: "Pinky"
+          B: "Blinky"
+          C: "Inky"
+          D: "Clyde"
+    difficulty: EASY
+  - text: "Dans le jeu d'arcade Pac-Man, quelle est la couleur du fantôme Inky ?"
+    answers:
+      A: "Rouge"
+      B: "Rose"
+      C: "Orange"
+      D: "Cyan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the arcade game Pac-Man, what is the color of the ghost Inky?"
+        answers:
+          A: "Red"
+          B: "Pink"
+          C: "Orange"
+          D: "Cyan"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1983 de Cinematronics utilisait un écran vectoriel couleur et se déroulait dans un univers de science-fiction ?"
+    answers:
+      A: "Warrior"
+      B: "Rip Off"
+      C: "Star Castle"
+      D: "Armor Attack"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1983 Cinematronics arcade game used a color vector screen and was set in a science fiction universe?"
+        answers:
+          A: "Warrior"
+          B: "Rip Off"
+          C: "Star Castle"
+          D: "Armor Attack"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1981 de Sega permettait de contrôler un hélicoptère et était équipé d'un joystick à retour de force ?"
+    answers:
+      A: "Zaxxon"
+      B: "Buck Rogers"
+      C: "Looping"
+      D: "Super Cobra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1981 Sega arcade game let you control a helicopter and was equipped with a force-feedback joystick?"
+        answers:
+          A: "Zaxxon"
+          B: "Buck Rogers"
+          C: "Looping"
+          D: "Super Cobra"
+    difficulty: HARD
+  - text: "Quel est le nom du boss final du premier jeu d'arcade Metal Slug (1996) ?"
+    answers:
+      A: "General Morden"
+      B: "Donald Morden"
+      C: "Ivan Drakon"
+      D: "Allen O'Neil"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the final boss in the first Metal Slug arcade game (1996)?"
+        answers:
+          A: "General Morden"
+          B: "Donald Morden"
+          C: "Ivan Drakon"
+          D: "Allen O'Neil"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1981 de Konami met en scène un pompier qui doit sauver des victimes dans un immeuble en feu ?"
+    answers:
+      A: "Flame Rescue"
+      B: "Firefighter"
+      C: "Rescue"
+      D: "Fire Trap"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1981 Konami arcade game features a firefighter who must save victims in a burning building?"
+        answers:
+          A: "Flame Rescue"
+          B: "Firefighter"
+          C: "Rescue"
+          D: "Fire Trap"
+    difficulty: HARD
+  - text: "Quel type d'établissement est cette façade ?"
+    imageUrl: wikipedia/games/Takadanobaba_Game_Center_Mikado_front_2024-09-05.jpg
+    answers:
+      A: "Un cinéma"
+      B: "Un karaoké"
+      C: "Un magasin de jouets"
+      D: "Une salle d'arcade"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What type of establishment is this facade?"
+        answers:
+          A: "A cinema"
+          B: "A karaoke"
+          C: "A toy store"
+          D: "An arcade"
+    difficulty: EASY
+  - text: "Quel jeu d'arcade de 1980 de Namco permettait de contrôler un vaisseau spatial avec un trackball ?"
+    answers:
+      A: "Galaxian"
+      B: "Rally-X"
+      C: "Bosconian"
+      D: "King & Balloon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1980 Namco arcade game let you control a spaceship with a trackball?"
+        answers:
+          A: "Galaxian"
+          B: "Rally-X"
+          C: "Bosconian"
+          D: "King & Balloon"
+    difficulty: EXPERT
+  - text: "Quel est le nom du créateur de Tetris ?"
+    answers:
+      A: "Alexeï Pajitnov"
+      B: "Vladimir Pokhilko"
+      C: "Henk Rogers"
+      D: "Ed Logg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the creator of Tetris?"
+        answers:
+          A: "Alexey Pajitnov"
+          B: "Vladimir Pokhilko"
+          C: "Henk Rogers"
+          D: "Ed Logg"
+    difficulty: MEDIUM
+  - text: "En quelle année le jeu d'arcade Tetris de Sega est-il sorti au Japon ?"
+    answers:
+      A: "1989"
+      B: "1987"
+      C: "1988"
+      D: "1990"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was Sega's Tetris arcade game released in Japan?"
+        answers:
+          A: "1989"
+          B: "1987"
+          C: "1988"
+          D: "1990"
+    difficulty: EXPERT
+  - text: "Dans Street Fighter II, quel personnage est un ancien commandant de l'armée de l'air américaine ?"
+    answers:
+      A: "Ken"
+      B: "Guile"
+      C: "Ryu"
+      D: "Vega"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Street Fighter II, which character is a former U.S. Air Force commander?"
+        answers:
+          A: "Ken"
+          B: "Guile"
+          C: "Ryu"
+          D: "Vega"
+    difficulty: HARD
+  - text: "Quel est le nom du système d'arcade de Sega sorti en 1985 et utilisé pour le jeu Hang-On ?"
+    answers:
+      A: "Sega Model 1"
+      B: "Sega System 16"
+      C: "Sega System 24"
+      D: "Sega System 1"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Sega arcade system released in 1985 and used for the game Hang-On?"
+        answers:
+          A: "Sega Model 1"
+          B: "Sega System 16"
+          C: "Sega System 24"
+          D: "Sega System 1"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1979 de Atari utilisait un trackball pour contrôler un vaisseau spatial ?"
+    answers:
+      A: "Missile Command"
+      B: "Asteroids"
+      C: "Lunar Lander"
+      D: "Battlezone"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1979 Atari arcade game used a trackball to control a spaceship?"
+        answers:
+          A: "Missile Command"
+          B: "Asteroids"
+          C: "Lunar Lander"
+          D: "Battlezone"
+    difficulty: EXPERT
+  - text: "Dans Centipede, quel est le nom de l'araignée qui traverse l'écran en diagonale ?"
+    answers:
+      A: "Scorpion"
+      B: "Spider"
+      C: "Flea"
+      D: "Mosquito"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Centipede, what is the name of the spider that crosses the screen diagonally?"
+        answers:
+          A: "Scorpion"
+          B: "Spider"
+          C: "Flea"
+          D: "Mosquito"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1980 de Atari a été le premier à utiliser un écran vectoriel couleur ?"
+    answers:
+      A: "Star Wars"
+      B: "Battlezone"
+      C: "Tempest"
+      D: "Red Baron"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1980 Atari arcade game was the first to use a color vector screen?"
+        answers:
+          A: "Star Wars"
+          B: "Battlezone"
+          C: "Tempest"
+          D: "Red Baron"
+    difficulty: EXPERT
+  - text: "Quel est le nom du vaisseau que l'on pilote dans le jeu d'arcade Asteroids ?"
+    answers:
+      A: "Lanceur"
+      B: "Croiseur"
+      C: "Vaisseau triangulaire"
+      D: "Chasseur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the ship you pilot in the arcade game Asteroids?"
+        answers:
+          A: "Launcher"
+          B: "Cruiser"
+          C: "Triangular ship"
+          D: "Fighter"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1981 de Williams a introduit le premier joystick à retour de force ?"
+    answers:
+      A: "Defender"
+      B: "Robotron: 2084"
+      C: "Joust"
+      D: "Sinistar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1981 Williams arcade game introduced the first force-feedback joystick?"
+        answers:
+          A: "Defender"
+          B: "Robotron: 2084"
+          C: "Joust"
+          D: "Sinistar"
+    difficulty: HARD
+  - text: "Dans Joust, quel type de monture chevauche le joueur ?"
+    answers:
+      A: "Une autruche"
+      B: "Un dinosaure"
+      C: "Un cheval"
+      D: "Un dragon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Joust, what type of mount does the player ride?"
+        answers:
+          A: "An ostrich"
+          B: "A dinosaur"
+          C: "A horse"
+          D: "A dragon"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1981 de Nintendo a été le premier à utiliser un écran de 19 pouces orienté verticalement ?"
+    answers:
+      A: "Space Fever"
+      B: "Radar Scope"
+      C: "Donkey Kong"
+      D: "Sheriff"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1981 Nintendo arcade game was the first to use a vertically oriented 19-inch screen?"
+        answers:
+          A: "Space Fever"
+          B: "Radar Scope"
+          C: "Donkey Kong"
+          D: "Sheriff"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plombier dans le jeu d'arcade Mario Bros. de 1983 ?"
+    answers:
+      A: "Jumpman"
+      B: "Luigi"
+      C: "Mario"
+      D: "Mr. Video"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the plumber in the 1983 arcade game Mario Bros.?"
+        answers:
+          A: "Jumpman"
+          B: "Luigi"
+          C: "Mario"
+          D: "Mr. Video"
+    difficulty: EASY
+  - text: "Quel jeu d'arcade de 1983 de Bally Midway met en scène un personnage qui doit sauver sa petite amie ?"
+    answers:
+      A: "Spy Hunter"
+      B: "Tapper"
+      C: "Tron"
+      D: "Journey"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1983 Bally Midway arcade game features a character who must save his girlfriend?"
+        answers:
+          A: "Spy Hunter"
+          B: "Tapper"
+          C: "Tron"
+          D: "Journey"
+    difficulty: HARD
+  - text: "Dans Spy Hunter, quel véhicule le joueur conduit-il ?"
+    answers:
+      A: "Une moto"
+      B: "Un camion"
+      C: "Une voiture de sport"
+      D: "Un hélicoptère"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Spy Hunter, what vehicle does the player drive?"
+        answers:
+          A: "A motorcycle"
+          B: "A truck"
+          C: "A sports car"
+          D: "A helicopter"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1982 de Sega utilise un contrôleur en forme de manche à balai ?"
+    answers:
+      A: "Zaxxon"
+      B: "Star Trek"
+      C: "SubRoc-3D"
+      D: "Tac/Scan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1982 Sega arcade game uses a broomstick-shaped controller?"
+        answers:
+          A: "Zaxxon"
+          B: "Star Trek"
+          C: "SubRoc-3D"
+          D: "Tac/Scan"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal dans le jeu d'arcade Zaxxon ?"
+    answers:
+      A: "Un avion"
+      B: "Un robot"
+      C: "Un vaisseau spatial"
+      D: "Un tank"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the main character in the arcade game Zaxxon?"
+        answers:
+          A: "A plane"
+          B: "A robot"
+          C: "A spaceship"
+          D: "A tank"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1983 de Cinematronics utilise un écran vectoriel couleur et se déroule dans un univers de science-fiction ?"
+    answers:
+      A: "Rip Off"
+      B: "Star Castle"
+      C: "Warrior"
+      D: "War of the Worlds"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1983 Cinematronics arcade game uses a color vector screen and is set in a science fiction universe?"
+        answers:
+          A: "Rip Off"
+          B: "Star Castle"
+          C: "Warrior"
+          D: "War of the Worlds"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1981 de Konami met en scène un personnage qui doit escalader une tour tout en évitant des objets ?"
+    answers:
+      A: "Amidar"
+      B: "Tutankham"
+      C: "Scramble"
+      D: "Frogger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1981 Konami arcade game features a character who must climb a tower while avoiding objects?"
+        answers:
+          A: "Amidar"
+          B: "Tutankham"
+          C: "Scramble"
+          D: "Frogger"
+    difficulty: HARD

@@ -1,0 +1,1666 @@
+topic:
+  id: topic-hp6-prince-de-sang-mele
+  names:
+    fr: "Harry Potter et le Prince de sang-mêlé"
+    en: "Harry Potter and the Half-Blood Prince"
+  description: "Sixième année : le professeur Slughorn, le livre du Prince de sang-mêlé, les Horcruxes, les souvenirs de Voldemort dans la Pensine, la mission de Drago, la caverne aux Inferi et la mort de Dumbledore sur la tour d'astronomie. Réalisé par David Yates en 2009."
+  category: MOVIES
+  titles:
+    fr:
+      FER: "Élève de première année"
+      BRONZE: "Collectionneur de Chocogrenouilles"
+      ARGENT: "Élève de Slughorn"
+      OR: "Membre de l'AD"
+      PLATINE: "Lecteur du Prince"
+      EMERAUDE: "Briseur d'Horcruxes"
+      DIAMANT: "Vainqueur de Voldemort"
+    en:
+      FER: "First-Year Student"
+      BRONZE: "Chocolate Frog Collector"
+      ARGENT: "Slughorn's Student"
+      OR: "Dumbledore's Army Member"
+      PLATINE: "Half-Blood Prince Reader"
+      EMERAUDE: "Horcrux Destroyer"
+      DIAMANT: "Vanquisher of Voldemort"
+  imageUrl: wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg
+questions:
+  - text: "Qui incarne Harry Potter dans Le Prince de sang-mêlé ?"
+    imageUrl: wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg
+    answers:
+      A: "Rupert Grint"
+      B: "Daniel Radcliffe"
+      C: "Tom Felton"
+      D: "Matthew Lewis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Harry Potter in The Half-Blood Prince?"
+        answers:
+          A: "Rupert Grint"
+          B: "Daniel Radcliffe"
+          C: "Tom Felton"
+          D: "Matthew Lewis"
+    difficulty: EASY
+  - text: "Qui joue Hermione Granger dans ce sixième film ?"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
+    answers:
+      A: "Emma Watson"
+      B: "Bonnie Wright"
+      C: "Evanna Lynch"
+      D: "Maggie Smith"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Hermione Granger in this sixth film?"
+        answers:
+          A: "Emma Watson"
+          B: "Bonnie Wright"
+          C: "Evanna Lynch"
+          D: "Maggie Smith"
+    difficulty: EASY
+  - text: "Qui incarne Ron Weasley dans ce volet ?"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
+    answers:
+      A: "Daniel Radcliffe"
+      B: "Tom Felton"
+      C: "Rupert Grint"
+      D: "Warwick Davis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Ron Weasley in this installment?"
+        answers:
+          A: "Daniel Radcliffe"
+          B: "Tom Felton"
+          C: "Rupert Grint"
+          D: "Warwick Davis"
+    difficulty: EASY
+  - text: "Qui joue Drago Malefoy dans ce film ?"
+    imageUrl: wikipedia/movies/Tom_Felton_1.jpg
+    answers:
+      A: "Jason Isaacs"
+      B: "Rupert Grint"
+      C: "Matthew Lewis"
+      D: "Tom Felton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who plays Draco Malfoy in this film?"
+        answers:
+          A: "Jason Isaacs"
+          B: "Rupert Grint"
+          C: "Matthew Lewis"
+          D: "Tom Felton"
+    difficulty: EASY
+  - text: "Qui joue le professeur Rogue, nouveau professeur de DCFM ?"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
+    answers:
+      A: "Richard Harris"
+      B: "Alan Rickman"
+      C: "John Cleese"
+      D: "Warwick Davis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who plays Professor Snape, the new Defense Against the Dark Arts teacher?"
+        answers:
+          A: "Richard Harris"
+          B: "Alan Rickman"
+          C: "John Cleese"
+          D: "Warwick Davis"
+    difficulty: EASY
+  - text: "Qui incarne Minerva McGonagall dans ce volet ?"
+    imageUrl: wikipedia/movies/Maggie_Smith_-_Vintage.jpg
+    answers:
+      A: "Maggie Smith"
+      B: "Emma Thompson"
+      C: "Julie Walters"
+      D: "Imelda Staunton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Minerva McGonagall in this installment?"
+        answers:
+          A: "Maggie Smith"
+          B: "Emma Thompson"
+          C: "Julie Walters"
+          D: "Imelda Staunton"
+    difficulty: EASY
+  - text: "Quel acteur reprend Hagrid ici ?"
+    imageUrl: wikipedia/movies/Robbiecoltrane_(cropped).jpg
+    answers:
+      A: "Mark Williams"
+      B: "Brendan Gleeson"
+      C: "Robbie Coltrane"
+      D: "Gary Oldman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor returns as Hagrid here?"
+        answers:
+          A: "Mark Williams"
+          B: "Brendan Gleeson"
+          C: "Robbie Coltrane"
+          D: "Gary Oldman"
+    difficulty: EASY
+  - text: "Qui incarne Dumbledore dans ce film ?"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
+    answers:
+      A: "Michael Gambon"
+      B: "Richard Harris"
+      C: "Alan Rickman"
+      D: "John Cleese"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Dumbledore in this film?"
+        answers:
+          A: "Michael Gambon"
+          B: "Richard Harris"
+          C: "Alan Rickman"
+          D: "John Cleese"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Lord Voldemort dans ce volet ?"
+    imageUrl: wikipedia/movies/Ralph_Fiennes_2024.jpg
+    answers:
+      A: "Ralph Fiennes"
+      B: "Gary Oldman"
+      C: "Jason Isaacs"
+      D: "David Thewlis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Lord Voldemort in this installment?"
+        answers:
+          A: "Ralph Fiennes"
+          B: "Gary Oldman"
+          C: "Jason Isaacs"
+          D: "David Thewlis"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne Bellatrix Lestrange ici ?"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
+    answers:
+      A: "Imelda Staunton"
+      B: "Emma Thompson"
+      C: "Helena Bonham Carter"
+      D: "Maggie Smith"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays Bellatrix Lestrange here?"
+        answers:
+          A: "Imelda Staunton"
+          B: "Emma Thompson"
+          C: "Helena Bonham Carter"
+          D: "Maggie Smith"
+    difficulty: EASY
+  - text: "Quel acteur reprend Sirius Black en flashback ?"
+    imageUrl: wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg
+    answers:
+      A: "Gary Oldman"
+      B: "David Thewlis"
+      C: "Jason Isaacs"
+      D: "Brendan Gleeson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor returns as Sirius Black in a flashback?"
+        answers:
+          A: "Gary Oldman"
+          B: "David Thewlis"
+          C: "Jason Isaacs"
+          D: "Brendan Gleeson"
+    difficulty: HARD
+  - text: "Quel acteur reprend Remus Lupin dans ce volet ?"
+    imageUrl: wikipedia/movies/David_Thewlis_2008.jpg
+    answers:
+      A: "Gary Oldman"
+      B: "David Thewlis"
+      C: "Brendan Gleeson"
+      D: "Jason Isaacs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor returns as Remus Lupin in this installment?"
+        answers:
+          A: "Gary Oldman"
+          B: "David Thewlis"
+          C: "Brendan Gleeson"
+          D: "Jason Isaacs"
+    difficulty: MEDIUM
+  - text: "Qui réalise Le Prince de sang-mêlé ?"
+    imageUrl: wikipedia/movies/David_Yates_2010_Cropped.jpg
+    answers:
+      A: "Mike Newell"
+      B: "Chris Columbus"
+      C: "Alfonso Cuarón"
+      D: "David Yates"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who directed The Half-Blood Prince?"
+        answers:
+          A: "Mike Newell"
+          B: "Chris Columbus"
+          C: "Alfonso Cuarón"
+          D: "David Yates"
+    difficulty: MEDIUM
+  - text: "Qui a écrit le roman adapté dans ce film ?"
+    imageUrl: wikipedia/literature/J._K._Rowling_2010.jpg
+    answers:
+      A: "J. R. R. Tolkien"
+      B: "J. K. Rowling"
+      C: "Roald Dahl"
+      D: "C. S. Lewis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the novel adapted in this film?"
+        answers:
+          A: "J. R. R. Tolkien"
+          B: "J. K. Rowling"
+          C: "Roald Dahl"
+          D: "C. S. Lewis"
+    difficulty: EASY
+  - text: "Qui incarne Arthur Weasley ici ?"
+    imageUrl: wikipedia/movies/Mark_Williams_at_BBSE.jpg
+    answers:
+      A: "John Cleese"
+      B: "Brendan Gleeson"
+      C: "Jason Isaacs"
+      D: "Mark Williams"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who plays Arthur Weasley here?"
+        answers:
+          A: "John Cleese"
+          B: "Brendan Gleeson"
+          C: "Jason Isaacs"
+          D: "Mark Williams"
+    difficulty: MEDIUM
+  - text: "Qui joue Molly Weasley dans ce film ?"
+    imageUrl: wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg
+    answers:
+      A: "Julie Walters"
+      B: "Maggie Smith"
+      C: "Emma Thompson"
+      D: "Imelda Staunton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Molly Weasley in this film?"
+        answers:
+          A: "Julie Walters"
+          B: "Maggie Smith"
+          C: "Emma Thompson"
+          D: "Imelda Staunton"
+    difficulty: MEDIUM
+  - text: "Quelle actrice joue Ginny dans ce volet ?"
+    imageUrl: wikipedia/movies/Bonnie_Wright_crop2.jpg
+    answers:
+      A: "Helena Bonham Carter"
+      B: "Emma Watson"
+      C: "Evanna Lynch"
+      D: "Bonnie Wright"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actress plays Ginny in this installment?"
+        answers:
+          A: "Helena Bonham Carter"
+          B: "Emma Watson"
+          C: "Evanna Lynch"
+          D: "Bonnie Wright"
+    difficulty: MEDIUM
+  - text: "Qui incarne Neville Londubat ici ?"
+    imageUrl: wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg
+    answers:
+      A: "Matthew Lewis"
+      B: "Tom Felton"
+      C: "Rupert Grint"
+      D: "Warwick Davis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Neville Longbottom here?"
+        answers:
+          A: "Matthew Lewis"
+          B: "Tom Felton"
+          C: "Rupert Grint"
+          D: "Warwick Davis"
+    difficulty: MEDIUM
+  - text: "Quel acteur joue Filius Flitwick dans ce film ?"
+    imageUrl: wikipedia/movies/Warwick_Davis_interviewed_2.jpg
+    answers:
+      A: "Mark Williams"
+      B: "John Cleese"
+      C: "Warwick Davis"
+      D: "Robbie Coltrane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Filius Flitwick in this film?"
+        answers:
+          A: "Mark Williams"
+          B: "John Cleese"
+          C: "Warwick Davis"
+          D: "Robbie Coltrane"
+    difficulty: HARD
+  - text: "Quel acteur reprend Nick Quasi-Sans-Tête ?"
+    imageUrl: wikipedia/movies/John_Cleese_2008.jpg
+    answers:
+      A: "Richard Harris"
+      B: "Warwick Davis"
+      C: "John Cleese"
+      D: "Robbie Coltrane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor returns as Nearly Headless Nick?"
+        answers:
+          A: "Richard Harris"
+          B: "Warwick Davis"
+          C: "John Cleese"
+          D: "Robbie Coltrane"
+    difficulty: HARD
+  - text: "Quelle actrice revient en Sybille Trelawney ?"
+    imageUrl: wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg
+    answers:
+      A: "Maggie Smith"
+      B: "Emma Thompson"
+      C: "Imelda Staunton"
+      D: "Julie Walters"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actress returns as Sybill Trelawney?"
+        answers:
+          A: "Maggie Smith"
+          B: "Emma Thompson"
+          C: "Imelda Staunton"
+          D: "Julie Walters"
+    difficulty: HARD
+  - text: "Quelle actrice incarne Luna Lovegood dans ce film ?"
+    imageUrl: wikipedia/movies/Evanna_Lynch_(51693246964).jpg
+    answers:
+      A: "Evanna Lynch"
+      B: "Bonnie Wright"
+      C: "Emma Watson"
+      D: "Helena Bonham Carter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress plays Luna Lovegood in this film?"
+        answers:
+          A: "Evanna Lynch"
+          B: "Bonnie Wright"
+          C: "Emma Watson"
+          D: "Helena Bonham Carter"
+    difficulty: EASY
+  - text: "Quel château sert de décor à Poudlard ici ?"
+    imageUrl: wikipedia/movies/Alnwick_Castle_2011.jpg
+    answers:
+      A: "le château d'Alnwick"
+      B: "le château de Windsor"
+      C: "le château de Douvres"
+      D: "le château de Warwick"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which castle serves as the setting for Hogwarts here?"
+        answers:
+          A: "Alnwick Castle"
+          B: "Windsor Castle"
+          C: "Dover Castle"
+          D: "Warwick Castle"
+    difficulty: MEDIUM
+  - text: "Quelle cathédrale sert de couloirs dans ce film ?"
+    imageUrl: wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg
+    answers:
+      A: "l'abbaye de Westminster"
+      B: "la cathédrale de Durham"
+      C: "la cathédrale de Gloucester"
+      D: "la cathédrale d'York"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which cathedral serves as the corridors in this film?"
+        answers:
+          A: "Westminster Abbey"
+          B: "Durham Cathedral"
+          C: "Gloucester Cathedral"
+          D: "York Cathedral"
+    difficulty: HARD
+  - text: "Quel escalier d'Oxford apparaît dans ce volet ?"
+    imageUrl: wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg
+    answers:
+      A: "la Radcliffe Camera"
+      B: "la Bodleian Library"
+      C: "Christ Church"
+      D: "Magdalen College"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Oxford staircase appears in this installment?"
+        answers:
+          A: "the Radcliffe Camera"
+          B: "the Bodleian Library"
+          C: "Christ Church"
+          D: "Magdalen College"
+    difficulty: EXPERT
+  - text: "Quelle bibliothèque d'Oxford évoque Poudlard ici ?"
+    imageUrl: wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg
+    answers:
+      A: "la Bodleian Library"
+      B: "Christ Church"
+      C: "la Radcliffe Camera"
+      D: "le Sheldonian Theatre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Oxford library evokes Hogwarts here?"
+        answers:
+          A: "the Bodleian Library"
+          B: "Christ Church"
+          C: "the Radcliffe Camera"
+          D: "the Sheldonian Theatre"
+    difficulty: EXPERT
+  - text: "Quelle gare londonienne revient dans ce film ?"
+    imageUrl: wikipedia/movies/King's_Cross_Western_Concourse.jpg
+    answers:
+      A: "King's Cross"
+      B: "Paddington"
+      C: "Euston"
+      D: "Waterloo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which London station returns in this film?"
+        answers:
+          A: "King's Cross"
+          B: "Paddington"
+          C: "Euston"
+          D: "Waterloo"
+    difficulty: MEDIUM
+  - text: "Quel quai mène au Poudlard Express ?"
+    imageUrl: wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg
+    answers:
+      A: "le quai 21"
+      B: "le quai 13"
+      C: "le quai 7"
+      D: "le quai 9¾"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which platform leads to the Hogwarts Express?"
+        answers:
+          A: "Platform 21"
+          B: "Platform 13"
+          C: "Platform 7"
+          D: "Platform 9¾"
+    difficulty: MEDIUM
+  - text: "Quel marché évoque le Chemin de Traverse ?"
+    imageUrl: wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg
+    answers:
+      A: "Leadenhall Market"
+      B: "Borough Market"
+      C: "Camden Market"
+      D: "Portobello Road"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which market evokes Diagon Alley?"
+        answers:
+          A: "Leadenhall Market"
+          B: "Borough Market"
+          C: "Camden Market"
+          D: "Portobello Road"
+    difficulty: HARD
+  - text: "Quel train ramène les élèves à Poudlard ?"
+    imageUrl: wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg
+    answers:
+      A: "l'Orient Express"
+      B: "le Transsibérien"
+      C: "le Poudlard Express"
+      D: "le Flying Scotsman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which train brings the students back to Hogwarts?"
+        answers:
+          A: "the Orient Express"
+          B: "the Trans-Siberian"
+          C: "the Hogwarts Express"
+          D: "the Flying Scotsman"
+    difficulty: MEDIUM
+  - text: "Quel village est évoqué cette année ?"
+    imageUrl: wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg
+    answers:
+      A: "Le Chemin de Traverse"
+      B: "Godric's Hollow"
+      C: "Azkaban"
+      D: "Pré-au-Lard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which village is featured this year?"
+        answers:
+          A: "Diagon Alley"
+          B: "Godric's Hollow"
+          C: "Azkaban"
+          D: "Hogsmeade"
+    difficulty: HARD
+  - text: "Sur quel viaduc passe le train des sorciers ?"
+    imageUrl: wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg
+    answers:
+      A: "le viaduc de Glenfinnan"
+      B: "le pont de Forth"
+      C: "le viaduc de Millau"
+      D: "le pont de Brooklyn"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which viaduct does the wizarding train cross?"
+        answers:
+          A: "the Glenfinnan Viaduct"
+          B: "the Forth Bridge"
+          C: "the Millau Viaduct"
+          D: "the Brooklyn Bridge"
+    difficulty: HARD
+  - text: "Quelle cathédrale sert de cloître à Poudlard ici ?"
+    imageUrl: wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg
+    answers:
+      A: "la cathédrale d'York"
+      B: "la cathédrale de Durham"
+      C: "la cathédrale de Salisbury"
+      D: "la cathédrale de Lincoln"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which cathedral serves as the cloister for Hogwarts here?"
+        answers:
+          A: "York Cathedral"
+          B: "Durham Cathedral"
+          C: "Salisbury Cathedral"
+          D: "Lincoln Cathedral"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le directeur qui meurt dans ce film ?"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
+    answers:
+      A: "Alan Rickman"
+      B: "Richard Harris"
+      C: "Michael Gambon"
+      D: "John Cleese"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays the headmaster who dies in this film?"
+        answers:
+          A: "Alan Rickman"
+          B: "Richard Harris"
+          C: "Michael Gambon"
+          D: "John Cleese"
+    difficulty: MEDIUM
+  - text: "Quel acteur joue le mage noir dans ce volet ?"
+    imageUrl: wikipedia/movies/Ralph_Fiennes_2024.jpg
+    answers:
+      A: "David Thewlis"
+      B: "Gary Oldman"
+      C: "Jason Isaacs"
+      D: "Ralph Fiennes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the dark wizard in this installment?"
+        answers:
+          A: "David Thewlis"
+          B: "Gary Oldman"
+          C: "Jason Isaacs"
+          D: "Ralph Fiennes"
+    difficulty: HARD
+  - text: "Quelle actrice incarne la sorcière qui attaque le Terrier ?"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
+    answers:
+      A: "Imelda Staunton"
+      B: "Emma Thompson"
+      C: "Helena Bonham Carter"
+      D: "Maggie Smith"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays the witch who attacks the Burrow?"
+        answers:
+          A: "Imelda Staunton"
+          B: "Emma Thompson"
+          C: "Helena Bonham Carter"
+          D: "Maggie Smith"
+    difficulty: HARD
+  - text: "Qui joue le jeune homme devant tuer Dumbledore ?"
+    imageUrl: wikipedia/movies/Tom_Felton_1.jpg
+    answers:
+      A: "Tom Felton"
+      B: "Rupert Grint"
+      C: "Matthew Lewis"
+      D: "Jason Isaacs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays the young man destined to kill Dumbledore?"
+        answers:
+          A: "Tom Felton"
+          B: "Rupert Grint"
+          C: "Matthew Lewis"
+          D: "Jason Isaacs"
+    difficulty: HARD
+  - text: "Quel acteur incarne le professeur qui tue Dumbledore ?"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
+    answers:
+      A: "Michael Gambon"
+      B: "Alan Rickman"
+      C: "Jim Broadbent"
+      D: "David Thewlis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays the professor who kills Dumbledore?"
+        answers:
+          A: "Michael Gambon"
+          B: "Alan Rickman"
+          C: "Jim Broadbent"
+          D: "David Thewlis"
+    difficulty: MEDIUM
+  - text: "Quelle actrice incarne l'élève amoureuse de Ron ici ?"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
+    answers:
+      A: "Evanna Lynch"
+      B: "Bonnie Wright"
+      C: "Emma Watson"
+      D: "Maggie Smith"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays the student in love with Ron here?"
+        answers:
+          A: "Evanna Lynch"
+          B: "Bonnie Wright"
+          C: "Emma Watson"
+          D: "Maggie Smith"
+    difficulty: HARD
+  - text: "Quel acteur incarne le meilleur ami qui sort avec Lavande ?"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
+    answers:
+      A: "Warwick Davis"
+      B: "Tom Felton"
+      C: "Daniel Radcliffe"
+      D: "Rupert Grint"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the best friend who dates Lavender?"
+        answers:
+          A: "Warwick Davis"
+          B: "Tom Felton"
+          C: "Daniel Radcliffe"
+          D: "Rupert Grint"
+    difficulty: MEDIUM
+  - text: "Dans le film Le Prince de sang-mêlé, quelle créature apparaît dans la caverne aux Inferi ?"
+    answers:
+      A: "Des Détraqueurs"
+      B: "Des Inferi"
+      C: "Des Acromantules"
+      D: "Des Scroutts à pétard"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the film The Half-Blood Prince, which creature appears in the Inferi cave?"
+        answers:
+          A: "Dementors"
+          B: "Inferi"
+          C: "Acromantulas"
+          D: "Pygmy Puffs"
+    difficulty: HARD
+  - text: "Quel est le titre du manuel de potions annoté que Harry utilise en sixième année ?"
+    answers:
+      A: "Potions Élémentaires"
+      B: "Le Livre des Potions"
+      C: "Potions Avancées"
+      D: "Manuel de Potions Niveau 6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the annotated potions textbook Harry uses in his sixth year?"
+        answers:
+          A: "Elementary Potions"
+          B: "The Book of Potions"
+          C: "Advanced Potion-Making"
+          D: "Potions Manual Level 6"
+    difficulty: HARD
+  - text: "Quel souvenir de Voldemort Slughorn modifie-t-il dans la Pensine ?"
+    answers:
+      A: "Celui concernant la mort de ses parents"
+      B: "Celui de l'ouverture de la Chambre des Secrets"
+      C: "Celui de sa première rencontre avec Dumbledore"
+      D: "Celui où il demande ce qu'est un Horcruxe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which memory of Voldemort does Slughorn alter in the Pensieve?"
+        answers:
+          A: "The one about his parents' death"
+          B: "The one about opening the Chamber of Secrets"
+          C: "The one of his first meeting with Dumbledore"
+          D: "The one where he asks what a Horcrux is"
+    difficulty: HARD
+  - text: "Quel objet Dumbledore et Harry vont-ils chercher dans la caverne ?"
+    answers:
+      A: "La coupe de Poufsouffle"
+      B: "La bague des Gaunt"
+      C: "Le médaillon de Serpentard"
+      D: "Le diadème de Serdaigle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which object do Dumbledore and Harry go to retrieve in the cave?"
+        answers:
+          A: "Hufflepuff's Cup"
+          B: "The Gaunt Ring"
+          C: "Slytherin's Locket"
+          D: "Ravenclaw's Diadem"
+    difficulty: HARD
+  - text: "Qui est le Prince de sang-mêlé ?"
+    answers:
+      A: "Tom Jedusor"
+      B: "Regulus Black"
+      C: "Drago Malefoy"
+      D: "Severus Rogue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the Half-Blood Prince?"
+        answers:
+          A: "Tom Riddle"
+          B: "Regulus Black"
+          C: "Draco Malfoy"
+          D: "Severus Snape"
+    difficulty: MEDIUM
+  - text: "Quel sort Harry lance-t-il contre Drago Malefoy dans les toilettes ?"
+    answers:
+      A: "Sectumsempra"
+      B: "Sectumsepra"
+      C: "Levicorpus"
+      D: "Expelliarmus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What spell does Harry cast at Draco Malfoy in the bathroom?"
+        answers:
+          A: "Sectumsempra"
+          B: "Sectumsepra"
+          C: "Levicorpus"
+          D: "Expelliarmus"
+    difficulty: HARD
+  - text: "Qui tue Dumbledore sur la tour d'astronomie ?"
+    answers:
+      A: "Bellatrix Lestrange"
+      B: "Drago Malefoy"
+      C: "Fenrir Greyback"
+      D: "Severus Rogue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who kills Dumbledore on the Astronomy Tower?"
+        answers:
+          A: "Bellatrix Lestrange"
+          B: "Draco Malfoy"
+          C: "Fenrir Greyback"
+          D: "Severus Snape"
+    difficulty: MEDIUM
+  - text: "Quel personnage est chargé par Voldemort de tuer Dumbledore ?"
+    answers:
+      A: "Drago Malefoy"
+      B: "Bellatrix Lestrange"
+      C: "Severus Rogue"
+      D: "Peter Pettigrow"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is tasked by Voldemort to kill Dumbledore?"
+        answers:
+          A: "Draco Malfoy"
+          B: "Bellatrix Lestrange"
+          C: "Severus Snape"
+          D: "Peter Pettigrew"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'elfe de maison de Horace Slughorn ?"
+    answers:
+      A: "Kreattur"
+      B: "Dobby"
+      C: "Winky"
+      D: "Mimi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Horace Slughorn's house-elf?"
+        answers:
+          A: "Kreacher"
+          B: "Dobby"
+          C: "Winky"
+          D: "Mimi"
+    difficulty: EXPERT
+  - text: "Quel objet appartenant à Dumbledore Harry trouve-t-il dans la caverne ?"
+    answers:
+      A: "Une bague"
+      B: "Un livre"
+      C: "Une baguette"
+      D: "Un médaillon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which object belonging to Dumbledore does Harry find in the cave?"
+        answers:
+          A: "A ring"
+          B: "A book"
+          C: "A wand"
+          D: "A locket"
+    difficulty: HARD
+  - text: "Qui est le professeur de Défense Contre les Forces du Mal en sixième année ?"
+    answers:
+      A: "Remus Lupin"
+      B: "Horace Slughorn"
+      C: "Severus Rogue"
+      D: "Dolores Ombrage"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the Defense Against the Dark Arts professor in sixth year?"
+        answers:
+          A: "Remus Lupin"
+          B: "Horace Slughorn"
+          C: "Severus Snape"
+          D: "Dolores Umbridge"
+    difficulty: MEDIUM
+  - text: "Quel est le premier nom du professeur Slughorn ?"
+    answers:
+      A: "Herbert"
+      B: "Horace"
+      C: "Hugo"
+      D: "Harold"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Professor Slughorn's first name?"
+        answers:
+          A: "Herbert"
+          B: "Horace"
+          C: "Hugo"
+          D: "Harold"
+    difficulty: HARD
+  - text: "Quel élève est choisi comme commentateur de match de Quidditch en sixième année ?"
+    answers:
+      A: "Dean Thomas"
+      B: "Seamus Finnigan"
+      C: "Zacharias Smith"
+      D: "Luna Lovegood"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which student is chosen as Quidditch commentator in sixth year?"
+        answers:
+          A: "Dean Thomas"
+          B: "Seamus Finnigan"
+          C: "Zacharias Smith"
+          D: "Luna Lovegood"
+    difficulty: EXPERT
+  - text: "Quel est le nom du pub où Dumbledore et Harry se rendent pour recruter Slughorn ?"
+    answers:
+      A: "Le Chaudron Baveur"
+      B: "La Tête de Sanglier"
+      C: "Les Trois Balais"
+      D: "Le Verre et la Plume"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the pub where Dumbledore and Harry go to recruit Slughorn?"
+        answers:
+          A: "The Leaky Cauldron"
+          B: "The Hog's Head"
+          C: "The Three Broomsticks"
+          D: "The Glass and Quill"
+    difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour attacher Ron à son lit d'hôpital ?"
+    answers:
+      A: "Levicorpus"
+      B: "Petrificus Totalus"
+      C: "Incarcerous"
+      D: "Mobilicorpus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What spell does Hermione use to bind Ron to his hospital bed?"
+        answers:
+          A: "Levicorpus"
+          B: "Petrificus Totalus"
+          C: "Incarcerous"
+          D: "Mobilicorpus"
+    difficulty: EXPERT
+  - text: "Quel est le nom du loup-garou qui attaque Bill Weasley ?"
+    answers:
+      A: "Remus Lupin"
+      B: "Fenrir Greyback"
+      C: "Lucius Malefoy"
+      D: "Peter Pettigrow"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the werewolf who attacks Bill Weasley?"
+        answers:
+          A: "Remus Lupin"
+          B: "Fenrir Greyback"
+          C: "Lucius Malfoy"
+          D: "Peter Pettigrew"
+    difficulty: EXPERT
+  - text: "Quel personnage meurt dans la bataille de la tour d'astronomie ?"
+    answers:
+      A: "Harry"
+      B: "Dumbledore"
+      C: "Rogue"
+      D: "Drago"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character dies in the battle of the Astronomy Tower?"
+        answers:
+          A: "Harry"
+          B: "Dumbledore"
+          C: "Snape"
+          D: "Draco"
+    difficulty: HARD
+  - text: "Quel est le lien entre le médaillon de la caverne et Voldemort ?"
+    answers:
+      A: "Il appartenait à Helga Poufsouffle"
+      B: "Il appartenait à Godric Gryffondor"
+      C: "Il appartenait à Rowena Serdaigle"
+      D: "Il appartenait à Salazar Serpentard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the connection between the locket in the cave and Voldemort?"
+        answers:
+          A: "It belonged to Helga Hufflepuff"
+          B: "It belonged to Godric Gryffindor"
+          C: "It belonged to Rowena Ravenclaw"
+          D: "It belonged to Salazar Slytherin"
+    difficulty: HARD
+  - text: "Quel personnage aide Harry à obtenir le souvenir de Slughorn ?"
+    answers:
+      A: "Ron Weasley"
+      B: "Hermione Granger"
+      C: "Ginny Weasley"
+      D: "Luna Lovegood"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character helps Harry obtain Slughorn's memory?"
+        answers:
+          A: "Ron Weasley"
+          B: "Hermione Granger"
+          C: "Ginny Weasley"
+          D: "Luna Lovegood"
+    difficulty: HARD
+  - text: "Quel est le nom de la boutique de farces et attrapes des jumeaux Weasley ?"
+    answers:
+      A: "Farces pour Sorciers Facétieux"
+      B: "Weasley Farces"
+      C: "Le Magasin de Blagues"
+      D: "Attrapes et Farces"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Weasley twins' joke shop?"
+        answers:
+          A: "Weasleys' Wizard Wheezes"
+          B: "Weasley Jokes"
+          C: "The Joke Shop"
+          D: "Pranks and Jokes"
+    difficulty: HARD
+  - text: "Dans le film, quel objet Harry trouve-t-il dans la caverne et rapporte-t-il à Dumbledore ?"
+    answers:
+      A: "Une coupe de Poufsouffle"
+      B: "Un médaillon de Serpentard"
+      C: "Un diadème de Serdaigle"
+      D: "Une bague des Gaunt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the film, what object does Harry find in the cave and bring back to Dumbledore?"
+        answers:
+          A: "A Hufflepuff cup"
+          B: "A Slytherin locket"
+          C: "A Ravenclaw diadem"
+          D: "A Gaunt ring"
+    difficulty: EXPERT
+  - text: "Quel personnage est le professeur de Métamorphose à Poudlard dans ce film ?"
+    answers:
+      A: "Horace Slughorn"
+      B: "Filius Flitwick"
+      C: "Minerva McGonagall"
+      D: "Severus Rogue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is the Transfiguration professor at Hogwarts in this film?"
+        answers:
+          A: "Horace Slughorn"
+          B: "Filius Flitwick"
+          C: "Minerva McGonagall"
+          D: "Severus Snape"
+    difficulty: HARD
+  - text: "Quel est le nom de la potion que Harry réussit à préparer grâce au livre du Prince et qui lui vaut une fiole de Felix Felicis ?"
+    answers:
+      A: "L'Amortentia"
+      B: "Le Philtre de Paix"
+      C: "Le Polynectar"
+      D: "Le Veritaserum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the potion that Harry successfully brews thanks to the Prince's book and which earns him a vial of Felix Felicis?"
+        answers:
+          A: "Amortentia"
+          B: "The Peace Philtre"
+          C: "Polyjuice Potion"
+          D: "Veritaserum"
+    difficulty: EXPERT
+  - text: "Qui est le professeur de Potions en sixième année ?"
+    answers:
+      A: "Severus Rogue"
+      B: "Filius Flitwick"
+      C: "Horace Slughorn"
+      D: "Pomona Chourave"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the Potions professor in the sixth year?"
+        answers:
+          A: "Severus Snape"
+          B: "Filius Flitwick"
+          C: "Horace Slughorn"
+          D: "Pomona Sprout"
+    difficulty: HARD
+  - text: "Quel est le nom de l'auberge où Harry et Dumbledore rencontrent Horace Slughorn ?"
+    answers:
+      A: "Le Magicobus"
+      B: "La Tête de Sanglier"
+      C: "Chez Fleury et Botts"
+      D: "Le Chaudron Baveur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the inn where Harry and Dumbledore meet Horace Slughorn?"
+        answers:
+          A: "The Knight Bus"
+          B: "The Hog's Head"
+          C: "Flourish and Blotts"
+          D: "The Leaky Cauldron"
+    difficulty: HARD
+  - text: "Quel sort Rogue utilise-t-il pour désarmer Harry à la fin du film ?"
+    answers:
+      A: "Sectumsempra"
+      B: "Expelliarmus"
+      C: "Levicorpus"
+      D: "Avada Kedavra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell does Snape use to disarm Harry at the end of the film?"
+        answers:
+          A: "Sectumsempra"
+          B: "Expelliarmus"
+          C: "Levicorpus"
+          D: "Avada Kedavra"
+    difficulty: EXPERT
+  - text: "Quel est le prénom de la mère de Voldemort, visible dans les souvenirs ?"
+    answers:
+      A: "Bellatrix"
+      B: "Mérope"
+      C: "Narcissa"
+      D: "Andromeda"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first name of Voldemort's mother, seen in the memories?"
+        answers:
+          A: "Bellatrix"
+          B: "Merope"
+          C: "Narcissa"
+          D: "Andromeda"
+    difficulty: EXPERT
+  - text: "Quel objet de Voldemort Dumbledore détruit-il avant le début du film ?"
+    answers:
+      A: "La bague des Gaunt"
+      B: "Le journal de Jedusor"
+      C: "Le médaillon de Salazard Serpentard"
+      D: "La coupe de Helga Poufsouffle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which of Voldemort's objects does Dumbledore destroy before the start of the film?"
+        answers:
+          A: "The Gaunt ring"
+          B: "Tom Riddle's diary"
+          C: "Salazar Slytherin's locket"
+          D: "Helga Hufflepuff's cup"
+    difficulty: HARD
+  - text: "Quel est le nom du loup-garou qui attaque Bill Weasley lors de la bataille de la tour d'astronomie ?"
+    answers:
+      A: "Bellatrix Lestrange"
+      B: "Remus Lupin"
+      C: "Peter Pettigrow"
+      D: "Fenrir Greyback"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the werewolf who attacks Bill Weasley during the battle of the Astronomy Tower?"
+        answers:
+          A: "Bellatrix Lestrange"
+          B: "Remus Lupin"
+          C: "Peter Pettigrew"
+          D: "Fenrir Greyback"
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par Bellatrix Lestrange lors de l'assaut de Poudlard ?"
+    answers:
+      A: "Nymphadora Tonks"
+      B: "Remus Lupin"
+      C: "Severus Rogue"
+      D: "Albus Dumbledore"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is killed by Bellatrix Lestrange during the assault on Hogwarts?"
+        answers:
+          A: "Nymphadora Tonks"
+          B: "Remus Lupin"
+          C: "Severus Snape"
+          D: "Albus Dumbledore"
+    difficulty: HARD
+  - text: "Combien de parties possède l'âme de Voldemort selon Slughorn dans le souvenir modifié ?"
+    answers:
+      A: "Deux"
+      B: "Trois"
+      C: "Cinq"
+      D: "Sept"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many parts does Voldemort's soul have according to Slughorn in the modified memory?"
+        answers:
+          A: "Two"
+          B: "Three"
+          C: "Five"
+          D: "Seven"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la plante utilisée par Harry pour la potion de Mort-aux-rats dans le film ?"
+    answers:
+      A: "Puffapod"
+      B: "Mandragore"
+      C: "Branchiflore"
+      D: "Asphodèle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the plant used by Harry for the Rat Poison potion in the film?"
+        answers:
+          A: "Puffapod"
+          B: "Mandrake"
+          C: "Gillyweed"
+          D: "Asphodel"
+    difficulty: EXPERT
+  - text: "Quel sort Harry utilise-t-il contre Drago Malefoy dans les toilettes, le blessant gravement ?"
+    answers:
+      A: "Expelliarmus"
+      B: "Sectumsempra"
+      C: "Stupéfix"
+      D: "Levicorpus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell does Harry use against Draco Malfoy in the bathroom, seriously wounding him?"
+        answers:
+          A: "Expelliarmus"
+          B: "Sectumsempra"
+          C: "Stupefy"
+          D: "Levicorpus"
+    difficulty: HARD
+  - text: "Quelle créature Dumbledore et Harry affrontent-ils dans la caverne ?"
+    answers:
+      A: "Des Acromantules"
+      B: "Des Détraqueurs"
+      C: "Des Inferi"
+      D: "Des Géants"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which creature do Dumbledore and Harry face in the cave?"
+        answers:
+          A: "Acromantulas"
+          B: "Dementors"
+          C: "Inferi"
+          D: "Giants"
+    difficulty: HARD
+  - text: "Quel est le nom du propriétaire du magasin de farces et attrapes où Harry, Ron et Hermione trouvent Drago ?"
+    answers:
+      A: "Borgin et Burkes"
+      B: "Weasley Farces pour Sorciers Facétieux"
+      C: "Chez Ollivander"
+      D: "Le Terrier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the owner of the joke shop where Harry, Ron, and Hermione find Draco?"
+        answers:
+          A: "Borgin and Burkes"
+          B: "Weasleys' Wizard Wheezes"
+          C: "Ollivanders"
+          D: "The Burrow"
+    difficulty: EXPERT
+  - text: "Quel personnage utilise le sort Langue de Plomb pour empêcher Harry de parler de Drago ?"
+    answers:
+      A: "Luna Lovegood"
+      B: "Neville Londubat"
+      C: "Hermione Granger"
+      D: "Ginny Weasley"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character uses the Tongue-Tying Spell to stop Harry from talking about Draco?"
+        answers:
+          A: "Luna Lovegood"
+          B: "Neville Longbottom"
+          C: "Hermione Granger"
+          D: "Ginny Weasley"
+    difficulty: EXPERT
+  - text: "Quel professeur enseigne la Défense Contre les Forces du Mal en sixième année ?"
+    answers:
+      A: "Severus Rogue"
+      B: "Horace Slughorn"
+      C: "Remus Lupin"
+      D: "Dolores Ombrage"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which professor teaches Defense Against the Dark Arts in sixth year?"
+        answers:
+          A: "Severus Snape"
+          B: "Horace Slughorn"
+          C: "Remus Lupin"
+          D: "Dolores Umbridge"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du sort que Harry utilise pour attacher Ron à son lit d'hôpital ?"
+    answers:
+      A: "Petrificus Totalus"
+      B: "Mobilicorpus"
+      C: "Levicorpus"
+      D: "Incarcerous"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the spell Harry uses to tie Ron to his hospital bed?"
+        answers:
+          A: "Petrificus Totalus"
+          B: "Mobilicorpus"
+          C: "Levicorpus"
+          D: "Incarcerous"
+    difficulty: EXPERT
+  - text: "Quel objet de Voldemort est un diadème ayant appartenu à une fondatrice de Poudlard ?"
+    answers:
+      A: "Le diadème de Serdaigle"
+      B: "Le médaillon de Serpentard"
+      C: "La coupe de Poufsouffle"
+      D: "La bague des Gaunt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which of Voldemort's objects is a diadem that belonged to a founder of Hogwarts?"
+        answers:
+          A: "The Diadem of Ravenclaw"
+          B: "The Locket of Slytherin"
+          C: "The Cup of Hufflepuff"
+          D: "The Gaunt Ring"
+    difficulty: HARD
+  - text: "Quelle est la fonction de Horace Slughorn avant de revenir enseigner à Poudlard ?"
+    answers:
+      A: "Ministre de la Magie"
+      B: "Directeur de Gringotts"
+      C: "Professeur retraité"
+      D: "Membre du Magenmagot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was Horace Slughorn's role before returning to teach at Hogwarts?"
+        answers:
+          A: "Minister for Magic"
+          B: "Director of Gringotts"
+          C: "Retired professor"
+          D: "Member of the Wizengamot"
+    difficulty: EXPERT
+  - text: "Dans Le Prince de sang-mêlé, quelle potion Harry prépare-t-il pour gagner la fiole de Felix Felicis ?"
+    answers:
+      A: "Le Polynectar"
+      B: "La Mort-aux-rats"
+      C: "L'Amortentia"
+      D: "Le Véritaserum"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Half-Blood Prince, which potion does Harry brew to win the vial of Felix Felicis?"
+        answers:
+          A: "Polyjuice Potion"
+          B: "Rat Poison"
+          C: "Amortentia"
+          D: "Veritaserum"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la potion qui fait tomber amoureux, enseignée par Slughorn ?"
+    answers:
+      A: "La Mandragore"
+      B: "Le Felix Felicis"
+      C: "L'Amortentia"
+      D: "Le Philtre de Paix"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the love potion taught by Slughorn?"
+        answers:
+          A: "Mandrake"
+          B: "Felix Felicis"
+          C: "Amortentia"
+          D: "Peace Philtre"
+    difficulty: HARD
+  - text: "Combien de temps dure l'effet du Felix Felicis selon Slughorn ?"
+    answers:
+      A: "6 heures"
+      B: "24 heures"
+      C: "12 heures"
+      D: "3 heures"
+    correctAnswer: C
+    translations:
+      en:
+        text: "According to Slughorn, how long does the effect of Felix Felicis last?"
+        answers:
+          A: "6 hours"
+          B: "24 hours"
+          C: "12 hours"
+          D: "3 hours"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier souvenir que Dumbledore montre à Harry dans la Pensine ?"
+    answers:
+      A: "Le souvenir de Bob Ogden"
+      B: "Le souvenir de Morvolo Gaunt"
+      C: "Le souvenir de Slughorn"
+      D: "Le souvenir du jeune Tom Jedusor"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first memory Dumbledore shows Harry in the Pensieve?"
+        answers:
+          A: "Bob Ogden's memory"
+          B: "Marvolo Gaunt's memory"
+          C: "Slughorn's memory"
+          D: "Young Tom Riddle's memory"
+    difficulty: EXPERT
+  - text: "Quel personnage Dumbledore et Harry rencontrent-ils dans le souvenir de Bob Ogden ?"
+    answers:
+      A: "Morvolo Gaunt"
+      B: "Merope Gaunt"
+      C: "Tom Jedusor Senior"
+      D: "Hepzibah Smith"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character do Dumbledore and Harry meet in Bob Ogden's memory?"
+        answers:
+          A: "Marvolo Gaunt"
+          B: "Merope Gaunt"
+          C: "Tom Riddle Senior"
+          D: "Hepzibah Smith"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la maison où vit la famille Gaunt dans les souvenirs ?"
+    answers:
+      A: "Le Manoir des Malefoy"
+      B: "La Cabane de la Hutte-au-Rocher"
+      C: "La Chaumière de la Lande"
+      D: "Le Cottage de Godric's Hollow"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the house where the Gaunt family lives in the memories?"
+        answers:
+          A: "Malfoy Manor"
+          B: "The Hut-on-the-Rock cabin"
+          C: "The Moor Cottage"
+          D: "The Godric's Hollow cottage"
+    difficulty: EXPERT
+  - text: "Quel objet Merope Gaunt utilise-t-elle pour ensorceler Tom Jedusor Senior ?"
+    answers:
+      A: "Un philtre d'amour"
+      B: "Un sortilège Imperium"
+      C: "Un médaillon"
+      D: "Une potion de Polynectar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What object does Merope Gaunt use to enchant Tom Riddle Senior?"
+        answers:
+          A: "A love potion"
+          B: "An Imperius Curse"
+          C: "A locket"
+          D: "A Polyjuice Potion"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'orphelinat où Dumbledore rencontre le jeune Tom Jedusor ?"
+    answers:
+      A: "L'orphelinat de Wool's"
+      B: "L'orphelinat de St. Mary"
+      C: "L'orphelinat de Londres"
+      D: "L'orphelinat de Little Whinging"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the orphanage where Dumbledore meets young Tom Riddle?"
+        answers:
+          A: "Wool's Orphanage"
+          B: "St. Mary's Orphanage"
+          C: "The London Orphanage"
+          D: "The Little Whinging Orphanage"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'ancêtre de Voldemort qui possédait l'anneau avec la Pierre de Résurrection ?"
+    answers:
+      A: "Cadmus Peverell"
+      B: "Antioch Peverell"
+      C: "Ignotus Peverell"
+      D: "Salazar Serpentard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Voldemort's ancestor who owned the ring with the Resurrection Stone?"
+        answers:
+          A: "Cadmus Peverell"
+          B: "Antioch Peverell"
+          C: "Ignotus Peverell"
+          D: "Salazar Slytherin"
+    difficulty: EXPERT
+  - text: "Quel objet de Voldemort Dumbledore détruit-il avec l'épée de Gryffondor avant le début du film ?"
+    answers:
+      A: "Le journal intime"
+      B: "Le médaillon de Serpentard"
+      C: "La bague des Gaunt"
+      D: "La coupe de Poufsouffle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which of Voldemort's objects does Dumbledore destroy with the Sword of Gryffindor before the film begins?"
+        answers:
+          A: "The diary"
+          B: "The Locket of Slytherin"
+          C: "The Gaunt ring"
+          D: "The Cup of Hufflepuff"
+    difficulty: HARD
+  - text: "Quel est le nom du directeur de l'orphelinat dans les souvenirs de Voldemort ?"
+    answers:
+      A: "Mme Bibine"
+      B: "Mme Pince"
+      C: "Mme Pomfresh"
+      D: "Mme Cole"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the orphanage director in Voldemort's memories?"
+        answers:
+          A: "Madam Hooch"
+          B: "Madam Pince"
+          C: "Madam Pomfrey"
+          D: "Mrs Cole"
+    difficulty: EXPERT
+  - text: "Quel est le nom du magasin de potions où Harry, Ron et Hermione se rendent à Pré-au-Lard ?"
+    answers:
+      A: "Chez Fleury et Bott"
+      B: "Le Magasin de farces et attrapes Zonko"
+      C: "La boutique de potions de Jigger Pokeby"
+      D: "Le Chaudron Baveur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the potion shop where Harry, Ron and Hermione go in Hogsmeade?"
+        answers:
+          A: "Flourish and Blotts"
+          B: "Zonko's Joke Shop"
+          C: "Jigger Pokeby's potion shop"
+          D: "The Leaky Cauldron"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la boisson que Dumbledore et Harry boivent dans la caverne ?"
+    answers:
+      A: "La potion d'Immortalité"
+      B: "La potion de Vif-argent"
+      C: "L'Élixir de Vie"
+      D: "Le philtre de désespoir"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the drink that Dumbledore and Harry drink in the cave?"
+        answers:
+          A: "The Immortality Potion"
+          B: "The Quicksilver Potion"
+          C: "The Elixir of Life"
+          D: "The Draught of Despair"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la créature qui attaque Harry et Dumbledore dans la caverne ?"
+    answers:
+      A: "Les Scrouts à pétales"
+      B: "Les Détraqueurs"
+      C: "Les Strélitzes"
+      D: "Les Inferi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the creature that attacks Harry and Dumbledore in the cave?"
+        answers:
+          A: "The Petal Scrouts"
+          B: "The Dementors"
+          C: "The Streelers"
+          D: "The Inferi"
+    difficulty: EXPERT
+  - text: "Quel objet Harry utilise-t-il pour faire boire Dumbledore dans la caverne ?"
+    answers:
+      A: "Une fiole en cristal"
+      B: "Une coupe en or"
+      C: "Un gobelet en étain"
+      D: "Une cuillère en argent"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What object does Harry use to make Dumbledore drink in the cave?"
+        answers:
+          A: "A crystal vial"
+          B: "A golden goblet"
+          C: "A tin cup"
+          D: "A silver spoon"
+    difficulty: EXPERT
+  - text: "Quel sort Harry lance-t-il pour sortir de la caverne avec Dumbledore affaibli ?"
+    answers:
+      A: "Sectumsempra"
+      B: "Expecto Patronum"
+      C: "Accio balai"
+      D: "Apparition"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What spell does Harry cast to get out of the cave with a weakened Dumbledore?"
+        answers:
+          A: "Sectumsempra"
+          B: "Expecto Patronum"
+          C: "Accio broom"
+          D: "Apparition"
+    difficulty: EXPERT
+  - text: "Quel est le nom du propriétaire de la tour d'astronomie où Dumbledore meurt ?"
+    answers:
+      A: "Le professeur Chourave"
+      B: "Le professeur Trelawney"
+      C: "Le professeur Sinistra"
+      D: "Le professeur Flitwick"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the owner of the astronomy tower where Dumbledore dies?"
+        answers:
+          A: "Professor Sprout"
+          B: "Professor Trelawney"
+          C: "Professor Sinistra"
+          D: "Professor Flitwick"
+    difficulty: EXPERT
+  - text: "Quel personnage empêche Harry de poursuivre Rogue après la mort de Dumbledore ?"
+    answers:
+      A: "Rogue"
+      B: "Un sort de Rogue"
+      C: "Bellatrix Lestrange"
+      D: "Drago Malefoy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character stops Harry from pursuing Snape after Dumbledore's death?"
+        answers:
+          A: "Snape"
+          B: "A spell from Snape"
+          C: "Bellatrix Lestrange"
+          D: "Draco Malfoy"
+    difficulty: EXPERT
+  - text: "Quel sort Rogue utilise-t-il pour repousser Harry à la fin du film ?"
+    answers:
+      A: "Sectumsempra"
+      B: "Expelliarmus"
+      C: "Levitcorpus"
+      D: "Langue de Plomb"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What spell does Snape use to repel Harry at the end of the film?"
+        answers:
+          A: "Sectumsempra"
+          B: "Expelliarmus"
+          C: "Levicorpus"
+          D: "Lead Tongue"
+    difficulty: EXPERT
+  - text: "Quel est le nom du phénix de Dumbledore qui chante à sa mort ?"
+    answers:
+      A: "Fumseck"
+      B: "Fawkes"
+      C: "Pygmée"
+      D: "Hedwige"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Dumbledore's phoenix that sings at his death?"
+        answers:
+          A: "Fumseck"
+          B: "Fawkes"
+          C: "Pygmy"
+          D: "Hedwig"
+    difficulty: HARD

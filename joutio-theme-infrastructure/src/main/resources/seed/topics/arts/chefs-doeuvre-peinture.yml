@@ -1,0 +1,2355 @@
+topic:
+  id: topic-chefs-doeuvre-peinture
+  names:
+    fr: "Chefs-d'œuvre"
+    en: "Masterpieces of Painting"
+  description: "De la Joconde à Guernica, reconnaissez les plus grands tableaux de l'histoire de l'art, leurs peintres et les musées qui les abritent."
+  category: ARTS
+  titles:
+    fr:
+      FER: "Gribouilleur de coin de nappe"
+      BRONZE: "Copiste du Louvre"
+      ARGENT: "Élève aux Beaux-Arts"
+      OR: "Guide de musée"
+      PLATINE: "Restaurateur de chefs-d'œuvre"
+      EMERAUDE: "Conservateur en chef"
+      DIAMANT: "Immortel du Parnasse"
+    en:
+      FER: "Napkin Doodler"
+      BRONZE: "Louvre Copyist"
+      ARGENT: "Art School Student"
+      OR: "Museum Guide"
+      PLATINE: "Masterpiece Restorer"
+      EMERAUDE: "Chief Curator"
+      DIAMANT: "Immortal of Parnassus"
+  imageUrl: wikipedia/arts/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+questions:
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg
+    answers:
+      A: "Norman Rockwell"
+      B: "Andrew Wyeth"
+      C: "Grant Wood"
+      D: "Edward Hopper"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Norman Rockwell"
+          B: "Andrew Wyeth"
+          C: "Grant Wood"
+          D: "Edward Hopper"
+    difficulty: MEDIUM
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg
+    answers:
+      A: "La Nuit étoilée"
+      B: "Les Tournesols"
+      C: "Les Iris"
+      D: "Le Champ de coquelicots"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Starry Night"
+          B: "The Sunflowers"
+          C: "The Irises"
+          D: "The Poppy Field"
+    difficulty: EASY
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg
+    answers:
+      A: "Le musée de l'Orangerie"
+      B: "Le Petit Palais"
+      C: "Le musée d'Orsay"
+      D: "Le Louvre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Musée de l'Orangerie"
+          B: "The Petit Palais"
+          C: "The Musée d'Orsay"
+          D: "The Louvre"
+    difficulty: MEDIUM
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Petit Palais"
+      B: "L'Orangerie"
+      C: "Le Louvre"
+      D: "Le musée d'Orsay"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which museum can you see this painting?"
+        answers:
+          A: "The Petit Palais"
+          B: "The Orangerie"
+          C: "The Louvre"
+          D: "The Musée d'Orsay"
+    difficulty: MEDIUM
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Tableau_I,_by_Piet_Mondriaan.jpg
+    answers:
+      A: "Vassily Kandinsky"
+      B: "Kazimir Malevitch"
+      C: "Piet Mondrian"
+      D: "Paul Klee"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Vassily Kandinsky"
+          B: "Kazimir Malevich"
+          C: "Piet Mondrian"
+          D: "Paul Klee"
+    difficulty: EASY
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg
+    answers:
+      A: "La galerie Borghèse"
+      B: "Les musées du Vatican"
+      C: "Le Louvre"
+      D: "La galerie des Offices de Florence"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Borghese Gallery"
+          B: "The Vatican Museums"
+          C: "The Louvre"
+          D: "The Uffizi Gallery in Florence"
+    difficulty: HARD
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Les_Demoiselles_d'Avignon_(7925004644).jpg
+    answers:
+      A: "Le MoMA de New York"
+      B: "Le musée Reina Sofía"
+      C: "Le musée Picasso de Paris"
+      D: "Le Louvre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The MoMA in New York"
+          B: "The Reina Sofía Museum"
+          C: "The Picasso Museum in Paris"
+          D: "The Louvre"
+    difficulty: EXPERT
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg
+    answers:
+      A: "Le Bain turc"
+      B: "La Naissance de Vénus"
+      C: "La Grande Odalisque"
+      D: "Olympia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "The Turkish Bath"
+          B: "The Birth of Venus"
+          C: "The Grande Odalisque"
+          D: "Olympia"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Gauguin_-_D'ou_venons-nous_Que_sommes-nous_Ou_allons-nous.jpg
+    answers:
+      A: "Henri Rousseau"
+      B: "Paul Cézanne"
+      C: "Paul Gauguin"
+      D: "Vincent van Gogh"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Henri Rousseau"
+          B: "Paul Cézanne"
+          C: "Paul Gauguin"
+          D: "Vincent van Gogh"
+    difficulty: EXPERT
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Turner_-_The_Fighting_Temeraire.jpg
+    answers:
+      A: "Le Naufrage"
+      B: "Le Dernier Voyage du Téméraire"
+      C: "Impression, soleil levant"
+      D: "Pluie, vapeur et vitesse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Shipwreck"
+          B: "The Fighting Temeraire"
+          C: "Impression, Sunrise"
+          D: "Rain, Steam and Speed"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Nighthawks_by_Edward_Hopper_1942.jpg
+    answers:
+      A: "Norman Rockwell"
+      B: "Edward Hopper"
+      C: "Grant Wood"
+      D: "Andrew Wyeth"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Norman Rockwell"
+          B: "Edward Hopper"
+          C: "Grant Wood"
+          D: "Andrew Wyeth"
+    difficulty: MEDIUM
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Mural_del_Gernika.jpg
+    answers:
+      A: "Le musée Picasso de Paris"
+      B: "Le musée Reina Sofía de Madrid"
+      C: "Le MoMA"
+      D: "Le Prado"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which museum can you see this painting?"
+        answers:
+          A: "The Picasso Museum in Paris"
+          B: "The Reina Sofía Museum in Madrid"
+          C: "The MoMA"
+          D: "The Prado"
+    difficulty: HARD
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg
+    answers:
+      A: "La Cène"
+      B: "Le Christ aux outrages"
+      C: "Le Repas de Cana"
+      D: "La Dernière Communion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Last Supper"
+          B: "Christ Mocked"
+          C: "The Wedding at Cana"
+          D: "The Last Communion"
+    difficulty: EASY
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg
+    answers:
+      A: "Théodore Géricault"
+      B: "Jean-Auguste-Dominique Ingres"
+      C: "Édouard Manet"
+      D: "Eugène Delacroix"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Théodore Géricault"
+          B: "Jean-Auguste-Dominique Ingres"
+          C: "Édouard Manet"
+          D: "Eugène Delacroix"
+    difficulty: EXPERT
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Girl_with_a_Pearl_Earring.jpg
+    answers:
+      A: "Le Mauritshuis de La Haye"
+      B: "Le Rijksmuseum"
+      C: "Le Louvre"
+      D: "La National Gallery"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Mauritshuis in The Hague"
+          B: "The Rijksmuseum"
+          C: "The Louvre"
+          D: "The National Gallery"
+    difficulty: EXPERT
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg
+    answers:
+      A: "Nana"
+      B: "Olympia"
+      C: "Le Déjeuner sur l'herbe"
+      D: "La Grande Odalisque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "Nana"
+          B: "Olympia"
+          C: "Le Déjeuner sur l'herbe"
+          D: "La Grande Odalisque"
+    difficulty: EASY
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg
+    answers:
+      A: "Le musée d'Orsay"
+      B: "Le Kunsthistorisches Museum"
+      C: "Le Louvre"
+      D: "Le palais du Belvédère de Vienne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "Le musée d'Orsay"
+          B: "Le Kunsthistorisches Museum"
+          C: "Le Louvre"
+          D: "Le palais du Belvédère de Vienne"
+    difficulty: HARD
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg
+    answers:
+      A: "Nighthawks"
+      B: "American Gothic"
+      C: "Les Glaneuses"
+      D: "Le Christ du monde"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Nighthawks"
+          B: "American Gothic"
+          C: "Les Glaneuses"
+          D: "Le Christ du monde"
+    difficulty: EASY
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg
+    answers:
+      A: "Le Baiser"
+      B: "Judith"
+      C: "Les Amants"
+      D: "Adèle Bloch-Bauer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Le Baiser"
+          B: "Judith"
+          C: "Les Amants"
+          D: "Adèle Bloch-Bauer"
+    difficulty: EASY
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/La_danse_(I)_by_Matisse.jpg
+    answers:
+      A: "Maurice de Vlaminck"
+      B: "Henri Matisse"
+      C: "André Derain"
+      D: "Georges Braque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Maurice de Vlaminck"
+          B: "Henri Matisse"
+          C: "André Derain"
+          D: "Georges Braque"
+    difficulty: MEDIUM
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Gustave_Courbet-L'Origine_du_Monde-1866.jpg
+    answers:
+      A: "Jean-François Millet"
+      B: "Gustave Courbet"
+      C: "Camille Corot"
+      D: "Édouard Manet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Jean-François Millet"
+          B: "Gustave Courbet"
+          C: "Camille Corot"
+          D: "Édouard Manet"
+    difficulty: HARD
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Caravaggio_-_La_vocazione_di_San_Matteo.jpg
+    answers:
+      A: "Le Caravage"
+      B: "Le Greco"
+      C: "Le Tintoret"
+      D: "Le Titien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Le Caravage"
+          B: "Le Greco"
+          C: "Le Tintoret"
+          D: "Le Titien"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Michelangelo_-_Creation_of_Adam_(cropped).jpg
+    answers:
+      A: "La Chute d'Adam"
+      B: "La Pietà"
+      C: "La Création d'Adam"
+      D: "Le Jugement dernier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "La Chute d'Adam"
+          B: "La Pietà"
+          C: "La Création d'Adam"
+          D: "Le Jugement dernier"
+    difficulty: EASY
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Van_Eyck_-_Arnolfini_Portrait.jpg
+    answers:
+      A: "Le musée Groeninge"
+      B: "La National Gallery de Londres"
+      C: "Le Louvre"
+      D: "Le Rijksmuseum"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "Le musée Groeninge"
+          B: "La National Gallery de Londres"
+          C: "Le Louvre"
+          D: "Le Rijksmuseum"
+    difficulty: EXPERT
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Death_of_Marat_by_David.jpg
+    answers:
+      A: "Le musée d'Orsay"
+      B: "Le Louvre"
+      C: "Le château de Versailles"
+      D: "Les Musées royaux des Beaux-Arts de Belgique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "Le musée d'Orsay"
+          B: "Le Louvre"
+          C: "Le château de Versailles"
+          D: "Les Musées royaux des Beaux-Arts de Belgique"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Las_Meninas,_by_Diego_Velazquez,_from_Prado_in_Google_Earth.jpg
+    answers:
+      A: "Francisco de Goya"
+      B: "Le Greco"
+      C: "Pablo Picasso"
+      D: "Diego Vélasquez"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Francisco de Goya"
+          B: "Le Greco"
+          C: "Pablo Picasso"
+          D: "Diego Vélasquez"
+    difficulty: EASY
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg
+    answers:
+      A: "La National Gallery"
+      B: "Le Louvre"
+      C: "Le Rijksmuseum"
+      D: "Le musée du Prado"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "La National Gallery"
+          B: "Le Louvre"
+          C: "Le Rijksmuseum"
+          D: "Le musée du Prado"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/The_Scream.jpg
+    answers:
+      A: "Vincent van Gogh"
+      B: "Gustav Klimt"
+      C: "Egon Schiele"
+      D: "Edvard Munch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Vincent van Gogh"
+          B: "Gustav Klimt"
+          C: "Egon Schiele"
+          D: "Edvard Munch"
+    difficulty: EASY
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Claude_Monet,_Impression,_soleil_levant,_1872.jpg
+    answers:
+      A: "Claude Monet"
+      B: "Auguste Renoir"
+      C: "Camille Pissarro"
+      D: "Edgar Degas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Claude Monet"
+          B: "Auguste Renoir"
+          C: "Camille Pissarro"
+          D: "Edgar Degas"
+    difficulty: EASY
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Whistlers_Mother_high_res.jpg
+    answers:
+      A: "John Singer Sargent"
+      B: "Edward Hopper"
+      C: "James Whistler"
+      D: "Winslow Homer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "John Singer Sargent"
+          B: "Edward Hopper"
+          C: "James Whistler"
+          D: "Winslow Homer"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg
+    answers:
+      A: "Francisco de Goya"
+      B: "Diego Vélasquez"
+      C: "Le Greco"
+      D: "Jérôme Bosch"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Francisco de Goya"
+          B: "Diego Velázquez"
+          C: "El Greco"
+          D: "Hieronymus Bosch"
+    difficulty: MEDIUM
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+    answers:
+      A: "Léonard de Vinci"
+      B: "Michel-Ange"
+      C: "Sandro Botticelli"
+      D: "Raphaël"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Leonardo da Vinci"
+          B: "Michelangelo"
+          C: "Sandro Botticelli"
+          D: "Raphael"
+    difficulty: EASY
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg
+    answers:
+      A: "La National Gallery"
+      B: "Le musée du Prado"
+      C: "Le Rijksmuseum"
+      D: "Le Louvre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The National Gallery"
+          B: "The Prado Museum"
+          C: "The Rijksmuseum"
+          D: "The Louvre"
+    difficulty: HARD
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg
+    answers:
+      A: "Pablo Picasso"
+      B: "Diego Vélasquez"
+      C: "Le Greco"
+      D: "Francisco de Goya"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Pablo Picasso"
+          B: "Diego Velázquez"
+          C: "El Greco"
+          D: "Francisco de Goya"
+    difficulty: MEDIUM
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/The_Night_Watch_-_HD.jpg
+    answers:
+      A: "Rembrandt"
+      B: "Pierre Paul Rubens"
+      C: "Antoine van Dyck"
+      D: "Johannes Vermeer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Rembrandt"
+          B: "Peter Paul Rubens"
+          C: "Anthony van Dyck"
+          D: "Johannes Vermeer"
+    difficulty: EASY
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg
+    answers:
+      A: "Le Rijksmuseum"
+      B: "Le musée d'Orsay"
+      C: "Le Louvre"
+      D: "Le musée Van Gogh d'Amsterdam"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Rijksmuseum"
+          B: "The Musée d'Orsay"
+          C: "The Louvre"
+          D: "The Van Gogh Museum in Amsterdam"
+    difficulty: EXPERT
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Mural_del_Gernika.jpg
+    answers:
+      A: "Joan Miró"
+      B: "Francisco de Goya"
+      C: "Salvador Dalí"
+      D: "Pablo Picasso"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Joan Miró"
+          B: "Francisco de Goya"
+          C: "Salvador Dalí"
+          D: "Pablo Picasso"
+    difficulty: EASY
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Tintoret"
+      B: "Giorgione"
+      C: "Le Titien"
+      D: "Botticelli"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Tintoretto"
+          B: "Giorgione"
+          C: "Titian"
+          D: "Botticelli"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg
+    answers:
+      A: "Léonard de Vinci"
+      B: "Sandro Botticelli"
+      C: "Michel-Ange"
+      D: "Raphaël"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Leonardo da Vinci"
+          B: "Sandro Botticelli"
+          C: "Michelangelo"
+          D: "Raphael"
+    difficulty: EASY
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/The_Scream.jpg
+    answers:
+      A: "Vampire"
+      B: "Le Cri"
+      C: "Madonna"
+      D: "L'Angoisse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Vampire"
+          B: "The Scream"
+          C: "Madonna"
+          D: "Angst"
+    difficulty: EASY
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg
+    answers:
+      A: "Léonard de Vinci"
+      B: "Michel-Ange"
+      C: "Raphaël"
+      D: "Le Tintoret"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Leonardo da Vinci"
+          B: "Michelangelo"
+          C: "Raphael"
+          D: "Tintoretto"
+    difficulty: EASY
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Gustave_Courbet-L'Origine_du_Monde-1866.jpg
+    answers:
+      A: "L'Orangerie"
+      B: "Le Petit Palais"
+      C: "Le musée d'Orsay"
+      D: "Le Louvre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Orangerie"
+          B: "The Petit Palais"
+          C: "The Musée d'Orsay"
+          D: "The Louvre"
+    difficulty: HARD
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Dargenta_&_Salvador_Dali_The_persistance_of_Memory.png
+    answers:
+      A: "René Magritte"
+      B: "Max Ernst"
+      C: "Salvador Dalí"
+      D: "Joan Miró"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "René Magritte"
+          B: "Max Ernst"
+          C: "Salvador Dalí"
+          D: "Joan Miró"
+    difficulty: EASY
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg
+    answers:
+      A: "Les Nymphéas"
+      B: "La Cathédrale de Rouen"
+      C: "Impression, soleil levant"
+      D: "Les Coquelicots"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Water Lilies"
+          B: "Rouen Cathedral"
+          C: "Impression, Sunrise"
+          D: "Poppies"
+    difficulty: EASY
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+    answers:
+      A: "Le musée d'Orsay"
+      B: "Le musée du Louvre"
+      C: "Le Prado"
+      D: "Le Centre Pompidou"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The Musée d'Orsay"
+          B: "The Louvre Museum"
+          C: "The Prado"
+          D: "The Centre Pompidou"
+    difficulty: EASY
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg
+    answers:
+      A: "Napoléon franchissant les Alpes"
+      B: "Le Serment des Horaces"
+      C: "La Mort de Marat"
+      D: "Le Sacre de Napoléon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "Napoleon Crossing the Alps"
+          B: "The Oath of the Horatii"
+          C: "The Death of Marat"
+          D: "The Coronation of Napoleon"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg
+    answers:
+      A: "Edgar Degas"
+      B: "Camille Pissarro"
+      C: "Claude Monet"
+      D: "Auguste Renoir"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Edgar Degas"
+          B: "Camille Pissarro"
+          C: "Claude Monet"
+          D: "Auguste Renoir"
+    difficulty: EASY
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Jean-Francois_Millet_-_Gleaners_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Louvre"
+      B: "Le Petit Palais"
+      C: "L'Orangerie"
+      D: "Le musée d'Orsay"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Louvre"
+          B: "The Petit Palais"
+          C: "The Orangerie"
+          D: "The Musée d'Orsay"
+    difficulty: HARD
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg
+    answers:
+      A: "Le musée du Louvre"
+      B: "Le musée d'Orsay"
+      C: "Le château de Versailles"
+      D: "Les Invalides"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Louvre Museum"
+          B: "The Musée d'Orsay"
+          C: "The Palace of Versailles"
+          D: "Les Invalides"
+    difficulty: MEDIUM
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/El_Greco_-_The_Burial_of_the_Count_of_Orgaz_-_WGA10486.jpg
+    answers:
+      A: "Le Greco"
+      B: "Le Caravage"
+      C: "Diego Vélasquez"
+      D: "Francisco de Goya"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "El Greco"
+          B: "Caravaggio"
+          C: "Diego Velázquez"
+          D: "Francisco de Goya"
+    difficulty: HARD
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg
+    answers:
+      A: "Oskar Kokoschka"
+      B: "Egon Schiele"
+      C: "Gustav Klimt"
+      D: "Edvard Munch"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Oskar Kokoschka"
+          B: "Egon Schiele"
+          C: "Gustav Klimt"
+          D: "Edvard Munch"
+    difficulty: EASY
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg
+    answers:
+      A: "Les musées du Vatican"
+      B: "Le Louvre"
+      C: "La galerie des Offices"
+      D: "Le couvent Santa Maria delle Grazie de Milan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which museum can you see this painting?"
+        answers:
+          A: "The Vatican Museums"
+          B: "The Louvre"
+          C: "The Uffizi Gallery"
+          D: "The Convent of Santa Maria delle Grazie in Milan"
+    difficulty: EXPERT
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg
+    answers:
+      A: "La Vénus d'Urbin"
+      B: "La Naissance de Vénus"
+      C: "Vénus endormie"
+      D: "L'Amour sacré et l'Amour profane"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Venus of Urbino"
+          B: "The Birth of Venus"
+          C: "Sleeping Venus"
+          D: "Sacred and Profane Love"
+    difficulty: EXPERT
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg
+    answers:
+      A: "Le MoMA"
+      B: "Le Louvre"
+      C: "La Phillips Collection de Washington"
+      D: "Le musée d'Orsay"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The MoMA"
+          B: "The Louvre"
+          C: "The Phillips Collection in Washington"
+          D: "The Musée d'Orsay"
+    difficulty: EXPERT
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg
+    answers:
+      A: "Vénus et Mars"
+      B: "La Naissance de Vénus"
+      C: "Le Printemps"
+      D: "La Calomnie d'Apelle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Venus and Mars"
+          B: "The Birth of Venus"
+          C: "Primavera"
+          D: "The Calumny of Apelles"
+    difficulty: EASY
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg
+    answers:
+      A: "La galerie des Offices"
+      B: "Le Louvre"
+      C: "La galerie Borghèse"
+      D: "Les musées du Vatican"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Uffizi Gallery"
+          B: "The Louvre"
+          C: "The Borghese Gallery"
+          D: "The Vatican Museums"
+    difficulty: HARD
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg
+    answers:
+      A: "Le musée Kröller-Müller d'Otterlo"
+      B: "Le musée d'Orsay"
+      C: "Le Louvre"
+      D: "Le Rijksmuseum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which museum can you see this painting?"
+        answers:
+          A: "The Kröller-Müller Museum in Otterlo"
+          B: "The Musée d'Orsay"
+          C: "The Louvre"
+          D: "The Rijksmuseum"
+    difficulty: EXPERT
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Dargenta_&_Salvador_Dali_The_persistance_of_Memory.png
+    answers:
+      A: "Le Rêve"
+      B: "Les Horloges molles"
+      C: "La Persistance de la mémoire"
+      D: "Cygnes reflétant des éléphants"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "The Dream"
+          B: "The Soft Clocks"
+          C: "The Persistence of Memory"
+          D: "Swans Reflecting Elephants"
+    difficulty: MEDIUM
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg
+    answers:
+      A: "Le Chariot de foin"
+      B: "Le Jardin des délices"
+      C: "La Tour de Babel"
+      D: "La Tentation de saint Antoine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Haywain Triptych"
+          B: "The Garden of Earthly Delights"
+          C: "The Tower of Babel"
+          D: "The Temptation of Saint Anthony"
+    difficulty: EASY
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg
+    answers:
+      A: "Vincent van Gogh"
+      B: "Claude Monet"
+      C: "Paul Gauguin"
+      D: "Paul Cézanne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Vincent van Gogh"
+          B: "Claude Monet"
+          C: "Paul Gauguin"
+          D: "Paul Cézanne"
+    difficulty: EASY
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Caravaggio_-_La_vocazione_di_San_Matteo.jpg
+    answers:
+      A: "Les musées du Vatican"
+      B: "L'église San Luigi dei Francesi de Rome"
+      C: "Le Louvre"
+      D: "La galerie Borghèse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Vatican Museums"
+          B: "The Church of San Luigi dei Francesi in Rome"
+          C: "The Louvre"
+          D: "The Borghese Gallery"
+    difficulty: EXPERT
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Las_Meninas,_by_Diego_Velazquez,_from_Prado_in_Google_Earth.jpg
+    answers:
+      A: "Le Christ en croix"
+      B: "La Reddition de Breda"
+      C: "Les Ménines"
+      D: "Les Fileuses"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Christ on the Cross"
+          B: "The Surrender of Breda"
+          C: "Las Meninas"
+          D: "The Spinners"
+    difficulty: EASY
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Eugene_Delacroix_-_Le_28_Juillet._La_Liberte_guidant_le_peuple.jpg
+    answers:
+      A: "Jean-Auguste-Dominique Ingres"
+      B: "Jacques-Louis David"
+      C: "Eugène Delacroix"
+      D: "Théodore Géricault"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Jean-Auguste-Dominique Ingres"
+          B: "Jacques-Louis David"
+          C: "Eugène Delacroix"
+          D: "Théodore Géricault"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg
+    answers:
+      A: "Les Chasseurs dans la neige"
+      B: "Le Jardin des délices"
+      C: "Les Jeux d'enfants"
+      D: "La Tour de Babel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "Hunters in the Snow"
+          B: "The Garden of Earthly Delights"
+          C: "Children's Games"
+          D: "The Tower of Babel"
+    difficulty: MEDIUM
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Les_Demoiselles_d'Avignon_(7925004644).jpg
+    answers:
+      A: "Guernica"
+      B: "Les Demoiselles d'Avignon"
+      C: "La Vie"
+      D: "Le Vieux Guitariste"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Guernica"
+          B: "Les Demoiselles d'Avignon"
+          C: "La Vie"
+          D: "The Old Guitarist"
+    difficulty: EXPERT
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Girl_with_a_Pearl_Earring.jpg
+    answers:
+      A: "La Dentellière"
+      B: "Le Géographe"
+      C: "La Laitière"
+      D: "La Jeune Fille à la perle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Lacemaker"
+          B: "The Geographer"
+          C: "The Milkmaid"
+          D: "Girl with a Pearl Earring"
+    difficulty: EASY
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Dargenta_&_Salvador_Dali_The_persistance_of_Memory.png
+    answers:
+      A: "La Tate Modern"
+      B: "Le Louvre"
+      C: "Le musée Reina Sofía"
+      D: "Le MoMA de New York"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "Tate Modern"
+          B: "The Louvre"
+          C: "The Reina Sofía Museum"
+          D: "The MoMA in New York"
+    difficulty: HARD
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg
+    answers:
+      A: "La galerie Borghèse"
+      B: "Le Prado"
+      C: "La galerie des Offices de Florence"
+      D: "Le Louvre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The Borghese Gallery"
+          B: "The Prado"
+          C: "The Uffizi Gallery in Florence"
+          D: "The Louvre"
+    difficulty: EXPERT
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg
+    answers:
+      A: "Le musée d'Orsay"
+      B: "L'Art Institute de Chicago"
+      C: "Le Louvre"
+      D: "Le MoMA"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Musée d'Orsay"
+          B: "The Art Institute of Chicago"
+          C: "The Louvre"
+          D: "The MoMA"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg
+    answers:
+      A: "Raphaël"
+      B: "Michel-Ange"
+      C: "Léonard de Vinci"
+      D: "Le Titien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Raphael"
+          B: "Michelangelo"
+          C: "Leonardo da Vinci"
+          D: "Titian"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Claude_Monet,_Impression,_soleil_levant,_1872.jpg
+    answers:
+      A: "Les Nymphéas"
+      B: "Impression, soleil levant"
+      C: "La Cathédrale de Rouen"
+      D: "Le Déjeuner sur l'herbe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "Water Lilies"
+          B: "Impression, Sunrise"
+          C: "Rouen Cathedral"
+          D: "The Luncheon on the Grass"
+    difficulty: EASY
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg
+    answers:
+      A: "La Maja nue"
+      B: "Les Ménines"
+      C: "Saturne dévorant son fils"
+      D: "Le 3 mai 1808"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Naked Maja"
+          B: "Las Meninas"
+          C: "Saturn Devouring His Son"
+          D: "The Third of May 1808"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Composition_VII_-_Wassily_Kandinsky,_GAC.jpg
+    answers:
+      A: "Piet Mondrian"
+      B: "Vassily Kandinsky"
+      C: "Kazimir Malevitch"
+      D: "Paul Klee"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Piet Mondrian"
+          B: "Wassily Kandinsky"
+          C: "Kazimir Malevich"
+          D: "Paul Klee"
+    difficulty: EXPERT
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg
+    answers:
+      A: "Le Petit Palais"
+      B: "Le musée d'Orsay"
+      C: "L'Orangerie"
+      D: "Le Louvre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Petit Palais"
+          B: "The Musée d'Orsay"
+          C: "The Orangerie"
+          D: "The Louvre"
+    difficulty: MEDIUM
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Claude_Monet,_Impression,_soleil_levant,_1872.jpg
+    answers:
+      A: "Le musée Marmottan Monet"
+      B: "Le musée d'Orsay"
+      C: "Le Louvre"
+      D: "Le Petit Palais"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The Musée Marmottan Monet"
+          B: "The Musée d'Orsay"
+          C: "The Louvre"
+          D: "The Petit Palais"
+    difficulty: EXPERT
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Tableau_I,_by_Piet_Mondriaan.jpg
+    answers:
+      A: "Broadway Boogie Woogie"
+      B: "Composition VII"
+      C: "Bleu du ciel"
+      D: "Composition en rouge, bleu et jaune"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Broadway Boogie Woogie"
+          B: "Composition VII"
+          C: "Sky Blue"
+          D: "Composition in Red, Blue and Yellow"
+    difficulty: EXPERT
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg
+    answers:
+      A: "John Constable"
+      B: "Caspar David Friedrich"
+      C: "William Turner"
+      D: "Eugène Delacroix"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "John Constable"
+          B: "Caspar David Friedrich"
+          C: "William Turner"
+          D: "Eugène Delacroix"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Death_of_Marat_by_David.jpg
+    answers:
+      A: "Le Sacre de Napoléon"
+      B: "La Mort de Marat"
+      C: "La Mort de Sénèque"
+      D: "Le Serment des Horaces"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "The Coronation of Napoleon"
+          B: "The Death of Marat"
+          C: "The Death of Seneca"
+          D: "The Oath of the Horatii"
+    difficulty: MEDIUM
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Composition_VII_-_Wassily_Kandinsky,_GAC.jpg
+    answers:
+      A: "Bleu du ciel"
+      B: "Jaune-rouge-bleu"
+      C: "Composition VII"
+      D: "Improvisation"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Sky Blue"
+          B: "Yellow-Red-Blue"
+          C: "Composition VII"
+          D: "Improvisation"
+    difficulty: EXPERT
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg
+    answers:
+      A: "La Dispute du Saint-Sacrement"
+      B: "Le Parnasse"
+      C: "L'École d'Athènes"
+      D: "La Madone Sixtine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Disputation of the Holy Sacrament"
+          B: "The Parnassus"
+          C: "The School of Athens"
+          D: "The Sistine Madonna"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Theodore_Gericault_-_Le_Radeau_de_la_Meduse.jpg
+    answers:
+      A: "Le Radeau de la Méduse"
+      B: "La Liberté guidant le peuple"
+      C: "La Grande Odalisque"
+      D: "Le Serment des Horaces"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "The Raft of the Medusa"
+          B: "Liberty Leading the People"
+          C: "The Grande Odalisque"
+          D: "The Oath of the Horatii"
+    difficulty: MEDIUM
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Henri_Rousseau_-_Le_Reve_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Rêve"
+      B: "Le Charmeur de serpents"
+      C: "La Guerre"
+      D: "Tigre dans une tempête tropicale"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Dream"
+          B: "The Snake Charmer"
+          C: "War"
+          D: "Tiger in a Tropical Storm"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Michelangelo_-_Creation_of_Adam_(cropped).jpg
+    answers:
+      A: "Léonard de Vinci"
+      B: "Le Caravage"
+      C: "Raphaël"
+      D: "Michel-Ange"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Leonardo da Vinci"
+          B: "Caravaggio"
+          C: "Raphael"
+          D: "Michelangelo"
+    difficulty: EASY
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Death_of_Marat_by_David.jpg
+    answers:
+      A: "Jacques-Louis David"
+      B: "Jean-Auguste-Dominique Ingres"
+      C: "Théodore Géricault"
+      D: "Eugène Delacroix"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Jacques-Louis David"
+          B: "Jean-Auguste-Dominique Ingres"
+          C: "Théodore Géricault"
+          D: "Eugène Delacroix"
+    difficulty: MEDIUM
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/La_danse_(I)_by_Matisse.jpg
+    answers:
+      A: "La Danse"
+      B: "Luxe, calme et volupté"
+      C: "La Musique"
+      D: "La Desserte rouge"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Dance"
+          B: "Luxury, Calm and Pleasure"
+          C: "The Music"
+          D: "The Red Room"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Semeur"
+      B: "Les Tournesols"
+      C: "Le Café de nuit"
+      D: "La Nuit étoilée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "The Sower"
+          B: "The Sunflowers"
+          C: "The Night Café"
+          D: "The Starry Night"
+    difficulty: EASY
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Girl_with_a_Pearl_Earring.jpg
+    answers:
+      A: "Rembrandt"
+      B: "Johannes Vermeer"
+      C: "Jan van Eyck"
+      D: "Frans Hals"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Rembrandt"
+          B: "Johannes Vermeer"
+          C: "Jan van Eyck"
+          D: "Frans Hals"
+    difficulty: EASY
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Nighthawks_by_Edward_Hopper_1942.jpg
+    answers:
+      A: "Gas"
+      B: "Automat"
+      C: "Nighthawks"
+      D: "Chop Suey"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Gas"
+          B: "Automat"
+          C: "Nighthawks"
+          D: "Chop Suey"
+    difficulty: EASY
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/The_Night_Watch_-_HD.jpg
+    answers:
+      A: "Le Louvre"
+      B: "La National Gallery"
+      C: "Le Mauritshuis"
+      D: "Le Rijksmuseum d'Amsterdam"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Louvre"
+          B: "The National Gallery"
+          C: "The Mauritshuis"
+          D: "The Rijksmuseum in Amsterdam"
+    difficulty: MEDIUM
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Theodore_Gericault_-_Le_Radeau_de_la_Meduse.jpg
+    answers:
+      A: "Le musée Carnavalet"
+      B: "Le musée du Louvre"
+      C: "Le Petit Palais"
+      D: "Le musée d'Orsay"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Carnavalet Museum"
+          B: "The Louvre Museum"
+          C: "The Petit Palais"
+          D: "The Musée d'Orsay"
+    difficulty: MEDIUM
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Gustave_Courbet-L'Origine_du_Monde-1866.jpg
+    answers:
+      A: "L'Atelier du peintre"
+      B: "L'Origine du monde"
+      C: "Un enterrement à Ornans"
+      D: "Les Casseurs de pierres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Painter's Studio"
+          B: "The Origin of the World"
+          C: "A Burial at Ornans"
+          D: "The Stone Breakers"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Les_Joueurs_de_cartes,_par_Cezanne,_Musee_d'Orsay,_Paris_(35486997484).jpg
+    answers:
+      A: "Les Grandes Baigneuses"
+      B: "La Montagne Sainte-Victoire"
+      C: "Nature morte à la corbeille"
+      D: "Les Joueurs de cartes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "The Large Bathers"
+          B: "Mont Sainte-Victoire"
+          C: "Still Life with Basket"
+          D: "The Card Players"
+    difficulty: HARD
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Theodore_Gericault_-_Le_Radeau_de_la_Meduse.jpg
+    answers:
+      A: "Théodore Géricault"
+      B: "Jacques-Louis David"
+      C: "Eugène Delacroix"
+      D: "Jean-Auguste-Dominique Ingres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Théodore Géricault"
+          B: "Jacques-Louis David"
+          C: "Eugène Delacroix"
+          D: "Jean-Auguste-Dominique Ingres"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg
+    answers:
+      A: "Paul Cézanne"
+      B: "Claude Monet"
+      C: "Paul Gauguin"
+      D: "Vincent van Gogh"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Paul Cézanne"
+          B: "Claude Monet"
+          C: "Paul Gauguin"
+          D: "Vincent van Gogh"
+    difficulty: MEDIUM
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg
+    answers:
+      A: "Saturne dévorant son fils"
+      B: "Les Ménines"
+      C: "Le 3 mai 1808"
+      D: "La Maja nue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Saturn Devouring His Son"
+          B: "Las Meninas"
+          C: "The Third of May 1808"
+          D: "The Nude Maja"
+    difficulty: HARD
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Van_Eyck_-_Arnolfini_Portrait.jpg
+    answers:
+      A: "La Jeune Fille à la perle"
+      B: "Le Jardin des délices"
+      C: "Les Époux Arnolfini"
+      D: "La Madone du chancelier Rolin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Girl with a Pearl Earring"
+          B: "The Garden of Earthly Delights"
+          C: "The Arnolfini Portrait"
+          D: "The Madonna of Chancellor Rolin"
+    difficulty: HARD
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Jean-Francois_Millet_-_Gleaners_-_Google_Art_Project.jpg
+    answers:
+      A: "Les Glaneuses"
+      B: "Les Casseurs de pierres"
+      C: "Le Semeur"
+      D: "L'Angélus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this work called?"
+        answers:
+          A: "The Gleaners"
+          B: "The Stone Breakers"
+          C: "The Sower"
+          D: "The Angelus"
+    difficulty: HARD
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Gauguin_-_D'ou_venons-nous_Que_sommes-nous_Ou_allons-nous.jpg
+    answers:
+      A: "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?"
+      B: "Le Christ jaune"
+      C: "La Orana Maria"
+      D: "Femmes de Tahiti"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "Where Do We Come From? What Are We? Where Are We Going?"
+          B: "The Yellow Christ"
+          C: "La Orana Maria"
+          D: "Tahitian Women"
+    difficulty: EXPERT
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Bal du moulin de la Galette"
+      B: "Le Déjeuner des canotiers"
+      C: "La Parade de cirque"
+      D: "Un dimanche après-midi à l'île de la Grande Jatte"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Bal du moulin de la Galette"
+          B: "Luncheon of the Boating Party"
+          C: "Circus Sideshow"
+          D: "A Sunday Afternoon on the Island of La Grande Jatte"
+    difficulty: HARD
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Les_Joueurs_de_cartes,_par_Cezanne,_Musee_d'Orsay,_Paris_(35486997484).jpg
+    answers:
+      A: "Le Petit Palais"
+      B: "L'Orangerie"
+      C: "Le musée d'Orsay"
+      D: "Le Louvre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The Petit Palais"
+          B: "The Orangerie"
+          C: "The Musée d'Orsay"
+          D: "The Louvre"
+    difficulty: EXPERT
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Turner_-_The_Fighting_Temeraire.jpg
+    answers:
+      A: "La Tate Britain"
+      B: "Le Rijksmuseum"
+      C: "La National Gallery de Londres"
+      D: "Le Louvre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "Tate Britain"
+          B: "The Rijksmuseum"
+          C: "The National Gallery in London"
+          D: "The Louvre"
+    difficulty: EXPERT
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/The_Scream.jpg
+    answers:
+      A: "Le Louvre"
+      B: "Le Prado"
+      C: "La Tate Modern"
+      D: "La Galerie nationale d'Oslo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Louvre"
+          B: "The Prado"
+          C: "Tate Modern"
+          D: "The National Gallery in Oslo"
+    difficulty: EXPERT
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+    answers:
+      A: "Le MoMA de New York"
+      B: "Le Rijksmuseum"
+      C: "Le Louvre"
+      D: "Le musée d'Orsay"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The MoMA in New York"
+          B: "The Rijksmuseum"
+          C: "The Louvre"
+          D: "The Musée d'Orsay"
+    difficulty: MEDIUM
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Jean-Francois_Millet_-_Gleaners_-_Google_Art_Project.jpg
+    answers:
+      A: "Gustave Courbet"
+      B: "Camille Corot"
+      C: "Honoré Daumier"
+      D: "Jean-François Millet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Gustave Courbet"
+          B: "Camille Corot"
+          C: "Honoré Daumier"
+          D: "Jean-François Millet"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg
+    answers:
+      A: "Pieter Bruegel l'Ancien"
+      B: "Rubens"
+      C: "Jan van Eyck"
+      D: "Jérôme Bosch"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Pieter Bruegel the Elder"
+          B: "Rubens"
+          C: "Jan van Eyck"
+          D: "Hieronymus Bosch"
+    difficulty: EXPERT
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Eugene_Delacroix_-_Le_28_Juillet._La_Liberte_guidant_le_peuple.jpg
+    answers:
+      A: "Le musée Carnavalet"
+      B: "Le musée d'Orsay"
+      C: "Le Petit Palais"
+      D: "Le musée du Louvre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Carnavalet Museum"
+          B: "The Musée d'Orsay"
+          C: "The Petit Palais"
+          D: "The Louvre Museum"
+    difficulty: MEDIUM
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Las_Meninas,_by_Diego_Velazquez,_from_Prado_in_Google_Earth.jpg
+    answers:
+      A: "Le Louvre"
+      B: "Le musée du Prado"
+      C: "La National Gallery"
+      D: "Le Rijksmuseum"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Louvre"
+          B: "The Prado Museum"
+          C: "The National Gallery"
+          D: "The Rijksmuseum"
+    difficulty: MEDIUM
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg
+    answers:
+      A: "Le Kunsthistorisches Museum de Vienne"
+      B: "Le Prado"
+      C: "Le Louvre"
+      D: "Le Rijksmuseum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The Kunsthistorisches Museum in Vienna"
+          B: "The Prado"
+          C: "The Louvre"
+          D: "The Rijksmuseum"
+    difficulty: EXPERT
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Mural_del_Gernika.jpg
+    answers:
+      A: "La Vie"
+      B: "Les Demoiselles d'Avignon"
+      C: "Guernica"
+      D: "Le Vieux Guitariste"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "La Vie"
+          B: "Les Demoiselles d'Avignon"
+          C: "Guernica"
+          D: "The Old Guitarist"
+    difficulty: EASY
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+    answers:
+      A: "La Vierge aux rochers"
+      B: "La Dame à l'hermine"
+      C: "La Joconde"
+      D: "La Belle Ferronnière"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Virgin of the Rocks"
+          B: "The Lady with an Ermine"
+          C: "The Mona Lisa"
+          D: "La Belle Ferronnière"
+    difficulty: EASY
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Henri_Rousseau_-_Le_Reve_-_Google_Art_Project.jpg
+    answers:
+      A: "Paul Cézanne"
+      B: "Paul Gauguin"
+      C: "Henri Rousseau"
+      D: "Henri Matisse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Paul Cézanne"
+          B: "Paul Gauguin"
+          C: "Henri Rousseau"
+          D: "Henri Matisse"
+    difficulty: EXPERT
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg
+    answers:
+      A: "La Chambre à Arles"
+      B: "Le Café de nuit"
+      C: "La Nuit étoilée"
+      D: "Terrasse du café le soir"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Bedroom at Arles"
+          B: "The Night Café"
+          C: "The Starry Night"
+          D: "Café Terrace at Night"
+    difficulty: HARD
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Les_Joueurs_de_cartes,_par_Cezanne,_Musee_d'Orsay,_Paris_(35486997484).jpg
+    answers:
+      A: "Vincent van Gogh"
+      B: "Claude Monet"
+      C: "Paul Cézanne"
+      D: "Paul Gauguin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Vincent van Gogh"
+          B: "Claude Monet"
+          C: "Paul Cézanne"
+          D: "Paul Gauguin"
+    difficulty: HARD
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/El_Greco_-_The_Burial_of_the_Count_of_Orgaz_-_WGA10486.jpg
+    answers:
+      A: "L'église Santo Tomé de Tolède"
+      B: "La cathédrale de Séville"
+      C: "Le Louvre"
+      D: "Le Prado"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Church of Santo Tomé in Toledo"
+          B: "The Cathedral of Seville"
+          C: "The Louvre"
+          D: "The Prado"
+    difficulty: EXPERT
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg
+    answers:
+      A: "Le musée du Prado"
+      B: "Le musée Reina Sofía"
+      C: "La National Gallery"
+      D: "Le Louvre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Prado Museum"
+          B: "The Reina Sofía Museum"
+          C: "The National Gallery"
+          D: "The Louvre"
+    difficulty: HARD
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg
+    answers:
+      A: "La Liberté guidant le peuple"
+      B: "Le Radeau de la Méduse"
+      C: "La Nuit étoilée"
+      D: "Le Voyageur contemplant une mer de nuages"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "Liberty Leading the People"
+          B: "The Raft of the Medusa"
+          C: "The Starry Night"
+          D: "Wanderer above the Sea of Fog"
+    difficulty: HARD
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Michelangelo_-_Creation_of_Adam_(cropped).jpg
+    answers:
+      A: "Le Louvre"
+      B: "La chapelle Sixtine"
+      C: "La basilique Saint-Pierre"
+      D: "La galerie des Offices"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which museum can this painting be seen?"
+        answers:
+          A: "The Louvre"
+          B: "The Sistine Chapel"
+          C: "St. Peter's Basilica"
+          D: "The Uffizi Gallery"
+    difficulty: MEDIUM
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Eugene_Delacroix_-_Le_28_Juillet._La_Liberte_guidant_le_peuple.jpg
+    answers:
+      A: "Le Sacre de Napoléon"
+      B: "Le Radeau de la Méduse"
+      C: "Le Serment des Horaces"
+      D: "La Liberté guidant le peuple"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Coronation of Napoleon"
+          B: "The Raft of the Medusa"
+          C: "The Oath of the Horatii"
+          D: "Liberty Leading the People"
+    difficulty: EASY
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/El_Greco_-_The_Burial_of_the_Count_of_Orgaz_-_WGA10486.jpg
+    answers:
+      A: "L'Assomption de la Vierge"
+      B: "Vue de Tolède"
+      C: "L'Enterrement du comte d'Orgaz"
+      D: "Le Christ au jardin des oliviers"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "The Assumption of the Virgin"
+          B: "View of Toledo"
+          C: "The Burial of the Count of Orgaz"
+          D: "Christ in the Garden of Olives"
+    difficulty: EXPERT
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Les_Demoiselles_d'Avignon_(7925004644).jpg
+    answers:
+      A: "Paul Cézanne"
+      B: "Henri Matisse"
+      C: "Georges Braque"
+      D: "Pablo Picasso"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Paul Cézanne"
+          B: "Henri Matisse"
+          C: "Georges Braque"
+          D: "Pablo Picasso"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Déjeuner sur l'herbe"
+      B: "Le Déjeuner des canotiers"
+      C: "La Balançoire"
+      D: "Le Bal du moulin de la Galette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "Le Déjeuner sur l'herbe"
+          B: "Le Déjeuner des canotiers"
+          C: "La Balançoire"
+          D: "Le Bal du moulin de la Galette"
+    difficulty: HARD
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/Whistlers_Mother_high_res.jpg
+    answers:
+      A: "Le Cri"
+      B: "Le Baiser"
+      C: "American Gothic"
+      D: "La Mère de Whistler"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Scream"
+          B: "The Kiss"
+          C: "American Gothic"
+          D: "Whistler's Mother"
+    difficulty: HARD
+  - text: "Quel est ce tableau ?"
+    imageUrl: wikipedia/arts/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg
+    answers:
+      A: "Olympia"
+      B: "Le Déjeuner sur l'herbe"
+      C: "Le Balcon"
+      D: "Le Bar aux Folies-Bergère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is this painting?"
+        answers:
+          A: "Olympia"
+          B: "Le Déjeuner sur l'herbe"
+          C: "Le Balcon"
+          D: "Le Bar aux Folies-Bergère"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: wikipedia/arts/Caravaggio_-_La_vocazione_di_San_Matteo.jpg
+    answers:
+      A: "La Vocation de saint Matthieu"
+      B: "Le Repas à Emmaüs"
+      C: "Judith décapitant Holopherne"
+      D: "La Mort de la Vierge"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of this work?"
+        answers:
+          A: "The Calling of Saint Matthew"
+          B: "Supper at Emmaus"
+          C: "Judith Beheading Holofernes"
+          D: "The Death of the Virgin"
+    difficulty: EXPERT
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg
+    answers:
+      A: "Claude Monet"
+      B: "Gustave Courbet"
+      C: "Auguste Renoir"
+      D: "Édouard Manet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Claude Monet"
+          B: "Gustave Courbet"
+          C: "Auguste Renoir"
+          D: "Édouard Manet"
+    difficulty: MEDIUM
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: wikipedia/arts/Henri_Rousseau_-_Le_Reve_-_Google_Art_Project.jpg
+    answers:
+      A: "Le Louvre"
+      B: "Le Centre Pompidou"
+      C: "Le MoMA de New York"
+      D: "Le musée d'Orsay"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where is this painting located?"
+        answers:
+          A: "The Louvre"
+          B: "The Centre Pompidou"
+          C: "The MoMA in New York"
+          D: "The Musée d'Orsay"
+    difficulty: EXPERT
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Van_Eyck_-_Arnolfini_Portrait.jpg
+    answers:
+      A: "Jan van Eyck"
+      B: "Rogier van der Weyden"
+      C: "Pieter Bruegel"
+      D: "Hans Memling"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Jan van Eyck"
+          B: "Rogier van der Weyden"
+          C: "Pieter Bruegel"
+          D: "Hans Memling"
+    difficulty: HARD
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg
+    answers:
+      A: "Claude Monet"
+      B: "Auguste Renoir"
+      C: "Édouard Manet"
+      D: "Edgar Degas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Claude Monet"
+          B: "Auguste Renoir"
+          C: "Édouard Manet"
+          D: "Edgar Degas"
+    difficulty: HARD
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: wikipedia/arts/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg
+    answers:
+      A: "Le musée du Louvre"
+      B: "La Wallace Collection"
+      C: "Le musée d'Orsay"
+      D: "Le Petit Palais"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is this painting exhibited?"
+        answers:
+          A: "The Louvre Museum"
+          B: "The Wallace Collection"
+          C: "The Musée d'Orsay"
+          D: "The Petit Palais"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg
+    answers:
+      A: "Auguste Renoir"
+      B: "Edgar Degas"
+      C: "Édouard Manet"
+      D: "Claude Monet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Auguste Renoir"
+          B: "Edgar Degas"
+          C: "Édouard Manet"
+          D: "Claude Monet"
+    difficulty: MEDIUM
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: wikipedia/arts/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg
+    answers:
+      A: "La Tate Britain"
+      B: "Le Louvre"
+      C: "La Kunsthalle de Hambourg"
+      D: "La National Gallery"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which museum can you see this painting?"
+        answers:
+          A: "Tate Britain"
+          B: "The Louvre"
+          C: "The Kunsthalle Hamburg"
+          D: "The National Gallery"
+    difficulty: EXPERT
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+    answers:
+      A: "Claude Monet"
+      B: "Paul Gauguin"
+      C: "Vincent van Gogh"
+      D: "Paul Cézanne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Claude Monet"
+          B: "Paul Gauguin"
+          C: "Vincent van Gogh"
+          D: "Paul Cézanne"
+    difficulty: EASY
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: wikipedia/arts/The_Night_Watch_-_HD.jpg
+    answers:
+      A: "La Ronde de nuit"
+      B: "Le Bœuf écorché"
+      C: "Les Syndics des drapiers"
+      D: "La Leçon d'anatomie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this work?"
+        answers:
+          A: "The Night Watch"
+          B: "The Flayed Ox"
+          C: "The Syndics of the Drapers' Guild"
+          D: "The Anatomy Lesson"
+    difficulty: MEDIUM
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Turner_-_The_Fighting_Temeraire.jpg
+    answers:
+      A: "Caspar David Friedrich"
+      B: "William Turner"
+      C: "Claude Monet"
+      D: "John Constable"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the author of this painting?"
+        answers:
+          A: "Caspar David Friedrich"
+          B: "William Turner"
+          C: "Claude Monet"
+          D: "John Constable"
+    difficulty: HARD
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: wikipedia/arts/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg
+    answers:
+      A: "Hans Memling"
+      B: "Jan van Eyck"
+      C: "Jérôme Bosch"
+      D: "Pieter Bruegel l'Ancien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who painted this painting?"
+        answers:
+          A: "Hans Memling"
+          B: "Jan van Eyck"
+          C: "Hieronymus Bosch"
+          D: "Pieter Bruegel the Elder"
+    difficulty: MEDIUM
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: wikipedia/arts/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg
+    answers:
+      A: "Paul Signac"
+      B: "Camille Pissarro"
+      C: "Claude Monet"
+      D: "Georges Seurat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which artist painted this work?"
+        answers:
+          A: "Paul Signac"
+          B: "Camille Pissarro"
+          C: "Claude Monet"
+          D: "Georges Seurat"
+    difficulty: HARD
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: wikipedia/arts/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg
+    answers:
+      A: "Antoine-Jean Gros"
+      B: "Jacques-Louis David"
+      C: "Eugène Delacroix"
+      D: "Jean-Auguste-Dominique Ingres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the painter of this painting?"
+        answers:
+          A: "Antoine-Jean Gros"
+          B: "Jacques-Louis David"
+          C: "Eugène Delacroix"
+          D: "Jean-Auguste-Dominique Ingres"
+    difficulty: HARD

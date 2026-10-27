@@ -1,0 +1,1631 @@
+topic:
+  id: topic-comedies-francaises
+  names:
+    fr: "Comédies françaises"
+    en: "French Comedies"
+  description: "Des classiques de la comédie populaire française : La Grande Vadrouille, Les Bronzés, Le Père Noël est une ordure et Le Dîner de cons. Retrouvez leurs répliques cultes et leurs acteurs phares : Louis de Funès, Bourvil, Thierry Lhermitte, Christian Clavier et bien d'autres."
+  category: MOVIES
+  titles:
+    fr:
+      FER: "Figurant de figuration"
+      BRONZE: "Stagiaire de la troupe du Splendid"
+      ARGENT: "Répliqueur de comptoir"
+      OR: "Pilier de la Grande Vadrouille"
+      PLATINE: "Dîneur de cons émérite"
+      EMERAUDE: "Légende du Splendid"
+      DIAMANT: "Monstre sacré du rire"
+    en:
+      FER: "Background Extra"
+      BRONZE: "Splendid Intern"
+      ARGENT: "Catchphrase Tester"
+      OR: "Vadrouille Veteran"
+      PLATINE: "Dinner Game Master"
+      EMERAUDE: "Splendid Legend"
+      DIAMANT: "Immortal of French Comedy"
+  imageUrl: wikipedia/movies/Louis_de_Funes_1970.jpg
+questions:
+  - text: "Dans Le Dîner de cons, quel est le métier de Pierre Brochant ?"
+    answers:
+      A: "Journaliste sportif"
+      B: "Éditeur de livres d'art"
+      C: "Inspecteur des impôts"
+      D: "Avocat fiscaliste"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is Pierre Brochant's profession?"
+        answers:
+          A: "Sports journalist"
+          B: "Art book publisher"
+          C: "Tax inspector"
+          D: "Tax lawyer"
+    difficulty: EASY
+  - text: "Quel acteur incarne Juste Leblanc dans Le Dîner de cons ?"
+    answers:
+      A: "Francis Huster"
+      B: "Thierry Lhermitte"
+      C: "Bernard Giraudeau"
+      D: "Daniel Prévost"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Juste Leblanc in Le Dîner de cons?"
+        answers:
+          A: "Francis Huster"
+          B: "Thierry Lhermitte"
+          C: "Bernard Giraudeau"
+          D: "Daniel Prévost"
+    difficulty: EASY
+  - text: "Dans Le Père Noël est une ordure, quel est le nom de famille de Thérèse ?"
+    answers:
+      A: "Dubois"
+      B: "Lavigne"
+      C: "Sébastien"
+      D: "Bertrand"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is Thérèse's last name?"
+        answers:
+          A: "Dubois"
+          B: "Lavigne"
+          C: "Sébastien"
+          D: "Bertrand"
+    difficulty: HARD
+  - text: "Quel acteur joue Katia, la sœur de Zézette, dans Le Père Noël est une ordure ?"
+    answers:
+      A: "Dominique Lavanant"
+      B: "Marie-Anne Chazel"
+      C: "Josiane Balasko"
+      D: "Christiane Jean"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress plays Katia, Zézette's sister, in Le Père Noël est une ordure?"
+        answers:
+          A: "Dominique Lavanant"
+          B: "Marie-Anne Chazel"
+          C: "Josiane Balasko"
+          D: "Christiane Jean"
+    difficulty: HARD
+  - text: "Quel gendarme joue Louis de Funès ?"
+    imageUrl: wikipedia/movies/Gendarmerie_Saint-Tropez_2012.jpg
+    answers:
+      A: "Ludovic Cruchot"
+      B: "Le commissaire Juve"
+      C: "L'adjudant Gerber"
+      D: "Le maréchal Chaudard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which gendarme does Louis de Funès play?"
+        answers:
+          A: "Ludovic Cruchot"
+          B: "Commissioner Juve"
+          C: "Adjutant Gerber"
+          D: "Marshal Chaudard"
+    difficulty: EASY
+  - text: "Dans La Grande Vadrouille, quel est le nom du pâtissier ?"
+    answers:
+      A: "Augustin Bouvet"
+      B: "Marcel Duval"
+      C: "Raymond Colin"
+      D: "Albéric Bouvet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the pastry chef's name?"
+        answers:
+          A: "Augustin Bouvet"
+          B: "Marcel Duval"
+          C: "Raymond Colin"
+          D: "Albéric Bouvet"
+    difficulty: EASY
+  - text: "Quel personnage de Louis de Funès fait irruption dans La Grande Vadrouille lors de la scène du repas chez le marionnettiste ?"
+    answers:
+      A: "Le premier violon"
+      B: "Le commandant allemand"
+      C: "Le capitaine des pompiers"
+      D: "Le patron du restaurant"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Louis de Funès character bursts in during the meal scene at the puppeteer's in La Grande Vadrouille?"
+        answers:
+          A: "The first violin"
+          B: "The German commander"
+          C: "The fire captain"
+          D: "The restaurant owner"
+    difficulty: HARD
+  - text: "De quel pays viennent les aviateurs que La Grande Vadrouille doit aider à fuir ?"
+    answers:
+      A: "États-Unis"
+      B: "Royaume-Uni"
+      C: "Canada"
+      D: "Australie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country are the airmen from that La Grande Vadrouille must help escape?"
+        answers:
+          A: "United States"
+          B: "United Kingdom"
+          C: "Canada"
+          D: "Australia"
+    difficulty: MEDIUM
+  - text: "Dans Les Bronzés font du ski, quel est le nom du chien de Jean-Claude Dusse ?"
+    answers:
+      A: "Milou"
+      B: "Rex"
+      C: "Médor"
+      D: "Il n'a pas de chien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, what is the name of Jean-Claude Dusse's dog?"
+        answers:
+          A: "Milou"
+          B: "Rex"
+          C: "Médor"
+          D: "He doesn't have a dog"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés, combien de temps Bernard et Nathalie ont-ils passé ensemble avant de se marier ?"
+    answers:
+      A: "Trois jours"
+      B: "Une nuit"
+      C: "Un mois"
+      D: "Une semaine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Les Bronzés, how long had Bernard and Nathalie been together before getting married?"
+        answers:
+          A: "Three days"
+          B: "One night"
+          C: "One month"
+          D: "One week"
+    difficulty: EXPERT
+  - text: "Quel est le vrai nom de Bourvil ?"
+    imageUrl: wikipedia/movies/Bourvil,_annees_1940_ou_1950.png
+    answers:
+      A: "Alfred Raimbourg"
+      B: "André Raimbourg"
+      C: "René Bourvil"
+      D: "Marcel Raimbourg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Bourvil's real name?"
+        answers:
+          A: "Alfred Raimbourg"
+          B: "André Raimbourg"
+          C: "René Bourvil"
+          D: "Marcel Raimbourg"
+    difficulty: EASY
+  - text: "Quel acteur incarne Popeye dans Les Bronzés ?"
+    answers:
+      A: "Gérard Jugnot"
+      B: "Thierry Lhermitte"
+      C: "Michel Blanc"
+      D: "Christian Clavier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Popeye in Les Bronzés?"
+        answers:
+          A: "Gérard Jugnot"
+          B: "Thierry Lhermitte"
+          C: "Michel Blanc"
+          D: "Christian Clavier"
+    difficulty: MEDIUM
+  - text: "Dans Le Dîner de cons, où se déroule le dîner où Pierre Brochant doit se rendre ?"
+    answers:
+      A: "Chez un ami"
+      B: "Au restaurant"
+      C: "Au siège du journal"
+      D: "Dans un club privé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Le Dîner de cons, where does the dinner that Pierre Brochant must attend take place?"
+        answers:
+          A: "At a friend's house"
+          B: "At a restaurant"
+          C: "At the newspaper's headquarters"
+          D: "In a private club"
+    difficulty: MEDIUM
+  - text: "Quel est le prénom de l'épouse de Pierre Brochant dans Le Dîner de cons ?"
+    answers:
+      A: "Christine"
+      B: "Claire"
+      C: "Marlène"
+      D: "Sophie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Pierre Brochant's wife in Le Dîner de cons?"
+        answers:
+          A: "Christine"
+          B: "Claire"
+          C: "Marlène"
+          D: "Sophie"
+    difficulty: HARD
+  - text: "Dans Le Père Noël est une ordure, quel est le nom de l'association pour laquelle Thérèse et Pierre sont bénévoles ?"
+    answers:
+      A: "Emmaüs"
+      B: "Le Refuge"
+      C: "Les Restos du Cœur"
+      D: "SOS Détresse Amitié"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is the name of the charity Thérèse and Pierre volunteer for?"
+        answers:
+          A: "Emmaüs"
+          B: "Le Refuge"
+          C: "Les Restos du Cœur"
+          D: "SOS Détresse Amitié"
+    difficulty: HARD
+  - text: "Quel acteur joue Monsieur Preskovic, l'inventeur des doubitchous ?"
+    answers:
+      A: "Gérard Jugnot"
+      B: "Bruno Moynot"
+      C: "Michel Blanc"
+      D: "Roland Giraud"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Monsieur Preskovic, the inventor of the doubitchous?"
+        answers:
+          A: "Gérard Jugnot"
+          B: "Bruno Moynot"
+          C: "Michel Blanc"
+          D: "Roland Giraud"
+    difficulty: HARD
+  - text: "Dans Le Père Noël est une ordure, quelle arme Zézette menace-t-elle Thérèse avec ?"
+    answers:
+      A: "Un couteau de cuisine"
+      B: "Un pistolet"
+      C: "Un ciseau à bois"
+      D: "Un tuyau de plomb"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what weapon does Zézette threaten Thérèse with?"
+        answers:
+          A: "A kitchen knife"
+          B: "A pistol"
+          C: "A wood chisel"
+          D: "A lead pipe"
+    difficulty: HARD
+  - text: "Dans Les Bronzés font du ski, dans quel pays les personnages finissent-ils après s'être perdus ?"
+    answers:
+      A: "Autriche"
+      B: "Suisse"
+      C: "Italie"
+      D: "France"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, which country do the characters end up in after getting lost?"
+        answers:
+          A: "Austria"
+          B: "Switzerland"
+          C: "Italy"
+          D: "France"
+    difficulty: HARD
+  - text: "Quel est le prénom du personnage de Gérard Jugnot dans Les Bronzés ?"
+    answers:
+      A: "Bernard Morin"
+      B: "Gigi"
+      C: "Jean-Claude Dusse"
+      D: "Jérôme Tarayre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of Gérard Jugnot's character in Les Bronzés?"
+        answers:
+          A: "Bernard Morin"
+          B: "Gigi"
+          C: "Jean-Claude Dusse"
+          D: "Jérôme Tarayre"
+    difficulty: MEDIUM
+  - text: "Dans La Grande Vadrouille, quel tableau du Louvre les personnages utilisent-ils pour cacher la carte ?"
+    answers:
+      A: "La Joconde"
+      B: "La Liberté guidant le peuple"
+      C: "Le Radeau de la Méduse"
+      D: "Le Sacre de Napoléon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In La Grande Vadrouille, which Louvre painting do the characters use to hide the map?"
+        answers:
+          A: "Mona Lisa"
+          B: "Liberty Leading the People"
+          C: "The Raft of the Medusa"
+          D: "The Coronation of Napoleon"
+    difficulty: EXPERT
+  - text: "Qui a composé la musique du film La Grande Vadrouille ?"
+    answers:
+      A: "Georges Delerue"
+      B: "Georges Van Parys"
+      C: "Michel Legrand"
+      D: "Francis Lai"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the music for the film La Grande Vadrouille?"
+        answers:
+          A: "Georges Delerue"
+          B: "Georges Van Parys"
+          C: "Michel Legrand"
+          D: "Francis Lai"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le chef d'orchestre dans l'adaptation française de La Cage aux folles, film mettant aussi en scène Michel Serrault ?"
+    answers:
+      A: "Michel Galabru"
+      B: "Michel Piccoli"
+      C: "Ugo Tognazzi"
+      D: "Jean Poiret"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the orchestra conductor in the French adaptation of La Cage aux folles, a film that also features Michel Serrault?"
+        answers:
+          A: "Michel Galabru"
+          B: "Michel Piccoli"
+          C: "Ugo Tognazzi"
+          D: "Jean Poiret"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés font du ski, quel est le nom du moniteur de ski qui humilie Jean-Claude Dusse ?"
+    answers:
+      A: "Jean-Luc"
+      B: "Thierry"
+      C: "Marius"
+      D: "Popeye"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, what is the name of the ski instructor who humiliates Jean-Claude Dusse?"
+        answers:
+          A: "Jean-Luc"
+          B: "Thierry"
+          C: "Marius"
+          D: "Popeye"
+    difficulty: HARD
+  - text: "Dans Le Dîner de cons, quel est le prénom de l'ami de Pierre Brochant qui organise le dîner ?"
+    answers:
+      A: "Marlène"
+      B: "Christine"
+      C: "Juste"
+      D: "Pierre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is the first name of Pierre Brochant's friend who organizes the dinner?"
+        answers:
+          A: "Marlène"
+          B: "Christine"
+          C: "Juste"
+          D: "Pierre"
+    difficulty: HARD
+  - text: "Dans Le Père Noël est une ordure, quel est le nom du travesti qui appelle Thérèse au téléphone ?"
+    answers:
+      A: "Momo"
+      B: "Katia"
+      C: "Zézette"
+      D: "Félix"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is the name of the transvestite who calls Thérèse on the phone?"
+        answers:
+          A: "Momo"
+          B: "Katia"
+          C: "Zézette"
+          D: "Félix"
+    difficulty: EXPERT
+  - text: "Dans La Grande Vadrouille, quel est le nom du peintre en bâtiment qui aide les aviateurs ?"
+    answers:
+      A: "François Pignon"
+      B: "Stanislas Lefort"
+      C: "Augustin Bouvet"
+      D: "Antoine Maréchal"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the name of the house painter who helps the airmen?"
+        answers:
+          A: "François Pignon"
+          B: "Stanislas Lefort"
+          C: "Augustin Bouvet"
+          D: "Antoine Maréchal"
+    difficulty: MEDIUM
+  - text: "Combien de temps dure la cure que Jean-Claude Dusse propose à Josiane dans Les Bronzés font du ski ?"
+    answers:
+      A: "3 jours"
+      B: "1 semaine"
+      C: "2 semaines"
+      D: "1 mois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How long is the cure that Jean-Claude Dusse proposes to Josiane in Les Bronzés font du ski?"
+        answers:
+          A: "3 days"
+          B: "1 week"
+          C: "2 weeks"
+          D: "1 month"
+    difficulty: EXPERT
+  - text: "Quel acteur joue le rôle de Monsieur Preskovic dans Le Père Noël est une ordure ?"
+    answers:
+      A: "Bruno Moynot"
+      B: "Josiane Balasko"
+      C: "Marie-Anne Chazel"
+      D: "Christian Clavier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays the role of Monsieur Preskovic in Le Père Noël est une ordure?"
+        answers:
+          A: "Bruno Moynot"
+          B: "Josiane Balasko"
+          C: "Marie-Anne Chazel"
+          D: "Christian Clavier"
+    difficulty: HARD
+  - text: "Dans Le Dîner de cons, quel est le nom de famille de Juste, l'ami de François Pignon ?"
+    answers:
+      A: "Brochant"
+      B: "Pignon"
+      C: "Leblanc"
+      D: "Cheval"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is the surname of Juste, François Pignon's friend?"
+        answers:
+          A: "Brochant"
+          B: "Pignon"
+          C: "Leblanc"
+          D: "Cheval"
+    difficulty: EXPERT
+  - text: "Qui joue Léopold Saroyan dans « Le Corniaud » ?"
+    imageUrl: wikipedia/movies/Louis_de_Funes_L'Homme_orchestre_(1970)_(recadre).jpg
+    answers:
+      A: "Bourvil"
+      B: "Jean Marais"
+      C: "Michel Galabru"
+      D: "Louis de Funès"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who plays Léopold Saroyan in \"Le Corniaud\"?"
+        answers:
+          A: "Bourvil"
+          B: "Jean Marais"
+          C: "Michel Galabru"
+          D: "Louis de Funès"
+    difficulty: MEDIUM
+  - text: "Dans Les Bronzés, quel est le métier de Jean-Claude Dusse ?"
+    answers:
+      A: "Kinésithérapeute"
+      B: "Professeur de gym"
+      C: "Photographe"
+      D: "Vendeur de voitures"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Les Bronzés, what is Jean-Claude Dusse's job?"
+        answers:
+          A: "Physiotherapist"
+          B: "Gym teacher"
+          C: "Photographer"
+          D: "Car salesman"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, quel instrument Louis de Funès joue-t-il dans l'orchestre ?"
+    answers:
+      A: "Trompette"
+      B: "Piano"
+      C: "Flûte"
+      D: "Violon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In La Grande Vadrouille, which instrument does Louis de Funès play in the orchestra?"
+        answers:
+          A: "Trumpet"
+          B: "Piano"
+          C: "Flute"
+          D: "Violin"
+    difficulty: HARD
+  - text: "Dans Le Père Noël est une ordure, quel est le nom du réveillon que Thérèse et Pierre animent à la permanence téléphonique ?"
+    answers:
+      A: "Nouvel An"
+      B: "Noël"
+      C: "Pâques"
+      D: "Hanoucca"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is the name of the holiday evening that Thérèse and Pierre host at the helpline?"
+        answers:
+          A: "New Year"
+          B: "Christmas"
+          C: "Easter"
+          D: "Hanukkah"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le personnage de Bernard dans Les Bronzés ?"
+    answers:
+      A: "Christian Clavier"
+      B: "Thierry Lhermitte"
+      C: "Michel Blanc"
+      D: "Gérard Jugnot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the character Bernard in Les Bronzés?"
+        answers:
+          A: "Christian Clavier"
+          B: "Thierry Lhermitte"
+          C: "Michel Blanc"
+          D: "Gérard Jugnot"
+    difficulty: EASY
+  - text: "Dans Le Dîner de cons, quel objet François Pignon utilise-t-il pour construire sa maquette ?"
+    answers:
+      A: "Des bouchons"
+      B: "Des cure-dents"
+      C: "Des cartes à jouer"
+      D: "Des allumettes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Le Dîner de cons, what object does François Pignon use to build his model?"
+        answers:
+          A: "Bottle caps"
+          B: "Toothpicks"
+          C: "Playing cards"
+          D: "Matches"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, dans quel établissement les personnages se réfugient-ils après avoir fui les Allemands ?"
+    answers:
+      A: "Un moulin"
+      B: "Un théâtre"
+      C: "Une église"
+      D: "Un hôtel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In La Grande Vadrouille, which establishment do the characters take refuge in after fleeing the Germans?"
+        answers:
+          A: "A mill"
+          B: "A theater"
+          C: "A church"
+          D: "A hotel"
+    difficulty: HARD
+  - text: "Dans Les Bronzés font du ski, quelle chanson Jean-Claude Dusse chante-t-il pour impressionner les filles ?"
+    answers:
+      A: "Le Sud"
+      B: "Les Champs-Élysées"
+      C: "La Bohème"
+      D: "Quand te reverrai-je, pays merveilleux ?"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, which song does Jean-Claude Dusse sing to impress the girls?"
+        answers:
+          A: "Le Sud"
+          B: "Les Champs-Élysées"
+          C: "La Bohème"
+          D: "Quand te reverrai-je, pays merveilleux ?"
+    difficulty: EXPERT
+  - text: "Quel acteur joue le rôle de Katia, la sœur de Zézette, dans Le Père Noël est une ordure ?"
+    answers:
+      A: "Anémone"
+      B: "Josiane Balasko"
+      C: "Marie-Anne Chazel"
+      D: "Dominique Lavanant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays Katia, Zézette's sister, in Le Père Noël est une ordure?"
+        answers:
+          A: "Anémone"
+          B: "Josiane Balasko"
+          C: "Marie-Anne Chazel"
+          D: "Dominique Lavanant"
+    difficulty: HARD
+  - text: "Dans Le Dîner de cons, quel est le prénom de la femme de Pierre Brochant ?"
+    answers:
+      A: "Louise"
+      B: "Marlène"
+      C: "Justine"
+      D: "Christine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is the first name of Pierre Brochant's wife?"
+        answers:
+          A: "Louise"
+          B: "Marlène"
+          C: "Justine"
+          D: "Christine"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, quel est le nom du chef d'orchestre joué par Louis de Funès ?"
+    answers:
+      A: "Monsieur Duval"
+      B: "Augustin Bouvet"
+      C: "Stanislas Lefort"
+      D: "Antoine Maréchal"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the name of the orchestra conductor played by Louis de Funès?"
+        answers:
+          A: "Monsieur Duval"
+          B: "Augustin Bouvet"
+          C: "Stanislas Lefort"
+          D: "Antoine Maréchal"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés, quel est le nom du club de vacances où se déroule l'action ?"
+    answers:
+      A: "Club Med"
+      B: "Club Mickey"
+      C: "Village Vacances"
+      D: "Hôtel du Parc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Les Bronzés, what is the name of the holiday club where the action takes place?"
+        answers:
+          A: "Club Med"
+          B: "Club Mickey"
+          C: "Village Vacances"
+          D: "Hôtel du Parc"
+    difficulty: MEDIUM
+  - text: "Dans Le Père Noël est une ordure, quel est le nom du SDF qui téléphone à l'association ?"
+    answers:
+      A: "Momo"
+      B: "Félix"
+      C: "M. Preskovic"
+      D: "Paul"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is the name of the homeless man who calls the association?"
+        answers:
+          A: "Momo"
+          B: "Félix"
+          C: "M. Preskovic"
+          D: "Paul"
+    difficulty: EXPERT
+  - text: "Quel film de 1966 réunit Bourvil et de Funès ?"
+    imageUrl: wikipedia/movies/Paris_Opera_full_frontal_architecture,_May_2009.jpg
+    answers:
+      A: "Le Petit Baigneur"
+      B: "La Grande Vadrouille"
+      C: "La Folie des grandeurs"
+      D: "L'Aile ou la Cuisse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1966 film brings together Bourvil and de Funès?"
+        answers:
+          A: "Le Petit Baigneur"
+          B: "La Grande Vadrouille"
+          C: "La Folie des grandeurs"
+          D: "L'Aile ou la Cuisse"
+    difficulty: MEDIUM
+  - text: "Quel réalisateur a mis en scène Les Bronzés font du ski ?"
+    answers:
+      A: "Jean-Marie Poiré"
+      B: "Francis Veber"
+      C: "Gérard Oury"
+      D: "Patrice Leconte"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which director directed Les Bronzés font du ski?"
+        answers:
+          A: "Jean-Marie Poiré"
+          B: "Francis Veber"
+          C: "Gérard Oury"
+          D: "Patrice Leconte"
+    difficulty: MEDIUM
+  - text: "Quel personnage de Bourvil dans ce film ?"
+    imageUrl: wikipedia/movies/Citroen_2CV_AZ.jpg
+    answers:
+      A: "Léopold Saroyan"
+      B: "Antoine Maréchal"
+      C: "Émile Durand"
+      D: "Marcel Fournier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character does Bourvil play in this film?"
+        answers:
+          A: "Léopold Saroyan"
+          B: "Antoine Maréchal"
+          C: "Émile Durand"
+          D: "Marcel Fournier"
+    difficulty: EASY
+  - text: "Dans La Grande Vadrouille, quelle est la profession d'Augustin Bouvet ?"
+    answers:
+      A: "Pâtissier"
+      B: "Peintre en bâtiment"
+      C: "Médecin"
+      D: "Boucher"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is Augustin Bouvet's profession?"
+        answers:
+          A: "Pastry chef"
+          B: "House painter"
+          C: "Doctor"
+          D: "Butcher"
+    difficulty: MEDIUM
+  - text: "Dans Le Dîner de cons, quel est le nom de l'éditeur chez qui travaille Pierre Brochant ?"
+    answers:
+      A: "Grasset"
+      B: "Gallimard"
+      C: "Seuil"
+      D: "Flammarion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is the name of the publishing house where Pierre Brochant works?"
+        answers:
+          A: "Grasset"
+          B: "Gallimard"
+          C: "Seuil"
+          D: "Flammarion"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés font du ski, quel est le nom de l'auberge où les personnages sont hébergés ?"
+    answers:
+      A: "L'Auberge du Vieux Chalet"
+      B: "Le Refuge du Mont-Blanc"
+      C: "La Ferme des Alpages"
+      D: "Le Chalet du Berger"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, what is the name of the inn where the characters are staying?"
+        answers:
+          A: "L'Auberge du Vieux Chalet"
+          B: "Le Refuge du Mont-Blanc"
+          C: "La Ferme des Alpages"
+          D: "Le Chalet du Berger"
+    difficulty: EXPERT
+  - text: "Dans Le Père Noël est une ordure, quelle est la profession de Pierre ?"
+    answers:
+      A: "Médecin"
+      B: "Infirmier"
+      C: "Assistant social"
+      D: "Éducateur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is Pierre's profession?"
+        answers:
+          A: "Doctor"
+          B: "Nurse"
+          C: "Social worker"
+          D: "Educator"
+    difficulty: HARD
+  - text: "Dans Le Dîner de cons, quelle est la profession de François Pignon ?"
+    answers:
+      A: "Comptable"
+      B: "Archiviste"
+      C: "Employé aux impôts"
+      D: "Maquettiste"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is François Pignon's profession?"
+        answers:
+          A: "Accountant"
+          B: "Archivist"
+          C: "Tax office employee"
+          D: "Model maker"
+    difficulty: HARD
+  - text: "Dans Les Bronzés, quel est le prénom du personnage de Gérard Jugnot ?"
+    answers:
+      A: "Popeye"
+      B: "Jean-Claude"
+      C: "Bernard"
+      D: "Gigi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Les Bronzés, what is the first name of Gérard Jugnot's character?"
+        answers:
+          A: "Popeye"
+          B: "Jean-Claude"
+          C: "Bernard"
+          D: "Gigi"
+    difficulty: MEDIUM
+  - text: "Dans La Grande Vadrouille, quelle est la nationalité des aviateurs que les personnages aident à fuir ?"
+    answers:
+      A: "Canadienne"
+      B: "Américaine"
+      C: "Anglaise"
+      D: "Australienne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the nationality of the airmen the characters help to escape?"
+        answers:
+          A: "Canadian"
+          B: "American"
+          C: "English"
+          D: "Australian"
+    difficulty: EASY
+  - text: "Quel est le nom du personnage joué par Bourvil dans La Grande Vadrouille ?"
+    answers:
+      A: "Marcel Dubois"
+      B: "Stanislas Lefort"
+      C: "Augustin Bouvet"
+      D: "Pierre Martin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the character played by Bourvil in La Grande Vadrouille?"
+        answers:
+          A: "Marcel Dubois"
+          B: "Stanislas Lefort"
+          C: "Augustin Bouvet"
+          D: "Pierre Martin"
+    difficulty: MEDIUM
+  - text: "Dans La Grande Vadrouille, où se réfugient Augustin et Stanislas après avoir fui les Allemands à Paris ?"
+    answers:
+      A: "Dans les égouts"
+      B: "Dans une église"
+      C: "Dans un théâtre"
+      D: "Dans un hôtel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In La Grande Vadrouille, where do Augustin and Stanislas take refuge after fleeing the Germans in Paris?"
+        answers:
+          A: "In the sewers"
+          B: "In a church"
+          C: "In a theatre"
+          D: "In a hotel"
+    difficulty: HARD
+  - text: "Dans Le Dîner de cons, chez qui Pierre Brochant doit-il se rendre pour le dîner ?"
+    answers:
+      A: "Chez François Pignon"
+      B: "Chez Juste Leblanc"
+      C: "Chez Lucien Cheval"
+      D: "Chez Marlène Sasseur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Le Dîner de cons, whose home must Pierre Brochant go to for the dinner?"
+        answers:
+          A: "François Pignon's"
+          B: "Juste Leblanc's"
+          C: "Lucien Cheval's"
+          D: "Marlène Sasseur's"
+    difficulty: HARD
+  - text: "Quel est le nom du réveillon que Thérèse et Pierre animent à la permanence téléphonique dans Le Père Noël est une ordure ?"
+    answers:
+      A: "Les Restos du Cœur"
+      B: "SOS Amitié"
+      C: "SOS Détresse Amitié"
+      D: "Croix-Rouge"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the helpline where Thérèse and Pierre host the Christmas Eve in Le Père Noël est une ordure?"
+        answers:
+          A: "Les Restos du Cœur"
+          B: "SOS Amitié"
+          C: "SOS Détresse Amitié"
+          D: "Croix-Rouge"
+    difficulty: HARD
+  - text: "Quel acteur incarne le personnage de Popeye dans Les Bronzés ?"
+    answers:
+      A: "Thierry Lhermitte"
+      B: "Christian Clavier"
+      C: "Gérard Jugnot"
+      D: "Michel Blanc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays the character Popeye in Les Bronzés?"
+        answers:
+          A: "Thierry Lhermitte"
+          B: "Christian Clavier"
+          C: "Gérard Jugnot"
+          D: "Michel Blanc"
+    difficulty: EASY
+  - text: "Dans La Grande Vadrouille, quel officier allemand est joué par Benno Sterzenbach ?"
+    answers:
+      A: "Le colonel Von Strohm"
+      B: "Le major Achbach"
+      C: "Le commandant Schultz"
+      D: "Le général Von Kluck"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In La Grande Vadrouille, which German officer is played by Benno Sterzenbach?"
+        answers:
+          A: "Colonel Von Strohm"
+          B: "Major Achbach"
+          C: "Commander Schultz"
+          D: "General Von Kluck"
+    difficulty: EXPERT
+  - text: "Dans Le Dîner de cons, combien de temps François Pignon met-il pour construire une maquette de la Tour Eiffel en allumettes ?"
+    answers:
+      A: "Deux ans"
+      B: "Cinq ans"
+      C: "Six mois"
+      D: "Un an"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Le Dîner de cons, how long does François Pignon take to build a matchstick model of the Eiffel Tower?"
+        answers:
+          A: "Two years"
+          B: "Five years"
+          C: "Six months"
+          D: "One year"
+    difficulty: HARD
+  - text: "Dans Les Bronzés font du ski, quelle chanson Jean-Claude Dusse chante-t-il dans le téléphérique ?"
+    answers:
+      A: "Les Champs-Élysées"
+      B: "La Mer"
+      C: "Que reste-t-il de nos amours ?"
+      D: "Le Temps des cerises"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, which song does Jean-Claude Dusse sing in the cable car?"
+        answers:
+          A: "Les Champs-Élysées"
+          B: "La Mer"
+          C: "Que reste-t-il de nos amours ?"
+          D: "Le Temps des cerises"
+    difficulty: EXPERT
+  - text: "Dans La Grande Vadrouille, quelle est la profession de Stanislas Lefort ?"
+    answers:
+      A: "Chef d'orchestre"
+      B: "Peintre en bâtiment"
+      C: "Professeur de musique"
+      D: "Pianiste de bar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is Stanislas Lefort's profession?"
+        answers:
+          A: "Orchestra conductor"
+          B: "House painter"
+          C: "Music teacher"
+          D: "Bar pianist"
+    difficulty: MEDIUM
+  - text: "Quel acteur interprète le personnage de Popeye dans Les Bronzés ?"
+    answers:
+      A: "Gérard Jugnot"
+      B: "Thierry Lhermitte"
+      C: "Michel Blanc"
+      D: "Christian Clavier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the character Popeye in Les Bronzés?"
+        answers:
+          A: "Gérard Jugnot"
+          B: "Thierry Lhermitte"
+          C: "Michel Blanc"
+          D: "Christian Clavier"
+    difficulty: MEDIUM
+  - text: "Dans Les Bronzés, qui joue le personnage de Christiane, la monitrice de voile ?"
+    answers:
+      A: "Marie-Anne Chazel"
+      B: "Dominique Lavanant"
+      C: "Josiane Balasko"
+      D: "Anémone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Les Bronzés, who plays Christiane, the sailing instructor?"
+        answers:
+          A: "Marie-Anne Chazel"
+          B: "Dominique Lavanant"
+          C: "Josiane Balasko"
+          D: "Anémone"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, quel est le nom de famille d'Augustin Bouvet ?"
+    answers:
+      A: "Dubois"
+      B: "Lefort"
+      C: "Marchand"
+      D: "Bouvet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is Augustin Bouvet's last name?"
+        answers:
+          A: "Dubois"
+          B: "Lefort"
+          C: "Marchand"
+          D: "Bouvet"
+    difficulty: MEDIUM
+  - text: "Dans Le Père Noël est une ordure, quel est le nom du travesti qui appelle l'association ?"
+    answers:
+      A: "Katia"
+      B: "Zézette"
+      C: "Thérèse"
+      D: "Pierre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is the name of the cross-dresser who calls the association?"
+        answers:
+          A: "Katia"
+          B: "Zézette"
+          C: "Thérèse"
+          D: "Pierre"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés font du ski, quelle blessure Jean-Claude Dusse se fait-il en skiant ?"
+    answers:
+      A: "Une luxation de l'épaule"
+      B: "Une entorse"
+      C: "Une jambe cassée"
+      D: "Une fracture du poignet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, what injury does Jean-Claude Dusse get while skiing?"
+        answers:
+          A: "A dislocated shoulder"
+          B: "A sprain"
+          C: "A broken leg"
+          D: "A fractured wrist"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, quel tableau du Louvre est utilisé pour cacher la carte ?"
+    answers:
+      A: "La Joconde"
+      B: "Le Radeau de la Méduse"
+      C: "La Liberté guidant le peuple"
+      D: "Les Noces de Cana"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In La Grande Vadrouille, which Louvre painting is used to hide the map?"
+        answers:
+          A: "Mona Lisa"
+          B: "The Raft of the Medusa"
+          C: "Liberty Leading the People"
+          D: "The Wedding at Cana"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Monsieur Preskovic dans Le Père Noël est une ordure ?"
+    answers:
+      A: "Christian Clavier"
+      B: "Gérard Jugnot"
+      C: "Thierry Lhermitte"
+      D: "Bruno Moynot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Monsieur Preskovic in Le Père Noël est une ordure?"
+        answers:
+          A: "Christian Clavier"
+          B: "Gérard Jugnot"
+          C: "Thierry Lhermitte"
+          D: "Bruno Moynot"
+    difficulty: HARD
+  - text: "Dans Le Dîner de cons, quel est le nom de famille de François Pignon ?"
+    answers:
+      A: "Pignon"
+      B: "Brochant"
+      C: "Juste"
+      D: "Lefort"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is François Pignon's last name?"
+        answers:
+          A: "Pignon"
+          B: "Brochant"
+          C: "Juste"
+          D: "Lefort"
+    difficulty: MEDIUM
+  - text: "Dans Les Bronzés, quel est le nom du village de vacances où se déroule l'action ?"
+    answers:
+      A: "Club Med"
+      B: "Sibéria"
+      C: "Hôtel Club"
+      D: "Village Vacances"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Les Bronzés, what is the name of the holiday village where the action takes place?"
+        answers:
+          A: "Club Med"
+          B: "Sibéria"
+          C: "Hôtel Club"
+          D: "Village Vacances"
+    difficulty: EXPERT
+  - text: "Dans La Grande Vadrouille, quel est le nom du personnage joué par Bourvil ?"
+    answers:
+      A: "Stanislas Lefort"
+      B: "Augustin Bouvet"
+      C: "Marcel Dubois"
+      D: "Pierre Marchand"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the name of the character played by Bourvil?"
+        answers:
+          A: "Stanislas Lefort"
+          B: "Augustin Bouvet"
+          C: "Marcel Dubois"
+          D: "Pierre Marchand"
+    difficulty: MEDIUM
+  - text: "Dans Le Père Noël est une ordure, quelle arme Zézette utilise-t-elle pour menacer Thérèse ?"
+    answers:
+      A: "Un couteau"
+      B: "Une hache"
+      C: "Un fusil"
+      D: "Un revolver"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what weapon does Zézette use to threaten Thérèse?"
+        answers:
+          A: "A knife"
+          B: "An axe"
+          C: "A rifle"
+          D: "A revolver"
+    difficulty: EXPERT
+  - text: "Qui réalise Les Bronzés font du ski ?"
+    answers:
+      A: "Christian Clavier"
+      B: "Gérard Jugnot"
+      C: "Patrice Leconte"
+      D: "Michel Blanc"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who directed Les Bronzés font du ski?"
+        answers:
+          A: "Christian Clavier"
+          B: "Gérard Jugnot"
+          C: "Patrice Leconte"
+          D: "Michel Blanc"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, de quelle couleur est le cheval blanc de Stanislas ?"
+    answers:
+      A: "Gris"
+      B: "Blanc"
+      C: "Noir"
+      D: "Rouan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what color is Stanislas's white horse?"
+        answers:
+          A: "Grey"
+          B: "White"
+          C: "Black"
+          D: "Roan"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés font du ski, quel est le nom de la station où se déroule le film ?"
+    answers:
+      A: "Val-d'Isère"
+      B: "Courchevel"
+      C: "La Plagne"
+      D: "Super-Besse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, what is the name of the resort where the film takes place?"
+        answers:
+          A: "Val-d'Isère"
+          B: "Courchevel"
+          C: "La Plagne"
+          D: "Super-Besse"
+    difficulty: EXPERT
+  - text: "Quel est le titre du film dérivé du Père Noël est une ordure, sorti en 2003 ?"
+    answers:
+      A: "Le Père Noël est de retour"
+      B: "Le Père Noël est une ordure 2"
+      C: "Le Père Noël est une ordure : 20 ans après"
+      D: "Le Père Noël est une ordure : La Suite"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the spin-off film of Santa Claus is a Stinker, released in 2003?"
+        answers:
+          A: "Santa Claus is Back"
+          B: "Santa Claus is a Stinker 2"
+          C: "Santa Claus is a Stinker: 20 Years Later"
+          D: "Santa Claus is a Stinker: The Sequel"
+    difficulty: HARD
+  - text: "Dans Le Dîner de cons, quel est le titre du livre que François Pignon offre à Pierre Brochant ?"
+    answers:
+      A: "Les Cons, ça ose tout"
+      B: "Le Dîner de cons"
+      C: "L'Encyclopédie des cons"
+      D: "Le Grand Livre des cons"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In The Dinner Game, what is the title of the book that François Pignon gives to Pierre Brochant?"
+        answers:
+          A: "Idiots Dare Anything"
+          B: "The Dinner Game"
+          C: "The Encyclopedia of Idiots"
+          D: "The Big Book of Idiots"
+    difficulty: EXPERT
+  - text: "Dans La Grande Vadrouille, quel est le nom du premier aviateur anglais que rencontrent Augustin et Stanislas ?"
+    answers:
+      A: "Percival"
+      B: "Reginald"
+      C: "Alan"
+      D: "Peter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the name of the first English airman that Augustin and Stanislas meet?"
+        answers:
+          A: "Percival"
+          B: "Reginald"
+          C: "Alan"
+          D: "Peter"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés, quel est le nom de famille de Jean-Claude Dusse ?"
+    answers:
+      A: "Duss"
+      B: "Dus"
+      C: "Dusse"
+      D: "Dusseau"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Les Bronzés, what is Jean-Claude Dusse's last name?"
+        answers:
+          A: "Duss"
+          B: "Dus"
+          C: "Dusse"
+          D: "Dusseau"
+    difficulty: HARD
+  - text: "Quel acteur incarne le personnage de Christiane dans Les Bronzés ?"
+    answers:
+      A: "Marie-Anne Chazel"
+      B: "Josiane Balasko"
+      C: "Dominique Lavanant"
+      D: "Christiane Amiel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays the character Christiane in Les Bronzés?"
+        answers:
+          A: "Marie-Anne Chazel"
+          B: "Josiane Balasko"
+          C: "Dominique Lavanant"
+          D: "Christiane Amiel"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, quel est le nom du tableau du Louvre qui cache la carte ?"
+    answers:
+      A: "La Joconde"
+      B: "Le Radeau de la Méduse"
+      C: "Les Noces de Cana"
+      D: "La Liberté guidant le peuple"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the name of the Louvre painting that hides the map?"
+        answers:
+          A: "Mona Lisa"
+          B: "The Raft of the Medusa"
+          C: "The Wedding at Cana"
+          D: "Liberty Leading the People"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés font du ski, quelle chanson Jean-Claude Dusse chante-t-il pour tenter de séduire une femme ?"
+    answers:
+      A: "Que Marianne était jolie"
+      B: "Les Champs-Élysées"
+      C: "L'Été indien"
+      D: "Voyage au bout de l'ennui"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, what song does Jean-Claude Dusse sing to try to seduce a woman?"
+        answers:
+          A: "Que Marianne était jolie"
+          B: "Les Champs-Élysées"
+          C: "L'Été indien"
+          D: "Voyage au bout de l'ennui"
+    difficulty: EXPERT
+  - text: "Dans Le Père Noël est une ordure, quel est le nom de famille de Zézette ?"
+    answers:
+      A: "Durand"
+      B: "Menard"
+      C: "Martin"
+      D: "Lefèvre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Santa Claus is a Stinker, what is Zézette's last name?"
+        answers:
+          A: "Durand"
+          B: "Menard"
+          C: "Martin"
+          D: "Lefèvre"
+    difficulty: EXPERT
+  - text: "Dans La Grande Vadrouille, quel est le nom de l'auberge où Augustin et Stanislas font halte après avoir fui Paris ?"
+    answers:
+      A: "L'Auberge du Cheval Blanc"
+      B: "La Table du Meunier"
+      C: "Le Relais des Moines"
+      D: "L'Auberge de la Cloche"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the name of the inn where Augustin and Stanislas stop after fleeing Paris?"
+        answers:
+          A: "L'Auberge du Cheval Blanc"
+          B: "La Table du Meunier"
+          C: "Le Relais des Moines"
+          D: "L'Auberge de la Cloche"
+    difficulty: EXPERT
+  - text: "Dans Le Dîner de cons, quel est le prénom de l'amateur de maquettes de François Pignon ?"
+    answers:
+      A: "François"
+      B: "Lucien"
+      C: "Juste"
+      D: "Pierre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In The Dinner Game, what is the first name of François Pignon's model-building enthusiast?"
+        answers:
+          A: "François"
+          B: "Lucien"
+          C: "Juste"
+          D: "Pierre"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés, quel est le nom du directeur du club de vacances ?"
+    answers:
+      A: "Monsieur Martin"
+      B: "Monsieur Duval"
+      C: "Monsieur Bernard"
+      D: "Monsieur Popeye"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Les Bronzés, what is the name of the holiday club director?"
+        answers:
+          A: "Monsieur Martin"
+          B: "Monsieur Duval"
+          C: "Monsieur Bernard"
+          D: "Monsieur Popeye"
+    difficulty: EXPERT
+  - text: "Dans Le Père Noël est une ordure, quel est le nom de famille du couple de voisins qui invite Thérèse et Pierre à dîner ?"
+    answers:
+      A: "Musquin"
+      B: "Leblanc"
+      C: "Durand"
+      D: "Lascar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Santa Claus is a Stinker, what is the last name of the couple of neighbors who invite Thérèse and Pierre to dinner?"
+        answers:
+          A: "Musquin"
+          B: "Leblanc"
+          C: "Durand"
+          D: "Lascar"
+    difficulty: EXPERT
+  - text: "Dans Le Dîner de cons, avec quoi François Pignon a-t-il construit sa maquette de la Tour Eiffel ?"
+    answers:
+      A: "Des cure-dents"
+      B: "Des trombones"
+      C: "Des bouchons"
+      D: "Des allumettes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In The Dinner Game, what did François Pignon use to build his model of the Eiffel Tower?"
+        answers:
+          A: "Toothpicks"
+          B: "Paper clips"
+          C: "Bottle caps"
+          D: "Matches"
+    difficulty: HARD
+  - text: "Dans Les Bronzés font du ski, quelle partie du corps Jean-Claude Dusse se blesse-t-il en skiant ?"
+    answers:
+      A: "Le poignet"
+      B: "L'épaule"
+      C: "Le genou"
+      D: "La cheville"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Les Bronzés font du ski, what part of his body does Jean-Claude Dusse injure while skiing?"
+        answers:
+          A: "Wrist"
+          B: "Shoulder"
+          C: "Knee"
+          D: "Ankle"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, quel tableau du Louvre cache la carte d'évasion ?"
+    answers:
+      A: "La Joconde"
+      B: "Le Radeau de la Méduse"
+      C: "La Liberté guidant le peuple"
+      D: "Les Noces de Cana"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In La Grande Vadrouille, which Louvre painting hides the escape map?"
+        answers:
+          A: "Mona Lisa"
+          B: "The Raft of the Medusa"
+          C: "Liberty Leading the People"
+          D: "The Wedding at Cana"
+    difficulty: EXPERT
+  - text: "Dans La Grande Vadrouille, quel est le nom du personnage joué par Louis de Funès ?"
+    answers:
+      A: "Augustin Bouvet"
+      B: "Stanislas Lefort"
+      C: "Pierre Legrand"
+      D: "Marcel Dubois"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the name of the character played by Louis de Funès?"
+        answers:
+          A: "Augustin Bouvet"
+          B: "Stanislas Lefort"
+          C: "Pierre Legrand"
+          D: "Marcel Dubois"
+    difficulty: MEDIUM
+  - text: "Dans Le Père Noël est une ordure, quel est le nom de la sœur de Pierre ?"
+    answers:
+      A: "Thérèse"
+      B: "Martine"
+      C: "Sophie"
+      D: "Zézette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is the name of Pierre's sister?"
+        answers:
+          A: "Thérèse"
+          B: "Martine"
+          C: "Sophie"
+          D: "Zézette"
+    difficulty: EXPERT
+  - text: "Dans La Grande Vadrouille, quelle est la nationalité des deux aviateurs cachés par Augustin ?"
+    answers:
+      A: "Américaine"
+      B: "Anglaise"
+      C: "Canadienne"
+      D: "Australienne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is the nationality of the two airmen hidden by Augustin?"
+        answers:
+          A: "American"
+          B: "English"
+          C: "Canadian"
+          D: "Australian"
+    difficulty: EASY
+  - text: "Dans Le Dîner de cons, quel est le nom de l'éditeur qui organise le dîner ?"
+    answers:
+      A: "Jean Cordier"
+      B: "Pierre Brochant"
+      C: "François Pignon"
+      D: "Monsieur Leblanc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is the name of the publisher who organizes the dinner?"
+        answers:
+          A: "Jean Cordier"
+          B: "Pierre Brochant"
+          C: "François Pignon"
+          D: "Monsieur Leblanc"
+    difficulty: EXPERT
+  - text: "Dans Les Bronzés, qui joue le rôle de la monitrice de planche à voile ?"
+    answers:
+      A: "Marie-Anne Chazel"
+      B: "Josiane Balasko"
+      C: "Dominique Lavanant"
+      D: "Anémone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Les Bronzés, who plays the role of the windsurfing instructor?"
+        answers:
+          A: "Marie-Anne Chazel"
+          B: "Josiane Balasko"
+          C: "Dominique Lavanant"
+          D: "Anémone"
+    difficulty: HARD
+  - text: "Dans La Grande Vadrouille, quel est le nom de famille d'Augustin ?"
+    answers:
+      A: "Lefort"
+      B: "Bouvet"
+      C: "Dubois"
+      D: "Martin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In La Grande Vadrouille, what is Augustin's last name?"
+        answers:
+          A: "Lefort"
+          B: "Bouvet"
+          C: "Dubois"
+          D: "Martin"
+    difficulty: MEDIUM
+  - text: "Dans Le Dîner de cons, quel est le métier de François Pignon ?"
+    answers:
+      A: "Inspecteur des impôts"
+      B: "Archiviste à la Bibliothèque nationale"
+      C: "Professeur de mathématiques"
+      D: "Employé au ministère des Finances"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Le Dîner de cons, what is François Pignon's profession?"
+        answers:
+          A: "Tax inspector"
+          B: "Archivist at the Bibliothèque nationale"
+          C: "Mathematics teacher"
+          D: "Employee at the Ministry of Finance"
+    difficulty: HARD
+  - text: "Quel acteur incarne Pierre Brochant dans Le Dîner de cons ?"
+    answers:
+      A: "Daniel Auteuil"
+      B: "Thierry Lhermitte"
+      C: "Christian Clavier"
+      D: "Michel Blanc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Pierre Brochant in Le Dîner de cons?"
+        answers:
+          A: "Daniel Auteuil"
+          B: "Thierry Lhermitte"
+          C: "Christian Clavier"
+          D: "Michel Blanc"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de famille de Jean-Claude Dusse dans Les Bronzés font du ski ?"
+    answers:
+      A: "Dusse"
+      B: "Duss"
+      C: "Dusseau"
+      D: "Dussert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Jean-Claude Dusse's last name in Les Bronzés font du ski?"
+        answers:
+          A: "Dusse"
+          B: "Duss"
+          C: "Dusseau"
+          D: "Dussert"
+    difficulty: HARD
+  - text: "Dans Le Père Noël est une ordure, quel est le prénom de l'employé de la SNCF qui appelle l'association ?"
+    answers:
+      A: "Pierre"
+      B: "Jean"
+      C: "José"
+      D: "Paul"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Le Père Noël est une ordure, what is the first name of the SNCF employee who calls the association?"
+        answers:
+          A: "Pierre"
+          B: "Jean"
+          C: "José"
+          D: "Paul"
+    difficulty: EXPERT

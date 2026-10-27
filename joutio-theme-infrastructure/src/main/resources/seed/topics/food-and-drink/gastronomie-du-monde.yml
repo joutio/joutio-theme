@@ -1,0 +1,1632 @@
+topic:
+  id: topic-gastronomie-du-monde
+  names:
+    fr: "Gastronomie du monde"
+    en: "World Cuisine"
+  description: "Un tour du monde gourmand : plats emblématiques, spécialités régionales françaises, fromages et épices. De la paella valenciana au sushi japonais, du couscous marocain au bœuf bourguignon, découvrez les origines et les ingrédients des grandes cuisines du globe."
+  category: FOOD_AND_DRINK
+  titles:
+    fr:
+      FER: "Casseur d'œufs"
+      BRONZE: "Éplucheur de patates"
+      ARGENT: "Mijoteur du dimanche"
+      OR: "Tourneur de sauce"
+      PLATINE: "Chef de brigade"
+      EMERAUDE: "Étoilé au guide"
+      DIAMANT: "Toque immortelle"
+    en:
+      FER: "Egg Breaker"
+      BRONZE: "Potato Peeler"
+      ARGENT: "Sunday Simmerer"
+      OR: "Sauce Whisperer"
+      PLATINE: "Line Cook Boss"
+      EMERAUDE: "Michelin Starred"
+      DIAMANT: "Immortal Toque"
+  imageUrl: wikipedia/food-and-drink/Paella_valenciana.jpg
+questions:
+  - text: "Quel plat espagnol au riz safrané est-ce ?"
+    imageUrl: wikipedia/food-and-drink/Paella_de_marisco.jpg
+    answers:
+      A: "La paella"
+      B: "Le couscous"
+      C: "Le risotto"
+      D: "Le pa amb tomàquet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Spanish saffron rice dish is this?"
+        answers:
+          A: "Paella"
+          B: "Couscous"
+          C: "Risotto"
+          D: "Pa amb tomàquet"
+    difficulty: EASY
+  - text: "Quel est ce plat japonais à base de riz et poisson ?"
+    imageUrl: wikipedia/food-and-drink/Sushi_platter.jpg
+    answers:
+      A: "Le sushi"
+      B: "Le ramen"
+      C: "Le pad thaï"
+      D: "Le dim sum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this Japanese dish made with rice and fish?"
+        answers:
+          A: "Sushi"
+          B: "Ramen"
+          C: "Pad Thai"
+          D: "Dim sum"
+    difficulty: EASY
+  - text: "Quelle pizza a tomate, mozzarella et basilic ?"
+    imageUrl: wikipedia/food-and-drink/Pizza_Margherita.jpg
+    answers:
+      A: "La pizza quatre fromages"
+      B: "La pizza au pepperoni"
+      C: "La pizza margherita"
+      D: "La pizza reine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which pizza has tomato, mozzarella, and basil?"
+        answers:
+          A: "Four cheese pizza"
+          B: "Pepperoni pizza"
+          C: "Margherita pizza"
+          D: "Queen pizza"
+    difficulty: EASY
+  - text: "Quel plat nord-africain à base de semoule ?"
+    imageUrl: wikipedia/food-and-drink/Couscous.jpg
+    answers:
+      A: "Le tajine"
+      B: "Le couscous"
+      C: "La pastilla"
+      D: "La chakchouka"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which North African dish is made from semolina?"
+        answers:
+          A: "Tagine"
+          B: "Couscous"
+          C: "Pastilla"
+          D: "Shakshuka"
+    difficulty: MEDIUM
+  - text: "Quel plat grec est un gratin d'aubergines ?"
+    imageUrl: wikipedia/food-and-drink/Moussaka.jpg
+    answers:
+      A: "Les dolmades"
+      B: "Le souvlaki"
+      C: "Le tzatziki"
+      D: "La moussaka"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Greek dish is an eggplant casserole?"
+        answers:
+          A: "Dolmades"
+          B: "Souvlaki"
+          C: "Tzatziki"
+          D: "Moussaka"
+    difficulty: EASY
+  - text: "Quelle soupe d'Europe de l'Est est rouge ?"
+    imageUrl: wikipedia/food-and-drink/Borscht.jpg
+    answers:
+      A: "Le bortsch"
+      B: "La soupe à l'oignon"
+      C: "Le minestrone"
+      D: "Le gaspacho"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Eastern European soup is red?"
+        answers:
+          A: "Borscht"
+          B: "French onion soup"
+          C: "Minestrone"
+          D: "Gazpacho"
+    difficulty: MEDIUM
+  - text: "Quel fromage italien à pâte dure est traditionnellement râpé sur les pâtes et est protégé par une AOP ?"
+    answers:
+      A: "Pecorino Romano"
+      B: "Parmigiano Reggiano"
+      C: "Grana Padano"
+      D: "Provolone"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Italian hard cheese is traditionally grated over pasta and is protected by a PDO?"
+        answers:
+          A: "Pecorino Romano"
+          B: "Parmigiano Reggiano"
+          C: "Grana Padano"
+          D: "Provolone"
+    difficulty: HARD
+  - text: "Quelle épice est issue du pistil de la fleur du crocus et est l'épice la plus chère au monde ?"
+    answers:
+      A: "Safran"
+      B: "Curcuma"
+      C: "Paprika"
+      D: "Cumin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice comes from the pistil of the crocus flower and is the most expensive spice in the world?"
+        answers:
+          A: "Saffron"
+          B: "Turmeric"
+          C: "Paprika"
+          D: "Cumin"
+    difficulty: MEDIUM
+  - text: "Quel plat japonais consiste en des boulettes de riz farcies ou non, souvent grillées ?"
+    answers:
+      A: "Mochi"
+      B: "Onigiri"
+      C: "Sushi"
+      D: "Tempura"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese dish consists of stuffed or unstuffed rice balls, often grilled?"
+        answers:
+          A: "Mochi"
+          B: "Onigiri"
+          C: "Sushi"
+          D: "Tempura"
+    difficulty: MEDIUM
+  - text: "La bouillabaisse est une spécialité culinaire originaire de quelle ville française ?"
+    answers:
+      A: "Nice"
+      B: "Toulon"
+      C: "Marseille"
+      D: "Sète"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Bouillabaisse is a culinary specialty originating from which French city?"
+        answers:
+          A: "Nice"
+          B: "Toulon"
+          C: "Marseille"
+          D: "Sète"
+    difficulty: MEDIUM
+  - text: "Quel fromage français à pâte molle et croûte fleurie est produit en Normandie et a une forme de cœur ?"
+    answers:
+      A: "Camembert"
+      B: "Brie"
+      C: "Neufchâtel"
+      D: "Pont-l'Évêque"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French soft cheese with a bloomy rind is produced in Normandy and has a heart shape?"
+        answers:
+          A: "Camembert"
+          B: "Brie"
+          C: "Neufchâtel"
+          D: "Pont-l'Évêque"
+    difficulty: HARD
+  - text: "Quel plat mexicain est composé d'une tortilla de maïs garnie de viande, de haricots et de piment, souvent servie avec du guacamole ?"
+    answers:
+      A: "Enchilada"
+      B: "Burrito"
+      C: "Quesadilla"
+      D: "Taco"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Mexican dish consists of a corn tortilla filled with meat, beans, and chili, often served with guacamole?"
+        answers:
+          A: "Enchilada"
+          B: "Burrito"
+          C: "Quesadilla"
+          D: "Taco"
+    difficulty: MEDIUM
+  - text: "Quelle variété de riz est traditionnellement utilisée pour préparer un risotto italien ?"
+    answers:
+      A: "Basmati"
+      B: "Jasmin"
+      C: "Arborio"
+      D: "Long grain"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rice variety is traditionally used to prepare an Italian risotto?"
+        answers:
+          A: "Basmati"
+          B: "Jasmine"
+          C: "Arborio"
+          D: "Long grain"
+    difficulty: HARD
+  - text: "Quel plat indien est un curry de pois chiches épicé, souvent servi avec du riz ou du pain naan ?"
+    answers:
+      A: "Dal makhani"
+      B: "Chana masala"
+      C: "Palak paneer"
+      D: "Biryani"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Indian dish is a spicy chickpea curry, often served with rice or naan bread?"
+        answers:
+          A: "Dal makhani"
+          B: "Chana masala"
+          C: "Palak paneer"
+          D: "Biryani"
+    difficulty: MEDIUM
+  - text: "Quel fromage suisse à pâte dure est traditionnellement utilisé pour la fondue moitié-moitié avec le vacherin ?"
+    answers:
+      A: "Emmental"
+      B: "Raclette"
+      C: "Appenzeller"
+      D: "Gruyère"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Swiss hard cheese is traditionally used for fondue moitié-moitié with Vacherin?"
+        answers:
+          A: "Emmental"
+          B: "Raclette"
+          C: "Appenzeller"
+          D: "Gruyère"
+    difficulty: HARD
+  - text: "Quel plat thaïlandais est une soupe aigre-douce au lait de coco et à la citronnelle, souvent avec des crevettes ?"
+    answers:
+      A: "Tom yum"
+      B: "Pad thaï"
+      C: "Curry vert"
+      D: "Som tam"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Thai dish is a sweet-and-sour soup with coconut milk and lemongrass, often with shrimp?"
+        answers:
+          A: "Tom yum"
+          B: "Pad thai"
+          C: "Green curry"
+          D: "Som tam"
+    difficulty: HARD
+  - text: "Quel cépage est utilisé pour produire le vin rouge de Bourgogne appelé Gevrey-Chambertin ?"
+    answers:
+      A: "Cabernet Sauvignon"
+      B: "Merlot"
+      C: "Pinot Noir"
+      D: "Syrah"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which grape variety is used to produce the Burgundy red wine called Gevrey-Chambertin?"
+        answers:
+          A: "Cabernet Sauvignon"
+          B: "Merlot"
+          C: "Pinot Noir"
+          D: "Syrah"
+    difficulty: HARD
+  - text: "Quel plat espagnol est composé de pommes de terre et d'œufs, souvent servi en tranches ?"
+    answers:
+      A: "Paella"
+      B: "Tortilla española"
+      C: "Gazpacho"
+      D: "Pisto"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Spanish dish is made of potatoes and eggs, often served in slices?"
+        answers:
+          A: "Paella"
+          B: "Tortilla española"
+          C: "Gazpacho"
+          D: "Pisto"
+    difficulty: MEDIUM
+  - text: "Quel fromage bleu italien est produit dans la région de Lombardie et est souvent utilisé dans les sauces ?"
+    answers:
+      A: "Cabrales"
+      B: "Roquefort"
+      C: "Stilton"
+      D: "Gorgonzola"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian blue cheese is produced in the Lombardy region and is often used in sauces?"
+        answers:
+          A: "Cabrales"
+          B: "Roquefort"
+          C: "Stilton"
+          D: "Gorgonzola"
+    difficulty: HARD
+  - text: "Quel plat marocain est un tajine de poulet aux citrons confits et aux olives ?"
+    answers:
+      A: "Couscous"
+      B: "Tajine de poulet"
+      C: "Pastilla"
+      D: "Harira"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Moroccan dish is a chicken tagine with preserved lemons and olives?"
+        answers:
+          A: "Couscous"
+          B: "Chicken tagine"
+          C: "Pastilla"
+          D: "Harira"
+    difficulty: HARD
+  - text: "Quel est l'ingrédient principal de la soupe froide andalouse appelée gazpacho ?"
+    answers:
+      A: "Concombre"
+      B: "Tomate"
+      C: "Poivron"
+      D: "Courgette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the main ingredient of the Andalusian cold soup called gazpacho?"
+        answers:
+          A: "Cucumber"
+          B: "Tomato"
+          C: "Bell pepper"
+          D: "Zucchini"
+    difficulty: EASY
+  - text: "Quel type de pâte est utilisé pour les raviolis italiens ?"
+    answers:
+      A: "Pâte brisée"
+      B: "Pâte à choux"
+      C: "Pâte feuilletée"
+      D: "Pâte à ravioli"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What type of dough is used for Italian ravioli?"
+        answers:
+          A: "Shortcrust pastry"
+          B: "Choux pastry"
+          C: "Puff pastry"
+          D: "Ravioli dough"
+    difficulty: MEDIUM
+  - text: "Quel plat japonais est une soupe de nouilles udon servie dans un bouillon chaud ?"
+    answers:
+      A: "Ramen"
+      B: "Udon"
+      C: "Soba"
+      D: "Somen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese dish is a udon noodle soup served in a hot broth?"
+        answers:
+          A: "Ramen"
+          B: "Udon"
+          C: "Soba"
+          D: "Somen"
+    difficulty: HARD
+  - text: "Quelle épice est obtenue à partir de l'écorce intérieure du cannelier et est utilisée en bâton ou en poudre ?"
+    answers:
+      A: "Cannelle"
+      B: "Muscade"
+      C: "Clou de girofle"
+      D: "Cardamome"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice is obtained from the inner bark of the cinnamon tree and is used in sticks or powder?"
+        answers:
+          A: "Cinnamon"
+          B: "Nutmeg"
+          C: "Clove"
+          D: "Cardamom"
+    difficulty: MEDIUM
+  - text: "Quel fromage français AOP est produit en Auvergne et se présente sous forme de fourme cylindrique ?"
+    answers:
+      A: "Bleu d'Auvergne"
+      B: "Cantal"
+      C: "Fourme d'Ambert"
+      D: "Saint-Nectaire"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in Auvergne and comes in the form of a cylindrical fourme?"
+        answers:
+          A: "Bleu d'Auvergne"
+          B: "Cantal"
+          C: "Fourme d'Ambert"
+          D: "Saint-Nectaire"
+    difficulty: EXPERT
+  - text: "Quel plat vietnamien est une soupe de nouilles de riz avec du porc grillé et des herbes fraîches ?"
+    answers:
+      A: "Phở"
+      B: "Gỏi cuốn"
+      C: "Bánh mì"
+      D: "Bún chả"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Vietnamese dish is a rice noodle soup with grilled pork and fresh herbs?"
+        answers:
+          A: "Phở"
+          B: "Gỏi cuốn"
+          C: "Bánh mì"
+          D: "Bún chả"
+    difficulty: HARD
+  - text: "Quel plat japonais est un bol de riz garni de tranches de bœuf et d'oignon mijotés dans un bouillon sucré-salé ?"
+    answers:
+      A: "Katsudon"
+      B: "Oyakodon"
+      C: "Gyudon"
+      D: "Unadon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Japanese dish is a bowl of rice topped with slices of beef and onion simmered in a sweet-savory broth?"
+        answers:
+          A: "Katsudon"
+          B: "Oyakodon"
+          C: "Gyudon"
+          D: "Unadon"
+    difficulty: HARD
+  - text: "Quel fromage français AOP est produit dans le Jura sous forme de meule et est utilisé dans la fondue comtoise ?"
+    answers:
+      A: "Beaufort"
+      B: "Comté"
+      C: "Abondance"
+      D: "Emmental"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in the Jura in the form of a wheel and is used in Comté fondue?"
+        answers:
+          A: "Beaufort"
+          B: "Comté"
+          C: "Abondance"
+          D: "Emmental"
+    difficulty: HARD
+  - text: "Quelle épice est issue des graines fermentées et séchées de l'orchidée Vanilla planifolia ?"
+    answers:
+      A: "La cardamome"
+      B: "La vanille"
+      C: "Le safran"
+      D: "La muscade"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spice comes from the fermented and dried seeds of the Vanilla planifolia orchid?"
+        answers:
+          A: "Cardamom"
+          B: "Vanilla"
+          C: "Saffron"
+          D: "Nutmeg"
+    difficulty: HARD
+  - text: "Quel plat italien est une soupe de pain rassis, tomates et basilic, originaire de Toscane ?"
+    answers:
+      A: "Pappa al pomodoro"
+      B: "Ribollita"
+      C: "Minestrone"
+      D: "Acqua cotta"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian dish is a soup of stale bread, tomatoes and basil, originating from Tuscany?"
+        answers:
+          A: "Pappa al pomodoro"
+          B: "Ribollita"
+          C: "Minestrone"
+          D: "Acqua cotta"
+    difficulty: HARD
+  - text: "Quel fromage espagnol à pâte dure est produit en Castille-et-León et souvent râpé sur les pâtes ?"
+    answers:
+      A: "Mahon"
+      B: "Idiazábal"
+      C: "Cabrales"
+      D: "Manchego"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Spanish hard cheese is produced in Castile and León and often grated over pasta?"
+        answers:
+          A: "Mahon"
+          B: "Idiazábal"
+          C: "Cabrales"
+          D: "Manchego"
+    difficulty: EXPERT
+  - text: "Quel plat indien est un curry de lentilles jaunes, souvent servi avec du riz ou du pain ?"
+    answers:
+      A: "Dal makhani"
+      B: "Chana masala"
+      C: "Palak paneer"
+      D: "Dal tadka"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Indian dish is a yellow lentil curry, often served with rice or bread?"
+        answers:
+          A: "Dal makhani"
+          B: "Chana masala"
+          C: "Palak paneer"
+          D: "Dal tadka"
+    difficulty: HARD
+  - text: "Quel plat marocain est une salade cuite à base de poivrons grillés, tomates et ail ?"
+    answers:
+      A: "Zaâlouk"
+      B: "Taktouka"
+      C: "Bissara"
+      D: "Harira"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Moroccan dish is a cooked salad made from grilled peppers, tomatoes and garlic?"
+        answers:
+          A: "Zaâlouk"
+          B: "Taktouka"
+          C: "Bissara"
+          D: "Harira"
+    difficulty: HARD
+  - text: "Quel fromage italien à pâte filée est traditionnellement utilisé pour la pizza margherita ?"
+    answers:
+      A: "Mozzarella di bufala"
+      B: "Provolone"
+      C: "Scamorza"
+      D: "Caciocavallo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian stretched-curd cheese is traditionally used for pizza margherita?"
+        answers:
+          A: "Mozzarella di bufala"
+          B: "Provolone"
+          C: "Scamorza"
+          D: "Caciocavallo"
+    difficulty: MEDIUM
+  - text: "Quel plat japonais est une soupe de nouilles soba servie chaude ou froide ?"
+    answers:
+      A: "Udon"
+      B: "Somen"
+      C: "Ramen"
+      D: "Soba"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese dish is a soba noodle soup served hot or cold?"
+        answers:
+          A: "Udon"
+          B: "Somen"
+          C: "Ramen"
+          D: "Soba"
+    difficulty: HARD
+  - text: "Quel fromage français AOP est produit en Savoie et utilisé dans la fondue savoyarde ?"
+    answers:
+      A: "Tomme de Savoie"
+      B: "Reblochon"
+      C: "Abondance"
+      D: "Beaufort"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in Savoie and used in fondue savoyarde?"
+        answers:
+          A: "Tomme de Savoie"
+          B: "Reblochon"
+          C: "Abondance"
+          D: "Beaufort"
+    difficulty: HARD
+  - text: "Quelle épice est obtenue à partir du rhizome d'une plante et est utilisée fraîche ou en poudre ?"
+    answers:
+      A: "Le galanga"
+      B: "Le curcuma"
+      C: "Le gingembre"
+      D: "Le wasabi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spice is obtained from the rhizome of a plant and is used fresh or ground?"
+        answers:
+          A: "Galangal"
+          B: "Turmeric"
+          C: "Ginger"
+          D: "Wasabi"
+    difficulty: MEDIUM
+  - text: "Quel plat mexicain est composé de haricots rouges mijotés avec du porc et du piment, souvent servi avec du riz ?"
+    answers:
+      A: "Chili con carne"
+      B: "Frijoles charros"
+      C: "Pozole"
+      D: "Menudo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Mexican dish consists of red beans simmered with pork and chili, often served with rice?"
+        answers:
+          A: "Chili con carne"
+          B: "Frijoles charros"
+          C: "Pozole"
+          D: "Menudo"
+    difficulty: HARD
+  - text: "Quel plat thaïlandais est une salade de papaye verte râpée, tomates cerises, haricots longs et cacahuètes ?"
+    answers:
+      A: "Tom yum"
+      B: "Larb"
+      C: "Yam pla duk fu"
+      D: "Som tam"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Thai dish is a salad of shredded green papaya, cherry tomatoes, long beans and peanuts?"
+        answers:
+          A: "Tom yum"
+          B: "Larb"
+          C: "Yam pla duk fu"
+          D: "Som tam"
+    difficulty: HARD
+  - text: "Quel fromage allemand à pâte dure est produit en Bavière et souvent servi avec de la bière ?"
+    answers:
+      A: "Bergkäse"
+      B: "Emmental"
+      C: "Butterkäse"
+      D: "Handkäse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which German hard cheese is produced in Bavaria and often served with beer?"
+        answers:
+          A: "Bergkäse"
+          B: "Emmental"
+          C: "Butterkäse"
+          D: "Handkäse"
+    difficulty: HARD
+  - text: "Quel plat espagnol est une soupe froide à base de tomates, concombre, poivron, oignon, ail et huile d'olive ?"
+    answers:
+      A: "Salmorejo"
+      B: "Ajoblanco"
+      C: "Gazpacho"
+      D: "Porra antequerana"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Spanish dish is a cold soup made from tomatoes, cucumber, pepper, onion, garlic and olive oil?"
+        answers:
+          A: "Salmorejo"
+          B: "Ajoblanco"
+          C: "Gazpacho"
+          D: "Porra antequerana"
+    difficulty: EASY
+  - text: "Quel plat vietnamien est une soupe de nouilles de riz avec du bœuf, du bouillon parfumé et des herbes fraîches ?"
+    answers:
+      A: "Pho"
+      B: "Bun cha"
+      C: "Mi quang"
+      D: "Cao lau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Vietnamese dish is a rice noodle soup with beef, fragrant broth and fresh herbs?"
+        answers:
+          A: "Pho"
+          B: "Bun cha"
+          C: "Mi quang"
+          D: "Cao lau"
+    difficulty: MEDIUM
+  - text: "Quel fromage grec à pâte molle est traditionnellement utilisé dans les salades et les spanakopitas ?"
+    answers:
+      A: "Kefalotyri"
+      B: "Feta"
+      C: "Graviera"
+      D: "Kasseri"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Greek soft cheese is traditionally used in salads and spanakopita?"
+        answers:
+          A: "Kefalotyri"
+          B: "Feta"
+          C: "Graviera"
+          D: "Kasseri"
+    difficulty: MEDIUM
+  - text: "Quelle épice est issue des graines séchées de la plante Elettaria cardamomum et est très utilisée en Inde ?"
+    answers:
+      A: "Le clou de girofle"
+      B: "La coriandre"
+      C: "Le poivre noir"
+      D: "La cardamome"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which spice comes from the dried seeds of the plant Elettaria cardamomum and is widely used in India?"
+        answers:
+          A: "Clove"
+          B: "Coriander"
+          C: "Black pepper"
+          D: "Cardamom"
+    difficulty: HARD
+  - text: "Quel plat japonais est une soupe de nouilles ramen servie avec un bouillon épais et des nouilles épaisses ?"
+    answers:
+      A: "Tsukemen"
+      B: "Miso ramen"
+      C: "Shoyu ramen"
+      D: "Tonkotsu ramen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese dish is a ramen noodle soup served with a thick broth and thick noodles?"
+        answers:
+          A: "Tsukemen"
+          B: "Miso ramen"
+          C: "Shoyu ramen"
+          D: "Tonkotsu ramen"
+    difficulty: HARD
+  - text: "Quel fromage français AOP est produit en Normandie et a une forme de cœur ?"
+    answers:
+      A: "Camembert"
+      B: "Livarot"
+      C: "Neufchâtel"
+      D: "Pont-l'Évêque"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in Normandy and has a heart shape?"
+        answers:
+          A: "Camembert"
+          B: "Livarot"
+          C: "Neufchâtel"
+          D: "Pont-l'Évêque"
+    difficulty: MEDIUM
+  - text: "Quel fromage français AOP à pâte pressée non cuite est produit dans le Cantal et se présente sous forme de fourme ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Laguiole"
+      C: "Salers"
+      D: "Cantal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French AOP cheese with a pressed uncooked paste is produced in Cantal and comes in the form of a fourme?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Laguiole"
+          C: "Salers"
+          D: "Cantal"
+    difficulty: EXPERT
+  - text: "Quelle épice est issue des graines séchées de la plante Myristica fragrans et est utilisée pour parfumer les béchamels ?"
+    answers:
+      A: "Cardamome"
+      B: "Cannelle"
+      C: "Girofle"
+      D: "Muscade"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which spice comes from the dried seeds of the plant Myristica fragrans and is used to flavor béchamels?"
+        answers:
+          A: "Cardamom"
+          B: "Cinnamon"
+          C: "Clove"
+          D: "Nutmeg"
+    difficulty: HARD
+  - text: "Quel plat péruvien est composé de pommes de terre jaunes, de pâte de piment et de fromage frais, souvent servi en entrée ?"
+    answers:
+      A: "Causa limeña"
+      B: "Papa a la huancaína"
+      C: "Ocopa"
+      D: "Solterito"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Peruvian dish is made of yellow potatoes, chili paste, and fresh cheese, often served as an appetizer?"
+        answers:
+          A: "Causa limeña"
+          B: "Papa a la huancaína"
+          C: "Ocopa"
+          D: "Solterito"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP français est surnommé 'le roi des fromages' ?"
+    answers:
+      A: "Camembert de Normandie"
+      B: "Roquefort"
+      C: "Brie de Meaux"
+      D: "Munster"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French AOP cheese is nicknamed 'the king of cheeses'?"
+        answers:
+          A: "Camembert de Normandie"
+          B: "Roquefort"
+          C: "Brie de Meaux"
+          D: "Munster"
+    difficulty: HARD
+  - text: "Quel plat italien est originaire de la ville de Naples et se compose de tomates, mozzarella et basilic ?"
+    answers:
+      A: "Pizza Margherita"
+      B: "Pasta alla Norma"
+      C: "Risotto ai funghi"
+      D: "Osso buco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian dish originates from the city of Naples and consists of tomatoes, mozzarella, and basil?"
+        answers:
+          A: "Pizza Margherita"
+          B: "Pasta alla Norma"
+          C: "Risotto ai funghi"
+          D: "Osso buco"
+    difficulty: EASY
+  - text: "De quel pays le plat national 'pho' est-il originaire ?"
+    answers:
+      A: "Thaïlande"
+      B: "Cambodge"
+      C: "Vietnam"
+      D: "Laos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country does the national dish 'pho' originate from?"
+        answers:
+          A: "Thailand"
+          B: "Cambodia"
+          C: "Vietnam"
+          D: "Laos"
+    difficulty: EASY
+  - text: "Quel fromage italien à pâte dure est utilisé pour préparer le pesto génois ?"
+    answers:
+      A: "Parmesan"
+      B: "Gorgonzola"
+      C: "Pecorino Romano"
+      D: "Provolone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian hard cheese is used to prepare Genoese pesto?"
+        answers:
+          A: "Parmesan"
+          B: "Gorgonzola"
+          C: "Pecorino Romano"
+          D: "Provolone"
+    difficulty: MEDIUM
+  - text: "Quel plat japonais est composé de nouilles de blé servies dans un bouillon, souvent avec du porc et des œufs ?"
+    answers:
+      A: "Udon"
+      B: "Soba"
+      C: "Somen"
+      D: "Ramen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese dish consists of wheat noodles served in a broth, often with pork and eggs?"
+        answers:
+          A: "Udon"
+          B: "Soba"
+          C: "Somen"
+          D: "Ramen"
+    difficulty: EASY
+  - text: "Quelle épice est issue du pistil séché de la fleur de crocus ?"
+    answers:
+      A: "Safran"
+      B: "Curcuma"
+      C: "Paprika"
+      D: "Gingembre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice comes from the dried pistil of the crocus flower?"
+        answers:
+          A: "Saffron"
+          B: "Turmeric"
+          C: "Paprika"
+          D: "Ginger"
+    difficulty: MEDIUM
+  - text: "Quel fromage français AOP est produit en Bourgogne et est souvent utilisé dans la fondue ?"
+    answers:
+      A: "Epoisses"
+      B: "Beaufort"
+      C: "Comté"
+      D: "Cîteaux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in Burgundy and is often used in fondue?"
+        answers:
+          A: "Epoisses"
+          B: "Beaufort"
+          C: "Comté"
+          D: "Cîteaux"
+    difficulty: HARD
+  - text: "Quelle variété de piment est utilisée pour préparer la sauce harissa tunisienne ?"
+    answers:
+      A: "Piment de Cayenne"
+      B: "Piment d'Espelette"
+      C: "Piment jalapeño"
+      D: "Piment d'Anaheim"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which variety of chili pepper is used to prepare Tunisian harissa sauce?"
+        answers:
+          A: "Cayenne pepper"
+          B: "Piment d'Espelette"
+          C: "Jalapeño pepper"
+          D: "Anaheim pepper"
+    difficulty: EXPERT
+  - text: "Quel plat brésilien est un ragoût de haricots noirs et de viande de porc, servi avec du riz et de la farine de manioc ?"
+    answers:
+      A: "Feijoada"
+      B: "Moqueca"
+      C: "Acarajé"
+      D: "Churrasco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Brazilian dish is a stew of black beans and pork, served with rice and cassava flour?"
+        answers:
+          A: "Feijoada"
+          B: "Moqueca"
+          C: "Acarajé"
+          D: "Churrasco"
+    difficulty: HARD
+  - text: "De quelle région italienne le gorgonzola est-il originaire ?"
+    answers:
+      A: "Lombardie"
+      B: "Piémont"
+      C: "Vénétie"
+      D: "Émilie-Romagne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian region does gorgonzola originate from?"
+        answers:
+          A: "Lombardy"
+          B: "Piedmont"
+          C: "Veneto"
+          D: "Emilia-Romagna"
+    difficulty: HARD
+  - text: "Quel est l'ingrédient principal du plat japonais 'chawanmushi' ?"
+    answers:
+      A: "Riz"
+      B: "Œuf"
+      C: "Poisson"
+      D: "Tofu"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the main ingredient of the Japanese dish 'chawanmushi'?"
+        answers:
+          A: "Rice"
+          B: "Egg"
+          C: "Fish"
+          D: "Tofu"
+    difficulty: EXPERT
+  - text: "Quel fromage français AOP est produit dans le département du Lot et se présente sous forme de cabécou ?"
+    answers:
+      A: "Crottin de Chavignol"
+      B: "Pélardon"
+      C: "Rocamadour"
+      D: "Valençay"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in the Lot department and comes in the form of a cabécou?"
+        answers:
+          A: "Crottin de Chavignol"
+          B: "Pélardon"
+          C: "Rocamadour"
+          D: "Valençay"
+    difficulty: EXPERT
+  - text: "Quelle épice est connue sous le nom de 'safran des Indes' ?"
+    answers:
+      A: "Coriandre"
+      B: "Cumin"
+      C: "Curcuma"
+      D: "Fenugrec"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spice is known as 'Indian saffron'?"
+        answers:
+          A: "Coriander"
+          B: "Cumin"
+          C: "Turmeric"
+          D: "Fenugreek"
+    difficulty: EXPERT
+  - text: "Quel plat mexicain est traditionnellement préparé avec du maïs nixtamalisé ?"
+    answers:
+      A: "Tacos"
+      B: "Quesadillas"
+      C: "Enchiladas"
+      D: "Tamales"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Mexican dish is traditionally prepared with nixtamalized corn?"
+        answers:
+          A: "Tacos"
+          B: "Quesadillas"
+          C: "Enchiladas"
+          D: "Tamales"
+    difficulty: HARD
+  - text: "Quel plat indien est un curry de pois chiches épicé, souvent servi avec du riz ou du pain ?"
+    answers:
+      A: "Chana masala"
+      B: "Dal makhani"
+      C: "Palak paneer"
+      D: "Aloo gobi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Indian dish is a spicy chickpea curry, often served with rice or bread?"
+        answers:
+          A: "Chana masala"
+          B: "Dal makhani"
+          C: "Palak paneer"
+          D: "Aloo gobi"
+    difficulty: MEDIUM
+  - text: "Quel fromage espagnol est produit dans la région de La Manche et est souvent servi en tapas ?"
+    answers:
+      A: "Mahón"
+      B: "Idiazábal"
+      C: "Cabrales"
+      D: "Manchego"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Spanish cheese is produced in the La Mancha region and is often served as tapas?"
+        answers:
+          A: "Mahón"
+          B: "Idiazábal"
+          C: "Cabrales"
+          D: "Manchego"
+    difficulty: EXPERT
+  - text: "Quel plat thaïlandais est une soupe de crevettes épicée à base de citronnelle et de galanga ?"
+    answers:
+      A: "Tom yum goong"
+      B: "Tom kha gai"
+      C: "Pad thaï"
+      D: "Gaeng daeng"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Thai dish is a spicy shrimp soup made with lemongrass and galangal?"
+        answers:
+          A: "Tom yum goong"
+          B: "Tom kha gai"
+          C: "Pad Thai"
+          D: "Gaeng daeng"
+    difficulty: HARD
+  - text: "Quel fromage français AOP est produit en Auvergne et est souvent utilisé dans la truffade ?"
+    answers:
+      A: "Saint-Nectaire"
+      B: "Fourme d'Ambert"
+      C: "Salers"
+      D: "Cantal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in Auvergne and is often used in truffade?"
+        answers:
+          A: "Saint-Nectaire"
+          B: "Fourme d'Ambert"
+          C: "Salers"
+          D: "Cantal"
+    difficulty: HARD
+  - text: "Quel plat italien est composé de pâtes fraîches farcies de ricotta et d'épinards, originaire de Lombardie ?"
+    answers:
+      A: "Ravioli"
+      B: "Cannelloni"
+      C: "Tortellini"
+      D: "Lasagnes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Italian dish consists of fresh pasta filled with ricotta and spinach, originating from Lombardy?"
+        answers:
+          A: "Ravioli"
+          B: "Cannelloni"
+          C: "Tortellini"
+          D: "Lasagna"
+    difficulty: HARD
+  - text: "Quel plat japonais est un bol de riz avec du poulet et de l'œuf, souvent servi dans un donburi ?"
+    answers:
+      A: "Gyudon"
+      B: "Oyakodon"
+      C: "Katsudon"
+      D: "Unadon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese dish is a bowl of rice with chicken and egg, often served in a donburi?"
+        answers:
+          A: "Gyudon"
+          B: "Oyakodon"
+          C: "Katsudon"
+          D: "Unadon"
+    difficulty: MEDIUM
+  - text: "Quelle épice est obtenue à partir des graines de la plante Pimpinella anisum ?"
+    answers:
+      A: "Anis étoilé"
+      B: "Fenouil"
+      C: "Cumin"
+      D: "Coriandre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice is obtained from the seeds of the plant Pimpinella anisum?"
+        answers:
+          A: "Star anise"
+          B: "Fennel"
+          C: "Cumin"
+          D: "Coriander"
+    difficulty: EXPERT
+  - text: "Quel fromage français AOP est produit dans le Jura et est souvent utilisé dans la fondue comtoise ?"
+    answers:
+      A: "Beaufort"
+      B: "Morbier"
+      C: "Comté"
+      D: "Bleu de Gex"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in the Jura and is often used in fondue comtoise?"
+        answers:
+          A: "Beaufort"
+          B: "Morbier"
+          C: "Comté"
+          D: "Bleu de Gex"
+    difficulty: EXPERT
+  - text: "Quel plat brésilien est un ragoût de poisson préparé avec du lait de coco et de l'huile de palme ?"
+    answers:
+      A: "Moqueca"
+      B: "Feijoada"
+      C: "Acarajé"
+      D: "Vatapá"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Brazilian dish is a fish stew prepared with coconut milk and palm oil?"
+        answers:
+          A: "Moqueca"
+          B: "Feijoada"
+          C: "Acarajé"
+          D: "Vatapá"
+    difficulty: EXPERT
+  - text: "Quel plat marocain est une salade cuite à base d'aubergines grillées, tomates et ail ?"
+    answers:
+      A: "Bissara"
+      B: "Taktouka"
+      C: "Zaâlouk"
+      D: "Harira"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Moroccan dish is a cooked salad made with grilled eggplant, tomatoes and garlic?"
+        answers:
+          A: "Bissara"
+          B: "Taktouka"
+          C: "Zaâlouk"
+          D: "Harira"
+    difficulty: EXPERT
+  - text: "Quel est l'ingrédient principal du guacamole ?"
+    answers:
+      A: "Tomate"
+      B: "Poivron"
+      C: "Courgette"
+      D: "Avocat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the main ingredient of guacamole?"
+        answers:
+          A: "Tomato"
+          B: "Bell pepper"
+          C: "Zucchini"
+          D: "Avocado"
+    difficulty: EASY
+  - text: "Quel plat est traditionnellement préparé avec des lentilles et du riz en Égypte ?"
+    answers:
+      A: "Ful medames"
+      B: "Koshari"
+      C: "Molokhia"
+      D: "Hawawshi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which dish is traditionally prepared with lentils and rice in Egypt?"
+        answers:
+          A: "Ful medames"
+          B: "Koshari"
+          C: "Molokhia"
+          D: "Hawawshi"
+    difficulty: HARD
+  - text: "Quel fromage italien est utilisé dans la recette originale de la pasta alla carbonara ?"
+    answers:
+      A: "Parmesan"
+      B: "Ricotta"
+      C: "Gorgonzola"
+      D: "Pecorino Romano"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian cheese is used in the original recipe for pasta alla carbonara?"
+        answers:
+          A: "Parmesan"
+          B: "Ricotta"
+          C: "Gorgonzola"
+          D: "Pecorino Romano"
+    difficulty: EXPERT
+  - text: "Quel fromage français AOP est produit en Haute-Savoie et est souvent utilisé dans la raclette ?"
+    answers:
+      A: "Reblochon"
+      B: "Abondance"
+      C: "Tomme de Savoie"
+      D: "Beaufort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in Haute-Savoie and is often used in raclette?"
+        answers:
+          A: "Reblochon"
+          B: "Abondance"
+          C: "Tomme de Savoie"
+          D: "Beaufort"
+    difficulty: HARD
+  - text: "Quel plat espagnol est une soupe froide à base de tomates, pain, ail, huile d'olive et vinaigre ?"
+    answers:
+      A: "Gazpacho"
+      B: "Ajoblanco"
+      C: "Salmorejo"
+      D: "Porra antequerana"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Spanish dish is a cold soup made with tomatoes, bread, garlic, olive oil and vinegar?"
+        answers:
+          A: "Gazpacho"
+          B: "Ajoblanco"
+          C: "Salmorejo"
+          D: "Porra antequerana"
+    difficulty: MEDIUM
+  - text: "Quel fromage AOP français est produit dans le département de l'Aveyron et se présente sous forme de cabécou ?"
+    answers:
+      A: "Picodon"
+      B: "Pélardon"
+      C: "Crottin de Chavignol"
+      D: "Rocamadour"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in the Aveyron department and comes in the form of a cabécou?"
+        answers:
+          A: "Picodon"
+          B: "Pélardon"
+          C: "Crottin de Chavignol"
+          D: "Rocamadour"
+    difficulty: EXPERT
+  - text: "Quelle épice est issue des graines de la plante Aframomum melegueta, appelée 'graine de paradis' ?"
+    answers:
+      A: "Curcuma"
+      B: "Maniguette"
+      C: "Cardamome"
+      D: "Cumin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spice comes from the seeds of the plant Aframomum melegueta, called 'grains of paradise'?"
+        answers:
+          A: "Turmeric"
+          B: "Grains of paradise"
+          C: "Cardamom"
+          D: "Cumin"
+    difficulty: EXPERT
+  - text: "Quel fromage français AOP bénéficie d'une AOP depuis 1996 et est produit exclusivement dans le département de la Haute-Savoie ?"
+    answers:
+      A: "Reblochon"
+      B: "Abondance"
+      C: "Tomme de Savoie"
+      D: "Beaufort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French AOP cheese has held AOP status since 1996 and is produced exclusively in the Haute-Savoie department?"
+        answers:
+          A: "Reblochon"
+          B: "Abondance"
+          C: "Tomme de Savoie"
+          D: "Beaufort"
+    difficulty: EXPERT
+  - text: "Quelle épice est obtenue à partir du rhizome de Curcuma zedoaria, également appelée 'curcuma blanc' ?"
+    answers:
+      A: "Galanga"
+      B: "Zédoaire"
+      C: "Curcuma longa"
+      D: "Gingembre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spice is obtained from the rhizome of Curcuma zedoaria, also called 'white turmeric'?"
+        answers:
+          A: "Galangal"
+          B: "Zedoary"
+          C: "Curcuma longa"
+          D: "Ginger"
+    difficulty: EXPERT
+  - text: "Quel plat italien est traditionnellement préparé avec des pâtes fraîches, des pois, des œufs et du fromage, et est originaire de la région de Vénétie ?"
+    answers:
+      A: "Risi e bisi"
+      B: "Pasta e fagioli"
+      C: "Pasta alla carbonara"
+      D: "Pasta alla norma"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian dish is traditionally prepared with fresh pasta, peas, eggs and cheese, and originates from the Veneto region?"
+        answers:
+          A: "Risi e bisi"
+          B: "Pasta e fagioli"
+          C: "Pasta alla carbonara"
+          D: "Pasta alla norma"
+    difficulty: EXPERT
+  - text: "Quel fromage espagnol à pâte pressée, produit en Castille-et-León, est protégé par une AOP et souvent servi en tapas ?"
+    answers:
+      A: "Manchego"
+      B: "Idiazábal"
+      C: "Mahón"
+      D: "Zamorano"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Spanish pressed cheese, produced in Castile and León, is protected by an AOP and often served as tapas?"
+        answers:
+          A: "Manchego"
+          B: "Idiazábal"
+          C: "Mahón"
+          D: "Zamorano"
+    difficulty: EXPERT
+  - text: "Quelle spécialité française est un gâteau à base de farine de maïs, d'œufs et de sucre, originaire du Pays basque ?"
+    answers:
+      A: "Millas"
+      B: "Gâteau basque"
+      C: "Brocciu"
+      D: "Flaune"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French specialty is a cake made with corn flour, eggs and sugar, originating from the Basque Country?"
+        answers:
+          A: "Millas"
+          B: "Gâteau basque"
+          C: "Brocciu"
+          D: "Flaune"
+    difficulty: EXPERT
+  - text: "Quel plat indien est un biryani originaire de la région d'Hyderabad, caractérisé par l'utilisation de safran et de viande de mouton ?"
+    answers:
+      A: "Biryani de Lucknow"
+      B: "Biryani de Calcutta"
+      C: "Biryani d'Hyderabad"
+      D: "Biryani de Malabar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Indian dish is a biryani originating from the Hyderabad region, characterized by the use of saffron and mutton?"
+        answers:
+          A: "Lucknow biryani"
+          B: "Calcutta biryani"
+          C: "Hyderabad biryani"
+          D: "Malabar biryani"
+    difficulty: EXPERT
+  - text: "Quel fromage grec AOP est produit exclusivement sur l'île de Kalymnos et est traditionnellement conservé dans de l'huile d'olive ?"
+    answers:
+      A: "Feta"
+      B: "Kasseri"
+      C: "Metsovone"
+      D: "Graviera"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek AOP cheese is produced exclusively on the island of Kalymnos and traditionally preserved in olive oil?"
+        answers:
+          A: "Feta"
+          B: "Kasseri"
+          C: "Metsovone"
+          D: "Graviera"
+    difficulty: EXPERT
+  - text: "Quelle épice est issue des baies séchées de Pimenta dioica, également appelée 'poivre de la Jamaïque' ?"
+    answers:
+      A: "Poivre de Sichuan"
+      B: "Poivre de la Jamaïque"
+      C: "Poivre long"
+      D: "Poivre de Tasmanie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spice comes from the dried berries of Pimenta dioica, also called 'allspice'?"
+        answers:
+          A: "Sichuan pepper"
+          B: "Allspice"
+          C: "Long pepper"
+          D: "Tasmanian pepper"
+    difficulty: EXPERT
+  - text: "Quel plat japonais est un bol de riz garni de tranches de bœuf et d'oignon, mijotées dans une sauce sucrée-salée, originaire de la région du Kansai ?"
+    answers:
+      A: "Oyakodon"
+      B: "Gyudon"
+      C: "Katsudon"
+      D: "Tendon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese dish is a bowl of rice topped with slices of beef and onion, simmered in a sweet-savory sauce, originating from the Kansai region?"
+        answers:
+          A: "Oyakodon"
+          B: "Gyudon"
+          C: "Katsudon"
+          D: "Tendon"
+    difficulty: EXPERT
+  - text: "Quel fromage français AOP est produit dans le département du Puy-de-Dôme et se présente sous forme de petite fourme cylindrique ?"
+    answers:
+      A: "Fourme d'Ambert"
+      B: "Saint-Nectaire"
+      C: "Bleu d'Auvergne"
+      D: "Cantal"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in the Puy-de-Dôme department and comes in the form of a small cylindrical fourme?"
+        answers:
+          A: "Fourme d'Ambert"
+          B: "Saint-Nectaire"
+          C: "Bleu d'Auvergne"
+          D: "Cantal"
+    difficulty: EXPERT
+  - text: "Quel plat mexicain est composé de tortillas de maïs garnies de viande épicée, de coriandre et d'oignon, et est originaire de l'État de Puebla ?"
+    answers:
+      A: "Tacos al pastor"
+      B: "Enchiladas"
+      C: "Chiles en nogada"
+      D: "Tlayudas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Mexican dish consists of corn tortillas topped with spicy meat, cilantro, and onion, and originates from the state of Puebla?"
+        answers:
+          A: "Tacos al pastor"
+          B: "Enchiladas"
+          C: "Chiles en nogada"
+          D: "Tlayudas"
+    difficulty: EXPERT
+  - text: "Quelle épice est obtenue à partir des graines de Carum carvi et est très utilisée dans la cuisine alsacienne, notamment dans le munster ?"
+    answers:
+      A: "Carvi"
+      B: "Cumin"
+      C: "Fenouil"
+      D: "Aneth"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice is obtained from the seeds of Carum carvi and is widely used in Alsatian cuisine, especially in munster?"
+        answers:
+          A: "Caraway"
+          B: "Cumin"
+          C: "Fennel"
+          D: "Dill"
+    difficulty: EXPERT
+  - text: "Quel plat thaïlandais est une soupe de nouilles de riz servie avec du porc, des cacahuètes et des pousses de soja, originaire du centre de la Thaïlande ?"
+    answers:
+      A: "Pad thaï"
+      B: "Tom yum"
+      C: "Khao soi"
+      D: "Boat noodles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Thai dish is a rice noodle soup served with pork, peanuts, and bean sprouts, originating from central Thailand?"
+        answers:
+          A: "Pad Thai"
+          B: "Tom yum"
+          C: "Khao soi"
+          D: "Boat noodles"
+    difficulty: EXPERT
+  - text: "Quel fromage italien à pâte filée, produit dans la région de Campanie, est traditionnellement utilisé pour la pizza margherita ?"
+    answers:
+      A: "Caciocavallo"
+      B: "Provolone"
+      C: "Scamorza"
+      D: "Mozzarella di bufala campana"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian stretched-curd cheese, produced in the Campania region, is traditionally used for pizza margherita?"
+        answers:
+          A: "Caciocavallo"
+          B: "Provolone"
+          C: "Scamorza"
+          D: "Mozzarella di bufala campana"
+    difficulty: HARD
+  - text: "Quelle spécialité française est une tarte à base de pommes caramélisées, cuite à l'envers, originaire de la région Centre-Val de Loire ?"
+    answers:
+      A: "Tarte Tatin"
+      B: "Clafoutis"
+      C: "Far breton"
+      D: "Kouign-amann"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French specialty is a caramelized apple tart, baked upside down, originating from the Centre-Val de Loire region?"
+        answers:
+          A: "Tarte Tatin"
+          B: "Clafoutis"
+          C: "Far breton"
+          D: "Kouign-amann"
+    difficulty: EXPERT
+  - text: "Quel plat brésilien est un ragoût de haricots noirs et de viandes variées, servi avec du riz, de la farine de manioc et des oranges ?"
+    answers:
+      A: "Moqueca"
+      B: "Feijoada"
+      C: "Acarajé"
+      D: "Vatapá"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Brazilian dish is a stew of black beans and various meats, served with rice, cassava flour, and oranges?"
+        answers:
+          A: "Moqueca"
+          B: "Feijoada"
+          C: "Acarajé"
+          D: "Vatapá"
+    difficulty: EXPERT
+  - text: "Quel fromage français AOP est produit dans le département de l'Aveyron et est affiné dans des caves de roquefort ?"
+    answers:
+      A: "Bleu des Causses"
+      B: "Roquefort"
+      C: "Fourme d'Ambert"
+      D: "Bleu de Gex"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French AOP cheese is produced in the Aveyron department and aged in Roquefort caves?"
+        answers:
+          A: "Bleu des Causses"
+          B: "Roquefort"
+          C: "Fourme d'Ambert"
+          D: "Bleu de Gex"
+    difficulty: EXPERT
+  - text: "Quelle épice est issue du fruit séché de Capsicum annuum, utilisé pour préparer le paprika hongrois ?"
+    answers:
+      A: "Paprika"
+      B: "Piment d'Espelette"
+      C: "Cayenne"
+      D: "Piment de Cayenne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice comes from the dried fruit of Capsicum annuum, used to make Hungarian paprika?"
+        answers:
+          A: "Paprika"
+          B: "Piment d'Espelette"
+          C: "Cayenne"
+          D: "Cayenne pepper"
+    difficulty: EXPERT
+  - text: "Quel plat marocain est une pastilla traditionnellement préparée avec du pigeon, des amandes et de la cannelle ?"
+    answers:
+      A: "Tajine"
+      B: "Couscous"
+      C: "Pastilla"
+      D: "Harira"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Moroccan dish is a pastilla traditionally prepared with pigeon, almonds, and cinnamon?"
+        answers:
+          A: "Tajine"
+          B: "Couscous"
+          C: "Pastilla"
+          D: "Harira"
+    difficulty: EXPERT
+  - text: "Quel fromage suisse AOP est produit dans la vallée de la Gruyère et est utilisé dans la fondue moitié-moitié ?"
+    answers:
+      A: "Appenzeller"
+      B: "Emmental"
+      C: "Gruyère"
+      D: "Tête de Moine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Swiss AOP cheese is produced in the Gruyère valley and used in moitié-moitié fondue?"
+        answers:
+          A: "Appenzeller"
+          B: "Emmental"
+          C: "Gruyère"
+          D: "Tête de Moine"
+    difficulty: EXPERT

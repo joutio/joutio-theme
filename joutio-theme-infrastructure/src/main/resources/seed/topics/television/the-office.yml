@@ -1,0 +1,1631 @@
+topic:
+  id: topic-the-office
+  names:
+    fr: "The Office (US)"
+    en: "The Office (US)"
+  description: "The Office (US) est une comédie mockumentaire américaine adaptée de la série britannique créée par Ricky Gervais et Stephen Merchant. Diffusée de 2005 à 2013 sur NBC, elle suit le quotidien des employés de la branche de Scranton de la société papetière Dunder Mifflin, dirigée par l'inoubliable Michael Scott."
+  category: TELEVISION
+  titles:
+    fr:
+      FER: "Stagiaire de Scranton"
+      BRONZE: "Assistant du sous-sol"
+      ARGENT: "Vendeur de papier"
+      OR: "Responsable régional"
+      PLATINE: "Cadre de Dunder Mifflin"
+      EMERAUDE: "Directeur branché"
+      DIAMANT: "Légende de Scranton"
+    en:
+      FER: "Scranton Intern"
+      BRONZE: "Basement Assistant"
+      ARGENT: "Paper Salesman"
+      OR: "Regional Manager"
+      PLATINE: "Dunder Mifflin Executive"
+      EMERAUDE: "Branch Director"
+      DIAMANT: "Scranton Legend"
+  imageUrl: wikipedia/television/Downtown_Scranton.jpg
+questions:
+  - text: "Quelle ville a pour symbole l'enseigne « Electric City » ?"
+    imageUrl: wikipedia/television/Electric_City_sign_daylight_Scranton_PA.jpg
+    answers:
+      A: "New York"
+      B: "Boston"
+      C: "Buffalo"
+      D: "Scranton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which city has the symbol \"Electric City\"?"
+        answers:
+          A: "New York"
+          B: "Boston"
+          C: "Buffalo"
+          D: "Scranton"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Toby Flenderson, le responsable des ressources humaines ?"
+    answers:
+      A: "B.J. Novak"
+      B: "Paul Lieberstein"
+      C: "Mindy Kaling"
+      D: "Gene Stupnitsky"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Toby Flenderson, the head of human resources?"
+        answers:
+          A: "B.J. Novak"
+          B: "Paul Lieberstein"
+          C: "Mindy Kaling"
+          D: "Gene Stupnitsky"
+    difficulty: HARD
+  - text: "Quel est le nom du couple formé par Dwight et Angela dans la saison 4 ?"
+    answers:
+      A: "Jiam"
+      B: "Brangelina"
+      C: "Dwangela"
+      D: "PamJim"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the couple formed by Dwight and Angela in season 4?"
+        answers:
+          A: "Jiam"
+          B: "Brangelina"
+          C: "Dwangela"
+          D: "PamJim"
+    difficulty: EXPERT
+  - text: "Qui incarne Jim Halpert dans « The Office » ?"
+    imageUrl: wikipedia/television/John_Krasinski_2022.jpg
+    answers:
+      A: "John Krasinski"
+      B: "Ed Helms"
+      C: "Rainn Wilson"
+      D: "B.J. Novak"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Jim Halpert in \"The Office\"?"
+        answers:
+          A: "John Krasinski"
+          B: "Ed Helms"
+          C: "Rainn Wilson"
+          D: "B.J. Novak"
+    difficulty: EASY
+  - text: "Quel est le nom de l'ours en peluche de Dwight ?"
+    answers:
+      A: "Monsieur Chocolat"
+      B: "Grizzly"
+      C: "Teddy"
+      D: "Monsieur Slappy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Dwight's teddy bear?"
+        answers:
+          A: "Monsieur Chocolat"
+          B: "Grizzly"
+          C: "Teddy"
+          D: "Monsieur Slappy"
+    difficulty: HARD
+  - text: "Quel acteur joue le rôle de Ryan Howard ?"
+    answers:
+      A: "John Krasinski"
+      B: "B.J. Novak"
+      C: "Ed Helms"
+      D: "Rainn Wilson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays the role of Ryan Howard?"
+        answers:
+          A: "John Krasinski"
+          B: "B.J. Novak"
+          C: "Ed Helms"
+          D: "Rainn Wilson"
+    difficulty: MEDIUM
+  - text: "Quel est le titre du dernier épisode de la série ?"
+    answers:
+      A: "A.A.R.M."
+      B: "Goodbye, Michael"
+      C: "The Last Day"
+      D: "Finale"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the final episode of the series?"
+        answers:
+          A: "A.A.R.M."
+          B: "Goodbye, Michael"
+          C: "The Last Day"
+          D: "Finale"
+    difficulty: HARD
+  - text: "Quel personnage déclare : « Je ne suis pas superstitieux, mais je suis un peu stitious » ?"
+    answers:
+      A: "Jim Halpert"
+      B: "Dwight Schrute"
+      C: "Michael Scott"
+      D: "Kevin Malone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character says: \"I'm not superstitious, but I am a little stitious\"?"
+        answers:
+          A: "Jim Halpert"
+          B: "Dwight Schrute"
+          C: "Michael Scott"
+          D: "Kevin Malone"
+    difficulty: MEDIUM
+  - text: "Combien de frères et sœurs a Dwight Schrute ?"
+    answers:
+      A: "Deux"
+      B: "Un"
+      C: "Trois"
+      D: "Aucun"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many siblings does Dwight Schrute have?"
+        answers:
+          A: "Two"
+          B: "One"
+          C: "Three"
+          D: "None"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sœur de Dwight qui tente de séduire Jim ?"
+    answers:
+      A: "Jeb"
+      B: "Fanny"
+      C: "Mose"
+      D: "Zeke"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Dwight's sister who tries to seduce Jim?"
+        answers:
+          A: "Jeb"
+          B: "Fanny"
+          C: "Mose"
+          D: "Zeke"
+    difficulty: EXPERT
+  - text: "Quel acteur joue le rôle de David Wallace, le PDG de Dunder Mifflin ?"
+    answers:
+      A: "Zach Woods"
+      B: "David Denman"
+      C: "Andy Buckley"
+      D: "James Spader"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays David Wallace, the CEO of Dunder Mifflin?"
+        answers:
+          A: "Zach Woods"
+          B: "David Denman"
+          C: "Andy Buckley"
+          D: "James Spader"
+    difficulty: HARD
+  - text: "Quel est le nom du bar où les employés vont souvent après le travail ?"
+    answers:
+      A: "Chili's"
+      B: "Poor Richard's"
+      C: "The Office Bar"
+      D: "Dunder Mifflin Pub"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the bar where employees often go after work?"
+        answers:
+          A: "Chili's"
+          B: "Poor Richard's"
+          C: "The Office Bar"
+          D: "Dunder Mifflin Pub"
+    difficulty: EASY
+  - text: "Dans quel État se trouve Scranton ?"
+    imageUrl: wikipedia/television/Pennsylvania_Paper_&_Supply_Company_tower.jpg
+    answers:
+      A: "Pennsylvanie"
+      B: "New Jersey"
+      C: "Ohio"
+      D: "New York"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which state is Scranton located?"
+        answers:
+          A: "Pennsylvania"
+          B: "New Jersey"
+          C: "Ohio"
+          D: "New York"
+    difficulty: EASY
+  - text: "Quel personnage est allergique aux noix ?"
+    answers:
+      A: "Angela Martin"
+      B: "Kevin Malone"
+      C: "Phyllis Vance"
+      D: "Stanley Hudson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character is allergic to nuts?"
+        answers:
+          A: "Angela Martin"
+          B: "Kevin Malone"
+          C: "Phyllis Vance"
+          D: "Stanley Hudson"
+    difficulty: HARD
+  - text: "Quel est le nom du mari de Phyllis ?"
+    answers:
+      A: "Bob Vance"
+      B: "Robert California"
+      C: "Toby Flenderson"
+      D: "Darryl Philbin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Phyllis's husband?"
+        answers:
+          A: "Bob Vance"
+          B: "Robert California"
+          C: "Toby Flenderson"
+          D: "Darryl Philbin"
+    difficulty: HARD
+  - text: "Quel acteur incarne Oscar Martinez ?"
+    answers:
+      A: "Creed Bratton"
+      B: "Brian Baumgartner"
+      C: "Leslie David Baker"
+      D: "Oscar Nunez"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Oscar Martinez?"
+        answers:
+          A: "Creed Bratton"
+          B: "Brian Baumgartner"
+          C: "Leslie David Baker"
+          D: "Oscar Nunez"
+    difficulty: HARD
+  - text: "Quel est le nom de la société de Bob Vance ?"
+    answers:
+      A: "Vance Supplies"
+      B: "Vance Paper"
+      C: "Vance Refrigeration"
+      D: "Vance & Sons"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Bob Vance's company?"
+        answers:
+          A: "Vance Supplies"
+          B: "Vance Paper"
+          C: "Vance Refrigeration"
+          D: "Vance & Sons"
+    difficulty: MEDIUM
+  - text: "Quel personnage a un frère nommé Mose ?"
+    answers:
+      A: "Jim Halpert"
+      B: "Dwight Schrute"
+      C: "Michael Scott"
+      D: "Andy Bernard"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character has a brother named Mose?"
+        answers:
+          A: "Jim Halpert"
+          B: "Dwight Schrute"
+          C: "Michael Scott"
+          D: "Andy Bernard"
+    difficulty: EASY
+  - text: "Quel est le nom de la femme de Stanley ?"
+    answers:
+      A: "Hattie"
+      B: "Cynthia"
+      C: "Terri"
+      D: "Lydia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Stanley's wife?"
+        answers:
+          A: "Hattie"
+          B: "Cynthia"
+          C: "Terri"
+          D: "Lydia"
+    difficulty: EXPERT
+  - text: "Quel acteur joue le rôle de Creed Bratton ?"
+    answers:
+      A: "Paul Lieberstein"
+      B: "Ed Helms"
+      C: "Creed Bratton"
+      D: "Mindy Kaling"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays the role of Creed Bratton?"
+        answers:
+          A: "Paul Lieberstein"
+          B: "Ed Helms"
+          C: "Creed Bratton"
+          D: "Mindy Kaling"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe de musique a cappella d'Andy Bernard ?"
+    answers:
+      A: "The Scrantones"
+      B: "Here Comes Treble"
+      C: "Dunder Mifflin Choir"
+      D: "The Harmonics"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Andy Bernard's a cappella group?"
+        answers:
+          A: "The Scrantones"
+          B: "Here Comes Treble"
+          C: "Dunder Mifflin Choir"
+          D: "The Harmonics"
+    difficulty: HARD
+  - text: "Quel personnage a été dans les Marines ?"
+    answers:
+      A: "Kevin Malone"
+      B: "Stanley Hudson"
+      C: "Darryl Philbin"
+      D: "Toby Flenderson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character was in the Marines?"
+        answers:
+          A: "Kevin Malone"
+          B: "Stanley Hudson"
+          C: "Darryl Philbin"
+          D: "Toby Flenderson"
+    difficulty: MEDIUM
+  - text: "Qui incarne Stanley Hudson ?"
+    imageUrl: wikipedia/television/38th_Annual_Saturn_Awards_-_Leslie_David_Baker_aka_Stanley_from_the_Office_(14158460045).jpg
+    answers:
+      A: "David Koechner"
+      B: "Andy Buckley"
+      C: "Leslie David Baker"
+      D: "Creed Bratton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Stanley Hudson?"
+        answers:
+          A: "David Koechner"
+          B: "Andy Buckley"
+          C: "Leslie David Baker"
+          D: "Creed Bratton"
+    difficulty: HARD
+  - text: "Quel est le nom du chat de Angela ?"
+    answers:
+      A: "Pandora"
+      B: "Sprinkles"
+      C: "Garbage"
+      D: "Bandit"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Angela's cat?"
+        answers:
+          A: "Pandora"
+          B: "Sprinkles"
+          C: "Garbage"
+          D: "Bandit"
+    difficulty: HARD
+  - text: "Quel est le prénom du fils de Pam et Jim ?"
+    answers:
+      A: "Philip"
+      B: "Cece"
+      C: "Michael"
+      D: "Kevin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Pam and Jim's son?"
+        answers:
+          A: "Philip"
+          B: "Cece"
+          C: "Michael"
+          D: "Kevin"
+    difficulty: MEDIUM
+  - text: "Quel est le titre du film que Michael Scott veut réaliser ?"
+    answers:
+      A: "The Michael Scott Story"
+      B: "Threat Level Midnight"
+      C: "Office Space"
+      D: "The Scranton Strangler"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the movie Michael Scott wants to make?"
+        answers:
+          A: "The Michael Scott Story"
+          B: "Threat Level Midnight"
+          C: "Office Space"
+          D: "The Scranton Strangler"
+    difficulty: HARD
+  - text: "Quel est le nom du frère de Pam ?"
+    answers:
+      A: "Tom"
+      B: "Pete"
+      C: "Jeb"
+      D: "Jack"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Pam's brother?"
+        answers:
+          A: "Tom"
+          B: "Pete"
+          C: "Jeb"
+          D: "Jack"
+    difficulty: EXPERT
+  - text: "Quel personnage est intérimaire au poste de manager dans l'épisode 'The Promotion' ?"
+    answers:
+      A: "Jim"
+      B: "Michael"
+      C: "Dwight"
+      D: "Andy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is interim manager in the episode 'The Promotion'?"
+        answers:
+          A: "Jim"
+          B: "Michael"
+          C: "Dwight"
+          D: "Andy"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'entreprise de Bob Vance ?"
+    answers:
+      A: "Vance Cooling"
+      B: "Vance Paper"
+      C: "Vance Heating"
+      D: "Vance Refrigeration"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Bob Vance's company?"
+        answers:
+          A: "Vance Cooling"
+          B: "Vance Paper"
+          C: "Vance Heating"
+          D: "Vance Refrigeration"
+    difficulty: MEDIUM
+  - text: "En quelle année la série a-t-elle diffusé son dernier épisode ?"
+    answers:
+      A: "2011"
+      B: "2012"
+      C: "2013"
+      D: "2014"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the series air its final episode?"
+        answers:
+          A: "2011"
+          B: "2012"
+          C: "2013"
+          D: "2014"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'ancien amour de Dwight qui travaille dans une ferme ?"
+    answers:
+      A: "Angela"
+      B: "Isabel"
+      C: "Esther"
+      D: "Rita"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Dwight's former love who works on a farm?"
+        answers:
+          A: "Angela"
+          B: "Isabel"
+          C: "Esther"
+          D: "Rita"
+    difficulty: EXPERT
+  - text: "Combien de saisons compte la série ?"
+    answers:
+      A: "7"
+      B: "8"
+      C: "10"
+      D: "9"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many seasons does the series have?"
+        answers:
+          A: "7"
+          B: "8"
+          C: "10"
+          D: "9"
+    difficulty: EASY
+  - text: "Quel est le nom du neveu de Michael Scott ?"
+    answers:
+      A: "Mark"
+      B: "Jake"
+      C: "Luke"
+      D: "Jeff"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Michael Scott's nephew?"
+        answers:
+          A: "Mark"
+          B: "Jake"
+          C: "Luke"
+          D: "Jeff"
+    difficulty: EXPERT
+  - text: "Quelle est la devise de la ferme Schrute ?"
+    answers:
+      A: "Schrute Farms : où la betterave est reine"
+      B: "Le travail avant tout"
+      C: "La terre est notre mère"
+      D: "Une ferme, une famille"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the motto of Schrute Farms?"
+        answers:
+          A: "Schrute Farms: where the beet is queen"
+          B: "Work before all"
+          C: "The land is our mother"
+          D: "One farm, one family"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Kelly Kapoor ?"
+    answers:
+      A: "Ravi"
+      B: "Kunal"
+      C: "Arjun"
+      D: "Vikram"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Kelly Kapoor's brother?"
+        answers:
+          A: "Ravi"
+          B: "Kunal"
+          C: "Arjun"
+          D: "Vikram"
+    difficulty: EXPERT
+  - text: "Quel personnage dit : « Je ne suis pas superstitieux, je suis un peu stitious » ?"
+    answers:
+      A: "Andy Bernard"
+      B: "Dwight Schrute"
+      C: "Jim Halpert"
+      D: "Michael Scott"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character says: \"I'm not superstitious, but I am a little stitious\"?"
+        answers:
+          A: "Andy Bernard"
+          B: "Dwight Schrute"
+          C: "Jim Halpert"
+          D: "Michael Scott"
+    difficulty: MEDIUM
+  - text: "Quel acteur joue le rôle de David Wallace ?"
+    answers:
+      A: "Paul Lieberstein"
+      B: "David Denman"
+      C: "Ed Helms"
+      D: "Andy Buckley"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the role of David Wallace?"
+        answers:
+          A: "Paul Lieberstein"
+          B: "David Denman"
+          C: "Ed Helms"
+          D: "Andy Buckley"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe a cappella d'Andy Bernard ?"
+    answers:
+      A: "Les Chanteurs de Cornell"
+      B: "Here Comes Treble"
+      C: "Les Voix de Scranton"
+      D: "The Office Harmonizers"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Andy Bernard's a cappella group?"
+        answers:
+          A: "The Cornell Singers"
+          B: "Here Comes Treble"
+          C: "The Voices of Scranton"
+          D: "The Office Harmonizers"
+    difficulty: HARD
+  - text: "Quel est le nom du chat d'Angela ?"
+    answers:
+      A: "Bandit"
+      B: "Minou"
+      C: "Monsieur Chocolat"
+      D: "Princesse Lady"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Angela's cat?"
+        answers:
+          A: "Bandit"
+          B: "Kitty"
+          C: "Mr. Chocolate"
+          D: "Princess Lady"
+    difficulty: HARD
+  - text: "Quel acteur incarne Todd Packer, l'ami grossier de Michael Scott ?"
+    answers:
+      A: "Rob Riggle"
+      B: "Will Ferrell"
+      C: "David Koechner"
+      D: "Chris Parnell"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Todd Packer, Michael Scott's crude friend?"
+        answers:
+          A: "Rob Riggle"
+          B: "Will Ferrell"
+          C: "David Koechner"
+          D: "Chris Parnell"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épisode de la saison 2 où Michael Scott organise une soirée de remise de prix ?"
+    answers:
+      A: "The Office Olympics"
+      B: "The Dundies"
+      C: "The Client"
+      D: "The Fight"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the season 2 episode where Michael Scott hosts an awards night?"
+        answers:
+          A: "The Office Olympics"
+          B: "The Dundies"
+          C: "The Client"
+          D: "The Fight"
+    difficulty: EXPERT
+  - text: "Quel personnage prononce la réplique : « Parfois, je commence une phrase, et je ne sais même pas où elle va. J'espère juste que je vais la comprendre en cours de route. » ?"
+    answers:
+      A: "Jim Halpert"
+      B: "Michael Scott"
+      C: "Pam Beesly"
+      D: "Dwight Schrute"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character says: \"Sometimes I'll start a sentence, and I don't even know where it's going. I just hope I find it along the way.\"?"
+        answers:
+          A: "Jim Halpert"
+          B: "Michael Scott"
+          C: "Pam Beesly"
+          D: "Dwight Schrute"
+    difficulty: HARD
+  - text: "En quelle année a été diffusé pour la première fois l'épisode pilote de The Office (US) ?"
+    answers:
+      A: "2003"
+      B: "2004"
+      C: "2006"
+      D: "2005"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the pilot episode of The Office (US) first air?"
+        answers:
+          A: "2003"
+          B: "2004"
+          C: "2006"
+          D: "2005"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'entreprise de papier concurrente que Karen Filippelli rejoint après avoir quitté Dunder Mifflin ?"
+    answers:
+      A: "Avery"
+      B: "Office Depot"
+      C: "Dunder Mifflin"
+      D: "Staples"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the competing paper company Karen Filippelli joins after leaving Dunder Mifflin?"
+        answers:
+          A: "Avery"
+          B: "Office Depot"
+          C: "Dunder Mifflin"
+          D: "Staples"
+    difficulty: EXPERT
+  - text: "Dans l'épisode « The Injury », quelle partie du corps Michael Scott se brûle-t-il avec un grille-pain ?"
+    answers:
+      A: "Le pied"
+      B: "La main"
+      C: "Le bras"
+      D: "La langue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the episode \"The Injury,\" what body part does Michael Scott burn with a George Foreman grill?"
+        answers:
+          A: "Foot"
+          B: "Hand"
+          C: "Arm"
+          D: "Tongue"
+    difficulty: HARD
+  - text: "Quel acteur joue le rôle de Robert California, le nouveau PDG de Dunder Mifflin dans la saison 8 ?"
+    answers:
+      A: "Catherine Tate"
+      B: "Will Arnett"
+      C: "Ray Romano"
+      D: "James Spader"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the role of Robert California, the new CEO of Dunder Mifflin in season 8?"
+        answers:
+          A: "Catherine Tate"
+          B: "Will Arnett"
+          C: "Ray Romano"
+          D: "James Spader"
+    difficulty: HARD
+  - text: "Quel personnage a remporté le concours de « Hottest in the Office » organisé par Michael Scott dans la saison 2 ?"
+    answers:
+      A: "Dwight Schrute"
+      B: "Jim Halpert"
+      C: "Ryan Howard"
+      D: "Pam Beesly"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character won the \"Hottest in the Office\" contest organized by Michael Scott in season 2?"
+        answers:
+          A: "Dwight Schrute"
+          B: "Jim Halpert"
+          C: "Ryan Howard"
+          D: "Pam Beesly"
+    difficulty: EXPERT
+  - text: "Quel est le métier de Holly Flax, la petite amie de Michael Scott ?"
+    answers:
+      A: "Responsable des ressources humaines"
+      B: "Assistante de direction"
+      C: "Comptable"
+      D: "Vendeuse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the job of Holly Flax, Michael Scott's girlfriend?"
+        answers:
+          A: "Human Resources Manager"
+          B: "Executive Assistant"
+          C: "Accountant"
+          D: "Salesperson"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du fils de Jan Levinson ?"
+    answers:
+      A: "Astrid"
+      B: "Sasha"
+      C: "Madeline"
+      D: "Cheyenne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Jan Levinson's son?"
+        answers:
+          A: "Astrid"
+          B: "Sasha"
+          C: "Madeline"
+          D: "Cheyenne"
+    difficulty: HARD
+  - text: "Quel groupe de musique Dwight Schrute rejoint-il dans la saison 9 ?"
+    answers:
+      A: "The Electric City"
+      B: "The Scranton Sirens"
+      C: "The paper Boys"
+      D: "The Beetles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which music group does Dwight Schrute join in season 9?"
+        answers:
+          A: "The Electric City"
+          B: "The Scranton Sirens"
+          C: "The paper Boys"
+          D: "The Beetles"
+    difficulty: EXPERT
+  - text: "Qui joue Michael Scott dans « The Office » ?"
+    imageUrl: wikipedia/television/Steve_Carell_November_2014.jpg
+    answers:
+      A: "John Krasinski"
+      B: "Rainn Wilson"
+      C: "Steve Carell"
+      D: "Ed Helms"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Michael Scott in \"The Office\"?"
+        answers:
+          A: "John Krasinski"
+          B: "Rainn Wilson"
+          C: "Steve Carell"
+          D: "Ed Helms"
+    difficulty: EASY
+  - text: "Quel est le nom du documentaire que l'équipe regarde dans le dernier épisode ?"
+    answers:
+      A: "Dunder Mifflin: A History"
+      B: "The Scranton Story"
+      C: "The Office: An American Workplace"
+      D: "The Paper Trail"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the documentary the team watches in the final episode?"
+        answers:
+          A: "Dunder Mifflin: A History"
+          B: "The Scranton Story"
+          C: "The Office: An American Workplace"
+          D: "The Paper Trail"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Jim Halpert ?"
+    answers:
+      A: "Pete"
+      B: "Tom"
+      C: "John"
+      D: "Larissa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Jim Halpert's brother?"
+        answers:
+          A: "Pete"
+          B: "Tom"
+          C: "John"
+          D: "Larissa"
+    difficulty: EXPERT
+  - text: "Quel acteur a réalisé l'épisode « The Injury » de la saison 2 ?"
+    answers:
+      A: "Paul Feig"
+      B: "Bryan Gordon"
+      C: "Ken Kwapis"
+      D: "Greg Daniels"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor directed the season 2 episode \"The Injury\"?"
+        answers:
+          A: "Paul Feig"
+          B: "Bryan Gordon"
+          C: "Ken Kwapis"
+          D: "Greg Daniels"
+    difficulty: HARD
+  - text: "Quel est le nom de la femme que Dwight épouse dans la saison 9 ?"
+    answers:
+      A: "Angela Martin"
+      B: "Isabel"
+      C: "Esther"
+      D: "Rolph"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the woman Dwight marries in season 9?"
+        answers:
+          A: "Angela Martin"
+          B: "Isabel"
+          C: "Esther"
+          D: "Rolph"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'entreprise que Pam et Jim fondent en Floride ?"
+    answers:
+      A: "Dunder Mifflin"
+      B: "Athlead"
+      C: "The Michael Scott Paper Company"
+      D: "Sabre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the company Pam and Jim found in Florida?"
+        answers:
+          A: "Dunder Mifflin"
+          B: "Athlead"
+          C: "The Michael Scott Paper Company"
+          D: "Sabre"
+    difficulty: HARD
+  - text: "Quel personnage a un frère handicapé nommé Mose ?"
+    answers:
+      A: "Michael Scott"
+      B: "Jim Halpert"
+      C: "Dwight Schrute"
+      D: "Andy Bernard"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character has a disabled brother named Mose?"
+        answers:
+          A: "Michael Scott"
+          B: "Jim Halpert"
+          C: "Dwight Schrute"
+          D: "Andy Bernard"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du bar où Jim et Pam se marient ?"
+    answers:
+      A: "Poor Richard's"
+      B: "Niagara Falls"
+      C: "Chili's"
+      D: "The Scranton Club"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the bar where Jim and Pam get married?"
+        answers:
+          A: "Poor Richard's"
+          B: "Niagara Falls"
+          C: "Chili's"
+          D: "The Scranton Club"
+    difficulty: HARD
+  - text: "Quel est le nom du jeu de société auquel Dwight et Jim jouent dans l'épisode « The Fight » ?"
+    answers:
+      A: "Clue"
+      B: "Monopoly"
+      C: "Risk"
+      D: "Sorry!"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the board game Dwight and Jim play in the episode \"The Fight\"?"
+        answers:
+          A: "Clue"
+          B: "Monopoly"
+          C: "Risk"
+          D: "Sorry!"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne Roy Anderson, l'ancien fiancé de Pam ?"
+    answers:
+      A: "John Krasinski"
+      B: "Chris Pratt"
+      C: "Adam Scott"
+      D: "David Denman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Roy Anderson, Pam's former fiancé?"
+        answers:
+          A: "John Krasinski"
+          B: "Chris Pratt"
+          C: "Adam Scott"
+          D: "David Denman"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier manager régional de la branche de Utica, successeur de Michael Scott ?"
+    answers:
+      A: "Karen Filippelli"
+      B: "Robert California"
+      C: "Nellie Bertram"
+      D: "Deangelo Vickers"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first regional manager of the Utica branch, successor to Michael Scott?"
+        answers:
+          A: "Karen Filippelli"
+          B: "Robert California"
+          C: "Nellie Bertram"
+          D: "Deangelo Vickers"
+    difficulty: EXPERT
+  - text: "Quel est le titre du livre écrit par Dwight Schrute sur la betterave ?"
+    answers:
+      A: "The Beetroot Manifesto"
+      B: "The Principles of Beet Farming"
+      C: "The Ultimate Guide to Beet Cultivation"
+      D: "The Beet Bible"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the book written by Dwight Schrute about beets?"
+        answers:
+          A: "The Beetroot Manifesto"
+          B: "The Principles of Beet Farming"
+          C: "The Ultimate Guide to Beet Cultivation"
+          D: "The Beet Bible"
+    difficulty: EXPERT
+  - text: "Quel personnage a été coincé dans une machine distributrice dans l'épisode « The Injury » ?"
+    answers:
+      A: "Pam Beesly"
+      B: "Dwight Schrute"
+      C: "Jim Halpert"
+      D: "Michael Scott"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character got stuck in a vending machine in the episode \"The Injury\"?"
+        answers:
+          A: "Pam Beesly"
+          B: "Dwight Schrute"
+          C: "Jim Halpert"
+          D: "Michael Scott"
+    difficulty: EASY
+  - text: "Quelle chanson Michael Scott chante-t-il au karaoké dans l'épisode « The Dundies » ?"
+    answers:
+      A: "Islands in the Stream"
+      B: "Tiny Dancer"
+      C: "My Way"
+      D: "Sweet Caroline"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What song does Michael Scott sing at karaoke in the episode \"The Dundies\"?"
+        answers:
+          A: "Islands in the Stream"
+          B: "Tiny Dancer"
+          C: "My Way"
+          D: "Sweet Caroline"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe de musique que Kevin, Darryl et Jim forment ?"
+    answers:
+      A: "Scrantonicity"
+      B: "The Paper Cut"
+      C: "The Scranton Four"
+      D: "Dunder Mifflin Rock"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the band that Kevin, Darryl, and Jim form?"
+        answers:
+          A: "Scrantonicity"
+          B: "The Paper Cut"
+          C: "The Scranton Four"
+          D: "Dunder Mifflin Rock"
+    difficulty: EXPERT
+  - text: "Qui a réalisé l'épisode « The Injury » de la saison 2 de The Office (US)"
+    answers:
+      A: "Greg Daniels"
+      B: "Ken Kwapis"
+      C: "Bryan Gordon"
+      D: "Paul Feig"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who directed the season 2 episode \"The Injury\" of The Office (US)?"
+        answers:
+          A: "Greg Daniels"
+          B: "Ken Kwapis"
+          C: "Bryan Gordon"
+          D: "Paul Feig"
+    difficulty: HARD
+  - text: "Quel personnage a organisé une soirée de remise de prix dans la saison 2 ?"
+    answers:
+      A: "Pam Beesly"
+      B: "Dwight Schrute"
+      C: "Jim Halpert"
+      D: "Michael Scott"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character organized an awards party in season 2?"
+        answers:
+          A: "Pam Beesly"
+          B: "Dwight Schrute"
+          C: "Jim Halpert"
+          D: "Michael Scott"
+    difficulty: MEDIUM
+  - text: "Quelle est la date de diffusion du tout premier épisode de The Office (US) ?"
+    answers:
+      A: "24 mars 2005"
+      B: "20 janvier 2005"
+      C: "15 mai 2005"
+      D: "5 avril 2005"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the air date of the very first episode of The Office (US)?"
+        answers:
+          A: "March 24, 2005"
+          B: "January 20, 2005"
+          C: "May 15, 2005"
+          D: "April 5, 2005"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épisode de la saison 3 où Michael Scott organise une course de bateaux ?"
+    answers:
+      A: "The Merger"
+      B: "Booze Cruise"
+      C: "Business School"
+      D: "The Convict"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the season 3 episode where Michael Scott organizes a boat race?"
+        answers:
+          A: "The Merger"
+          B: "Booze Cruise"
+          C: "Business School"
+          D: "The Convict"
+    difficulty: EXPERT
+  - text: "Quelle est la boisson préférée de Stanley Hudson ?"
+    answers:
+      A: "Soda au citron"
+      B: "Thé glacé"
+      C: "Café noir"
+      D: "Jus d'orange"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Stanley Hudson's favorite drink?"
+        answers:
+          A: "Lemon soda"
+          B: "Iced tea"
+          C: "Black coffee"
+          D: "Orange juice"
+    difficulty: MEDIUM
+  - text: "Quel acteur joue le rôle de Gabe Lewis dans The Office (US) ?"
+    answers:
+      A: "Mindy Kaling"
+      B: "Ed Helms"
+      C: "B.J. Novak"
+      D: "Zach Woods"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the role of Gabe Lewis in The Office (US)?"
+        answers:
+          A: "Mindy Kaling"
+          B: "Ed Helms"
+          C: "B.J. Novak"
+          D: "Zach Woods"
+    difficulty: MEDIUM
+  - text: "Quel personnage a été manager régional de la branche de Scranton après le départ de Michael Scott ?"
+    answers:
+      A: "Jim Halpert"
+      B: "Robert California"
+      C: "Andy Bernard"
+      D: "Deangelo Vickers"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character was regional manager of the Scranton branch after Michael Scott left?"
+        answers:
+          A: "Jim Halpert"
+          B: "Robert California"
+          C: "Andy Bernard"
+          D: "Deangelo Vickers"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du van que Dwight utilise pour son entreprise de betteraves ?"
+    answers:
+      A: "Dwight's Truck"
+      B: "Schrute Van"
+      C: "Betterave Express"
+      D: "Beetmobile"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the van Dwight uses for his beet business?"
+        answers:
+          A: "Dwight's Truck"
+          B: "Schrute Van"
+          C: "Betterave Express"
+          D: "Beetmobile"
+    difficulty: EXPERT
+  - text: "Quel est le nom de famille du premier amour de Michael Scott, révélé dans l'épisode « The Client » ?"
+    answers:
+      A: "Holly Flax"
+      B: "Jan Levinson"
+      C: "Carol Stills"
+      D: "Donna Newton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the last name of Michael Scott's first love, revealed in the episode \"The Client\"?"
+        answers:
+          A: "Holly Flax"
+          B: "Jan Levinson"
+          C: "Carol Stills"
+          D: "Donna Newton"
+    difficulty: EXPERT
+  - text: "Combien de poussins Dwight a-t-il commandés pour l'épisode « The Farm » ?"
+    answers:
+      A: "12"
+      B: "36"
+      C: "24"
+      D: "48"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many chicks did Dwight order for the episode \"The Farm\"?"
+        answers:
+          A: "12"
+          B: "36"
+          C: "24"
+          D: "48"
+    difficulty: EXPERT
+  - text: "Quel est le nom du groupe de musique que Kevin et Darryl forment dans la saison 9 ?"
+    answers:
+      A: "Scrantonicity"
+      B: "The Zits"
+      C: "Kevin and the Zits"
+      D: "Darryl and the Dynamics"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the music group that Kevin and Darryl form in season 9?"
+        answers:
+          A: "Scrantonicity"
+          B: "The Zits"
+          C: "Kevin and the Zits"
+          D: "Darryl and the Dynamics"
+    difficulty: EXPERT
+  - text: "Quel acteur joue le rôle de Deangelo Vickers dans la saison 7 ?"
+    answers:
+      A: "Will Ferrell"
+      B: "James Spader"
+      C: "Will Arnett"
+      D: "Ray Romano"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays the role of Deangelo Vickers in season 7?"
+        answers:
+          A: "Will Ferrell"
+          B: "James Spader"
+          C: "Will Arnett"
+          D: "Ray Romano"
+    difficulty: MEDIUM
+  - text: "Dans l'épisode « The Fire », quelle chanson Michael Scott chante-t-il au karaoké ?"
+    answers:
+      A: "« My Way »"
+      B: "« The Little Drummer Boy »"
+      C: "« Centerfold »"
+      D: "« Goodbye Stranger »"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the episode \"The Fire,\" what song does Michael Scott sing at karaoke?"
+        answers:
+          A: "\"My Way\""
+          B: "\"The Little Drummer Boy\""
+          C: "\"Centerfold\""
+          D: "\"Goodbye Stranger\""
+    difficulty: HARD
+  - text: "Quel personnage a été coincé dans une machine distribucice dans l'épisode « The Injury » ?"
+    answers:
+      A: "Dwight Schrute"
+      B: "Michael Scott"
+      C: "Jim Halpert"
+      D: "Pam Beesly"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character got stuck in a vending machine in the episode \"The Injury\"?"
+        answers:
+          A: "Dwight Schrute"
+          B: "Michael Scott"
+          C: "Jim Halpert"
+          D: "Pam Beesly"
+    difficulty: EASY
+  - text: "Quel est le nom du personnage joué par Creed Bratton, qui porte le même nom que l'acteur ?"
+    answers:
+      A: "Toby Flenderson"
+      B: "Meredith Palmer"
+      C: "Creed Bratton"
+      D: "Darryl Philbin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the character played by Creed Bratton, who has the same name as the actor?"
+        answers:
+          A: "Toby Flenderson"
+          B: "Meredith Palmer"
+          C: "Creed Bratton"
+          D: "Darryl Philbin"
+    difficulty: EASY
+  - text: "Dans l'épisode « Diversity Day », quel est le nom du jeu que Michael organise pour sensibiliser à la diversité ?"
+    answers:
+      A: "Diversity Day"
+      B: "Race Awareness"
+      C: "Diversity Tomorrow"
+      D: "Cultural Sensitivity"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the episode \"Diversity Day,\" what is the name of the game Michael organizes to raise diversity awareness?"
+        answers:
+          A: "Diversity Day"
+          B: "Race Awareness"
+          C: "Diversity Tomorrow"
+          D: "Cultural Sensitivity"
+    difficulty: HARD
+  - text: "Quel est le nom de l'entreprise de papier que Jim Halpert rejoint brièvement à Stamford ?"
+    answers:
+      A: "Prince Paper"
+      B: "Staples"
+      C: "Paper Great"
+      D: "Dunder Mifflin Stamford"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the paper company that Jim Halpert briefly joins in Stamford?"
+        answers:
+          A: "Prince Paper"
+          B: "Staples"
+          C: "Paper Great"
+          D: "Dunder Mifflin Stamford"
+    difficulty: HARD
+  - text: "Quel acteur incarne David Wallace, le CFO de Dunder Mifflin ?"
+    answers:
+      A: "Andy Buckley"
+      B: "Ed Helms"
+      C: "Zach Woods"
+      D: "James Spader"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays David Wallace, the CFO of Dunder Mifflin?"
+        answers:
+          A: "Andy Buckley"
+          B: "Ed Helms"
+          C: "Zach Woods"
+          D: "James Spader"
+    difficulty: MEDIUM
+  - text: "Combien de points Dwight obtient-il au test de QI dans l'épisode « The Fight » ?"
+    answers:
+      A: "120"
+      B: "135"
+      C: "150"
+      D: "163"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many points does Dwight get on the IQ test in the episode \"The Fight\"?"
+        answers:
+          A: "120"
+          B: "135"
+          C: "150"
+          D: "163"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mari de Phyllis Lapin ?"
+    answers:
+      A: "Bob Vance de Vance Refrigeration"
+      B: "Vance Refrigeration"
+      C: "Bob Vance"
+      D: "Bob Vance de Vance Refrigeration Company"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Phyllis Lapin's husband?"
+        answers:
+          A: "Bob Vance of Vance Refrigeration"
+          B: "Vance Refrigeration"
+          C: "Bob Vance"
+          D: "Bob Vance of Vance Refrigeration Company"
+    difficulty: MEDIUM
+  - text: "Dans l'épisode « The Dundies », quelle récompense Pam reçoit-elle ?"
+    answers:
+      A: "Whitest Sneakers"
+      B: "Spicy Curls"
+      C: "Longest Engagement"
+      D: "Best Mom"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the episode \"The Dundies,\" what award does Pam receive?"
+        answers:
+          A: "Whitest Sneakers"
+          B: "Spicy Curls"
+          C: "Longest Engagement"
+          D: "Best Mom"
+    difficulty: HARD
+  - text: "Quel est le nom du bar où Jim et Pam se rendent pour leur premier rendez-vous ?"
+    answers:
+      A: "Poor Richard's"
+      B: "Chili's"
+      C: "The Electric City"
+      D: "Cooper's"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the bar where Jim and Pam go for their first date?"
+        answers:
+          A: "Poor Richard's"
+          B: "Chili's"
+          C: "The Electric City"
+          D: "Cooper's"
+    difficulty: HARD
+  - text: "Quel acteur incarne le personnage de Clark Green dans la saison 9 ?"
+    answers:
+      A: "Will Greenberg"
+      B: "Jake Lacy"
+      C: "Chris Diamantopoulos"
+      D: "Clark Duke"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the character Clark Green in season 9?"
+        answers:
+          A: "Will Greenberg"
+          B: "Jake Lacy"
+          C: "Chris Diamantopoulos"
+          D: "Clark Duke"
+    difficulty: HARD
+  - text: "Dans l'épisode « The Merger », quelle chanson Dwight chante-t-il en la dédiant à Angela ?"
+    answers:
+      A: "Little Drummer Boy"
+      B: "The Girl from Ipanema"
+      C: "Rainbow Connection"
+      D: "My Sharona"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the episode \"The Merger,\" what song does Dwight sing, dedicating it to Angela?"
+        answers:
+          A: "Little Drummer Boy"
+          B: "The Girl from Ipanema"
+          C: "Rainbow Connection"
+          D: "My Sharona"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fils de Toby Flenderson ?"
+    answers:
+      A: "Sasha"
+      B: "Aucun, Toby a une fille"
+      C: "Mose"
+      D: "Toby Jr."
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Toby Flenderson's son?"
+        answers:
+          A: "Sasha"
+          B: "None, Toby has a daughter"
+          C: "Mose"
+          D: "Toby Jr."
+    difficulty: EXPERT
+  - text: "Dans l'épisode « The Surplus », quel objet les employés doivent-ils choisir d'acheter ?"
+    answers:
+      A: "Un nouveau canapé ou une machine à café"
+      B: "Une nouvelle photocopieuse ou un fauteuil"
+      C: "Une nouvelle imprimante ou un réfrigérateur"
+      D: "Un nouveau système de climatisation ou une télévision"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the episode \"The Surplus,\" what item do the employees have to choose to buy?"
+        answers:
+          A: "A new couch or a coffee machine"
+          B: "A new copier or a chair"
+          C: "A new printer or a refrigerator"
+          D: "A new air conditioning system or a television"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la mère de Dwight Schrute ?"
+    answers:
+      A: "Mose"
+      B: "Sylvia"
+      C: "Lonnie"
+      D: "Helene"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Dwight Schrute's mother?"
+        answers:
+          A: "Mose"
+          B: "Sylvia"
+          C: "Lonnie"
+          D: "Helene"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le personnage de Pete Miller dans la saison 9 ?"
+    answers:
+      A: "Jake Lacy"
+      B: "Clark Duke"
+      C: "Will Greenberg"
+      D: "Chris Diamantopoulos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays the character Pete Miller in season 9?"
+        answers:
+          A: "Jake Lacy"
+          B: "Clark Duke"
+          C: "Will Greenberg"
+          D: "Chris Diamantopoulos"
+    difficulty: HARD
+  - text: "Dans l'épisode « A Benihana Christmas », quel cadeau Michael offre-t-il à Carol ?"
+    answers:
+      A: "Un four à pizza"
+      B: "Un vélo"
+      C: "Un appareil photo"
+      D: "Un saut en parachute"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the episode \"A Benihana Christmas,\" what gift does Michael give Carol?"
+        answers:
+          A: "A pizza oven"
+          B: "A bike"
+          C: "A camera"
+          D: "A skydiving jump"
+    difficulty: EXPERT
+  - text: "Quel est le nom du neveu de Dwight qui vit à la ferme Schrute ?"
+    answers:
+      A: "Mose"
+      B: "Jeb"
+      C: "Zeke"
+      D: "Aucun, Mose est son cousin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Dwight's nephew who lives at Schrute Farms?"
+        answers:
+          A: "Mose"
+          B: "Jeb"
+          C: "Zeke"
+          D: "None, Mose is his cousin"
+    difficulty: EXPERT
+  - text: "Quel personnage a remporté le concours de « Hottest in the Office » dans la saison 2 ?"
+    answers:
+      A: "Ryan Howard"
+      B: "Jim Halpert"
+      C: "Pam Beesly"
+      D: "Todd Packer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character won the \"Hottest in the Office\" contest in season 2?"
+        answers:
+          A: "Ryan Howard"
+          B: "Jim Halpert"
+          C: "Pam Beesly"
+          D: "Todd Packer"
+    difficulty: HARD
+  - text: "Dans l'épisode « The Injury », quel personnage est coincé dans une machine distributrice ?"
+    answers:
+      A: "Meredith"
+      B: "Kevin"
+      C: "Stanley"
+      D: "Creed"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the episode \"The Injury,\" which character gets stuck in a vending machine?"
+        answers:
+          A: "Meredith"
+          B: "Kevin"
+          C: "Stanley"
+          D: "Creed"
+    difficulty: EASY
+  - text: "Quel acteur incarne le personnage de Jo Bennett, la PDG de Sabre ?"
+    answers:
+      A: "Stockard Channing"
+      B: "Kathy Bates"
+      C: "Holland Taylor"
+      D: "Christine Baranski"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actress plays the character Jo Bennett, the CEO of Sabre?"
+        answers:
+          A: "Stockard Channing"
+          B: "Kathy Bates"
+          C: "Holland Taylor"
+          D: "Christine Baranski"
+    difficulty: HARD
+  - text: "Quel est le titre du documentaire interne de Dunder Mifflin pour lequel Michael Scott crée le comité « The Committee » dans la saison 4 ?"
+    answers:
+      A: "Le Dunder Mifflin Story"
+      B: "Le Scranton Business Park"
+      C: "Le Whitepages"
+      D: "Le Dunder Mifflin Infinity"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the internal Dunder Mifflin documentary for which Michael Scott creates the committee \"The Committee\" in season 4?"
+        answers:
+          A: "The Dunder Mifflin Story"
+          B: "The Scranton Business Park"
+          C: "The Whitepages"
+          D: "The Dunder Mifflin Infinity"
+    difficulty: EXPERT
+  - text: "Quel est le titre du film que Dwight projette pour le bureau dans la saison 2 ?"
+    answers:
+      A: "The Dundies"
+      B: "The Injury"
+      C: "The Fire"
+      D: "The Client"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the movie Dwight screens for the office in season 2?"
+        answers:
+          A: "The Dundies"
+          B: "The Injury"
+          C: "The Fire"
+          D: "The Client"
+    difficulty: EXPERT

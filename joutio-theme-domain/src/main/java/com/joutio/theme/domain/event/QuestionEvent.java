@@ -1,0 +1,172 @@
+package com.joutio.theme.domain.event;
+
+
+import com.joutio.microservice.core.domain.model.i18n.Language;
+import com.joutio.theme.domain.model.QuestionChoice;
+import com.joutio.theme.domain.model.QuestionContent;
+import com.joutio.theme.domain.model.QuestionDifficulty;
+import com.joutio.theme.domain.model.QuestionStatus;
+import com.joutio.theme.domain.model.QuestionSuspensionReason;
+
+import java.time.Instant;
+import java.util.Map;
+
+public interface QuestionEvent {
+    String questionId();
+
+    /**
+     * Événement émis lors de l'ajout d'une question à un thème (un contenu par langue fournie).
+     */
+    record QuestionCreatedEvent(
+            String questionId,
+            String topicId,
+            Map<Language, QuestionContent> contents,
+            QuestionChoice correctAnswer,
+            String imageUrl,
+            String creatorId,
+            Instant createdAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors de l'ajout (ou du remplacement) de contenus localisés.
+     */
+    record QuestionTranslationsAddedEvent(
+            String questionId,
+            Map<Language, QuestionContent> contents,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors de l'ajout d'un contenu localisé.
+     */
+    record QuestionTranslationAddedEvent(
+            String questionId,
+            Language language,
+            String text,
+            Map<QuestionChoice, String> answers,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement de texte d'un contenu localisé.
+     */
+    record QuestionTextUpdatedEvent(
+            String questionId,
+            Language language,
+            String text,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement des réponses d'un contenu localisé.
+     */
+    record QuestionAnswersUpdatedEvent(
+            String questionId,
+            Language language,
+            Map<QuestionChoice, String> answers,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement de la bonne réponse.
+     */
+    record QuestionCorrectAnswerUpdatedEvent(
+            String questionId,
+            QuestionChoice correctAnswer,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement d'illustration de la question.
+     */
+    record QuestionImageUrlUpdatedEvent(
+            String questionId,
+            String imageUrl,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors de l'approbation d'une question
+     */
+    record QuestionApprovedEvent(
+            String questionId,
+            String topicId,
+            QuestionStatus previousStatus,
+            String updatedBy,
+            Instant approvedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du rejet d'une question
+     */
+    record QuestionRejectedEvent(
+            String questionId,
+            String topicId,
+            QuestionStatus previousStatus,
+            String reason,
+            String updatedBy,
+            Instant rejectedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lorsque la difficulté déduite d'une question change.
+     */
+    record QuestionDifficultyUpdatedEvent(
+            String questionId,
+            QuestionDifficulty difficulty,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionSuspendedEvent(
+            String questionId,
+            QuestionSuspensionReason reason,
+            String note,
+            String requestedBy,
+            String triggerReportId,
+            Instant triggerReportedAt,
+            int distinctReporters,
+            int windowDays,
+            Instant suspendedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionReinstatedEvent(
+            String questionId,
+            String requestedBy,
+            String note,
+            Instant reinstatedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionArchivedEvent(
+            String questionId,
+            String requestedBy,
+            String note,
+            Instant archivedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionRestoredEvent(
+            String questionId,
+            String requestedBy,
+            String note,
+            Instant restoredAt
+    ) implements QuestionEvent {
+    }
+}

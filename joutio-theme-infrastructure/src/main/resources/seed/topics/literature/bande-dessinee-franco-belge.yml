@@ -1,0 +1,1631 @@
+topic:
+  id: topic-bande-dessinee-franco-belge
+  names:
+    fr: "Bande dessinée franco-belge"
+    en: "Franco-Belgian Comics"
+  description: "La bande dessinée franco-belge, née en Belgique et en France au XXe siècle, a donné naissance à des héros mondialement célèbres : Tintin, Astérix, Lucky Luke, Spirou, Blake et Mortimer ou encore Gaston Lagaffe. Ce thème couvre les grandes séries, leurs créateurs (Hergé, Goscinny, Uderzo, Morris, Franquin, Jacobs), les personnages cultes et les albums mythiques du neuvième art."
+  category: LITERATURE
+  titles:
+    fr:
+      FER: "Gribouilleur de cases"
+      BRONZE: "Lecteur de Spirou"
+      ARGENT: "Copain de Gaston"
+      OR: "Ami de Tintin"
+      PLATINE: "Encreur de planches"
+      EMERAUDE: "Scénariste primé"
+      DIAMANT: "Pilier du neuvième art"
+    en:
+      FER: "Panel Doodler"
+      BRONZE: "Spirou Reader"
+      ARGENT: "Gaston's Pal"
+      OR: "Tintin's Sidekick"
+      PLATINE: "Inker of Pages"
+      EMERAUDE: "Award-Winning Writer"
+      DIAMANT: "Ninth Art Pillar"
+  imageUrl: wikipedia/literature/Comic_wall_Asterix_&_Obelix,_Goscinny_and_Uderzo._Brussels.jpg
+questions:
+  - text: "Quel héros de Hergé voyage avec Milou ?"
+    imageUrl: wikipedia/literature/Comic_Mural_Tintin,_Herge,_Brussels.jpg
+    answers:
+      A: "Spirou"
+      B: "Tintin"
+      C: "Lucky Luke"
+      D: "Gaston Lagaffe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Hergé hero travels with Snowy?"
+        answers:
+          A: "Spirou"
+          B: "Tintin"
+          C: "Lucky Luke"
+          D: "Gaston Lagaffe"
+    difficulty: EASY
+  - text: "En quelle année Hergé a-t-il publié la première planche de Tintin dans Le Petit Vingtième ?"
+    answers:
+      A: "1930"
+      B: "1929"
+      C: "1928"
+      D: "1931"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Hergé publish the first Tintin page in Le Petit Vingtième?"
+        answers:
+          A: "1930"
+          B: "1929"
+          C: "1928"
+          D: "1931"
+    difficulty: HARD
+  - text: "Quel est le nom du château de Fantasio dans la série Spirou et Fantasio ?"
+    answers:
+      A: "Château de Moulinsart"
+      B: "Château de la Roche"
+      C: "Château de Vaugirard"
+      D: "Château de Champignac"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Fantasio's castle in the Spirou and Fantasio series?"
+        answers:
+          A: "Château de Moulinsart"
+          B: "Château de la Roche"
+          C: "Château de Vaugirard"
+          D: "Château de Champignac"
+    difficulty: EXPERT
+  - text: "Qui a dessiné la série Blake et Mortimer après la mort d'Edgar P. Jacobs ?"
+    answers:
+      A: "Yves Sente"
+      B: "Ted Benoit"
+      C: "André Juillard"
+      D: "Jean Van Hamme"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who drew the Blake and Mortimer series after the death of Edgar P. Jacobs?"
+        answers:
+          A: "Yves Sente"
+          B: "Ted Benoit"
+          C: "André Juillard"
+          D: "Jean Van Hamme"
+    difficulty: EXPERT
+  - text: "Dans la série Thorgal, quel est le nom de l'épée que Thorgal reçoit du dieu Tyr ?"
+    answers:
+      A: "Balmung"
+      B: "Excalibur"
+      C: "Tyrfing"
+      D: "Gram"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Thorgal series, what is the name of the sword Thorgal receives from the god Tyr?"
+        answers:
+          A: "Balmung"
+          B: "Excalibur"
+          C: "Tyrfing"
+          D: "Gram"
+    difficulty: EXPERT
+  - text: "Dans la série Les Tuniques Bleues, quel est le grade du sergent Chesterfield ?"
+    answers:
+      A: "Caporal"
+      B: "Sergent"
+      C: "Lieutenant"
+      D: "Capitaine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the Les Tuniques Bleues series, what is Sergeant Chesterfield's rank?"
+        answers:
+          A: "Corporal"
+          B: "Sergeant"
+          C: "Lieutenant"
+          D: "Captain"
+    difficulty: HARD
+  - text: "Quel auteur a créé la série Le Chat du Rabbin ?"
+    answers:
+      A: "Blutch"
+      B: "Lewis Trondheim"
+      C: "Enki Bilal"
+      D: "Joann Sfar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which author created the series The Rabbi's Cat?"
+        answers:
+          A: "Blutch"
+          B: "Lewis Trondheim"
+          C: "Enki Bilal"
+          D: "Joann Sfar"
+    difficulty: MEDIUM
+  - text: "Dans la série Largo Winch, quel est le nom de l'entreprise que Largo hérite ?"
+    answers:
+      A: "Largo Inc."
+      B: "W Group"
+      C: "Winch Corporation"
+      D: "Groupe W"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the Largo Winch series, what is the name of the company Largo inherits?"
+        answers:
+          A: "Largo Inc."
+          B: "W Group"
+          C: "Winch Corporation"
+          D: "Groupe W"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du perroquet dans la série Barbe-Rouge ?"
+    answers:
+      A: "Pingo"
+      B: "Jacquot"
+      C: "Coco"
+      D: "Perroquet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the parrot in the Barbe-Rouge series?"
+        answers:
+          A: "Pingo"
+          B: "Jacquot"
+          C: "Coco"
+          D: "Perroquet"
+    difficulty: EXPERT
+  - text: "Dans la série Le Scrameustache, quel est le nom du chaton extraterrestre ?"
+    answers:
+      A: "Khéna"
+      B: "Galaxie"
+      C: "Scrameustache"
+      D: "Télémak"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Le Scrameustache series, what is the name of the alien kitten?"
+        answers:
+          A: "Khéna"
+          B: "Galaxie"
+          C: "Scrameustache"
+          D: "Télémak"
+    difficulty: HARD
+  - text: "Quel auteur a créé la série XIII ?"
+    answers:
+      A: "Jean Van Hamme et William Vance"
+      B: "Jean Van Hamme et Philippe Francq"
+      C: "Jean Van Hamme et Enki Bilal"
+      D: "Jean Van Hamme et Rosinski"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which author created the XIII series?"
+        answers:
+          A: "Jean Van Hamme and William Vance"
+          B: "Jean Van Hamme and Philippe Francq"
+          C: "Jean Van Hamme and Enki Bilal"
+          D: "Jean Van Hamme and Rosinski"
+    difficulty: MEDIUM
+  - text: "Dans la série Les Cités obscures, quel est le nom du premier album ?"
+    answers:
+      A: "La Tour"
+      B: "La Fièvre d'Urbicande"
+      C: "Les Murailles de Samaris"
+      D: "La Route d'Armilia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Les Cités obscures series, what is the name of the first album?"
+        answers:
+          A: "La Tour"
+          B: "La Fièvre d'Urbicande"
+          C: "Les Murailles de Samaris"
+          D: "La Route d'Armilia"
+    difficulty: EXPERT
+  - text: "Quel est le nom du Marsupilami dans la série du même nom ?"
+    answers:
+      A: "Houba"
+      B: "Jim"
+      C: "Marsupilami"
+      D: "Marsu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Marsupilami in the series of the same name?"
+        answers:
+          A: "Houba"
+          B: "Jim"
+          C: "Marsupilami"
+          D: "Marsu"
+    difficulty: MEDIUM
+  - text: "Dans la série Le Génie des Alpages, quel est le nom du chien ?"
+    answers:
+      A: "Idéfix"
+      B: "Rantanplan"
+      C: "Milou"
+      D: "Bill"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the Le Génie des Alpages series, what is the dog's name?"
+        answers:
+          A: "Idéfix"
+          B: "Rantanplan"
+          C: "Milou"
+          D: "Bill"
+    difficulty: EXPERT
+  - text: "Quel auteur a créé la série Le Chat ?"
+    answers:
+      A: "Wolinski"
+      B: "Zep"
+      C: "Tignous"
+      D: "Philippe Geluck"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which author created the Le Chat series?"
+        answers:
+          A: "Wolinski"
+          B: "Zep"
+          C: "Tignous"
+          D: "Philippe Geluck"
+    difficulty: MEDIUM
+  - text: "Dans la série Les Bidochon, quel est le prénom de Madame Bidochon ?"
+    answers:
+      A: "Raymonde"
+      B: "Ginette"
+      C: "Simone"
+      D: "Paulette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the Les Bidochon series, what is Madame Bidochon's first name?"
+        answers:
+          A: "Raymonde"
+          B: "Ginette"
+          C: "Simone"
+          D: "Paulette"
+    difficulty: EXPERT
+  - text: "Quel est le nom du héros de la série Aquablue ?"
+    answers:
+      A: "Thorgal"
+      B: "Nao"
+      C: "Corto"
+      D: "Valérian"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hero of the Aquablue series?"
+        answers:
+          A: "Thorgal"
+          B: "Nao"
+          C: "Corto"
+          D: "Valérian"
+    difficulty: HARD
+  - text: "Qui a créé la série Valérian et Laureline ?"
+    answers:
+      A: "René Goscinny et Jean Tabary"
+      B: "Pierre Christin et Jean-Claude Mézières"
+      C: "Jean Van Hamme et Grzegorz Rosinski"
+      D: "Enki Bilal et Pierre Christin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who created the Valérian and Laureline series?"
+        answers:
+          A: "René Goscinny and Jean Tabary"
+          B: "Pierre Christin and Jean-Claude Mézières"
+          C: "Jean Van Hamme and Grzegorz Rosinski"
+          D: "Enki Bilal and Pierre Christin"
+    difficulty: MEDIUM
+  - text: "Dans la série Iznogoud, quel est le nom du calife ?"
+    answers:
+      A: "Haroun El Poussah"
+      B: "Haroun El Plassid"
+      C: "Haroun El Raschid"
+      D: "Haroun El Mamoun"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the Iznogoud series, what is the name of the caliph?"
+        answers:
+          A: "Haroun El Poussah"
+          B: "Haroun El Plassid"
+          C: "Haroun El Raschid"
+          D: "Haroun El Mamoun"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de la série Le Décalogue ?"
+    answers:
+      A: "Nävis"
+      B: "Hal"
+      C: "Nahik"
+      D: "Grégor"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main character in the Le Décalogue series?"
+        answers:
+          A: "Nävis"
+          B: "Hal"
+          C: "Nahik"
+          D: "Grégor"
+    difficulty: EXPERT
+  - text: "Comment nomme-t-on les 4 frères bandits de Lucky Luke ?"
+    imageUrl: wikipedia/literature/Comic_Wall_Lucky_Luke,_Morris._Brussels.jpg
+    answers:
+      A: "Les frères James"
+      B: "Les frères Younger"
+      C: "Les frères Earp"
+      D: "Les frères Dalton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What are the 4 bandit brothers in Lucky Luke called?"
+        answers:
+          A: "The James brothers"
+          B: "The Younger brothers"
+          C: "The Earp brothers"
+          D: "The Dalton brothers"
+    difficulty: HARD
+  - text: "Qui a créé la série Les Passagers du Vent ?"
+    answers:
+      A: "François Bourgeon"
+      B: "Jean Giraud"
+      C: "Enki Bilal"
+      D: "Jacques Martin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who created the Les Passagers du Vent series?"
+        answers:
+          A: "François Bourgeon"
+          B: "Jean Giraud"
+          C: "Enki Bilal"
+          D: "Jacques Martin"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du groom dans la série Spirou et Fantasio ?"
+    answers:
+      A: "Fantasio"
+      B: "Lucky Luke"
+      C: "Gaston"
+      D: "Spirou"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the bellhop in the Spirou and Fantasio series?"
+        answers:
+          A: "Fantasio"
+          B: "Lucky Luke"
+          C: "Gaston"
+          D: "Spirou"
+    difficulty: MEDIUM
+  - text: "Quel personnage de la série Astérix est le barde du village ?"
+    answers:
+      A: "Panoramix"
+      B: "Cacofonix"
+      C: "Assurancetourix"
+      D: "Abraracourcix"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character in the Astérix series is the village bard?"
+        answers:
+          A: "Panoramix"
+          B: "Cacofonix"
+          C: "Assurancetourix"
+          D: "Abraracourcix"
+    difficulty: EASY
+  - text: "Dans la série Lucky Luke, quel est le nom du chien ?"
+    answers:
+      A: "Idéfix"
+      B: "Milou"
+      C: "Rantanplan"
+      D: "Bill"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Lucky Luke series, what is the dog's name?"
+        answers:
+          A: "Idéfix"
+          B: "Milou"
+          C: "Rantanplan"
+          D: "Bill"
+    difficulty: EASY
+  - text: "Quel auteur a créé la série Les Schtroumpfs ?"
+    answers:
+      A: "Morris"
+      B: "Franquin"
+      C: "Peyo"
+      D: "Uderzo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which author created the Les Schtroumpfs series?"
+        answers:
+          A: "Morris"
+          B: "Franquin"
+          C: "Peyo"
+          D: "Uderzo"
+    difficulty: EASY
+  - text: "Dans Tintin, quel est le nom du majordome de Marlinspike Hall ?"
+    answers:
+      A: "Dupont"
+      B: "Haddock"
+      C: "Tournesol"
+      D: "Nestor"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Tintin, what is the name of the butler at Marlinspike Hall?"
+        answers:
+          A: "Dupont"
+          B: "Haddock"
+          C: "Tournesol"
+          D: "Nestor"
+    difficulty: MEDIUM
+  - text: "Quel personnage est capitaine des services secrets ?"
+    imageUrl: wikipedia/literature/Comic_wall_Blake_&_Mortimer_4._Edgar_P._Jacobs._Brussels.jpg
+    answers:
+      A: "Philip Mortimer"
+      B: "Le colonel Olrik"
+      C: "Francis Blake"
+      D: "Le professeur Sato"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is a captain of the secret services?"
+        answers:
+          A: "Philip Mortimer"
+          B: "Colonel Olrik"
+          C: "Francis Blake"
+          D: "Professor Sato"
+    difficulty: HARD
+  - text: "Quel est le nom du chien d'Astérix ?"
+    answers:
+      A: "Idéfix"
+      B: "Milou"
+      C: "Rantanplan"
+      D: "Bill"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Astérix's dog?"
+        answers:
+          A: "Idéfix"
+          B: "Milou"
+          C: "Rantanplan"
+          D: "Bill"
+    difficulty: EXPERT
+  - text: "Quel auteur a dessiné la série Blake et Mortimer après Edgar P. Jacobs ?"
+    answers:
+      A: "Bob de Moor"
+      B: "Van Hamme"
+      C: "Juillard"
+      D: "Ted Benoit"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which author drew the Blake and Mortimer series after Edgar P. Jacobs?"
+        answers:
+          A: "Bob de Moor"
+          B: "Van Hamme"
+          C: "Juillard"
+          D: "Ted Benoit"
+    difficulty: EXPERT
+  - text: "Dans quelle ville se déroule principalement l'action de la série XIII ?"
+    answers:
+      A: "Paris"
+      B: "New York"
+      C: "Londres"
+      D: "Rome"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city does the action of the XIII series mainly take place?"
+        answers:
+          A: "Paris"
+          B: "New York"
+          C: "London"
+          D: "Rome"
+    difficulty: HARD
+  - text: "Quel est le nom du héros de la série Thorgal ?"
+    answers:
+      A: "Thorgal Aegirsson"
+      B: "Thorgal Vilhjalmsson"
+      C: "Thorgal Leifsson"
+      D: "Thorgal Ragnarsson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the hero of the Thorgal series?"
+        answers:
+          A: "Thorgal Aegirsson"
+          B: "Thorgal Vilhjalmsson"
+          C: "Thorgal Leifsson"
+          D: "Thorgal Ragnarsson"
+    difficulty: EASY
+  - text: "Quel auteur a créé la série Le Scrameustache ?"
+    answers:
+      A: "Walt"
+      B: "Gos"
+      C: "Rosy"
+      D: "Jijé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which author created the Le Scrameustache series?"
+        answers:
+          A: "Walt"
+          B: "Gos"
+          C: "Rosy"
+          D: "Jijé"
+    difficulty: HARD
+  - text: "Dans quel journal Spirou et Fantasio sont-ils apparus pour la première fois en 1938 ?"
+    answers:
+      A: "Le Journal de Spirou"
+      B: "Le Petit Vingtième"
+      C: "Le Journal de Mickey"
+      D: "Tintin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which magazine did Spirou and Fantasio first appear in 1938?"
+        answers:
+          A: "Le Journal de Spirou"
+          B: "Le Petit Vingtième"
+          C: "Le Journal de Mickey"
+          D: "Tintin"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi dans la série Iznogoud ?"
+    answers:
+      A: "Haroun el Poussah"
+      B: "Haroun el Raschid"
+      C: "Saladin"
+      D: "Aladin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the king in the Iznogoud series?"
+        answers:
+          A: "Haroun el Poussah"
+          B: "Haroun el Raschid"
+          C: "Saladin"
+          D: "Aladin"
+    difficulty: HARD
+  - text: "Quel est le nom du cheval de Lucky Luke ?"
+    answers:
+      A: "Tonnerre"
+      B: "Rantanplan"
+      C: "Silver"
+      D: "Jolly Jumper"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Lucky Luke's horse?"
+        answers:
+          A: "Tonnerre"
+          B: "Rantanplan"
+          C: "Silver"
+          D: "Jolly Jumper"
+    difficulty: EASY
+  - text: "Dans quelle ville se déroule l'action principale de la série Blake et Mortimer ?"
+    answers:
+      A: "Paris"
+      B: "Londres"
+      C: "Bruxelles"
+      D: "Genève"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city does the main action of the Blake and Mortimer series take place?"
+        answers:
+          A: "Paris"
+          B: "London"
+          C: "Brussels"
+          D: "Geneva"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du savant dans Spirou et Fantasio ?"
+    answers:
+      A: "Zorglub"
+      B: "Le comte de Champignac"
+      C: "Le professeur Tryphon Tournesol"
+      D: "Le professeur Mortimer"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the scientist in Spirou and Fantasio?"
+        answers:
+          A: "Zorglub"
+          B: "The Count of Champignac"
+          C: "Professor Tryphon Tournesol"
+          D: "Professor Mortimer"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du journaliste dans Tintin ?"
+    answers:
+      A: "Dupont"
+      B: "Milou"
+      C: "Tintin"
+      D: "Rastapopoulos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the reporter in Tintin?"
+        answers:
+          A: "Dupont"
+          B: "Milou"
+          C: "Tintin"
+          D: "Rastapopoulos"
+    difficulty: EASY
+  - text: "Dans quel album de Tintin le capitaine Haddock apparaît-il pour la première fois ?"
+    answers:
+      A: "Le Crabe aux pinces d'or"
+      B: "L'Étoile mystérieuse"
+      C: "Le Secret de la Licorne"
+      D: "Les Sept Boules de cristal"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which Tintin album does Captain Haddock first appear?"
+        answers:
+          A: "The Crab with the Golden Claws"
+          B: "The Shooting Star"
+          C: "The Secret of the Unicorn"
+          D: "The Seven Crystal Balls"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de la série Le Chat du Rabbin ?"
+    answers:
+      A: "Malka"
+      B: "Le Rabbin"
+      C: "Le Golem"
+      D: "Le Chat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main character in The Rabbi's Cat series?"
+        answers:
+          A: "Malka"
+          B: "The Rabbi"
+          C: "The Golem"
+          D: "The Cat"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du héros de la série Largo Winch ?"
+    answers:
+      A: "Nerio Winch"
+      B: "Largo Winch"
+      C: "Simon Ovronnaz"
+      D: "Freddy Kaplan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hero of the Largo Winch series?"
+        answers:
+          A: "Nerio Winch"
+          B: "Largo Winch"
+          C: "Simon Ovronnaz"
+          D: "Freddy Kaplan"
+    difficulty: EASY
+  - text: "En quelle année Hergé est-il décédé ?"
+    imageUrl: wikipedia/literature/Statue_Herge_Louvain-la-Neuve.jpg
+    answers:
+      A: "1977"
+      B: "1980"
+      C: "1983"
+      D: "1985"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Hergé die?"
+        answers:
+          A: "1977"
+          B: "1980"
+          C: "1983"
+          D: "1985"
+    difficulty: HARD
+  - text: "Dans la série XIII, quel est le nom de l'organisation secrète ?"
+    answers:
+      A: "La CIA"
+      B: "La NSA"
+      C: "Le KGB"
+      D: "La Mangouste"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the XIII series, what is the name of the secret organization?"
+        answers:
+          A: "The CIA"
+          B: "The NSA"
+          C: "The KGB"
+          D: "The Mongoose"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier album de la série Thorgal ?"
+    answers:
+      A: "La Magicienne trahie"
+      B: "L'Île des mers gelées"
+      C: "Les Trois Vieillards du pays d'Aran"
+      D: "Au-delà des ombres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first album in the Thorgal series?"
+        answers:
+          A: "The Betrayed Sorceress"
+          B: "The Island of Frozen Seas"
+          C: "The Three Old Men of the Land of Aran"
+          D: "Beyond the Shadows"
+    difficulty: EXPERT
+  - text: "Quel auteur a dessiné la série Thorgal ?"
+    answers:
+      A: "Enki Bilal"
+      B: "Van Hamme"
+      C: "Grzegorz Rosinski"
+      D: "Hermann"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which author drew the Thorgal series?"
+        answers:
+          A: "Enki Bilal"
+          B: "Van Hamme"
+          C: "Grzegorz Rosinski"
+          D: "Hermann"
+    difficulty: HARD
+  - text: "Dans la série Les Tuniques Bleues, quel est le nom du caporal ?"
+    answers:
+      A: "Blutch"
+      B: "Chesterfield"
+      C: "Stark"
+      D: "Appeltown"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the Les Tuniques Bleues series, what is the name of the corporal?"
+        answers:
+          A: "Blutch"
+          B: "Chesterfield"
+          C: "Stark"
+          D: "Appeltown"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de la série Le Scrameustache ?"
+    answers:
+      A: "Le Scrameustache"
+      B: "Khena"
+      C: "Gargamel"
+      D: "Le Marsupilami"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the main character in the Le Scrameustache series?"
+        answers:
+          A: "Le Scrameustache"
+          B: "Khena"
+          C: "Gargamel"
+          D: "Le Marsupilami"
+    difficulty: HARD
+  - text: "Quel auteur a créé la série Le Génie des Alpages ?"
+    answers:
+      A: "Bretécher"
+      B: "Gotlib"
+      C: "F'murr"
+      D: "Roba"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which author created the Le Génie des Alpages series?"
+        answers:
+          A: "Bretécher"
+          B: "Gotlib"
+          C: "F'murr"
+          D: "Roba"
+    difficulty: HARD
+  - text: "Dans la série Le Génie des Alpages, quel est le nom du mouton ?"
+    answers:
+      A: "Jean-Claude"
+      B: "Bêê"
+      C: "Marcel"
+      D: "Romuald"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the Le Génie des Alpages series, what is the name of the sheep?"
+        answers:
+          A: "Jean-Claude"
+          B: "Bêê"
+          C: "Marcel"
+          D: "Romuald"
+    difficulty: EXPERT
+  - text: "De quelle couleur sont les Schtroumpfs ?"
+    imageUrl: wikipedia/literature/Smurfs_mural-Brussels.jpg
+    answers:
+      A: "Bleu"
+      B: "Vert"
+      C: "Rouge"
+      D: "Jaune"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What color are the Smurfs?"
+        answers:
+          A: "Blue"
+          B: "Green"
+          C: "Red"
+          D: "Yellow"
+    difficulty: EASY
+  - text: "Quel est le nom du personnage principal de la série Aquablue ?"
+    answers:
+      A: "Nao"
+      B: "Willy"
+      C: "Cyan"
+      D: "Raphaël"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the main character in the Aquablue series?"
+        answers:
+          A: "Nao"
+          B: "Willy"
+          C: "Cyan"
+          D: "Raphaël"
+    difficulty: MEDIUM
+  - text: "Quel auteur a créé la série Valérian et Laureline ?"
+    answers:
+      A: "Pierre Christin et Jean-Claude Mézières"
+      B: "Mœbius et Jodorowsky"
+      C: "Enki Bilal et Pierre Christin"
+      D: "Franquin et Greg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which author created the Valérian and Laureline series?"
+        answers:
+          A: "Pierre Christin and Jean-Claude Mézières"
+          B: "Mœbius and Jodorowsky"
+          C: "Enki Bilal and Pierre Christin"
+          D: "Franquin and Greg"
+    difficulty: MEDIUM
+  - text: "Dans quelle ville se déroule principalement l'action de la série Gaston Lagaffe ?"
+    answers:
+      A: "Liège"
+      B: "Paris"
+      C: "Genève"
+      D: "Bruxelles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which city does the action of the Gaston Lagaffe series mainly take place?"
+        answers:
+          A: "Liège"
+          B: "Paris"
+          C: "Geneva"
+          D: "Brussels"
+    difficulty: MEDIUM
+  - text: "Quel album de la série Astérix a été publié en 1961 ?"
+    answers:
+      A: "Astérix le Gaulois"
+      B: "Astérix gladiateur"
+      C: "Astérix et les Goths"
+      D: "La Serpe d'or"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Astérix album was published in 1961?"
+        answers:
+          A: "Astérix the Gaul"
+          B: "Astérix the Gladiator"
+          C: "Astérix and the Goths"
+          D: "The Golden Sickle"
+    difficulty: HARD
+  - text: "Quel est le nom du bateau du capitaine Haddock dans Tintin ?"
+    answers:
+      A: "Le Karaboudjan"
+      B: "L'Aurore"
+      C: "Le Sirius"
+      D: "La Licorne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Captain Haddock's ship in Tintin?"
+        answers:
+          A: "The Karaboudjan"
+          B: "The Aurora"
+          C: "The Sirius"
+          D: "The Unicorn"
+    difficulty: MEDIUM
+  - text: "En quelle année est décédé Hergé, le créateur de Tintin ?"
+    answers:
+      A: "1988"
+      B: "1985"
+      C: "1978"
+      D: "1983"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Hergé, the creator of Tintin, die?"
+        answers:
+          A: "1988"
+          B: "1985"
+          C: "1978"
+          D: "1983"
+    difficulty: HARD
+  - text: "Quel est le premier album de la série Blake et Mortimer ?"
+    answers:
+      A: "Le Secret de l'Espadon"
+      B: "Le Mystère de la Grande Pyramide"
+      C: "La Marque jaune"
+      D: "L'Énigme de l'Atlantide"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first album in the Blake and Mortimer series?"
+        answers:
+          A: "The Secret of the Swordfish"
+          B: "The Mystery of the Great Pyramid"
+          C: "The Yellow Mark"
+          D: "The Atlantis Enigma"
+    difficulty: HARD
+  - text: "Dans quel journal Astérix a-t-il fait sa première apparition ?"
+    answers:
+      A: "Le Journal de Mickey"
+      B: "Spirou"
+      C: "Tintin"
+      D: "Pilote"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which magazine did Astérix first appear?"
+        answers:
+          A: "Le Journal de Mickey"
+          B: "Spirou"
+          C: "Tintin"
+          D: "Pilote"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du marsupilami femelle dans la série Spirou et Fantasio ?"
+    answers:
+      A: "Laureline"
+      B: "Houba"
+      C: "Bibi"
+      D: "Jolly"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the female marsupilami in the Spirou and Fantasio series?"
+        answers:
+          A: "Laureline"
+          B: "Houba"
+          C: "Bibi"
+          D: "Jolly"
+    difficulty: EXPERT
+  - text: "Quel auteur a dessiné la série Lucky Luke après Morris ?"
+    answers:
+      A: "Franquin"
+      B: "Achdé"
+      C: "Uderzo"
+      D: "Tardi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which author drew the Lucky Luke series after Morris?"
+        answers:
+          A: "Franquin"
+          B: "Achdé"
+          C: "Uderzo"
+          D: "Tardi"
+    difficulty: HARD
+  - text: "Dans Thorgal, quel est le nom du fils de Thorgal et Aaricia ?"
+    answers:
+      A: "Jolan"
+      B: "Torgal"
+      C: "Aaricia"
+      D: "Hiérulf"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Thorgal, what is the name of Thorgal and Aaricia's son?"
+        answers:
+          A: "Jolan"
+          B: "Torgal"
+          C: "Aaricia"
+          D: "Hiérulf"
+    difficulty: HARD
+  - text: "Quel est le nom du chef des services secrets dans la série XIII ?"
+    answers:
+      A: "Le Général Carrington"
+      B: "Le Colonel Rossi"
+      C: "Le Président Sheridan"
+      D: "Le Major Jones"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the head of the secret services in the XIII series?"
+        answers:
+          A: "General Carrington"
+          B: "Colonel Rossi"
+          C: "President Sheridan"
+          D: "Major Jones"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'album de Tintin où apparaît pour la première fois la fusée lunaire ?"
+    answers:
+      A: "Coke en stock"
+      B: "On a marché sur la Lune"
+      C: "L'Affaire Tournesol"
+      D: "Objectif Lune"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Tintin album in which the lunar rocket first appears?"
+        answers:
+          A: "The Red Sea Sharks"
+          B: "Explorers on the Moon"
+          C: "The Calculus Affair"
+          D: "Destination Moon"
+    difficulty: HARD
+  - text: "Dans Les Schtroumpfs, quel est le nom du sorcier ennemi juré ?"
+    answers:
+      A: "Mordicus"
+      B: "Azraël"
+      C: "Balthazar"
+      D: "Gargamel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In The Smurfs, what is the name of the sworn enemy wizard?"
+        answers:
+          A: "Mordicus"
+          B: "Azrael"
+          C: "Balthazar"
+          D: "Gargamel"
+    difficulty: MEDIUM
+  - text: "Dans la série Largo Winch, quel est le nom de l'entreprise familiale ?"
+    answers:
+      A: "Winch Corporation"
+      B: "Groupe W"
+      C: "Nerio Industries"
+      D: "Fondation Largo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the Largo Winch series, what is the name of the family company?"
+        answers:
+          A: "Winch Corporation"
+          B: "Group W"
+          C: "Nerio Industries"
+          D: "Largo Foundation"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier album de la série Les Tuniques Bleues ?"
+    answers:
+      A: "Un chariot dans l'Ouest"
+      B: "Du Nord au Sud"
+      C: "Les Bleus de la marine"
+      D: "La Prison de Robertsonville"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first album in the Les Tuniques Bleues series?"
+        answers:
+          A: "A Wagon in the West"
+          B: "From North to South"
+          C: "The Bluecoats of the Navy"
+          D: "The Robertsonville Prison"
+    difficulty: HARD
+  - text: "Quel auteur a repris la série Spirou et Fantasio après André Franquin ?"
+    answers:
+      A: "Peyo"
+      B: "Morris"
+      C: "Jean-Claude Fournier"
+      D: "Jijé"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which author took over the Spirou et Fantasio series after André Franquin?"
+        answers:
+          A: "Peyo"
+          B: "Morris"
+          C: "Jean-Claude Fournier"
+          D: "Jijé"
+    difficulty: HARD
+  - text: "Dans la série Valérian et Laureline, quel est le nom de l'organisation dont ils font partie ?"
+    answers:
+      A: "L'Agence Galactique"
+      B: "Le Corps des Gardiens du Temps"
+      C: "La Police Spatio-Temporelle"
+      D: "La Brigade Chronologique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Valérian and Laureline series, what is the name of the organization they belong to?"
+        answers:
+          A: "The Galactic Agency"
+          B: "The Time Guardians Corps"
+          C: "The Spatio-Temporal Police"
+          D: "The Chronological Brigade"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chien de Gaston Lagaffe ?"
+    answers:
+      A: "Pilou"
+      B: "Oscar"
+      C: "Gaston n'a pas de chien"
+      D: "Médor"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Gaston Lagaffe's dog?"
+        answers:
+          A: "Pilou"
+          B: "Oscar"
+          C: "Gaston doesn't have a dog"
+          D: "Médor"
+    difficulty: EXPERT
+  - text: "Quel album de la série Iznogoud a été publié en 1966 ?"
+    answers:
+      A: "Le Grand Vizir Iznogoud"
+      B: "Les Complots d'Iznogoud"
+      C: "Iznogoud le Grand Vizir"
+      D: "Iznogoud et les Femmes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which album in the Iznogoud series was published in 1966?"
+        answers:
+          A: "The Grand Vizier Iznogoud"
+          B: "The Plots of Iznogoud"
+          C: "Iznogoud the Grand Vizier"
+          D: "Iznogoud and the Women"
+    difficulty: EXPERT
+  - text: "Quel auteur a créé la série Les Cités obscures ?"
+    answers:
+      A: "Enki Bilal"
+      B: "Benoît Peeters"
+      C: "François Schuiten"
+      D: "Jacques Tardi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which author created the Les Cités obscures series?"
+        answers:
+          A: "Enki Bilal"
+          B: "Benoît Peeters"
+          C: "François Schuiten"
+          D: "Jacques Tardi"
+    difficulty: HARD
+  - text: "En quelle année est décédé André Franquin ?"
+    answers:
+      A: "2000"
+      B: "1992"
+      C: "1995"
+      D: "1997"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did André Franquin die?"
+        answers:
+          A: "2000"
+          B: "1992"
+          C: "1995"
+          D: "1997"
+    difficulty: HARD
+  - text: "Quel est le nom du héros de la série Le Décalogue ?"
+    answers:
+      A: "Nicolas Hulot"
+      B: "Nicolas Bataille"
+      C: "Nicolas Flamel"
+      D: "Nicolas Poussin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hero of the Le Décalogue series?"
+        answers:
+          A: "Nicolas Hulot"
+          B: "Nicolas Bataille"
+          C: "Nicolas Flamel"
+          D: "Nicolas Poussin"
+    difficulty: EXPERT
+  - text: "Qui a dessiné la série Les Passagers du vent ?"
+    answers:
+      A: "Enki Bilal"
+      B: "François Bourgeon"
+      C: "Jacques Tardi"
+      D: "Jean Giraud"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who drew the Les Passagers du vent series?"
+        answers:
+          A: "Enki Bilal"
+          B: "François Bourgeon"
+          C: "Jacques Tardi"
+          D: "Jean Giraud"
+    difficulty: HARD
+  - text: "Quel est le nom du premier album de la série Les Passagers du vent ?"
+    answers:
+      A: "Le Ponton de la douane"
+      B: "La Fille sous la dune"
+      C: "La Fille du capitaine"
+      D: "La Demoiselle du Vaisseau"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first album in the Les Passagers du vent series?"
+        answers:
+          A: "Le Ponton de la douane"
+          B: "La Fille sous la dune"
+          C: "La Fille du capitaine"
+          D: "La Demoiselle du Vaisseau"
+    difficulty: EXPERT
+  - text: "Dans quel album de Tintin apparaît pour la première fois la Castafiore ?"
+    answers:
+      A: "Les Bijoux de la Castafiore"
+      B: "Le Sceptre d'Ottokar"
+      C: "L'Affaire Tournesol"
+      D: "Le Crabe aux pinces d'or"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which Tintin album does Castafiore first appear?"
+        answers:
+          A: "Les Bijoux de la Castafiore"
+          B: "Le Sceptre d'Ottokar"
+          C: "L'Affaire Tournesol"
+          D: "Le Crabe aux pinces d'or"
+    difficulty: HARD
+  - text: "Quel auteur a créé la série Aquablue ?"
+    answers:
+      A: "Olivier Vatine"
+      B: "Thierry Cailleteau"
+      C: "Christophe Arleston"
+      D: "Didier Tarquin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which author created the Aquablue series?"
+        answers:
+          A: "Olivier Vatine"
+          B: "Thierry Cailleteau"
+          C: "Christophe Arleston"
+          D: "Didier Tarquin"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de la série Le Château des animaux ?"
+    answers:
+      A: "Miss B"
+      B: "Silvio"
+      C: "Azito"
+      D: "Caesar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main character in the Le Château des animaux series?"
+        answers:
+          A: "Miss B"
+          B: "Silvio"
+          C: "Azito"
+          D: "Caesar"
+    difficulty: EXPERT
+  - text: "Quel auteur a écrit la série Le Château des animaux ?"
+    answers:
+      A: "Joann Sfar"
+      B: "Lewis Trondheim"
+      C: "Xavier Dorison"
+      D: "Benoît Peeters"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which author wrote the Le Château des animaux series?"
+        answers:
+          A: "Joann Sfar"
+          B: "Lewis Trondheim"
+          C: "Xavier Dorison"
+          D: "Benoît Peeters"
+    difficulty: EXPERT
+  - text: "Quel est le nom du personnage principal de la série Undertaker ?"
+    answers:
+      A: "Jonas Stone"
+      B: "Jonas Blond"
+      C: "Jonas Black"
+      D: "Jonas Crow"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main character in the Undertaker series?"
+        answers:
+          A: "Jonas Stone"
+          B: "Jonas Blond"
+          C: "Jonas Black"
+          D: "Jonas Crow"
+    difficulty: HARD
+  - text: "Quel auteur a dessiné la série Undertaker ?"
+    answers:
+      A: "Enrico Marini"
+      B: "Ralph Meyer"
+      C: "Mathieu Lauffray"
+      D: "Ronan Toulhoat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which author drew the Undertaker series?"
+        answers:
+          A: "Enrico Marini"
+          B: "Ralph Meyer"
+          C: "Mathieu Lauffray"
+          D: "Ronan Toulhoat"
+    difficulty: EXPERT
+  - text: "En quelle année est né Albert Uderzo ?"
+    answers:
+      A: "1925"
+      B: "1929"
+      C: "1927"
+      D: "1931"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was Albert Uderzo born?"
+        answers:
+          A: "1925"
+          B: "1929"
+          C: "1927"
+          D: "1931"
+    difficulty: HARD
+  - text: "Quel est le nom du premier album de la série Les Schtroumpfs ?"
+    answers:
+      A: "Le Voleur de Schtroumpfs"
+      B: "Les Schtroumpfs noirs"
+      C: "L'Œuf et les Schtroumpfs"
+      D: "Le Schtroumpfissime"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first album in the Les Schtroumpfs series?"
+        answers:
+          A: "Le Voleur de Schtroumpfs"
+          B: "Les Schtroumpfs noirs"
+          C: "L'Œuf et les Schtroumpfs"
+          D: "Le Schtroumpfissime"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de la série Le Chat ?"
+    answers:
+      A: "Le Schtroumpf"
+      B: "Gaston"
+      C: "Le Marsupilami"
+      D: "Le Chat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main character in the Le Chat series?"
+        answers:
+          A: "Le Schtroumpf"
+          B: "Gaston"
+          C: "Le Marsupilami"
+          D: "Le Chat"
+    difficulty: EASY
+  - text: "Quel auteur a dessiné la série Le Chat du Rabbin ?"
+    answers:
+      A: "Marjane Satrapi"
+      B: "Enki Bilal"
+      C: "Joann Sfar"
+      D: "Riad Sattouf"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which author drew the Le Chat du Rabbin series?"
+        answers:
+          A: "Marjane Satrapi"
+          B: "Enki Bilal"
+          C: "Joann Sfar"
+          D: "Riad Sattouf"
+    difficulty: HARD
+  - text: "En quelle année est décédé René Goscinny ?"
+    answers:
+      A: "1979"
+      B: "1975"
+      C: "1977"
+      D: "1981"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did René Goscinny die?"
+        answers:
+          A: "1979"
+          B: "1975"
+          C: "1977"
+          D: "1981"
+    difficulty: HARD
+  - text: "Quel est le nom du premier album de la série Largo Winch ?"
+    answers:
+      A: "L'Héritier"
+      B: "Le Groupe W"
+      C: "O.P.A."
+      D: "Business Blues"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first album in the Largo Winch series?"
+        answers:
+          A: "L'Héritier"
+          B: "Le Groupe W"
+          C: "O.P.A."
+          D: "Business Blues"
+    difficulty: HARD
+  - text: "Dans quel album de Blake et Mortimer apparaît pour la première fois le professeur Sato ?"
+    answers:
+      A: "La Marque jaune"
+      B: "Le Secret de l'Espadon"
+      C: "L'Énigme de l'Atlantide"
+      D: "S.O.S. Météores"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which Blake et Mortimer album does Professor Sato first appear?"
+        answers:
+          A: "La Marque jaune"
+          B: "Le Secret de l'Espadon"
+          C: "L'Énigme de l'Atlantide"
+          D: "S.O.S. Météores"
+    difficulty: EXPERT
+  - text: "Quel est le nom du village gaulois d'Astérix ?"
+    answers:
+      A: "Lutèce"
+      B: "Petibonum"
+      C: "Armorique"
+      D: "Babaorum"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Asterix's Gaulish village?"
+        answers:
+          A: "Lutèce"
+          B: "Petibonum"
+          C: "Armorique"
+          D: "Babaorum"
+    difficulty: MEDIUM
+  - text: "Quel album de Lucky Luke a été publié en 1965 ?"
+    answers:
+      A: "La Ville fantôme"
+      B: "Le Cavalier blanc"
+      C: "Les Rivaux de Painful Gulch"
+      D: "L'Homme qui tua Lucky Luke"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Lucky Luke album was published in 1965?"
+        answers:
+          A: "The Ghost Town"
+          B: "The White Rider"
+          C: "The Rivals of Painful Gulch"
+          D: "The Man Who Killed Lucky Luke"
+    difficulty: EXPERT
+  - text: "Quel est le nom du journaliste qui a donné son nom à la série Le Chat du Rabbin ?"
+    answers:
+      A: "Larcenet"
+      B: "Blain"
+      C: "Sfar"
+      D: "Trondheim"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the journalist who gave his name to the series The Rabbi's Cat?"
+        answers:
+          A: "Larcenet"
+          B: "Blain"
+          C: "Sfar"
+          D: "Trondheim"
+    difficulty: EXPERT
+  - text: "Dans la série Thorgal, quel est le nom du peuple vivant sous la glace auquel appartient Thorgal ?"
+    answers:
+      A: "Les Vikings"
+      B: "Les Hyperboréens"
+      C: "Les Nordiques"
+      D: "Les Atlantes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the Thorgal series, what is the name of the people living under the ice to which Thorgal belongs?"
+        answers:
+          A: "The Vikings"
+          B: "The Hyperboreans"
+          C: "The Nordics"
+          D: "The Atlanteans"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier album de la série Blake et Mortimer publié en 1946 ?"
+    answers:
+      A: "Le Mystère de la Grande Pyramide"
+      B: "La Marque jaune"
+      C: "Le Secret de l'Espadon"
+      D: "L'Énigme de l'Atlantide"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first album in the Blake and Mortimer series published in 1946?"
+        answers:
+          A: "The Mystery of the Great Pyramid"
+          B: "The Yellow Mark"
+          C: "The Secret of the Swordfish"
+          D: "The Enigma of Atlantis"
+    difficulty: EXPERT
+  - text: "Quel personnage de la série Spirou et Fantasio est un comte vivant dans un château en bord de Loire ?"
+    answers:
+      A: "Le comte de la Roche"
+      B: "Le comte de Champignac"
+      C: "Le comte de Vaudreuil"
+      D: "Le comte de Tournesol"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character in the Spirou and Fantasio series is a count living in a castle on the banks of the Loire?"
+        answers:
+          A: "Count of la Roche"
+          B: "Count of Champignac"
+          C: "Count of Vaudreuil"
+          D: "Count of Tournesol"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'album des Schtroumpfs où apparaît le Schtroumpf sauvage ?"
+    answers:
+      A: "L'Apprenti Schtroumpf"
+      B: "Les Schtroumpfs noirs"
+      C: "Le Schtroumpf et son dragon"
+      D: "Le Schtroumpf sauvage"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Smurfs album in which the Wild Smurf appears?"
+        answers:
+          A: "The Smurf Apprentice"
+          B: "The Black Smurfs"
+          C: "The Smurf and His Dragon"
+          D: "The Wild Smurf"
+    difficulty: EXPERT
+  - text: "Dans la série XIII, quel est le nom du président des États-Unis assassiné au début de l'intrigue ?"
+    answers:
+      A: "William Sheridan"
+      B: "Sheridan"
+      C: "MacCall"
+      D: "John F. Kennedy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the XIII series, what is the name of the US president assassinated at the beginning of the plot?"
+        answers:
+          A: "William Sheridan"
+          B: "Sheridan"
+          C: "MacCall"
+          D: "John F. Kennedy"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier album de la série Les Tuniques Bleues publié en 1972 ?"
+    answers:
+      A: "Les Tuniques bleues"
+      B: "Du Nord au Sud"
+      C: "Un chariot dans l'Ouest"
+      D: "Blueberry"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first album in the Les Tuniques Bleues series published in 1972?"
+        answers:
+          A: "Les Tuniques Bleues"
+          B: "From North to South"
+          C: "A Cart in the West"
+          D: "Blueberry"
+    difficulty: EXPERT
+  - text: "Quel est le nom du groom du Moustique qui devient l'adjoint de Spirou ?"
+    answers:
+      A: "Spip"
+      B: "Ponchelot"
+      C: "Nicky"
+      D: "Fantasio"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the bellhop at Le Moustique who becomes Spirou's assistant?"
+        answers:
+          A: "Spip"
+          B: "Ponchelot"
+          C: "Nicky"
+          D: "Fantasio"
+    difficulty: EXPERT
+  - text: "Dans quel album de Blake et Mortimer apparaît pour la première fois le professeur Labrousse ?"
+    answers:
+      A: "Le Secret de l'Espadon"
+      B: "S.O.S. Météores"
+      C: "La Marque jaune"
+      D: "Le Mystère de la Grande Pyramide"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which Blake and Mortimer album does Professor Labrousse first appear?"
+        answers:
+          A: "The Secret of the Swordfish"
+          B: "S.O.S. Meteors"
+          C: "The Yellow Mark"
+          D: "The Mystery of the Great Pyramid"
+    difficulty: EXPERT

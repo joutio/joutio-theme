@@ -1,0 +1,1626 @@
+topic:
+  id: topic-harry-potter
+  names:
+    fr: "Harry Potter"
+    en: "Harry Potter"
+  description: "Poudlard, quidditch, sortilèges et créatures fantastiques : plongez dans l'univers magique du célèbre sorcier à lunettes et testez vos connaissances de la saga."
+  category: LITERATURE
+  titles:
+    fr:
+      FER: "Moldu perdu"
+      BRONZE: "Première année"
+      ARGENT: "Serdaigle studieux"
+      OR: "Attrapeur de Gryffondor"
+      PLATINE: "Auror en mission"
+      EMERAUDE: "Directeur de Poudlard"
+      DIAMANT: "Maître de la Mort"
+    en:
+      FER: "Lost Muggle"
+      BRONZE: "First Year"
+      ARGENT: "Ravenclaw Bookworm"
+      OR: "Gryffindor Seeker"
+      PLATINE: "Auror on Duty"
+      EMERAUDE: "Headmaster of Hogwarts"
+      DIAMANT: "Master of Death"
+  imageUrl: wikipedia/literature/J._K._Rowling_2010.jpg
+questions:
+  - text: "Quel sortilège permet d'ouvrir une porte fermée à clé ?"
+    answers:
+      A: "Alohomora"
+      B: "Colloportus"
+      C: "Diffindo"
+      D: "Incendio"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell opens a locked door?"
+        answers:
+          A: "Alohomora"
+          B: "Colloportus"
+          C: "Diffindo"
+          D: "Incendio"
+    difficulty: EASY
+  - text: "Quel est le patronus de Hermione Granger ?"
+    answers:
+      A: "Une loutre"
+      B: "Une lune"
+      C: "Un cerf"
+      D: "Un loup"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Hermione Granger's Patronus?"
+        answers:
+          A: "An otter"
+          B: "A moon"
+          C: "A stag"
+          D: "A wolf"
+    difficulty: HARD
+  - text: "En quelle année Harry Potter a-t-il attrapé le Vif d'or lors de son premier match de Quidditch ?"
+    answers:
+      A: "1991"
+      B: "1992"
+      C: "1990"
+      D: "1993"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Harry Potter catch the Golden Snitch in his first Quidditch match?"
+        answers:
+          A: "1991"
+          B: "1992"
+          C: "1990"
+          D: "1993"
+    difficulty: HARD
+  - text: "Quel est le nom du loup-garou qui enseigne la Défense contre les Forces du Mal lors de la troisième année de Harry ?"
+    answers:
+      A: "Peter Pettigrow"
+      B: "Sirius Black"
+      C: "Remus Lupin"
+      D: "Kingsley Shacklebolt"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the werewolf who teaches Defense Against the Dark Arts in Harry's third year?"
+        answers:
+          A: "Peter Pettigrew"
+          B: "Sirius Black"
+          C: "Remus Lupin"
+          D: "Kingsley Shacklebolt"
+    difficulty: MEDIUM
+  - text: "Quel objet permet de remonter le temps et est utilisé par Hermione pour suivre plusieurs cours ?"
+    answers:
+      A: "Le Miroir du Riséd"
+      B: "La Pensine"
+      C: "Le Retourneur de Temps"
+      D: "Le Nœud de Floo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which object allows time travel and is used by Hermione to attend multiple classes?"
+        answers:
+          A: "The Mirror of Erised"
+          B: "The Pensieve"
+          C: "The Time-Turner"
+          D: "The Floo Network"
+    difficulty: EASY
+  - text: "Qui est le directeur de la maison Serdaigle ?"
+    answers:
+      A: "Minerva McGonagall"
+      B: "Filius Flitwick"
+      C: "Severus Rogue"
+      D: "Pomona Chourave"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the head of Ravenclaw house?"
+        answers:
+          A: "Minerva McGonagall"
+          B: "Filius Flitwick"
+          C: "Severus Snape"
+          D: "Pomona Sprout"
+    difficulty: HARD
+  - text: "Quel est le nom complet du professeur Rogue ?"
+    answers:
+      A: "Salazar Rogue"
+      B: "Severus Rogue"
+      C: "Septimus Rogue"
+      D: "Silas Rogue"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Professor Snape's full name?"
+        answers:
+          A: "Salazar Snape"
+          B: "Severus Snape"
+          C: "Septimus Snape"
+          D: "Silas Snape"
+    difficulty: HARD
+  - text: "Quelle créature magique est gardée dans la Chambre des Secrets ?"
+    answers:
+      A: "Un Basilic"
+      B: "Un Acromantula"
+      C: "Un Magyar à pointes"
+      D: "Un Troll des montagnes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which magical creature is kept in the Chamber of Secrets?"
+        answers:
+          A: "A Basilisk"
+          B: "An Acromantula"
+          C: "A Hungarian Horntail"
+          D: "A Mountain Troll"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du frère de Ron Weasley qui travaille avec les dragons en Roumanie ?"
+    answers:
+      A: "Bill"
+      B: "Charlie"
+      C: "Percy"
+      D: "Fred"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Ron Weasley's brother who works with dragons in Romania?"
+        answers:
+          A: "Bill"
+          B: "Charlie"
+          C: "Percy"
+          D: "Fred"
+    difficulty: HARD
+  - text: "Quel sortilège est utilisé pour réparer des lunettes cassées ?"
+    answers:
+      A: "Anapneo"
+      B: "Episkey"
+      C: "Ferula"
+      D: "Reparo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which spell is used to repair broken glasses?"
+        answers:
+          A: "Anapneo"
+          B: "Episkey"
+          C: "Ferula"
+          D: "Reparo"
+    difficulty: HARD
+  - text: "Quel est le nom du phénix de Dumbledore ?"
+    answers:
+      A: "Hedwige"
+      B: "Fumseck"
+      C: "Croûtard"
+      D: "Pattenrond"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Dumbledore's phoenix?"
+        answers:
+          A: "Hedwig"
+          B: "Fawkes"
+          C: "Scabbers"
+          D: "Crookshanks"
+    difficulty: EASY
+  - text: "Quelle est la matière enseignée par le professeur Chourave ?"
+    answers:
+      A: "La botanique"
+      B: "Les potions"
+      C: "Les sortilèges"
+      D: "L'astronomie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What subject does Professor Sprout teach?"
+        answers:
+          A: "Herbology"
+          B: "Potions"
+          C: "Charms"
+          D: "Astronomy"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du village exclusivement sorcier près de Poudlard ?"
+    answers:
+      A: "Chemin de Traverse"
+      B: "Godric's Hollow"
+      C: "Pré-au-Lard"
+      D: "Little Whinging"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the exclusively wizarding village near Hogwarts?"
+        answers:
+          A: "Diagon Alley"
+          B: "Godric's Hollow"
+          C: "Hogsmeade"
+          D: "Little Whinging"
+    difficulty: EASY
+  - text: "Quel est le numéro de la voie à la gare de King's Cross pour le Poudlard Express ?"
+    answers:
+      A: "9¾"
+      B: "7½"
+      C: "10¼"
+      D: "8¾"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the platform number at King's Cross for the Hogwarts Express?"
+        answers:
+          A: "9¾"
+          B: "7½"
+          C: "10¼"
+          D: "8¾"
+    difficulty: EASY
+  - text: "Quel sortilège permet de projeter de l'eau depuis la baguette ?"
+    answers:
+      A: "Incendio"
+      B: "Aguamenti"
+      C: "Orchideous"
+      D: "Serpensortia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell shoots water from the wand?"
+        answers:
+          A: "Incendio"
+          B: "Aguamenti"
+          C: "Orchideous"
+          D: "Serpensortia"
+    difficulty: HARD
+  - text: "Quel personnage est le professeur d'Histoire de la Magie ?"
+    answers:
+      A: "Aurora Sinistra"
+      B: "Cuthbert Binns"
+      C: "Sybille Trelawney"
+      D: "Rubeus Hagrid"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is the History of Magic professor?"
+        answers:
+          A: "Aurora Sinistra"
+          B: "Cuthbert Binns"
+          C: "Sybill Trelawney"
+          D: "Rubeus Hagrid"
+    difficulty: MEDIUM
+  - text: "Quel ingrédient est indispensable pour préparer une potion de Polynectar ?"
+    answers:
+      A: "Un œil de triton"
+      B: "Une plume de phénix"
+      C: "Un cheveu de la personne à imiter"
+      D: "Une racine de mandragore"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ingredient is essential for brewing Polyjuice Potion?"
+        answers:
+          A: "A merman's eye"
+          B: "A phoenix feather"
+          C: "A hair from the person to imitate"
+          D: "A mandrake root"
+    difficulty: HARD
+  - text: "Quel est le nom de la maison d'édition des livres de Harry Potter en français ?"
+    answers:
+      A: "Folio Junior"
+      B: "Gallimard Jeunesse"
+      C: "Le Seuil"
+      D: "Hachette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the French publisher of the Harry Potter books?"
+        answers:
+          A: "Folio Junior"
+          B: "Gallimard Jeunesse"
+          C: "Le Seuil"
+          D: "Hachette"
+    difficulty: EXPERT
+  - text: "Quel sortilège est utilisé pour allumer un feu ?"
+    answers:
+      A: "Glacius"
+      B: "Aguamenti"
+      C: "Incendio"
+      D: "Ventus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell is used to light a fire?"
+        answers:
+          A: "Glacius"
+          B: "Aguamenti"
+          C: "Incendio"
+          D: "Ventus"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la boutique de baguettes magiques sur le Chemin de Traverse ?"
+    answers:
+      A: "Derviche et Bang"
+      B: "Fleury et Bott"
+      C: "Ollivander"
+      D: "Chez Barjow et Beurk"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the wand shop in Diagon Alley?"
+        answers:
+          A: "Dervish and Banges"
+          B: "Flourish and Blotts"
+          C: "Ollivanders"
+          D: "Borgin and Burkes"
+    difficulty: EASY
+  - text: "Quel est le nom du frère de Dumbledore qui possède la barbe argentée ?"
+    answers:
+      A: "Alberforth"
+      B: "Abelforth"
+      C: "Aberforth"
+      D: "Aberfoth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Dumbledore's silver-bearded brother?"
+        answers:
+          A: "Alberforth"
+          B: "Abelforth"
+          C: "Aberforth"
+          D: "Aberfoth"
+    difficulty: HARD
+  - text: "Quelle créature est Nagini, le serpent de Voldemort ?"
+    answers:
+      A: "Un maledictus"
+      B: "Un animagus"
+      C: "Un basilic"
+      D: "Un détraqueur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What creature is Nagini, Voldemort's snake?"
+        answers:
+          A: "A Maledictus"
+          B: "An Animagus"
+          C: "A Basilisk"
+          D: "A Dementor"
+    difficulty: EXPERT
+  - text: "Quel personnage a été directeur de Poudlard avant Dumbledore ?"
+    answers:
+      A: "Armando Dippet"
+      B: "Phineas Nigellus Black"
+      C: "Dilys Derwent"
+      D: "Everard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character was Headmaster of Hogwarts before Dumbledore?"
+        answers:
+          A: "Armando Dippet"
+          B: "Phineas Nigellus Black"
+          C: "Dilys Derwent"
+          D: "Everard"
+    difficulty: EXPERT
+  - text: "Combien de passionnés de Quidditch y a-t-il dans une équipe ?"
+    answers:
+      A: "5"
+      B: "6"
+      C: "8"
+      D: "7"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Quidditch players are there on a team?"
+        answers:
+          A: "5"
+          B: "6"
+          C: "8"
+          D: "7"
+    difficulty: HARD
+  - text: "Quel sortilège fait pousser des dents chez l'adversaire ?"
+    answers:
+      A: "Tarantallegra"
+      B: "Furnunculus"
+      C: "Levicorpus"
+      D: "Densaugeo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which spell makes the opponent's teeth grow?"
+        answers:
+          A: "Tarantallegra"
+          B: "Furnunculus"
+          C: "Levicorpus"
+          D: "Densaugeo"
+    difficulty: HARD
+  - text: "Qui a tué le basilic dans la Chambre des Secrets ?"
+    answers:
+      A: "Salazar Serpentard"
+      B: "Tom Jedusor"
+      C: "Dumbledore"
+      D: "Harry Potter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who killed the Basilisk in the Chamber of Secrets?"
+        answers:
+          A: "Salazar Slytherin"
+          B: "Tom Riddle"
+          C: "Dumbledore"
+          D: "Harry Potter"
+    difficulty: MEDIUM
+  - text: "Quelle est la matière préférée de Neville Londubat ?"
+    answers:
+      A: "Botanique"
+      B: "Potions"
+      C: "Métamorphose"
+      D: "Défense contre les Forces du Mal"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Neville Longbottom's favorite subject?"
+        answers:
+          A: "Herbology"
+          B: "Potions"
+          C: "Transfiguration"
+          D: "Defense Against the Dark Arts"
+    difficulty: HARD
+  - text: "Quel ingrédient n'entre PAS dans la potion de Polynectar ?"
+    answers:
+      A: "Sangsue"
+      B: "Chrysalide"
+      C: "Corne de licorne"
+      D: "Peau de serpent"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ingredient does NOT go into Polyjuice Potion?"
+        answers:
+          A: "Leech"
+          B: "Chrysalis"
+          C: "Unicorn horn"
+          D: "Snake skin"
+    difficulty: EXPERT
+  - text: "Quel sortilège Hermione utilise-t-elle pour réparer les lunettes de Harry ?"
+    answers:
+      A: "Oculus Reparo"
+      B: "Reparo"
+      C: "Wingardium Leviosa"
+      D: "Diffindo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell does Hermione use to fix Harry's glasses?"
+        answers:
+          A: "Oculus Reparo"
+          B: "Reparo"
+          C: "Wingardium Leviosa"
+          D: "Diffindo"
+    difficulty: MEDIUM
+  - text: "Quel est le patronus de Severus Rogue ?"
+    answers:
+      A: "Cerf"
+      B: "Biche"
+      C: "Loup"
+      D: "Chauve-souris"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Severus Snape's Patronus?"
+        answers:
+          A: "Stag"
+          B: "Doe"
+          C: "Wolf"
+          D: "Bat"
+    difficulty: HARD
+  - text: "Quel objet magique permet de voir les souvenirs des autres ?"
+    answers:
+      A: "La Pierre de Résurrection"
+      B: "Le Miroir du Riséd"
+      C: "La Pensine"
+      D: "La Cape d'Invisibilité"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which magical object allows you to see the memories of others?"
+        answers:
+          A: "The Resurrection Stone"
+          B: "The Mirror of Erised"
+          C: "The Pensieve"
+          D: "The Cloak of Invisibility"
+    difficulty: HARD
+  - text: "Qui est le professeur de Métamorphose à Poudlard ?"
+    answers:
+      A: "Severus Rogue"
+      B: "Filius Flitwick"
+      C: "Pomona Chourave"
+      D: "Minerva McGonagall"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the Transfiguration professor at Hogwarts?"
+        answers:
+          A: "Severus Snape"
+          B: "Filius Flitwick"
+          C: "Pomona Sprout"
+          D: "Minerva McGonagall"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du loup-garou qui a mordu Remus Lupin ?"
+    answers:
+      A: "Augustus Rookwood"
+      B: "Bellatrix Lestrange"
+      C: "Antonin Dolohov"
+      D: "Fenrir Greyback"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the werewolf who bit Remus Lupin?"
+        answers:
+          A: "Augustus Rookwood"
+          B: "Bellatrix Lestrange"
+          C: "Antonin Dolohov"
+          D: "Fenrir Greyback"
+    difficulty: EXPERT
+  - text: "Quel est le nom du test que Harry doit subir lors du Tournoi des Trois Sorciers ?"
+    answers:
+      A: "Les épreuves"
+      B: "Les duels"
+      C: "Les défis"
+      D: "Les tâches"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the test Harry must undergo in the Triwizard Tournament?"
+        answers:
+          A: "The trials"
+          B: "The duels"
+          C: "The challenges"
+          D: "The tasks"
+    difficulty: HARD
+  - text: "Quelle créature est un Sombrals ?"
+    answers:
+      A: "Un cheval ailé"
+      B: "Un elfe de maison"
+      C: "Un dragon"
+      D: "Un cheval squelettique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What creature is a Thestral?"
+        answers:
+          A: "A winged horse"
+          B: "A house-elf"
+          C: "A dragon"
+          D: "A skeletal horse"
+    difficulty: HARD
+  - text: "Quel sortilège Voldemort utilise-t-il pour tenter de tuer Harry bébé ?"
+    answers:
+      A: "Endoloris"
+      B: "Impero"
+      C: "Avada Kedavra"
+      D: "Sectumsempra"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell does Voldemort use to try to kill baby Harry?"
+        answers:
+          A: "Crucio"
+          B: "Imperio"
+          C: "Avada Kedavra"
+          D: "Sectumsempra"
+    difficulty: EASY
+  - text: "Qui est le concepteur du plan de la bataille de Poudlard ?"
+    answers:
+      A: "Kingsley Shacklebolt"
+      B: "Harry Potter"
+      C: "Remus Lupin"
+      D: "Minerva McGonagall"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who devised the plan for the Battle of Hogwarts?"
+        answers:
+          A: "Kingsley Shacklebolt"
+          B: "Harry Potter"
+          C: "Remus Lupin"
+          D: "Minerva McGonagall"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la femme de Remus Lupin ?"
+    answers:
+      A: "Andromeda Tonks"
+      B: "Fleur Delacour"
+      C: "Bellatrix Lestrange"
+      D: "Nymphadora Tonks"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Remus Lupin's wife?"
+        answers:
+          A: "Andromeda Tonks"
+          B: "Fleur Delacour"
+          C: "Bellatrix Lestrange"
+          D: "Nymphadora Tonks"
+    difficulty: HARD
+  - text: "Quel est le nom du frère de Dumbledore qui a été emprisonné à Azkaban ?"
+    answers:
+      A: "Aberforth"
+      B: "Alberforth"
+      C: "Abelforth"
+      D: "Aurelius"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Dumbledore's brother who was imprisoned in Azkaban?"
+        answers:
+          A: "Aberforth"
+          B: "Alberforth"
+          C: "Abelforth"
+          D: "Aurelius"
+    difficulty: EXPERT
+  - text: "Quel objet Harry reçoit-il en héritage de Dumbledore ?"
+    answers:
+      A: "Le Vif d'or"
+      B: "L'Épée de Gryffondor"
+      C: "La Pensine"
+      D: "La Baguette de Sureau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What object does Harry inherit from Dumbledore?"
+        answers:
+          A: "The Golden Snitch"
+          B: "The Sword of Gryffindor"
+          C: "The Pensieve"
+          D: "The Elder Wand"
+    difficulty: HARD
+  - text: "Quelle créature magique garde la salle commune de Serdaigle pour poser des énigmes ?"
+    answers:
+      A: "Une gorgone"
+      B: "Un sphinx"
+      C: "Un elfe de maison"
+      D: "Un portrait de damoiselle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which magical creature guards the Ravenclaw common room to pose riddles?"
+        answers:
+          A: "A gorgon"
+          B: "A sphinx"
+          C: "A house-elf"
+          D: "A portrait of a young lady"
+    difficulty: EXPERT
+  - text: "En quelle année le Tournoi des Trois Sorciers a-t-il repris après son interruption ?"
+    answers:
+      A: "1992"
+      B: "1993"
+      C: "1995"
+      D: "1994"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Triwizard Tournament resume after its interruption?"
+        answers:
+          A: "1992"
+          B: "1993"
+          C: "1995"
+          D: "1994"
+    difficulty: EXPERT
+  - text: "Quel sortilège est utilisé pour faire léviter un objet ?"
+    answers:
+      A: "Wingardium Leviosa"
+      B: "Expelliarmus"
+      C: "Accio"
+      D: "Alohomora"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell is used to levitate an object?"
+        answers:
+          A: "Wingardium Leviosa"
+          B: "Expelliarmus"
+          C: "Accio"
+          D: "Alohomora"
+    difficulty: MEDIUM
+  - text: "Quel est le patronus de Remus Lupin ?"
+    answers:
+      A: "Un chien"
+      B: "Un cerf"
+      C: "Une loutre"
+      D: "Un loup"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Remus Lupin's Patronus?"
+        answers:
+          A: "A dog"
+          B: "A stag"
+          C: "An otter"
+          D: "A wolf"
+    difficulty: HARD
+  - text: "Quel ingrédient ne fait pas partie de la potion de Polynectar ?"
+    answers:
+      A: "Des chrysopes"
+      B: "De la mandragore"
+      C: "Du sang de salamandre"
+      D: "Une corne de licorne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ingredient is not part of the Polyjuice Potion?"
+        answers:
+          A: "Lacewing flies"
+          B: "Mandrake"
+          C: "Salamander blood"
+          D: "A unicorn horn"
+    difficulty: EXPERT
+  - text: "Quel est le métier de Charlie Weasley en Roumanie ?"
+    answers:
+      A: "Dresseur de dragons"
+      B: "Éleveur de hippogriffes"
+      C: "Gardien de créatures"
+      D: "Chercheur de trésors"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Charlie Weasley's job in Romania?"
+        answers:
+          A: "Dragon tamer"
+          B: "Hippogriff breeder"
+          C: "Creature keeper"
+          D: "Treasure hunter"
+    difficulty: HARD
+  - text: "Quel sortilège est utilisé pour désarmer un adversaire ?"
+    answers:
+      A: "Petrificus Totalus"
+      B: "Stupefix"
+      C: "Expelliarmus"
+      D: "Rictusempra"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell is used to disarm an opponent?"
+        answers:
+          A: "Petrificus Totalus"
+          B: "Stupefy"
+          C: "Expelliarmus"
+          D: "Rictusempra"
+    difficulty: MEDIUM
+  - text: "Quelle créature magique est un Sombrals ?"
+    answers:
+      A: "Un elfe de maison"
+      B: "Un loup-garou"
+      C: "Un cheval ailé"
+      D: "Un centaure"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What magical creature is a Thestral?"
+        answers:
+          A: "A house-elf"
+          B: "A werewolf"
+          C: "A winged horse"
+          D: "A centaur"
+    difficulty: HARD
+  - text: "Quel est le numéro de la chambre de la pension Le Chaudron Baveur ?"
+    answers:
+      A: "13"
+      B: "9"
+      C: "7"
+      D: "11"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the room number at the Leaky Cauldron inn?"
+        answers:
+          A: "13"
+          B: "9"
+          C: "7"
+          D: "11"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fabricant de baguettes qui a refusé de vendre une baguette à Voldemort ?"
+    answers:
+      A: "Garrick Ollivander"
+      B: "Ollivander"
+      C: "Florean Fortescue"
+      D: "Gregorovitch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the wandmaker who refused to sell a wand to Voldemort?"
+        answers:
+          A: "Garrick Ollivander"
+          B: "Ollivander"
+          C: "Florean Fortescue"
+          D: "Gregorovitch"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de la chambre de la pension du Chaudron Baveur où Harry séjourne avant sa troisième année ?"
+    answers:
+      A: "7"
+      B: "11"
+      C: "9"
+      D: "13"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the room number at the Leaky Cauldron where Harry stays before his third year?"
+        answers:
+          A: "7"
+          B: "11"
+          C: "9"
+          D: "13"
+    difficulty: EXPERT
+  - text: "Quelle est la matière enseignée par le professeur Rusard ?"
+    answers:
+      A: "Les potions"
+      B: "Les sorts"
+      C: "La métamorphose"
+      D: "Le vol sur balai"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What subject does Professor Filch teach?"
+        answers:
+          A: "Potions"
+          B: "Charms"
+          C: "Transfiguration"
+          D: "Broomstick flying"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chien à trois têtes gardant la Pierre Philosophale ?"
+    answers:
+      A: "Croff"
+      B: "Touffu"
+      C: "Vif"
+      D: "Pattes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the three-headed dog guarding the Philosopher's Stone?"
+        answers:
+          A: "Croff"
+          B: "Touffu"
+          C: "Vif"
+          D: "Pattes"
+    difficulty: EASY
+  - text: "Quelle créature est Aragog ?"
+    answers:
+      A: "Une acromantule"
+      B: "Un loup-garou"
+      C: "Un centaure"
+      D: "Un hippogriffe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What creature is Aragog?"
+        answers:
+          A: "An acromantula"
+          B: "A werewolf"
+          C: "A centaur"
+          D: "A hippogriff"
+    difficulty: EASY
+  - text: "Quel sortilège Hermione utilise-t-elle pour réparer la baguette de Harry ?"
+    answers:
+      A: "Reparo"
+      B: "Relashio"
+      C: "Diffindo"
+      D: "Episkey"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell does Hermione use to repair Harry's wand?"
+        answers:
+          A: "Reparo"
+          B: "Relashio"
+          C: "Diffindo"
+          D: "Episkey"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Dumbledore qui s'occupe des chèvres ?"
+    answers:
+      A: "Abelforth"
+      B: "Aurelius"
+      C: "Aberforth"
+      D: "Alberforth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Dumbledore's brother who takes care of goats?"
+        answers:
+          A: "Abelforth"
+          B: "Aurelius"
+          C: "Aberforth"
+          D: "Alberforth"
+    difficulty: HARD
+  - text: "Quel est le nom de l'elfe de maison qui a aidé Harry dans le Tournoi des Trois Sorciers ?"
+    answers:
+      A: "Mimi"
+      B: "Winky"
+      C: "Kreatur"
+      D: "Dobby"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the house-elf who helped Harry in the Triwizard Tournament?"
+        answers:
+          A: "Mimi"
+          B: "Winky"
+          C: "Kreacher"
+          D: "Dobby"
+    difficulty: MEDIUM
+  - text: "Qui a fondé l'Ordre du Phénix ?"
+    answers:
+      A: "Harry Potter"
+      B: "Albus Dumbledore"
+      C: "James Potter"
+      D: "Severus Rogue"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the Order of the Phoenix?"
+        answers:
+          A: "Harry Potter"
+          B: "Albus Dumbledore"
+          C: "James Potter"
+          D: "Severus Snape"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la potion qui permet de se transformer en une autre personne ?"
+    answers:
+      A: "Felix Felicis"
+      B: "Amortentia"
+      C: "Veritaserum"
+      D: "Polyjuice"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the potion that allows you to transform into another person?"
+        answers:
+          A: "Felix Felicis"
+          B: "Amortentia"
+          C: "Veritaserum"
+          D: "Polyjuice"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du phénix de Voldemort ?"
+    answers:
+      A: "Fumseck"
+      B: "Voldemort n'a pas de phénix"
+      C: "Nagini"
+      D: "Aragog"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Voldemort's phoenix?"
+        answers:
+          A: "Fawkes"
+          B: "Voldemort has no phoenix"
+          C: "Nagini"
+          D: "Aragog"
+    difficulty: EXPERT
+  - text: "Quel est le nom du loup-garou qui a mordu Bill Weasley ?"
+    answers:
+      A: "Scabior"
+      B: "Remus Lupin"
+      C: "Fenrir Greyback"
+      D: "Peter Pettigrow"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the werewolf who bit Bill Weasley?"
+        answers:
+          A: "Scabior"
+          B: "Remus Lupin"
+          C: "Fenrir Greyback"
+          D: "Peter Pettigrew"
+    difficulty: EXPERT
+  - text: "Quelle est la matière enseignée par le professeur Vector ?"
+    answers:
+      A: "Astronomie"
+      B: "Étude des runes"
+      C: "Arithmancie"
+      D: "Divination"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What subject is taught by Professor Vector?"
+        answers:
+          A: "Astronomy"
+          B: "Study of Ancient Runes"
+          C: "Arithmancy"
+          D: "Divination"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Ron qui travaille à Gringotts ?"
+    answers:
+      A: "Charlie"
+      B: "Percy"
+      C: "Fred"
+      D: "Bill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Ron's brother who works at Gringotts?"
+        answers:
+          A: "Charlie"
+          B: "Percy"
+          C: "Fred"
+          D: "Bill"
+    difficulty: HARD
+  - text: "Quel sortilège est utilisé pour projeter un éclair de feu ?"
+    answers:
+      A: "Incendio"
+      B: "Confringo"
+      C: "Expulso"
+      D: "Sectumsempra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell is used to shoot a bolt of fire?"
+        answers:
+          A: "Incendio"
+          B: "Confringo"
+          C: "Expulso"
+          D: "Sectumsempra"
+    difficulty: HARD
+  - text: "Quel est le nom de la créature qui garde la salle commune de Gryffondor ?"
+    answers:
+      A: "Le Chevalier Blanc"
+      B: "La Dame Grise"
+      C: "Le Moine Gras"
+      D: "Le Baron Sanglant"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the creature that guards the Gryffindor common room?"
+        answers:
+          A: "The White Knight"
+          B: "The Grey Lady"
+          C: "The Fat Friar"
+          D: "The Bloody Baron"
+    difficulty: EXPERT
+  - text: "Quel est le nom du sorcier qui a inventé le sortilège Sectumsempra ?"
+    answers:
+      A: "Grindelwald"
+      B: "Voldemort"
+      C: "Dumbledore"
+      D: "Severus Rogue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the wizard who invented the Sectumsempra spell?"
+        answers:
+          A: "Grindelwald"
+          B: "Voldemort"
+          C: "Dumbledore"
+          D: "Severus Snape"
+    difficulty: EXPERT
+  - text: "Dans quelle maison de Poudlard a été réparti Cedric Diggory ?"
+    answers:
+      A: "Poufsouffle"
+      B: "Serdaigle"
+      C: "Gryffondor"
+      D: "Serpentard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Hogwarts house was Cedric Diggory sorted into?"
+        answers:
+          A: "Hufflepuff"
+          B: "Ravenclaw"
+          C: "Gryffindor"
+          D: "Slytherin"
+    difficulty: MEDIUM
+  - text: "Quel personnage a été le premier à utiliser le sortilège Patronus pour repousser un Détraqueur lors d'un match de Quidditch ?"
+    answers:
+      A: "Hermione Granger"
+      B: "Harry Potter"
+      C: "Albus Dumbledore"
+      D: "Remus Lupin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character was the first to use the Patronus Charm to repel a Dementor during a Quidditch match?"
+        answers:
+          A: "Hermione Granger"
+          B: "Harry Potter"
+          C: "Albus Dumbledore"
+          D: "Remus Lupin"
+    difficulty: EXPERT
+  - text: "Quelle créature magique est un Niffleur ?"
+    answers:
+      A: "Un petit rongeur attiré par l'or"
+      B: "Un oiseau qui chante pour annoncer la mort"
+      C: "Un reptile venimeux à trois têtes"
+      D: "Un esprit de l'eau qui noie les voyageurs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What magical creature is a Niffler?"
+        answers:
+          A: "A small rodent attracted to gold"
+          B: "A bird that sings to announce death"
+          C: "A venomous three-headed reptile"
+          D: "A water spirit that drowns travelers"
+    difficulty: HARD
+  - text: "Quel sortilège Hermione utilise-t-elle pour réparer la vitre du compartiment du Poudlard Express ?"
+    answers:
+      A: "Episkey"
+      B: "Reparo"
+      C: "Ferula"
+      D: "Diffindo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell does Hermione use to repair the window of the Hogwarts Express compartment?"
+        answers:
+          A: "Episkey"
+          B: "Reparo"
+          C: "Ferula"
+          D: "Diffindo"
+    difficulty: EXPERT
+  - text: "Quel personnage est le professeur de Botanique à Poudlard ?"
+    answers:
+      A: "Chourave"
+      B: "Rogue"
+      C: "Binns"
+      D: "McGonagall"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is the Herbology professor at Hogwarts?"
+        answers:
+          A: "Sprout"
+          B: "Snape"
+          C: "Binns"
+          D: "McGonagall"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la potion qui oblige celui qui la boit à dire la vérité ?"
+    answers:
+      A: "Veritaserum"
+      B: "Felix Felicis"
+      C: "Amortentia"
+      D: "Polyjuice"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the potion that forces the drinker to tell the truth?"
+        answers:
+          A: "Veritaserum"
+          B: "Felix Felicis"
+          C: "Amortentia"
+          D: "Polyjuice"
+    difficulty: MEDIUM
+  - text: "Quelle est la matière enseignée par le professeur Binns ?"
+    answers:
+      A: "Astronomie"
+      B: "Étude des Moldus"
+      C: "Arithmancie"
+      D: "Histoire de la magie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What subject is taught by Professor Binns?"
+        answers:
+          A: "Astronomy"
+          B: "Muggle Studies"
+          C: "Arithmancy"
+          D: "History of Magic"
+    difficulty: HARD
+  - text: "Qui a tué Dumbledore sur la tour d'Astronomie ?"
+    answers:
+      A: "Bellatrix Lestrange"
+      B: "Drago Malefoy"
+      C: "Severus Rogue"
+      D: "Voldemort"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who killed Dumbledore on the Astronomy Tower?"
+        answers:
+          A: "Bellatrix Lestrange"
+          B: "Draco Malfoy"
+          C: "Severus Snape"
+          D: "Voldemort"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du elfe de maison qui a aidé Harry dans le Tournoi des Trois Sorciers ?"
+    answers:
+      A: "Kreattur"
+      B: "Dobby"
+      C: "Winky"
+      D: "Hokey"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the house-elf who helped Harry in the Triwizard Tournament?"
+        answers:
+          A: "Kreacher"
+          B: "Dobby"
+          C: "Winky"
+          D: "Hokey"
+    difficulty: MEDIUM
+  - text: "Dans quel tome apparaît pour la première fois le personnage de Luna Lovegood ?"
+    answers:
+      A: "Harry Potter à l'école des sorciers"
+      B: "Harry Potter et l'Ordre du Phénix"
+      C: "Harry Potter et le Prisonnier d'Azkaban"
+      D: "Harry Potter et la Chambre des secrets"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which volume does the character Luna Lovegood first appear?"
+        answers:
+          A: "Harry Potter and the Philosopher's Stone"
+          B: "Harry Potter and the Order of the Phoenix"
+          C: "Harry Potter and the Prisoner of Azkaban"
+          D: "Harry Potter and the Chamber of Secrets"
+    difficulty: HARD
+  - text: "Quelle est la couleur du compartiment de la voiture du Poudlard Express où Harry rencontre Ron ?"
+    answers:
+      A: "Bleu"
+      B: "Rouge"
+      C: "Vert"
+      D: "Jaune"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the colour of the compartment of the Hogwarts Express carriage where Harry meets Ron?"
+        answers:
+          A: "Blue"
+          B: "Red"
+          C: "Green"
+          D: "Yellow"
+    difficulty: EXPERT
+  - text: "En quelle année le Tournoi des Trois Sorciers a-t-il repris ?"
+    answers:
+      A: "1992"
+      B: "1994"
+      C: "1991"
+      D: "1990"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Triwizard Tournament resume?"
+        answers:
+          A: "1992"
+          B: "1994"
+          C: "1991"
+          D: "1990"
+    difficulty: EXPERT
+  - text: "Quelle potion a des effets différents selon la personne qui la prépare, comme l'a montré Slughorn ?"
+    answers:
+      A: "Polyjuice"
+      B: "Felix Felicis"
+      C: "Amortentia"
+      D: "Veritaserum"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which potion has different effects depending on who brews it, as Slughorn showed?"
+        answers:
+          A: "Polyjuice"
+          B: "Felix Felicis"
+          C: "Amortentia"
+          D: "Veritaserum"
+    difficulty: EXPERT
+  - text: "Qui a tué Sirius Black ?"
+    answers:
+      A: "Peter Pettigrew"
+      B: "Lucius Malefoy"
+      C: "Antonin Dolohov"
+      D: "Bellatrix Lestrange"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who killed Sirius Black?"
+        answers:
+          A: "Peter Pettigrew"
+          B: "Lucius Malfoy"
+          C: "Antonin Dolohov"
+          D: "Bellatrix Lestrange"
+    difficulty: HARD
+  - text: "Quel est le nom du géant qui garde les clés et les lieux à Poudlard ?"
+    answers:
+      A: "Olympe Maxime"
+      B: "Grawp"
+      C: "Rubeus Hagrid"
+      D: "Fridwulfa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the giant who guards the keys and the grounds at Hogwarts?"
+        answers:
+          A: "Olympe Maxime"
+          B: "Grawp"
+          C: "Rubeus Hagrid"
+          D: "Fridwulfa"
+    difficulty: MEDIUM
+  - text: "Quelle créature est un Magyar à pointes ?"
+    answers:
+      A: "Un serpent"
+      B: "Un hippogriffe"
+      C: "Un dragon"
+      D: "Un loup-garou"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What creature is a Hungarian Horntail?"
+        answers:
+          A: "A serpent"
+          B: "A hippogriff"
+          C: "A dragon"
+          D: "A werewolf"
+    difficulty: HARD
+  - text: "En quelle année Harry Potter a-t-il rejoint l'équipe de Quidditch de Gryffondor ?"
+    answers:
+      A: "1992"
+      B: "1990"
+      C: "1991"
+      D: "1993"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Harry Potter join the Gryffindor Quidditch team?"
+        answers:
+          A: "1992"
+          B: "1990"
+          C: "1991"
+          D: "1993"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de la chambre de Harry à Privet Drive ?"
+    answers:
+      A: "2"
+      B: "4"
+      C: "3"
+      D: "5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the number of Harry's room at Privet Drive?"
+        answers:
+          A: "2"
+          B: "4"
+          C: "3"
+          D: "5"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Ron qui travaille avec les dragons en Roumanie ?"
+    answers:
+      A: "Bill"
+      B: "Charlie"
+      C: "Percy"
+      D: "Fred"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Ron's brother who works with dragons in Romania?"
+        answers:
+          A: "Bill"
+          B: "Charlie"
+          C: "Percy"
+          D: "Fred"
+    difficulty: HARD
+  - text: "Quelle est la matière enseignée par le professeur Trelawney ?"
+    answers:
+      A: "Arithmancie"
+      B: "Astronomie"
+      C: "Divination"
+      D: "Étude des Moldus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What subject is taught by Professor Trelawney?"
+        answers:
+          A: "Arithmancy"
+          B: "Astronomy"
+          C: "Divination"
+          D: "Muggle Studies"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chien à trois têtes qui garde la Pierre Philosophale ?"
+    answers:
+      A: "Croquemitaine"
+      B: "Cerbera"
+      C: "Fluffy"
+      D: "Norbert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the three-headed dog that guards the Philosopher's Stone?"
+        answers:
+          A: "Croquemitaine"
+          B: "Cerbera"
+          C: "Fluffy"
+          D: "Norbert"
+    difficulty: EASY
+  - text: "Quel objet magique permet de voir les souvenirs d'une autre personne ?"
+    answers:
+      A: "Le Retourneur de Temps"
+      B: "Le Miroir du Riséd"
+      C: "La Cape d'invisibilité"
+      D: "La Pensine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which magical object allows you to see another person's memories?"
+        answers:
+          A: "The Time-Turner"
+          B: "The Mirror of Erised"
+          C: "The Cloak of Invisibility"
+          D: "The Pensieve"
+    difficulty: HARD
+  - text: "Quel est le nom du frère de Dumbledore qui a été poursuivi pour usage de magie noire ?"
+    answers:
+      A: "Alberforth"
+      B: "Aberforth"
+      C: "Abelforth"
+      D: "Aurelius"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Dumbledore's brother who was prosecuted for using dark magic?"
+        answers:
+          A: "Alberforth"
+          B: "Aberforth"
+          C: "Abelforth"
+          D: "Aurelius"
+    difficulty: EXPERT
+  - text: "Quel professeur enseigne la Défense contre les Forces du Mal lors de l'année scolaire 1993-1994 ?"
+    answers:
+      A: "Quirinus Quirrell"
+      B: "Remus Lupin"
+      C: "Gilderoy Lockhart"
+      D: "Severus Rogue"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which professor teaches Defence Against the Dark Arts during the 1993-1994 school year?"
+        answers:
+          A: "Quirinus Quirrell"
+          B: "Remus Lupin"
+          C: "Gilderoy Lockhart"
+          D: "Severus Snape"
+    difficulty: HARD
+  - text: "Quel sortilège est utilisé pour ouvrir une serrure fermée ?"
+    answers:
+      A: "Wingardium Leviosa"
+      B: "Expelliarmus"
+      C: "Alohomora"
+      D: "Incendio"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell is used to open a locked door?"
+        answers:
+          A: "Wingardium Leviosa"
+          B: "Expelliarmus"
+          C: "Alohomora"
+          D: "Incendio"
+    difficulty: HARD
+  - text: "Quel est le nom de la chouette de Ron Weasley ?"
+    answers:
+      A: "Pigwidgeon"
+      B: "Hermès"
+      C: "Érrol"
+      D: "Hedwige"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Ron Weasley's owl?"
+        answers:
+          A: "Pigwidgeon"
+          B: "Hermes"
+          C: "Errol"
+          D: "Hedwig"
+    difficulty: HARD
+  - text: "Quel ingrédient est nécessaire pour préparer la potion Polyjuice ?"
+    answers:
+      A: "Des plumes de phénix"
+      B: "Des mandragores"
+      C: "Des racines de mandragore"
+      D: "Des chrysopes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ingredient is needed to brew the Polyjuice Potion?"
+        answers:
+          A: "Phoenix feathers"
+          B: "Mandrakes"
+          C: "Mandrake roots"
+          D: "Lacewing flies"
+    difficulty: EXPERT
+  - text: "Quel personnage a été le premier à utiliser le sortilège Patronus lors d'un match de Quidditch ?"
+    answers:
+      A: "Albus Dumbledore"
+      B: "Hermione Granger"
+      C: "Harry Potter"
+      D: "Severus Rogue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character was the first to use the Patronus Charm during a Quidditch match?"
+        answers:
+          A: "Albus Dumbledore"
+          B: "Hermione Granger"
+          C: "Harry Potter"
+          D: "Severus Snape"
+    difficulty: EXPERT
+  - text: "Quel est le patronus de Minerva McGonagall ?"
+    answers:
+      A: "Un loup"
+      B: "Une loutre"
+      C: "Une biche"
+      D: "Un chat tigré"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Minerva McGonagall's Patronus?"
+        answers:
+          A: "A wolf"
+          B: "An otter"
+          C: "A doe"
+          D: "A tabby cat"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de la salle où se trouve la Chambre des Secrets ?"
+    answers:
+      A: "Salle 6B"
+      B: "Salle 4D"
+      C: "Salle 7C"
+      D: "Salle 5A"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the room number where the Chamber of Secrets is located?"
+        answers:
+          A: "Room 6B"
+          B: "Room 4D"
+          C: "Room 7C"
+          D: "Room 5A"
+    difficulty: EXPERT
+  - text: "Quel est le nom complet du personnage connu sous le nom de Maugrey Fol Œil ?"
+    answers:
+      A: "Alastor Maugrey"
+      B: "Albus Maugrey"
+      C: "Alastor Moldu"
+      D: "Alberforth Maugrey"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the full name of the character known as Mad-Eye Moody?"
+        answers:
+          A: "Alastor Moody"
+          B: "Albus Moody"
+          C: "Alastor Moldu"
+          D: "Alberforth Moody"
+    difficulty: EXPERT
+  - text: "Quelle créature magique est un Magyar à pointes ?"
+    answers:
+      A: "Un elfe de maison"
+      B: "Un hippogriffe"
+      C: "Un dragon"
+      D: "Un centaure"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which magical creature is a Hungarian Horntail?"
+        answers:
+          A: "A house-elf"
+          B: "A hippogriff"
+          C: "A dragon"
+          D: "A centaur"
+    difficulty: HARD
+  - text: "Combien de Horcruxes Voldemort a-t-il créés volontairement, sans compter l'accidentel ?"
+    answers:
+      A: "6"
+      B: "5"
+      C: "7"
+      D: "8"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many Horcruxes did Voldemort intentionally create, not counting the accidental one?"
+        answers:
+          A: "6"
+          B: "5"
+          C: "7"
+          D: "8"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de la cellule d'Azkaban où Sirius Black était détenu ?"
+    answers:
+      A: "Cellule 7"
+      B: "Cellule 12"
+      C: "Cellule 9"
+      D: "Cellule 5"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the cell number in Azkaban where Sirius Black was held?"
+        answers:
+          A: "Cell 7"
+          B: "Cell 12"
+          C: "Cell 9"
+          D: "Cell 5"
+    difficulty: EXPERT

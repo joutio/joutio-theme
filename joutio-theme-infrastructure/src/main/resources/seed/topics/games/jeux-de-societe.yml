@@ -1,0 +1,1631 @@
+topic:
+  id: topic-jeux-de-societe
+  names:
+    fr: "Jeux de société"
+    en: "Board Games"
+  description: "Échecs, dames, cartes et dés : explorez l'histoire, les règles et les secrets des jeux de société qui traversent les siècles et rassemblent les générations autour d'une table."
+  category: GAMES
+  titles:
+    fr:
+      FER: "Pion qui louche"
+      BRONZE: "Joueur de coin de table"
+      ARGENT: "Collectionneur de pions"
+      OR: "Stratège du dimanche"
+      PLATINE: "Grand maître du plateau"
+      EMERAUDE: "Champion toutes catégories"
+      DIAMANT: "Légende des dés"
+    en:
+      FER: "Cross-eyed Pawn"
+      BRONZE: "Table Corner Player"
+      ARGENT: "Pawn Collector"
+      OR: "Sunday Strategist"
+      PLATINE: "Board Game Grandmaster"
+      EMERAUDE: "All-Category Champion"
+      DIAMANT: "Dice Legend"
+  imageUrl: wikipedia/games/Staunton_chess_set.jpg
+questions:
+  - text: "Quel jeu se joue sur un plateau de 64 cases ?"
+    imageUrl: wikipedia/games/Staunton_chess_set.jpg
+    answers:
+      A: "Le jeu de dames"
+      B: "Les échecs"
+      C: "Le backgammon"
+      D: "Le go"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which game is played on a board of 64 squares?"
+        answers:
+          A: "Checkers"
+          B: "Chess"
+          C: "Backgammon"
+          D: "Go"
+    difficulty: EASY
+  - text: "Combien de pièces compte un jeu de backgammon au total ?"
+    answers:
+      A: "24"
+      B: "30"
+      C: "32"
+      D: "28"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many pieces are there in a backgammon set in total?"
+        answers:
+          A: "24"
+          B: "30"
+          C: "32"
+          D: "28"
+    difficulty: HARD
+  - text: "Quel pays a introduit le jeu de dames sous sa forme moderne à 100 cases ?"
+    answers:
+      A: "Espagne"
+      B: "Angleterre"
+      C: "Russie"
+      D: "France"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country introduced checkers in its modern 100-square form?"
+        answers:
+          A: "Spain"
+          B: "England"
+          C: "Russia"
+          D: "France"
+    difficulty: EXPERT
+  - text: "Combien de cases compte un plateau de jeu de go complet (goban) ?"
+    answers:
+      A: "361"
+      B: "324"
+      C: "289"
+      D: "400"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many squares does a full Go board (goban) have?"
+        answers:
+          A: "361"
+          B: "324"
+          C: "289"
+          D: "400"
+    difficulty: HARD
+  - text: "Quel est le nom du pion qui atteint la dernière rangée aux échecs et peut être promu ?"
+    answers:
+      A: "Le cavalier"
+      B: "Le fou"
+      C: "La tour"
+      D: "Le pion"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the pawn that reaches the last rank in chess and can be promoted?"
+        answers:
+          A: "The knight"
+          B: "The bishop"
+          C: "The rook"
+          D: "The pawn"
+    difficulty: MEDIUM
+  - text: "Combien de faces a un dé cubique ?"
+    imageUrl: wikipedia/games/Two_red_dice_01.png
+    answers:
+      A: "8"
+      B: "6"
+      C: "4"
+      D: "12"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many faces does a cube-shaped die have?"
+        answers:
+          A: "8"
+          B: "6"
+          C: "4"
+          D: "12"
+    difficulty: EASY
+  - text: "Quel jeu de cartes se joue avec un jeu de 52 cartes et un « atout » qui change à chaque manche ?"
+    answers:
+      A: "La belote"
+      B: "Le whist"
+      C: "Le tarot"
+      D: "Le bridge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which card game is played with a 52-card deck and a \"trump\" that changes each round?"
+        answers:
+          A: "Belote"
+          B: "Whist"
+          C: "Tarot"
+          D: "Bridge"
+    difficulty: HARD
+  - text: "Combien de points montre cette face de dé à jouer ?"
+    imageUrl: wikipedia/games/Dice-6.png
+    answers:
+      A: "5"
+      B: "6"
+      C: "4"
+      D: "3"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many pips does this die face show?"
+        answers:
+          A: "5"
+          B: "6"
+          C: "4"
+          D: "3"
+    difficulty: EASY
+  - text: "Combien de cartes dans cet ensemble ?"
+    imageUrl: wikipedia/games/English_pattern_playing_cards_deck.png
+    answers:
+      A: "32"
+      B: "40"
+      C: "52"
+      D: "54"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many cards are in this set?"
+        answers:
+          A: "32"
+          B: "40"
+          C: "52"
+          D: "54"
+    difficulty: EASY
+  - text: "Quelles sont les 4 couleurs d'un jeu de cartes ?"
+    imageUrl: wikipedia/games/Playing_cards.jpg
+    answers:
+      A: "Pique, cœur, carreau, trèfle"
+      B: "Roi, dame, valet, as"
+      C: "Pique, cœur, étoile, trèfle"
+      D: "Rouge, bleu, vert, jaune"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What are the 4 suits in a deck of cards?"
+        answers:
+          A: "Spades, hearts, diamonds, clubs"
+          B: "King, queen, jack, ace"
+          C: "Spades, hearts, stars, clubs"
+          D: "Red, blue, green, yellow"
+    difficulty: EASY
+  - text: "Quel jeu de dés se joue avec cinq dés et un gobelet, où l'on crie « Yam's » ?"
+    answers:
+      A: "Le yam's"
+      B: "Le 421"
+      C: "Le 5000"
+      D: "Le zanzi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which dice game is played with five dice and a cup, where players shout \"Yam's\"?"
+        answers:
+          A: "Yam's"
+          B: "421"
+          C: "5000"
+          D: "Zanzi"
+    difficulty: MEDIUM
+  - text: "En quelle année le jeu de Scrabble a-t-il été créé par Alfred Butts ?"
+    answers:
+      A: "1938"
+      B: "1931"
+      C: "1948"
+      D: "1956"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was Scrabble created by Alfred Butts?"
+        answers:
+          A: "1938"
+          B: "1931"
+          C: "1948"
+          D: "1956"
+    difficulty: EXPERT
+  - text: "Combien de cases comporte le plateau de jeu de dames françaises (jeu de 100 cases) ?"
+    answers:
+      A: "100"
+      B: "81"
+      C: "64"
+      D: "121"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many squares does the French checkers board (100-square game) have?"
+        answers:
+          A: "100"
+          B: "81"
+          C: "64"
+          D: "121"
+    difficulty: EASY
+  - text: "Quel est le nom du pion du jeu de go qui capture une pierre en l'entourant complètement ?"
+    answers:
+      A: "Un œil"
+      B: "Une prise"
+      C: "Un ko"
+      D: "Un atari"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Go move that captures a stone by completely surrounding it?"
+        answers:
+          A: "An eye"
+          B: "A capture"
+          C: "A ko"
+          D: "An atari"
+    difficulty: EXPERT
+  - text: "Dans une partie d'échecs, quel coup spécial implique le roi et une tour ?"
+    answers:
+      A: "La promotion"
+      B: "Le roque"
+      C: "La prise en passant"
+      D: "L'en passant"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In a game of chess, which special move involves the king and a rook?"
+        answers:
+          A: "Promotion"
+          B: "Castling"
+          C: "En passant capture"
+          D: "En passant"
+    difficulty: MEDIUM
+  - text: "Combien de cartes compte un jeu de tarot français traditionnel ?"
+    answers:
+      A: "54"
+      B: "56"
+      C: "108"
+      D: "78"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many cards are in a traditional French tarot deck?"
+        answers:
+          A: "54"
+          B: "56"
+          C: "108"
+          D: "78"
+    difficulty: EXPERT
+  - text: "Quel jeu de société a été inventé par un Allemand en 1903 sous le nom de « Landlord's Game » ?"
+    answers:
+      A: "Risk"
+      B: "Monopoly"
+      C: "Cluedo"
+      D: "Destins"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which board game was invented by a German in 1903 under the name \"Landlord's Game\"?"
+        answers:
+          A: "Risk"
+          B: "Monopoly"
+          C: "Cluedo"
+          D: "Destins"
+    difficulty: EXPERT
+  - text: "Combien de dés utilise-t-on dans une partie classique de 421 ?"
+    answers:
+      A: "Deux"
+      B: "Quatre"
+      C: "Trois"
+      D: "Cinq"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many dice are used in a classic game of 421?"
+        answers:
+          A: "Two"
+          B: "Four"
+          C: "Three"
+          D: "Five"
+    difficulty: HARD
+  - text: "Quelle est la valeur maximale d'une main au blackjack sans dépasser 21 ?"
+    answers:
+      A: "20"
+      B: "21"
+      C: "22"
+      D: "19"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the maximum value of a blackjack hand without exceeding 21?"
+        answers:
+          A: "20"
+          B: "21"
+          C: "22"
+          D: "19"
+    difficulty: EASY
+  - text: "Quel jeu de plateau se joue avec des pions en forme d'animaux et un dé, sur un parcours de 63 cases ?"
+    answers:
+      A: "Les petits chevaux"
+      B: "Le jeu de l'oie"
+      C: "Le jeu des échelles"
+      D: "Le nain jaune"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which board game is played with animal-shaped tokens and a die on a 63-square track?"
+        answers:
+          A: "Les petits chevaux"
+          B: "The Game of the Goose"
+          C: "Snakes and Ladders"
+          D: "Le nain jaune"
+    difficulty: HARD
+  - text: "Combien de joueurs peuvent participer à une partie de bridge ?"
+    answers:
+      A: "Deux"
+      B: "Trois"
+      C: "Cinq"
+      D: "Quatre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many players can take part in a game of bridge?"
+        answers:
+          A: "Two"
+          B: "Three"
+          C: "Five"
+          D: "Four"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la pièce du jeu de dames qui peut se déplacer en arrière ?"
+    answers:
+      A: "Le roi"
+      B: "Le pion"
+      C: "La dame"
+      D: "Le fou"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the piece in checkers that can move backwards?"
+        answers:
+          A: "The king"
+          B: "The pawn"
+          C: "The queen"
+          D: "The bishop"
+    difficulty: HARD
+  - text: "Combien de cases noires compte un échiquier standard ?"
+    answers:
+      A: "32"
+      B: "16"
+      C: "24"
+      D: "36"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many black squares are on a standard chessboard?"
+        answers:
+          A: "32"
+          B: "16"
+          C: "24"
+          D: "36"
+    difficulty: MEDIUM
+  - text: "Dans quel pays le jeu de cartes « Hanafuda » est-il traditionnellement joué ?"
+    answers:
+      A: "Chine"
+      B: "Japon"
+      C: "Corée"
+      D: "Vietnam"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country is the card game \"Hanafuda\" traditionally played?"
+        answers:
+          A: "China"
+          B: "Japan"
+          C: "Korea"
+          D: "Vietnam"
+    difficulty: EXPERT
+  - text: "Quel jeu de société utilise un plateau avec des cases et des « échelles » pour monter plus vite ?"
+    answers:
+      A: "Les petits chevaux"
+      B: "Le jeu de l'oie"
+      C: "Serpents et échelles"
+      D: "Le jeu des petits chevaux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which board game uses a board with squares and \"ladders\" to climb faster?"
+        answers:
+          A: "Les petits chevaux"
+          B: "The Game of the Goose"
+          C: "Snakes and Ladders"
+          D: "Le jeu des petits chevaux"
+    difficulty: EASY
+  - text: "Quel jeu de société se joue avec des dés et un plateau composé de 24 flèches pointues ?"
+    answers:
+      A: "Le trictrac"
+      B: "Le backgammon"
+      C: "Le jacquet"
+      D: "Le tavli"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which board game is played with dice and a board made up of 24 pointed arrows?"
+        answers:
+          A: "Trictrac"
+          B: "Backgammon"
+          C: "Jacquet"
+          D: "Tavli"
+    difficulty: HARD
+  - text: "Combien de dés sont utilisés dans une partie de Yahtzee ?"
+    answers:
+      A: "3"
+      B: "7"
+      C: "5"
+      D: "6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many dice are used in a game of Yahtzee?"
+        answers:
+          A: "3"
+          B: "7"
+          C: "5"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "Quel jeu de cartes se joue traditionnellement avec 32 cartes et un chien ?"
+    answers:
+      A: "Le bridge"
+      B: "La belote"
+      C: "Le tarot"
+      D: "Le whist"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which card game is traditionally played with 32 cards and a kitty?"
+        answers:
+          A: "Bridge"
+          B: "Belote"
+          C: "Tarot"
+          D: "Whist"
+    difficulty: EXPERT
+  - text: "En quelle année le jeu de société Monopoly a-t-il été commercialisé pour la première fois par Parker Brothers ?"
+    answers:
+      A: "1941"
+      B: "1930"
+      C: "1929"
+      D: "1935"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the board game Monopoly first marketed by Parker Brothers?"
+        answers:
+          A: "1941"
+          B: "1930"
+          C: "1929"
+          D: "1935"
+    difficulty: EXPERT
+  - text: "Combien de pions chaque joueur possède-t-il au début d'une partie de dames internationales (100 cases) ?"
+    answers:
+      A: "12"
+      B: "16"
+      C: "24"
+      D: "20"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many pieces does each player have at the start of a game of international draughts (100 squares)?"
+        answers:
+          A: "12"
+          B: "16"
+          C: "24"
+          D: "20"
+    difficulty: HARD
+  - text: "Quel jeu de société utilise un plateau avec des cases et des échelles pour monter plus vite ?"
+    answers:
+      A: "Serpents et échelles"
+      B: "Le jeu des petits chevaux"
+      C: "Le jeu de l'oie"
+      D: "Le jeu de la vie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which board game uses a board with squares and ladders to climb faster?"
+        answers:
+          A: "Snakes and Ladders"
+          B: "The Game of the Little Horses"
+          C: "The Game of the Goose"
+          D: "The Game of Life"
+    difficulty: EASY
+  - text: "Quel est le nom de la pièce du jeu d'échecs qui peut se déplacer en diagonale sur n'importe quelle distance ?"
+    answers:
+      A: "La tour"
+      B: "Le fou"
+      C: "La dame"
+      D: "Le cavalier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the chess piece that can move diagonally any distance?"
+        answers:
+          A: "The rook"
+          B: "The bishop"
+          C: "The queen"
+          D: "The knight"
+    difficulty: MEDIUM
+  - text: "Dans une partie de bridge, combien de cartes chaque joueur reçoit-il ?"
+    answers:
+      A: "10"
+      B: "12"
+      C: "13"
+      D: "8"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In a game of bridge, how many cards does each player receive?"
+        answers:
+          A: "10"
+          B: "12"
+          C: "13"
+          D: "8"
+    difficulty: HARD
+  - text: "Quel est le nom du coup spécial aux échecs où le roi et la tour se déplacent simultanément ?"
+    answers:
+      A: "Le roque"
+      B: "La promotion"
+      C: "La prise en passant"
+      D: "L'en passant"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the special chess move where the king and rook move simultaneously?"
+        answers:
+          A: "Castling"
+          B: "Promotion"
+          C: "En passant capture"
+          D: "En passant"
+    difficulty: MEDIUM
+  - text: "Quel jeu de cartes japonais traditionnel utilise des cartes illustrées de fleurs et de motifs saisonniers ?"
+    answers:
+      A: "L'Uta-garuta"
+      B: "Le Karuta"
+      C: "Le Kabufuda"
+      D: "Le Hanafuda"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which traditional Japanese card game uses cards illustrated with flowers and seasonal motifs?"
+        answers:
+          A: "Uta-garuta"
+          B: "Karuta"
+          C: "Kabufuda"
+          D: "Hanafuda"
+    difficulty: EXPERT
+  - text: "Combien de faces possède un dé à vingt faces utilisé dans les jeux de rôle ?"
+    answers:
+      A: "10"
+      B: "12"
+      C: "20"
+      D: "24"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many faces does a twenty-sided die used in role-playing games have?"
+        answers:
+          A: "10"
+          B: "12"
+          C: "20"
+          D: "24"
+    difficulty: MEDIUM
+  - text: "Quel jeu de société a été inventé par Elizabeth Magie en 1903 sous le nom de « Landlord's Game » ?"
+    answers:
+      A: "L'Anti-Monopoly"
+      B: "Le jeu de la vie"
+      C: "Les Colons de Catane"
+      D: "Le Monopoly"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which board game was invented by Elizabeth Magie in 1903 under the name \"Landlord's Game\"?"
+        answers:
+          A: "Anti-Monopoly"
+          B: "The Game of Life"
+          C: "The Settlers of Catan"
+          D: "Monopoly"
+    difficulty: EXPERT
+  - text: "Combien de pions compte chaque joueur au début d'une partie de backgammon ?"
+    answers:
+      A: "12"
+      B: "15"
+      C: "18"
+      D: "20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many checkers does each player have at the start of a backgammon game?"
+        answers:
+          A: "12"
+          B: "15"
+          C: "18"
+          D: "20"
+    difficulty: HARD
+  - text: "Quel jeu de cartes se joue avec un jeu de 32 cartes et un chien de 8 cartes ?"
+    answers:
+      A: "Le bridge"
+      B: "Le tarot"
+      C: "La belote"
+      D: "Le whist"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which card game is played with a 32-card deck and a kitty of 8 cards?"
+        answers:
+          A: "Bridge"
+          B: "Tarot"
+          C: "Belote"
+          D: "Whist"
+    difficulty: EXPERT
+  - text: "Combien de cases compte un tablier de backgammon au total ?"
+    answers:
+      A: "30"
+      B: "25"
+      C: "28"
+      D: "24"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many points are there in total on a backgammon board?"
+        answers:
+          A: "30"
+          B: "25"
+          C: "28"
+          D: "24"
+    difficulty: HARD
+  - text: "Quel est le nom du pion promu au jeu de dames internationales ?"
+    answers:
+      A: "Le roi"
+      B: "Le fou"
+      C: "La dame"
+      D: "Le joker"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the promoted piece in international draughts?"
+        answers:
+          A: "The king"
+          B: "The bishop"
+          C: "The queen"
+          D: "The joker"
+    difficulty: EXPERT
+  - text: "Quel joueur d'échecs a perdu son titre mondial en 1972 face à Bobby Fischer ?"
+    answers:
+      A: "Tigran Petrossian"
+      B: "Mikhaïl Tal"
+      C: "Boris Spassky"
+      D: "Vassily Smyslov"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chess player lost his world title in 1972 to Bobby Fischer?"
+        answers:
+          A: "Tigran Petrosian"
+          B: "Mikhail Tal"
+          C: "Boris Spassky"
+          D: "Vasily Smyslov"
+    difficulty: HARD
+  - text: "Combien de pièces chaque joueur possède-t-il au début d'une partie de xiangqi (échecs chinois) ?"
+    answers:
+      A: "14"
+      B: "20"
+      C: "16"
+      D: "18"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many pieces does each player have at the start of a game of xiangqi (Chinese chess)?"
+        answers:
+          A: "14"
+          B: "20"
+          C: "16"
+          D: "18"
+    difficulty: EXPERT
+  - text: "Quel jeu de cartes se joue avec un jeu de 48 cartes et des combinaisons appelées « brelan » et « quinte » ?"
+    answers:
+      A: "Le rami"
+      B: "La canasta"
+      C: "La scopa"
+      D: "Le nain jaune"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which card game is played with a 48-card deck and combinations called \"brelan\" and \"quinte\"?"
+        answers:
+          A: "Rummy"
+          B: "Canasta"
+          C: "Scopa"
+          D: "Nain jaune"
+    difficulty: EXPERT
+  - text: "Combien de cases compte un plateau de jeu de shogi (échecs japonais) ?"
+    answers:
+      A: "64"
+      B: "81"
+      C: "100"
+      D: "72"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many squares are on a shogi (Japanese chess) board?"
+        answers:
+          A: "64"
+          B: "81"
+          C: "100"
+          D: "72"
+    difficulty: EXPERT
+  - text: "Quel dé à six faces montre toujours un total de 7 points sur ses faces opposées ?"
+    answers:
+      A: "Un dé truqué"
+      B: "Un dé standard"
+      C: "Un dé de casino"
+      D: "Un dé à points"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which six-sided die always shows a total of 7 pips on its opposite faces?"
+        answers:
+          A: "A loaded die"
+          B: "A standard die"
+          C: "A casino die"
+          D: "A pip die"
+    difficulty: HARD
+  - text: "Quel est le nom du dé à six faces utilisé dans le jeu de 421, dont les faces portent des points ?"
+    answers:
+      A: "Un dé à jouer"
+      B: "Un dé de poker"
+      C: "Un dé de craps"
+      D: "Un dé de mah-jong"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the six-sided die used in the game of 421, whose faces bear pips?"
+        answers:
+          A: "A playing die"
+          B: "A poker die"
+          C: "A craps die"
+          D: "A mahjong die"
+    difficulty: HARD
+  - text: "Combien de cartes contient un jeu de cartes italien traditionnel à 40 cartes ?"
+    answers:
+      A: "40"
+      B: "52"
+      C: "54"
+      D: "48"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many cards are in a traditional 40-card Italian deck?"
+        answers:
+          A: "40"
+          B: "52"
+          C: "54"
+          D: "48"
+    difficulty: HARD
+  - text: "Dans quel pays le jeu de plateau « Ludo » a-t-il été breveté en 1896 ?"
+    answers:
+      A: "Inde"
+      B: "États-Unis"
+      C: "Angleterre"
+      D: "France"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which country was the board game \"Ludo\" patented in 1896?"
+        answers:
+          A: "India"
+          B: "United States"
+          C: "England"
+          D: "France"
+    difficulty: EXPERT
+  - text: "Quel jeu de société utilise un plateau avec 40 cases et des cartes « Chance » et « Caisse de communauté » ?"
+    answers:
+      A: "Le Trivial Pursuit"
+      B: "Le jeu de l'oie"
+      C: "Les petits chevaux"
+      D: "Le Monopoly"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which board game uses a board with 40 spaces and \"Chance\" and \"Community Chest\" cards?"
+        answers:
+          A: "Trivial Pursuit"
+          B: "The Game of the Goose"
+          C: "Les petits chevaux"
+          D: "Monopoly"
+    difficulty: MEDIUM
+  - text: "Combien de cases compte le plateau de jeu de dames anglaises (checkers) ?"
+    answers:
+      A: "64"
+      B: "100"
+      C: "81"
+      D: "144"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many squares are on a checkers board?"
+        answers:
+          A: "64"
+          B: "100"
+          C: "81"
+          D: "144"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du coup aux échecs où le pion capture un pion adverse en passant ?"
+    answers:
+      A: "Le roque"
+      B: "La prise en passant"
+      C: "La promotion"
+      D: "Le pat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the chess move where a pawn captures an opposing pawn en passant?"
+        answers:
+          A: "Castling"
+          B: "En passant capture"
+          C: "Promotion"
+          D: "Stalemate"
+    difficulty: HARD
+  - text: "Quel jeu de cartes se joue avec un jeu de 52 cartes et des annonces appelées « mariages » ?"
+    answers:
+      A: "La belote"
+      B: "Le bridge"
+      C: "Le poker"
+      D: "La manille"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which card game is played with a 52-card deck and declarations called \"marriages\"?"
+        answers:
+          A: "Belote"
+          B: "Bridge"
+          C: "Poker"
+          D: "Manille"
+    difficulty: HARD
+  - text: "Combien de faces possède un dé à douze faces utilisé dans les jeux de rôle ?"
+    answers:
+      A: "12"
+      B: "10"
+      C: "14"
+      D: "16"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many faces does a twelve-sided die used in role-playing games have?"
+        answers:
+          A: "12"
+          B: "10"
+          C: "14"
+          D: "16"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du pion du jeu de dames qui ne peut pas reculer ?"
+    answers:
+      A: "Le roi"
+      B: "La dame"
+      C: "Le pion"
+      D: "Le fou"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the checkers piece that cannot move backward?"
+        answers:
+          A: "The king"
+          B: "The queen"
+          C: "The pawn"
+          D: "The bishop"
+    difficulty: HARD
+  - text: "Quel jeu de société a été inventé par Reiner Knizia et se joue avec des tuiles posées pour former des villes ?"
+    answers:
+      A: "Carcassonne"
+      B: "Les Colons de Catane"
+      C: "Dominion"
+      D: "Alhambra"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which board game was invented by Reiner Knizia and is played with tiles placed to form cities?"
+        answers:
+          A: "Carcassonne"
+          B: "The Settlers of Catan"
+          C: "Dominion"
+          D: "Alhambra"
+    difficulty: EXPERT
+  - text: "Combien de cartes compte un jeu de tarot à quatre joueurs, le chien inclus ?"
+    answers:
+      A: "64"
+      B: "78"
+      C: "54"
+      D: "42"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many cards are in a four-player tarot deck, including the dog?"
+        answers:
+          A: "64"
+          B: "78"
+          C: "54"
+          D: "42"
+    difficulty: EXPERT
+  - text: "Quel jeu de société se joue avec 108 cartes et des combinaisons de couleurs et de chiffres, créé en 1971 par Merle Robbins ?"
+    answers:
+      A: "Phase 10"
+      B: "Skip-Bo"
+      C: "Uno"
+      D: "Mille Bornes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which board game is played with 108 cards and combinations of colors and numbers, created in 1971 by Merle Robbins?"
+        answers:
+          A: "Phase 10"
+          B: "Skip-Bo"
+          C: "Uno"
+          D: "Mille Bornes"
+    difficulty: MEDIUM
+  - text: "Combien de cases compte un plateau de jeu de dames turques ?"
+    answers:
+      A: "64"
+      B: "100"
+      C: "81"
+      D: "144"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many squares are on a Turkish checkers board?"
+        answers:
+          A: "64"
+          B: "100"
+          C: "81"
+          D: "144"
+    difficulty: EXPERT
+  - text: "Quel est le nom du joueur qui a été champion du monde d'échecs de 1921 à 1927 ?"
+    answers:
+      A: "José Raúl Capablanca"
+      B: "Emanuel Lasker"
+      C: "Alexandre Alekhine"
+      D: "Paul Morphy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the player who was world chess champion from 1921 to 1927?"
+        answers:
+          A: "José Raúl Capablanca"
+          B: "Emanuel Lasker"
+          C: "Alexandre Alekhine"
+          D: "Paul Morphy"
+    difficulty: EXPERT
+  - text: "Dans le jeu de go, combien de pierres noires sont utilisées dans un jeu standard complet (incluant les pierres de réserve) ?"
+    answers:
+      A: "180"
+      B: "183"
+      C: "182"
+      D: "181"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the game of Go, how many black stones are used in a complete standard set (including reserve stones)?"
+        answers:
+          A: "180"
+          B: "183"
+          C: "182"
+          D: "181"
+    difficulty: EXPERT
+  - text: "Quel jeu de cartes se joue avec un jeu de 52 cartes et où le but est de se débarrasser de toutes ses cartes en les posant sur des piles centrales ?"
+    answers:
+      A: "Le président"
+      B: "Le golf"
+      C: "La crapette"
+      D: "Le huit américain"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which card game is played with a 52-card deck where the goal is to get rid of all your cards by placing them on central piles?"
+        answers:
+          A: "President"
+          B: "Golf"
+          C: "Crapette"
+          D: "Crazy Eights"
+    difficulty: HARD
+  - text: "Combien de faces possède un dé à trente faces utilisé dans les jeux de rôle ?"
+    answers:
+      A: "30"
+      B: "24"
+      C: "20"
+      D: "36"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many faces does a thirty-sided die used in role-playing games have?"
+        answers:
+          A: "30"
+          B: "24"
+          C: "20"
+          D: "36"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la variante du jeu d'échecs où les pièces sont disposées aléatoirement sur la première rangée ?"
+    answers:
+      A: "Échecs de Capablanca"
+      B: "Échecs aléatoires Fischer"
+      C: "Échecs progressifs"
+      D: "Échecs atomiques"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the chess variant where the pieces are placed randomly on the first rank?"
+        answers:
+          A: "Capablanca Chess"
+          B: "Fischer Random Chess"
+          C: "Progressive Chess"
+          D: "Atomic Chess"
+    difficulty: HARD
+  - text: "Dans le jeu de backgammon, quelle est la valeur maximale d'un double de dés ?"
+    answers:
+      A: "12"
+      B: "18"
+      C: "36"
+      D: "24"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In backgammon, what is the maximum value of a double roll?"
+        answers:
+          A: "12"
+          B: "18"
+          C: "36"
+          D: "24"
+    difficulty: HARD
+  - text: "Quel jeu de société a été inventé par Klaus Teuber et se joue avec des tuiles hexagonales représentant des ressources ?"
+    answers:
+      A: "Carcassonne"
+      B: "Les Aventuriers du Rail"
+      C: "Les Colons de Catane"
+      D: "Agricola"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which board game was invented by Klaus Teuber and is played with hexagonal tiles representing resources?"
+        answers:
+          A: "Carcassonne"
+          B: "Ticket to Ride"
+          C: "The Settlers of Catan"
+          D: "Agricola"
+    difficulty: HARD
+  - text: "Combien de pions chaque joueur possède-t-il au début d'une partie de dames turques ?"
+    answers:
+      A: "16"
+      B: "12"
+      C: "20"
+      D: "24"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many pieces does each player have at the start of a game of Turkish draughts?"
+        answers:
+          A: "16"
+          B: "12"
+          C: "20"
+          D: "24"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier champion du monde d'échecs officiel, couronné en 1886 ?"
+    answers:
+      A: "Wilhelm Steinitz"
+      B: "Paul Morphy"
+      C: "Emanuel Lasker"
+      D: "Adolf Anderssen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first official world chess champion, crowned in 1886?"
+        answers:
+          A: "Wilhelm Steinitz"
+          B: "Paul Morphy"
+          C: "Emanuel Lasker"
+          D: "Adolf Anderssen"
+    difficulty: HARD
+  - text: "Dans le jeu de cartes « Le président », quelle combinaison bat une paire de rois ?"
+    answers:
+      A: "Une paire de dames"
+      B: "Un brelan de 2"
+      C: "Une paire d'as"
+      D: "Une quinte flush"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the card game \"President\", which combination beats a pair of kings?"
+        answers:
+          A: "A pair of queens"
+          B: "Three 2s"
+          C: "A pair of aces"
+          D: "A straight flush"
+    difficulty: EXPERT
+  - text: "Quel jeu de dés se joue avec cinq dés et où l'objectif est d'obtenir des combinaisons comme le « yam » ?"
+    answers:
+      A: "Le 421"
+      B: "Le Liar's Dice"
+      C: "Le 5000"
+      D: "Le Yahtzee"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which dice game is played with five dice where the goal is to get combinations like a \"yam\"?"
+        answers:
+          A: "421"
+          B: "Liar's Dice"
+          C: "5000"
+          D: "Yahtzee"
+    difficulty: HARD
+  - text: "Quel est le nom de la pièce du jeu de dames internationales qui peut se déplacer en arrière et de plusieurs cases ?"
+    answers:
+      A: "Le pion"
+      B: "La dame"
+      C: "Le roi"
+      D: "Le fou"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the piece in international draughts that can move backwards and multiple squares?"
+        answers:
+          A: "The pawn"
+          B: "The queen"
+          C: "The king"
+          D: "The bishop"
+    difficulty: HARD
+  - text: "Quel jeu de société utilise un plateau avec des pistes de couleurs et des cartes « Destination » ?"
+    answers:
+      A: "Les Aventuriers du Rail"
+      B: "Monopoly"
+      C: "L'Île Interdite"
+      D: "Small World"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which board game uses a board with colored routes and \"Destination\" cards?"
+        answers:
+          A: "Ticket to Ride"
+          B: "Monopoly"
+          C: "Forbidden Island"
+          D: "Small World"
+    difficulty: MEDIUM
+  - text: "Combien de cartes contient un jeu de tarot français complet (avec les 21 atouts et l'excuse) ?"
+    answers:
+      A: "52"
+      B: "54"
+      C: "108"
+      D: "78"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many cards are in a complete French tarot deck (with the 21 trumps and the excuse)?"
+        answers:
+          A: "52"
+          B: "54"
+          C: "108"
+          D: "78"
+    difficulty: HARD
+  - text: "Quel est le nom du coup aux échecs où un pion atteint la dernière rangée et peut être promu en n'importe quelle pièce ?"
+    answers:
+      A: "La transformation"
+      B: "La promotion"
+      C: "L'ascension"
+      D: "La mutation"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the chess move where a pawn reaches the last rank and can be promoted to any piece?"
+        answers:
+          A: "Transformation"
+          B: "Promotion"
+          C: "Ascension"
+          D: "Mutation"
+    difficulty: HARD
+  - text: "Dans le jeu de cartes « La belote », combien de points vaut un valet d'atout ?"
+    answers:
+      A: "2"
+      B: "20"
+      C: "14"
+      D: "10"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the card game \"Belote\", how many points is a trump jack worth?"
+        answers:
+          A: "2"
+          B: "20"
+          C: "14"
+          D: "10"
+    difficulty: EXPERT
+  - text: "Quel jeu de société a été inventé par Alfred Butts en 1938 et se joue avec des lettres sur un plateau quadrillé ?"
+    answers:
+      A: "Upwords"
+      B: "Boggle"
+      C: "Scrabble"
+      D: "Lexicon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which board game was invented by Alfred Butts in 1938 and is played with letters on a gridded board?"
+        answers:
+          A: "Upwords"
+          B: "Boggle"
+          C: "Scrabble"
+          D: "Lexicon"
+    difficulty: MEDIUM
+  - text: "Quel jeu de société de 1971 se joue avec 108 cartes et des combinaisons de couleurs et de chiffres ?"
+    answers:
+      A: "Phase 10"
+      B: "Skip-Bo"
+      C: "Uno"
+      D: "Crazy Eights"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1971 board game is played with 108 cards and combinations of colors and numbers?"
+        answers:
+          A: "Phase 10"
+          B: "Skip-Bo"
+          C: "Uno"
+          D: "Crazy Eights"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été champion du monde d'échecs de 1921 à 1927 ?"
+    answers:
+      A: "Emanuel Lasker"
+      B: "Alexander Alekhine"
+      C: "José Raúl Capablanca"
+      D: "Paul Morphy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was world chess champion from 1921 to 1927?"
+        answers:
+          A: "Emanuel Lasker"
+          B: "Alexander Alekhine"
+          C: "José Raúl Capablanca"
+          D: "Paul Morphy"
+    difficulty: EXPERT
+  - text: "Quel jeu de société a été créé par Reiner Knizia et se joue avec des tuiles posées pour former des cités ?"
+    answers:
+      A: "Carcassonne"
+      B: "Les Cités perdues"
+      C: "Samouraï"
+      D: "Tigre & Euphrate"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which board game was created by Reiner Knizia and is played with tiles placed to form cities?"
+        answers:
+          A: "Carcassonne"
+          B: "Lost Cities"
+          C: "Samurai"
+          D: "Tigris & Euphrates"
+    difficulty: EXPERT
+  - text: "Quel joueur a détenu le titre de champion du monde d'échecs de 1894 à 1921 ?"
+    answers:
+      A: "Emanuel Lasker"
+      B: "Wilhelm Steinitz"
+      C: "José Raúl Capablanca"
+      D: "Alexandre Alekhine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player held the world chess champion title from 1894 to 1921?"
+        answers:
+          A: "Emanuel Lasker"
+          B: "Wilhelm Steinitz"
+          C: "José Raúl Capablanca"
+          D: "Alexander Alekhine"
+    difficulty: EXPERT
+  - text: "Combien de cases compte le plateau du jeu de dames internationales ?"
+    answers:
+      A: "100"
+      B: "64"
+      C: "144"
+      D: "81"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many squares are on the international draughts board?"
+        answers:
+          A: "100"
+          B: "64"
+          C: "144"
+          D: "81"
+    difficulty: HARD
+  - text: "Quel est le nom de la variante du jeu de dames où les pions peuvent capturer en arrière ?"
+    answers:
+      A: "Dames anglaises"
+      B: "Dames internationales"
+      C: "Dames turques"
+      D: "Dames espagnoles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the draughts variant where pieces can capture backwards?"
+        answers:
+          A: "English draughts"
+          B: "International draughts"
+          C: "Turkish draughts"
+          D: "Spanish draughts"
+    difficulty: EXPERT
+  - text: "Dans le jeu de backgammon, combien de points (flèches) compte le tablier ?"
+    answers:
+      A: "24"
+      B: "12"
+      C: "30"
+      D: "36"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In backgammon, how many points (arrows) are on the board?"
+        answers:
+          A: "24"
+          B: "12"
+          C: "30"
+          D: "36"
+    difficulty: HARD
+  - text: "Quel est le nom du dé à 10 faces utilisé dans les jeux de rôle ?"
+    answers:
+      A: "Dé à 20 faces"
+      B: "Dé à 12 faces"
+      C: "Dé à 10 faces"
+      D: "Dé à 8 faces"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the 10-sided die used in role-playing games?"
+        answers:
+          A: "20-sided die"
+          B: "12-sided die"
+          C: "10-sided die"
+          D: "8-sided die"
+    difficulty: HARD
+  - text: "Quel jeu de cartes se joue avec un jeu de 32 cartes et où le valet d'atout vaut 20 points ?"
+    answers:
+      A: "Manille"
+      B: "Tarot"
+      C: "Bridge"
+      D: "Belote"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which card game is played with a 32-card deck and where the jack of trumps is worth 20 points?"
+        answers:
+          A: "Manille"
+          B: "Tarot"
+          C: "Bridge"
+          D: "Belote"
+    difficulty: EXPERT
+  - text: "Quel est le nom du jeu de société inventé par Klaus Teuber en 1995 ?"
+    answers:
+      A: "Tigre et Euphrate"
+      B: "Carcassonne"
+      C: "Les Colons de Catane"
+      D: "Puerto Rico"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the board game invented by Klaus Teuber in 1995?"
+        answers:
+          A: "Tigris & Euphrates"
+          B: "Carcassonne"
+          C: "The Settlers of Catan"
+          D: "Puerto Rico"
+    difficulty: HARD
+  - text: "Dans le jeu de go, combien de pierres noires sont généralement fournies dans un jeu complet ?"
+    answers:
+      A: "180"
+      B: "182"
+      C: "181"
+      D: "183"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the game of Go, how many black stones are typically provided in a complete set?"
+        answers:
+          A: "180"
+          B: "182"
+          C: "181"
+          D: "183"
+    difficulty: EXPERT
+  - text: "Quel est le nom du coup aux échecs où le roi et la tour se déplacent simultanément ?"
+    answers:
+      A: "Prise en passant"
+      B: "En passant"
+      C: "Promotion"
+      D: "Roque"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the chess move where the king and rook move simultaneously?"
+        answers:
+          A: "Capture en passant"
+          B: "En passant"
+          C: "Promotion"
+          D: "Castling"
+    difficulty: HARD
+  - text: "Combien de faces possède un dé à 100 faces utilisé dans certains jeux de rôle ?"
+    answers:
+      A: "10"
+      B: "50"
+      C: "20"
+      D: "100"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many sides does a 100-sided die used in some role-playing games have?"
+        answers:
+          A: "10"
+          B: "50"
+          C: "20"
+          D: "100"
+    difficulty: MEDIUM
+  - text: "Quel jeu de cartes se joue avec un jeu de 52 cartes et où le but est de totaliser 21 points sans dépasser ?"
+    answers:
+      A: "Rami"
+      B: "Poker"
+      C: "Baccarat"
+      D: "Blackjack"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which card game is played with a 52-card deck and where the goal is to total 21 points without going over?"
+        answers:
+          A: "Rummy"
+          B: "Poker"
+          C: "Baccarat"
+          D: "Blackjack"
+    difficulty: MEDIUM
+  - text: "Dans le jeu de dames turques, combien de pièces chaque joueur possède-t-il au début ?"
+    answers:
+      A: "20"
+      B: "12"
+      C: "16"
+      D: "24"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the game of Turkish draughts, how many pieces does each player have at the start?"
+        answers:
+          A: "20"
+          B: "12"
+          C: "16"
+          D: "24"
+    difficulty: EXPERT
+  - text: "Quel jeu de société utilise un plateau avec des cases « Chance » et « Caisse de communauté » ?"
+    answers:
+      A: "Ludo"
+      B: "Monopoly"
+      C: "Les Petits Chevaux"
+      D: "Destin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which board game uses a board with 'Chance' and 'Community Chest' spaces?"
+        answers:
+          A: "Ludo"
+          B: "Monopoly"
+          C: "Les Petits Chevaux"
+          D: "Destin"
+    difficulty: MEDIUM
+  - text: "Quel jeu de dés se joue avec cinq dés et où l'objectif est d'obtenir un « yam » ?"
+    answers:
+      A: "Farkle"
+      B: "421"
+      C: "Yahtzee"
+      D: "Poker dice"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dice game is played with five dice and where the goal is to get a 'yam'?"
+        answers:
+          A: "Farkle"
+          B: "421"
+          C: "Yahtzee"
+          D: "Poker dice"
+    difficulty: HARD
+  - text: "Quel joueur a été champion du monde d'échecs de 1935 à 1937 ?"
+    answers:
+      A: "Max Euwe"
+      B: "Alexandre Alekhine"
+      C: "José Raúl Capablanca"
+      D: "Emanuel Lasker"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player was world chess champion from 1935 to 1937?"
+        answers:
+          A: "Max Euwe"
+          B: "Alexander Alekhine"
+          C: "José Raúl Capablanca"
+          D: "Emanuel Lasker"
+    difficulty: EXPERT
+  - text: "Combien de cartes compte un jeu de belote coinchée ?"
+    answers:
+      A: "36"
+      B: "32"
+      C: "48"
+      D: "52"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many cards are in a game of belote coinchée?"
+        answers:
+          A: "36"
+          B: "32"
+          C: "48"
+          D: "52"
+    difficulty: HARD
+  - text: "Dans quelle ville le premier championnat du monde d'échecs moderne a-t-il eu lieu en 1886 ?"
+    answers:
+      A: "Vienne"
+      B: "Londres"
+      C: "Paris"
+      D: "New York"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which city was the first modern world chess championship held in 1886?"
+        answers:
+          A: "Vienna"
+          B: "London"
+          C: "Paris"
+          D: "New York"
+    difficulty: EXPERT
+  - text: "Quel est le nom du pion promu qui peut se déplacer comme un fou et une tour aux échecs ?"
+    answers:
+      A: "Tour"
+      B: "Dame"
+      C: "Fou"
+      D: "Cavalier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the promoted pawn that can move like a bishop and a rook in chess?"
+        answers:
+          A: "Rook"
+          B: "Queen"
+          C: "Bishop"
+          D: "Knight"
+    difficulty: HARD
+  - text: "Combien de faces possède un dé à six faces standard ?"
+    answers:
+      A: "10"
+      B: "8"
+      C: "6"
+      D: "12"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many faces does a standard six-sided die have?"
+        answers:
+          A: "10"
+          B: "8"
+          C: "6"
+          D: "12"
+    difficulty: EASY
+  - text: "Dans le jeu de go, quel est le nom du coup qui capture une pierre en la privant de ses libertés ?"
+    answers:
+      A: "Joseki"
+      B: "Ko"
+      C: "Seki"
+      D: "Atari"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the game of Go, what is the name of the move that captures a stone by depriving it of its liberties?"
+        answers:
+          A: "Joseki"
+          B: "Ko"
+          C: "Seki"
+          D: "Atari"
+    difficulty: EXPERT
+  - text: "Combien de cartes compte un jeu de tarot français sans les cartes de point ?"
+    answers:
+      A: "78"
+      B: "62"
+      C: "56"
+      D: "42"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many cards are in a French tarot deck without the point cards?"
+        answers:
+          A: "78"
+          B: "62"
+          C: "56"
+          D: "42"
+    difficulty: EXPERT

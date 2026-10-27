@@ -1,0 +1,1626 @@
+topic:
+  id: topic-le-seigneur-des-anneaux
+  names:
+    fr: "Le Seigneur des Anneaux"
+    en: "The Lord of the Rings"
+  description: "Explorez la Terre du Milieu de J.R.R. Tolkien, des romans à la trilogie de Peter Jackson. De la Comté au Mordor, en passant par Fondcombe, la Moria, le Gouffre de Helm et Minas Tirith, suivez Frodon, Sam et la Communauté de l'Anneau face à Sauron. Questions sur les personnages, les lieux, les objets, les peuples, les batailles, les acteurs, les dates de sortie, les Oscars et la musique."
+  category: MOVIES
+  titles:
+    fr:
+      FER: "Habitant de la Comté"
+      BRONZE: "Rôdeur des Fourrés"
+      ARGENT: "Éclaireur du Rohan"
+      OR: "Défenseur du Gouffre"
+      PLATINE: "Capitaine du Gondor"
+      EMERAUDE: "Porteur de l'Anneau"
+      DIAMANT: "Seigneur de la Terre du Milieu"
+    en:
+      FER: "Shire Hobbit"
+      BRONZE: "Ranger of the Wild"
+      ARGENT: "Rider of Rohan"
+      OR: "Defender of Helm's Deep"
+      PLATINE: "Captain of Gondor"
+      EMERAUDE: "Ring-bearer"
+      DIAMANT: "Lord of Middle-earth"
+  imageUrl: wikipedia/movies/Hobbiton_Movie_Set,_Matamata.jpg
+questions:
+  - text: "Quel personnage du Seigneur des Anneaux est le père de Boromir et Faramir ?"
+    answers:
+      A: "Théoden"
+      B: "Ecthelion"
+      C: "Elrond"
+      D: "Denethor"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character in The Lord of the Rings is the father of Boromir and Faramir?"
+        answers:
+          A: "Théoden"
+          B: "Ecthelion"
+          C: "Elrond"
+          D: "Denethor"
+    difficulty: EASY
+  - text: "Combien d'Anneaux de Pouvoir furent offerts aux Nains ?"
+    answers:
+      A: "Trois"
+      B: "Un"
+      C: "Neuf"
+      D: "Sept"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Rings of Power were given to the Dwarves?"
+        answers:
+          A: "Three"
+          B: "One"
+          C: "Nine"
+          D: "Seven"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cheval de Gandalf ?"
+    answers:
+      A: "Arod"
+      B: "Ombrefax"
+      C: "Hásufel"
+      D: "Breygo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Gandalf's horse?"
+        answers:
+          A: "Arod"
+          B: "Ombrefax"
+          C: "Shadowfax"
+          D: "Breygo"
+    difficulty: EASY
+  - text: "Quel âge Aragorn déclare-t-il avoir lors de la bataille du Gouffre de Helm ?"
+    answers:
+      A: "56 ans"
+      B: "210 ans"
+      C: "33 ans"
+      D: "87 ans"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What age does Aragorn claim to be at the Battle of Helm's Deep?"
+        answers:
+          A: "56 years old"
+          B: "210 years old"
+          C: "33 years old"
+          D: "87 years old"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti le film Le Seigneur des Anneaux : Les Deux Tours ?"
+    answers:
+      A: "1999"
+      B: "2002"
+      C: "2001"
+      D: "2000"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the film The Lord of the Rings: The Two Towers released?"
+        answers:
+          A: "1999"
+          B: "2002"
+          C: "2001"
+          D: "2000"
+    difficulty: MEDIUM
+  - text: "Combien d'Oscars le film Le Retour du Roi a-t-il remportés ?"
+    answers:
+      A: "9"
+      B: "11"
+      C: "7"
+      D: "13"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many Oscars did the film The Return of the King win?"
+        answers:
+          A: "9"
+          B: "11"
+          C: "7"
+          D: "13"
+    difficulty: HARD
+  - text: "Quel est le nom du cheval que Théoden offre à Gandalf à Edoras ?"
+    answers:
+      A: "Arod"
+      B: "Ombrefax"
+      C: "Hásufel"
+      D: "Breygo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the horse that Théoden gives to Gandalf at Edoras?"
+        answers:
+          A: "Arod"
+          B: "Ombrefax"
+          C: "Shadowfax"
+          D: "Breygo"
+    difficulty: HARD
+  - text: "Quel est le véritable nom du Roi-Sorcier d'Angmar ?"
+    answers:
+      A: "Inconnu"
+      B: "Khamûl"
+      C: "Sauron"
+      D: "Witch-king"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the true name of the Witch-king of Angmar?"
+        answers:
+          A: "Unknown"
+          B: "Khamûl"
+          C: "Sauron"
+          D: "Witch-king"
+    difficulty: EXPERT
+  - text: "Quelle est la date de naissance de Frodon Sacquet ?"
+    answers:
+      A: "22 septembre 2968"
+      B: "22 septembre 2967"
+      C: "22 septembre 2966"
+      D: "22 septembre 2969"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Frodo Baggins's date of birth?"
+        answers:
+          A: "22 September 2968"
+          B: "22 September 2967"
+          C: "22 September 2966"
+          D: "22 September 2969"
+    difficulty: EXPERT
+  - text: "Quel acteur interprète le rôle de Gollum ?"
+    answers:
+      A: "Andy Serkis"
+      B: "Tim Curry"
+      C: "Doug Jones"
+      D: "Dee Bradley Baker"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays the role of Gollum?"
+        answers:
+          A: "Andy Serkis"
+          B: "Tim Curry"
+          C: "Doug Jones"
+          D: "Dee Bradley Baker"
+    difficulty: EASY
+  - text: "Quel est le titre honorifique de Théoden, roi du Rohan ?"
+    answers:
+      A: "Seigneur des Chevaux"
+      B: "Roi des Rohirrim"
+      C: "Roi du Riddermark"
+      D: "Premier Maréchal de la Marche"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the honorary title of Théoden, King of Rohan?"
+        answers:
+          A: "Lord of the Horses"
+          B: "King of the Rohirrim"
+          C: "King of the Riddermark"
+          D: "First Marshal of the Mark"
+    difficulty: HARD
+  - text: "Quelle est la durée totale de la trilogie Le Seigneur des Anneaux au cinéma (versions longues) ?"
+    answers:
+      A: "Environ 9 heures"
+      B: "Environ 11 heures"
+      C: "Environ 15 heures"
+      D: "Environ 13 heures"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the total runtime of The Lord of the Rings trilogy in cinemas (extended versions)?"
+        answers:
+          A: "About 9 hours"
+          B: "About 11 hours"
+          C: "About 15 hours"
+          D: "About 13 hours"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'auberge où Frodon retrouve Aragorn à Bree ?"
+    answers:
+      A: "Le Poney Fringant"
+      B: "La Branche d'Argent"
+      C: "Le Dragon Vert"
+      D: "Le Sanglier Doré"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the inn where Frodo meets Aragorn in Bree?"
+        answers:
+          A: "The Prancing Pony"
+          B: "The Silver Branch"
+          C: "The Green Dragon"
+          D: "The Golden Boar"
+    difficulty: MEDIUM
+  - text: "Quel personnage prononce la phrase : « Vous ne passerez pas ! » ?"
+    answers:
+      A: "Gandalf"
+      B: "Boromir"
+      C: "Aragorn"
+      D: "Legolas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character says the line: \"You shall not pass!\"?"
+        answers:
+          A: "Gandalf"
+          B: "Boromir"
+          C: "Aragorn"
+          D: "Legolas"
+    difficulty: EASY
+  - text: "Quel est le nom du fleuve qui marque la frontière orientale du Rohan ?"
+    answers:
+      A: "L'Isen"
+      B: "L'Anduin"
+      C: "Le Celduin"
+      D: "L'Entalluve"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the river that marks the eastern border of Rohan?"
+        answers:
+          A: "The Isen"
+          B: "The Anduin"
+          C: "The Celduin"
+          D: "The Entwash"
+    difficulty: HARD
+  - text: "Quel compositeur a écrit la musique de la trilogie Le Seigneur des Anneaux ?"
+    answers:
+      A: "Hans Zimmer"
+      B: "John Williams"
+      C: "Danny Elfman"
+      D: "Howard Shore"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the music for The Lord of the Rings trilogy?"
+        answers:
+          A: "Hans Zimmer"
+          B: "John Williams"
+          C: "Danny Elfman"
+          D: "Howard Shore"
+    difficulty: EASY
+  - text: "Quel est le nom de la femme d'Aragorn ?"
+    answers:
+      A: "Arwen"
+      B: "Éowyn"
+      C: "Galadriel"
+      D: "Lúthien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Aragorn's wife?"
+        answers:
+          A: "Arwen"
+          B: "Éowyn"
+          C: "Galadriel"
+          D: "Lúthien"
+    difficulty: EASY
+  - text: "Quel âge a Frodon lorsqu'il quitte la Comté ?"
+    answers:
+      A: "33 ans"
+      B: "51 ans"
+      C: "50 ans"
+      D: "66 ans"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How old is Frodo when he leaves the Shire?"
+        answers:
+          A: "33 years old"
+          B: "51 years old"
+          C: "50 years old"
+          D: "66 years old"
+    difficulty: HARD
+  - text: "Quel est le nom du site où se déroule le Conseil qui décide du sort de l'Anneau ?"
+    answers:
+      A: "Moria"
+      B: "Lothlórien"
+      C: "Fondcombe"
+      D: "Isengard"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the site where the Council that decides the fate of the Ring takes place?"
+        answers:
+          A: "Moria"
+          B: "Lothlórien"
+          C: "Rivendell"
+          D: "Isengard"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Boromir dans la trilogie de Peter Jackson ?"
+    answers:
+      A: "Karl Urban"
+      B: "Viggo Mortensen"
+      C: "Sean Bean"
+      D: "David Wenham"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Boromir in Peter Jackson's trilogy?"
+        answers:
+          A: "Karl Urban"
+          B: "Viggo Mortensen"
+          C: "Sean Bean"
+          D: "David Wenham"
+    difficulty: EASY
+  - text: "En quelle année de la chronologie du Seigneur des Anneaux est fondée la Communauté de l'Anneau à Fondcombe ?"
+    answers:
+      A: "3017 du Troisième Âge"
+      B: "3019 du Troisième Âge"
+      C: "3018 du Troisième Âge"
+      D: "2941 du Troisième Âge"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year of The Lord of the Rings chronology is the Fellowship of the Ring founded at Rivendell?"
+        answers:
+          A: "3017 of the Third Age"
+          B: "3019 of the Third Age"
+          C: "3018 of the Third Age"
+          D: "2941 of the Third Age"
+    difficulty: EXPERT
+  - text: "Quel est le nom du marteau de guerre de Sauron en forme physique ?"
+    answers:
+      A: "Grond"
+      B: "Barad-dûr"
+      C: "Morgoth"
+      D: "Morgul"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Sauron's war hammer in physical form?"
+        answers:
+          A: "Grond"
+          B: "Barad-dûr"
+          C: "Morgoth"
+          D: "Morgul"
+    difficulty: EXPERT
+  - text: "Quel est le nom du cheval de Théoden au Gouffre de Helm ?"
+    answers:
+      A: "Gréé"
+      B: "Arod"
+      C: "Brégo"
+      D: "Hasufel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Théoden's horse at Helm's Deep?"
+        answers:
+          A: "Gréé"
+          B: "Arod"
+          C: "Brégo"
+          D: "Hasufel"
+    difficulty: EXPERT
+  - text: "Quelle race descend des Elfes ayant suivi Fëanor en Terre du Milieu mais restés au Beleriand ?"
+    answers:
+      A: "Les Noldor"
+      B: "Les Sindar"
+      C: "Les Vanyar"
+      D: "Les Teleri"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which race descends from the Elves who followed Fëanor to Middle-earth but remained in Beleriand?"
+        answers:
+          A: "The Noldor"
+          B: "The Sindar"
+          C: "The Vanyar"
+          D: "The Teleri"
+    difficulty: EXPERT
+  - text: "Quel acteur interprète Théoden dans la trilogie de Peter Jackson ?"
+    answers:
+      A: "Bernard Hill"
+      B: "Hugo Weaving"
+      C: "John Noble"
+      D: "Christopher Lee"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Théoden in Peter Jackson's trilogy?"
+        answers:
+          A: "Bernard Hill"
+          B: "Hugo Weaving"
+          C: "John Noble"
+          D: "Christopher Lee"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cheval de Boromir ?"
+    answers:
+      A: "Arod"
+      B: "Fréalaf"
+      C: "Hasufel"
+      D: "Bill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Boromir's horse?"
+        answers:
+          A: "Arod"
+          B: "Fréalaf"
+          C: "Hasufel"
+          D: "Bill"
+    difficulty: EXPERT
+  - text: "Quel anneau magique est porté par Galadriel ?"
+    answers:
+      A: "L'Anneau d'Argent"
+      B: "Narya"
+      C: "Vilya"
+      D: "Nenya"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which magical ring is worn by Galadriel?"
+        answers:
+          A: "The Silver Ring"
+          B: "Narya"
+          C: "Vilya"
+          D: "Nenya"
+    difficulty: HARD
+  - text: "Combien de Pérégrins sont envoyés par Tar-Palantir ?"
+    answers:
+      A: "7"
+      B: "3"
+      C: "12"
+      D: "9"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Pérégrins are sent by Tar-Palantir?"
+        answers:
+          A: "7"
+          B: "3"
+          C: "12"
+          D: "9"
+    difficulty: EXPERT
+  - text: "Quel personnage tue le seigneur des Nazgûl lors de la bataille du Pelennor ?"
+    answers:
+      A: "Merry"
+      B: "Éowyn"
+      C: "Théoden"
+      D: "Aragorn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character kills the Lord of the Nazgûl during the Battle of the Pelennor?"
+        answers:
+          A: "Merry"
+          B: "Éowyn"
+          C: "Théoden"
+          D: "Aragorn"
+    difficulty: MEDIUM
+  - text: "Dans quelle année du Troisième Âge Frodon part-il de la Comté ?"
+    answers:
+      A: "3001"
+      B: "3019"
+      C: "3018"
+      D: "3021"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year of the Third Age does Frodo leave the Shire?"
+        answers:
+          A: "3001"
+          B: "3019"
+          C: "3018"
+          D: "3021"
+    difficulty: EXPERT
+  - text: "Quel est le vrai nom de Gandalf en Valinor ?"
+    answers:
+      A: "Olórin"
+      B: "Curumo"
+      C: "Aiwendil"
+      D: "Pallando"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Gandalf's true name in Valinor?"
+        answers:
+          A: "Olórin"
+          B: "Curumo"
+          C: "Aiwendil"
+          D: "Pallando"
+    difficulty: EXPERT
+  - text: "Quel objet Aragorn reçoit-il à Fondcombe lors du Conseil ?"
+    answers:
+      A: "Un palantír"
+      B: "L'Épée Narsil reforgée"
+      C: "La ceinture de Lúthien"
+      D: "Le manteau elfique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What object does Aragorn receive at Rivendell during the Council?"
+        answers:
+          A: "A palantír"
+          B: "The reforged sword Narsil"
+          C: "The belt of Lúthien"
+          D: "The elven cloak"
+    difficulty: HARD
+  - text: "Quel est le nom de l'araignée géante du col de Cirith Ungol ?"
+    answers:
+      A: "Arachne"
+      B: "Ungoliant"
+      C: "Shelob"
+      D: "Morgul"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the giant spider of the pass of Cirith Ungol?"
+        answers:
+          A: "Arachne"
+          B: "Ungoliant"
+          C: "Shelob"
+          D: "Morgul"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du roi du Rohan qui a fondé sa lignée après la chute de Númenor ?"
+    answers:
+      A: "Aldor l'Ancien"
+      B: "Fréalaf Hildeson"
+      C: "Théoden"
+      D: "Eorl le Jeune"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the king of Rohan who founded his line after the fall of Númenor?"
+        answers:
+          A: "Aldor the Old"
+          B: "Fréalaf Hildeson"
+          C: "Théoden"
+          D: "Eorl the Young"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti le film Le Seigneur des Anneaux : La Communauté de l'Anneau ?"
+    answers:
+      A: "1999"
+      B: "2000"
+      C: "2001"
+      D: "2002"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the film The Lord of the Rings: The Fellowship of the Ring released?"
+        answers:
+          A: "1999"
+          B: "2000"
+          C: "2001"
+          D: "2002"
+    difficulty: MEDIUM
+  - text: "Quel personnage est le porte-parole de Saroumane envoyé à Orthanc ?"
+    answers:
+      A: "Lurtz"
+      B: "Gríma Langue-de-Serpent"
+      C: "Gothmog"
+      D: "Uglúk"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character is Saruman's spokesman sent to Orthanc?"
+        answers:
+          A: "Lurtz"
+          B: "Gríma Wormtongue"
+          C: "Gothmog"
+          D: "Uglúk"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la colline où Frodon et Sam sont recueillis par Gandalf après la chute de Sauron ?"
+    answers:
+      A: "Colline de Cul-de-Sac"
+      B: "Amon Sûl"
+      C: "Mont Venteux"
+      D: "Amon Hen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hill where Frodo and Sam are rescued by Gandalf after the fall of Sauron?"
+        answers:
+          A: "Bag End Hill"
+          B: "Amon Sûl"
+          C: "Weathertop"
+          D: "Amon Hen"
+    difficulty: HARD
+  - text: "Quel membre de la Communauté est tué par des Orques à la Moria ?"
+    answers:
+      A: "Legolas"
+      B: "Boromir"
+      C: "Frodo"
+      D: "Gandalf"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which member of the Fellowship is killed by Orcs in Moria?"
+        answers:
+          A: "Legolas"
+          B: "Boromir"
+          C: "Frodo"
+          D: "Gandalf"
+    difficulty: EASY
+  - text: "Quel poème est chanté par les Hobbits lors de leur retour à la Comté ?"
+    answers:
+      A: "La Chanson de Beren"
+      B: "Le Retour du Roi"
+      C: "La Route s'en va toujours"
+      D: "Les Feux de la Saint-Jean"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which poem is sung by the Hobbits upon their return to the Shire?"
+        answers:
+          A: "The Song of Beren"
+          B: "The Return of the King"
+          C: "The Road Goes Ever On"
+          D: "The Fires of Midsummer"
+    difficulty: EXPERT
+  - text: "Quel est le nom du manteau donné à Frodon par Galadriel à Lórien ?"
+    answers:
+      A: "Manteau de Lórien"
+      B: "Manteau elfique de gris et d'argent"
+      C: "Manteau de Fangorn"
+      D: "Manteau de Bohémond"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the cloak given to Frodo by Galadriel in Lórien?"
+        answers:
+          A: "Cloak of Lórien"
+          B: "Elven cloak of grey and silver"
+          C: "Cloak of Fangorn"
+          D: "Cloak of Bohémond"
+    difficulty: EXPERT
+  - text: "Quel est le nom du porte-parole de Saroumane envoyé à Orthanc ?"
+    answers:
+      A: "Lurtz"
+      B: "Gríma Langue-de-Serpent"
+      C: "Uglúk"
+      D: "Aucun nom connu"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Saruman's spokesman sent to Orthanc?"
+        answers:
+          A: "Lurtz"
+          B: "Gríma Wormtongue"
+          C: "Uglúk"
+          D: "No known name"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'anneau magique porté par Galadriel ?"
+    answers:
+      A: "Nenya"
+      B: "Narya"
+      C: "Vilya"
+      D: "L'Anneau Unique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the magic ring worn by Galadriel?"
+        answers:
+          A: "Nenya"
+          B: "Narya"
+          C: "Vilya"
+          D: "The One Ring"
+    difficulty: HARD
+  - text: "Quel est le deuxième prénom de Frodon Sacquet ?"
+    answers:
+      A: "Bilbon"
+      B: "Drogo"
+      C: "Meriadoc"
+      D: "Peregrin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Frodo Baggins's middle name?"
+        answers:
+          A: "Bilbo"
+          B: "Drogo"
+          C: "Meriadoc"
+          D: "Peregrin"
+    difficulty: EXPERT
+  - text: "Quel est le nom du père de Frodon ?"
+    answers:
+      A: "Otho Sacquet"
+      B: "Bilbon Sacquet"
+      C: "Lotho Sacquet"
+      D: "Drogo Sacquet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Frodo's father?"
+        answers:
+          A: "Otho Baggins"
+          B: "Bilbo Baggins"
+          C: "Lotho Baggins"
+          D: "Drogo Baggins"
+    difficulty: HARD
+  - text: "Quel est le nom de la mère de Frodon ?"
+    answers:
+      A: "Esmeralda Brandebouc"
+      B: "Lobelia Sacquet"
+      C: "Primula Brandebouc"
+      D: "Belladonna Touque"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Frodo's mother?"
+        answers:
+          A: "Esmeralda Brandybuck"
+          B: "Lobelia Baggins"
+          C: "Primula Brandybuck"
+          D: "Belladonna Took"
+    difficulty: HARD
+  - text: "Quel est le nom du frère de Boromir ?"
+    answers:
+      A: "Imrahil"
+      B: "Denethor"
+      C: "Faramir"
+      D: "Éomer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Boromir's brother?"
+        answers:
+          A: "Imrahil"
+          B: "Denethor"
+          C: "Faramir"
+          D: "Éomer"
+    difficulty: EASY
+  - text: "Quel est le nom du père de Boromir et Faramir ?"
+    answers:
+      A: "Denethor II"
+      B: "Ecthelion II"
+      C: "Turgon"
+      D: "Eärnil II"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Boromir and Faramir's father?"
+        answers:
+          A: "Denethor II"
+          B: "Ecthelion II"
+          C: "Turgon"
+          D: "Eärnil II"
+    difficulty: EASY
+  - text: "Quel est le nom de l'épée de Thorin Écu-de-Chêne dans Le Hobbit ?"
+    answers:
+      A: "Dard"
+      B: "Glamdring"
+      C: "Orcrist"
+      D: "Narsil"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Thorin Oakenshield's sword in The Hobbit?"
+        answers:
+          A: "Sting"
+          B: "Glamdring"
+          C: "Orcrist"
+          D: "Narsil"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épée de Gandalf ?"
+    answers:
+      A: "Dard"
+      B: "Orcrist"
+      C: "Glamdring"
+      D: "Andúril"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Gandalf's sword?"
+        answers:
+          A: "Sting"
+          B: "Orcrist"
+          C: "Glamdring"
+          D: "Andúril"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épée de Frodon ?"
+    answers:
+      A: "Glamdring"
+      B: "Dard"
+      C: "Orcrist"
+      D: "Narsil"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Frodo's sword?"
+        answers:
+          A: "Glamdring"
+          B: "Sting"
+          C: "Orcrist"
+          D: "Narsil"
+    difficulty: HARD
+  - text: "Combien de membres compte la Communauté de l'Anneau ?"
+    answers:
+      A: "Dix"
+      B: "Sept"
+      C: "Huit"
+      D: "Neuf"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many members are in the Fellowship of the Ring?"
+        answers:
+          A: "Ten"
+          B: "Seven"
+          C: "Eight"
+          D: "Nine"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du mage blanc qui remplace Saroumane à la tête de l'Ordre ?"
+    answers:
+      A: "Gandalf le Blanc"
+      B: "Radagast le Brun"
+      C: "Alatar le Bleu"
+      D: "Pallando le Bleu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the White Wizard who replaces Saruman as head of the Order?"
+        answers:
+          A: "Gandalf the White"
+          B: "Radagast the Brown"
+          C: "Alatar the Blue"
+          D: "Pallando the Blue"
+    difficulty: HARD
+  - text: "Quel est le nom du roi du Rohan qui mène la charge au champ du Pelennor ?"
+    answers:
+      A: "Théoden"
+      B: "Éomer"
+      C: "Éowyn"
+      D: "Gríma"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the King of Rohan who leads the charge on the Pelennor Fields?"
+        answers:
+          A: "Théoden"
+          B: "Éomer"
+          C: "Éowyn"
+          D: "Gríma"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la sœur d'Éomer ?"
+    answers:
+      A: "Lothíriel"
+      B: "Éowyn"
+      C: "Morwen"
+      D: "Finduilas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Éomer's sister?"
+        answers:
+          A: "Lothíriel"
+          B: "Éowyn"
+          C: "Morwen"
+          D: "Finduilas"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du père d'Éomer et Éowyn ?"
+    answers:
+      A: "Théodred"
+      B: "Théoden"
+      C: "Éomund"
+      D: "Théngel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Éomer and Éowyn's father?"
+        answers:
+          A: "Théodred"
+          B: "Théoden"
+          C: "Éomund"
+          D: "Théngel"
+    difficulty: HARD
+  - text: "Quel est le nom du fils de Théoden ?"
+    answers:
+      A: "Théodred"
+      B: "Éomer"
+      C: "Éomund"
+      D: "Gríma"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Théoden's son?"
+        answers:
+          A: "Théodred"
+          B: "Éomer"
+          C: "Éomund"
+          D: "Gríma"
+    difficulty: HARD
+  - text: "Quel est le nom du cheval de Legolas ?"
+    answers:
+      A: "Piedsagile"
+      B: "Gripoil"
+      C: "Arod"
+      D: "Hasufel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Legolas's horse?"
+        answers:
+          A: "Piedsagile"
+          B: "Gripoil"
+          C: "Arod"
+          D: "Hasufel"
+    difficulty: EXPERT
+  - text: "Quel est le nom du cheval de Gimli ?"
+    answers:
+      A: "Arod"
+      B: "Gripoil"
+      C: "Piedsagile"
+      D: "Hasufel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Gimli's horse?"
+        answers:
+          A: "Arod"
+          B: "Gripoil"
+          C: "Piedsagile"
+          D: "Hasufel"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épée d'Aragorn avant qu'elle ne soit reforgée ?"
+    answers:
+      A: "Glamdring"
+      B: "Andúril"
+      C: "Narsil"
+      D: "Orcrist"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Aragorn's sword before it was reforged?"
+        answers:
+          A: "Glamdring"
+          B: "Andúril"
+          C: "Narsil"
+          D: "Orcrist"
+    difficulty: HARD
+  - text: "Quel est le nom du roi du Gondor qui a coupé l'Anneau Unique de la main de Sauron ?"
+    answers:
+      A: "Isildur"
+      B: "Anárion"
+      C: "Elendil"
+      D: "Meneldil"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the King of Gondor who cut the One Ring from Sauron's hand?"
+        answers:
+          A: "Isildur"
+          B: "Anárion"
+          C: "Elendil"
+          D: "Meneldil"
+    difficulty: HARD
+  - text: "Quel est le nom du père d'Isildur ?"
+    answers:
+      A: "Meneldil"
+      B: "Anárion"
+      C: "Valandil"
+      D: "Elendil"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Isildur's father?"
+        answers:
+          A: "Meneldil"
+          B: "Anárion"
+          C: "Valandil"
+          D: "Elendil"
+    difficulty: HARD
+  - text: "Quel Númenóréen a demandé à Celebrimbor de forger les Anneaux de Pouvoir ?"
+    answers:
+      A: "Elendil"
+      B: "Morgoth"
+      C: "Sauron sous forme d'Annatar"
+      D: "Ar-Pharazôn"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Númenórean asked Celebrimbor to forge the Rings of Power?"
+        answers:
+          A: "Elendil"
+          B: "Morgoth"
+          C: "Sauron in the form of Annatar"
+          D: "Ar-Pharazôn"
+    difficulty: EXPERT
+  - text: "Combien d'Anneaux de Pouvoir ont été forgés au total en Terre du Milieu ?"
+    answers:
+      A: "20"
+      B: "19"
+      C: "17"
+      D: "21"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many Rings of Power were forged in total in Middle-earth?"
+        answers:
+          A: "20"
+          B: "19"
+          C: "17"
+          D: "21"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épée de Samwise Gamegie ?"
+    answers:
+      A: "Sanglante"
+      B: "Glamdring"
+      C: "Fourreau Elfique"
+      D: "Dard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Samwise Gamgee's sword?"
+        answers:
+          A: "Bloody"
+          B: "Glamdring"
+          C: "Elven Sheath"
+          D: "Sting"
+    difficulty: EXPERT
+  - text: "Quel peuple vivait à Edoras avant que les Rohirrim n'y bâtissent leur capitale ?"
+    answers:
+      A: "Les Elfes Sylvains"
+      B: "Les Drúedain"
+      C: "Les Nains"
+      D: "Les Dunlendings"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which people lived in Edoras before the Rohirrim built their capital there?"
+        answers:
+          A: "The Wood-elves"
+          B: "The Drúedain"
+          C: "The Dwarves"
+          D: "The Dunlendings"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier roi du Rohan ?"
+    answers:
+      A: "Frëaláf"
+      B: "Théoden"
+      C: "Helm Main-de-Marteau"
+      D: "Eorl le Jeune"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first king of Rohan?"
+        answers:
+          A: "Frëaláf"
+          B: "Théoden"
+          C: "Helm Hammerhand"
+          D: "Eorl the Young"
+    difficulty: EXPERT
+  - text: "Quel personnage tranche la gorge de Théoden à la bataille du Pelennor ?"
+    answers:
+      A: "Un Haradrim"
+      B: "Un Nazgûl"
+      C: "La monture du Roi-Sorcier"
+      D: "Le Roi-Sorcier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character slits Théoden's throat at the Battle of the Pelennor?"
+        answers:
+          A: "A Haradrim"
+          B: "A Nazgûl"
+          C: "The Witch-king's mount"
+          D: "The Witch-king"
+    difficulty: HARD
+  - text: "Quel est le nom de la montagne où se situe la porte d'entrée de la Moria ?"
+    answers:
+      A: "Caradhras"
+      B: "Celebdil"
+      C: "Fanuidhol"
+      D: "Zirakzigil"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the mountain where the entrance to Moria is located?"
+        answers:
+          A: "Caradhras"
+          B: "Celebdil"
+          C: "Fanuidhol"
+          D: "Zirakzigil"
+    difficulty: HARD
+  - text: "Quel est le nom du lac devant les Portes de Durin ?"
+    answers:
+      A: "Lac de Nen Hithoel"
+      B: "Lac du Crépuscule"
+      C: "Lac d'Évrard"
+      D: "Lac Aiguemirroir"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the lake in front of the Doors of Durin?"
+        answers:
+          A: "Lake Nen Hithoel"
+          B: "Twilight Lake"
+          C: "Lake Evendim"
+          D: "Mirrormere"
+    difficulty: HARD
+  - text: "Quel mot d'ordre ouvre la porte de la Moria dans le film de Peter Jackson ?"
+    answers:
+      A: "Amitié"
+      B: "Parler ami et entrer"
+      C: "Ouverture"
+      D: "Mellon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What password opens the door of Moria in Peter Jackson's film?"
+        answers:
+          A: "Friendship"
+          B: "Speak friend and enter"
+          C: "Open"
+          D: "Mellon"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du marais traversé par Frodon, Sam et Gollum après la Moria ?"
+    answers:
+      A: "Champs de Flamme"
+      B: "Nindalf"
+      C: "Marais des Morts"
+      D: "Marais de l'Anduin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the marsh crossed by Frodo, Sam, and Gollum after Moria?"
+        answers:
+          A: "Fields of Flame"
+          B: "Nindalf"
+          C: "Dead Marshes"
+          D: "Marshes of the Anduin"
+    difficulty: HARD
+  - text: "Quel est le nom de la tour de garde du Gondor située sur la colline d'Amon Hen ?"
+    answers:
+      A: "Amon Lhaw"
+      B: "Amon Sûl"
+      C: "Amon Dîn"
+      D: "Amon Hen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the watchtower of Gondor located on the hill of Amon Hen?"
+        answers:
+          A: "Amon Lhaw"
+          B: "Amon Sûl"
+          C: "Amon Dîn"
+          D: "Amon Hen"
+    difficulty: HARD
+  - text: "Quel membre de la Communauté est tué par les Orques lors de la fuite de la Moria ?"
+    answers:
+      A: "Boromir"
+      B: "Aucun"
+      C: "Gandalf"
+      D: "Legolas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which member of the Fellowship is killed by Orcs during the escape from Moria?"
+        answers:
+          A: "Boromir"
+          B: "None"
+          C: "Gandalf"
+          D: "Legolas"
+    difficulty: MEDIUM
+  - text: "Quel personnage livre le corps de Boromir à la barque et lui parle après sa mort ?"
+    answers:
+      A: "Éomer"
+      B: "Legolas"
+      C: "Gimli"
+      D: "Aragorn"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character delivers Boromir's body to the boat and speaks to him after his death?"
+        answers:
+          A: "Éomer"
+          B: "Legolas"
+          C: "Gimli"
+          D: "Aragorn"
+    difficulty: HARD
+  - text: "Quel est le nom de la forteresse naine située sous la Montagne Solitaire dans Le Hobbit ?"
+    answers:
+      A: "Nogrod"
+      B: "Khazad-dûm"
+      C: "Erebor"
+      D: "Belegost"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Dwarven fortress located under the Lonely Mountain in The Hobbit?"
+        answers:
+          A: "Nogrod"
+          B: "Khazad-dûm"
+          C: "Erebor"
+          D: "Belegost"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du corbeau messager de la Montagne Solitaire ?"
+    answers:
+      A: "Thorondor"
+      B: "Carc"
+      C: "Roäc"
+      D: "Gwaihir"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the messenger raven of the Lonely Mountain?"
+        answers:
+          A: "Thorondor"
+          B: "Carc"
+          C: "Roäc"
+          D: "Gwaihir"
+    difficulty: EXPERT
+  - text: "Quel est le nom du géant qui combat Gandalf sur le pont de Khazad-dûm dans la Communauté ?"
+    answers:
+      A: "Gothmog"
+      B: "Durin's Bane"
+      C: "Ungoliant"
+      D: "Carcharoth"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the giant who fights Gandalf on the bridge of Khazad-dûm in the Fellowship?"
+        answers:
+          A: "Gothmog"
+          B: "Durin's Bane"
+          C: "Ungoliant"
+          D: "Carcharoth"
+    difficulty: HARD
+  - text: "Quel est le nom du cheval d'Aragorn ?"
+    answers:
+      A: "Arod"
+      B: "Brego"
+      C: "Hasufel"
+      D: "Pieds-légers"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Aragorn's horse?"
+        answers:
+          A: "Arod"
+          B: "Brego"
+          C: "Hasufel"
+          D: "Pieds-légers"
+    difficulty: HARD
+  - text: "Quel est le véritable nom de l'épée de Boromir ?"
+    answers:
+      A: "Aigle"
+      B: "Hautecoupe"
+      C: "Lame de Gondor"
+      D: "Narsil"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the true name of Boromir's sword?"
+        answers:
+          A: "Aigle"
+          B: "Hautecoupe"
+          C: "Blade of Gondor"
+          D: "Narsil"
+    difficulty: EXPERT
+  - text: "Quel est le nom du cheval de Théoden à la bataille du Pelennor ?"
+    answers:
+      A: "Arod"
+      B: "Griffon"
+      C: "Neige"
+      D: "Brégo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Théoden's horse at the Battle of the Pelennor?"
+        answers:
+          A: "Arod"
+          B: "Griffon"
+          C: "Neige"
+          D: "Brégo"
+    difficulty: EXPERT
+  - text: "Quel personnage est le seigneur de Fondcombe ?"
+    answers:
+      A: "Elrond"
+      B: "Celeborn"
+      C: "Thranduil"
+      D: "Círdan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is the lord of Rivendell?"
+        answers:
+          A: "Elrond"
+          B: "Celeborn"
+          C: "Thranduil"
+          D: "Círdan"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du fils de Denethor qui est tué par les Nazgûl ?"
+    answers:
+      A: "Imrahil"
+      B: "Faramir"
+      C: "Boromir"
+      D: "Beregond"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Denethor's son who is killed by the Nazgûl?"
+        answers:
+          A: "Imrahil"
+          B: "Faramir"
+          C: "Boromir"
+          D: "Beregond"
+    difficulty: HARD
+  - text: "Combien de temps Frodon et Sam ont-ils erré dans les Emyn Muil avant de rencontrer Gollum ?"
+    answers:
+      A: "Quelques heures"
+      B: "Plusieurs jours"
+      C: "Un jour"
+      D: "Une semaine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long did Frodo and Sam wander in the Emyn Muil before meeting Gollum?"
+        answers:
+          A: "A few hours"
+          B: "Several days"
+          C: "One day"
+          D: "One week"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'auberge de Bree où Frodon rencontre Aragorn ?"
+    answers:
+      A: "Le Dragon Vert"
+      B: "La Branche d'Or"
+      C: "Le Poney Fringant"
+      D: "Le Cercle de Pierre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the inn in Bree where Frodo meets Aragorn?"
+        answers:
+          A: "The Green Dragon"
+          B: "The Golden Branch"
+          C: "The Prancing Pony"
+          D: "The Stone Circle"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la rivière qui coule à Fondcombe ?"
+    answers:
+      A: "La Bruinen"
+      B: "L'Anduin"
+      C: "Le Celebrant"
+      D: "Le Gwathló"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the river that flows at Rivendell?"
+        answers:
+          A: "The Bruinen"
+          B: "The Anduin"
+          C: "The Celebrant"
+          D: "The Gwathló"
+    difficulty: HARD
+  - text: "Quelle créature Peter Jackson a-t-il coupée du film alors qu'elle apparaît dans les livres ?"
+    answers:
+      A: "Quickbeam"
+      B: "Radagast"
+      C: "Beregond"
+      D: "Tom Bombadil"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which creature did Peter Jackson cut from the film even though it appears in the books?"
+        answers:
+          A: "Quickbeam"
+          B: "Radagast"
+          C: "Beregond"
+          D: "Tom Bombadil"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'épée de Merry utilisée pour frapper le Roi-Sorcier ?"
+    answers:
+      A: "Lame du Rohan"
+      B: "Dague de Númenor"
+      C: "Épée de la Comté"
+      D: "Aiguillon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Merry's sword used to strike the Witch-king?"
+        answers:
+          A: "Blade of Rohan"
+          B: "Dagger of Númenor"
+          C: "Sword of the Shire"
+          D: "Aiguillon"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi du Rohan qui a prêté serment à Eorl le Jeune ?"
+    answers:
+      A: "Cirion"
+      B: "Théoden"
+      C: "Eorl"
+      D: "Brégo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the king of Rohan who swore an oath to Eorl the Young?"
+        answers:
+          A: "Cirion"
+          B: "Théoden"
+          C: "Eorl"
+          D: "Brégo"
+    difficulty: EXPERT
+  - text: "Quelle est la durée de l'amitié entre Legolas et Gimli ?"
+    answers:
+      A: "Quelques mois"
+      B: "Toute leur vie"
+      C: "Quelques années"
+      D: "Ils ne sont jamais devenus amis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long did the friendship between Legolas and Gimli last?"
+        answers:
+          A: "A few months"
+          B: "Their whole lives"
+          C: "A few years"
+          D: "They never became friends"
+    difficulty: EXPERT
+  - text: "Quel est le nombre d'Oscars remportés par Le Seigneur des Anneaux : Le Retour du Roi ?"
+    answers:
+      A: "13"
+      B: "9"
+      C: "7"
+      D: "11"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Oscars did The Lord of the Rings: The Return of the King win?"
+        answers:
+          A: "13"
+          B: "9"
+          C: "7"
+          D: "11"
+    difficulty: HARD
+  - text: "Quel est le nom de la ville principale du Rohan, capitale du roi Théoden ?"
+    answers:
+      A: "Edoras"
+      B: "Aldburg"
+      C: "Hornburg"
+      D: "Dunharrow"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the main city of Rohan, the capital of King Théoden?"
+        answers:
+          A: "Edoras"
+          B: "Aldburg"
+          C: "Hornburg"
+          D: "Dunharrow"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du mage qui affronte Gandalf à Orthanc ?"
+    answers:
+      A: "Saroumane le Blanc"
+      B: "Radagast le Brun"
+      C: "Alatar le Bleu"
+      D: "Pallando"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the wizard who confronts Gandalf at Orthanc?"
+        answers:
+          A: "Saruman the White"
+          B: "Radagast the Brown"
+          C: "Alatar the Blue"
+          D: "Pallando"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la tour de Sauron au Mordor ?"
+    answers:
+      A: "Minas Morgul"
+      B: "Barad-dûr"
+      C: "Cirith Ungol"
+      D: "Orthanc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Sauron's tower in Mordor?"
+        answers:
+          A: "Minas Morgul"
+          B: "Barad-dûr"
+          C: "Cirith Ungol"
+          D: "Orthanc"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'araignée géante qui attaque Frodon dans Cirith Ungol ?"
+    answers:
+      A: "Arachne"
+      B: "Ungoliant"
+      C: "Shelob"
+      D: "Vif-argent"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the giant spider that attacks Frodo in Cirith Ungol?"
+        answers:
+          A: "Arachne"
+          B: "Ungoliant"
+          C: "Shelob"
+          D: "Vif-argent"
+    difficulty: HARD
+  - text: "Quel est le nom du pommeau de l'épée Andúril ?"
+    answers:
+      A: "Elenion"
+      B: "Argonath"
+      C: "Telchar"
+      D: "Elessar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the hilt of the sword Andúril?"
+        answers:
+          A: "Elenion"
+          B: "Argonath"
+          C: "Telchar"
+          D: "Elessar"
+    difficulty: EXPERT
+  - text: "Quel est le titre du livre VI du Seigneur des Anneaux ?"
+    answers:
+      A: "Le Retour du Roi"
+      B: "La Communauté de l'Anneau"
+      C: "Les Deux Tours"
+      D: "Le Silmarillion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of Book VI of The Lord of the Rings?"
+        answers:
+          A: "The Return of the King"
+          B: "The Fellowship of the Ring"
+          C: "The Two Towers"
+          D: "The Silmarillion"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'arc de Legolas dans les films ?"
+    answers:
+      A: "Cúthalion"
+      B: "Galadhrim"
+      C: "Belthronding"
+      D: "Tauriel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Legolas's bow in the films?"
+        answers:
+          A: "Cúthalion"
+          B: "Galadhrim"
+          C: "Belthronding"
+          D: "Tauriel"
+    difficulty: EXPERT
+  - text: "Quelle actrice incarne Galadriel ?"
+    answers:
+      A: "Liv Tyler"
+      B: "Cate Blanchett"
+      C: "Miranda Otto"
+      D: "Arwen Undómiel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actress plays Galadriel?"
+        answers:
+          A: "Liv Tyler"
+          B: "Cate Blanchett"
+          C: "Miranda Otto"
+          D: "Arwen Undómiel"
+    difficulty: MEDIUM
+  - text: "Quel est le nom complet de l'auberge de Bree ?"
+    answers:
+      A: "Le Poney Vêtu"
+      B: "Le Cheval Blanc"
+      C: "L'Étoile du Nord"
+      D: "Le Dragon Vert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the full name of the inn in Bree?"
+        answers:
+          A: "The Prancing Pony"
+          B: "The White Horse"
+          C: "The North Star"
+          D: "The Green Dragon"
+    difficulty: HARD
+  - text: "Quel fleuve passe à Osgiliath ?"
+    answers:
+      A: "Le Celebrant"
+      B: "L'Anduin"
+      C: "L'Isen"
+      D: "Le Bruinen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which river flows through Osgiliath?"
+        answers:
+          A: "The Celebrant"
+          B: "The Anduin"
+          C: "The Isen"
+          D: "The Bruinen"
+    difficulty: HARD

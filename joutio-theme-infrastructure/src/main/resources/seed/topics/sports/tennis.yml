@@ -1,0 +1,1631 @@
+topic:
+  id: topic-tennis
+  names:
+    fr: "Tennis"
+    en: "Tennis"
+  description: "Le tennis est un sport de raquette qui oppose deux joueurs en simple ou quatre en double, sur un court divisé par un filet. Il se pratique sur gazon, terre battue ou surface dure, et se joue en sets, jeux et points, avec des règles comme le tie-break et l'avantage. Les quatre tournois du Grand Chelem — Open d'Australie, Roland-Garros, Wimbledon et US Open — sont les plus prestigieux."
+  category: SPORTS
+  titles:
+    fr:
+      FER: "Ramasseur de balles"
+      BRONZE: "Joueur du dimanche"
+      ARGENT: "Classé 30/5"
+      OR: "Qualifié en Grand Chelem"
+      PLATINE: "Tête de série"
+      EMERAUDE: "Vainqueur en Grand Chelem"
+      DIAMANT: "Légende du tennis"
+    en:
+      FER: "Ball Boy"
+      BRONZE: "Weekend Hacker"
+      ARGENT: "Club Player"
+      OR: "Grand Slam Qualifier"
+      PLATINE: "Seed"
+      EMERAUDE: "Grand Slam Champion"
+      DIAMANT: "Tennis Legend"
+  imageUrl: wikipedia/sports/Court_Philippe-Chatrier_2023.jpg
+questions:
+  - text: "Quel joueur a remporté le premier tournoi de l'ère Open à Wimbledon en 1968 ?"
+    answers:
+      A: "John Newcombe"
+      B: "Ken Rosewall"
+      C: "Rod Laver"
+      D: "Tony Roche"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the first Open Era tournament at Wimbledon in 1968?"
+        answers:
+          A: "John Newcombe"
+          B: "Ken Rosewall"
+          C: "Rod Laver"
+          D: "Tony Roche"
+    difficulty: HARD
+  - text: "Sur quelle surface se joue Roland-Garros ?"
+    imageUrl: wikipedia/sports/Suzanne_Lenglen_Court,_Roland_Garros,_2_June_2019.jpg
+    answers:
+      A: "Gazon"
+      B: "Terre battue"
+      C: "Dur"
+      D: "Moquette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What surface is Roland-Garros played on?"
+        answers:
+          A: "Grass"
+          B: "Clay"
+          C: "Hard"
+          D: "Carpet"
+    difficulty: EASY
+  - text: "Sur quelle surface se joue Wimbledon ?"
+    imageUrl: wikipedia/sports/Centre_Court,_28_March_2012.jpg
+    answers:
+      A: "Gazon"
+      B: "Terre battue"
+      C: "Dur"
+      D: "Moquette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What surface is Wimbledon played on?"
+        answers:
+          A: "Grass"
+          B: "Clay"
+          C: "Hard"
+          D: "Carpet"
+    difficulty: EASY
+  - text: "En quelle année le tie-break a-t-il été introduit pour la première fois en Grand Chelem ?"
+    answers:
+      A: "1975"
+      B: "1970"
+      C: "1968"
+      D: "1979"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the tie-break first introduced in a Grand Slam?"
+        answers:
+          A: "1975"
+          B: "1970"
+          C: "1968"
+          D: "1979"
+    difficulty: EXPERT
+  - text: "Quelle est la durée du match le plus long de l'histoire de Wimbledon ?"
+    answers:
+      A: "7 heures et 15 minutes"
+      B: "9 heures et 23 minutes"
+      C: "13 heures et 48 minutes"
+      D: "11 heures et 5 minutes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How long was the longest match in Wimbledon history?"
+        answers:
+          A: "7 hours and 15 minutes"
+          B: "9 hours and 23 minutes"
+          C: "13 hours and 48 minutes"
+          D: "11 hours and 5 minutes"
+    difficulty: EXPERT
+  - text: "Qui a remporté le plus de titres en simple messieurs à l'US Open ?"
+    answers:
+      A: "Roger Federer"
+      B: "Jimmy Connors"
+      C: "Pete Sampras"
+      D: "Rafael Nadal"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who has won the most men's singles titles at the US Open?"
+        answers:
+          A: "Roger Federer"
+          B: "Jimmy Connors"
+          C: "Pete Sampras"
+          D: "Rafael Nadal"
+    difficulty: MEDIUM
+  - text: "En quelle année le tennis est-il revenu au programme olympique ?"
+    answers:
+      A: "1984"
+      B: "1992"
+      C: "1988"
+      D: "1996"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did tennis return to the Olympic program?"
+        answers:
+          A: "1984"
+          B: "1992"
+          C: "1988"
+          D: "1996"
+    difficulty: HARD
+  - text: "Quel tournoi est souvent appelé le « cinquième Grand Chelem » ?"
+    answers:
+      A: "Masters de Indian Wells"
+      B: "Coupe Davis"
+      C: "Masters de Rome"
+      D: "Masters de Miami"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which tournament is often called the \"fifth Grand Slam\"?"
+        answers:
+          A: "Indian Wells Masters"
+          B: "Davis Cup"
+          C: "Rome Masters"
+          D: "Miami Masters"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse détient le record de titres en simple dames à Roland-Garros ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Chris Evert"
+      C: "Serena Williams"
+      D: "Justine Henin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player holds the record for most women's singles titles at Roland-Garros?"
+        answers:
+          A: "Steffi Graf"
+          B: "Chris Evert"
+          C: "Serena Williams"
+          D: "Justine Henin"
+    difficulty: MEDIUM
+  - text: "Qui a été le premier joueur non-européen à remporter le Grand Chelem calendaire ?"
+    answers:
+      A: "Fred Perry"
+      B: "Rod Laver"
+      C: "Roy Emerson"
+      D: "Don Budge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first non-European player to win the calendar Grand Slam?"
+        answers:
+          A: "Fred Perry"
+          B: "Rod Laver"
+          C: "Roy Emerson"
+          D: "Don Budge"
+    difficulty: EXPERT
+  - text: "Quelle est la surface du tournoi de Wimbledon ?"
+    answers:
+      A: "Terre battue"
+      B: "Gazon"
+      C: "Dur"
+      D: "Moquette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the surface of the Wimbledon tournament?"
+        answers:
+          A: "Clay"
+          B: "Grass"
+          C: "Hard"
+          D: "Carpet"
+    difficulty: EASY
+  - text: "Combien de jeux faut-il remporter pour gagner un set lors d'un tie-break ?"
+    answers:
+      A: "6"
+      B: "8"
+      C: "5"
+      D: "7"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many games must you win to win a set in a tie-break?"
+        answers:
+          A: "6"
+          B: "8"
+          C: "5"
+          D: "7"
+    difficulty: EASY
+  - text: "Quel joueur a remporté le plus de titres en simple messieurs à Roland-Garros ?"
+    answers:
+      A: "Rafael Nadal"
+      B: "Björn Borg"
+      C: "Henri Cochet"
+      D: "Gustavo Kuerten"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player has won the most men's singles titles at Roland-Garros?"
+        answers:
+          A: "Rafael Nadal"
+          B: "Björn Borg"
+          C: "Henri Cochet"
+          D: "Gustavo Kuerten"
+    difficulty: EASY
+  - text: "En quelle année les femmes ont-elles été autorisées à participer pour la première fois à Wimbledon ?"
+    answers:
+      A: "1884"
+      B: "1900"
+      C: "1919"
+      D: "1922"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year were women first allowed to compete at Wimbledon?"
+        answers:
+          A: "1884"
+          B: "1900"
+          C: "1919"
+          D: "1922"
+    difficulty: EXPERT
+  - text: "Qui a remporté le plus de titres en simple messieurs à l'Open d'Australie ?"
+    answers:
+      A: "Novak Djokovic"
+      B: "Roger Federer"
+      C: "Roy Emerson"
+      D: "Jack Crawford"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who has won the most men's singles titles at the Australian Open?"
+        answers:
+          A: "Novak Djokovic"
+          B: "Roger Federer"
+          C: "Roy Emerson"
+          D: "Jack Crawford"
+    difficulty: MEDIUM
+  - text: "Quel est le premier joueur à avoir remporté les quatre tournois du Grand Chelem sur trois surfaces différentes ?"
+    answers:
+      A: "Rafael Nadal"
+      B: "Roger Federer"
+      C: "Andre Agassi"
+      D: "Novak Djokovic"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the first player to win all four Grand Slam tournaments on three different surfaces?"
+        answers:
+          A: "Rafael Nadal"
+          B: "Roger Federer"
+          C: "Andre Agassi"
+          D: "Novak Djokovic"
+    difficulty: EXPERT
+  - text: "Quelle joueuse a remporté 74 matchs consécutifs sur terre battue ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Chris Evert"
+      C: "Serena Williams"
+      D: "Martina Navratilova"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won 74 consecutive matches on clay?"
+        answers:
+          A: "Steffi Graf"
+          B: "Chris Evert"
+          C: "Serena Williams"
+          D: "Martina Navratilova"
+    difficulty: HARD
+  - text: "Quel tournoi du Grand Chelem utilise des balles jaunes depuis 1972 ?"
+    answers:
+      A: "Open d'Australie"
+      B: "Roland-Garros"
+      C: "Wimbledon"
+      D: "US Open"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Grand Slam tournament has used yellow balls since 1972?"
+        answers:
+          A: "Australian Open"
+          B: "Roland-Garros"
+          C: "Wimbledon"
+          D: "US Open"
+    difficulty: HARD
+  - text: "Qui a été la première tête de série numéro 1 mondiale en simple messieurs ?"
+    answers:
+      A: "Ilie Năstase"
+      B: "John Newcombe"
+      C: "Jimmy Connors"
+      D: "Björn Borg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first world No. 1 seed in men's singles?"
+        answers:
+          A: "Ilie Năstase"
+          B: "John Newcombe"
+          C: "Jimmy Connors"
+          D: "Björn Borg"
+    difficulty: EXPERT
+  - text: "Combien de temps a duré le match le plus long de l'histoire de Roland-Garros ?"
+    answers:
+      A: "6 heures et 33 minutes"
+      B: "4 heures et 15 minutes"
+      C: "5 heures et 12 minutes"
+      D: "7 heures et 8 minutes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How long did the longest match in Roland-Garros history last?"
+        answers:
+          A: "6 hours and 33 minutes"
+          B: "4 hours and 15 minutes"
+          C: "5 hours and 12 minutes"
+          D: "7 hours and 8 minutes"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le Grand Chelem calendaire en 1962 et 1969 ?"
+    answers:
+      A: "Roy Emerson"
+      B: "Rod Laver"
+      C: "Don Budge"
+      D: "Fred Perry"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the calendar Grand Slam in 1962 and 1969?"
+        answers:
+          A: "Roy Emerson"
+          B: "Rod Laver"
+          C: "Don Budge"
+          D: "Fred Perry"
+    difficulty: HARD
+  - text: "Quelle est la seule joueuse à avoir remporté le Grand Chelem calendaire en simple dames ?"
+    answers:
+      A: "Margaret Court"
+      B: "Serena Williams"
+      C: "Steffi Graf"
+      D: "Martina Navratilova"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the only female player to have won the calendar Grand Slam in singles?"
+        answers:
+          A: "Margaret Court"
+          B: "Serena Williams"
+          C: "Steffi Graf"
+          D: "Martina Navratilova"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le tournoi de Wimbledon en 2001 en battant Pete Sampras au 4e tour ?"
+    answers:
+      A: "Marat Safin"
+      B: "Lleyton Hewitt"
+      C: "Goran Ivanisevic"
+      D: "Roger Federer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won Wimbledon in 2001 by beating Pete Sampras in the 4th round?"
+        answers:
+          A: "Marat Safin"
+          B: "Lleyton Hewitt"
+          C: "Goran Ivanisevic"
+          D: "Roger Federer"
+    difficulty: HARD
+  - text: "En quelle année le Hawk-Eye a-t-il été utilisé pour la première fois à l'US Open ?"
+    answers:
+      A: "2004"
+      B: "2006"
+      C: "2008"
+      D: "2010"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was Hawk-Eye first used at the US Open?"
+        answers:
+          A: "2004"
+          B: "2006"
+          C: "2008"
+          D: "2010"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de titres en simple messieurs à l'Open d'Australie ?"
+    answers:
+      A: "Roy Emerson"
+      B: "Andre Agassi"
+      C: "Jack Crawford"
+      D: "Novak Djokovic"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most men's singles titles at the Australian Open?"
+        answers:
+          A: "Roy Emerson"
+          B: "Andre Agassi"
+          C: "Jack Crawford"
+          D: "Novak Djokovic"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté le plus de titres en simple dames à l'US Open ?"
+    answers:
+      A: "Serena Williams"
+      B: "Steffi Graf"
+      C: "Chris Evert"
+      D: "Martina Navratilova"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player has won the most women's singles titles at the US Open?"
+        answers:
+          A: "Serena Williams"
+          B: "Steffi Graf"
+          C: "Chris Evert"
+          D: "Martina Navratilova"
+    difficulty: MEDIUM
+  - text: "Quel tournoi du Grand Chelem a été le premier à instaurer le tie-break dans le set décisif à 6-6 ?"
+    answers:
+      A: "Open d'Australie"
+      B: "Roland-Garros"
+      C: "Wimbledon"
+      D: "US Open"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Grand Slam tournament was the first to introduce the tie-break in the final set at 6-6?"
+        answers:
+          A: "Australian Open"
+          B: "Roland-Garros"
+          C: "Wimbledon"
+          D: "US Open"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté les quatre tournois du Grand Chelem au moins deux fois en simple messieurs ?"
+    answers:
+      A: "Rod Laver"
+      B: "Roger Federer"
+      C: "Rafael Nadal"
+      D: "Novak Djokovic"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player has won all four Grand Slam tournaments at least twice in men's singles?"
+        answers:
+          A: "Rod Laver"
+          B: "Roger Federer"
+          C: "Rafael Nadal"
+          D: "Novak Djokovic"
+    difficulty: EXPERT
+  - text: "Quelle est la durée du match le plus long de l'histoire de l'Open d'Australie ?"
+    answers:
+      A: "4h 58min"
+      B: "5h 53min"
+      C: "5h 14min"
+      D: "6h 12min"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long was the longest match in Australian Open history?"
+        answers:
+          A: "4h 58min"
+          B: "5h 53min"
+          C: "5h 14min"
+          D: "6h 12min"
+    difficulty: EXPERT
+  - text: "Quel joueur a été le premier à remporter un titre du Grand Chelem en simple messieurs en tant que qualifié ?"
+    answers:
+      A: "Marat Safin"
+      B: "Goran Ivanisevic"
+      C: "Albert Costa"
+      D: "Gustavo Kuerten"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who was the first player to win a Grand Slam men's singles title as a qualifier?"
+        answers:
+          A: "Marat Safin"
+          B: "Goran Ivanisevic"
+          C: "Albert Costa"
+          D: "Gustavo Kuerten"
+    difficulty: EXPERT
+  - text: "Quelle joueuse a remporté le tournoi de Roland-Garros en 1997 sans perdre un set ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Iva Majoli"
+      C: "Monica Seles"
+      D: "Arantxa Sánchez Vicario"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the Roland-Garros tournament in 1997 without losing a set?"
+        answers:
+          A: "Steffi Graf"
+          B: "Iva Majoli"
+          C: "Monica Seles"
+          D: "Arantxa Sánchez Vicario"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté la Coupe Davis en 2010 ?"
+    answers:
+      A: "Espagne"
+      B: "Serbie"
+      C: "France"
+      D: "Argentine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won the Davis Cup in 2010?"
+        answers:
+          A: "Spain"
+          B: "Serbia"
+          C: "France"
+          D: "Argentina"
+    difficulty: HARD
+  - text: "Quelle joueuse a détenu le classement de numéro 1 mondiale pendant 377 semaines ?"
+    answers:
+      A: "Martina Navratilova"
+      B: "Serena Williams"
+      C: "Steffi Graf"
+      D: "Chris Evert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player held the world No. 1 ranking for 377 weeks?"
+        answers:
+          A: "Martina Navratilova"
+          B: "Serena Williams"
+          C: "Steffi Graf"
+          D: "Chris Evert"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté le tournoi de Wimbledon en 1985 à l'âge de 17 ans ?"
+    answers:
+      A: "John McEnroe"
+      B: "Stefan Edberg"
+      C: "Boris Becker"
+      D: "Ivan Lendl"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the Wimbledon tournament in 1985 at the age of 17?"
+        answers:
+          A: "John McEnroe"
+          B: "Stefan Edberg"
+          C: "Boris Becker"
+          D: "Ivan Lendl"
+    difficulty: MEDIUM
+  - text: "Quel est le score maximum possible dans un tie-break classique ?"
+    answers:
+      A: "7-5"
+      B: "Illimité"
+      C: "13-11"
+      D: "7-6"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the maximum possible score in a classic tie-break?"
+        answers:
+          A: "7-5"
+          B: "Unlimited"
+          C: "13-11"
+          D: "7-6"
+    difficulty: HARD
+  - text: "Quelle surface était utilisée à l'Open d'Australie avant 1988 ?"
+    answers:
+      A: "Moquette"
+      B: "Terre battue"
+      C: "Dur"
+      D: "Gazon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which surface was used at the Australian Open before 1988?"
+        answers:
+          A: "Carpet"
+          B: "Clay"
+          C: "Hard"
+          D: "Grass"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le plus de titres en double messieurs en Grand Chelem ?"
+    answers:
+      A: "Todd Woodbridge"
+      B: "Bob Bryan"
+      C: "John Newcombe"
+      D: "Mike Bryan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player has won the most Grand Slam men's doubles titles?"
+        answers:
+          A: "Todd Woodbridge"
+          B: "Bob Bryan"
+          C: "John Newcombe"
+          D: "Mike Bryan"
+    difficulty: EXPERT
+  - text: "Quelle joueuse a remporté le Grand Chelem calendaire en simple dames en 1988 ?"
+    answers:
+      A: "Martina Navratilova"
+      B: "Steffi Graf"
+      C: "Serena Williams"
+      D: "Margaret Court"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the calendar-year Grand Slam in women's singles in 1988?"
+        answers:
+          A: "Martina Navratilova"
+          B: "Steffi Graf"
+          C: "Serena Williams"
+          D: "Margaret Court"
+    difficulty: MEDIUM
+  - text: "Quel tournoi du Grand Chelem a introduit le tie-break en 1970 ?"
+    answers:
+      A: "Roland-Garros"
+      B: "Wimbledon"
+      C: "US Open"
+      D: "Open d'Australie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Grand Slam tournament introduced the tie-break in 1970?"
+        answers:
+          A: "Roland-Garros"
+          B: "Wimbledon"
+          C: "US Open"
+          D: "Australian Open"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le tournoi de Roland-Garros en 1983 en battant Mats Wilander en finale ?"
+    answers:
+      A: "Ivan Lendl"
+      B: "Yannick Noah"
+      C: "Jimmy Connors"
+      D: "Björn Borg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the Roland-Garros tournament in 1983 by beating Mats Wilander in the final?"
+        answers:
+          A: "Ivan Lendl"
+          B: "Yannick Noah"
+          C: "Jimmy Connors"
+          D: "Björn Borg"
+    difficulty: EXPERT
+  - text: "Quel est le seul joueur à avoir remporté les quatre tournois du Grand Chelem et les Jeux olympiques en simple messieurs ?"
+    answers:
+      A: "Andre Agassi"
+      B: "Roger Federer"
+      C: "Novak Djokovic"
+      D: "Rafael Nadal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the only player to have won all four Grand Slam tournaments and the Olympic Games in men's singles?"
+        answers:
+          A: "Andre Agassi"
+          B: "Roger Federer"
+          C: "Novak Djokovic"
+          D: "Rafael Nadal"
+    difficulty: HARD
+  - text: "En quelle année le tie-break a-t-il été adopté pour la première fois dans un tournoi du Grand Chelem, et à quel tournoi ?"
+    answers:
+      A: "1970, Wimbledon"
+      B: "1988, US Open"
+      C: "1971, Open d'Australie"
+      D: "1979, Roland-Garros"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the tie-break first adopted in a Grand Slam tournament, and at which tournament?"
+        answers:
+          A: "1970, Wimbledon"
+          B: "1988, US Open"
+          C: "1971, Australian Open"
+          D: "1979, Roland-Garros"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le premier tournoi de l'ère Open à Roland-Garros en 1968 ?"
+    answers:
+      A: "Ken Rosewall"
+      B: "Rod Laver"
+      C: "Roy Emerson"
+      D: "Tony Roche"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the first tournament of the Open Era at Roland-Garros in 1968?"
+        answers:
+          A: "Ken Rosewall"
+          B: "Rod Laver"
+          C: "Roy Emerson"
+          D: "Tony Roche"
+    difficulty: EXPERT
+  - text: "Quelle joueuse a remporté le plus de titres en simple dames à Wimbledon ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Serena Williams"
+      C: "Billie Jean King"
+      D: "Martina Navratilova"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player has won the most women's singles titles at Wimbledon?"
+        answers:
+          A: "Steffi Graf"
+          B: "Serena Williams"
+          C: "Billie Jean King"
+          D: "Martina Navratilova"
+    difficulty: MEDIUM
+  - text: "Quel joueur détient le record du plus grand nombre de titres en simple messieurs à l'US Open ?"
+    answers:
+      A: "Roger Federer"
+      B: "Rafael Nadal"
+      C: "Pete Sampras"
+      D: "Jimmy Connors"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player holds the record for the most men's singles titles at the US Open?"
+        answers:
+          A: "Roger Federer"
+          B: "Rafael Nadal"
+          C: "Pete Sampras"
+          D: "Jimmy Connors"
+    difficulty: MEDIUM
+  - text: "En quelle année le Hawk-Eye a-t-il été utilisé pour la première fois à Wimbledon ?"
+    answers:
+      A: "2006"
+      B: "2004"
+      C: "2008"
+      D: "2010"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was Hawk-Eye first used at Wimbledon?"
+        answers:
+          A: "2006"
+          B: "2004"
+          C: "2008"
+          D: "2010"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le plus de titres en simple messieurs au tournoi de Wimbledon ?"
+    answers:
+      A: "Pete Sampras"
+      B: "Björn Borg"
+      C: "Novak Djokovic"
+      D: "Roger Federer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player has won the most men's singles titles at Wimbledon?"
+        answers:
+          A: "Pete Sampras"
+          B: "Björn Borg"
+          C: "Novak Djokovic"
+          D: "Roger Federer"
+    difficulty: EASY
+  - text: "Quelle joueuse a remporté le plus de titres en simple dames à l'Open d'Australie ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Margaret Court"
+      C: "Serena Williams"
+      D: "Martina Navratilova"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player has won the most women's singles titles at the Australian Open?"
+        answers:
+          A: "Steffi Graf"
+          B: "Margaret Court"
+          C: "Serena Williams"
+          D: "Martina Navratilova"
+    difficulty: MEDIUM
+  - text: "Quel tournoi du Grand Chelem a été le premier à utiliser le tie-break dans le set décisif à 6-6 ?"
+    answers:
+      A: "Wimbledon"
+      B: "Open d'Australie"
+      C: "US Open"
+      D: "Roland-Garros"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Grand Slam tournament was the first to use a tiebreak in the deciding set at 6-6?"
+        answers:
+          A: "Wimbledon"
+          B: "Australian Open"
+          C: "US Open"
+          D: "Roland-Garros"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le premier tournoi de Wimbledon de l'ère Open en 1968 ?"
+    answers:
+      A: "Ken Rosewall"
+      B: "John Newcombe"
+      C: "Tony Roche"
+      D: "Rod Laver"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the first Wimbledon of the Open Era in 1968?"
+        answers:
+          A: "Ken Rosewall"
+          B: "John Newcombe"
+          C: "Tony Roche"
+          D: "Rod Laver"
+    difficulty: EXPERT
+  - text: "Combien de points faut-il pour gagner un jeu décisif de Grand Chelem se terminant 10-8 ?"
+    answers:
+      A: "11"
+      B: "10"
+      C: "9"
+      D: "8"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many points are needed to win a Grand Slam tiebreak ending 10-8?"
+        answers:
+          A: "11"
+          B: "10"
+          C: "9"
+          D: "8"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse a remporté l'Open d'Australie 1971 sans perdre un jeu en finale ?"
+    answers:
+      A: "Billie Jean King"
+      B: "Evonne Goolagong"
+      C: "Margaret Court"
+      D: "Kerry Melville"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the 1971 Australian Open without losing a game in the final?"
+        answers:
+          A: "Billie Jean King"
+          B: "Evonne Goolagong"
+          C: "Margaret Court"
+          D: "Kerry Melville"
+    difficulty: EXPERT
+  - text: "En quelle année la règle du tie-break a-t-elle été introduite pour la première fois à l'US Open ?"
+    answers:
+      A: "1968"
+      B: "1970"
+      C: "1972"
+      D: "1975"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the tiebreak rule first introduced at the US Open?"
+        answers:
+          A: "1968"
+          B: "1970"
+          C: "1972"
+          D: "1975"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de titres en double messieurs en Grand Chelem ?"
+    answers:
+      A: "Mike Bryan"
+      B: "Bob Bryan"
+      C: "John McEnroe"
+      D: "Todd Woodbridge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for the most Grand Slam men's doubles titles?"
+        answers:
+          A: "Mike Bryan"
+          B: "Bob Bryan"
+          C: "John McEnroe"
+          D: "Todd Woodbridge"
+    difficulty: EXPERT
+  - text: "Quel est le score final du set le plus long de l'histoire de Wimbledon (Isner-Mahut, 2010) ?"
+    answers:
+      A: "68-66"
+      B: "70-68"
+      C: "72-70"
+      D: "69-67"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the final score of the longest set in Wimbledon history (Isner-Mahut, 2010)?"
+        answers:
+          A: "68-66"
+          B: "70-68"
+          C: "72-70"
+          D: "69-67"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse a remporté Roland-Garros en 1990 en battant Monica Seles en finale ?"
+    answers:
+      A: "Monica Seles"
+      B: "Arantxa Sánchez Vicario"
+      C: "Steffi Graf"
+      D: "Martina Navratilova"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 1990 by beating Monica Seles in the final?"
+        answers:
+          A: "Monica Seles"
+          B: "Arantxa Sánchez Vicario"
+          C: "Steffi Graf"
+          D: "Martina Navratilova"
+    difficulty: HARD
+  - text: "Quel tournoi du Grand Chelem a été le premier à utiliser le système Hawk-Eye en 2006 ?"
+    answers:
+      A: "US Open"
+      B: "Wimbledon"
+      C: "Open d'Australie"
+      D: "Roland-Garros"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Grand Slam tournament was the first to use the Hawk-Eye system in 2006?"
+        answers:
+          A: "US Open"
+          B: "Wimbledon"
+          C: "Australian Open"
+          D: "Roland-Garros"
+    difficulty: HARD
+  - text: "Quel joueur a remporté l'Open d'Australie en 1988 en battant Pat Cash en finale ?"
+    answers:
+      A: "Stefan Edberg"
+      B: "Mats Wilander"
+      C: "Ivan Lendl"
+      D: "Boris Becker"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the Australian Open in 1988 by beating Pat Cash in the final?"
+        answers:
+          A: "Stefan Edberg"
+          B: "Mats Wilander"
+          C: "Ivan Lendl"
+          D: "Boris Becker"
+    difficulty: EXPERT
+  - text: "Quelle est la couleur des balles de tennis ?"
+    imageUrl: wikipedia/sports/Tennis_ball_01.jpg
+    answers:
+      A: "Jaunes"
+      B: "Oranges"
+      C: "Rouges"
+      D: "Blanches"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What color are tennis balls?"
+        answers:
+          A: "Yellow"
+          B: "Orange"
+          C: "Red"
+          D: "White"
+    difficulty: EASY
+  - text: "Quelle est la seule joueuse à avoir remporté les quatre tournois du Grand Chelem sur trois surfaces différentes ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Serena Williams"
+      C: "Martina Navratilova"
+      D: "Chris Evert"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the only player to have won all four Grand Slam tournaments on three different surfaces?"
+        answers:
+          A: "Steffi Graf"
+          B: "Serena Williams"
+          C: "Martina Navratilova"
+          D: "Chris Evert"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le premier titre du Grand Chelem de sa carrière à l'US Open 2003 ?"
+    answers:
+      A: "Andy Roddick"
+      B: "Juan Carlos Ferrero"
+      C: "Roger Federer"
+      D: "Lleyton Hewitt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the first Grand Slam title of his career at the 2003 US Open?"
+        answers:
+          A: "Andy Roddick"
+          B: "Juan Carlos Ferrero"
+          C: "Roger Federer"
+          D: "Lleyton Hewitt"
+    difficulty: MEDIUM
+  - text: "Combien de temps a duré le match le plus long de l'histoire de Wimbledon (Isner-Mahut) ?"
+    answers:
+      A: "12h15"
+      B: "10h45"
+      C: "11h05"
+      D: "9h55"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How long did the longest match in Wimbledon history (Isner-Mahut) last?"
+        answers:
+          A: "12h15"
+          B: "10h45"
+          C: "11h05"
+          D: "9h55"
+    difficulty: HARD
+  - text: "Quel joueur a remporté Roland-Garros en 1989 à l'âge de 17 ans ?"
+    answers:
+      A: "Pete Sampras"
+      B: "Stefan Edberg"
+      C: "Andre Agassi"
+      D: "Michael Chang"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 1989 at the age of 17?"
+        answers:
+          A: "Pete Sampras"
+          B: "Stefan Edberg"
+          C: "Andre Agassi"
+          D: "Michael Chang"
+    difficulty: EXPERT
+  - text: "Quelle joueuse a remporté l'US Open en 1997 en battant Venus Williams en finale ?"
+    answers:
+      A: "Monica Seles"
+      B: "Lindsay Davenport"
+      C: "Martina Hingis"
+      D: "Steffi Graf"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the 1997 US Open by beating Venus Williams in the final?"
+        answers:
+          A: "Monica Seles"
+          B: "Lindsay Davenport"
+          C: "Martina Hingis"
+          D: "Steffi Graf"
+    difficulty: HARD
+  - text: "Quel est le nombre maximum de jeux dans un set avant le tie-break à l'Open d'Australie ?"
+    answers:
+      A: "13"
+      B: "12"
+      C: "14"
+      D: "15"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the maximum number of games in a set before the tie-break at the Australian Open?"
+        answers:
+          A: "13"
+          B: "12"
+          C: "14"
+          D: "15"
+    difficulty: HARD
+  - text: "Quel joueur a remporté le tournoi de Wimbledon en 1987 en battant Ivan Lendl en finale ?"
+    answers:
+      A: "Stefan Edberg"
+      B: "Boris Becker"
+      C: "Pat Cash"
+      D: "Mats Wilander"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won Wimbledon in 1987 by beating Ivan Lendl in the final?"
+        answers:
+          A: "Stefan Edberg"
+          B: "Boris Becker"
+          C: "Pat Cash"
+          D: "Mats Wilander"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté le plus de titres en double dames en Grand Chelem ?"
+    answers:
+      A: "Venus Williams"
+      B: "Serena Williams"
+      C: "Martina Navratilova"
+      D: "Billie Jean King"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player has won the most Grand Slam women's doubles titles?"
+        answers:
+          A: "Venus Williams"
+          B: "Serena Williams"
+          C: "Martina Navratilova"
+          D: "Billie Jean King"
+    difficulty: EXPERT
+  - text: "Quel joueur a été le premier à remporter un titre du Grand Chelem en simple messieurs en tant que lucky loser ?"
+    answers:
+      A: "Thomas Johansson"
+      B: "Albert Costa"
+      C: "Goran Ivanisevic"
+      D: "Gaston Gaudio"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player was the first to win a men's singles Grand Slam title as a lucky loser?"
+        answers:
+          A: "Thomas Johansson"
+          B: "Albert Costa"
+          C: "Goran Ivanisevic"
+          D: "Gaston Gaudio"
+    difficulty: EXPERT
+  - text: "En quelle année le tie-break a-t-il été introduit pour la première fois à Roland-Garros ?"
+    answers:
+      A: "1973"
+      B: "1980"
+      C: "1977"
+      D: "1975"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the tie-break first introduced at Roland-Garros?"
+        answers:
+          A: "1973"
+          B: "1980"
+          C: "1977"
+          D: "1975"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté l'Open d'Australie en 2005 en battant Lleyton Hewitt en finale ?"
+    answers:
+      A: "Roger Federer"
+      B: "Marat Safin"
+      C: "Andre Agassi"
+      D: "David Nalbandian"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the 2005 Australian Open by beating Lleyton Hewitt in the final?"
+        answers:
+          A: "Roger Federer"
+          B: "Marat Safin"
+          C: "Andre Agassi"
+          D: "David Nalbandian"
+    difficulty: HARD
+  - text: "En quelle année le tie-break a-t-il été introduit pour la première fois dans un tournoi du Grand Chelem ?"
+    answers:
+      A: "1972"
+      B: "1968"
+      C: "1971"
+      D: "1970"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the tie-break first introduced in a Grand Slam tournament?"
+        answers:
+          A: "1972"
+          B: "1968"
+          C: "1971"
+          D: "1970"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le plus de titres en simple messieurs à l'Open d'Australie ?"
+    answers:
+      A: "Novak Djokovic"
+      B: "Roger Federer"
+      C: "Roy Emerson"
+      D: "Andre Agassi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player has won the most men's singles titles at the Australian Open?"
+        answers:
+          A: "Novak Djokovic"
+          B: "Roger Federer"
+          C: "Roy Emerson"
+          D: "Andre Agassi"
+    difficulty: MEDIUM
+  - text: "Qu'appelle-t-on un « smash » au tennis ?"
+    imageUrl: wikipedia/sports/Flickr_-_Carine06_-_Djokovic_overhead.jpg
+    answers:
+      A: "Un service raté"
+      B: "Un coup entre les jambes"
+      C: "Un coup frappé fort au-dessus de la tête"
+      D: "Une balle qui touche le filet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is a 'smash' in tennis?"
+        answers:
+          A: "A missed serve"
+          B: "A shot between the legs"
+          C: "A hard shot hit above the head"
+          D: "A ball that hits the net"
+    difficulty: EASY
+  - text: "Quel joueur a remporté l'US Open en 2003 pour son premier titre du Grand Chelem ?"
+    answers:
+      A: "David Nalbandian"
+      B: "Juan Carlos Ferrero"
+      C: "Andy Roddick"
+      D: "Roger Federer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the 2003 US Open for his first Grand Slam title?"
+        answers:
+          A: "David Nalbandian"
+          B: "Juan Carlos Ferrero"
+          C: "Andy Roddick"
+          D: "Roger Federer"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté trois titres du Grand Chelem en 1969 en simple messieurs ?"
+    answers:
+      A: "Tony Roche"
+      B: "Ken Rosewall"
+      C: "John Newcombe"
+      D: "Rod Laver"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won three Grand Slam titles in 1969 in men's singles?"
+        answers:
+          A: "Tony Roche"
+          B: "Ken Rosewall"
+          C: "John Newcombe"
+          D: "Rod Laver"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté 22 titres du Grand Chelem en simple dames mais n'a jamais gagné à Wimbledon ?"
+    answers:
+      A: "Chris Evert"
+      B: "Serena Williams"
+      C: "Martina Navratilova"
+      D: "Steffi Graf"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won 22 Grand Slam singles titles but never won Wimbledon?"
+        answers:
+          A: "Chris Evert"
+          B: "Serena Williams"
+          C: "Martina Navratilova"
+          D: "Steffi Graf"
+    difficulty: HARD
+  - text: "En quelle année le tie-break a-t-il été introduit pour la première fois dans le set décisif à l'US Open ?"
+    answers:
+      A: "1970"
+      B: "1975"
+      C: "1980"
+      D: "1971"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the tie-break first introduced in the deciding set at the US Open?"
+        answers:
+          A: "1970"
+          B: "1975"
+          C: "1980"
+          D: "1971"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté l'Open d'Australie en 1996 en battant Boris Becker en finale ?"
+    answers:
+      A: "Boris Becker"
+      B: "Andre Agassi"
+      C: "Pete Sampras"
+      D: "Michael Chang"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the Australian Open in 1996 by beating Boris Becker in the final?"
+        answers:
+          A: "Boris Becker"
+          B: "Andre Agassi"
+          C: "Pete Sampras"
+          D: "Michael Chang"
+    difficulty: HARD
+  - text: "Quelle est la seule joueuse à avoir remporté les quatre tournois du Grand Chelem en simple dames sur trois surfaces différentes ?"
+    answers:
+      A: "Serena Williams"
+      B: "Chris Evert"
+      C: "Martina Navratilova"
+      D: "Steffi Graf"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the only female player to have won all four Grand Slam singles titles on three different surfaces?"
+        answers:
+          A: "Serena Williams"
+          B: "Chris Evert"
+          C: "Martina Navratilova"
+          D: "Steffi Graf"
+    difficulty: EXPERT
+  - text: "Quel trophée est remis au vainqueur masculin ?"
+    imageUrl: wikipedia/sports/Coupe_des_Mousquetaires_(cropped).jpg
+    answers:
+      A: "La Coupe des Mousquetaires"
+      B: "La Coupe Davis"
+      C: "Le Trophée des As"
+      D: "Le Trophée Suzanne-Lenglen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which trophy is awarded to the men's winner?"
+        answers:
+          A: "The Musketeers' Cup"
+          B: "The Davis Cup"
+          C: "The Aces' Trophy"
+          D: "The Suzanne Lenglen Trophy"
+    difficulty: EASY
+  - text: "Quelle est la seule joueuse à avoir remporté les quatre tournois du Grand Chelem et les Jeux olympiques en simple dames ?"
+    answers:
+      A: "Serena Williams"
+      B: "Lindsay Davenport"
+      C: "Venus Williams"
+      D: "Steffi Graf"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the only female player to have won all four Grand Slam singles titles and the Olympic singles gold?"
+        answers:
+          A: "Serena Williams"
+          B: "Lindsay Davenport"
+          C: "Venus Williams"
+          D: "Steffi Graf"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté Roland-Garros en 1983 en battant Mats Wilander en finale ?"
+    answers:
+      A: "Ivan Lendl"
+      B: "Yannick Noah"
+      C: "Mats Wilander"
+      D: "Jimmy Connors"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 1983 by beating Mats Wilander in the final?"
+        answers:
+          A: "Ivan Lendl"
+          B: "Yannick Noah"
+          C: "Mats Wilander"
+          D: "Jimmy Connors"
+    difficulty: EXPERT
+  - text: "Quelle joueuse a remporté l'Open d'Australie en 2002 en battant Martina Hingis en finale ?"
+    answers:
+      A: "Venus Williams"
+      B: "Serena Williams"
+      C: "Jennifer Capriati"
+      D: "Lindsay Davenport"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the Australian Open in 2002 by beating Martina Hingis in the final?"
+        answers:
+          A: "Venus Williams"
+          B: "Serena Williams"
+          C: "Jennifer Capriati"
+          D: "Lindsay Davenport"
+    difficulty: HARD
+  - text: "Quel joueur a remporté Roland-Garros en 1997 en battant Sergi Bruguera en finale ?"
+    answers:
+      A: "Albert Costa"
+      B: "Carlos Moya"
+      C: "Juan Carlos Ferrero"
+      D: "Gustavo Kuerten"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 1997 by beating Sergi Bruguera in the final?"
+        answers:
+          A: "Albert Costa"
+          B: "Carlos Moya"
+          C: "Juan Carlos Ferrero"
+          D: "Gustavo Kuerten"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté l'US Open en 2004 en battant Elena Dementieva en finale ?"
+    answers:
+      A: "Maria Sharapova"
+      B: "Svetlana Kuznetsova"
+      C: "Justine Henin"
+      D: "Kim Clijsters"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won the US Open in 2004 by beating Elena Dementieva in the final?"
+        answers:
+          A: "Maria Sharapova"
+          B: "Svetlana Kuznetsova"
+          C: "Justine Henin"
+          D: "Kim Clijsters"
+    difficulty: HARD
+  - text: "Quel joueur a remporté l'Open d'Australie en 1999 en battant Thomas Enqvist en finale ?"
+    answers:
+      A: "Marcelo Rios"
+      B: "Thomas Muster"
+      C: "Ievgueni Kafelnikov"
+      D: "Carlos Moya"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the Australian Open in 1999 by beating Thomas Enqvist in the final?"
+        answers:
+          A: "Marcelo Rios"
+          B: "Thomas Muster"
+          C: "Yevgeny Kafelnikov"
+          D: "Carlos Moya"
+    difficulty: HARD
+  - text: "Quel joueur a remporté Wimbledon en 1996 en battant MaliVai Washington en finale ?"
+    answers:
+      A: "Pete Sampras"
+      B: "Goran Ivanisevic"
+      C: "Richard Krajicek"
+      D: "Boris Becker"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won Wimbledon in 1996 by beating MaliVai Washington in the final?"
+        answers:
+          A: "Pete Sampras"
+          B: "Goran Ivanisevic"
+          C: "Richard Krajicek"
+          D: "Boris Becker"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté Roland-Garros en 1997 en battant Mary Pierce en finale ?"
+    answers:
+      A: "Jana Novotna"
+      B: "Arantxa Sanchez Vicario"
+      C: "Monica Seles"
+      D: "Iva Majoli"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 1997 by beating Mary Pierce in the final?"
+        answers:
+          A: "Jana Novotna"
+          B: "Arantxa Sanchez Vicario"
+          C: "Monica Seles"
+          D: "Iva Majoli"
+    difficulty: HARD
+  - text: "Quel joueur a remporté l'US Open en 1998 en battant Mark Philippoussis en finale ?"
+    answers:
+      A: "Carlos Moya"
+      B: "Pete Sampras"
+      C: "Andre Agassi"
+      D: "Patrick Rafter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the US Open in 1998 by beating Mark Philippoussis in the final?"
+        answers:
+          A: "Carlos Moya"
+          B: "Pete Sampras"
+          C: "Andre Agassi"
+          D: "Patrick Rafter"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté Wimbledon en 1998 en battant Nathalie Tauziat en finale ?"
+    answers:
+      A: "Martina Hingis"
+      B: "Jana Novotna"
+      C: "Lindsay Davenport"
+      D: "Venus Williams"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won Wimbledon in 1998 by beating Nathalie Tauziat in the final?"
+        answers:
+          A: "Martina Hingis"
+          B: "Jana Novotna"
+          C: "Lindsay Davenport"
+          D: "Venus Williams"
+    difficulty: HARD
+  - text: "Quel joueur a remporté l'Open d'Australie en 2002 en battant Marat Safin en finale ?"
+    answers:
+      A: "Thomas Johansson"
+      B: "Roger Federer"
+      C: "Andy Roddick"
+      D: "Lleyton Hewitt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the Australian Open in 2002 by beating Marat Safin in the final?"
+        answers:
+          A: "Thomas Johansson"
+          B: "Roger Federer"
+          C: "Andy Roddick"
+          D: "Lleyton Hewitt"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté l'US Open en 2011 en battant Serena Williams en finale ?"
+    answers:
+      A: "Samantha Stosur"
+      B: "Kim Clijsters"
+      C: "Vera Zvonareva"
+      D: "Caroline Wozniacki"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the US Open in 2011 by beating Serena Williams in the final?"
+        answers:
+          A: "Samantha Stosur"
+          B: "Kim Clijsters"
+          C: "Vera Zvonareva"
+          D: "Caroline Wozniacki"
+    difficulty: HARD
+  - text: "Quel joueur a remporté Wimbledon en 2013 en battant Novak Djokovic en finale ?"
+    answers:
+      A: "Andy Murray"
+      B: "Roger Federer"
+      C: "Rafael Nadal"
+      D: "Juan Martin del Potro"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won Wimbledon in 2013 by beating Novak Djokovic in the final?"
+        answers:
+          A: "Andy Murray"
+          B: "Roger Federer"
+          C: "Rafael Nadal"
+          D: "Juan Martin del Potro"
+    difficulty: MEDIUM
+  - text: "Quel joueur a remporté Roland-Garros en 2004 en battant Guillermo Coria en finale ?"
+    answers:
+      A: "Juan Carlos Ferrero"
+      B: "Rafael Nadal"
+      C: "Gaston Gaudio"
+      D: "Carlos Moya"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 2004 by beating Guillermo Coria in the final?"
+        answers:
+          A: "Juan Carlos Ferrero"
+          B: "Rafael Nadal"
+          C: "Gaston Gaudio"
+          D: "Carlos Moya"
+    difficulty: HARD
+  - text: "Quelle joueuse a remporté l'Open d'Australie en 2008 en battant Ana Ivanovic en finale ?"
+    answers:
+      A: "Justine Henin"
+      B: "Serena Williams"
+      C: "Maria Sharapova"
+      D: "Jelena Jankovic"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player won the Australian Open in 2008 by beating Ana Ivanovic in the final?"
+        answers:
+          A: "Justine Henin"
+          B: "Serena Williams"
+          C: "Maria Sharapova"
+          D: "Jelena Jankovic"
+    difficulty: HARD
+  - text: "Quel joueur a remporté l'US Open en 2009 en battant Rafael Nadal en demi-finale et Roger Federer en finale ?"
+    answers:
+      A: "Andy Roddick"
+      B: "Andy Murray"
+      C: "Novak Djokovic"
+      D: "Juan Martin del Potro"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the US Open in 2009 by beating Rafael Nadal in the semifinal and Roger Federer in the final?"
+        answers:
+          A: "Andy Roddick"
+          B: "Andy Murray"
+          C: "Novak Djokovic"
+          D: "Juan Martin del Potro"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse a remporté Roland-Garros en 2010 en battant Samantha Stosur en finale ?"
+    answers:
+      A: "Francesca Schiavone"
+      B: "Li Na"
+      C: "Maria Sharapova"
+      D: "Svetlana Kuznetsova"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 2010 by beating Samantha Stosur in the final?"
+        answers:
+          A: "Francesca Schiavone"
+          B: "Li Na"
+          C: "Maria Sharapova"
+          D: "Svetlana Kuznetsova"
+    difficulty: HARD
+  - text: "Quel joueur a remporté l'Open d'Australie en 2014 en battant Rafael Nadal en finale ?"
+    answers:
+      A: "Stan Wawrinka"
+      B: "Novak Djokovic"
+      C: "Roger Federer"
+      D: "Andy Murray"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player won the Australian Open in 2014 by beating Rafael Nadal in the final?"
+        answers:
+          A: "Stan Wawrinka"
+          B: "Novak Djokovic"
+          C: "Roger Federer"
+          D: "Andy Murray"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse a remporté Wimbledon en 2004 en battant Serena Williams en finale ?"
+    answers:
+      A: "Lindsay Davenport"
+      B: "Maria Sharapova"
+      C: "Amélie Mauresmo"
+      D: "Justine Henin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won Wimbledon in 2004 by beating Serena Williams in the final?"
+        answers:
+          A: "Lindsay Davenport"
+          B: "Maria Sharapova"
+          C: "Amélie Mauresmo"
+          D: "Justine Henin"
+    difficulty: HARD
+  - text: "Qui a remporté l'Open d'Australie 2021 en simple messieurs ?"
+    answers:
+      A: "Daniil Medvedev"
+      B: "Novak Djokovic"
+      C: "Dominic Thiem"
+      D: "Rafael Nadal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the 2021 Australian Open in men's singles?"
+        answers:
+          A: "Daniil Medvedev"
+          B: "Novak Djokovic"
+          C: "Dominic Thiem"
+          D: "Rafael Nadal"
+    difficulty: EASY

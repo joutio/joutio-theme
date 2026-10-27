@@ -1,0 +1,1626 @@
+topic:
+  id: topic-expressions-et-proverbes
+  names:
+    fr: "Expressions & proverbes"
+    en: "French Idioms & Proverbs"
+  description: "Les proverbes et expressions de la langue française transmettent une sagesse populaire héritée des siècles. Ce thème vous invite à redécouvrir le sens des proverbes classiques, l'origine biblique ou latine de certaines formules, ainsi que les moralistes et fabulistes qui les ont illustrés, d'Ésope à Jean de La Fontaine. Bonne découverte de la richesse des dictons français !"
+  category: EDUCATION
+  titles:
+    fr:
+      FER: "Perroquet Bavard"
+      BRONZE: "Écho du Village"
+      ARGENT: "Conteur du Dimanche"
+      OR: "Fine Plume"
+      PLATINE: "Oracle des Proverbes"
+      EMERAUDE: "Fontaine de Sagesse"
+      DIAMANT: "Bouche d'Or"
+    en:
+      FER: "Chatty Parrot"
+      BRONZE: "Village Echo"
+      ARGENT: "Sunday Storyteller"
+      OR: "Sharp Quill"
+      PLATINE: "Proverb Oracle"
+      EMERAUDE: "Fountain of Wisdom"
+      DIAMANT: "Golden Tongue"
+  imageUrl: wikipedia/education/Hyacinthe_Rigaud_-_Portrait_de_Jean_de_La_Fontaine_(1621-1695),_poete_-_P2441_-_Musee_Carnavalet.jpg
+questions:
+  - text: "Quel proverbe français signifie que des petits avantages successifs valent mieux qu'un gain important mais incertain ?"
+    answers:
+      A: "Petit à petit, l'oiseau fait son nid"
+      B: "Un tiens vaut mieux que deux tu l'auras"
+      C: "Mieux vaut tard que jamais"
+      D: "L'habit ne fait pas le moine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French proverb means that small successive advantages are worth more than a large but uncertain gain?"
+        answers:
+          A: "Little by little, the bird builds its nest"
+          B: "A bird in the hand is worth two in the bush"
+          C: "Better late than never"
+          D: "The habit does not make the monk"
+    difficulty: HARD
+  - text: "Qui a écrit la fable « Le Corbeau et le Renard » ?"
+    answers:
+      A: "Victor Hugo"
+      B: "Charles Perrault"
+      C: "Molière"
+      D: "Jean de La Fontaine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the fable \"The Crow and the Fox\"?"
+        answers:
+          A: "Victor Hugo"
+          B: "Charles Perrault"
+          C: "Molière"
+          D: "Jean de La Fontaine"
+    difficulty: EASY
+  - text: "« Il ne faut pas vendre la peau de l'ours avant de l'avoir tué » est une morale tirée d'une fable de quel auteur ?"
+    answers:
+      A: "Charles Perrault"
+      B: "Ésope"
+      C: "Phèdre"
+      D: "Jean de La Fontaine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "\"Don't sell the bear's skin before you've killed it\" is a moral from a fable by which author?"
+        answers:
+          A: "Charles Perrault"
+          B: "Aesop"
+          C: "Phaedrus"
+          D: "Jean de La Fontaine"
+    difficulty: MEDIUM
+  - text: "Quel proverbe biblique signifie que l'on récolte les conséquences de ses actes ?"
+    answers:
+      A: "Après la pluie, le beau temps"
+      B: "Qui vivra verra"
+      C: "Qui sème le vent récolte la tempête"
+      D: "Il n'y a pas de fumée sans feu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which biblical proverb means that one reaps the consequences of one's actions?"
+        answers:
+          A: "After the rain comes fair weather"
+          B: "He who lives will see"
+          C: "He who sows the wind reaps the whirlwind"
+          D: "There's no smoke without fire"
+    difficulty: HARD
+  - text: "Quel est le sens de l'expression « jeter l'argent par les fenêtres » ?"
+    answers:
+      A: "Refuser un cadeau"
+      B: "Dépenser avec excès et sans profit"
+      C: "Perdre quelque chose de précieux"
+      D: "Investir judicieusement"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the meaning of the expression \"to throw money out the window\"?"
+        answers:
+          A: "To refuse a gift"
+          B: "To spend excessively and without profit"
+          C: "To lose something precious"
+          D: "To invest wisely"
+    difficulty: EASY
+  - text: "Dans quelle fable de La Fontaine trouve-t-on la morale « On rencontre sa destinée souvent par des chemins qu'on prend pour l'éviter » ?"
+    answers:
+      A: "Le Curé et le Mort"
+      B: "Le Coche et la Mouche"
+      C: "L'Horoscope"
+      D: "La Laitière et le Pot au lait"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which fable by La Fontaine do we find the moral \"One often meets one's destiny by the paths one takes to avoid it\"?"
+        answers:
+          A: "The Curate and the Dead Man"
+          B: "The Coach and the Fly"
+          C: "The Horoscope"
+          D: "The Milkmaid and the Pot of Milk"
+    difficulty: EXPERT
+  - text: "Quel proverbe signifie qu'il faut s'occuper de ses propres affaires avant celles des autres ?"
+    answers:
+      A: "Qui trop embrasse mal étreint"
+      B: "Les cordonniers sont les plus mal chaussés"
+      C: "Il faut balayer devant sa porte"
+      D: "Charité bien ordonnée commence par soi-même"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which proverb means that one should mind one's own business before others'?"
+        answers:
+          A: "He who grasps too much holds it poorly"
+          B: "Cobblers' children go barefoot"
+          C: "You must sweep in front of your own door"
+          D: "Well-ordered charity begins at home"
+    difficulty: HARD
+  - text: "Qui a écrit la pièce « Le Médecin malgré lui » où l'on trouve l'expression « battre le fer pendant qu'il est chaud » ?"
+    answers:
+      A: "Jean de La Fontaine"
+      B: "Jean Racine"
+      C: "Pierre Corneille"
+      D: "Molière"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the play \"The Doctor in Spite of Himself,\" where the expression \"strike while the iron is hot\" appears?"
+        answers:
+          A: "Jean de La Fontaine"
+          B: "Jean Racine"
+          C: "Pierre Corneille"
+          D: "Molière"
+    difficulty: EXPERT
+  - text: "Quel proverbe conseille de ne pas se réjouir trop vite d'un succès non encore acquis ?"
+    answers:
+      A: "Avec des si on mettrait Paris en bouteille"
+      B: "C'est dans les vieux pots qu'on fait la bonne soupe"
+      C: "L'habit ne fait pas le moine"
+      D: "Il ne faut pas crier victoire trop tôt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which proverb advises not to rejoice too soon over a success not yet achieved?"
+        answers:
+          A: "With ifs you could put Paris in a bottle"
+          B: "It's in old pots that good soup is made"
+          C: "The habit does not make the monk"
+          D: "Don't crow victory too soon"
+    difficulty: HARD
+  - text: "Quel est le sens de l'expression « avoir le bras long » ?"
+    answers:
+      A: "Être généreux"
+      B: "Être très grand"
+      C: "Avoir du mal à atteindre quelque chose"
+      D: "Avoir de l'influence, des relations utiles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the meaning of the expression \"to have a long arm\"?"
+        answers:
+          A: "To be generous"
+          B: "To be very tall"
+          C: "To have trouble reaching something"
+          D: "To have influence, useful connections"
+    difficulty: MEDIUM
+  - text: "« La raison du plus fort est toujours la meilleure » est la morale d'une fable de quel auteur ?"
+    answers:
+      A: "Phèdre"
+      B: "Ésope"
+      C: "Jean de La Fontaine"
+      D: "Victor Hugo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "\"The reason of the strongest is always the best\" is the moral of a fable by which author?"
+        answers:
+          A: "Phaedrus"
+          B: "Aesop"
+          C: "Jean de La Fontaine"
+          D: "Victor Hugo"
+    difficulty: EASY
+  - text: "Quel proverbe signifie qu'il ne faut pas se fier aux apparences ?"
+    answers:
+      A: "Pierre qui roule n'amasse pas mousse"
+      B: "L'habit ne fait pas le moine"
+      C: "Qui se ressemble s'assemble"
+      D: "Tel père, tel fils"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which proverb means that one should not trust appearances?"
+        answers:
+          A: "A rolling stone gathers no moss"
+          B: "The habit does not make the monk"
+          C: "Birds of a feather flock together"
+          D: "Like father, like son"
+    difficulty: HARD
+  - text: "Qui est l'auteur de la maxime « Le mieux est l'ennemi du bien » ?"
+    answers:
+      A: "Montesquieu"
+      B: "Voltaire"
+      C: "La Rochefoucauld"
+      D: "Blaise Pascal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the author of the maxim \"The best is the enemy of the good\"?"
+        answers:
+          A: "Montesquieu"
+          B: "Voltaire"
+          C: "La Rochefoucauld"
+          D: "Blaise Pascal"
+    difficulty: EXPERT
+  - text: "Dans quelle fable La Fontaine écrit-il « Rien ne sert de courir ; il faut partir à point » ?"
+    answers:
+      A: "Le Lièvre et la Tortue"
+      B: "Le Renard et la Cigogne"
+      C: "La Cigale et la Fourmi"
+      D: "Le Loup et l'Agneau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which fable does La Fontaine write \"It is useless to run; one must start on time\"?"
+        answers:
+          A: "The Hare and the Tortoise"
+          B: "The Fox and the Stork"
+          C: "The Cicada and the Ant"
+          D: "The Wolf and the Lamb"
+    difficulty: HARD
+  - text: "Que signifie l'expression « se jeter dans la gueule du loup » ?"
+    answers:
+      A: "S'exposer volontairement à un grand danger"
+      B: "Manger gloutonnement"
+      C: "Parler avec violence"
+      D: "Se cacher pour mieux surprendre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the expression \"to throw oneself into the wolf's mouth\" mean?"
+        answers:
+          A: "To voluntarily expose oneself to great danger"
+          B: "To eat greedily"
+          C: "To speak violently"
+          D: "To hide in order to surprise better"
+    difficulty: MEDIUM
+  - text: "De quel recueil de fables Jean de La Fontaine s'est-il inspiré pour écrire ses premières fables ?"
+    answers:
+      A: "Les Caractères de La Bruyère"
+      B: "Les Contes de Perrault"
+      C: "Les Métamorphoses d'Ovide"
+      D: "Les Fables d'Ésope"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which collection of fables did Jean de La Fontaine draw on to write his first fables?"
+        answers:
+          A: "La Bruyère's Characters"
+          B: "Perrault's Tales"
+          C: "Ovid's Metamorphoses"
+          D: "Aesop's Fables"
+    difficulty: EXPERT
+  - text: "Quel proverbe signifie qu'il faut profiter de l'occasion quand elle se présente ?"
+    answers:
+      A: "Qui vivra verra"
+      B: "Après la pluie, le beau temps"
+      C: "Il faut battre le fer pendant qu'il est chaud"
+      D: "Il n'y a pas de fumée sans feu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which proverb means you should seize the opportunity when it arises?"
+        answers:
+          A: "He who lives will see"
+          B: "After the rain comes fair weather"
+          C: "Strike while the iron is hot"
+          D: "There's no smoke without fire"
+    difficulty: HARD
+  - text: "Que signifie l'expression « tirer les marrons du feu » ?"
+    answers:
+      A: "Provoquer un conflit"
+      B: "Réussir brillamment une entreprise"
+      C: "Se faire duper en accomplissant une tâche dangereuse au profit d'un autre"
+      D: "Se reposer sur ses lauriers"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the expression \"tirer les marrons du feu\" mean?"
+        answers:
+          A: "To provoke a conflict"
+          B: "To brilliantly succeed in an endeavor"
+          C: "To be duped into doing a dangerous task for someone else's benefit"
+          D: "To rest on one's laurels"
+    difficulty: EXPERT
+  - text: "Dans quelle fable La Fontaine écrit-il « On a souvent besoin d'un plus petit que soi » ?"
+    answers:
+      A: "Le Lion et le Rat"
+      B: "La Colombe et la Fourmi"
+      C: "Le Rat et l'Éléphant"
+      D: "Le Loup et le Chien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which fable does La Fontaine write \"On a souvent besoin d'un plus petit que soi\"?"
+        answers:
+          A: "The Lion and the Rat"
+          B: "The Dove and the Ant"
+          C: "The Rat and the Elephant"
+          D: "The Wolf and the Dog"
+    difficulty: HARD
+  - text: "Quel proverbe signifie qu'il ne faut pas compter sur un seul moyen pour réussir ?"
+    answers:
+      A: "Il ne faut pas mettre tous ses œufs dans le même panier"
+      B: "Qui trop embrasse mal étreint"
+      C: "L'union fait la force"
+      D: "Petit à petit, l'oiseau fait son nid"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which proverb means you shouldn't rely on a single means to succeed?"
+        answers:
+          A: "Don't put all your eggs in one basket"
+          B: "He who grasps too much holds it poorly"
+          C: "Union makes strength"
+          D: "Little by little, the bird builds its nest"
+    difficulty: HARD
+  - text: "Complétez : « À bon chat, bon ... »"
+    answers:
+      A: "vin"
+      B: "chien"
+      C: "pain"
+      D: "rat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Complete: \"À bon chat, bon ...\""
+        answers:
+          A: "vin"
+          B: "chien"
+          C: "pain"
+          D: "rat"
+    difficulty: EASY
+  - text: "Quel proverbe signifie qu'on reconnaît la valeur de quelqu'un à ses actes ?"
+    answers:
+      A: "L'habit ne fait pas le moine"
+      B: "Tel père, tel fils"
+      C: "À l'œuvre on connaît l'artisan"
+      D: "Qui se ressemble s'assemble"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which proverb means a person's worth is recognized by their deeds?"
+        answers:
+          A: "The habit does not make the monk"
+          B: "Like father, like son"
+          C: "By the work one knows the craftsman"
+          D: "Birds of a feather flock together"
+    difficulty: HARD
+  - text: "Complétez : « Pierre qui roule n'amasse pas ... »"
+    answers:
+      A: "d'or"
+      B: "de sable"
+      C: "de mousse"
+      D: "de terre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: \"Pierre qui roule n'amasse pas ...\""
+        answers:
+          A: "d'or"
+          B: "de sable"
+          C: "de mousse"
+          D: "de terre"
+    difficulty: EASY
+  - text: "Quelle est l'origine du proverbe « Prudence est mère de sûreté » ?"
+    answers:
+      A: "Un adage latin médiéval"
+      B: "Un proverbe biblique"
+      C: "Une fable de La Fontaine"
+      D: "Un dicton de Rabelais"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the origin of the proverb \"Prudence est mère de sûreté\"?"
+        answers:
+          A: "A medieval Latin adage"
+          B: "A biblical proverb"
+          C: "A fable by La Fontaine"
+          D: "A saying by Rabelais"
+    difficulty: EXPERT
+  - text: "Complétez : « Faute avouée est à moitié ... »"
+    answers:
+      A: "pardonnée"
+      B: "punie"
+      C: "réparée"
+      D: "oubliée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Complete: \"Faute avouée est à moitié ...\""
+        answers:
+          A: "pardonnée"
+          B: "punie"
+          C: "réparée"
+          D: "oubliée"
+    difficulty: EASY
+  - text: "Que signifie « avoir maille à partir avec quelqu'un » ?"
+    answers:
+      A: "Partager un héritage"
+      B: "Avoir un différend avec lui"
+      C: "Lui devoir de l'argent"
+      D: "Faire route commune"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does \"avoir maille à partir avec quelqu'un\" mean?"
+        answers:
+          A: "To share an inheritance"
+          B: "To have a dispute with someone"
+          C: "To owe someone money"
+          D: "To travel a common road"
+    difficulty: EXPERT
+  - text: "Complétez : « La faim chasse le loup hors du ... »"
+    answers:
+      A: "chemin"
+      B: "bois"
+      C: "village"
+      D: "nid"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Complete: \"La faim chasse le loup hors du ...\""
+        answers:
+          A: "chemin"
+          B: "bois"
+          C: "village"
+          D: "nid"
+    difficulty: MEDIUM
+  - text: "D'où vient l'expression « toucher du bois » ?"
+    answers:
+      A: "Superstition des marins bretons"
+      B: "Croyance antique liée aux arbres sacrés"
+      C: "Rite funéraire romain"
+      D: "Coutume des charpentiers du Moyen Âge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where does the expression \"toucher du bois\" come from?"
+        answers:
+          A: "A superstition of Breton sailors"
+          B: "An ancient belief linked to sacred trees"
+          C: "A Roman funeral rite"
+          D: "A custom of medieval carpenters"
+    difficulty: EXPERT
+  - text: "Que signifie « jeter de la poudre aux yeux » ?"
+    answers:
+      A: "Éblouir par de fausses apparences"
+      B: "Jeter un sort"
+      C: "Brouiller les pistes d'un crime"
+      D: "Lancer un défi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does \"jeter de la poudre aux yeux\" mean?"
+        answers:
+          A: "To dazzle with false appearances"
+          B: "To cast a spell"
+          C: "To cover up the tracks of a crime"
+          D: "To throw down a challenge"
+    difficulty: MEDIUM
+  - text: "Complétez : « Charbonnier est maître chez ... »"
+    answers:
+      A: "lui"
+      B: "son toit"
+      C: "soi"
+      D: "les siens"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: \"Charbonnier est maître chez ...\""
+        answers:
+          A: "lui"
+          B: "son toit"
+          C: "soi"
+          D: "les siens"
+    difficulty: HARD
+  - text: "Que signifie « appeler un chat un chat » ?"
+    answers:
+      A: "Éviter un sujet gênant"
+      B: "Se moquer des animaux"
+      C: "Parler par énigmes"
+      D: "Dire les choses franchement"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does \"call a spade a spade\" mean?"
+        answers:
+          A: "To avoid an awkward topic"
+          B: "To make fun of animals"
+          C: "To speak in riddles"
+          D: "To speak frankly"
+    difficulty: MEDIUM
+  - text: "Quel proverbe signifie qu'il faut se méfier des apparences trompeuses de la richesse ?"
+    answers:
+      A: "Bien mal acquis ne profite jamais"
+      B: "L'habit ne fait pas le moine"
+      C: "La fortune sourit aux audacieux"
+      D: "L'argent ne fait pas le bonheur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which proverb means you should be wary of the deceptive appearances of wealth?"
+        answers:
+          A: "Ill-gotten gains never prosper"
+          B: "Clothes don't make the man"
+          C: "Fortune favors the bold"
+          D: "Money doesn't buy happiness"
+    difficulty: HARD
+  - text: "Complétez : « Qui trop embrasse mal ... »"
+    answers:
+      A: "étreint"
+      B: "embrasse"
+      C: "serre"
+      D: "tient"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Complete: \"He who grasps too much, holds ...\""
+        answers:
+          A: "tightly"
+          B: "embraces"
+          C: "clutches"
+          D: "keeps"
+    difficulty: MEDIUM
+  - text: "D'où vient l'expression « épée de Damoclès » ?"
+    answers:
+      A: "Une légende romaine"
+      B: "Un mythe grec"
+      C: "Un épisode biblique"
+      D: "Un conte de fées"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where does the expression \"sword of Damocles\" come from?"
+        answers:
+          A: "A Roman legend"
+          B: "A Greek myth"
+          C: "A biblical episode"
+          D: "A fairy tale"
+    difficulty: EXPERT
+  - text: "Que signifie « faire la part du feu » ?"
+    answers:
+      A: "Éteindre un incendie"
+      B: "Allumer un feu de camp"
+      C: "Partager équitablement"
+      D: "Sacrifier une partie pour sauver le tout"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does \"make the part of the fire\" mean?"
+        answers:
+          A: "To put out a fire"
+          B: "To light a campfire"
+          C: "To share fairly"
+          D: "To sacrifice a part to save the whole"
+    difficulty: EXPERT
+  - text: "Complétez : « Il n'est pire sourd que celui qui ne veut pas ... »"
+    answers:
+      A: "parler"
+      B: "écouter"
+      C: "entendre"
+      D: "croire"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: \"There is none so deaf as he who will not ...\""
+        answers:
+          A: "speak"
+          B: "listen"
+          C: "hear"
+          D: "believe"
+    difficulty: MEDIUM
+  - text: "Quel proverbe signifie que l'on subit les conséquences de ses mauvaises fréquentations ?"
+    answers:
+      A: "Qui se couche avec les chiens se lève avec des puces"
+      B: "Les murs ont des oreilles"
+      C: "Il faut hurler avec les loups"
+      D: "Près de l'arbre, la feuille"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which proverb means you suffer the consequences of keeping bad company?"
+        answers:
+          A: "He who lies down with dogs gets up with fleas"
+          B: "Walls have ears"
+          C: "When in Rome, do as the Romans do"
+          D: "The apple doesn't fall far from the tree"
+    difficulty: HARD
+  - text: "D'où vient l'expression « tirer le diable par la queue » ?"
+    answers:
+      A: "Elle signifie braver Satan"
+      B: "Elle signifie vivre dans la misère"
+      C: "Elle signifie arracher un secret"
+      D: "Elle signifie danser le sabbat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where does the expression \"pull the devil by the tail\" come from?"
+        answers:
+          A: "It means defying Satan"
+          B: "It means living in poverty"
+          C: "It means extracting a secret"
+          D: "It means dancing the sabbath"
+    difficulty: EXPERT
+  - text: "Complétez : « C'est la fin des ... » (fin d'une chose)"
+    answers:
+      A: "temps"
+      B: "haricots"
+      C: "chemins"
+      D: "plaisirs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Complete: \"That's the end of the ...\" (end of something)"
+        answers:
+          A: "times"
+          B: "beans"
+          C: "roads"
+          D: "pleasures"
+    difficulty: MEDIUM
+  - text: "Quel proverbe signifie qu'il ne faut pas se fier à un seul indice ?"
+    answers:
+      A: "Bon sang ne saurait mentir"
+      B: "Loiseau pris par le bec"
+      C: "La nuit porte conseil"
+      D: "Une hirondelle ne fait pas le printemps"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which proverb means you shouldn't rely on a single clue?"
+        answers:
+          A: "Good blood cannot lie"
+          B: "The bird caught by the beak"
+          C: "Night brings counsel"
+          D: "One swallow does not make a spring"
+    difficulty: HARD
+  - text: "De quelle langue vient l'expression « carpe diem » ?"
+    answers:
+      A: "Le grec ancien"
+      B: "L'espagnol"
+      C: "L'italien"
+      D: "Le latin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "From which language does the expression \"carpe diem\" come?"
+        answers:
+          A: "Ancient Greek"
+          B: "Spanish"
+          C: "Italian"
+          D: "Latin"
+    difficulty: HARD
+  - text: "Qui a écrit la fable « Le Chêne et le Roseau » ?"
+    answers:
+      A: "Ésope"
+      B: "Jean de La Fontaine"
+      C: "Phèdre"
+      D: "Charles Perrault"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the fable \"The Oak and the Reed\"?"
+        answers:
+          A: "Aesop"
+          B: "Jean de La Fontaine"
+          C: "Phaedrus"
+          D: "Charles Perrault"
+    difficulty: MEDIUM
+  - text: "Que signifie l'expression « être à la tête du client » ?"
+    answers:
+      A: "S'occuper de ses clients"
+      B: "Diriger une entreprise"
+      C: "Traiter les gens selon leur apparence"
+      D: "Avoir mal à la tête"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the expression \"be at the head of the client\" mean?"
+        answers:
+          A: "To take care of one's clients"
+          B: "To run a company"
+          C: "To treat people according to their appearance"
+          D: "To have a headache"
+    difficulty: EXPERT
+  - text: "Complétez : « Il faut tourner sept fois sa langue dans sa ... avant de parler. »"
+    answers:
+      A: "tête"
+      B: "poche"
+      C: "bouche"
+      D: "main"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: \"You must turn your tongue seven times in your ... before speaking.\""
+        answers:
+          A: "head"
+          B: "pocket"
+          C: "mouth"
+          D: "hand"
+    difficulty: MEDIUM
+  - text: "Quel proverbe signifie que l'argent gagné facilement se dépense tout aussi facilement ?"
+    answers:
+      A: "L'argent ne fait pas le bonheur"
+      B: "L'argent est un bon serviteur et un mauvais maître"
+      C: "Les bons comptes font les bons amis"
+      D: "Ce qui vient de la flûte s'en va au tambour"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which proverb means that money earned easily is spent just as easily?"
+        answers:
+          A: "Money doesn't buy happiness"
+          B: "Money is a good servant and a bad master"
+          C: "Short reckonings make long friends"
+          D: "Easy come, easy go"
+    difficulty: HARD
+  - text: "Que signifie l'expression « jeter de la poudre aux yeux » ?"
+    answers:
+      A: "Éblouir pour tromper"
+      B: "Aveugler quelqu'un"
+      C: "Se maquiller"
+      D: "Provoquer une bagarre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the expression \"jeter de la poudre aux yeux\" mean?"
+        answers:
+          A: "To dazzle in order to deceive"
+          B: "To blind someone"
+          C: "To put on makeup"
+          D: "To start a fight"
+    difficulty: HARD
+  - text: "Que signifie l'expression « appeler un chat un chat » ?"
+    answers:
+      A: "Se moquer des animaux"
+      B: "Donner un surnom"
+      C: "Dire les choses franchement"
+      D: "Parler à voix basse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the expression \"appeler un chat un chat\" mean?"
+        answers:
+          A: "To make fun of animals"
+          B: "To give a nickname"
+          C: "To speak frankly"
+          D: "To speak in a low voice"
+    difficulty: MEDIUM
+  - text: "Quel proverbe signifie qu'il ne faut pas se fier aux apparences trompeuses de la richesse ?"
+    answers:
+      A: "L'or ne brille pas toujours"
+      B: "Il ne faut pas juger sur la mine"
+      C: "L'habit ne fait pas le moine"
+      D: "Les apparences sont trompeuses"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which proverb means you shouldn't trust the deceptive appearances of wealth?"
+        answers:
+          A: "Gold does not always shine"
+          B: "You shouldn't judge by appearances"
+          C: "The habit does not make the monk"
+          D: "Appearances are deceiving"
+    difficulty: EXPERT
+  - text: "Que signifie l'expression « faire la part du feu » ?"
+    answers:
+      A: "Partager un butin"
+      B: "Allumer un incendie"
+      C: "Sacrifier une partie pour sauver le tout"
+      D: "Éteindre un incendie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the expression \"faire la part du feu\" mean?"
+        answers:
+          A: "To share loot"
+          B: "To start a fire"
+          C: "To sacrifice a part to save the whole"
+          D: "To put out a fire"
+    difficulty: EXPERT
+  - text: "Complétez : « C'est la fin des ... »"
+    answers:
+      A: "haricots"
+      B: "temps"
+      C: "jours"
+      D: "choses"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Complete: \"C'est la fin des ...\""
+        answers:
+          A: "beans"
+          B: "times"
+          C: "days"
+          D: "things"
+    difficulty: MEDIUM
+  - text: "De quelle œuvre de Rabelais est issue l'expression « rompre l'anguille au genou » ?"
+    answers:
+      A: "Pantagruel"
+      B: "Gargantua"
+      C: "Le Tiers Livre"
+      D: "Le Quart Livre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "From which work by Rabelais does the expression \"rompre l'anguille au genou\" come?"
+        answers:
+          A: "Pantagruel"
+          B: "Gargantua"
+          C: "Le Tiers Livre"
+          D: "Le Quart Livre"
+    difficulty: EXPERT
+  - text: "Complétez : « Qui s'excuse s'... »"
+    answers:
+      A: "accuse"
+      B: "justifie"
+      C: "défend"
+      D: "explique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Complete: \"Qui s'excuse s'...\""
+        answers:
+          A: "accuses"
+          B: "justifies"
+          C: "defends"
+          D: "explains"
+    difficulty: EASY
+  - text: "Complétez : « À bon entendeur, ... »"
+    answers:
+      A: "merci"
+      B: "salut"
+      C: "bonjour"
+      D: "adieu"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Complete: \"À bon entendeur, ...\""
+        answers:
+          A: "thanks"
+          B: "greetings"
+          C: "hello"
+          D: "farewell"
+    difficulty: MEDIUM
+  - text: "Que signifie l'expression « avoir le compas dans l'œil » ?"
+    answers:
+      A: "Avoir une vision perçante"
+      B: "Évaluer une distance avec précision"
+      C: "Avoir un œil qui louche"
+      D: "Être myope"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the expression \"avoir le compas dans l'œil\" mean?"
+        answers:
+          A: "To have keen eyesight"
+          B: "To estimate a distance accurately"
+          C: "To be cross-eyed"
+          D: "To be nearsighted"
+    difficulty: HARD
+  - text: "Complétez : « Il ne faut pas cracher dans la soupe, car on pourrait avoir ... »"
+    answers:
+      A: "à en manger"
+      B: "soif"
+      C: "faim"
+      D: "mal au ventre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Complete: \"Il ne faut pas cracher dans la soupe, car on pourrait avoir ...\""
+        answers:
+          A: "some to eat"
+          B: "thirst"
+          C: "hunger"
+          D: "a stomachache"
+    difficulty: HARD
+  - text: "D'où vient l'expression « être pauvre comme Job » ?"
+    answers:
+      A: "D'un personnage de Molière"
+      B: "D'un conte de Perrault"
+      C: "De la Bible"
+      D: "D'une fable de La Fontaine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where does the expression \"être pauvre comme Job\" come from?"
+        answers:
+          A: "From a character in Molière"
+          B: "From a tale by Perrault"
+          C: "From the Bible"
+          D: "From a fable by La Fontaine"
+    difficulty: EXPERT
+  - text: "Que signifie « faire chou blanc » ?"
+    answers:
+      A: "Échouer, ne pas atteindre son but"
+      B: "Réussir brillamment"
+      C: "Manger trop de choux"
+      D: "Avoir peur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does \"faire chou blanc\" mean?"
+        answers:
+          A: "To fail, to miss one's goal"
+          B: "To succeed brilliantly"
+          C: "To eat too much cabbage"
+          D: "To be afraid"
+    difficulty: HARD
+  - text: "Complétez : « Qui terre a, guerre ... »"
+    answers:
+      A: "gagne"
+      B: "perd"
+      C: "a"
+      D: "fuit"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: \"Qui terre a, guerre ...\""
+        answers:
+          A: "wins"
+          B: "loses"
+          C: "has"
+          D: "flees"
+    difficulty: EXPERT
+  - text: "Quelle est l'origine de l'expression « être riche comme Crésus » ?"
+    answers:
+      A: "Un pharaon égyptien"
+      B: "Un empereur romain"
+      C: "Un marchand vénitien"
+      D: "Un roi légendaire de Lydie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the origin of the expression \"être riche comme Crésus\"?"
+        answers:
+          A: "An Egyptian pharaoh"
+          B: "A Roman emperor"
+          C: "A Venetian merchant"
+          D: "A legendary king of Lydia"
+    difficulty: EXPERT
+  - text: "Que signifie « avoir une faim de loup » ?"
+    answers:
+      A: "Manger salement"
+      B: "Avoir très faim"
+      C: "Dévorer ses adversaires"
+      D: "Avoir peur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does \"avoir une faim de loup\" mean?"
+        answers:
+          A: "To eat messily"
+          B: "To be very hungry"
+          C: "To devour one's opponents"
+          D: "To be afraid"
+    difficulty: EASY
+  - text: "Complétez : « La nuit porte ... »"
+    answers:
+      A: "chance"
+      B: "peur"
+      C: "malheur"
+      D: "conseil"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Complete: “The night brings ...”"
+        answers:
+          A: "luck"
+          B: "fear"
+          C: "misfortune"
+          D: "advice"
+    difficulty: MEDIUM
+  - text: "D'où vient l'expression « franchir le Rubicon » ?"
+    answers:
+      A: "D'une rivière en Gaule"
+      B: "D'un fleuve que César traversa avec son armée"
+      C: "D'un pont de Paris"
+      D: "D'une montagne des Alpes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where does the expression “crossing the Rubicon” come from?"
+        answers:
+          A: "From a river in Gaul"
+          B: "From a river Caesar crossed with his army"
+          C: "From a bridge in Paris"
+          D: "From a mountain in the Alps"
+    difficulty: EXPERT
+  - text: "Que signifie le proverbe « Pierre qui roule n'amasse pas mousse » ?"
+    answers:
+      A: "Il faut voyager pour s'enrichir"
+      B: "On ne s'enrichit pas en changeant souvent d'activité"
+      C: "Les pierres sont stériles"
+      D: "Il faut rester chez soi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the proverb “A rolling stone gathers no moss” mean?"
+        answers:
+          A: "You have to travel to get rich"
+          B: "You don't get rich by constantly changing activities"
+          C: "Stones are barren"
+          D: "You should stay at home"
+    difficulty: MEDIUM
+  - text: "Complétez : « Mieux vaut tard que ... »"
+    answers:
+      A: "demain"
+      B: "tôt"
+      C: "jamais"
+      D: "toujours"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: “Better late than ...”"
+        answers:
+          A: "tomorrow"
+          B: "early"
+          C: "never"
+          D: "always"
+    difficulty: EASY
+  - text: "Quel proverbe signifie qu'il faut savoir s'adapter aux circonstances ?"
+    answers:
+      A: "L'habit ne fait pas le moine"
+      B: "Qui vivra verra"
+      C: "Il faut hurler avec les loups"
+      D: "Il ne faut pas vendre la peau de l'ours"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which proverb means you have to know how to adapt to circumstances?"
+        answers:
+          A: "The habit does not make the monk"
+          B: "What will be, will be"
+          C: "When in Rome, do as the Romans do"
+          D: "Don't count your chickens before they hatch"
+    difficulty: HARD
+  - text: "Complétez : « Qui sème le vent récolte la ... »"
+    answers:
+      A: "pluie"
+      B: "moisson"
+      C: "tempête"
+      D: "fortune"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: “He who sows the wind reaps the ...”"
+        answers:
+          A: "rain"
+          B: "harvest"
+          C: "storm"
+          D: "fortune"
+    difficulty: MEDIUM
+  - text: "Que signifie « jeter l'argent par les fenêtres » ?"
+    answers:
+      A: "Perdre son portefeuille"
+      B: "Dépenser sans compter"
+      C: "Faire un don"
+      D: "Investir judicieusement"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does “to throw money out the window” mean?"
+        answers:
+          A: "To lose one's wallet"
+          B: "To spend without counting"
+          C: "To make a donation"
+          D: "To invest wisely"
+    difficulty: EASY
+  - text: "D'où vient l'expression « être médusé » ?"
+    answers:
+      A: "D'une pièce de Molière"
+      B: "D'un roi de Perse"
+      C: "D'un personnage de La Fontaine"
+      D: "De la mythologie grecque, Méduse pétrifiait ceux qui la regardaient"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where does the expression “to be stunned” come from?"
+        answers:
+          A: "From a play by Molière"
+          B: "From a king of Persia"
+          C: "From a character in La Fontaine"
+          D: "From Greek mythology, Medusa petrified those who looked at her"
+    difficulty: EXPERT
+  - text: "Complétez : « Il n'y a pas de fumée sans ... »"
+    answers:
+      A: "feu"
+      B: "flamme"
+      C: "cendres"
+      D: "chaleur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Complete: “There is no smoke without ...”"
+        answers:
+          A: "fire"
+          B: "flame"
+          C: "ashes"
+          D: "heat"
+    difficulty: MEDIUM
+  - text: "Que signifie « mettre de l'eau dans son vin » ?"
+    answers:
+      A: "Boire avec modération"
+      B: "Modérer ses exigences, ses propos"
+      C: "Tricher sur la qualité"
+      D: "Ajouter un ingrédient"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does “to put water in one's wine” mean?"
+        answers:
+          A: "To drink in moderation"
+          B: "To moderate one's demands, one's words"
+          C: "To cheat on quality"
+          D: "To add an ingredient"
+    difficulty: HARD
+  - text: "Complétez : « Chat échaudé craint l'eau ... »"
+    answers:
+      A: "pure"
+      B: "chaude"
+      C: "claire"
+      D: "froide"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Complete: “A scalded cat fears ... water”"
+        answers:
+          A: "pure"
+          B: "hot"
+          C: "clear"
+          D: "cold"
+    difficulty: HARD
+  - text: "Quel est le sens de l'expression « être le dindon de la farce » ?"
+    answers:
+      A: "Être le premier à rire"
+      B: "Être l'organisateur d'une fête"
+      C: "Être le cuisinier"
+      D: "Être la victime d'une plaisanterie, se faire duper"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the meaning of the expression “to be the turkey of the farce”?"
+        answers:
+          A: "To be the first to laugh"
+          B: "To be the organizer of a party"
+          C: "To be the cook"
+          D: "To be the victim of a joke, to be duped"
+    difficulty: HARD
+  - text: "Sous quel règne l'expression « carpe diem » a-t-elle été popularisée par Horace ?"
+    answers:
+      A: "Trajan"
+      B: "Néron"
+      C: "Auguste"
+      D: "Constantin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Under which reign was the expression “carpe diem” popularized by Horace?"
+        answers:
+          A: "Trajan"
+          B: "Nero"
+          C: "Augustus"
+          D: "Constantine"
+    difficulty: EXPERT
+  - text: "Complétez : « Nécessité fait loi » est un proverbe signifiant que ..."
+    answers:
+      A: "la pauvreté rend criminel"
+      B: "la loi est toujours juste"
+      C: "il faut obéir sans discuter"
+      D: "la contrainte impose des règles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Complete: “Necessity makes law” is a proverb meaning that ..."
+        answers:
+          A: "poverty makes criminals"
+          B: "the law is always just"
+          C: "you must obey without arguing"
+          D: "constraint imposes rules"
+    difficulty: HARD
+  - text: "Quel proverbe signifie qu'il ne faut pas se moquer des défauts que l'on partage ?"
+    answers:
+      A: "C'est l'hôpital qui se moque de la charité"
+      B: "Les chiens ne font pas des chats"
+      C: "Qui se sent morveux se mouche"
+      D: "Il ne faut pas jeter la pierre à son voisin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which proverb means you shouldn't mock flaws you share?"
+        answers:
+          A: "It's the pot calling the kettle black"
+          B: "The apple doesn't fall far from the tree"
+          C: "He who feels snotty blows his nose"
+          D: "Don't throw stones at your neighbor"
+    difficulty: EXPERT
+  - text: "D'où vient l'expression « toucher le pactole » ?"
+    answers:
+      A: "D'un pacte avec le diable"
+      B: "D'un trésor de guerre romain"
+      C: "D'une rivière de Lydie qui charriait de l'or"
+      D: "D'une pièce de théâtre de Molière"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where does the expression \"toucher le pactole\" come from?"
+        answers:
+          A: "From a pact with the devil"
+          B: "From a Roman war treasure"
+          C: "From a river in Lydia that carried gold"
+          D: "From a play by Molière"
+    difficulty: EXPERT
+  - text: "Qui a écrit la fable « Le Loup et l'Agneau » ?"
+    answers:
+      A: "Jean de La Fontaine"
+      B: "Ésope"
+      C: "Phèdre"
+      D: "Charles Perrault"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote the fable \"The Wolf and the Lamb\"?"
+        answers:
+          A: "Jean de La Fontaine"
+          B: "Aesop"
+          C: "Phaedrus"
+          D: "Charles Perrault"
+    difficulty: HARD
+  - text: "Que signifie l'expression « être dans de beaux draps » ?"
+    answers:
+      A: "Être bien habillé"
+      B: "Être dans une situation embarrassante"
+      C: "Être sur le point de se marier"
+      D: "Être en vacances"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the expression \"être dans de beaux draps\" mean?"
+        answers:
+          A: "To be well dressed"
+          B: "To be in an embarrassing situation"
+          C: "To be about to get married"
+          D: "To be on vacation"
+    difficulty: HARD
+  - text: "Complétez : « Il ne faut pas vendre la peau de l'ours avant de l'avoir ... »"
+    answers:
+      A: "tué"
+      B: "attrapé"
+      C: "écorché"
+      D: "vendu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Complete: \"Il ne faut pas vendre la peau de l'ours avant de l'avoir ...\""
+        answers:
+          A: "tué"
+          B: "attrapé"
+          C: "écorché"
+          D: "vendu"
+    difficulty: MEDIUM
+  - text: "Quel est le sens de l'expression « avoir maille à partir avec quelqu'un » ?"
+    answers:
+      A: "Avoir une discussion amicale"
+      B: "Faire des affaires"
+      C: "Partager un repas"
+      D: "Avoir un différend"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the meaning of the expression \"avoir maille à partir avec quelqu'un\"?"
+        answers:
+          A: "To have a friendly discussion"
+          B: "To do business"
+          C: "To share a meal"
+          D: "To have a dispute"
+    difficulty: EXPERT
+  - text: "De quelle langue provient l'expression « in vino veritas » ?"
+    answers:
+      A: "Grec ancien"
+      B: "Hébreu"
+      C: "Italien"
+      D: "Latin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which language does the expression \"in vino veritas\" come from?"
+        answers:
+          A: "Ancient Greek"
+          B: "Hebrew"
+          C: "Italian"
+          D: "Latin"
+    difficulty: HARD
+  - text: "Complétez : « Il faut manger pour vivre et non pas ... »"
+    answers:
+      A: "boire pour manger"
+      B: "manger pour vivre"
+      C: "vivre pour manger"
+      D: "dormir pour vivre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Complete: \"Il faut manger pour vivre et non pas ...\""
+        answers:
+          A: "boire pour manger"
+          B: "manger pour vivre"
+          C: "vivre pour manger"
+          D: "dormir pour vivre"
+    difficulty: HARD
+  - text: "Quel personnage de la Bible est associé au proverbe « Les chiens aboient, la caravane passe » ?"
+    answers:
+      A: "Moïse"
+      B: "Job"
+      C: "Salomon"
+      D: "Aucun, le proverbe est d'origine arabe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which biblical figure is associated with the proverb \"Les chiens aboient, la caravane passe\"?"
+        answers:
+          A: "Moses"
+          B: "Job"
+          C: "Solomon"
+          D: "None, the proverb is of Arab origin"
+    difficulty: EXPERT
+  - text: "Que signifie l'expression « être à l'enseigne de la lune » ?"
+    answers:
+      A: "Être lunatique"
+      B: "Être dans la lune"
+      C: "Être sans domicile fixe, errant"
+      D: "Être distrait"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the expression \"être à l'enseigne de la lune\" mean?"
+        answers:
+          A: "To be moody"
+          B: "To have one's head in the clouds"
+          C: "To be homeless, wandering"
+          D: "To be distracted"
+    difficulty: EXPERT
+  - text: "D'où vient l'expression « faire la grasse matinée » ?"
+    answers:
+      A: "De l'habitude des moines de dormir tard"
+      B: "De l'ancien français « gras » signifiant « tard dans la journée »"
+      C: "D'une pièce de Molière"
+      D: "De l'expression « gras comme un moine »"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where does the expression \"faire la grasse matinée\" come from?"
+        answers:
+          A: "From the monks' habit of sleeping late"
+          B: "From Old French \"gras\" meaning \"late in the day\""
+          C: "From a play by Molière"
+          D: "From the expression \"gras comme un moine\""
+    difficulty: EXPERT
+  - text: "Quel proverbe signifie qu'il faut savoir se contenter de ce que l'on a ?"
+    answers:
+      A: "Faute de grives, on mange des merles"
+      B: "L'herbe est toujours plus verte ailleurs"
+      C: "Qui va à la chasse perd sa place"
+      D: "On ne fait pas d'omelette sans casser des œufs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which proverb means that one should be content with what one has?"
+        answers:
+          A: "Faute de grives, on mange des merles"
+          B: "The grass is always greener elsewhere"
+          C: "Qui va à la chasse perd sa place"
+          D: "You can't make an omelette without breaking eggs"
+    difficulty: HARD
+  - text: "De quelle œuvre de Molière est issue l'expression « Il faut manger son pain noir » ?"
+    answers:
+      A: "Aucune, l'expression est antérieure"
+      B: "L'Avare"
+      C: "Les Fourberies de Scapin"
+      D: "Le Misanthrope"
+    correctAnswer: A
+    translations:
+      en:
+        text: "From which work by Molière does the expression \"Il faut manger son pain noir\" come?"
+        answers:
+          A: "None, the expression predates it"
+          B: "L'Avare"
+          C: "Les Fourberies de Scapin"
+          D: "Le Misanthrope"
+    difficulty: EXPERT
+  - text: "Que signifie l'expression « faire un froid de canard » ?"
+    answers:
+      A: "Un froid qui gèle les étangs"
+      B: "Un froid humide et marin"
+      C: "Un grand froid, par allusion à la chasse au canard"
+      D: "Un froid passager"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the expression \"faire un froid de canard\" mean?"
+        answers:
+          A: "Cold that freezes ponds"
+          B: "Damp sea cold"
+          C: "Very cold weather, alluding to duck hunting"
+          D: "Passing cold"
+    difficulty: HARD
+  - text: "Complétez : « Il ne faut pas se fier aux apparences » est la morale de quelle fable de La Fontaine ?"
+    answers:
+      A: "Le Corbeau et le Renard"
+      B: "La Grenouille qui se veut faire aussi grosse que le Bœuf"
+      C: "Le Loup et l'Agneau"
+      D: "Le Rat et l'Éléphant"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Complete: \"Il ne faut pas se fier aux apparences\" is the moral of which fable by La Fontaine?"
+        answers:
+          A: "The Crow and the Fox"
+          B: "The Frog Who Wanted to Be as Big as the Ox"
+          C: "The Wolf and the Lamb"
+          D: "The Rat and the Elephant"
+    difficulty: EXPERT
+  - text: "Quelle est l'origine de l'expression « être dans de beaux draps » ?"
+    answers:
+      A: "Les draps blancs des hôpitaux"
+      B: "Les linceuls des morts"
+      C: "Les draps des prisons"
+      D: "Les draps du linge sale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the origin of the expression \"être dans de beaux draps\"?"
+        answers:
+          A: "The white sheets of hospitals"
+          B: "The shrouds of the dead"
+          C: "Prison sheets"
+          D: "Dirty laundry sheets"
+    difficulty: EXPERT
+  - text: "Complétez : « À chaque jour suffit sa ... »"
+    answers:
+      A: "lumière"
+      B: "joie"
+      C: "nourriture"
+      D: "peine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Complete: “Each day has enough ...”"
+        answers:
+          A: "light"
+          B: "joy"
+          C: "food"
+          D: "trouble"
+    difficulty: MEDIUM
+  - text: "Qui a écrit la fable « Le Coche et la Mouche » ?"
+    answers:
+      A: "Ésope"
+      B: "Charles Perrault"
+      C: "Phèdre"
+      D: "Jean de La Fontaine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the fable “The Coach and the Fly”?"
+        answers:
+          A: "Aesop"
+          B: "Charles Perrault"
+          C: "Phaedrus"
+          D: "Jean de La Fontaine"
+    difficulty: EXPERT
+  - text: "Que signifie l'expression « tirer le diable par la queue » ?"
+    answers:
+      A: "Faire un pacte avec le diable"
+      B: "Avoir des difficultés financières"
+      C: "Rencontrer un obstacle imprévu"
+      D: "Se mettre en colère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the expression “to pull the devil by the tail” mean?"
+        answers:
+          A: "To make a pact with the devil"
+          B: "To have financial difficulties"
+          C: "To encounter an unexpected obstacle"
+          D: "To get angry"
+    difficulty: HARD
+  - text: "D'où vient l'expression « avoir du pain sur la planche » ?"
+    answers:
+      A: "Des boulangers qui préparent leur pâte"
+      B: "Des soldats qui mangeaient sur une planche"
+      C: "Des moines qui disposaient de réserves de pain"
+      D: "Des paysans qui faisaient sécher le pain"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where does the expression “to have bread on the board” come from?"
+        answers:
+          A: "From bakers preparing their dough"
+          B: "From soldiers who ate on a board"
+          C: "From monks who had reserves of bread"
+          D: "From peasants who dried bread"
+    difficulty: EXPERT
+  - text: "Complétez : « La faim chasse le ... hors du bois »"
+    answers:
+      A: "renard"
+      B: "loup"
+      C: "sanglier"
+      D: "lièvre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Complete: “Hunger drives the ... out of the woods”"
+        answers:
+          A: "fox"
+          B: "wolf"
+          C: "boar"
+          D: "hare"
+    difficulty: HARD
+  - text: "Quelle est la signification de l'expression « faire la pluie et le beau temps » ?"
+    answers:
+      A: "Être imprévisible"
+      B: "Décider de tout, avoir une influence déterminante"
+      C: "Alterner les humeurs"
+      D: "Se mêler de tout"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the meaning of the expression “to make the rain and the good weather”?"
+        answers:
+          A: "To be unpredictable"
+          B: "To decide everything, to have a decisive influence"
+          C: "To alternate moods"
+          D: "To meddle in everything"
+    difficulty: HARD
+  - text: "Quel proverbe signifie qu'il ne faut pas entreprendre plus que ses forces ne le permettent ?"
+    answers:
+      A: "C'est en forgeant qu'on devient forgeron"
+      B: "Il ne faut pas vendre la peau de l'ours"
+      C: "Petit à petit, l'oiseau fait son nid"
+      D: "Qui trop embrasse mal étreint"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which proverb means that one should not undertake more than one's strength allows?"
+        answers:
+          A: "It is by forging that one becomes a blacksmith"
+          B: "Don't sell the bear's skin before you've killed it"
+          C: "Little by little, the bird builds its nest"
+          D: "He who grasps too much holds poorly"
+    difficulty: EXPERT
+  - text: "De quel recueil de proverbes est issue l'expression « science sans conscience n'est que ruine de l'âme » ?"
+    answers:
+      A: "Pantagruel de Rabelais"
+      B: "Les Essais de Montaigne"
+      C: "Les Caractères de La Bruyère"
+      D: "Les Fables de La Fontaine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "From which collection of proverbs does the expression “science without conscience is but the ruin of the soul” come?"
+        answers:
+          A: "Rabelais's Pantagruel"
+          B: "Montaigne's Essays"
+          C: "La Bruyère's Characters"
+          D: "La Fontaine's Fables"
+    difficulty: EXPERT
+  - text: "Complétez : « Vieillesse oblige, ... »"
+    answers:
+      A: "prudence"
+      B: "sagesse"
+      C: "mémoire"
+      D: "repos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Complete: “Old age obliges, ...”"
+        answers:
+          A: "prudence"
+          B: "wisdom"
+          C: "memory"
+          D: "rest"
+    difficulty: EXPERT
+  - text: "Quel proverbe complet correspond à la fin tronquée : « Faute avouée est... » ?"
+    answers:
+      A: "source de rédemption"
+      B: "à moitié punie"
+      C: "à moitié pardonnée"
+      D: "le début de la sagesse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which complete proverb corresponds to the truncated ending: “A fault confessed is...”?"
+        answers:
+          A: "a source of redemption"
+          B: "half punished"
+          C: "half forgiven"
+          D: "the beginning of wisdom"
+    difficulty: HARD

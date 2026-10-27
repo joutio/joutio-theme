@@ -1,0 +1,1626 @@
+topic:
+  id: topic-rome-antique
+  names:
+    fr: "Rome antique"
+    en: "Ancient Rome"
+  description: "De la fondation légendaire de 753 av. J.-C. à la chute de l'Empire d'Occident, ce thème retrace l'histoire de Rome : la louve et Romulus, les sept rois, la République et ses institutions, les grandes conquêtes, Jules César, les empereurs célèbres et les tournants majeurs de la civilisation romaine."
+  category: HISTORY
+  titles:
+    fr:
+      FER: "Légionnaire en sandales"
+      BRONZE: "Greffier du forum"
+      ARGENT: "Tribun de la plèbe"
+      OR: "Sénateur en toge"
+      PLATINE: "Consul de Rome"
+      EMERAUDE: "César triomphant"
+      DIAMANT: "Divin Romulus"
+    en:
+      FER: "Legionary in sandals"
+      BRONZE: "Forum scribe"
+      ARGENT: "Tribune of the plebs"
+      OR: "Toga-clad senator"
+      PLATINE: "Consul of Rome"
+      EMERAUDE: "Triumphant Caesar"
+      DIAMANT: "Divine Romulus"
+  imageUrl: wikipedia/history/Colosseum_of_Rome,_Italy.jpg
+questions:
+  - text: "Quel titre portait le chef de la cavalerie sous la monarchie romaine ?"
+    answers:
+      A: "Tribunus celerum"
+      B: "Magister equitum"
+      C: "Praefectus urbi"
+      D: "Rex sacrorum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What title did the commander of the cavalry hold under the Roman monarchy?"
+        answers:
+          A: "Tribunus celerum"
+          B: "Magister equitum"
+          C: "Praefectus urbi"
+          D: "Rex sacrorum"
+    difficulty: HARD
+  - text: "Quel collège sacerdotal était chargé d'interpréter la volonté des dieux par l'observation des oiseaux ?"
+    answers:
+      A: "Les pontifes"
+      B: "Les augures"
+      C: "Les flamines"
+      D: "Les vestales"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which priestly college was responsible for interpreting the will of the gods by observing birds?"
+        answers:
+          A: "The pontiffs"
+          B: "The augurs"
+          C: "The flamens"
+          D: "The vestals"
+    difficulty: HARD
+  - text: "En quelle année la Lex Hortensia a-t-elle rendu les plébiscites obligatoires pour tous les citoyens ?"
+    answers:
+      A: "287 av. J.-C."
+      B: "367 av. J.-C."
+      C: "451 av. J.-C."
+      D: "133 av. J.-C."
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Lex Hortensia make plebiscites binding on all citizens?"
+        answers:
+          A: "287 BC"
+          B: "367 BC"
+          C: "451 BC"
+          D: "133 BC"
+    difficulty: EXPERT
+  - text: "Quel magistrat romain était chargé du recensement et de la moralité publique ?"
+    answers:
+      A: "Le préteur"
+      B: "Le questeur"
+      C: "L'édile"
+      D: "Le censeur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman magistrate was responsible for the census and public morality?"
+        answers:
+          A: "The praetor"
+          B: "The quaestor"
+          C: "The aedile"
+          D: "The censor"
+    difficulty: HARD
+  - text: "Quel général romain a été vaincu à la bataille de Cannes en 216 av. J.-C. ?"
+    answers:
+      A: "Scipion l'Africain"
+      B: "Lucius Aemilius Paulus"
+      C: "Claude Marcellus"
+      D: "Fabius Maximus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman general was defeated at the Battle of Cannae in 216 BC?"
+        answers:
+          A: "Scipio Africanus"
+          B: "Lucius Aemilius Paulus"
+          C: "Claudius Marcellus"
+          D: "Fabius Maximus"
+    difficulty: MEDIUM
+  - text: "Quelle bataille navale de 31 av. J.-C. a scellé la victoire d'Octave sur Antoine et Cléopâtre ?"
+    answers:
+      A: "Egates"
+      B: "Nauloque"
+      C: "Mylae"
+      D: "Actium"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which naval battle in 31 BC sealed Octavian's victory over Antony and Cleopatra?"
+        answers:
+          A: "Aegates"
+          B: "Naulochus"
+          C: "Mylae"
+          D: "Actium"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire un mur fortifié en Bretagne entre le Solway et le Tyne ?"
+    answers:
+      A: "Trajan"
+      B: "Antonin le Pieux"
+      C: "Hadrien"
+      D: "Septime Sévère"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor built a fortified wall in Britain between the Solway and the Tyne?"
+        answers:
+          A: "Trajan"
+          B: "Antoninus Pius"
+          C: "Hadrian"
+          D: "Septimius Severus"
+    difficulty: EASY
+  - text: "Quel empereur a rédigé des 'Pensées pour moi-même' en grec ?"
+    answers:
+      A: "Hadrien"
+      B: "Épictète"
+      C: "Sénèque"
+      D: "Marc Aurèle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which emperor wrote 'Meditations' in Greek?"
+        answers:
+          A: "Hadrian"
+          B: "Epictetus"
+          C: "Seneca"
+          D: "Marcus Aurelius"
+    difficulty: MEDIUM
+  - text: "En quelle année l'incendie de Rome attribué à Néron a-t-il eu lieu ?"
+    answers:
+      A: "64 apr. J.-C."
+      B: "59 apr. J.-C."
+      C: "69 apr. J.-C."
+      D: "79 apr. J.-C."
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Great Fire of Rome, attributed to Nero, occur?"
+        answers:
+          A: "64 AD"
+          B: "59 AD"
+          C: "69 AD"
+          D: "79 AD"
+    difficulty: HARD
+  - text: "Quel empereur romain a divisé l'Empire en deux parties administrées par deux Augustes et deux Césars ?"
+    answers:
+      A: "Constantin"
+      B: "Aurélien"
+      C: "Théodose"
+      D: "Dioclétien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor divided the Empire into two parts administered by two Augusti and two Caesars?"
+        answers:
+          A: "Constantine"
+          B: "Aurelian"
+          C: "Theodosius"
+          D: "Diocletian"
+    difficulty: MEDIUM
+  - text: "Quelle bataille de 312 apr. J.-C. a marqué la conversion de Constantin au christianisme ?"
+    answers:
+      A: "Pont Milvius"
+      B: "Adrianople"
+      C: "Chrysopolis"
+      D: "Frigidus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which battle in 312 AD marked Constantine's conversion to Christianity?"
+        answers:
+          A: "Milvian Bridge"
+          B: "Adrianople"
+          C: "Chrysopolis"
+          D: "Frigidus"
+    difficulty: MEDIUM
+  - text: "Quel était le nom du siège du Sénat romain situé dans le Forum ?"
+    answers:
+      A: "La Curie Hostilia"
+      B: "La Rostre"
+      C: "Le Comitium"
+      D: "La Curie Julia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of the seat of the Roman Senate located in the Forum?"
+        answers:
+          A: "The Curia Hostilia"
+          B: "The Rostra"
+          C: "The Comitium"
+          D: "The Curia Julia"
+    difficulty: MEDIUM
+  - text: "Quelle magistrature romaine était collégiale et composée de dix membres ?"
+    answers:
+      A: "Les tribuns de la plèbe"
+      B: "Les préteurs"
+      C: "Les consuls"
+      D: "Les questeurs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman magistracy was collegial and composed of ten members?"
+        answers:
+          A: "The tribunes of the plebs"
+          B: "The praetors"
+          C: "The consuls"
+          D: "The quaestors"
+    difficulty: HARD
+  - text: "Quel empereur a fait construire les thermes les plus grands de Rome, inaugurés en 216 apr. J.-C. ?"
+    answers:
+      A: "Trajan"
+      B: "Titus"
+      C: "Dioclétien"
+      D: "Caracalla"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which emperor built the largest baths in Rome, inaugurated in 216 AD?"
+        answers:
+          A: "Trajan"
+          B: "Titus"
+          C: "Diocletian"
+          D: "Caracalla"
+    difficulty: EXPERT
+  - text: "Quel roi de Rome a été vaincu et capturé à la bataille du lac Régille en 496 av. J.-C. ?"
+    answers:
+      A: "Lars Tolumnius"
+      B: "Porsenna"
+      C: "Tarquin le Superbe"
+      D: "Tarquin Collatin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which king of Rome was defeated and captured at the Battle of Lake Regillus in 496 BC?"
+        answers:
+          A: "Lars Tolumnius"
+          B: "Porsenna"
+          C: "Tarquin the Proud"
+          D: "Tarquin Collatinus"
+    difficulty: EXPERT
+  - text: "Quel titre donnait-on à l'empereur romain pendant le Bas-Empire, signifiant 'seigneur' ?"
+    answers:
+      A: "Princeps"
+      B: "Imperator"
+      C: "Augustus"
+      D: "Dominus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What title was given to the Roman emperor during the Late Empire, meaning 'lord'?"
+        answers:
+          A: "Princeps"
+          B: "Imperator"
+          C: "Augustus"
+          D: "Dominus"
+    difficulty: HARD
+  - text: "Qui était le dernier empereur romain d'Occident déposé en 476 apr. J.-C. ?"
+    answers:
+      A: "Julius Nepos"
+      B: "Romulus Augustule"
+      C: "Oreste"
+      D: "Majorien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who was the last Western Roman emperor, deposed in 476 AD?"
+        answers:
+          A: "Julius Nepos"
+          B: "Romulus Augustulus"
+          C: "Orestes"
+          D: "Majorian"
+    difficulty: HARD
+  - text: "Quel général barbare a déposé le dernier empereur romain d'Occident ?"
+    answers:
+      A: "Alaric"
+      B: "Théodoric"
+      C: "Odoacre"
+      D: "Attila"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which barbarian general deposed the last Western Roman emperor?"
+        answers:
+          A: "Alaric"
+          B: "Theodoric"
+          C: "Odoacer"
+          D: "Attila"
+    difficulty: HARD
+  - text: "Quel empereur romain a fait construire un mur en Germanie entre le Rhin et le Danube ?"
+    answers:
+      A: "Domitien"
+      B: "Hadrien"
+      C: "Trajan"
+      D: "Antonin le Pieux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor built a wall in Germania between the Rhine and the Danube?"
+        answers:
+          A: "Domitian"
+          B: "Hadrian"
+          C: "Trajan"
+          D: "Antoninus Pius"
+    difficulty: EXPERT
+  - text: "Quel fleuve marquait la frontière nord-est de l'Empire romain en Europe ?"
+    answers:
+      A: "Le Rhin"
+      B: "Le Danube"
+      C: "L'Euphrate"
+      D: "Le Tigre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which river marked the northeastern border of the Roman Empire in Europe?"
+        answers:
+          A: "The Rhine"
+          B: "The Danube"
+          C: "The Euphrates"
+          D: "The Tigris"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire le forum le plus vaste de Rome, achevé par son fils Domitien ?"
+    answers:
+      A: "Nerva"
+      B: "Vespasien"
+      C: "Titus"
+      D: "Trajan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor built the largest forum in Rome, completed by his son Domitian?"
+        answers:
+          A: "Nerva"
+          B: "Vespasian"
+          C: "Titus"
+          D: "Trajan"
+    difficulty: HARD
+  - text: "Quelle bataille de 451 apr. J.-C. a vu la défaite d'Attila face aux Romains et aux Wisigoths ?"
+    answers:
+      A: "Bataille de Zama"
+      B: "Bataille d'Andrinople"
+      C: "Bataille des Champs Catalauniques"
+      D: "Bataille du lac Régille"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which battle in 451 AD saw Attila defeated by the Romans and Visigoths?"
+        answers:
+          A: "Battle of Zama"
+          B: "Battle of Adrianople"
+          C: "Battle of the Catalaunian Plains"
+          D: "Battle of Lake Regillus"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a fait construire le Colisée, initialement appelé amphithéâtre Flavien ?"
+    answers:
+      A: "Titus"
+      B: "Néron"
+      C: "Domitien"
+      D: "Vespasien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor built the Colosseum, originally called the Flavian Amphitheatre?"
+        answers:
+          A: "Titus"
+          B: "Nero"
+          C: "Domitian"
+          D: "Vespasian"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a été le premier à être assassiné par la garde prétorienne ?"
+    answers:
+      A: "Galba"
+      B: "Claude"
+      C: "Caligula"
+      D: "Vitellius"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor was the first to be assassinated by the Praetorian Guard?"
+        answers:
+          A: "Galba"
+          B: "Claudius"
+          C: "Caligula"
+          D: "Vitellius"
+    difficulty: EXPERT
+  - text: "En quelle année le temple de Janus a-t-il été fermé pour la dernière fois sous Auguste, marquant la fin des guerres civiles ?"
+    answers:
+      A: "13 av. J.-C."
+      B: "27 av. J.-C."
+      C: "9 av. J.-C."
+      D: "2 av. J.-C."
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Temple of Janus closed for the last time under Augustus, marking the end of the civil wars?"
+        answers:
+          A: "13 BC"
+          B: "27 BC"
+          C: "9 BC"
+          D: "2 BC"
+    difficulty: EXPERT
+  - text: "Qui était le premier roi de Rome selon la tradition ?"
+    answers:
+      A: "Numa Pompilius"
+      B: "Tullus Hostilius"
+      C: "Ancus Marcius"
+      D: "Romulus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first king of Rome according to tradition?"
+        answers:
+          A: "Numa Pompilius"
+          B: "Tullus Hostilius"
+          C: "Ancus Marcius"
+          D: "Romulus"
+    difficulty: EASY
+  - text: "Quel empereur romain a fait construire le Panthéon tel qu'on le voit aujourd'hui ?"
+    answers:
+      A: "Marc Aurèle"
+      B: "Trajan"
+      C: "Antonin le Pieux"
+      D: "Hadrien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor built the Pantheon as it appears today?"
+        answers:
+          A: "Marcus Aurelius"
+          B: "Trajan"
+          C: "Antoninus Pius"
+          D: "Hadrian"
+    difficulty: MEDIUM
+  - text: "Quelle bataille de 202 av. J.-C. a mis fin à la deuxième guerre punique ?"
+    answers:
+      A: "Bataille de Cannes"
+      B: "Bataille de Zama"
+      C: "Bataille de Trasimène"
+      D: "Bataille de Metaure"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which battle in 202 BC ended the Second Punic War?"
+        answers:
+          A: "Battle of Cannae"
+          B: "Battle of Zama"
+          C: "Battle of Lake Trasimene"
+          D: "Battle of the Metaurus"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire le mur d'Hadrien en Bretagne ?"
+    answers:
+      A: "Antonin le Pieux"
+      B: "Septime Sévère"
+      C: "Trajan"
+      D: "Hadrien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor built Hadrian's Wall in Britain?"
+        answers:
+          A: "Antoninus Pius"
+          B: "Septimius Severus"
+          C: "Trajan"
+          D: "Hadrian"
+    difficulty: EASY
+  - text: "Quel général romain a été vaincu à la bataille de Carrhes en 53 av. J.-C. ?"
+    answers:
+      A: "Pompée"
+      B: "Crassus"
+      C: "Jules César"
+      D: "Marc Antoine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman general was defeated at the Battle of Carrhae in 53 BC?"
+        answers:
+          A: "Pompey"
+          B: "Crassus"
+          C: "Julius Caesar"
+          D: "Mark Antony"
+    difficulty: HARD
+  - text: "Quel empereur romain a régné de 117 à 138 apr. J.-C. ?"
+    answers:
+      A: "Hadrien"
+      B: "Trajan"
+      C: "Antonin le Pieux"
+      D: "Marc Aurèle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 117 to 138 AD?"
+        answers:
+          A: "Hadrian"
+          B: "Trajan"
+          C: "Antoninus Pius"
+          D: "Marcus Aurelius"
+    difficulty: HARD
+  - text: "Quel empereur romain a fait construire les thermes les plus grands de Rome, inaugurés en 216 apr. J.-C. ?"
+    answers:
+      A: "Trajan"
+      B: "Dioclétien"
+      C: "Caracalla"
+      D: "Titus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor built the largest baths in Rome, inaugurated in 216 AD?"
+        answers:
+          A: "Trajan"
+          B: "Diocletian"
+          C: "Caracalla"
+          D: "Titus"
+    difficulty: EXPERT
+  - text: "Quel magistrat romain était chargé de la frappe de la monnaie sous la République ?"
+    answers:
+      A: "Les triumvirs monétaires"
+      B: "Les questeurs"
+      C: "Les édiles"
+      D: "Les censeurs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman magistrate was responsible for minting coins under the Republic?"
+        answers:
+          A: "The monetary triumvirs"
+          B: "The quaestors"
+          C: "The aediles"
+          D: "The censors"
+    difficulty: EXPERT
+  - text: "Quel empereur a fait construire le temple de Vespasien et de Titus dans le Forum ?"
+    answers:
+      A: "Vespasien"
+      B: "Titus"
+      C: "Domitien"
+      D: "Nerva"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which emperor built the Temple of Vespasian and Titus in the Forum?"
+        answers:
+          A: "Vespasian"
+          B: "Titus"
+          C: "Domitian"
+          D: "Nerva"
+    difficulty: EXPERT
+  - text: "Quel était le nom de la circonscription électorale romaine regroupant les citoyens par tribu ?"
+    answers:
+      A: "La tribu"
+      B: "La centurie"
+      C: "La curie"
+      D: "La décurie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the name of the Roman electoral district grouping citizens by tribe?"
+        answers:
+          A: "The tribe"
+          B: "The century"
+          C: "The curia"
+          D: "The decuria"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a régné de 79 à 81 apr. J.-C. ?"
+    answers:
+      A: "Titus"
+      B: "Vespasien"
+      C: "Domitien"
+      D: "Nerva"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 79 to 81 AD?"
+        answers:
+          A: "Titus"
+          B: "Vespasian"
+          C: "Domitian"
+          D: "Nerva"
+    difficulty: EXPERT
+  - text: "Quel événement de 64 apr. J.-C. a ravagé Rome sous Néron ?"
+    answers:
+      A: "Un tremblement de terre"
+      B: "Une éruption volcanique"
+      C: "Une inondation"
+      D: "Un incendie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which event in 64 AD devastated Rome under Nero?"
+        answers:
+          A: "An earthquake"
+          B: "A volcanic eruption"
+          C: "A flood"
+          D: "A fire"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire les thermes inaugurés en 216 apr. J.-C. ?"
+    answers:
+      A: "Trajan"
+      B: "Hadrien"
+      C: "Caracalla"
+      D: "Antonin le Pieux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor built the baths inaugurated in 216 AD?"
+        answers:
+          A: "Trajan"
+          B: "Hadrian"
+          C: "Caracalla"
+          D: "Antoninus Pius"
+    difficulty: EXPERT
+  - text: "Quel titre portait le gouverneur d'une province impériale sous l'Empire ?"
+    answers:
+      A: "Proconsul"
+      B: "Préfet"
+      C: "Légat d'Auguste propréteur"
+      D: "Procurateur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What title did the governor of an imperial province hold under the Empire?"
+        answers:
+          A: "Proconsul"
+          B: "Prefect"
+          C: "Legatus Augusti pro praetore"
+          D: "Procurator"
+    difficulty: HARD
+  - text: "Quel empereur romain a été le premier à être de rang équestre ?"
+    answers:
+      A: "Élagabal"
+      B: "Macrin"
+      C: "Sévère Alexandre"
+      D: "Maximin le Thrace"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor was the first to be of equestrian rank?"
+        answers:
+          A: "Elagabalus"
+          B: "Macrinus"
+          C: "Severus Alexander"
+          D: "Maximinus Thrax"
+    difficulty: EXPERT
+  - text: "Quel général romain a été vaincu à la bataille d'Andrinople en 378 apr. J.-C. ?"
+    answers:
+      A: "Théodose"
+      B: "Valens"
+      C: "Gratien"
+      D: "Julien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman general was defeated at the Battle of Adrianople in 378 AD?"
+        answers:
+          A: "Theodosius"
+          B: "Valens"
+          C: "Gratian"
+          D: "Julian"
+    difficulty: EXPERT
+  - text: "Quel empereur a fait construire le forum de Trajan à Rome ?"
+    answers:
+      A: "Hadrien"
+      B: "Trajan"
+      C: "Domitien"
+      D: "Nerva"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which emperor built the Forum of Trajan in Rome?"
+        answers:
+          A: "Hadrian"
+          B: "Trajan"
+          C: "Domitian"
+          D: "Nerva"
+    difficulty: HARD
+  - text: "Quel était le nom du canal construit par Néron pour relier Ostie à Rome ?"
+    answers:
+      A: "Fossa Traiana"
+      B: "Fossa Claudia"
+      C: "Fossa Neronis"
+      D: "Fossa Mariana"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the name of the canal built by Nero to connect Ostia to Rome?"
+        answers:
+          A: "Fossa Traiana"
+          B: "Fossa Claudia"
+          C: "Fossa Neronis"
+          D: "Fossa Mariana"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a régné de 138 à 161 apr. J.-C. ?"
+    answers:
+      A: "Hadrien"
+      B: "Marc Aurèle"
+      C: "Antonin le Pieux"
+      D: "Lucius Verus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 138 to 161 AD?"
+        answers:
+          A: "Hadrian"
+          B: "Marcus Aurelius"
+          C: "Antoninus Pius"
+          D: "Lucius Verus"
+    difficulty: HARD
+  - text: "Quel peuple a vaincu les Romains à la bataille de Teutobourg en 9 apr. J.-C. ?"
+    answers:
+      A: "Les Gaulois"
+      B: "Les Germains"
+      C: "Les Daces"
+      D: "Les Parthes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which people defeated the Romans at the Battle of the Teutoburg Forest in 9 AD?"
+        answers:
+          A: "The Gauls"
+          B: "The Germans"
+          C: "The Dacians"
+          D: "The Parthians"
+    difficulty: HARD
+  - text: "Quel empereur a partagé le pouvoir avec Lucius Verus de 161 à 169 apr. J.-C. ?"
+    answers:
+      A: "Hadrien"
+      B: "Antonin le Pieux"
+      C: "Marc Aurèle"
+      D: "Commode"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which emperor shared power with Lucius Verus from 161 to 169 AD?"
+        answers:
+          A: "Hadrian"
+          B: "Antoninus Pius"
+          C: "Marcus Aurelius"
+          D: "Commodus"
+    difficulty: EXPERT
+  - text: "Quel empereur a régné de 117 à 138 apr. J.-C. ?"
+    answers:
+      A: "Hadrien"
+      B: "Trajan"
+      C: "Antonin le Pieux"
+      D: "Marc Aurèle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which emperor reigned from 117 to 138 AD?"
+        answers:
+          A: "Hadrian"
+          B: "Trajan"
+          C: "Antoninus Pius"
+          D: "Marcus Aurelius"
+    difficulty: HARD
+  - text: "Quel était le nom du légat de Germanie qui a perdu trois légions à Teutobourg ?"
+    answers:
+      A: "Varus"
+      B: "Germanicus"
+      C: "Drusus"
+      D: "Tibère"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the name of the legate of Germania who lost three legions at Teutoburg?"
+        answers:
+          A: "Varus"
+          B: "Germanicus"
+          C: "Drusus"
+          D: "Tiberius"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a régné de 193 à 211 apr. J.-C. et est mort à Eboracum (York) ?"
+    answers:
+      A: "Caracalla"
+      B: "Septime Sévère"
+      C: "Commode"
+      D: "Pertinax"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 193 to 211 AD and died at Eboracum (York)?"
+        answers:
+          A: "Caracalla"
+          B: "Septimius Severus"
+          C: "Commodus"
+          D: "Pertinax"
+    difficulty: EXPERT
+  - text: "Quelle bataille de 216 av. J.-C. a vu l'annihilation de l'armée romaine par Hannibal ?"
+    answers:
+      A: "Cannae"
+      B: "Trasimène"
+      C: "Zama"
+      D: "Métauros"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which battle in 216 BC saw the annihilation of the Roman army by Hannibal?"
+        answers:
+          A: "Cannae"
+          B: "Trasimene"
+          C: "Zama"
+          D: "Metaurus"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire le mur d'Antonin en Écosse ?"
+    answers:
+      A: "Marc Aurèle"
+      B: "Hadrien"
+      C: "Trajan"
+      D: "Antonin le Pieux"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor built the Antonine Wall in Scotland?"
+        answers:
+          A: "Marcus Aurelius"
+          B: "Hadrian"
+          C: "Trajan"
+          D: "Antoninus Pius"
+    difficulty: HARD
+  - text: "Quel était le nom du premier triumvirat formé en 60 av. J.-C. ?"
+    answers:
+      A: "Conseil des trois"
+      B: "Second triumvirat"
+      C: "Premier triumvirat"
+      D: "Alliance du Capitole"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the name of the first triumvirate formed in 60 BC?"
+        answers:
+          A: "Council of Three"
+          B: "Second Triumvirate"
+          C: "First Triumvirate"
+          D: "Capitoline Alliance"
+    difficulty: HARD
+  - text: "Quel empereur romain a régné de 14 à 37 apr. J.-C. ?"
+    answers:
+      A: "Auguste"
+      B: "Caligula"
+      C: "Claude"
+      D: "Tibère"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 14 to 37 AD?"
+        answers:
+          A: "Augustus"
+          B: "Caligula"
+          C: "Claudius"
+          D: "Tiberius"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire le forum de la Paix à Rome ?"
+    answers:
+      A: "Domitien"
+      B: "Trajan"
+      C: "Auguste"
+      D: "Vespasien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor built the Forum of Peace in Rome?"
+        answers:
+          A: "Domitian"
+          B: "Trajan"
+          C: "Augustus"
+          D: "Vespasian"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a régné de 161 à 180 apr. J.-C. ?"
+    answers:
+      A: "Marc Aurèle"
+      B: "Antonin le Pieux"
+      C: "Commode"
+      D: "Lucius Verus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 161 to 180 AD?"
+        answers:
+          A: "Marcus Aurelius"
+          B: "Antoninus Pius"
+          C: "Commodus"
+          D: "Lucius Verus"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire les thermes de Caracalla ?"
+    answers:
+      A: "Trajan"
+      B: "Dioclétien"
+      C: "Caracalla"
+      D: "Néron"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor built the Baths of Caracalla?"
+        answers:
+          A: "Trajan"
+          B: "Diocletian"
+          C: "Caracalla"
+          D: "Nero"
+    difficulty: EASY
+  - text: "Quel empereur romain a été le premier à abdiquer volontairement en 305 apr. J.-C. ?"
+    answers:
+      A: "Dioclétien"
+      B: "Maximien"
+      C: "Constantin"
+      D: "Galère"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor was the first to voluntarily abdicate in 305 AD?"
+        answers:
+          A: "Diocletian"
+          B: "Maximian"
+          C: "Constantine"
+          D: "Galerius"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a régné de 270 à 275 apr. J.-C. et a restauré l'Empire après la crise du IIIe siècle ?"
+    answers:
+      A: "Tacite"
+      B: "Claude le Gothique"
+      C: "Aurélien"
+      D: "Probus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 270 to 275 AD and restored the Empire after the Crisis of the Third Century?"
+        answers:
+          A: "Tacitus"
+          B: "Claudius Gothicus"
+          C: "Aurelian"
+          D: "Probus"
+    difficulty: HARD
+  - text: "Quelle bataille de 31 av. J.-C. a scellé le destin d'Octave et d'Antoine ?"
+    answers:
+      A: "Nauloque"
+      B: "Philippes"
+      C: "Actium"
+      D: "Modène"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which battle in 31 BC sealed the fate of Octavian and Antony?"
+        answers:
+          A: "Naulochus"
+          B: "Philippi"
+          C: "Actium"
+          D: "Mutina"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a fait construire le colisée de Rome ?"
+    answers:
+      A: "Domitien"
+      B: "Titus"
+      C: "Vespasien"
+      D: "Néron"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor built the Colosseum in Rome?"
+        answers:
+          A: "Domitian"
+          B: "Titus"
+          C: "Vespasian"
+          D: "Nero"
+    difficulty: EASY
+  - text: "Quel magistrat romain avait le pouvoir de convoquer le Sénat et les assemblées ?"
+    answers:
+      A: "Le tribun de la plèbe"
+      B: "Le consul"
+      C: "Le préteur"
+      D: "Le censeur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman magistrate had the power to convene the Senate and the assemblies?"
+        answers:
+          A: "The tribune of the plebs"
+          B: "The consul"
+          C: "The praetor"
+          D: "The censor"
+    difficulty: HARD
+  - text: "Quel empereur romain a fait construire le forum de Nerva, aussi appelé forum Transitorium ?"
+    answers:
+      A: "Domitien"
+      B: "Nerva"
+      C: "Vespasien"
+      D: "Trajan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor built the Forum of Nerva, also called the Forum Transitorium?"
+        answers:
+          A: "Domitian"
+          B: "Nerva"
+          C: "Vespasian"
+          D: "Trajan"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a créé la garde prétorienne en 27 av. J.-C. ?"
+    answers:
+      A: "Trajan"
+      B: "Caligula"
+      C: "Néron"
+      D: "Auguste"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor created the Praetorian Guard in 27 BC?"
+        answers:
+          A: "Trajan"
+          B: "Caligula"
+          C: "Nero"
+          D: "Augustus"
+    difficulty: EXPERT
+  - text: "Quelle fonction Auguste a-t-elle exercée à vie à partir de 23 av. J.-C. pour contrôler l'armée ?"
+    answers:
+      A: "Consul à vie"
+      B: "Imperium proconsulare maius"
+      C: "Tribun de la plèbe"
+      D: "Censeur perpétuel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which office did Augustus hold for life from 23 BC to control the army?"
+        answers:
+          A: "Consul for life"
+          B: "Imperium proconsulare maius"
+          C: "Tribune of the plebs"
+          D: "Perpetual censor"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a fait construire le temple de Mars Ultor dans son forum ?"
+    answers:
+      A: "Auguste"
+      B: "Hadrien"
+      C: "Trajan"
+      D: "Domitien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor built the Temple of Mars Ultor in his forum?"
+        answers:
+          A: "Augustus"
+          B: "Hadrian"
+          C: "Trajan"
+          D: "Domitian"
+    difficulty: HARD
+  - text: "Quel titre Auguste a-t-il refusé en 22 av. J.-C. ?"
+    answers:
+      A: "Pontifex maximus"
+      B: "Imperator"
+      C: "Princeps senatus"
+      D: "Dictateur à vie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which title did Augustus refuse in 22 BC?"
+        answers:
+          A: "Pontifex maximus"
+          B: "Imperator"
+          C: "Princeps senatus"
+          D: "Dictator for life"
+    difficulty: EXPERT
+  - text: "Quel empereur romain a régné de 37 à 41 apr. J.-C. ?"
+    answers:
+      A: "Caligula"
+      B: "Tibère"
+      C: "Claude"
+      D: "Néron"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 37 to 41 AD?"
+        answers:
+          A: "Caligula"
+          B: "Tiberius"
+          C: "Claudius"
+          D: "Nero"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a été assassiné en 41 apr. J.-C. par des officiers de la garde prétorienne ?"
+    answers:
+      A: "Néron"
+      B: "Caligula"
+      C: "Domitien"
+      D: "Commode"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor was assassinated in 41 AD by officers of the Praetorian Guard?"
+        answers:
+          A: "Nero"
+          B: "Caligula"
+          C: "Domitian"
+          D: "Commodus"
+    difficulty: MEDIUM
+  - text: "Quel empire a été conquis par Trajan en 106 apr. J.-C. ?"
+    answers:
+      A: "Royaume de Dacie"
+      B: "Empire parthe"
+      C: "Arménie"
+      D: "Mésopotamie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which empire was conquered by Trajan in 106 AD?"
+        answers:
+          A: "Kingdom of Dacia"
+          B: "Parthian Empire"
+          C: "Armenia"
+          D: "Mesopotamia"
+    difficulty: HARD
+  - text: "Quel empereur romain a régné de 81 à 96 apr. J.-C. ?"
+    answers:
+      A: "Titus"
+      B: "Domitien"
+      C: "Nerva"
+      D: "Vespasien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 81 to 96 AD?"
+        answers:
+          A: "Titus"
+          B: "Domitian"
+          C: "Nerva"
+          D: "Vespasian"
+    difficulty: MEDIUM
+  - text: "Quel sénateur romain a été adopté par Trajan et lui a succédé en 117 apr. J.-C. ?"
+    answers:
+      A: "Antonin le Pieux"
+      B: "Lucius Verus"
+      C: "Marc Aurèle"
+      D: "Hadrien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman senator was adopted by Trajan and succeeded him in 117 AD?"
+        answers:
+          A: "Antoninus Pius"
+          B: "Lucius Verus"
+          C: "Marcus Aurelius"
+          D: "Hadrian"
+    difficulty: HARD
+  - text: "Quel empereur romain a fait ériger la colonne Trajane en 113 apr. J.-C. ?"
+    answers:
+      A: "Hadrien"
+      B: "Domitien"
+      C: "Antonin le Pieux"
+      D: "Trajan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor erected Trajan's Column in 113 AD?"
+        answers:
+          A: "Hadrian"
+          B: "Domitian"
+          C: "Antoninus Pius"
+          D: "Trajan"
+    difficulty: EASY
+  - text: "Quel empereur romain a été le premier à être de naissance provinciale (Espagne) ?"
+    answers:
+      A: "Antonin le Pieux"
+      B: "Hadrien"
+      C: "Trajan"
+      D: "Marc Aurèle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor was the first to be born in a province (Spain)?"
+        answers:
+          A: "Antoninus Pius"
+          B: "Hadrian"
+          C: "Trajan"
+          D: "Marcus Aurelius"
+    difficulty: HARD
+  - text: "Quelle bataille de 378 apr. J.-C. a vu la défaite romaine face aux Goths ?"
+    answers:
+      A: "Bataille de Strasbourg"
+      B: "Bataille de Châlons"
+      C: "Bataille de Pollentia"
+      D: "Bataille d'Andrinople"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which battle in 378 AD saw a Roman defeat against the Goths?"
+        answers:
+          A: "Battle of Strasbourg"
+          B: "Battle of the Catalaunian Plains"
+          C: "Battle of Pollentia"
+          D: "Battle of Adrianople"
+    difficulty: HARD
+  - text: "Quel empereur romain a fait de Constantinople la capitale de l'Empire en 330 apr. J.-C. ?"
+    answers:
+      A: "Julien"
+      B: "Dioclétien"
+      C: "Théodose Ier"
+      D: "Constantin Ier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman emperor made Constantinople the capital of the Empire in 330 AD?"
+        answers:
+          A: "Julian"
+          B: "Diocletian"
+          C: "Theodosius I"
+          D: "Constantine I"
+    difficulty: EASY
+  - text: "Quel empereur romain a régné de 306 à 337 apr. J.-C. ?"
+    answers:
+      A: "Maxence"
+      B: "Constantin Ier"
+      C: "Licinius"
+      D: "Constance II"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 306 to 337 AD?"
+        answers:
+          A: "Maxentius"
+          B: "Constantine I"
+          C: "Licinius"
+          D: "Constantius II"
+    difficulty: MEDIUM
+  - text: "Quel empereur romain a régné de 284 à 305 apr. J.-C. et instauré la tétrarchie ?"
+    answers:
+      A: "Maximien"
+      B: "Dioclétien"
+      C: "Galère"
+      D: "Constance Chlore"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor reigned from 284 to 305 AD and established the Tetrarchy?"
+        answers:
+          A: "Maximian"
+          B: "Diocletian"
+          C: "Galerius"
+          D: "Constantius Chlorus"
+    difficulty: MEDIUM
+  - text: "Quel édit de 212 apr. J.-C. a accordé la citoyenneté romaine à tous les hommes libres de l'Empire ?"
+    answers:
+      A: "Édit de Thessalonique"
+      B: "Édit de Milan"
+      C: "Édit de Nicomédie"
+      D: "Édit de Caracalla"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which edict of 212 AD granted Roman citizenship to all free men of the Empire?"
+        answers:
+          A: "Edict of Thessalonica"
+          B: "Edict of Milan"
+          C: "Edict of Nicomedia"
+          D: "Edict of Caracalla"
+    difficulty: HARD
+  - text: "Quel empereur romain a été assassiné en 96 apr. J.-C. ?"
+    answers:
+      A: "Trajan"
+      B: "Nerva"
+      C: "Domitien"
+      D: "Titus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman emperor was assassinated in 96 AD?"
+        answers:
+          A: "Trajan"
+          B: "Nerva"
+          C: "Domitian"
+          D: "Titus"
+    difficulty: HARD
+  - text: "Quel empereur romain a fondé la dynastie des Sévères en 193 apr. J.-C. ?"
+    answers:
+      A: "Caracalla"
+      B: "Septime Sévère"
+      C: "Héliogabale"
+      D: "Alexandre Sévère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor founded the Severan dynasty in 193 AD?"
+        answers:
+          A: "Caracalla"
+          B: "Septimius Severus"
+          C: "Elagabalus"
+          D: "Alexander Severus"
+    difficulty: HARD
+  - text: "Quelle bataille de 312 apr. J.-C. a vu Constantin vaincre Maxence ?"
+    answers:
+      A: "Bataille de Verceil"
+      B: "Bataille du pont Milvius"
+      C: "Bataille de Turin"
+      D: "Bataille de Brescia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which battle in 312 AD saw Constantine defeat Maxentius?"
+        answers:
+          A: "Battle of Vercellae"
+          B: "Battle of the Milvian Bridge"
+          C: "Battle of Turin"
+          D: "Battle of Brescia"
+    difficulty: HARD
+  - text: "Quelle charge Gaius Gracchus a-t-il occupée en 123 av. J.-C. ?"
+    answers:
+      A: "Consul"
+      B: "Censeur"
+      C: "Préteur"
+      D: "Tribun de la plèbe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which office did Gaius Gracchus hold in 123 BC?"
+        answers:
+          A: "Consul"
+          B: "Censor"
+          C: "Praetor"
+          D: "Tribune of the Plebs"
+    difficulty: EXPERT
+  - text: "Quel roi de Rome a institué le calendrier de 10 mois ?"
+    answers:
+      A: "Tullus Hostilius"
+      B: "Numa Pompilius"
+      C: "Romulus"
+      D: "Servius Tullius"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which king of Rome instituted the 10-month calendar?"
+        answers:
+          A: "Tullus Hostilius"
+          B: "Numa Pompilius"
+          C: "Romulus"
+          D: "Servius Tullius"
+    difficulty: EXPERT
+  - text: "Quel peuple a vaincu les Romains à la bataille de l'Allia en 390 av. J.-C. ?"
+    answers:
+      A: "Samnites"
+      B: "Gaulois Sénons"
+      C: "Étrusques"
+      D: "Volsques"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which people defeated the Romans at the Battle of the Allia in 390 BC?"
+        answers:
+          A: "Samnites"
+          B: "Senones Gauls"
+          C: "Etruscans"
+          D: "Volsci"
+    difficulty: EXPERT
+  - text: "Quelle loi de 287 av. J.-C. a rendu les plébiscites obligatoires pour tous les citoyens ?"
+    answers:
+      A: "Loi des Douze Tables"
+      B: "Loi Canuléia"
+      C: "Loi Valeria"
+      D: "Loi Hortensia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which law of 287 BC made plebiscites binding on all citizens?"
+        answers:
+          A: "Law of the Twelve Tables"
+          B: "Lex Canuleia"
+          C: "Lex Valeria"
+          D: "Lex Hortensia"
+    difficulty: EXPERT
+  - text: "Quel général romain a vaincu les Samnites à la bataille de Sentinum en 295 av. J.-C. ?"
+    answers:
+      A: "Quintus Fabius Maximus Rullianus"
+      B: "Appius Claudius Caecus"
+      C: "Manius Curius Dentatus"
+      D: "Publius Decius Mus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman general defeated the Samnites at the Battle of Sentinum in 295 BC?"
+        answers:
+          A: "Quintus Fabius Maximus Rullianus"
+          B: "Appius Claudius Caecus"
+          C: "Manius Curius Dentatus"
+          D: "Publius Decius Mus"
+    difficulty: EXPERT
+  - text: "Quel roi de Macédoine a été vaincu à Pydna en 168 av. J.-C. ?"
+    answers:
+      A: "Persée"
+      B: "Philippe V"
+      C: "Antiochos III"
+      D: "Andriscos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which king of Macedon was defeated at Pydna in 168 BC?"
+        answers:
+          A: "Perseus"
+          B: "Philip V"
+          C: "Antiochus III"
+          D: "Andriscus"
+    difficulty: EXPERT
+  - text: "Quel consul a écrasé la révolte de Spartacus en 71 av. J.-C. ?"
+    answers:
+      A: "Jules César"
+      B: "Pompée"
+      C: "Crassus"
+      D: "Lucullus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which consul crushed the revolt of Spartacus in 71 BC?"
+        answers:
+          A: "Julius Caesar"
+          B: "Pompey"
+          C: "Crassus"
+          D: "Lucullus"
+    difficulty: HARD
+  - text: "Quel accord de 40 av. J.-C. a partagé l'Empire entre Octave et Antoine ?"
+    answers:
+      A: "Accord de Brindes"
+      B: "Accord de Tarente"
+      C: "Accord de Misène"
+      D: "Accord de Pouzzoles"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which agreement of 40 BC divided the Empire between Octavian and Antony?"
+        answers:
+          A: "Treaty of Brundisium"
+          B: "Treaty of Tarentum"
+          C: "Treaty of Misenum"
+          D: "Treaty of Puteoli"
+    difficulty: EXPERT
+  - text: "Qui a été le premier empereur romain à être divinisé après sa mort ?"
+    answers:
+      A: "Claude"
+      B: "Auguste"
+      C: "Jules César"
+      D: "Vespasien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the first Roman emperor to be deified after his death?"
+        answers:
+          A: "Claudius"
+          B: "Augustus"
+          C: "Julius Caesar"
+          D: "Vespasian"
+    difficulty: HARD
+  - text: "Sous quel empereur l'incendie de Rome de 64 apr. J.-C. a-t-il eu lieu ?"
+    answers:
+      A: "Caligula"
+      B: "Néron"
+      C: "Claude"
+      D: "Vitellius"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Under which emperor did the Great Fire of Rome in 64 AD occur?"
+        answers:
+          A: "Caligula"
+          B: "Nero"
+          C: "Claudius"
+          D: "Vitellius"
+    difficulty: EASY
+  - text: "Quel empereur a fait construire le temple de Vespasien et de Titus à Rome ?"
+    answers:
+      A: "Domitien"
+      B: "Titus"
+      C: "Vespasien"
+      D: "Nerva"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which emperor had the Temple of Vespasian and Titus in Rome built?"
+        answers:
+          A: "Domitian"
+          B: "Titus"
+          C: "Vespasian"
+          D: "Nerva"
+    difficulty: EXPERT
+  - text: "Quel empereur a ordonné la construction du mur d'Hadrien ?"
+    answers:
+      A: "Trajan"
+      B: "Antonin le Pieux"
+      C: "Hadrien"
+      D: "Marc Aurèle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which emperor ordered the construction of Hadrian's Wall?"
+        answers:
+          A: "Trajan"
+          B: "Antoninus Pius"
+          C: "Hadrian"
+          D: "Marcus Aurelius"
+    difficulty: EASY
+  - text: "En quelle année l'empereur Commode a-t-il été assassiné ?"
+    answers:
+      A: "193 apr. J.-C."
+      B: "192 apr. J.-C."
+      C: "194 apr. J.-C."
+      D: "195 apr. J.-C."
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was Emperor Commodus assassinated?"
+        answers:
+          A: "193 AD"
+          B: "192 AD"
+          C: "194 AD"
+          D: "195 AD"
+    difficulty: EXPERT
+  - text: "Quel empereur a instauré la tétrarchie en 293 apr. J.-C. ?"
+    answers:
+      A: "Maximien"
+      B: "Dioclétien"
+      C: "Galère"
+      D: "Constance Chlore"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which emperor established the Tetrarchy in 293 AD?"
+        answers:
+          A: "Maximian"
+          B: "Diocletian"
+          C: "Galerius"
+          D: "Constantius Chlorus"
+    difficulty: HARD
+  - text: "Quel empereur a fondé Constantinople en 330 apr. J.-C. ?"
+    answers:
+      A: "Constantin"
+      B: "Théodose"
+      C: "Julien"
+      D: "Valens"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which emperor founded Constantinople in 330 AD?"
+        answers:
+          A: "Constantine"
+          B: "Theodosius"
+          C: "Julian"
+          D: "Valens"
+    difficulty: EASY
+  - text: "En quelle année a eu lieu la bataille d'Andrinople ?"
+    answers:
+      A: "376 apr. J.-C."
+      B: "380 apr. J.-C."
+      C: "378 apr. J.-C."
+      D: "382 apr. J.-C."
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Battle of Adrianople take place?"
+        answers:
+          A: "376 AD"
+          B: "380 AD"
+          C: "378 AD"
+          D: "382 AD"
+    difficulty: HARD
+  - text: "Qui a déposé le dernier empereur romain d'Occident en 476 apr. J.-C. ?"
+    answers:
+      A: "Attila"
+      B: "Théodoric"
+      C: "Alaric"
+      D: "Odoacre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who deposed the last Western Roman emperor in 476 AD?"
+        answers:
+          A: "Attila"
+          B: "Theodoric"
+          C: "Alaric"
+          D: "Odoacer"
+    difficulty: HARD
+  - text: "Quel était le nom du premier censeur romain en 443 av. J.-C. ?"
+    answers:
+      A: "Lucius Papirius Cursor"
+      B: "Appius Claudius Crassus"
+      C: "Lucius Quinctius Cincinnatus"
+      D: "Marcus Furius Camillus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the first Roman censor in 443 BC?"
+        answers:
+          A: "Lucius Papirius Cursor"
+          B: "Appius Claudius Crassus"
+          C: "Lucius Quinctius Cincinnatus"
+          D: "Marcus Furius Camillus"
+    difficulty: EXPERT
+  - text: "Quel magistrat romain était chargé de recenser les citoyens et de surveiller les mœurs ?"
+    answers:
+      A: "Le tribun de la plèbe"
+      B: "Le préteur"
+      C: "Le censeur"
+      D: "L'édile curule"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman magistrate was responsible for counting citizens and overseeing morals?"
+        answers:
+          A: "The tribune of the plebs"
+          B: "The praetor"
+          C: "The censor"
+          D: "The curule aedile"
+    difficulty: HARD

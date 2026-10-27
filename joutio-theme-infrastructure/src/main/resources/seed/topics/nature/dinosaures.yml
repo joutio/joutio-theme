@@ -1,0 +1,1631 @@
+topic:
+  id: topic-dinosaures
+  names:
+    fr: "Dinosaures"
+    en: "Dinosaurs"
+  description: "Les dinosaures ont régné sur la Terre pendant l'ère mésozoïque, du Trias au Crétacé. Découvre les grandes familles de théropodes, sauropodes et cératopsiens, les espèces iconiques comme le Tyrannosaurus rex ou le Triceratops, les périodes géologiques, l'extinction de la fin du Crétacé et le travail des paléontologues sur les fossiles."
+  category: NATURE
+  titles:
+    fr:
+      FER: "Caillou qui gratte"
+      BRONZE: "Fouilleur de sable"
+      ARGENT: "Dénicheur d'os"
+      OR: "Reconstructeur de squelettes"
+      PLATINE: "Chasseur de fossiles"
+      EMERAUDE: "Seigneur du Crétacé"
+      DIAMANT: "Mémoire du Mésozoïque"
+    en:
+      FER: "Rock Scratcher"
+      BRONZE: "Sand Digger"
+      ARGENT: "Bone Finder"
+      OR: "Skeleton Builder"
+      PLATINE: "Fossil Hunter"
+      EMERAUDE: "Cretaceous Overlord"
+      DIAMANT: "Mesozoic Memory"
+  imageUrl: wikipedia/nature/Tyrannosaurus_rex_skeleton_(cast_of_specimen_MOR_555)_at_Cleveland_Museum_of_Natural_History.jpg
+questions:
+  - text: "Quel dinosaure du Crétacé supérieur d'Amérique du Nord possédait une corne nasale courte et deux cornes frontales bien développées ?"
+    answers:
+      A: "Triceratops horridus"
+      B: "Pachyrhinosaurus canadensis"
+      C: "Torosaurus latus"
+      D: "Styracosaurus albertensis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Late Cretaceous dinosaur from North America had a short nasal horn and two well-developed brow horns?"
+        answers:
+          A: "Triceratops horridus"
+          B: "Pachyrhinosaurus canadensis"
+          C: "Torosaurus latus"
+          D: "Styracosaurus albertensis"
+    difficulty: HARD
+  - text: "Quel dinosaure carnivore est exposé au Field Museum ?"
+    imageUrl: wikipedia/nature/FMNH_Tyrannosaurus_rex_Sue.jpg
+    answers:
+      A: "Tyrannosaurus rex"
+      B: "Allosaure"
+      C: "Giganotosaure"
+      D: "Carnotaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which carnivorous dinosaur is on display at the Field Museum?"
+        answers:
+          A: "Tyrannosaurus rex"
+          B: "Allosaurus"
+          C: "Giganotosaurus"
+          D: "Carnotaurus"
+    difficulty: EASY
+  - text: "Quel dinosaure à collerette est représenté ?"
+    imageUrl: wikipedia/nature/Triceratops_Skeleton_-_National_Museum_of_Natural_History_(14611729991)a.jpg
+    answers:
+      A: "Protoceratops"
+      B: "Pachyrhinosaurus"
+      C: "Stégosaure"
+      D: "Triceratops"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which frilled dinosaur is shown?"
+        answers:
+          A: "Protoceratops"
+          B: "Pachyrhinosaurus"
+          C: "Stegosaurus"
+          D: "Triceratops"
+    difficulty: EASY
+  - text: "À quel dinosaure appartient ce squelette ?"
+    imageUrl: wikipedia/nature/Stegosaurus_in_the_Natural_History_Museum_London.jpg
+    answers:
+      A: "Ankylosaure"
+      B: "Kentrosaure"
+      C: "Parasaurolophus"
+      D: "Stégosaure"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which dinosaur does this skeleton belong to?"
+        answers:
+          A: "Ankylosaurus"
+          B: "Kentrosaurus"
+          C: "Parasaurolophus"
+          D: "Stegosaurus"
+    difficulty: EASY
+  - text: "À quel dinosaure appartient ce squelette ?"
+    imageUrl: wikipedia/nature/LACM_Velociraptor_mongoliensis_cast_01.jpg
+    answers:
+      A: "Deinonychus"
+      B: "Vélociraptor"
+      C: "Oviraptor"
+      D: "Compsognathus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which dinosaur does this skeleton belong to?"
+        answers:
+          A: "Deinonychus"
+          B: "Velociraptor"
+          C: "Oviraptor"
+          D: "Compsognathus"
+    difficulty: EASY
+  - text: "Quel théropode du Jurassique supérieur est célèbre pour la griffe en faucille de son deuxième orteil ?"
+    answers:
+      A: "Deinonychus antirrhopus"
+      B: "Ceratosaurus nasicornis"
+      C: "Allosaurus fragilis"
+      D: "Velociraptor mongoliensis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Late Jurassic theropod is famous for the sickle-shaped claw on its second toe?"
+        answers:
+          A: "Deinonychus antirrhopus"
+          B: "Ceratosaurus nasicornis"
+          C: "Allosaurus fragilis"
+          D: "Velociraptor mongoliensis"
+    difficulty: EASY
+  - text: "Lequel de ces sauropodes est connu pour ses vertèbres dorsales creuses, décrites par Othniel Marsh en 1877 ?"
+    answers:
+      A: "Apatosaurus ajax"
+      B: "Brachiosaurus altithorax"
+      C: "Diplodocus longus"
+      D: "Camarasaurus supremus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which of these sauropods is known for its hollow dorsal vertebrae, described by Othniel Marsh in 1877?"
+        answers:
+          A: "Apatosaurus ajax"
+          B: "Brachiosaurus altithorax"
+          C: "Diplodocus longus"
+          D: "Camarasaurus supremus"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à cornes est caractérisé par une longue corne nasale et des épines pariétales allongées, décrit par Lawrence Lambe en 1913 ?"
+    answers:
+      A: "Centrosaurus apertus"
+      B: "Monoclonius crassus"
+      C: "Einiosaurus procurvicornis"
+      D: "Styracosaurus albertensis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which horned dinosaur is characterized by a long nasal horn and elongated parietal spikes, described by Lawrence Lambe in 1913?"
+        answers:
+          A: "Centrosaurus apertus"
+          B: "Monoclonius crassus"
+          C: "Einiosaurus procurvicornis"
+          D: "Styracosaurus albertensis"
+    difficulty: EXPERT
+  - text: "Quel théropode du Crétacé inférieur d'Espagne est connu pour ses bras courts et une grande griffe au pouce ?"
+    answers:
+      A: "Concavenator corcovatus"
+      B: "Baryonyx walkeri"
+      C: "Spinosaurus aegyptiacus"
+      D: "Carcharodontosaurus saharicus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Early Cretaceous theropod from Spain is known for its short arms and a large thumb claw?"
+        answers:
+          A: "Concavenator corcovatus"
+          B: "Baryonyx walkeri"
+          C: "Spinosaurus aegyptiacus"
+          D: "Carcharodontosaurus saharicus"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à bec de canard du Crétacé supérieur d'Amérique du Nord possédait une crête osseuse en forme de hache ?"
+    answers:
+      A: "Parasaurolophus walkeri"
+      B: "Corythosaurus casuarius"
+      C: "Lambeosaurus lambei"
+      D: "Edmontosaurus regalis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Late Cretaceous duck-billed dinosaur from North America had a hatchet-shaped bony crest?"
+        answers:
+          A: "Parasaurolophus walkeri"
+          B: "Corythosaurus casuarius"
+          C: "Lambeosaurus lambei"
+          D: "Edmontosaurus regalis"
+    difficulty: HARD
+  - text: "Quel sauropode du Crétacé inférieur d'Afrique possédait des épines neurales hautes formant une voile sur le dos ?"
+    answers:
+      A: "Amargasaurus cazaui"
+      B: "Nigersaurus taqueti"
+      C: "Rebbachisaurus garasbae"
+      D: "Argentinosaurus huinculensis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Early Cretaceous sauropod from Africa had tall neural spines forming a sail on its back?"
+        answers:
+          A: "Amargasaurus cazaui"
+          B: "Nigersaurus taqueti"
+          C: "Rebbachisaurus garasbae"
+          D: "Argentinosaurus huinculensis"
+    difficulty: EXPERT
+  - text: "Quel dinosaure blindé du Crétacé supérieur d'Amérique du Nord possédait une massue caudale et des plaques latérales ?"
+    answers:
+      A: "Euoplocephalus tutus"
+      B: "Scolosaurus cutleri"
+      C: "Ankylosaurus magniventris"
+      D: "Nodosaurus textilis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which armored Late Cretaceous dinosaur from North America had a tail club and lateral plates?"
+        answers:
+          A: "Euoplocephalus tutus"
+          B: "Scolosaurus cutleri"
+          C: "Ankylosaurus magniventris"
+          D: "Nodosaurus textilis"
+    difficulty: MEDIUM
+  - text: "Quel théropode du Crétacé supérieur de Mongolie possède un crâne allongé et des dents coniques, décrit par Osmólska en 1981 ?"
+    answers:
+      A: "Citipati osmolskae"
+      B: "Oviraptor philoceratops"
+      C: "Velociraptor mongoliensis"
+      D: "Masiakasaurus knopfleri"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Late Cretaceous theropod from Mongolia has an elongated skull and conical teeth, described by Osmólska in 1981?"
+        answers:
+          A: "Citipati osmolskae"
+          B: "Oviraptor philoceratops"
+          C: "Velociraptor mongoliensis"
+          D: "Masiakasaurus knopfleri"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à cornes du Crétacé supérieur du Montana se distingue par deux longues cornes frontales dirigées vers l'avant ?"
+    answers:
+      A: "Triceratops prorsus"
+      B: "Arrhinoceratops brachyops"
+      C: "Pachyrhinosaurus lakustai"
+      D: "Torosaurus utahensis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Late Cretaceous horned dinosaur from Montana is distinguished by two long brow horns pointing forward?"
+        answers:
+          A: "Triceratops prorsus"
+          B: "Arrhinoceratops brachyops"
+          C: "Pachyrhinosaurus lakustai"
+          D: "Torosaurus utahensis"
+    difficulty: HARD
+  - text: "Quel théropode du Jurassique moyen d'Angleterre a été le premier dinosaure carnivore décrit avec une corne nasale, en 1824 ?"
+    answers:
+      A: "Iguanodon anglicus"
+      B: "Megalosaurus bucklandii"
+      C: "Hylaeosaurus armatus"
+      D: "Cetiosaurus oxoniensis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Middle Jurassic theropod from England was the first carnivorous dinosaur described with a nasal horn, in 1824?"
+        answers:
+          A: "Iguanodon anglicus"
+          B: "Megalosaurus bucklandii"
+          C: "Hylaeosaurus armatus"
+          D: "Cetiosaurus oxoniensis"
+    difficulty: MEDIUM
+  - text: "Quel petit théropode du Crétacé supérieur de Mongolie est célèbre pour son crâne aux dents acérées et ses griffes rétractiles, décrit par Osborn en 1924 ?"
+    answers:
+      A: "Velociraptor mongoliensis"
+      B: "Deinonychus antirrhopus"
+      C: "Saurornithoides mongoliensis"
+      D: "Adasaurus mongoliensis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which small theropod from the Upper Cretaceous of Mongolia is famous for its skull with sharp teeth and retractable claws, described by Osborn in 1924?"
+        answers:
+          A: "Velociraptor mongoliensis"
+          B: "Deinonychus antirrhopus"
+          C: "Saurornithoides mongoliensis"
+          D: "Adasaurus mongoliensis"
+    difficulty: HARD
+  - text: "Quel sauropode du Jurassique supérieur d'Amérique du Nord possède des vertèbres caudales en forme de fouet et a été nommé par Marsh en 1878 ?"
+    answers:
+      A: "Diplodocus carnegii"
+      B: "Apatosaurus louisae"
+      C: "Barosaurus lentus"
+      D: "Supersaurus vivianae"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sauropod from the Upper Jurassic of North America has whip-shaped tail vertebrae and was named by Marsh in 1878?"
+        answers:
+          A: "Diplodocus carnegii"
+          B: "Apatosaurus louisae"
+          C: "Barosaurus lentus"
+          D: "Supersaurus vivianae"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à cornes du Crétacé supérieur d'Alberta possède une collerette courte et un bossage nasal épais, décrit par Sternberg en 1950 ?"
+    answers:
+      A: "Pachyrhinosaurus canadensis"
+      B: "Achelousaurus horneri"
+      C: "Einiosaurus procurvicornis"
+      D: "Avaceratops lammersi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which horned dinosaur from the Upper Cretaceous of Alberta has a short frill and a thick nasal boss, described by Sternberg in 1950?"
+        answers:
+          A: "Pachyrhinosaurus canadensis"
+          B: "Achelousaurus horneri"
+          C: "Einiosaurus procurvicornis"
+          D: "Avaceratops lammersi"
+    difficulty: EXPERT
+  - text: "Quel théropode du Crétacé supérieur d'Amérique du Nord est connu pour ses bras très courts et ses deux doigts fonctionnels ?"
+    answers:
+      A: "Daspletosaurus torosus"
+      B: "Albertosaurus sarcophagus"
+      C: "Gorgosaurus libratus"
+      D: "Tyrannosaurus rex"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod from the Upper Cretaceous of North America is known for its very short arms and two functional fingers?"
+        answers:
+          A: "Daspletosaurus torosus"
+          B: "Albertosaurus sarcophagus"
+          C: "Gorgosaurus libratus"
+          D: "Tyrannosaurus rex"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure ornithopode du Crétacé inférieur d'Angleterre a été décrit par Gideon Mantell en 1825 à partir de dents et d'os ?"
+    answers:
+      A: "Mantellisaurus atherfieldensis"
+      B: "Iguanodon anglicus"
+      C: "Hypsilophodon foxii"
+      D: "Camptosaurus dispar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ornithopod dinosaur from the Lower Cretaceous of England was described by Gideon Mantell in 1825 from teeth and bones?"
+        answers:
+          A: "Mantellisaurus atherfieldensis"
+          B: "Iguanodon anglicus"
+          C: "Hypsilophodon foxii"
+          D: "Camptosaurus dispar"
+    difficulty: HARD
+  - text: "Quel théropode du Crétacé supérieur d'Afrique du Nord possède une grande voile dorsale et un crâne long et étroit, décrit par Stromer en 1915 ?"
+    answers:
+      A: "Deltadromeus agilis"
+      B: "Carcharodontosaurus saharicus"
+      C: "Bahariasaurus ingens"
+      D: "Spinosaurus aegyptiacus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod from the Upper Cretaceous of North Africa has a large dorsal sail and a long, narrow skull, described by Stromer in 1915?"
+        answers:
+          A: "Deltadromeus agilis"
+          B: "Carcharodontosaurus saharicus"
+          C: "Bahariasaurus ingens"
+          D: "Spinosaurus aegyptiacus"
+    difficulty: HARD
+  - text: "Quel dinosaure à cornes du Crétacé supérieur du Nouveau-Mexique possède une collerette allongée avec de grandes fenêtres pariétales, décrit par Marsh en 1891 ?"
+    answers:
+      A: "Nedoceratops hatcheri"
+      B: "Triceratops horridus"
+      C: "Torosaurus latus"
+      D: "Titanoceratops ouranos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which horned dinosaur from the Upper Cretaceous of New Mexico has an elongated frill with large parietal fenestrae, described by Marsh in 1891?"
+        answers:
+          A: "Nedoceratops hatcheri"
+          B: "Triceratops horridus"
+          C: "Torosaurus latus"
+          D: "Titanoceratops ouranos"
+    difficulty: EXPERT
+  - text: "Quel sauropode du Crétacé supérieur d'Amérique du Sud est considéré comme l'un des plus grands dinosaures connus, décrit en 1993 ?"
+    answers:
+      A: "Puertasaurus reuili"
+      B: "Argentinosaurus huinculensis"
+      C: "Dreadnoughtus schrani"
+      D: "Patagotitan mayorum"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sauropod from the Upper Cretaceous of South America is considered one of the largest known dinosaurs, described in 1993?"
+        answers:
+          A: "Puertasaurus reuili"
+          B: "Argentinosaurus huinculensis"
+          C: "Dreadnoughtus schrani"
+          D: "Patagotitan mayorum"
+    difficulty: EXPERT
+  - text: "Quel dinosaure théropode du Jurassique supérieur d'Amérique du Nord est connu pour ses crêtes lacrymales distinctives, décrit par Marsh en 1877 ?"
+    answers:
+      A: "Allosaurus fragilis"
+      B: "Ceratosaurus nasicornis"
+      C: "Torvosaurus tanneri"
+      D: "Saurophaganax maximus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which theropod dinosaur from the Upper Jurassic of North America is known for its distinctive lacrimal crests, described by Marsh in 1877?"
+        answers:
+          A: "Allosaurus fragilis"
+          B: "Ceratosaurus nasicornis"
+          C: "Torvosaurus tanneri"
+          D: "Saurophaganax maximus"
+    difficulty: EXPERT
+  - text: "Selon la datation actuelle, il y a environ combien de millions d'années le Tyrannosaurus rex a-t-il vécu ?"
+    answers:
+      A: "83 à 80 millions d'années"
+      B: "68 à 66 millions d'années"
+      C: "95 à 90 millions d'années"
+      D: "120 à 110 millions d'années"
+    correctAnswer: B
+    translations:
+      en:
+        text: "According to current dating, approximately how many million years ago did Tyrannosaurus rex live?"
+        answers:
+          A: "83 to 80 million years ago"
+          B: "68 to 66 million years ago"
+          C: "95 to 90 million years ago"
+          D: "120 to 110 million years ago"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure sauropode est célèbre pour ses vertèbres cervicales extrêmement longues, décrit par Elmer Riggs en 1903 ?"
+    answers:
+      A: "Brachiosaurus"
+      B: "Barosaurus"
+      C: "Apatosaurus"
+      D: "Camarasaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sauropod dinosaur is famous for its extremely long neck vertebrae, described by Elmer Riggs in 1903?"
+        answers:
+          A: "Brachiosaurus"
+          B: "Barosaurus"
+          C: "Apatosaurus"
+          D: "Camarasaurus"
+    difficulty: HARD
+  - text: "Quel dinosaure à cornes est connu pour sa très longue collerette osseuse avec deux grandes fenêtres, décrit par Edward Cope en 1876 ?"
+    answers:
+      A: "Chasmosaurus"
+      B: "Anchiceratops"
+      C: "Pentaceratops"
+      D: "Arrhinoceratops"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which horned dinosaur is known for its very long bony frill with two large fenestrae, described by Edward Cope in 1876?"
+        answers:
+          A: "Chasmosaurus"
+          B: "Anchiceratops"
+          C: "Pentaceratops"
+          D: "Arrhinoceratops"
+    difficulty: EXPERT
+  - text: "Quel théropode du Crétacé supérieur de Mongolie est célèbre pour ses très longs bras et griffes, décrit par Henry Osborn en 1924 ?"
+    answers:
+      A: "Oviraptor"
+      B: "Velociraptor"
+      C: "Therizinosaurus"
+      D: "Deinocheirus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod from the Upper Cretaceous of Mongolia is famous for its very long arms and claws, described by Henry Osborn in 1924?"
+        answers:
+          A: "Oviraptor"
+          B: "Velociraptor"
+          C: "Therizinosaurus"
+          D: "Deinocheirus"
+    difficulty: HARD
+  - text: "Quel dinosaure ornithopode du Crétacé inférieur d'Angleterre est connu pour son pouce transformé en éperon, décrit par Gideon Mantell en 1825 ?"
+    answers:
+      A: "Hypsilophodon"
+      B: "Iguanodon"
+      C: "Mantellisaurus"
+      D: "Ouranosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ornithopod dinosaur from the Lower Cretaceous of England is known for its thumb transformed into a spike, described by Gideon Mantell in 1825?"
+        answers:
+          A: "Hypsilophodon"
+          B: "Iguanodon"
+          C: "Mantellisaurus"
+          D: "Ouranosaurus"
+    difficulty: HARD
+  - text: "Quel dinosaure théropode du Jurassique supérieur d'Amérique du Nord est connu pour sa crête osseuse sur le crâne, décrit par Edward Cope en 1877 ?"
+    answers:
+      A: "Megalosaurus"
+      B: "Allosaurus"
+      C: "Torvosaurus"
+      D: "Ceratosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod dinosaur from the Upper Jurassic of North America is known for its bony crest on the skull, described by Edward Cope in 1877?"
+        answers:
+          A: "Megalosaurus"
+          B: "Allosaurus"
+          C: "Torvosaurus"
+          D: "Ceratosaurus"
+    difficulty: EXPERT
+  - text: "Quel sauropode du Crétacé inférieur d'Afrique est connu pour ses hautes épines neurales formant une voile, décrit par Ernst Stromer en 1932 ?"
+    answers:
+      A: "Ouranosaurus"
+      B: "Spinosaurus"
+      C: "Rebbachisaurus"
+      D: "Nigersaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sauropod from the Early Cretaceous of Africa is known for its tall neural spines forming a sail, described by Ernst Stromer in 1932?"
+        answers:
+          A: "Ouranosaurus"
+          B: "Spinosaurus"
+          C: "Rebbachisaurus"
+          D: "Nigersaurus"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à cornes du Crétacé supérieur d'Amérique du Nord possède trois cornes frontales, décrit par Othniel Marsh en 1889 ?"
+    answers:
+      A: "Pachyrhinosaurus"
+      B: "Styracosaurus"
+      C: "Triceratops"
+      D: "Einiosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which horned dinosaur from the Late Cretaceous of North America has three frontal horns, described by Othniel Marsh in 1889?"
+        answers:
+          A: "Pachyrhinosaurus"
+          B: "Styracosaurus"
+          C: "Triceratops"
+          D: "Einiosaurus"
+    difficulty: MEDIUM
+  - text: "Quel théropode du Crétacé inférieur d'Afrique du Nord est connu pour sa grande voile et son crâne long, décrit par Stromer en 1915 ?"
+    answers:
+      A: "Bahariasaurus"
+      B: "Carcharodontosaurus"
+      C: "Deltadromeus"
+      D: "Spinosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod from the Early Cretaceous of North Africa is known for its large sail and long skull, described by Stromer in 1915?"
+        answers:
+          A: "Bahariasaurus"
+          B: "Carcharodontosaurus"
+          C: "Deltadromeus"
+          D: "Spinosaurus"
+    difficulty: HARD
+  - text: "Quel dinosaure blindé du Crétacé supérieur d'Amérique du Nord possède une massue caudale, décrit par Othniel Marsh en 1890 ?"
+    answers:
+      A: "Ankylosaurus"
+      B: "Euoplocephalus"
+      C: "Edmontonia"
+      D: "Scolosaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which armored dinosaur from the Late Cretaceous of North America has a tail club, described by Othniel Marsh in 1890?"
+        answers:
+          A: "Ankylosaurus"
+          B: "Euoplocephalus"
+          C: "Edmontonia"
+          D: "Scolosaurus"
+    difficulty: HARD
+  - text: "Quel petit théropode du Crétacé supérieur de Mongolie est célèbre pour sa griffe rétractile au deuxième orteil, décrit par Osborn en 1924 ?"
+    answers:
+      A: "Saurornithoides"
+      B: "Velociraptor"
+      C: "Adasaurus"
+      D: "Tsaagan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which small theropod from the Late Cretaceous of Mongolia is famous for its retractable claw on the second toe, described by Osborn in 1924?"
+        answers:
+          A: "Saurornithoides"
+          B: "Velociraptor"
+          C: "Adasaurus"
+          D: "Tsaagan"
+    difficulty: HARD
+  - text: "Quel sauropode du Jurassique supérieur d'Amérique du Nord possède des vertèbres caudales en forme de fouet, nommé par Marsh en 1877 ?"
+    answers:
+      A: "Diplodocus"
+      B: "Apatosaurus"
+      C: "Barosaurus"
+      D: "Supersaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sauropod from the Late Jurassic of North America has whip-shaped tail vertebrae, named by Marsh in 1877?"
+        answers:
+          A: "Diplodocus"
+          B: "Apatosaurus"
+          C: "Barosaurus"
+          D: "Supersaurus"
+    difficulty: EXPERT
+  - text: "Quel théropode du Crétacé supérieur d'Amérique du Nord est connu pour ses deux doigts fonctionnels, décrit par Osborn en 1905 ?"
+    answers:
+      A: "Gorgosaurus"
+      B: "Allosaurus"
+      C: "Tyrannosaurus rex"
+      D: "Daspletosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which theropod from the Late Cretaceous of North America is known for its two functional fingers, described by Osborn in 1905?"
+        answers:
+          A: "Gorgosaurus"
+          B: "Allosaurus"
+          C: "Tyrannosaurus rex"
+          D: "Daspletosaurus"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure à cornes du Crétacé supérieur du Nouveau-Mexique possède une collerette allongée avec de grandes fenêtres, décrit par Marsh en 1891 ?"
+    answers:
+      A: "Anchiceratops"
+      B: "Chasmosaurus"
+      C: "Pentaceratops"
+      D: "Arrhinoceratops"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which horned dinosaur from the Late Cretaceous of New Mexico has an elongated frill with large fenestrae, described by Marsh in 1891?"
+        answers:
+          A: "Anchiceratops"
+          B: "Chasmosaurus"
+          C: "Pentaceratops"
+          D: "Arrhinoceratops"
+    difficulty: EXPERT
+  - text: "Quel dinosaure cératopsien du Crétacé supérieur d'Amérique du Nord est connu pour sa longue corne nasale recourbée vers l'avant, décrit par Sampson en 1995 ?"
+    answers:
+      A: "Einiosaurus"
+      B: "Pachyrhinosaurus"
+      C: "Achelousaurus"
+      D: "Styracosaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ceratopsian dinosaur from the Late Cretaceous of North America is known for its long nasal horn curving forward, described by Sampson in 1995?"
+        answers:
+          A: "Einiosaurus"
+          B: "Pachyrhinosaurus"
+          C: "Achelousaurus"
+          D: "Styracosaurus"
+    difficulty: EXPERT
+  - text: "Quel fossile à plumes et dents de reptile ?"
+    imageUrl: wikipedia/nature/Archaeopteryx_lithographica_(Berlin_specimen).jpg
+    answers:
+      A: "Compsognathus"
+      B: "Ptéranodon"
+      C: "Ichthyosaurus"
+      D: "Archaeopteryx"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which fossil has feathers and reptile teeth?"
+        answers:
+          A: "Compsognathus"
+          B: "Pteranodon"
+          C: "Ichthyosaurus"
+          D: "Archaeopteryx"
+    difficulty: EASY
+  - text: "Quel théropode du Crétacé supérieur d'Asie centrale est connu pour ses mâchoires édentées et sa crête osseuse, décrit par Osborn en 1924 ?"
+    answers:
+      A: "Citipati"
+      B: "Oviraptor"
+      C: "Conchoraptor"
+      D: "Khaan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which theropod from the Late Cretaceous of Central Asia is known for its toothless jaws and bony crest, described by Osborn in 1924?"
+        answers:
+          A: "Citipati"
+          B: "Oviraptor"
+          C: "Conchoraptor"
+          D: "Khaan"
+    difficulty: EXPERT
+  - text: "Quel dinosaure théropode du Crétacé supérieur d'Amérique du Nord est connu pour ses bras très courts et ses deux doigts fonctionnels, décrit par Osborn en 1905 ?"
+    answers:
+      A: "Tyrannosaurus rex"
+      B: "Allosaurus"
+      C: "Velociraptor"
+      D: "Spinosaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which theropod dinosaur from the Late Cretaceous of North America is known for its very short arms and two functional fingers, described by Osborn in 1905?"
+        answers:
+          A: "Tyrannosaurus rex"
+          B: "Allosaurus"
+          C: "Velociraptor"
+          D: "Spinosaurus"
+    difficulty: MEDIUM
+  - text: "Quel sauropode du Crétacé inférieur d'Afrique possède des épines neurales hautes formant une voile sur le dos, décrit par Stromer en 1932 ?"
+    answers:
+      A: "Spinosaurus"
+      B: "Rebbachisaurus"
+      C: "Ouranosaurus"
+      D: "Nigersaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sauropod from the Early Cretaceous of Africa has tall neural spines forming a sail on its back, described by Stromer in 1932?"
+        answers:
+          A: "Spinosaurus"
+          B: "Rebbachisaurus"
+          C: "Ouranosaurus"
+          D: "Nigersaurus"
+    difficulty: EXPERT
+  - text: "Quel théropode du Jurassique supérieur d'Amérique du Nord est connu pour ses crêtes lacrymales distinctives, décrit par Marsh en 1877 ?"
+    answers:
+      A: "Ceratosaurus"
+      B: "Allosaurus"
+      C: "Torvosaurus"
+      D: "Megalosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which theropod from the Late Jurassic of North America is known for its distinctive lacrimal crests, described by Marsh in 1877?"
+        answers:
+          A: "Ceratosaurus"
+          B: "Allosaurus"
+          C: "Torvosaurus"
+          D: "Megalosaurus"
+    difficulty: EXPERT
+  - text: "Quel sauropode du Jurassique supérieur d'Amérique du Nord possède des vertèbres caudales en forme de fouet, nommé par Marsh en 1878 ?"
+    answers:
+      A: "Brachiosaurus"
+      B: "Apatosaurus"
+      C: "Diplodocus"
+      D: "Camarasaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sauropod from the Late Jurassic of North America has whip-shaped tail vertebrae, named by Marsh in 1878?"
+        answers:
+          A: "Brachiosaurus"
+          B: "Apatosaurus"
+          C: "Diplodocus"
+          D: "Camarasaurus"
+    difficulty: EXPERT
+  - text: "Combien de doigts fonctionnels possédait le Tyrannosaurus rex ?"
+    answers:
+      A: "Un"
+      B: "Trois"
+      C: "Deux"
+      D: "Quatre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many functional fingers did Tyrannosaurus rex have?"
+        answers:
+          A: "One"
+          B: "Three"
+          C: "Two"
+          D: "Four"
+    difficulty: EASY
+  - text: "En quelle année Othniel Charles Marsh a-t-il nommé Stegosaurus ?"
+    answers:
+      A: "1879"
+      B: "1875"
+      C: "1880"
+      D: "1877"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Othniel Charles Marsh name Stegosaurus?"
+        answers:
+          A: "1879"
+          B: "1875"
+          C: "1880"
+          D: "1877"
+    difficulty: HARD
+  - text: "Quel dinosaure a été le premier à être nommé, en 1824, par William Buckland ?"
+    answers:
+      A: "Iguanodon"
+      B: "Hylaeosaurus"
+      C: "Megalosaurus"
+      D: "Cetiosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dinosaur was the first to be named, in 1824, by William Buckland?"
+        answers:
+          A: "Iguanodon"
+          B: "Hylaeosaurus"
+          C: "Megalosaurus"
+          D: "Cetiosaurus"
+    difficulty: MEDIUM
+  - text: "Quel groupe de dinosaures a donné naissance aux oiseaux modernes ?"
+    answers:
+      A: "Sauropodes"
+      B: "Ornithischiens"
+      C: "Cératopsiens"
+      D: "Théropodes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which group of dinosaurs gave rise to modern birds?"
+        answers:
+          A: "Sauropods"
+          B: "Ornithischians"
+          C: "Ceratopsians"
+          D: "Theropods"
+    difficulty: MEDIUM
+  - text: "Quel théropode du Jurassique supérieur est célèbre pour sa griffe en faucille au deuxième orteil ?"
+    answers:
+      A: "Utahraptor"
+      B: "Velociraptor"
+      C: "Deinonychus"
+      D: "Dromaeosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Late Jurassic theropod is famous for its sickle claw on the second toe?"
+        answers:
+          A: "Utahraptor"
+          B: "Velociraptor"
+          C: "Deinonychus"
+          D: "Dromaeosaurus"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure à cornes possède une collerette avec deux grandes fenêtres et des épines pariétales allongées ?"
+    answers:
+      A: "Triceratops"
+      B: "Styracosaurus"
+      C: "Chasmosaurus"
+      D: "Pachyrhinosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which horned dinosaur has a frill with two large fenestrae and elongated parietal spikes?"
+        answers:
+          A: "Triceratops"
+          B: "Styracosaurus"
+          C: "Chasmosaurus"
+          D: "Pachyrhinosaurus"
+    difficulty: HARD
+  - text: "Quel sauropode du Jurassique supérieur d'Amérique du Nord est connu pour sa queue en fouet ?"
+    answers:
+      A: "Brachiosaurus"
+      B: "Apatosaurus"
+      C: "Diplodocus"
+      D: "Camarasaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Late Jurassic sauropod from North America is known for its whip-like tail?"
+        answers:
+          A: "Brachiosaurus"
+          B: "Apatosaurus"
+          C: "Diplodocus"
+          D: "Camarasaurus"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure blindé du Crétacé supérieur possède une massue caudale et des plaques latérales ?"
+    answers:
+      A: "Euoplocephalus"
+      B: "Ankylosaurus"
+      C: "Edmontonia"
+      D: "Sauropelta"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which armored dinosaur from the Late Cretaceous has a tail club and lateral plates?"
+        answers:
+          A: "Euoplocephalus"
+          B: "Ankylosaurus"
+          C: "Edmontonia"
+          D: "Sauropelta"
+    difficulty: MEDIUM
+  - text: "Quel théropode du Crétacé supérieur de Mongolie est connu pour son crâne allongé et ses dents coniques ?"
+    answers:
+      A: "Velociraptor"
+      B: "Oviraptor"
+      C: "Saurornithoides"
+      D: "Prenocephale"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Late Cretaceous theropod from Mongolia is known for its elongated skull and conical teeth?"
+        answers:
+          A: "Velociraptor"
+          B: "Oviraptor"
+          C: "Saurornithoides"
+          D: "Prenocephale"
+    difficulty: HARD
+  - text: "Quel dinosaure à bec de canard du Crétacé supérieur possède une crête en forme de hache ?"
+    answers:
+      A: "Parasaurolophus"
+      B: "Corythosaurus"
+      C: "Edmontosaurus"
+      D: "Lambeosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Late Cretaceous duck-billed dinosaur has a hatchet-shaped crest?"
+        answers:
+          A: "Parasaurolophus"
+          B: "Corythosaurus"
+          C: "Edmontosaurus"
+          D: "Lambeosaurus"
+    difficulty: HARD
+  - text: "Quel sauropode du Crétacé inférieur d'Afrique possède une voile dorsale formée par de hautes épines neurales ?"
+    answers:
+      A: "Spinosaurus"
+      B: "Rebbachisaurus"
+      C: "Nigersaurus"
+      D: "Ouranosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Early Cretaceous sauropod from Africa has a dorsal sail formed by tall neural spines?"
+        answers:
+          A: "Spinosaurus"
+          B: "Rebbachisaurus"
+          C: "Nigersaurus"
+          D: "Ouranosaurus"
+    difficulty: HARD
+  - text: "Quel théropode du Crétacé supérieur d'Afrique du Nord possède une grande voile dorsale et un crâne long et étroit ?"
+    answers:
+      A: "Spinosaurus"
+      B: "Carcharodontosaurus"
+      C: "Bahariasaurus"
+      D: "Deltadromeus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Late Cretaceous theropod from North Africa has a large dorsal sail and a long, narrow skull?"
+        answers:
+          A: "Spinosaurus"
+          B: "Carcharodontosaurus"
+          C: "Bahariasaurus"
+          D: "Deltadromeus"
+    difficulty: HARD
+  - text: "Quel dinosaure à cornes du Crétacé supérieur du Nouveau-Mexique possède une collerette allongée avec de grandes fenêtres ?"
+    answers:
+      A: "Pentaceratops"
+      B: "Torosaurus"
+      C: "Anchiceratops"
+      D: "Arrhinoceratops"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Late Cretaceous horned dinosaur from New Mexico has an elongated frill with large fenestrae?"
+        answers:
+          A: "Pentaceratops"
+          B: "Torosaurus"
+          C: "Anchiceratops"
+          D: "Arrhinoceratops"
+    difficulty: HARD
+  - text: "Quel sauropode du Crétacé supérieur d'Amérique du Sud est considéré comme l'un des plus grands dinosaures connus ?"
+    answers:
+      A: "Dreadnoughtus"
+      B: "Puertasaurus"
+      C: "Argentinosaurus"
+      D: "Patagotitan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Late Cretaceous sauropod from South America is considered one of the largest known dinosaurs?"
+        answers:
+          A: "Dreadnoughtus"
+          B: "Puertasaurus"
+          C: "Argentinosaurus"
+          D: "Patagotitan"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure théropode du Jurassique supérieur d'Amérique du Nord est connu pour ses crêtes lacrymales distinctives ?"
+    answers:
+      A: "Ceratosaurus"
+      B: "Allosaurus"
+      C: "Torvosaurus"
+      D: "Marshosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Late Jurassic theropod dinosaur from North America is known for its distinctive lacrimal crests?"
+        answers:
+          A: "Ceratosaurus"
+          B: "Allosaurus"
+          C: "Torvosaurus"
+          D: "Marshosaurus"
+    difficulty: HARD
+  - text: "Quel dinosaure théropode du Jurassique supérieur d'Amérique du Nord est célèbre pour sa griffe en faucille au deuxième orteil, décrit par Ostrom en 1969 ?"
+    answers:
+      A: "Dromaeosaurus"
+      B: "Velociraptor"
+      C: "Utahraptor"
+      D: "Deinonychus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod dinosaur from the Upper Jurassic of North America is famous for its sickle claw on the second toe, described by Ostrom in 1969?"
+        answers:
+          A: "Dromaeosaurus"
+          B: "Velociraptor"
+          C: "Utahraptor"
+          D: "Deinonychus"
+    difficulty: EASY
+  - text: "Quel dinosaure sauropode du Jurassique supérieur d'Amérique du Nord est connu pour ses vertèbres caudales en forme de fouet, nommé par Marsh en 1877 ?"
+    answers:
+      A: "Brontosaurus"
+      B: "Apatosaurus"
+      C: "Diplodocus"
+      D: "Barosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sauropod dinosaur from the Upper Jurassic of North America is known for its whip-shaped tail vertebrae, named by Marsh in 1877?"
+        answers:
+          A: "Brontosaurus"
+          B: "Apatosaurus"
+          C: "Diplodocus"
+          D: "Barosaurus"
+    difficulty: MEDIUM
+  - text: "Quel genre de dinosaure a été nommé par Othniel Charles Marsh en 1877 et est connu pour ses plaques dorsales disposées en deux rangées alternées ?"
+    answers:
+      A: "Scelidosaurus"
+      B: "Ankylosaurus"
+      C: "Edmontonia"
+      D: "Stegosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which dinosaur genus was named by Othniel Charles Marsh in 1877 and is known for its dorsal plates arranged in two alternating rows?"
+        answers:
+          A: "Scelidosaurus"
+          B: "Ankylosaurus"
+          C: "Edmontonia"
+          D: "Stegosaurus"
+    difficulty: MEDIUM
+  - text: "Combien de vertèbres cervicales possédait le Brachiosaurus, un nombre remarquablement faible pour un sauropode ?"
+    answers:
+      A: "7"
+      B: "25"
+      C: "19"
+      D: "13"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many cervical vertebrae did Brachiosaurus have, a remarkably low number for a sauropod?"
+        answers:
+          A: "7"
+          B: "25"
+          C: "19"
+          D: "13"
+    difficulty: EXPERT
+  - text: "Quel dinosaure théropode du Crétacé supérieur de Mongolie a été nommé par Rinchen Barsbold en 1970 et est connu pour ses griffes manuelles très allongées ?"
+    answers:
+      A: "Deinocheirus"
+      B: "Therizinosaurus"
+      C: "Gallimimus"
+      D: "Oviraptor"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which theropod dinosaur from the Upper Cretaceous of Mongolia was named by Rinchen Barsbold in 1970 and is known for its very elongated manual claws?"
+        answers:
+          A: "Deinocheirus"
+          B: "Therizinosaurus"
+          C: "Gallimimus"
+          D: "Oviraptor"
+    difficulty: HARD
+  - text: "Quel dinosaure ornithopode du Crétacé supérieur d'Amérique du Nord possède une crête nasale en forme de hachette, décrit par Cope en 1872 ?"
+    answers:
+      A: "Parasaurolophus"
+      B: "Corythosaurus"
+      C: "Lambeosaurus"
+      D: "Saurolophus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ornithopod dinosaur from the Upper Cretaceous of North America has a hatchet-shaped nasal crest, described by Cope in 1872?"
+        answers:
+          A: "Parasaurolophus"
+          B: "Corythosaurus"
+          C: "Lambeosaurus"
+          D: "Saurolophus"
+    difficulty: HARD
+  - text: "Quel sauropode du Jurassique supérieur d'Amérique du Nord a été nommé par Marsh en 1877 et est célèbre pour sa queue en fouet ?"
+    answers:
+      A: "Apatosaurus"
+      B: "Diplodocus"
+      C: "Barosaurus"
+      D: "Camarasaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sauropod from the Upper Jurassic of North America was named by Marsh in 1877 and is famous for its whip-like tail?"
+        answers:
+          A: "Apatosaurus"
+          B: "Diplodocus"
+          C: "Barosaurus"
+          D: "Camarasaurus"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure théropode du Jurassique supérieur d'Amérique du Nord est connu pour ses crêtes lacrymales en corne, décrit par Marsh en 1877 ?"
+    answers:
+      A: "Megalosaurus"
+      B: "Ceratosaurus"
+      C: "Torvosaurus"
+      D: "Allosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod dinosaur from the Upper Jurassic of North America is known for its horn-like lacrimal crests, described by Marsh in 1877?"
+        answers:
+          A: "Megalosaurus"
+          B: "Ceratosaurus"
+          C: "Torvosaurus"
+          D: "Allosaurus"
+    difficulty: HARD
+  - text: "En quelle année le premier spécimen de Tyrannosaurus rex a-t-il été découvert par Barnum Brown dans le Montana ?"
+    answers:
+      A: "1889"
+      B: "1915"
+      C: "1902"
+      D: "1923"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the first specimen of Tyrannosaurus rex discovered by Barnum Brown in Montana?"
+        answers:
+          A: "1889"
+          B: "1915"
+          C: "1902"
+          D: "1923"
+    difficulty: HARD
+  - text: "Quel dinosaure cératopsien du Crétacé supérieur d'Amérique du Nord possède une longue corne nasale recourbée vers l'avant, décrit par Sampson en 1995 ?"
+    answers:
+      A: "Centrosaurus"
+      B: "Achelousaurus"
+      C: "Pachyrhinosaurus"
+      D: "Einiosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ceratopsian dinosaur from the Upper Cretaceous of North America has a long nasal horn curved forward, described by Sampson in 1995?"
+        answers:
+          A: "Centrosaurus"
+          B: "Achelousaurus"
+          C: "Pachyrhinosaurus"
+          D: "Einiosaurus"
+    difficulty: EXPERT
+  - text: "Quel dinosaure ankylosaurien du Crétacé supérieur d'Amérique du Nord possède une massue caudale et a été nommé par Marsh en 1890 ?"
+    answers:
+      A: "Euoplocephalus"
+      B: "Ankylosaurus"
+      C: "Edmontonia"
+      D: "Scolosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ankylosaurian dinosaur from the Upper Cretaceous of North America has a tail club and was named by Marsh in 1890?"
+        answers:
+          A: "Euoplocephalus"
+          B: "Ankylosaurus"
+          C: "Edmontonia"
+          D: "Scolosaurus"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure sauropode du Crétacé inférieur d'Afrique est connu pour ses hautes épines neurales formant une voile, décrit par Stromer en 1932 ?"
+    answers:
+      A: "Spinosaurus"
+      B: "Ouranosaurus"
+      C: "Rebbachisaurus"
+      D: "Aegyptosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sauropod dinosaur from the Lower Cretaceous of Africa is known for its tall neural spines forming a sail, described by Stromer in 1932?"
+        answers:
+          A: "Spinosaurus"
+          B: "Ouranosaurus"
+          C: "Rebbachisaurus"
+          D: "Aegyptosaurus"
+    difficulty: HARD
+  - text: "Quel groupe de dinosaures a donné naissance aux oiseaux modernes selon le consensus actuel ?"
+    answers:
+      A: "Ornithischia"
+      B: "Theropoda"
+      C: "Sauropodomorpha"
+      D: "Ceratopsia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which group of dinosaurs gave rise to modern birds according to current consensus?"
+        answers:
+          A: "Ornithischia"
+          B: "Theropoda"
+          C: "Sauropodomorpha"
+          D: "Ceratopsia"
+    difficulty: EASY
+  - text: "Quel dinosaure à bec de canard du Crétacé supérieur d'Amérique du Nord possède une crête crânienne en forme de long tube recourbé vers l'arrière ?"
+    answers:
+      A: "Prosaurolophus"
+      B: "Corythosaurus"
+      C: "Lambeosaurus"
+      D: "Parasaurolophus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which duck-billed dinosaur from the Upper Cretaceous of North America has a skull crest in the form of a long tube curved backward?"
+        answers:
+          A: "Prosaurolophus"
+          B: "Corythosaurus"
+          C: "Lambeosaurus"
+          D: "Parasaurolophus"
+    difficulty: HARD
+  - text: "Quel dinosaure sauropode du Jurassique supérieur d'Amérique du Nord possède des vertèbres caudales en forme de fouet, nommé par Marsh en 1877 ?"
+    answers:
+      A: "Apatosaurus"
+      B: "Haplocanthosaurus"
+      C: "Barosaurus"
+      D: "Diplodocus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which sauropod dinosaur from the Upper Jurassic of North America has whip-shaped tail vertebrae, named by Marsh in 1877?"
+        answers:
+          A: "Apatosaurus"
+          B: "Haplocanthosaurus"
+          C: "Barosaurus"
+          D: "Diplodocus"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure blindé du Crétacé supérieur d'Amérique du Nord possède une massue caudale et a été nommé par Marsh en 1902 ?"
+    answers:
+      A: "Euoplocephalus"
+      B: "Ankylosaurus"
+      C: "Scolosaurus"
+      D: "Dyoplosaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which armored dinosaur from the Upper Cretaceous of North America has a tail club and was named by Marsh in 1902?"
+        answers:
+          A: "Euoplocephalus"
+          B: "Ankylosaurus"
+          C: "Scolosaurus"
+          D: "Dyoplosaurus"
+    difficulty: HARD
+  - text: "Quel dinosaure a été décrit par Cope en 1878 sous le nom de ''Laélaps'' avant d'être rebaptisé ?"
+    answers:
+      A: "Struthiomimus"
+      B: "Coelophysis"
+      C: "Ornithomimus"
+      D: "Dryptosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which dinosaur was described by Cope in 1878 under the name ''Laélaps'' before being renamed?"
+        answers:
+          A: "Struthiomimus"
+          B: "Coelophysis"
+          C: "Ornithomimus"
+          D: "Dryptosaurus"
+    difficulty: EXPERT
+  - text: "Combien de doigts possédait le membre antérieur de l'Iguanodon ?"
+    answers:
+      A: "Cinq"
+      B: "Trois"
+      C: "Quatre"
+      D: "Deux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many fingers did the forelimb of Iguanodon have?"
+        answers:
+          A: "Five"
+          B: "Three"
+          C: "Four"
+          D: "Two"
+    difficulty: EXPERT
+  - text: "En quelle année Othniel Charles Marsh a-t-il nommé Diplodocus ?"
+    answers:
+      A: "1878"
+      B: "1884"
+      C: "1873"
+      D: "1888"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Othniel Charles Marsh name Diplodocus?"
+        answers:
+          A: "1878"
+          B: "1884"
+          C: "1873"
+          D: "1888"
+    difficulty: HARD
+  - text: "Quel était le principal prédateur du Jurassique supérieur d'Amérique du Nord, nommé par Marsh en 1879 ?"
+    answers:
+      A: "Ceratosaurus"
+      B: "Allosaurus"
+      C: "Torvosaurus"
+      D: "Saurophaganax"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the main predator of the Upper Jurassic of North America, named by Marsh in 1879?"
+        answers:
+          A: "Ceratosaurus"
+          B: "Allosaurus"
+          C: "Torvosaurus"
+          D: "Saurophaganax"
+    difficulty: HARD
+  - text: "Quel dinosaure à cornes du Crétacé supérieur du Montana est connu pour ses deux longues cornes frontales et sa corne nasale courte, nommé par Marsh en 1889 ?"
+    answers:
+      A: "Styracosaurus"
+      B: "Torosaurus"
+      C: "Pentaceratops"
+      D: "Triceratops"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which horned dinosaur from the Upper Cretaceous of Montana is known for its two long brow horns and short nose horn, named by Marsh in 1889?"
+        answers:
+          A: "Styracosaurus"
+          B: "Torosaurus"
+          C: "Pentaceratops"
+          D: "Triceratops"
+    difficulty: HARD
+  - text: "Quel théropode du Crétacé inférieur d'Espagne est connu pour ses grandes griffes et a été décrit en 1983 ?"
+    answers:
+      A: "Baryonyx"
+      B: "Concavenator"
+      C: "Spinosaurus"
+      D: "Suchomimus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which theropod from the Lower Cretaceous of Spain is known for its large claws and was described in 1983?"
+        answers:
+          A: "Baryonyx"
+          B: "Concavenator"
+          C: "Spinosaurus"
+          D: "Suchomimus"
+    difficulty: EXPERT
+  - text: "Combien de vertèbres cervicales possédait le Brachiosaurus ?"
+    answers:
+      A: "17"
+      B: "15"
+      C: "13"
+      D: "11"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many cervical vertebrae did Brachiosaurus have?"
+        answers:
+          A: "17"
+          B: "15"
+          C: "13"
+          D: "11"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à bec de canard du Crétacé supérieur du Canada possède une crête crânienne en forme de hache, décrit par Lambe en 1913 ?"
+    answers:
+      A: "Lambeosaurus"
+      B: "Corythosaurus"
+      C: "Parasaurolophus"
+      D: "Edmontosaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which duck-billed dinosaur from the Upper Cretaceous of Canada has an axe-shaped cranial crest, described by Lambe in 1913?"
+        answers:
+          A: "Lambeosaurus"
+          B: "Corythosaurus"
+          C: "Parasaurolophus"
+          D: "Edmontosaurus"
+    difficulty: EXPERT
+  - text: "Quel sauropode du Crétacé supérieur d'Amérique du Sud a été nommé en 2004 et est considéré comme l'un des plus grands ?"
+    answers:
+      A: "Argentinosaurus"
+      B: "Dreadnoughtus"
+      C: "Futalognkosaurus"
+      D: "Puertasaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sauropod from the Upper Cretaceous of South America was named in 2004 and is considered one of the largest?"
+        answers:
+          A: "Argentinosaurus"
+          B: "Dreadnoughtus"
+          C: "Futalognkosaurus"
+          D: "Puertasaurus"
+    difficulty: HARD
+  - text: "Quel dinosaure blindé du Crétacé supérieur d'Alberta possède une massue caudale et a été nommé par Lambe en 1910 ?"
+    answers:
+      A: "Ankylosaurus"
+      B: "Euoplocephalus"
+      C: "Scolosaurus"
+      D: "Edmontonia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which armored dinosaur from the Upper Cretaceous of Alberta has a tail club and was named by Lambe in 1910?"
+        answers:
+          A: "Ankylosaurus"
+          B: "Euoplocephalus"
+          C: "Scolosaurus"
+          D: "Edmontonia"
+    difficulty: HARD
+  - text: "Quel théropode du Crétacé supérieur de Mongolie est connu pour son crâne court et ses dents coniques, nommé par Osmólska en 1981 ?"
+    answers:
+      A: "Velociraptor"
+      B: "Conchoraptor"
+      C: "Saurornithoides"
+      D: "Oviraptor"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod from the Upper Cretaceous of Mongolia is known for its short skull and conical teeth, named by Osmólska in 1981?"
+        answers:
+          A: "Velociraptor"
+          B: "Conchoraptor"
+          C: "Saurornithoides"
+          D: "Oviraptor"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à cornes du Crétacé supérieur de l'Utah possède une collerette avec de longues épines pariétales, nommé par Gilmore en 1933 ?"
+    answers:
+      A: "Centrosaurus"
+      B: "Styracosaurus"
+      C: "Pachyrhinosaurus"
+      D: "Diabloceratops"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which horned dinosaur from the Upper Cretaceous of Utah has a frill with long parietal spikes, named by Gilmore in 1933?"
+        answers:
+          A: "Centrosaurus"
+          B: "Styracosaurus"
+          C: "Pachyrhinosaurus"
+          D: "Diabloceratops"
+    difficulty: EXPERT
+  - text: "Quel sauropode du Jurassique supérieur d'Amérique du Nord possède des vertèbres caudales en forme de fouet et a été nommé par Marsh en 1879 ?"
+    answers:
+      A: "Apatosaurus"
+      B: "Diplodocus"
+      C: "Barosaurus"
+      D: "Brontosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sauropod from the Upper Jurassic of North America has whip-shaped tail vertebrae and was named by Marsh in 1879?"
+        answers:
+          A: "Apatosaurus"
+          B: "Diplodocus"
+          C: "Barosaurus"
+          D: "Brontosaurus"
+    difficulty: MEDIUM
+  - text: "Quel théropode du Crétacé supérieur d'Amérique du Nord est connu pour sa grande griffe en faucille au deuxième orteil, décrit par Ostrom en 1969 ?"
+    answers:
+      A: "Velociraptor"
+      B: "Deinonychus"
+      C: "Utahraptor"
+      D: "Dromaeosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which theropod from the Upper Cretaceous of North America is known for its large sickle claw on the second toe, described by Ostrom in 1969?"
+        answers:
+          A: "Velociraptor"
+          B: "Deinonychus"
+          C: "Utahraptor"
+          D: "Dromaeosaurus"
+    difficulty: EASY
+  - text: "Quel dinosaure ornithopode du Crétacé inférieur d'Angleterre a été nommé par Mantell en 1825 ?"
+    answers:
+      A: "Hypsilophodon"
+      B: "Iguanodon"
+      C: "Mantellisaurus"
+      D: "Camptosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ornithopod dinosaur from the Lower Cretaceous of England was named by Mantell in 1825?"
+        answers:
+          A: "Hypsilophodon"
+          B: "Iguanodon"
+          C: "Mantellisaurus"
+          D: "Camptosaurus"
+    difficulty: MEDIUM
+  - text: "Quel dinosaure théropode du Jurassique supérieur d'Amérique du Nord possède une corne nasale et des crêtes lacrymales, décrit par Marsh en 1884 ?"
+    answers:
+      A: "Allosaurus"
+      B: "Torvosaurus"
+      C: "Ceratosaurus"
+      D: "Megalosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which theropod dinosaur from the Upper Jurassic of North America has a nasal horn and lacrimal ridges, described by Marsh in 1884?"
+        answers:
+          A: "Allosaurus"
+          B: "Torvosaurus"
+          C: "Ceratosaurus"
+          D: "Megalosaurus"
+    difficulty: EXPERT
+  - text: "Quel sauropode du Crétacé inférieur d'Afrique possède une voile dorsale formée par de hautes épines neurales, décrit par Stromer en 1932 ?"
+    answers:
+      A: "Dicraeosaurus"
+      B: "Amargasaurus"
+      C: "Spinosaurus"
+      D: "Rebbachisaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sauropod from the Lower Cretaceous of Africa has a dorsal sail formed by tall neural spines, described by Stromer in 1932?"
+        answers:
+          A: "Dicraeosaurus"
+          B: "Amargasaurus"
+          C: "Spinosaurus"
+          D: "Rebbachisaurus"
+    difficulty: EXPERT
+  - text: "Quel dinosaure à bec de canard du Crétacé supérieur d'Amérique du Nord possède une crête nasale en forme de hachette, décrit par Cope en 1872 ?"
+    answers:
+      A: "Corythosaurus"
+      B: "Saurolophus"
+      C: "Parasaurolophus"
+      D: "Lambeosaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which duck-billed dinosaur from the Upper Cretaceous of North America has a hatchet-shaped nasal crest, described by Cope in 1872?"
+        answers:
+          A: "Corythosaurus"
+          B: "Saurolophus"
+          C: "Parasaurolophus"
+          D: "Lambeosaurus"
+    difficulty: EXPERT
+  - text: "Quel théropode du Crétacé supérieur d'Afrique du Nord possède une voile dorsale et un crâne long et étroit, décrit par Stromer en 1915 ?"
+    answers:
+      A: "Spinosaurus"
+      B: "Carcharodontosaurus"
+      C: "Bahariasaurus"
+      D: "Deltadromeus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which theropod from the Upper Cretaceous of North Africa has a dorsal sail and a long, narrow skull, described by Stromer in 1915?"
+        answers:
+          A: "Spinosaurus"
+          B: "Carcharodontosaurus"
+          C: "Bahariasaurus"
+          D: "Deltadromeus"
+    difficulty: HARD
+  - text: "Quel dinosaure cératopsien du Crétacé supérieur du Canada possède une collerette avec de grandes fenêtres et des épines, nommé par Lambe en 1902 ?"
+    answers:
+      A: "Centrosaurus"
+      B: "Monoclonius"
+      C: "Chasmosaurus"
+      D: "Anchiceratops"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ceratopsian dinosaur from the Upper Cretaceous of Canada has a frill with large fenestrae and spikes, named by Lambe in 1902?"
+        answers:
+          A: "Centrosaurus"
+          B: "Monoclonius"
+          C: "Chasmosaurus"
+          D: "Anchiceratops"
+    difficulty: EXPERT
+  - text: "Quel théropode du Crétacé supérieur de Mongolie a été nommé par Rinchen Barsbold en 1970 et possède des griffes manuelles atteignant 30 cm ?"
+    answers:
+      A: "Deinocheirus"
+      B: "Oviraptor"
+      C: "Gallimimus"
+      D: "Therizinosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which theropod from the Upper Cretaceous of Mongolia was named by Rinchen Barsbold in 1970 and has manual claws reaching 30 cm?"
+        answers:
+          A: "Deinocheirus"
+          B: "Oviraptor"
+          C: "Gallimimus"
+          D: "Therizinosaurus"
+    difficulty: HARD
+  - text: "Quel sauropode du Jurassique supérieur d'Amérique du Nord a été nommé par Marsh en 1877 et possède 15 vertèbres cervicales ?"
+    answers:
+      A: "Apatosaurus"
+      B: "Barosaurus"
+      C: "Diplodocus"
+      D: "Camarasaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sauropod from the Upper Jurassic of North America was named by Marsh in 1877 and has 15 cervical vertebrae?"
+        answers:
+          A: "Apatosaurus"
+          B: "Barosaurus"
+          C: "Diplodocus"
+          D: "Camarasaurus"
+    difficulty: HARD
+  - text: "Quel dinosaure ornithopode du Crétacé supérieur de Mongolie, nommé par Osmólska en 1981, est connu pour son crâne court et ses dents coniques ?"
+    answers:
+      A: "Tylocephale"
+      B: "Bagaceratops"
+      C: "Prenocephale"
+      D: "Conchoraptor"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ornithopod dinosaur from the Upper Cretaceous of Mongolia, named by Osmólska in 1981, is known for its short skull and conical teeth?"
+        answers:
+          A: "Tylocephale"
+          B: "Bagaceratops"
+          C: "Prenocephale"
+          D: "Conchoraptor"
+    difficulty: EXPERT
+  - text: "Quel théropode du Crétacé inférieur d'Espagne, décrit en 1983, possède une griffe du pouce particulièrement développée ?"
+    answers:
+      A: "Camarillasaurus"
+      B: "Baryonyx"
+      C: "Concavenator"
+      D: "Pelecanimimus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which theropod from the Lower Cretaceous of Spain, described in 1983, has a particularly enlarged thumb claw?"
+        answers:
+          A: "Camarillasaurus"
+          B: "Baryonyx"
+          C: "Concavenator"
+          D: "Pelecanimimus"
+    difficulty: EXPERT

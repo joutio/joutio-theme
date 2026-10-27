@@ -1,0 +1,1631 @@
+topic:
+  id: topic-pokemon
+  names:
+    fr: "Pokémon"
+    en: "Pokémon"
+  description: "Explorez les jeux vidéo Pokémon, de Kanto à Paldea : régions, starters et leurs évolutions, types, objets de base, professeurs et champions d'arène. Retrouvez les créatures iconiques comme Pikachu, Évoli ou Dracaufeu, ainsi que les grands légendaires tels que Mewtwo, Lugia, Rayquaza et Arceus."
+  category: GAMES
+  titles:
+    fr:
+      FER: "Gamin de Bourg Palette"
+      BRONZE: "Dresseur de Route 1"
+      ARGENT: "Collectionneur de Badges"
+      OR: "Vainqueur de Ligue"
+      PLATINE: "Champion d'Arène"
+      EMERAUDE: "Membre du Conseil 4"
+      DIAMANT: "Dresseur Légendaire"
+    en:
+      FER: "Pallet Town Rookie"
+      BRONZE: "Route 1 Trainer"
+      ARGENT: "Badge Collector"
+      OR: "League Conqueror"
+      PLATINE: "Gym Leader"
+      EMERAUDE: "Elite Four Member"
+      DIAMANT: "Legendary Trainer"
+  imageUrl: wikipedia/games/Cosplay_of_Pikachu_from_Pokemon_at_GalaxyCon_Richmond_2020_(49666783502).jpg
+questions:
+  - text: "Quel Pokémon est l'évolution finale de Germignon ?"
+    answers:
+      A: "Florizarre"
+      B: "Méganium"
+      C: "Sceptile"
+      D: "Torterra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon is the final evolution of Chikorita?"
+        answers:
+          A: "Venusaur"
+          B: "Meganium"
+          C: "Sceptile"
+          D: "Torterra"
+    difficulty: MEDIUM
+  - text: "Quel objet permet de faire évoluer Évoli en Voltali ?"
+    answers:
+      A: "Pierre Feu"
+      B: "Pierre Eau"
+      C: "Pierre Foudre"
+      D: "Pierre Plante"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which item is used to evolve Eevee into Jolteon?"
+        answers:
+          A: "Fire Stone"
+          B: "Water Stone"
+          C: "Thunder Stone"
+          D: "Leaf Stone"
+    difficulty: HARD
+  - text: "Quel est le nom du professeur dans Pokémon Rouge et Bleu ?"
+    answers:
+      A: "Professeur Chen"
+      B: "Professeur Orme"
+      C: "Professeur Bouleau"
+      D: "Professeur Sorbier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the professor in Pokémon Red and Blue?"
+        answers:
+          A: "Professor Oak"
+          B: "Professor Elm"
+          C: "Professor Birch"
+          D: "Professor Rowan"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon légendaire est le gardien de la Forêt Blanche à Sinnoh ?"
+    answers:
+      A: "Créfollet"
+      B: "Créhelf"
+      C: "Créfadet"
+      D: "Dialga"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which legendary Pokémon is the guardian of the White Forest in Sinnoh?"
+        answers:
+          A: "Mesprit"
+          B: "Uxie"
+          C: "Azelf"
+          D: "Dialga"
+    difficulty: EXPERT
+  - text: "Quel est le type du Pokémon Tortipouss ?"
+    answers:
+      A: "Sol"
+      B: "Eau"
+      C: "Plante"
+      D: "Roche"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the type of the Pokémon Turtwig?"
+        answers:
+          A: "Ground"
+          B: "Water"
+          C: "Grass"
+          D: "Rock"
+    difficulty: EASY
+  - text: "Quel objet est requis pour faire évoluer Pikachu en Raichu ?"
+    answers:
+      A: "Pierre Plante"
+      B: "Pierre Feu"
+      C: "Pierre Eau"
+      D: "Pierre Foudre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item is required to evolve Pikachu into Raichu?"
+        answers:
+          A: "Leaf Stone"
+          B: "Fire Stone"
+          C: "Water Stone"
+          D: "Thunder Stone"
+    difficulty: HARD
+  - text: "Quel est le nom du champion d'arène de type Roche à Kanto ?"
+    answers:
+      A: "Erika"
+      B: "Ondine"
+      C: "Major Bob"
+      D: "Pierre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Rock-type Gym Leader in Kanto?"
+        answers:
+          A: "Erika"
+          B: "Misty"
+          C: "Lt. Surge"
+          D: "Brock"
+    difficulty: HARD
+  - text: "Quel Pokémon est le rival du joueur dans Pokémon Or et Argent ?"
+    answers:
+      A: "Cheren"
+      B: "Blue"
+      C: "Barry"
+      D: "Silver"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Pokémon is the player's rival in Pokémon Gold and Silver?"
+        answers:
+          A: "Cheren"
+          B: "Blue"
+          C: "Barry"
+          D: "Silver"
+    difficulty: HARD
+  - text: "Quel est le numéro de Pikachu dans le Pokédex national ?"
+    answers:
+      A: "26"
+      B: "25"
+      C: "24"
+      D: "27"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Pikachu's number in the National Pokédex?"
+        answers:
+          A: "26"
+          B: "25"
+          C: "24"
+          D: "27"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon ce cosplay représente-t-il ?"
+    imageUrl: wikipedia/games/Anime_Expo_2013_-_Charmander_Cosplay_(9228423198).jpg
+    answers:
+      A: "Poussifeu"
+      B: "Salamèche"
+      C: "Héricendre"
+      D: "Gruikui"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon does this cosplay represent?"
+        answers:
+          A: "Torchic"
+          B: "Charmander"
+          C: "Cyndaquil"
+          D: "Tepig"
+    difficulty: EXPERT
+  - text: "Quel Pokémon est l'évolution de Magicarpe ?"
+    answers:
+      A: "Raichu"
+      B: "Milobellus"
+      C: "Léviator"
+      D: "Gyarados"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pokémon is the evolution of Magikarp?"
+        answers:
+          A: "Raichu"
+          B: "Milotic"
+          C: "Gyarados"
+          D: "Gyarados"
+    difficulty: EASY
+  - text: "Quel est le type du Pokémon Mewtwo ?"
+    answers:
+      A: "Combat"
+      B: "Spectre"
+      C: "Psy"
+      D: "Poison"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the type of the Pokémon Mewtwo?"
+        answers:
+          A: "Fighting"
+          B: "Ghost"
+          C: "Psychic"
+          D: "Poison"
+    difficulty: EASY
+  - text: "Quel objet permet de faire évoluer Ténéfix ?"
+    answers:
+      A: "Pierre Lune"
+      B: "Pierre Nuit"
+      C: "Pierre Soleil"
+      D: "Pierre Éclat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which item is used to evolve Sableye?"
+        answers:
+          A: "Moon Stone"
+          B: "Dusk Stone"
+          C: "Sun Stone"
+          D: "Shiny Stone"
+    difficulty: EXPERT
+  - text: "Quel est le nom du professeur dans Pokémon Diamant et Perle ?"
+    answers:
+      A: "Professeur Orme"
+      B: "Professeur Chen"
+      C: "Professeur Sorbier"
+      D: "Professeur Bouleau"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the professor in Pokémon Diamond and Pearl?"
+        answers:
+          A: "Professor Elm"
+          B: "Professor Oak"
+          C: "Professor Rowan"
+          D: "Professor Birch"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon est le légendaire de type Psy dans Pokémon X et Y ?"
+    answers:
+      A: "Zygarde"
+      B: "Yveltal"
+      C: "Xerneas"
+      D: "Mewtwo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pokémon is the Psychic-type legendary in Pokémon X and Y?"
+        answers:
+          A: "Zygarde"
+          B: "Yveltal"
+          C: "Xerneas"
+          D: "Mewtwo"
+    difficulty: HARD
+  - text: "Quel est le taux de capture de Mewtwo dans les jeux Pokémon ?"
+    answers:
+      A: "3"
+      B: "5"
+      C: "10"
+      D: "45"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Mewtwo's catch rate in the Pokémon games?"
+        answers:
+          A: "3"
+          B: "5"
+          C: "10"
+          D: "45"
+    difficulty: EXPERT
+  - text: "Quel objet est nécessaire pour faire évoluer Onix en Steelix ?"
+    answers:
+      A: "Pierre Éclat"
+      B: "Roche Royale"
+      C: "Griffe Rasoir"
+      D: "Peau Métal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item is needed to evolve Onix into Steelix?"
+        answers:
+          A: "Shiny Stone"
+          B: "King's Rock"
+          C: "Razor Claw"
+          D: "Metal Coat"
+    difficulty: HARD
+  - text: "Quel Pokémon est le starter de type Feu de la région de Sinnoh ?"
+    answers:
+      A: "Gruikui"
+      B: "Poussifeu"
+      C: "Ouisticram"
+      D: "Flambino"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pokémon is the Fire-type starter of the Sinnoh region?"
+        answers:
+          A: "Tepig"
+          B: "Torchic"
+          C: "Chimchar"
+          D: "Fennekin"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du champion de la Ligue Pokémon de Kanto dans Rouge et Bleu ?"
+    answers:
+      A: "Blue"
+      B: "Red"
+      C: "Lance"
+      D: "Peter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Kanto Pokémon League Champion in Red and Blue?"
+        answers:
+          A: "Blue"
+          B: "Red"
+          C: "Lance"
+          D: "Peter"
+    difficulty: HARD
+  - text: "Quel Pokémon légendaire est associé à la lune dans Pokémon Soleil et Lune ?"
+    answers:
+      A: "Necrozma"
+      B: "Solgaleo"
+      C: "Lunala"
+      D: "Magearna"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which legendary Pokémon is associated with the moon in Pokémon Sun and Moon?"
+        answers:
+          A: "Necrozma"
+          B: "Solgaleo"
+          C: "Lunala"
+          D: "Magearna"
+    difficulty: HARD
+  - text: "Quel est le numéro de Mew dans le Pokédex national ?"
+    answers:
+      A: "150"
+      B: "151"
+      C: "152"
+      D: "149"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Mew's number in the National Pokédex?"
+        answers:
+          A: "150"
+          B: "151"
+          C: "152"
+          D: "149"
+    difficulty: HARD
+  - text: "Quel Pokémon incarne ce cosplayeur ?"
+    imageUrl: wikipedia/games/Cosplay_of_Bulbasaur,_Anime_Expo_2010_(4837249076).jpg
+    answers:
+      A: "Germignon"
+      B: "Bulbizarre"
+      C: "Arcko"
+      D: "Tortipouss"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon is this cosplayer portraying?"
+        answers:
+          A: "Chikorita"
+          B: "Bulbasaur"
+          C: "Treecko"
+          D: "Turtwig"
+    difficulty: EXPERT
+  - text: "Quel Pokémon ce cosplay représente-t-il ?"
+    imageUrl: wikipedia/games/WonderCon_2013_-_Squirtle_Cosplayer.jpg
+    answers:
+      A: "Carapuce"
+      B: "Tiplouf"
+      C: "Moustillon"
+      D: "Grenousse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon does this cosplay represent?"
+        answers:
+          A: "Squirtle"
+          B: "Piplup"
+          C: "Oshawott"
+          D: "Froakie"
+    difficulty: EXPERT
+  - text: "Quel Pokémon ce costume représente-t-il ?"
+    imageUrl: wikipedia/games/Pokemon_cosplay_at_SDCCI_2018_Nintendo_lounge_-_2_(cropped_Eevee).jpg
+    answers:
+      A: "Évoli"
+      B: "Mentali"
+      C: "Aquali"
+      D: "Voltali"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon does this costume represent?"
+        answers:
+          A: "Eevee"
+          B: "Espeon"
+          C: "Vaporeon"
+          D: "Jolteon"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Ronflex ?"
+    answers:
+      A: "150"
+      B: "149"
+      C: "131"
+      D: "143"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Snorlax's National Pokédex number?"
+        answers:
+          A: "150"
+          B: "149"
+          C: "131"
+          D: "143"
+    difficulty: EXPERT
+  - text: "Quel objet fait évoluer Spectrum en Ectoplasma ?"
+    answers:
+      A: "Pierre Lune"
+      B: "Pierre Soleil"
+      C: "Échange"
+      D: "Niveau 40"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which item evolves Haunter into Gengar?"
+        answers:
+          A: "Moon Stone"
+          B: "Sun Stone"
+          C: "Trade"
+          D: "Level 40"
+    difficulty: HARD
+  - text: "Quel est le type de Mélofée ?"
+    answers:
+      A: "Combat"
+      B: "Psy"
+      C: "Normal"
+      D: "Fée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Clefairy's type?"
+        answers:
+          A: "Fighting"
+          B: "Psychic"
+          C: "Normal"
+          D: "Fairy"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du champion d'arène de type Eau à Kanto ?"
+    answers:
+      A: "Erika"
+      B: "Pierre"
+      C: "Major Bob"
+      D: "Ondine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Water-type Gym Leader in Kanto?"
+        answers:
+          A: "Erika"
+          B: "Brock"
+          C: "Lt. Surge"
+          D: "Misty"
+    difficulty: HARD
+  - text: "Quel objet évolutif est nécessaire pour faire évoluer Togepi en Togetic ?"
+    answers:
+      A: "Aucun, par bonheur"
+      B: "Améliorator"
+      C: "Pierre Lune"
+      D: "Pierre Éclat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which evolutionary item is needed to evolve Togepi into Togetic?"
+        answers:
+          A: "None, by happiness"
+          B: "Up-Grade"
+          C: "Moon Stone"
+          D: "Shiny Stone"
+    difficulty: EXPERT
+  - text: "Quel Pokémon est l'évolution de Scarabrute ?"
+    answers:
+      A: "Ptera"
+      B: "Scarhino"
+      C: "Kabutops"
+      D: "Aucun"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Pinsir's evolution?"
+        answers:
+          A: "Aerodactyl"
+          B: "Heracross"
+          C: "Kabutops"
+          D: "None"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Mewtwo ?"
+    answers:
+      A: "150"
+      B: "151"
+      C: "149"
+      D: "152"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Mewtwo's National Pokédex number?"
+        answers:
+          A: "150"
+          B: "151"
+          C: "149"
+          D: "152"
+    difficulty: HARD
+  - text: "Quel est le type du Pokémon Lugia ?"
+    answers:
+      A: "Eau/Vol"
+      B: "Dragon/Vol"
+      C: "Psy/Vol"
+      D: "Glace/Vol"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the type of the Pokémon Lugia?"
+        answers:
+          A: "Water/Flying"
+          B: "Dragon/Flying"
+          C: "Psychic/Flying"
+          D: "Ice/Flying"
+    difficulty: HARD
+  - text: "Quel est le nom du professeur dans Pokémon Noir et Blanc ?"
+    answers:
+      A: "Bougris"
+      B: "Chen"
+      C: "Keteleeria"
+      D: "Sorbier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the professor in Pokémon Black and White?"
+        answers:
+          A: "Bougris"
+          B: "Chen"
+          C: "Keteleeria"
+          D: "Sorbier"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon ce déguisement représente-t-il ?"
+    imageUrl: wikipedia/games/Cosplay_of_Magikarp_at_Japan_Expo_2023_(53148537816).jpg
+    answers:
+      A: "Magicarpe"
+      B: "Poissirène"
+      C: "Barpau"
+      D: "Écayon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon does this costume represent?"
+        answers:
+          A: "Magikarp"
+          B: "Poissirène"
+          C: "Barpau"
+          D: "Écayon"
+    difficulty: EXPERT
+  - text: "Quel objet permet à Ptitard d'évoluer en Tartard ?"
+    answers:
+      A: "Niveau 25"
+      B: "Pierre Eau"
+      C: "Échange"
+      D: "Pierre Lune"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which item allows Poliwag to evolve into Poliwrath?"
+        answers:
+          A: "Level 25"
+          B: "Water Stone"
+          C: "Trade"
+          D: "Moon Stone"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Rayquaza ?"
+    answers:
+      A: "384"
+      B: "382"
+      C: "383"
+      D: "385"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Rayquaza's National Pokédex number?"
+        answers:
+          A: "384"
+          B: "382"
+          C: "383"
+          D: "385"
+    difficulty: HARD
+  - text: "Quel Pokémon légendaire est le maître de la Distorsion à Sinnoh ?"
+    answers:
+      A: "Dialga"
+      B: "Giratina"
+      C: "Palkia"
+      D: "Arceus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which legendary Pokémon is the master of the Distortion World in Sinnoh?"
+        answers:
+          A: "Dialga"
+          B: "Giratina"
+          C: "Palkia"
+          D: "Arceus"
+    difficulty: EXPERT
+  - text: "Quelle est l'évolution de Skitty ?"
+    answers:
+      A: "Persian"
+      B: "Delcatty"
+      C: "Miaouss"
+      D: "Chaffreux"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Skitty's evolution?"
+        answers:
+          A: "Persian"
+          B: "Delcatty"
+          C: "Meowth"
+          D: "Chaffreux"
+    difficulty: HARD
+  - text: "Quel objet fait évoluer Gruikui en Fragilady ?"
+    answers:
+      A: "Échange"
+      B: "Pierre Plante"
+      C: "Niveau 17"
+      D: "Aucun"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which item evolves Tepig into Pignite?"
+        answers:
+          A: "Trade"
+          B: "Leaf Stone"
+          C: "Level 17"
+          D: "None"
+    difficulty: EXPERT
+  - text: "Quel est le type du Pokémon Dracaufeu ?"
+    answers:
+      A: "Feu"
+      B: "Dragon"
+      C: "Feu/Dragon"
+      D: "Feu/Vol"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the type of the Pokémon Charizard?"
+        answers:
+          A: "Fire"
+          B: "Dragon"
+          C: "Fire/Dragon"
+          D: "Fire/Flying"
+    difficulty: EASY
+  - text: "Quel est le nom du champion d'arène de type Spectre à Kanto ?"
+    answers:
+      A: "Morgane"
+      B: "Erika"
+      C: "Koga"
+      D: "Auguste"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Ghost-type Gym Leader in Kanto?"
+        answers:
+          A: "Morgane"
+          B: "Erika"
+          C: "Koga"
+          D: "Auguste"
+    difficulty: HARD
+  - text: "Quel Pokémon est le starter de type Feu de la région de Galar ?"
+    answers:
+      A: "Flamiaou"
+      B: "Ouisticram"
+      C: "Gruikui"
+      D: "Flambino"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Pokémon is the Fire-type starter of the Galar region?"
+        answers:
+          A: "Litten"
+          B: "Chimchar"
+          C: "Tepig"
+          D: "Scorbunny"
+    difficulty: HARD
+  - text: "Quel objet évolutif est nécessaire pour faire évoluer Insécateur en Cizayox ?"
+    answers:
+      A: "Échange avec Métal Coat"
+      B: "Pierre Métal"
+      C: "Échange simple"
+      D: "Niveau 50"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which evolutionary item is needed to evolve Scyther into Scizor?"
+        answers:
+          A: "Trade with Metal Coat"
+          B: "Metal Stone"
+          C: "Simple trade"
+          D: "Level 50"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national d'Arceus ?"
+    answers:
+      A: "494"
+      B: "492"
+      C: "493"
+      D: "495"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Arceus's National Pokédex number?"
+        answers:
+          A: "494"
+          B: "492"
+          C: "493"
+          D: "495"
+    difficulty: EXPERT
+  - text: "Quel est le type du Pokémon Évoli ?"
+    answers:
+      A: "Psy"
+      B: "Fée"
+      C: "Combat"
+      D: "Normal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the type of the Pokémon Eevee?"
+        answers:
+          A: "Psychic"
+          B: "Fairy"
+          C: "Fighting"
+          D: "Normal"
+    difficulty: EASY
+  - text: "Quel Pokémon est le pré-évolution de Lucario ?"
+    answers:
+      A: "Évoli"
+      B: "Togepi"
+      C: "Riolu"
+      D: "Pichu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pokémon is the pre-evolution of Lucario?"
+        answers:
+          A: "Eevee"
+          B: "Togepi"
+          C: "Riolu"
+          D: "Pichu"
+    difficulty: MEDIUM
+  - text: "Quel objet évolutif est nécessaire pour faire évoluer Roucool en Roucoups ?"
+    answers:
+      A: "Niveau 18"
+      B: "Bonbon Rare"
+      C: "Pierre Plante"
+      D: "Aucun, il évolue par niveau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which evolutionary item is needed to evolve Pidgey into Pidgeotto?"
+        answers:
+          A: "Level 18"
+          B: "Rare Candy"
+          C: "Leaf Stone"
+          D: "None, it evolves by level"
+    difficulty: HARD
+  - text: "Quel est le nom du village natal du protagoniste dans Pokémon Rubis et Saphir ?"
+    answers:
+      A: "Bourg Palette"
+      B: "Bourg Geon"
+      C: "Village Cimetière"
+      D: "Bourg-en-Vol"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the protagonist's hometown in Pokémon Ruby and Sapphire?"
+        answers:
+          A: "Pallet Town"
+          B: "Pewter City"
+          C: "Lavender Town"
+          D: "Fortree City"
+    difficulty: EXPERT
+  - text: "Quel Pokémon est le dieu de la mer dans la mythologie Pokémon ?"
+    answers:
+      A: "Manaphy"
+      B: "Lugia"
+      C: "Kyogre"
+      D: "Palkia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pokémon is the god of the sea in Pokémon mythology?"
+        answers:
+          A: "Manaphy"
+          B: "Lugia"
+          C: "Kyogre"
+          D: "Palkia"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Bulbizarre ?"
+    answers:
+      A: "002"
+      B: "001"
+      C: "003"
+      D: "004"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Bulbasaur's National Pokédex number?"
+        answers:
+          A: "002"
+          B: "001"
+          C: "003"
+          D: "004"
+    difficulty: MEDIUM
+  - text: "Quel est le type de Latios ?"
+    answers:
+      A: "Dragon/Vol"
+      B: "Dragon/Psy"
+      C: "Eau/Psy"
+      D: "Dragon/Électrik"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Latios's type?"
+        answers:
+          A: "Dragon/Flying"
+          B: "Dragon/Psychic"
+          C: "Water/Psychic"
+          D: "Dragon/Electric"
+    difficulty: EASY
+  - text: "Quel objet est nécessaire pour faire évoluer Feuille de Route en Joliflor ?"
+    answers:
+      A: "Pierre Éclat"
+      B: "Pierre Plante"
+      C: "Pierre Lune"
+      D: "Pierre Soleil"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item is needed to evolve Sunkern into Sunflora?"
+        answers:
+          A: "Shiny Stone"
+          B: "Leaf Stone"
+          C: "Moon Stone"
+          D: "Sun Stone"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon légendaire peut apprendre la capacité signature « Aurasphère » ?"
+    answers:
+      A: "Darkrai"
+      B: "Mewtwo"
+      C: "Dialga"
+      D: "Lucario"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which legendary Pokémon can learn the signature move Aura Sphere?"
+        answers:
+          A: "Darkrai"
+          B: "Mewtwo"
+          C: "Dialga"
+          D: "Lucario"
+    difficulty: EXPERT
+  - text: "Quel est le nom du rival dans Pokémon Or et Argent ?"
+    answers:
+      A: "Silver"
+      B: "Blue"
+      C: "Barry"
+      D: "Cheren"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the rival in Pokémon Gold and Silver?"
+        answers:
+          A: "Silver"
+          B: "Blue"
+          C: "Barry"
+          D: "Cheren"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon est l'évolution de Hypotrempe ?"
+    answers:
+      A: "Krabboss"
+      B: "Hyporoi"
+      C: "Ptitard"
+      D: "Tentacruel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon is the evolution of Horsea?"
+        answers:
+          A: "Kingler"
+          B: "Kingdra"
+          C: "Poliwag"
+          D: "Tentacruel"
+    difficulty: EASY
+  - text: "Quel est le nom du professeur dans Pokémon Soleil et Lune ?"
+    answers:
+      A: "Juniper"
+      B: "Sycamore"
+      C: "Kukui"
+      D: "Rowan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the professor in Pokémon Sun and Moon?"
+        answers:
+          A: "Juniper"
+          B: "Sycamore"
+          C: "Kukui"
+          D: "Rowan"
+    difficulty: EASY
+  - text: "Quel Pokémon légendaire est le gardien du temps à Sinnoh ?"
+    answers:
+      A: "Giratina"
+      B: "Palkia"
+      C: "Dialga"
+      D: "Arceus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which legendary Pokémon is the guardian of time in Sinnoh?"
+        answers:
+          A: "Giratina"
+          B: "Palkia"
+          C: "Dialga"
+          D: "Arceus"
+    difficulty: HARD
+  - text: "Quel objet est nécessaire pour faire évoluer Métang en Métalosse ?"
+    answers:
+      A: "Pierre Métal"
+      B: "Niveau 45"
+      C: "Échange"
+      D: "Niveau 50"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which item is needed to evolve Metang into Metagross?"
+        answers:
+          A: "Metal Stone"
+          B: "Level 45"
+          C: "Trade"
+          D: "Level 50"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon a la capacité signature « Éclat Magique » ?"
+    answers:
+      A: "Mélodelfe"
+      B: "Gardevoir"
+      C: "Nymphali"
+      D: "Mélofée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Pokémon has the signature move Dazzling Gleam?"
+        answers:
+          A: "Clefable"
+          B: "Gardevoir"
+          C: "Sylveon"
+          D: "Clefairy"
+    difficulty: HARD
+  - text: "Quel objet est nécessaire pour faire évoluer Togetic en Togekiss ?"
+    answers:
+      A: "Pierre Feu"
+      B: "Pierre Lune"
+      C: "Pierre Plante"
+      D: "Pierre Éclat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item is needed to evolve Togetic into Togekiss?"
+        answers:
+          A: "Fire Stone"
+          B: "Moon Stone"
+          C: "Leaf Stone"
+          D: "Shiny Stone"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon légendaire est associé à la mort et à la renaissance dans la région de Kalos ?"
+    answers:
+      A: "Yveltal"
+      B: "Xerneas"
+      C: "Zygarde"
+      D: "Diancie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which legendary Pokémon is associated with death and rebirth in the Kalos region?"
+        answers:
+          A: "Yveltal"
+          B: "Xerneas"
+          C: "Zygarde"
+          D: "Diancie"
+    difficulty: HARD
+  - text: "Quel est le type de Darkrai ?"
+    answers:
+      A: "Psy"
+      B: "Ténèbres"
+      C: "Spectre"
+      D: "Ténèbres/Psy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Darkrai's type?"
+        answers:
+          A: "Psychic"
+          B: "Dark"
+          C: "Ghost"
+          D: "Dark/Psychic"
+    difficulty: EASY
+  - text: "Quel Pokémon a la capacité signature « Vœu Soin » ?"
+    answers:
+      A: "Mew"
+      B: "Jirachi"
+      C: "Celebi"
+      D: "Manaphy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon has the signature move \"Healing Wish\"?"
+        answers:
+          A: "Mew"
+          B: "Jirachi"
+          C: "Celebi"
+          D: "Manaphy"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Pharamp ?"
+    answers:
+      A: "181"
+      B: "180"
+      C: "182"
+      D: "179"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Ampharos's National Pokédex number?"
+        answers:
+          A: "181"
+          B: "180"
+          C: "182"
+          D: "179"
+    difficulty: EXPERT
+  - text: "Quel Pokémon a la capacité signature « Vampigraine » ?"
+    answers:
+      A: "Bulbizarre"
+      B: "Paras"
+      C: "Mystherbe"
+      D: "Boustiflor"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon has the signature move \"Leech Seed\"?"
+        answers:
+          A: "Bulbasaur"
+          B: "Paras"
+          C: "Oddish"
+          D: "Bellsprout"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Mentali ?"
+    answers:
+      A: "196"
+      B: "197"
+      C: "198"
+      D: "195"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Espeon's National Pokédex number?"
+        answers:
+          A: "196"
+          B: "197"
+          C: "198"
+          D: "195"
+    difficulty: EXPERT
+  - text: "Quel objet fait évoluer Ramoloss en Roigada ?"
+    answers:
+      A: "Eau Mystique"
+      B: "Roche Royale"
+      C: "Roche Humide"
+      D: "Ceinture Noire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which item evolves Slowpoke into Slowking?"
+        answers:
+          A: "Mystic Water"
+          B: "King's Rock"
+          C: "Damp Rock"
+          D: "Black Belt"
+    difficulty: HARD
+  - text: "Quel est le type de la capacité « Draco-Rage » ?"
+    answers:
+      A: "Combat"
+      B: "Normal"
+      C: "Feu"
+      D: "Dragon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the type of the move \"Dragon Rage\"?"
+        answers:
+          A: "Fighting"
+          B: "Normal"
+          C: "Fire"
+          D: "Dragon"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon légendaire est le gardien des océans à Hoenn ?"
+    answers:
+      A: "Latios"
+      B: "Groudon"
+      C: "Rayquaza"
+      D: "Kyogre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which legendary Pokémon is the guardian of the oceans in Hoenn?"
+        answers:
+          A: "Latios"
+          B: "Groudon"
+          C: "Rayquaza"
+          D: "Kyogre"
+    difficulty: MEDIUM
+  - text: "Quel est le numéro de Pokédex national de Porygon2 ?"
+    answers:
+      A: "231"
+      B: "232"
+      C: "234"
+      D: "233"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Porygon2's National Pokédex number?"
+        answers:
+          A: "231"
+          B: "232"
+          C: "234"
+          D: "233"
+    difficulty: EXPERT
+  - text: "Quel objet fait évoluer Toudoudou en Rondoudou ?"
+    answers:
+      A: "Pierre Feu"
+      B: "Pierre Lune"
+      C: "Pierre Eau"
+      D: "Aucun"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item evolves Igglybuff into Jigglypuff?"
+        answers:
+          A: "Fire Stone"
+          B: "Moon Stone"
+          C: "Water Stone"
+          D: "None"
+    difficulty: HARD
+  - text: "Quel Pokémon a la capacité signature « Damoclès » ?"
+    answers:
+      A: "Stari"
+      B: "Canarticho"
+      C: "Doduo"
+      D: "Piafabec"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon has the signature move \"Double-Edge\"?"
+        answers:
+          A: "Staryu"
+          B: "Farfetch'd"
+          C: "Doduo"
+          D: "Spearow"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Scorplane ?"
+    answers:
+      A: "205"
+      B: "206"
+      C: "208"
+      D: "207"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Gligar's National Pokédex number?"
+        answers:
+          A: "205"
+          B: "206"
+          C: "208"
+          D: "207"
+    difficulty: EXPERT
+  - text: "Quel objet fait évoluer Insécateur en Cizayox ?"
+    answers:
+      A: "Roche Royale"
+      B: "Peau Métal"
+      C: "Griffe Rasoir"
+      D: "Écaille Draco"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which item evolves Scyther into Scizor?"
+        answers:
+          A: "King's Rock"
+          B: "Metal Coat"
+          C: "Razor Claw"
+          D: "Dragon Scale"
+    difficulty: HARD
+  - text: "Quel est le type de la capacité « Éclat Magique » ?"
+    answers:
+      A: "Normal"
+      B: "Psy"
+      C: "Fée"
+      D: "Spectre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the type of the move \"Dazzling Gleam\"?"
+        answers:
+          A: "Normal"
+          B: "Psychic"
+          C: "Fairy"
+          D: "Ghost"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon légendaire est le maître des cieux à Sinnoh ?"
+    answers:
+      A: "Giratina"
+      B: "Palkia"
+      C: "Dialga"
+      D: "Arceus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which legendary Pokémon is the master of the skies in Sinnoh?"
+        answers:
+          A: "Giratina"
+          B: "Palkia"
+          C: "Dialga"
+          D: "Arceus"
+    difficulty: HARD
+  - text: "Quel est le numéro de Pokédex national de Kirlia ?"
+    answers:
+      A: "282"
+      B: "280"
+      C: "281"
+      D: "283"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Kirlia's National Pokédex number?"
+        answers:
+          A: "282"
+          B: "280"
+          C: "281"
+          D: "283"
+    difficulty: EXPERT
+  - text: "Quel objet fait évoluer Coquiperl en Rosabyss ?"
+    answers:
+      A: "Dent"
+      B: "Branche"
+      C: "Écaille"
+      D: "Perle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which item evolves Clamperl into Gorebyss?"
+        answers:
+          A: "Tooth"
+          B: "Branch"
+          C: "Scale"
+          D: "Pearl"
+    difficulty: HARD
+  - text: "Quel Pokémon a la capacité signature « Luminocanon » ?"
+    answers:
+      A: "Pharamp"
+      B: "Lainergie"
+      C: "Pachirisu"
+      D: "Élektek"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pokémon has the signature move \"Luminocanon\"?"
+        answers:
+          A: "Ampharos"
+          B: "Lainergie"
+          C: "Pachirisu"
+          D: "Electabuzz"
+    difficulty: EXPERT
+  - text: "Quel est le type de la capacité « Ball'Ombre » ?"
+    answers:
+      A: "Normal"
+      B: "Ténèbres"
+      C: "Psy"
+      D: "Spectre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the type of the move \"Shadow Ball\"?"
+        answers:
+          A: "Normal"
+          B: "Dark"
+          C: "Psychic"
+          D: "Ghost"
+    difficulty: EASY
+  - text: "Quel Pokémon légendaire est le gardien de la lune à Alola ?"
+    answers:
+      A: "Solgaleo"
+      B: "Lunala"
+      C: "Magearna"
+      D: "Zygarde"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which legendary Pokémon is the guardian of the moon in Alola?"
+        answers:
+          A: "Solgaleo"
+          B: "Lunala"
+          C: "Magearna"
+          D: "Zygarde"
+    difficulty: HARD
+  - text: "Quel est le numéro de Pokédex national de Moustillon ?"
+    answers:
+      A: "501"
+      B: "500"
+      C: "502"
+      D: "499"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Oshawott's National Pokédex number?"
+        answers:
+          A: "501"
+          B: "500"
+          C: "502"
+          D: "499"
+    difficulty: EXPERT
+  - text: "Quel Pokémon est l'évolution de Dimoret ?"
+    answers:
+      A: "Farfuret"
+      B: "Weavile"
+      C: "Mammochon"
+      D: "Dimoret"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon is the evolution of Sneasel?"
+        answers:
+          A: "Sneasel"
+          B: "Weavile"
+          C: "Mamoswine"
+          D: "Sneasel"
+    difficulty: MEDIUM
+  - text: "Quel est le nom japonais de Pikachu ?"
+    answers:
+      A: "Pikachu"
+      B: "Raichu"
+      C: "Pichu"
+      D: "Pikachuu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Pikachu's Japanese name?"
+        answers:
+          A: "Pikachu"
+          B: "Raichu"
+          C: "Pichu"
+          D: "Pikachuu"
+    difficulty: HARD
+  - text: "Quel objet évolutif est nécessaire pour faire évoluer Lippouti en Lippoutou ?"
+    answers:
+      A: "Bandeau"
+      B: "Peau Métal"
+      C: "Roche Royale"
+      D: "Écaille Draco"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which evolutionary item is needed to evolve Smoochum into Jynx?"
+        answers:
+          A: "Headband"
+          B: "Metal Coat"
+          C: "King's Rock"
+          D: "Dragon Scale"
+    difficulty: HARD
+  - text: "Quelle capacité est signature de Motisma ?"
+    answers:
+      A: "Éclair Fou"
+      B: "Électrisation"
+      C: "Change Éclair"
+      D: "Éclair"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which move is Rotom's signature move?"
+        answers:
+          A: "Wild Charge"
+          B: "Electrify"
+          C: "Volt Switch"
+          D: "Thunderbolt"
+    difficulty: EXPERT
+  - text: "Quel objet est nécessaire pour faire évoluer Évoli en Voltali ?"
+    answers:
+      A: "Pierre Feu"
+      B: "Pierre Eau"
+      C: "Pierre Foudre"
+      D: "Pierre Plante"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which item is needed to evolve Eevee into Jolteon?"
+        answers:
+          A: "Fire Stone"
+          B: "Water Stone"
+          C: "Thunder Stone"
+          D: "Leaf Stone"
+    difficulty: HARD
+  - text: "Quel est le type du Pokémon Mentali ?"
+    answers:
+      A: "Ténèbres"
+      B: "Fée"
+      C: "Spectre"
+      D: "Psy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the type of the Pokémon Espeon?"
+        answers:
+          A: "Dark"
+          B: "Fairy"
+          C: "Ghost"
+          D: "Psychic"
+    difficulty: MEDIUM
+  - text: "Quel objet est nécessaire pour faire évoluer Coquiperl en Rosabyss ?"
+    answers:
+      A: "Écaille Océan"
+      B: "Écaille Draco"
+      C: "Dent Océan"
+      D: "Perle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which item is needed to evolve Clamperl into Gorebyss?"
+        answers:
+          A: "Deep Sea Scale"
+          B: "Dragon Scale"
+          C: "Deep Sea Tooth"
+          D: "Pearl"
+    difficulty: HARD
+  - text: "Quelle capacité est signature de Palkia ?"
+    answers:
+      A: "Spacio-Rift"
+      B: "Tempo-Rift"
+      C: "Griffe Ombre"
+      D: "Draco-Choc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which move is Palkia's signature move?"
+        answers:
+          A: "Spacial Rend"
+          B: "Temporal Rift"
+          C: "Shadow Claw"
+          D: "Dragon Pulse"
+    difficulty: EXPERT
+  - text: "Quel objet évolutif est nécessaire pour faire évoluer Arcko en Massko ?"
+    answers:
+      A: "Pierre Plante"
+      B: "Niveau 18"
+      C: "Niveau 16"
+      D: "Niveau 14"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which evolutionary item is needed to evolve Treecko into Grovyle?"
+        answers:
+          A: "Leaf Stone"
+          B: "Level 18"
+          C: "Level 16"
+          D: "Level 14"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon est l'évolution de Chenipotte au niveau 20 ?"
+    answers:
+      A: "Charmillon"
+      B: "Blindalys"
+      C: "Papinox"
+      D: "Armulys"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Pokémon is the evolution of Wurmple at level 20?"
+        answers:
+          A: "Beautifly"
+          B: "Cascoon"
+          C: "Dustox"
+          D: "Silcoon"
+    difficulty: HARD
+  - text: "Quel Pokémon a la capacité signature « Prélèvement Destin » ?"
+    answers:
+      A: "Yveltal"
+      B: "Xerneas"
+      C: "Zygarde"
+      D: "Volcanion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon has the signature ability \"Dark Aura\"?"
+        answers:
+          A: "Yveltal"
+          B: "Xerneas"
+          C: "Zygarde"
+          D: "Volcanion"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de Pokédex national de Lugia ?"
+    answers:
+      A: "248"
+      B: "250"
+      C: "251"
+      D: "249"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Lugia's National Pokédex number?"
+        answers:
+          A: "248"
+          B: "250"
+          C: "251"
+          D: "249"
+    difficulty: EXPERT
+  - text: "Quel objet est nécessaire pour faire évoluer Phanpy en Donphan ?"
+    answers:
+      A: "Niveau 25"
+      B: "Écaille Draco"
+      C: "Peau Métal"
+      D: "Protecteur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which item is needed to evolve Phanpy into Donphan?"
+        answers:
+          A: "Level 25"
+          B: "Dragon Scale"
+          C: "Metal Coat"
+          D: "Protector"
+    difficulty: HARD
+  - text: "Quel est le type de la capacité « Ball'Glace » ?"
+    answers:
+      A: "Normal"
+      B: "Eau"
+      C: "Glace"
+      D: "Combat"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the type of the move \"Ice Ball\"?"
+        answers:
+          A: "Normal"
+          B: "Water"
+          C: "Ice"
+          D: "Fighting"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon légendaire est le gardien du temps à Hisui ?"
+    answers:
+      A: "Giratina"
+      B: "Palkia"
+      C: "Dialga"
+      D: "Arceus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which legendary Pokémon is the guardian of time in Hisui?"
+        answers:
+          A: "Giratina"
+          B: "Palkia"
+          C: "Dialga"
+          D: "Arceus"
+    difficulty: HARD
+  - text: "Quelle capacité est signature de Keldeo ?"
+    answers:
+      A: "Danse-Lames"
+      B: "Lame Ointe"
+      C: "Aqua-Jet"
+      D: "Sabre-Poing"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which move is Keldeo's signature move?"
+        answers:
+          A: "Swords Dance"
+          B: "Secret Sword"
+          C: "Aqua Jet"
+          D: "Close Combat"
+    difficulty: EXPERT
+  - text: "Quel Pokémon est l'évolution de Togepi au niveau 24 ?"
+    answers:
+      A: "Togekiss"
+      B: "Togetic"
+      C: "Togedemaru"
+      D: "Togepi n'évolue pas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon is the evolution of Togepi at level 24?"
+        answers:
+          A: "Togekiss"
+          B: "Togetic"
+          C: "Togedemaru"
+          D: "Togepi does not evolve"
+    difficulty: HARD
+  - text: "Quel Pokémon a la capacité signature « Aromathérapie » ?"
+    answers:
+      A: "Mélofée"
+      B: "Roserade"
+      C: "Charmina"
+      D: "Pharamp"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon has the signature move \"Aromatherapy\"?"
+        answers:
+          A: "Clefairy"
+          B: "Roserade"
+          C: "Medicham"
+          D: "Ampharos"
+    difficulty: EXPERT
