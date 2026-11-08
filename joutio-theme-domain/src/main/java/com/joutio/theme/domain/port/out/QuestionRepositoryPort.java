@@ -24,10 +24,8 @@ public interface QuestionRepositoryPort {
 
     List<Question> findByIds(List<String> questionIds);
 
-    QuestionAdminPage findAdminPage(QuestionAdminFilter filter,
-                                    QuestionAdminSort sort,
-                                    int page,
-                                    int size);
+    QuestionAdminPage findAdminPage(
+            QuestionAdminFilter filter, QuestionAdminSort sort, int page, int size);
 
     int countSuspended();
 
@@ -41,13 +39,18 @@ public interface QuestionRepositoryPort {
     int countApprovedByTopicAndLanguages(String topicId, Set<Language> languages);
 
     /**
-     * Questions approuvées aléatoires, disponibles dans toutes les langues demandées.
-     * {@code difficulties} et {@code excludeQuestionIds} sont des préférences de tri best-effort
+     * Questions approuvées aléatoires, disponibles dans toutes les langues demandées. {@code
+     * difficulties} et {@code excludeQuestionIds} sont des préférences de tri best-effort
      * (jamais-jouées &gt; difficulté cible &gt; difficulté inconnue &gt; autres).
      */
-    List<Question> findRandomApprovedByTopicId(String topicId, int count, Set<Language> languages,
-                                               Set<QuestionDifficulty> difficulties,
-                                               Set<String> excludeQuestionIds);
+    List<Question> findRandomApprovedByTopicId(
+            String topicId,
+            int count,
+            Set<Language> languages,
+            Set<QuestionDifficulty> difficulties,
+            Set<String> excludeQuestionIds);
 
     SearchResponse<Question> findAll(SearchRequest request);
+
+    void deleteById(String questionId);
 }

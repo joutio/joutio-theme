@@ -2,6 +2,7 @@ package com.joutio.theme.domain.command;
 
 import com.joutio.microservice.core.domain.model.i18n.Language;
 import com.joutio.theme.domain.model.TopicCategory;
+
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 import java.util.Map;
@@ -10,8 +11,8 @@ public interface TopicCommand {
     String topicId();
 
     /**
-     * Commande pour créer un nouveau thème de quiz. {@code names} porte un nom par langue
-     * (FR obligatoire, EN optionnel).
+     * Commande pour créer un nouveau thème de quiz. {@code names} porte un nom par langue (FR
+     * obligatoire, EN optionnel).
      */
     record CreateTopicCommand(
             @TargetAggregateIdentifier String topicId,
@@ -23,9 +24,8 @@ public interface TopicCommand {
             String imageUrl,
             /** Titres personnalisés par palier et par langue (optionnels). */
             Map<Language, Map<String, String>> titles,
-            String creatorId
-    ) implements TopicCommand {
-    }
+            String creatorId)
+            implements TopicCommand {}
 
     /**
      * Mise à jour des titres personnalisés (propriétaire du thème uniquement) : une carte de
@@ -34,99 +34,77 @@ public interface TopicCommand {
     record UpdateTopicTitlesCommand(
             @TargetAggregateIdentifier String topicId,
             String requestedBy,
-            Map<Language, Map<String, String>> titles
-    ) implements TopicCommand {
-    }
+            Map<Language, Map<String, String>> titles)
+            implements TopicCommand {}
 
     /**
-     * Commande pour publier un thème (transition DRAFT -> PUBLISHED)
-     * Requiert au minimum 7 questions approuvées
+     * Commande pour publier un thème (transition DRAFT -> PUBLISHED) Requiert au minimum 7
+     * questions approuvées
      */
-    record PublishTopicCommand(
-            @TargetAggregateIdentifier String topicId,
-            String requesterId
-    ) implements TopicCommand {
-    }
+    record PublishTopicCommand(@TargetAggregateIdentifier String topicId, String requesterId)
+            implements TopicCommand {}
 
     /**
      * Repasse un sujet publié en brouillon (suppression d'un compte ayant retiré des questions).
      */
-    record DraftTopicCommand(
-            @TargetAggregateIdentifier String topicId,
-            String reason
-    ) implements TopicCommand {
-    }
+    record DraftTopicCommand(@TargetAggregateIdentifier String topicId, String reason)
+            implements TopicCommand {}
 
-    /**
-     * Mise à jour du nom d'une langue (propriétaire du thème uniquement).
-     */
+    /** Mise à jour du nom d'une langue (propriétaire du thème uniquement). */
     record UpdateTopicNameCommand(
             @TargetAggregateIdentifier String topicId,
             String requestedBy,
             Language language,
-            String name
-    ) implements TopicCommand {
-    }
+            String name)
+            implements TopicCommand {}
 
-    /**
-     * Mise à jour de la description (propriétaire du thème uniquement).
-     */
+    /** Mise à jour de la description (propriétaire du thème uniquement). */
     record UpdateTopicDescriptionCommand(
-            @TargetAggregateIdentifier String topicId,
-            String requestedBy,
-            String description
-    ) implements TopicCommand {
-    }
+            @TargetAggregateIdentifier String topicId, String requestedBy, String description)
+            implements TopicCommand {}
 
-    /**
-     * Mise à jour de la catégorie (propriétaire du thème uniquement).
-     */
+    /** Mise à jour de la catégorie (propriétaire du thème uniquement). */
     record UpdateTopicCategoryCommand(
-            @TargetAggregateIdentifier String topicId,
-            String requestedBy,
-            TopicCategory category
-    ) implements TopicCommand {
-    }
+            @TargetAggregateIdentifier String topicId, String requestedBy, TopicCategory category)
+            implements TopicCommand {}
 
-    /**
-     * Mise à jour de l'emoji (propriétaire du thème uniquement).
-     */
+    /** Mise à jour de l'emoji (propriétaire du thème uniquement). */
     record UpdateTopicEmojiCommand(
-            @TargetAggregateIdentifier String topicId,
-            String requestedBy,
-            String emoji
-    ) implements TopicCommand {
-    }
+            @TargetAggregateIdentifier String topicId, String requestedBy, String emoji)
+            implements TopicCommand {}
 
-    /**
-     * Mise à jour de la couleur d'accent (propriétaire du thème uniquement).
-     */
+    /** Mise à jour de la couleur d'accent (propriétaire du thème uniquement). */
     record UpdateTopicColorCommand(
-            @TargetAggregateIdentifier String topicId,
-            String requestedBy,
-            String color
-    ) implements TopicCommand {
-    }
+            @TargetAggregateIdentifier String topicId, String requestedBy, String color)
+            implements TopicCommand {}
 
-    /**
-     * Mise à jour de l'illustration de couverture (propriétaire du thème uniquement).
-     */
+    /** Mise à jour de l'illustration de couverture (propriétaire du thème uniquement). */
     record UpdateTopicImageUrlCommand(
-            @TargetAggregateIdentifier String topicId,
-            String requestedBy,
-            String imageUrl
-    ) implements TopicCommand {
-    }
+            @TargetAggregateIdentifier String topicId, String requestedBy, String imageUrl)
+            implements TopicCommand {}
 
     /**
-     * Mise à jour de la bannière de la fiche sujet, distincte de la couverture
-     * (propriétaire du thème uniquement).
+     * Mise à jour de la bannière de la fiche sujet, distincte de la couverture (propriétaire du
+     * thème uniquement).
      */
     record UpdateTopicBannerUrlCommand(
+            @TargetAggregateIdentifier String topicId, String requestedBy, String bannerUrl)
+            implements TopicCommand {}
+
+    record SetTopicMemberCommand(
             @TargetAggregateIdentifier String topicId,
             String requestedBy,
-            String bannerUrl
-    ) implements TopicCommand {
-    }
+            String userId,
+            com.joutio.theme.domain.model.TopicTeamRole role)
+            implements TopicCommand {}
 
+    record RemoveTopicMemberCommand(
+            @TargetAggregateIdentifier String topicId, String requestedBy, String userId)
+            implements TopicCommand {}
+
+    record UnpublishTopicCommand(@TargetAggregateIdentifier String topicId, String requestedBy)
+            implements TopicCommand {}
+
+    record RemoveDeletedTopicMemberCommand(@TargetAggregateIdentifier String topicId, String userId)
+            implements TopicCommand {}
 }

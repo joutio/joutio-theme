@@ -1,6 +1,7 @@
 package com.joutio.theme.domain.model;
 
 import com.joutio.microservice.core.domain.model.i18n.Language;
+
 import lombok.Builder;
 
 import java.time.Instant;
@@ -8,9 +9,9 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Modèle domaine d'une question multilingue : un contenu par langue disponible
- * ({@link #contents()}), sans langue source explicite. Le repli de lecture est déterministe :
- * langue demandée, puis français, puis anglais, puis premier contenu disponible.
+ * Modèle domaine d'une question multilingue : un contenu par langue disponible ({@link
+ * #contents()}), sans langue source explicite. Le repli de lecture est déterministe : langue
+ * demandée, puis français, puis anglais, puis premier contenu disponible.
  */
 @Builder(toBuilder = true)
 public record Question(
@@ -25,18 +26,24 @@ public record Question(
         String updatedBy,
         Instant createdAt,
         Instant updatedAt,
-        boolean suspended,
         QuestionSuspensionReason suspensionReason,
         String suspensionNote,
         Instant suspendedAt,
         String suspendedBy,
         Instant reinstatedAt,
-        boolean archived,
         String archiveNote,
         Instant archivedAt,
         String archivedBy,
-        Instant restoredAt
-) {
+        Instant restoredAt,
+        String rejectionReason) {
+
+    public boolean archived() {
+        return status == QuestionStatus.ARCHIVED;
+    }
+
+    public boolean suspended() {
+        return status == QuestionStatus.SUSPENDED;
+    }
 
     /** Langues pour lesquelles un contenu est disponible. */
     public Set<Language> availableLanguages() {

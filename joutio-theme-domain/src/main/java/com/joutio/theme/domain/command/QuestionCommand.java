@@ -5,6 +5,7 @@ import com.joutio.theme.domain.model.QuestionChoice;
 import com.joutio.theme.domain.model.QuestionContent;
 import com.joutio.theme.domain.model.QuestionDifficulty;
 import com.joutio.theme.domain.model.QuestionSuspensionReason;
+
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 import java.time.Instant;
@@ -14,8 +15,8 @@ public interface QuestionCommand {
     String questionId();
 
     /**
-     * Commande pour ajouter une question à un thème, avec un contenu par langue
-     * (français, anglais, ou les deux).
+     * Commande pour ajouter une question à un thème, avec un contenu par langue (français, anglais,
+     * ou les deux).
      */
     record CreateQuestionCommand(
             @TargetAggregateIdentifier String questionId,
@@ -23,103 +24,69 @@ public interface QuestionCommand {
             Map<Language, QuestionContent> contents,
             QuestionChoice correctAnswer,
             String imageUrl,
-            String creatorId
-    ) implements QuestionCommand {
-    }
+            String creatorId)
+            implements QuestionCommand {}
 
-    /**
-     * Commande d'ajout (ou remplacement) de contenus localisés d'une question existante.
-     */
+    /** Commande d'ajout (ou remplacement) de contenus localisés d'une question existante. */
     record AddQuestionTranslationsCommand(
             @TargetAggregateIdentifier String questionId,
             Map<Language, QuestionContent> contents,
-            String updatedBy
-    ) implements QuestionCommand {
-    }
+            String updatedBy)
+            implements QuestionCommand {}
 
-    /**
-     * Commande d'ajout d'un contenu localisé à une question qui ne le possède pas encore.
-     */
+    /** Commande d'ajout d'un contenu localisé à une question qui ne le possède pas encore. */
     record AddQuestionTranslationCommand(
             @TargetAggregateIdentifier String questionId,
             String requestedBy,
             Language language,
             String text,
-            Map<QuestionChoice, String> answers
-    ) implements QuestionCommand {
-    }
+            Map<QuestionChoice, String> answers)
+            implements QuestionCommand {}
 
-    /**
-     * Mise à jour du texte d'un contenu localisé existant.
-     */
+    /** Mise à jour du texte d'un contenu localisé existant. */
     record UpdateQuestionTextCommand(
             @TargetAggregateIdentifier String questionId,
             String requestedBy,
             Language language,
-            String text
-    ) implements QuestionCommand {
-    }
+            String text)
+            implements QuestionCommand {}
 
-    /**
-     * Mise à jour des réponses d'un contenu localisé existant.
-     */
+    /** Mise à jour des réponses d'un contenu localisé existant. */
     record UpdateQuestionAnswersCommand(
             @TargetAggregateIdentifier String questionId,
             String requestedBy,
             Language language,
-            Map<QuestionChoice, String> answers
-    ) implements QuestionCommand {
-    }
+            Map<QuestionChoice, String> answers)
+            implements QuestionCommand {}
 
-    /**
-     * Mise à jour de la bonne réponse, partagée entre les langues.
-     */
+    /** Mise à jour de la bonne réponse, partagée entre les langues. */
     record UpdateQuestionCorrectAnswerCommand(
             @TargetAggregateIdentifier String questionId,
             String requestedBy,
-            QuestionChoice correctAnswer
-    ) implements QuestionCommand {
-    }
+            QuestionChoice correctAnswer)
+            implements QuestionCommand {}
 
-    /**
-     * Mise à jour de l'illustration de la question.
-     */
+    /** Mise à jour de l'illustration de la question. */
     record UpdateQuestionImageUrlCommand(
-            @TargetAggregateIdentifier String questionId,
-            String requestedBy,
-            String imageUrl
-    ) implements QuestionCommand {
-    }
+            @TargetAggregateIdentifier String questionId, String requestedBy, String imageUrl)
+            implements QuestionCommand {}
 
-    /**
-     * Commande pour approuver une question (PENDING -> APPROVED)
-     */
-    record ApproveQuestionCommand(
-            @TargetAggregateIdentifier String questionId,
-            String requesterId
-    ) implements QuestionCommand {
-    }
+    /** Commande pour approuver une question (PENDING -> APPROVED) */
+    record ApproveQuestionCommand(@TargetAggregateIdentifier String questionId, String requesterId)
+            implements QuestionCommand {}
 
-
-    /**
-     * Commande pour rejeter une question (PENDING -> REJECTED)
-     */
+    /** Commande pour rejeter une question (PENDING -> REJECTED) */
     record RejectQuestionCommand(
-            @TargetAggregateIdentifier String questionId,
-            String requesterId,
-            String reason
-    ) implements QuestionCommand {
-    }
+            @TargetAggregateIdentifier String questionId, String requesterId, String reason)
+            implements QuestionCommand {}
 
     /**
      * Commande de mise à jour de la difficulté déduite d'une question (calculée côté domaine à
      * partir des statistiques de réponses).
      */
     record UpdateQuestionDifficultyCommand(
-            @TargetAggregateIdentifier String questionId,
-            QuestionDifficulty difficulty
-    ) implements QuestionCommand {
-    }
+            @TargetAggregateIdentifier String questionId, QuestionDifficulty difficulty)
+            implements QuestionCommand {}
 
     /**
      * Suspend une question : elle reste éditorialement approuvée mais n'est plus tirée dans les
@@ -135,34 +102,36 @@ public interface QuestionCommand {
             Instant triggerReportedAt,
             int distinctReporters,
             int windowDays,
-            Instant suspendedAt
-    ) implements QuestionCommand {
-    }
+            Instant suspendedAt)
+            implements QuestionCommand {}
 
     /** Réactive une question suspendue. */
     record ReinstateQuestionCommand(
             @TargetAggregateIdentifier String questionId,
             String requestedBy,
             String note,
-            Instant reinstatedAt
-    ) implements QuestionCommand {
-    }
+            Instant reinstatedAt)
+            implements QuestionCommand {}
 
     /** Archive une question (soft delete) : elle reste consultable mais n'est plus jouée. */
     record ArchiveQuestionCommand(
             @TargetAggregateIdentifier String questionId,
             String requestedBy,
             String note,
-            Instant archivedAt
-    ) implements QuestionCommand {
-    }
+            Instant archivedAt)
+            implements QuestionCommand {}
 
     /** Restaure une question archivée. */
     record RestoreQuestionCommand(
             @TargetAggregateIdentifier String questionId,
             String requestedBy,
             String note,
-            Instant restoredAt
-    ) implements QuestionCommand {
-    }
+            Instant restoredAt)
+            implements QuestionCommand {}
+
+    record ResubmitQuestionCommand(@TargetAggregateIdentifier String questionId, String requestedBy)
+            implements QuestionCommand {}
+
+    record DeleteQuestionCommand(@TargetAggregateIdentifier String questionId, String requestedBy)
+            implements QuestionCommand {}
 }

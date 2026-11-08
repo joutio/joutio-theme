@@ -8,72 +8,49 @@ import java.util.List;
 
 public interface TopicQuery {
 
-    record TopicSearchQuery(SearchRequest request) implements TopicQuery {
-    }
+    record TopicSearchQuery(SearchRequest request) implements TopicQuery {}
 
     /**
      * Page du catalogue publié. {@code nameQuery} est le texte brut (normalisé par le handler) ;
      * {@code category} et le tri sont optionnels ({@code null} = pas de filtre / tri par défaut).
      */
     record GetTopicPageQuery(
-            String nameQuery,
-            TopicCategory category,
-            TopicSort sort,
-            int page,
-            int size
-    ) implements TopicQuery {
-    }
+            String nameQuery, TopicCategory category, TopicSort sort, int page, int size)
+            implements TopicQuery {}
 
     /**
-     * Facettes du catalogue : compteurs par catégorie pour les filtres courants.
-     * {@code nameQuery} est le texte brut (normalisé par le handler) ; {@code topicIds}
-     * restreint éventuellement le périmètre (ex. sujets suivis), {@code null} = aucune restriction.
+     * Facettes du catalogue : compteurs par catégorie pour les filtres courants. {@code nameQuery}
+     * est le texte brut (normalisé par le handler) ; {@code topicIds} restreint éventuellement le
+     * périmètre (ex. sujets suivis), {@code null} = aucune restriction.
      */
-    record TopicFacetsQuery(String nameQuery, List<String> topicIds) implements TopicQuery {
-    }
+    record TopicFacetsQuery(String nameQuery, List<String> topicIds) implements TopicQuery {}
 
     /**
-     * Page des thèmes créés par un utilisateur (tous statuts), du plus récemment modifié
-     * au plus ancien.
+     * Page des thèmes créés par un utilisateur (tous statuts), du plus récemment modifié au plus
+     * ancien.
      */
-    record GetTopicsByCreatorQuery(
-            String creatorId,
-            int page,
-            int size
-    ) implements TopicQuery {
-    }
+    record GetTopicsByCreatorQuery(String creatorId, int page, int size) implements TopicQuery {}
 
-    /**
-     * Récupération batch de thèmes ; l'ordre demandé est préservé.
-     */
-    record GetTopicsByIdsQuery(List<String> topicIds) implements TopicQuery {
-    }
+    /** Récupération batch de thèmes ; l'ordre demandé est préservé. */
+    record GetTopicsByIdsQuery(List<String> topicIds) implements TopicQuery {}
 
     /** Tous les thèmes (brouillons et archivés compris), triés par nom — options admin. */
-    record GetAdminTopicOptionsQuery() implements TopicQuery {
-    }
+    record GetAdminTopicOptionsQuery() implements TopicQuery {}
 
     /**
-     * Comptage, pour chaque URL demandée, des références dans le read model theme :
-     * couverture et bannière de sujet, illustration de question (tous statuts confondus).
-     * Réservée aux surfaces d'administration (console média du BFF).
+     * Comptage, pour chaque URL demandée, des références dans le read model theme : couverture et
+     * bannière de sujet, illustration de question (tous statuts confondus). Réservée aux surfaces
+     * d'administration (console média du BFF).
      */
-    record CountImageReferencesQuery(List<String> imageUrls) implements TopicQuery {
-    }
+    record CountImageReferencesQuery(List<String> imageUrls) implements TopicQuery {}
 
-    /**
-     * Query pour vérifier l'existence d'un thème
-     */
-    record TopicExistsByIdQuery(
-            String topicId
-    ) {
-    }
+    /** Query pour vérifier l'existence d'un thème */
+    record TopicExistsByIdQuery(String topicId) {}
 
-    /**
-     * Query pour récupérer un thème par son ID
-     */
-    record GetTopicByIdQuery(
-            String topicId
-    ) {
-    }
+    /** Query pour récupérer un thème par son ID */
+    record GetTopicByIdQuery(String topicId) {}
+
+    record GetTopicTeamQuery(String topicId) {}
+
+    record GetContributedTopicsQuery(String userId, int page, int size) {}
 }

@@ -13,20 +13,20 @@ import java.util.Map;
 
 public final class QuestionEntityMapper {
 
-    private QuestionEntityMapper() {
-    }
+    private QuestionEntityMapper() {}
 
-    /**
-     * Convertit l'entité (métadonnées) + ses contenus localisés en modèle domaine.
-     */
-    public static Question toDomain(QuestionEntity entity, List<QuestionContentEntity> contentEntities) {
+    /** Convertit l'entité (métadonnées) + ses contenus localisés en modèle domaine. */
+    public static Question toDomain(
+            QuestionEntity entity, List<QuestionContentEntity> contentEntities) {
         Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
         for (QuestionContentEntity contentEntity : contentEntities) {
             Language language = Language.fromCode(contentEntity.getLanguage());
-            contents.put(language, new QuestionContent(
+            contents.put(
                     language,
-                    contentEntity.getText(),
-                    new HashMap<>(contentEntity.getAnswers())));
+                    new QuestionContent(
+                            language,
+                            contentEntity.getText(),
+                            new HashMap<>(contentEntity.getAnswers())));
         }
 
         return Question.builder()
@@ -41,23 +41,20 @@ public final class QuestionEntityMapper {
                 .updatedBy(entity.getUpdatedBy())
                 .createdAt(entity.getCreatedAt())
                 .updatedAt(entity.getUpdatedAt())
-                .suspended(entity.isSuspended())
                 .suspensionReason(entity.getSuspensionReason())
                 .suspensionNote(entity.getSuspensionNote())
                 .suspendedAt(entity.getSuspendedAt())
                 .suspendedBy(entity.getSuspendedBy())
                 .reinstatedAt(entity.getReinstatedAt())
-                .archived(entity.isArchived())
                 .archiveNote(entity.getArchiveNote())
                 .archivedAt(entity.getArchivedAt())
                 .archivedBy(entity.getArchivedBy())
                 .restoredAt(entity.getRestoredAt())
+                .rejectionReason(entity.getRejectionReason())
                 .build();
     }
 
-    /**
-     * Convertit le modèle domaine en entité de métadonnées.
-     */
+    /** Convertit le modèle domaine en entité de métadonnées. */
     public static QuestionEntity toEntity(Question question) {
         QuestionEntity entity = new QuestionEntity();
         entity.setQuestionId(question.questionId());
@@ -70,21 +67,21 @@ public final class QuestionEntityMapper {
         entity.setUpdatedBy(question.updatedBy());
         entity.setCreatedAt(question.createdAt());
         entity.setUpdatedAt(question.updatedAt());
-        entity.setSuspended(question.suspended());
         entity.setSuspensionReason(question.suspensionReason());
         entity.setSuspensionNote(question.suspensionNote());
         entity.setSuspendedAt(question.suspendedAt());
         entity.setSuspendedBy(question.suspendedBy());
         entity.setReinstatedAt(question.reinstatedAt());
-        entity.setArchived(question.archived());
         entity.setArchiveNote(question.archiveNote());
         entity.setArchivedAt(question.archivedAt());
         entity.setArchivedBy(question.archivedBy());
         entity.setRestoredAt(question.restoredAt());
+        entity.setRejectionReason(question.rejectionReason());
         return entity;
     }
 
-    public static QuestionContentEntity toContentEntity(String questionId, QuestionContent content) {
+    public static QuestionContentEntity toContentEntity(
+            String questionId, QuestionContent content) {
         QuestionContentEntity entity = new QuestionContentEntity();
         entity.setQuestionId(questionId);
         entity.setLanguage(content.language().code());

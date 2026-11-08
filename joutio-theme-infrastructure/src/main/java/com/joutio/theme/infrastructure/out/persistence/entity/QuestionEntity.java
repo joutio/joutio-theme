@@ -6,25 +6,31 @@ import com.joutio.theme.domain.model.QuestionChoice;
 import com.joutio.theme.domain.model.QuestionDifficulty;
 import com.joutio.theme.domain.model.QuestionStatus;
 import com.joutio.theme.domain.model.QuestionSuspensionReason;
+
 import jakarta.persistence.*;
+
 import lombok.Getter;
 import lombok.Setter;
 
 import java.time.Instant;
 
 /**
- * QuestionEntity - Entité JPA de la projection read-only des questions (métadonnées seules ;
- * les contenus localisés vivent dans {@code question_content}).
+ * QuestionEntity - Entité JPA de la projection read-only des questions (métadonnées seules ; les
+ * contenus localisés vivent dans {@code question_content}).
  */
 @Setter
 @Getter
 @Entity
-@Table(name = "question_entry", indexes = {
-        @Index(name = "idx_question_entry_topic", columnList = "topic_id"),
-        @Index(name = "idx_question_entry_status", columnList = "status"),
-        @Index(name = "idx_question_entry_creator", columnList = "creator_id")
-})
+@Table(
+        name = "question_entry",
+        indexes = {
+            @Index(name = "idx_question_entry_topic", columnList = "topic_id"),
+            @Index(name = "idx_question_entry_status", columnList = "status"),
+            @Index(name = "idx_question_entry_creator", columnList = "creator_id")
+        })
 public class QuestionEntity {
+    @Column(name = "rejection_reason", length = 1000)
+    private String rejectionReason;
 
     @Id
     @Searchable(type = FieldType.STRING)
@@ -48,7 +54,9 @@ public class QuestionEntity {
     @Column(name = "status", nullable = false)
     private QuestionStatus status;
 
-    /** Difficulté déduite du taux de bonnes réponses (null tant que l'échantillon est insuffisant). */
+    /**
+     * Difficulté déduite du taux de bonnes réponses (null tant que l'échantillon est insuffisant).
+     */
     @Searchable(type = FieldType.STRING)
     @Enumerated(EnumType.STRING)
     @Column(name = "difficulty")
@@ -70,9 +78,6 @@ public class QuestionEntity {
     @Column(name = "updated_at")
     private Instant updatedAt;
 
-    @Column(name = "suspended", nullable = false)
-    private boolean suspended;
-
     @Enumerated(EnumType.STRING)
     @Column(name = "suspension_reason", length = 40)
     private QuestionSuspensionReason suspensionReason;
@@ -89,9 +94,6 @@ public class QuestionEntity {
     @Column(name = "reinstated_at")
     private Instant reinstatedAt;
 
-    @Column(name = "archived", nullable = false)
-    private boolean archived;
-
     @Column(name = "archive_note", length = 500)
     private String archiveNote;
 
@@ -103,5 +105,4 @@ public class QuestionEntity {
 
     @Column(name = "restored_at")
     private Instant restoredAt;
-
 }

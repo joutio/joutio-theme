@@ -1,5 +1,13 @@
 package com.joutio.theme.application.projection;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
 import com.joutio.microservice.core.domain.model.i18n.Language;
 import com.joutio.theme.domain.command.QuestionCommand;
 import com.joutio.theme.domain.event.QuestionReportEvent;
@@ -7,11 +15,11 @@ import com.joutio.theme.domain.model.Question;
 import com.joutio.theme.domain.model.QuestionChoice;
 import com.joutio.theme.domain.model.QuestionContent;
 import com.joutio.theme.domain.model.QuestionReportReason;
-import com.joutio.theme.domain.model.QuestionReportStatus;
 import com.joutio.theme.domain.model.QuestionStatus;
 import com.joutio.theme.domain.port.out.QuestionReportRepositoryPort;
 import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
 import com.joutio.theme.infrastructure.properties.QuestionReportProperties;
+
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -23,25 +31,22 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.eq;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.never;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
-
 class QuestionReportProjectionTest {
 
     private static final Instant NOW = Instant.parse("2026-10-17T12:00:00Z");
 
-    private final QuestionReportRepositoryPort reportRepository = mock(QuestionReportRepositoryPort.class);
+    private final QuestionReportRepositoryPort reportRepository =
+            mock(QuestionReportRepositoryPort.class);
     private final QuestionRepositoryPort questionRepository = mock(QuestionRepositoryPort.class);
     private final CommandGateway commandGateway = mock(CommandGateway.class);
-    private final QuestionReportProjection projection = new QuestionReportProjection(
-            reportRepository, questionRepository, commandGateway,
-            new QuestionReportProperties(new QuestionReportProperties.AutoSuspension(
-                    true, 3, Duration.ofDays(7))));
+    private final QuestionReportProjection projection =
+            new QuestionReportProjection(
+                    reportRepository,
+                    questionRepository,
+                    commandGateway,
+                    new QuestionReportProperties(
+                            new QuestionReportProperties.AutoSuspension(
+                                    true, 3, Duration.ofDays(7))));
 
     @BeforeEach
     void setUp() {
@@ -74,7 +79,10 @@ class QuestionReportProjectionTest {
 
     @Test
     void archivedQuestion_isNotSuspended() {
-        Question archived = question().toBuilder().archived(true).build();
+        Question archived =
+                question().toBuilder()
+                        .status(com.joutio.theme.domain.model.QuestionStatus.ARCHIVED)
+                        .build();
         when(questionRepository.findById("question-1")).thenReturn(Optional.of(archived));
 
         projection.on(reported());
@@ -84,26 +92,44 @@ class QuestionReportProjectionTest {
 
     private static QuestionReportEvent.QuestionReportedEvent reported() {
         return new QuestionReportEvent.QuestionReportedEvent(
-                "thread-1", "report-3", "question-1", "topic-1", "creator-1",
-                "reporter-3", "game-1", Set.of(QuestionReportReason.ANSWERS),
-                "Bonne réponse fausse", Language.FR, null, NOW);
+                "thread-1",
+                "report-3",
+                "question-1",
+                "topic-1",
+                "creator-1",
+                "reporter-3",
+                "game-1",
+                Set.of(QuestionReportReason.ANSWERS),
+                "Bonne réponse fausse",
+                Language.FR,
+                null,
+                NOW);
     }
 
     private static Question question() {
         return Question.builder()
                 .questionId("question-1")
                 .topicId("topic-1")
-                .contents(Map.of(Language.FR, new QuestionContent(
-                        Language.FR, "Capitale de la France ?",
-                        Map.of(QuestionChoice.A, "Paris", QuestionChoice.B, "Lyon",
-                                QuestionChoice.C, "Marseille", QuestionChoice.D, "Lille"))))
+                .contents(
+                        Map.of(
+                                Language.FR,
+                                new QuestionContent(
+                                        Language.FR,
+                                        "Capitale de la France ?",
+                                        Map.of(
+                                                QuestionChoice.A,
+                                                "Paris",
+                                                QuestionChoice.B,
+                                                "Lyon",
+                                                QuestionChoice.C,
+                                                "Marseille",
+                                                QuestionChoice.D,
+                                                "Lille"))))
                 .correctAnswer(QuestionChoice.A)
                 .status(QuestionStatus.APPROVED)
                 .creatorId("creator-1")
                 .createdAt(NOW)
                 .updatedAt(NOW)
-                .suspended(false)
-                .archived(false)
                 .build();
     }
 }

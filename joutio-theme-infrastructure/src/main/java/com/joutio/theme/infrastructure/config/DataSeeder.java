@@ -24,14 +24,16 @@ import com.joutio.theme.infrastructure.config.seed.QuestionSeedDefinition;
 import com.joutio.theme.infrastructure.config.seed.SeedDataLoader;
 import com.joutio.theme.infrastructure.config.seed.TopicSeedDefinition;
 import com.joutio.theme.infrastructure.properties.AppProperties;
+
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;
+
 import org.axonframework.commandhandling.distributed.CommandDispatchException;
 import org.axonframework.modelling.command.AggregateStreamCreationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.event.EventListener;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.ResourceAccessException;
 
@@ -44,29 +46,26 @@ import java.util.UUID;
 import java.util.concurrent.CompletionException;
 
 /**
- * DataSeeder - Initialise les topics et questions depuis les fichiers YAML
- * ({@code app.seed-data.location}) au demarrage.
- * <p>
- * Injecte uniquement des use cases (ports entrants) afin de respecter
- * l'architecture hexagonale du module.
- * <p>
- * Comportement :
- * - un fichier YAML invalide est ignore par {@link SeedDataLoader} sans bloquer les autres ;
- * - un theme absent est cree puis publie ;
- * - un theme deja publie est complete : questions manquantes creees et approuvees, traductions
- *   et difficultes initiales manquantes ajoutees (jamais de modification des questions
- *   existantes) ;
- * - un theme en DRAFT est repare (questions manquantes creees, questions non approuvees
- *   approuvees puis publication) ;
- * - la difficulte du seed n'est posee que si la question n'a pas encore de difficulte calculee
- *   (le calcul sur les reponses reelles reste maitre) ;
- * - un echec sur un theme est isole et n'empeche pas le seeding des suivants.
- * <p>
- * Le seeding demarre apres {@link ApplicationReadyEvent}, dans un thread dedie : le readiness
- * de l'application n'attend pas la fin du seed (indispensable quand le catalogue est volumineux,
- * sinon les probes Kubernetes tuent le pod en plein seed).
- * <p>
- * Active uniquement si app.seed-data.enabled=true.
+ * DataSeeder - Initialise les topics et questions depuis les fichiers YAML ({@code
+ * app.seed-data.location}) au demarrage.
+ *
+ * <p>Injecte uniquement des use cases (ports entrants) afin de respecter l'architecture hexagonale
+ * du module.
+ *
+ * <p>Comportement : - un fichier YAML invalide est ignore par {@link SeedDataLoader} sans bloquer
+ * les autres ; - un theme absent est cree puis publie ; - un theme deja publie est complete :
+ * questions manquantes creees et approuvees, traductions et difficultes initiales manquantes
+ * ajoutees (jamais de modification des questions existantes) ; - un theme en DRAFT est repare
+ * (questions manquantes creees, questions non approuvees approuvees puis publication) ; - la
+ * difficulte du seed n'est posee que si la question n'a pas encore de difficulte calculee (le
+ * calcul sur les reponses reelles reste maitre) ; - un echec sur un theme est isole et n'empeche
+ * pas le seeding des suivants.
+ *
+ * <p>Le seeding demarre apres {@link ApplicationReadyEvent}, dans un thread dedie : le readiness de
+ * l'application n'attend pas la fin du seed (indispensable quand le catalogue est volumineux, sinon
+ * les probes Kubernetes tuent le pod en plein seed).
+ *
+ * <p>Active uniquement si app.seed-data.enabled=true.
  */
 @Component
 public class DataSeeder {
@@ -79,6 +78,7 @@ public class DataSeeder {
     private static final int SEED_MAX_ATTEMPTS = 4;
     private static final long SEED_RETRY_DELAY_INCREMENT_MS = 2_000;
 
+    private final com.joutio.theme.domain.port.out.TopicSeedPolicyPort seedPolicy;
     private final CheckTopicUseCase checkTopicUseCase;
     private final CreateTopicUseCase createTopicUseCase;
     private final CreateQuestionUseCase createQuestionUseCase;
@@ -96,18 +96,21 @@ public class DataSeeder {
     private final Counter failedTopicsCounter;
     private final Counter retriesCounter;
 
-    public DataSeeder(CheckTopicUseCase checkTopicUseCase,
-                      CreateTopicUseCase createTopicUseCase,
-                      CreateQuestionUseCase createQuestionUseCase,
-                      AddQuestionTranslationsUseCase addQuestionTranslationsUseCase,
-                      ApproveQuestionUseCase approveQuestionUseCase,
-                      UpdateQuestionDifficultyUseCase updateQuestionDifficultyUseCase,
-                      PublishTopicUseCase publishTopicUseCase,
-                      GetTopicUseCase getTopicUseCase,
-                      GetQuestionUseCase getQuestionUseCase,
-                      SeedDataLoader seedDataLoader,
-                      MeterRegistry meterRegistry,
-                      AppProperties properties) {
+    public DataSeeder(
+            com.joutio.theme.domain.port.out.TopicSeedPolicyPort seedPolicy,
+            CheckTopicUseCase checkTopicUseCase,
+            CreateTopicUseCase createTopicUseCase,
+            CreateQuestionUseCase createQuestionUseCase,
+            AddQuestionTranslationsUseCase addQuestionTranslationsUseCase,
+            ApproveQuestionUseCase approveQuestionUseCase,
+            UpdateQuestionDifficultyUseCase updateQuestionDifficultyUseCase,
+            PublishTopicUseCase publishTopicUseCase,
+            GetTopicUseCase getTopicUseCase,
+            GetQuestionUseCase getQuestionUseCase,
+            SeedDataLoader seedDataLoader,
+            MeterRegistry meterRegistry,
+            AppProperties properties) {
+        this.seedPolicy = seedPolicy;
         this.checkTopicUseCase = checkTopicUseCase;
         this.createTopicUseCase = createTopicUseCase;
         this.createQuestionUseCase = createQuestionUseCase;
@@ -123,9 +126,11 @@ public class DataSeeder {
         this.repairedTopicsCounter = seedOutcomeCounter(meterRegistry, "repaired");
         this.skippedTopicsCounter = seedOutcomeCounter(meterRegistry, "skipped");
         this.failedTopicsCounter = seedOutcomeCounter(meterRegistry, "failed");
-        this.retriesCounter = Counter.builder("joutio.theme.seed.retries")
-                .description("Tentatives supplementaires du seeder apres un echec transitoire")
-                .register(meterRegistry);
+        this.retriesCounter =
+                Counter.builder("joutio.theme.seed.retries")
+                        .description(
+                                "Tentatives supplementaires du seeder apres un echec transitoire")
+                        .register(meterRegistry);
     }
 
     private static Counter seedOutcomeCounter(MeterRegistry meterRegistry, String outcome) {
@@ -136,8 +141,8 @@ public class DataSeeder {
     }
 
     /**
-     * Lance le seeding en arriere-plan une fois l'application prete : le readiness n'est pas
-     * bloque par la duree du seed.
+     * Lance le seeding en arriere-plan une fois l'application prete : le readiness n'est pas bloque
+     * par la duree du seed.
      */
     @EventListener(ApplicationReadyEvent.class)
     public void onApplicationReady() {
@@ -182,18 +187,28 @@ public class DataSeeder {
             } catch (Exception e) {
                 failed++;
                 failedTopicsCounter.increment();
-                logger.error("Failed to seed topic {} ({})", definition.topicId(), definition.displayName(), e);
+                logger.error(
+                        "Failed to seed topic {} ({})",
+                        definition.topicId(),
+                        definition.displayName(),
+                        e);
             }
         }
 
-        logger.info("=== Theme Data Seeding Completed: {} created, {} repaired, {} skipped, {} failed in {} ms ===",
-                created, repaired, skipped, failed, System.currentTimeMillis() - startedAt);
+        logger.info(
+                "=== Theme Data Seeding Completed: {} created, {} repaired, {} skipped, {} failed"
+                        + " in {} ms ===",
+                created,
+                repaired,
+                skipped,
+                failed,
+                System.currentTimeMillis() - startedAt);
     }
 
     /**
      * Rejoue le seeding du theme lorsque l'echec est transitoire (instance Axon indisponible
-     * pendant un rollout, connexion refusee) : le seeding est idempotent, un nouvel essai
-     * reprend les questions manquantes sans doublon.
+     * pendant un rollout, connexion refusee) : le seeding est idempotent, un nouvel essai reprend
+     * les questions manquantes sans doublon.
      */
     private TopicSeedOutcome seedTopicWithRetry(TopicSeedDefinition definition) {
         for (int attempt = 1; ; attempt++) {
@@ -205,8 +220,15 @@ public class DataSeeder {
                 }
                 retriesCounter.increment();
                 long delayMs = SEED_RETRY_DELAY_INCREMENT_MS * attempt;
-                logger.warn("Transient failure while seeding topic {} ({}) - attempt {}/{}, retrying in {} ms: {}",
-                        definition.topicId(), definition.displayName(), attempt, SEED_MAX_ATTEMPTS, delayMs, e.getMessage());
+                logger.warn(
+                        "Transient failure while seeding topic {} ({}) - attempt {}/{}, retrying in"
+                                + " {} ms: {}",
+                        definition.topicId(),
+                        definition.displayName(),
+                        attempt,
+                        SEED_MAX_ATTEMPTS,
+                        delayMs,
+                        e.getMessage());
                 sleep(delayMs);
             }
         }
@@ -220,6 +242,7 @@ public class DataSeeder {
 
     private TopicSeedOutcome seedTopic(TopicSeedDefinition definition) {
         String topicId = definition.topicId();
+        if (seedPolicy.isLocked(topicId)) return TopicSeedOutcome.SKIPPED;
         boolean createdTopic = false;
 
         if (!checkTopicUseCase.existsByIdAndWait(topicId)) {
@@ -233,15 +256,16 @@ public class DataSeeder {
                         null,
                         definition.imageUrl(),
                         definition.titles(),
-                        JoutioConstants.SYSTEM_USER_ID
-                );
+                        JoutioConstants.SYSTEM_USER_ID);
                 createdTopic = true;
                 logger.info("Created topic '{}' ({})", definition.displayName(), topicId);
             } catch (CompletionException e) {
                 if (!isAggregateAlreadyExists(e)) {
                     throw e;
                 }
-                logger.info("Topic {} already exists in the event store (projection lag), repairing", topicId);
+                logger.info(
+                        "Topic {} already exists in the event store (projection lag), repairing",
+                        topicId);
             }
         }
 
@@ -268,9 +292,13 @@ public class DataSeeder {
                     difficultiesInitialized += initializeMissingDifficulty(existing, question);
                 }
             }
-            logger.info("Topic {} is already published ({} question(s) added, {} translation(s) added, "
+            logger.info(
+                    "Topic {} is already published ({} question(s) added, {} translation(s) added, "
                             + "{} difficulty(ies) initialized)",
-                    topicId, createdQuestions, translationsAdded, difficultiesInitialized);
+                    topicId,
+                    createdQuestions,
+                    translationsAdded,
+                    difficultiesInitialized);
             return createdQuestions > 0 || translationsAdded > 0 || difficultiesInitialized > 0
                     ? TopicSeedOutcome.REPAIRED
                     : TopicSeedOutcome.SKIPPED;
@@ -311,16 +339,23 @@ public class DataSeeder {
             }
         }
 
-        logger.info("Seeded topic '{}' ({}): {} question(s) created, {} question(s) approved, "
+        logger.info(
+                "Seeded topic '{}' ({}): {} question(s) created, {} question(s) approved, "
                         + "{} translation(s) added, {} difficulty(ies) initialized",
-                definition.displayName(), topicId, createdQuestions, approvedQuestions,
-                translationsAdded, difficultiesInitialized);
+                definition.displayName(),
+                topicId,
+                createdQuestions,
+                approvedQuestions,
+                translationsAdded,
+                difficultiesInitialized);
 
         if (createdTopic) {
             return TopicSeedOutcome.CREATED;
         }
-        return createdQuestions > 0 || approvedQuestions > 0 || translationsAdded > 0
-                || difficultiesInitialized > 0
+        return createdQuestions > 0
+                        || approvedQuestions > 0
+                        || translationsAdded > 0
+                        || difficultiesInitialized > 0
                 ? TopicSeedOutcome.REPAIRED
                 : TopicSeedOutcome.SKIPPED;
     }
@@ -334,8 +369,7 @@ public class DataSeeder {
                     question.contents(),
                     question.correctAnswer(),
                     question.imageUrl(),
-                    JoutioConstants.SYSTEM_USER_ID
-            );
+                    JoutioConstants.SYSTEM_USER_ID);
         } catch (CompletionException e) {
             if (!isAggregateAlreadyExists(e)) {
                 throw e;
@@ -348,9 +382,7 @@ public class DataSeeder {
         return questionId;
     }
 
-    /**
-     * Pose la difficulté initiale du seed sur une question fraîchement créée.
-     */
+    /** Pose la difficulté initiale du seed sur une question fraîchement créée. */
     private void applySeedDifficulty(String questionId, QuestionSeedDefinition question) {
         if (question.difficulty() == null) {
             return;
@@ -366,7 +398,8 @@ public class DataSeeder {
         if (existing.difficulty() != null || question.difficulty() == null) {
             return 0;
         }
-        updateQuestionDifficultyUseCase.updateDifficultyAndWait(existing.questionId(), question.difficulty());
+        updateQuestionDifficultyUseCase.updateDifficultyAndWait(
+                existing.questionId(), question.difficulty());
         return 1;
     }
 
@@ -381,11 +414,11 @@ public class DataSeeder {
             return 0;
         }
 
-        addQuestionTranslationsUseCase.add(new QuestionCommand.AddQuestionTranslationsCommand(
-                existing.questionId(),
-                missing,
-                JoutioConstants.SYSTEM_USER_ID
-        )).join();
+        addQuestionTranslationsUseCase
+                .add(
+                        new QuestionCommand.AddQuestionTranslationsCommand(
+                                existing.questionId(), missing, JoutioConstants.SYSTEM_USER_ID))
+                .join();
         return missing.size();
     }
 
@@ -400,14 +433,18 @@ public class DataSeeder {
     }
 
     /**
-     * Charge les questions du theme (read-model) indexees par identite (texte, imageUrl) :
-     * cle stable de reparation, les identifiants de questions etant aleatoires. Les textes
-     * peuvent etre dupliques (questions visuelles), la paire (texte, imageUrl) est unique.
+     * Charge les questions du theme (read-model) indexees par identite (texte, imageUrl) : cle
+     * stable de reparation, les identifiants de questions etant aleatoires. Les textes peuvent etre
+     * dupliques (questions visuelles), la paire (texte, imageUrl) est unique.
      */
     private Map<QuestionIdentity, Question> findQuestionsByIdentity(String topicId) {
         Map<QuestionIdentity, Question> byIdentity = new HashMap<>();
-        getQuestionUseCase.getByTopicId(topicId).join()
-                .forEach(question -> byIdentity.putIfAbsent(QuestionIdentity.of(question), question));
+        getQuestionUseCase
+                .getByTopicId(topicId)
+                .join()
+                .forEach(
+                        question ->
+                                byIdentity.putIfAbsent(QuestionIdentity.of(question), question));
         return byIdentity;
     }
 
@@ -425,12 +462,13 @@ public class DataSeeder {
             }
         }
 
-        throw new IllegalStateException("Timeout while waiting for topic " + topicId + " projection");
+        throw new IllegalStateException(
+                "Timeout while waiting for topic " + topicId + " projection");
     }
 
     /**
-     * Attend que le read-model contienne {@code expectedApprovedCount} questions approuvees.
-     * Le compteur agrege {@code topic_entry.questions_counter} est volontairement ignore : il peut
+     * Attend que le read-model contienne {@code expectedApprovedCount} questions approuvees. Le
+     * compteur agrege {@code topic_entry.questions_counter} est volontairement ignore : il peut
      * etre transitoirement desynchronise pendant un rollout, alors que le statut des questions
      * (source de verite de la publication) est fiable.
      */
@@ -438,9 +476,10 @@ public class DataSeeder {
         long deadlineMs = System.currentTimeMillis() + APPROVAL_WAIT_TIMEOUT_MS;
 
         while (System.currentTimeMillis() < deadlineMs) {
-            long approvedCount = getQuestionUseCase.getByTopicId(topicId).join().stream()
-                    .filter(question -> question.status() == QuestionStatus.APPROVED)
-                    .count();
+            long approvedCount =
+                    getQuestionUseCase.getByTopicId(topicId).join().stream()
+                            .filter(question -> question.status() == QuestionStatus.APPROVED)
+                            .count();
 
             if (approvedCount >= expectedApprovedCount) {
                 return;
@@ -450,7 +489,10 @@ public class DataSeeder {
         }
 
         throw new IllegalStateException(
-                "Timeout while waiting " + expectedApprovedCount + " approved questions for topic " + topicId);
+                "Timeout while waiting "
+                        + expectedApprovedCount
+                        + " approved questions for topic "
+                        + topicId);
     }
 
     private void sleep(long millis) {

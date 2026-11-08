@@ -5,7 +5,8 @@ import com.joutio.microservice.core.domain.exception.ProblemCategory;
 import java.util.Map;
 
 /**
- * Exceptions spécifiques au domaine des thèmes, encapsulant les problèmes liés à la gestion des thèmes.
+ * Exceptions spécifiques au domaine des thèmes, encapsulant les problèmes liés à la gestion des
+ * thèmes.
  */
 public final class TopicProblems {
 
@@ -15,10 +16,13 @@ public final class TopicProblems {
 
     public static class TopicNotFoundProblem extends TopicProblem {
         public TopicNotFoundProblem(String topicId) {
-            super(topicId, "urn:joutio:topic:notFound",
-                  ProblemCategory.BUSINESS_RESOURCE_MISSING,
-                  "Topic not found",
-                  "The topic " + topicId + " was not found", null);
+            super(
+                    topicId,
+                    "urn:joutio:topic:notFound",
+                    ProblemCategory.BUSINESS_RESOURCE_MISSING,
+                    "Topic not found",
+                    "The topic " + topicId + " was not found",
+                    null);
         }
     }
 
@@ -42,16 +46,21 @@ public final class TopicProblems {
 
     public static class TopicNotInDraftProblem extends TopicProblem {
         public TopicNotInDraftProblem(String topicId) {
-            super(topicId, "urn:joutio:topic:notInDraft",
+            super(
+                    topicId,
+                    "urn:joutio:topic:notInDraft",
                     ProblemCategory.BUSINESS_INVALID_COMMAND,
                     "Topic not in draft status",
-                    "The topic " + topicId + " must be in DRAFT status to be published", null);
+                    "The topic " + topicId + " must be in DRAFT status to be published",
+                    null);
         }
     }
 
     public static class TopicNotOwnerProblem extends TopicProblem {
         public TopicNotOwnerProblem(String topicId, String requestedBy) {
-            super(topicId, "urn:joutio:topic:notOwner",
+            super(
+                    topicId,
+                    "urn:joutio:topic:notOwner",
                     ProblemCategory.PERMISSION,
                     "Topic update not allowed",
                     "Only the creator of the topic can update it",
@@ -61,66 +70,99 @@ public final class TopicProblems {
 
     public static class TopicNameTooLongProblem extends TopicProblem {
         public TopicNameTooLongProblem(String topicId, int maxLength) {
-            super(topicId, "urn:joutio:topic:nameTooLong",
+            super(
+                    topicId,
+                    "urn:joutio:topic:nameTooLong",
                     ProblemCategory.VALIDATION,
                     "Topic name too long",
-                    "The topic name must not exceed " + maxLength + " characters", null);
+                    "The topic name must not exceed " + maxLength + " characters",
+                    null);
         }
     }
 
     public static class TopicDescriptionTooLongProblem extends TopicProblem {
         public TopicDescriptionTooLongProblem(String topicId, int maxLength) {
-            super(topicId, "urn:joutio:topic:descriptionTooLong",
+            super(
+                    topicId,
+                    "urn:joutio:topic:descriptionTooLong",
                     ProblemCategory.VALIDATION,
                     "Topic description too long",
-                    "The topic description must not exceed " + maxLength + " characters", null);
+                    "The topic description must not exceed " + maxLength + " characters",
+                    null);
         }
     }
 
     public static class TopicEmojiTooLongProblem extends TopicProblem {
         public TopicEmojiTooLongProblem(String topicId, int maxLength) {
-            super(topicId, "urn:joutio:topic:emojiTooLong",
+            super(
+                    topicId,
+                    "urn:joutio:topic:emojiTooLong",
                     ProblemCategory.VALIDATION,
                     "Topic emoji too long",
-                    "The topic emoji must not exceed " + maxLength + " characters", null);
+                    "The topic emoji must not exceed " + maxLength + " characters",
+                    null);
         }
     }
 
     public static class TopicColorTooLongProblem extends TopicProblem {
         public TopicColorTooLongProblem(String topicId, int maxLength) {
-            super(topicId, "urn:joutio:topic:colorTooLong",
+            super(
+                    topicId,
+                    "urn:joutio:topic:colorTooLong",
                     ProblemCategory.VALIDATION,
                     "Topic color too long",
-                    "The topic color must not exceed " + maxLength + " characters", null);
+                    "The topic color must not exceed " + maxLength + " characters",
+                    null);
         }
     }
 
     public static class TopicImageUrlTooLongProblem extends TopicProblem {
         public TopicImageUrlTooLongProblem(String topicId, int maxLength) {
-            super(topicId, "urn:joutio:topic:imageUrlTooLong",
+            super(
+                    topicId,
+                    "urn:joutio:topic:imageUrlTooLong",
                     ProblemCategory.VALIDATION,
                     "Topic image URL too long",
-                    "The topic image URL must not exceed " + maxLength + " characters", null);
+                    "The topic image URL must not exceed " + maxLength + " characters",
+                    null);
         }
     }
 
     /** Bannière de la fiche sujet (visuel panoramique distinct de la couverture). */
     public static class TopicBannerUrlTooLongProblem extends TopicProblem {
         public TopicBannerUrlTooLongProblem(String topicId, int maxLength) {
-            super(topicId, "urn:joutio:topic:bannerUrlTooLong",
+            super(
+                    topicId,
+                    "urn:joutio:topic:bannerUrlTooLong",
                     ProblemCategory.VALIDATION,
                     "Topic banner URL too long",
-                    "The topic banner URL must not exceed " + maxLength + " characters", null);
+                    "The topic banner URL must not exceed " + maxLength + " characters",
+                    null);
         }
     }
 
     /** Titres personnalisés invalides (palier inconnu, libellé vide ou trop long). */
     public static class InvalidTopicTitlesProblem extends TopicProblem {
         public InvalidTopicTitlesProblem(String topicId, String detail) {
-            super(topicId, "urn:joutio:topic:invalidTitles",
+            super(
+                    topicId,
+                    "urn:joutio:topic:invalidTitles",
                     ProblemCategory.VALIDATION,
                     "Invalid topic titles",
-                    detail, null);
+                    detail,
+                    null);
+        }
+    }
+
+    public static class TopicUnavailableProblem extends TopicProblem {
+        public TopicUnavailableProblem(String topicId) {
+            super(
+                    topicId,
+                    "urn:joutio:topic:unavailable",
+                    ProblemCategory.BUSINESS_INVALID_COMMAND,
+                    "Topic unavailable",
+                    "This topic is a draft and cannot be played",
+                    null);
         }
     }
 }

@@ -1,5 +1,13 @@
 package com.joutio.theme.domain.aggregate;
 
+import static com.joutio.theme.domain.model.TopicRules.MAX_BANNER_URL_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MAX_COLOR_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MAX_DESCRIPTION_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MAX_EMOJI_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MAX_IMAGE_URL_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MAX_NAME_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PUBLISH;
+
 import com.joutio.microservice.core.domain.model.i18n.Language;
 import com.joutio.theme.domain.command.TopicCommand;
 import com.joutio.theme.domain.event.TopicEvent;
@@ -9,6 +17,7 @@ import com.joutio.theme.domain.model.TopicCategory;
 import com.joutio.theme.domain.model.TopicStatus;
 import com.joutio.theme.domain.model.TopicTitles;
 import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
+
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
@@ -20,22 +29,11 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Objects;
 
-import static com.joutio.theme.domain.model.TopicRules.MAX_BANNER_URL_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MAX_COLOR_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MAX_DESCRIPTION_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MAX_EMOJI_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MAX_IMAGE_URL_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MAX_NAME_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PUBLISH;
-
-/**
- * TopicAggregate - Gère le cycle de vie d'un thème
- */
+/** TopicAggregate - Gère le cycle de vie d'un thème */
 @Aggregate
 public class TopicAggregate {
 
-    @AggregateIdentifier
-    private String topicId;
+    @AggregateIdentifier private String topicId;
     private Map<Language, String> names = new EnumMap<>(Language.class);
     private String description;
     private TopicCategory category;
@@ -46,13 +44,14 @@ public class TopicAggregate {
     private Map<Language, Map<String, String>> titles;
     private TopicStatus status;
     private String creatorId;
+    private final java.util.Map<String, com.joutio.theme.domain.model.TopicTeamRole> team =
+            new java.util.HashMap<>();
     private Instant createdAt;
     private String updatedBy;
     private Instant updatedAt;
 
     // Constructeur par défaut requis par Axon
-    protected TopicAggregate() {
-    }
+    protected TopicAggregate() {}
 
     @CommandHandler
     public TopicAggregate(TopicCommand.CreateTopicCommand command) {
@@ -70,18 +69,18 @@ public class TopicAggregate {
             throw new TopicProblems.CreatorIdEmptyProblem(command.topicId());
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicCreatedEvent(
-                command.topicId(),
-                new EnumMap<>(command.names()),
-                command.description(),
-                command.category(),
-                command.emoji(),
-                command.color(),
-                command.imageUrl(),
-                normalizeTitles(command.topicId(), command.titles()),
-                command.creatorId(),
-                Instant.now()
-        ));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicCreatedEvent(
+                        command.topicId(),
+                        new EnumMap<>(command.names()),
+                        command.description(),
+                        command.category(),
+                        command.emoji(),
+                        command.color(),
+                        command.imageUrl(),
+                        normalizeTitles(command.topicId(), command.titles()),
+                        command.creatorId(),
+                        Instant.now()));
     }
 
     /** Titres personnalisés (propriétaire) : idempotent, `null` efface (repli client). */
@@ -94,12 +93,9 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicTitlesUpdatedEvent(
-                topicId,
-                command.requestedBy(),
-                normalized,
-                Instant.now()
-        ));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicTitlesUpdatedEvent(
+                        topicId, command.requestedBy(), normalized, Instant.now()));
     }
 
     /** Valide la carte des titres (palier connu, libellé non vide ≤ {@code MAX_LABEL_LENGTH}). */
@@ -113,7 +109,9 @@ public class TopicAggregate {
     }
 
     @CommandHandler
-    public void handle(TopicCommand.PublishTopicCommand command, QuestionRepositoryPort questionRepositoryPort) {
+    public void handle(
+            TopicCommand.PublishTopicCommand command,
+            QuestionRepositoryPort questionRepositoryPort) {
         requireOwner(command.requesterId());
 
         if (this.status != TopicStatus.DRAFT) {
@@ -124,17 +122,12 @@ public class TopicAggregate {
 
         if (approvedQuestionsCount < MIN_QUESTIONS_TO_PUBLISH) {
             throw new QuestionProblems.NotEnoughApprovedQuestionsProblem(
-                    this.topicId, approvedQuestionsCount,
-                    MIN_QUESTIONS_TO_PUBLISH
-            );
+                    this.topicId, approvedQuestionsCount, MIN_QUESTIONS_TO_PUBLISH);
         }
 
         AggregateLifecycle.apply(
                 new TopicEvent.TopicPublishedEvent(
-                        this.topicId,
-                        command.requesterId(),
-                        Instant.now()
-                ));
+                        this.topicId, command.requesterId(), Instant.now()));
     }
 
     @CommandHandler
@@ -142,8 +135,8 @@ public class TopicAggregate {
         if (this.status != TopicStatus.PUBLISHED) {
             return;
         }
-        AggregateLifecycle.apply(new TopicEvent.TopicDraftedEvent(
-                this.topicId, command.reason(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicDraftedEvent(this.topicId, command.reason(), Instant.now()));
     }
 
     @CommandHandler
@@ -157,8 +150,13 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicNameUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.language(), command.name(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicNameUpdatedEvent(
+                        command.topicId(),
+                        command.requestedBy(),
+                        command.language(),
+                        command.name(),
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -169,8 +167,12 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicDescriptionUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.description(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicDescriptionUpdatedEvent(
+                        command.topicId(),
+                        command.requestedBy(),
+                        command.description(),
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -183,8 +185,12 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicCategoryUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.category(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicCategoryUpdatedEvent(
+                        command.topicId(),
+                        command.requestedBy(),
+                        command.category(),
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -195,8 +201,9 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicEmojiUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.emoji(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicEmojiUpdatedEvent(
+                        command.topicId(), command.requestedBy(), command.emoji(), Instant.now()));
     }
 
     @CommandHandler
@@ -207,8 +214,9 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicColorUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.color(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicColorUpdatedEvent(
+                        command.topicId(), command.requestedBy(), command.color(), Instant.now()));
     }
 
     @CommandHandler
@@ -219,8 +227,12 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicImageUrlUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.imageUrl(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicImageUrlUpdatedEvent(
+                        command.topicId(),
+                        command.requestedBy(),
+                        command.imageUrl(),
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -231,8 +243,12 @@ public class TopicAggregate {
             return;
         }
 
-        AggregateLifecycle.apply(new TopicEvent.TopicBannerUrlUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.bannerUrl(), Instant.now()));
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicBannerUrlUpdatedEvent(
+                        command.topicId(),
+                        command.requestedBy(),
+                        command.bannerUrl(),
+                        Instant.now()));
     }
 
     @EventSourcingHandler
@@ -325,21 +341,26 @@ public class TopicAggregate {
     }
 
     private void requireOwner(String requestedBy) {
-        if (!Objects.equals(this.creatorId, requestedBy)) {
+        if (!Objects.equals(this.creatorId, requestedBy)
+                && team.get(requestedBy) != com.joutio.theme.domain.model.TopicTeamRole.ADMIN) {
             throw new TopicProblems.TopicNotOwnerProblem(this.topicId, requestedBy);
         }
     }
 
     private static void validateNames(String topicId, Map<Language, String> names) {
-        if (names == null || names.isEmpty() || names.get(Language.FR) == null || names.get(Language.FR).isBlank()) {
+        if (names == null
+                || names.isEmpty()
+                || names.get(Language.FR) == null
+                || names.get(Language.FR).isBlank()) {
             throw new TopicProblems.TopicNameEmptyProblem(topicId);
         }
-        names.forEach((language, name) -> {
-            if (language == null) {
-                throw new TopicProblems.TopicNameEmptyProblem(topicId);
-            }
-            validateName(topicId, name);
-        });
+        names.forEach(
+                (language, name) -> {
+                    if (language == null) {
+                        throw new TopicProblems.TopicNameEmptyProblem(topicId);
+                    }
+                    validateName(topicId, name);
+                });
     }
 
     private static void validateName(String topicId, String name) {
@@ -381,4 +402,63 @@ public class TopicAggregate {
         }
     }
 
+    @CommandHandler
+    public void handle(TopicCommand.SetTopicMemberCommand command) {
+        requireOwner(command.requestedBy());
+        if (command.userId() == null
+                || command.userId().isBlank()
+                || command.role() == null
+                || command.role() == com.joutio.theme.domain.model.TopicTeamRole.CREATOR
+                || command.userId().equals(creatorId))
+            throw new TopicProblems.TopicNotOwnerProblem(topicId, command.requestedBy());
+        if (team.get(command.userId()) == command.role()) return;
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicMemberSetEvent(
+                        topicId,
+                        command.userId(),
+                        command.role(),
+                        command.requestedBy(),
+                        Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.RemoveTopicMemberCommand command) {
+        requireOwner(command.requestedBy());
+        if (Objects.equals(creatorId, command.userId()))
+            throw new TopicProblems.TopicNotOwnerProblem(topicId, command.requestedBy());
+        if (!team.containsKey(command.userId())) return;
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicMemberRemovedEvent(
+                        topicId, command.userId(), command.requestedBy(), Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.UnpublishTopicCommand command) {
+        requireOwner(command.requestedBy());
+        if (status == TopicStatus.PUBLISHED)
+            AggregateLifecycle.apply(
+                    new TopicEvent.TopicDraftedEvent(topicId, "AUTHOR_REQUEST", Instant.now()));
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicMemberSetEvent event) {
+        team.put(event.userId(), event.role());
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicMemberRemovedEvent event) {
+        team.remove(event.userId());
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.RemoveDeletedTopicMemberCommand command) {
+        if (team.containsKey(command.userId()))
+            AggregateLifecycle.apply(
+                    new TopicEvent.TopicMemberRemovedEvent(
+                            topicId,
+                            command.userId(),
+                            com.joutio.microservice.core.domain.constant.JoutioConstants
+                                    .SYSTEM_USER_ID,
+                            Instant.now()));
+    }
 }

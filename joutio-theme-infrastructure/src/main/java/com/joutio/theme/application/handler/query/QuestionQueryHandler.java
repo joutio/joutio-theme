@@ -7,6 +7,7 @@ import com.joutio.theme.domain.model.Question;
 import com.joutio.theme.domain.model.QuestionLanguageCoverage;
 import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
 import com.joutio.theme.domain.query.QuestionQuery;
+
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.stereotype.Component;
 
@@ -18,16 +19,22 @@ import java.util.Set;
 @Component
 public class QuestionQueryHandler {
 
+    private final com.joutio.theme.domain.port.out.TopicRepositoryPort topics;
     private final QuestionRepositoryPort questionRepositoryPort;
 
-    public QuestionQueryHandler(QuestionRepositoryPort questionRepositoryPort) {
+    public QuestionQueryHandler(
+            QuestionRepositoryPort questionRepositoryPort,
+            com.joutio.theme.domain.port.out.TopicRepositoryPort topics) {
+        this.topics = topics;
         this.questionRepositoryPort = questionRepositoryPort;
     }
 
     @QueryHandler
     public Question handle(QuestionQuery.GetQuestionByIdQuery query) {
-        return questionRepositoryPort.findById(query.questionId())
-                .orElseThrow(() -> new QuestionProblems.QuestionNotFoundProblem(query.questionId()));
+        return questionRepositoryPort
+                .findById(query.questionId())
+                .orElseThrow(
+                        () -> new QuestionProblems.QuestionNotFoundProblem(query.questionId()));
     }
 
     @QueryHandler
@@ -49,14 +56,27 @@ public class QuestionQueryHandler {
 
     @QueryHandler
     public List<Question> handle(QuestionQuery.GetRandomApprovedQuestionsQuery query) {
+        var topic =
+                topics.findById(query.topicId())
+                        .orElseThrow(
+                                () ->
+                                        new com.joutio.theme.domain.exception.TopicProblems
+                                                .TopicNotFoundProblem(query.topicId()));
+        if (topic.status() != com.joutio.theme.domain.model.TopicStatus.PUBLISHED)
+            throw new com.joutio.theme.domain.exception.TopicProblems.TopicUnavailableProblem(
+                    query.topicId());
         return questionRepositoryPort.findRandomApprovedByTopicId(
-                query.topicId(), query.count(), query.languages(),
-                query.difficulties(), query.excludeQuestionIds());
+                query.topicId(),
+                query.count(),
+                query.languages(),
+                query.difficulties(),
+                query.excludeQuestionIds());
     }
 
     @QueryHandler
     public Integer handle(QuestionQuery.CountApprovedQuestionsByTopicAndLanguagesQuery query) {
-        return questionRepositoryPort.countApprovedByTopicAndLanguages(query.topicId(), query.languages());
+        return questionRepositoryPort.countApprovedByTopicAndLanguages(
+                query.topicId(), query.languages());
     }
 
     /**
@@ -65,11 +85,15 @@ public class QuestionQueryHandler {
      * auto-suffisants, aucune query dans un handler de saga).
      */
     @QueryHandler
-    public List<QuestionLanguageCoverage> handle(QuestionQuery.GetTopicLanguageCoverageQuery query) {
+    public List<QuestionLanguageCoverage> handle(
+            QuestionQuery.GetTopicLanguageCoverageQuery query) {
         return nonEmptyLanguageCombinations().stream()
-                .map(languages -> new QuestionLanguageCoverage(
-                        languages,
-                        questionRepositoryPort.countApprovedByTopicAndLanguages(query.topicId(), languages)))
+                .map(
+                        languages ->
+                                new QuestionLanguageCoverage(
+                                        languages,
+                                        questionRepositoryPort.countApprovedByTopicAndLanguages(
+                                                query.topicId(), languages)))
                 .toList();
     }
 

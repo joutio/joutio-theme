@@ -11,6 +11,7 @@ import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
 import com.joutio.theme.domain.port.out.TopicFollowerRefRepositoryPort;
 import com.joutio.theme.domain.port.out.TopicPlayedGameRefRepositoryPort;
 import com.joutio.theme.domain.port.out.TopicRepositoryPort;
+
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
@@ -24,10 +25,9 @@ import java.util.function.UnaryOperator;
 /**
  * Projection des thèmes.
  *
- * <p>Les compteurs ({@code followersCounter}, {@code gamesCounter}, {@code questionsCounter})
- * sont <b>recalculés</b> à partir de leur source (ensemble d'abonnés / parties connues /
- * questions par statut) plutôt qu'incrémentés : l'opération est idempotente et rejouable sans
- * dérive.</p>
+ * <p>Les compteurs ({@code followersCounter}, {@code gamesCounter}, {@code questionsCounter}) sont
+ * <b>recalculés</b> à partir de leur source (ensemble d'abonnés / parties connues / questions par
+ * statut) plutôt qu'incrémentés : l'opération est idempotente et rejouable sans dérive.
  */
 @Component
 @ProcessingGroup("theme-projection")
@@ -38,10 +38,11 @@ public class TopicProjection {
     private final TopicPlayedGameRefRepositoryPort playedGameRefRepositoryPort;
     private final QuestionRepositoryPort questionRepositoryPort;
 
-    public TopicProjection(TopicRepositoryPort topicRepositoryPort,
-                           TopicFollowerRefRepositoryPort followerRefRepositoryPort,
-                           TopicPlayedGameRefRepositoryPort playedGameRefRepositoryPort,
-                           QuestionRepositoryPort questionRepositoryPort) {
+    public TopicProjection(
+            TopicRepositoryPort topicRepositoryPort,
+            TopicFollowerRefRepositoryPort followerRefRepositoryPort,
+            TopicPlayedGameRefRepositoryPort playedGameRefRepositoryPort,
+            QuestionRepositoryPort questionRepositoryPort) {
         this.topicRepositoryPort = topicRepositoryPort;
         this.followerRefRepositoryPort = followerRefRepositoryPort;
         this.playedGameRefRepositoryPort = playedGameRefRepositoryPort;
@@ -56,118 +57,148 @@ public class TopicProjection {
         questionsCounters.put(QuestionStatus.APPROVED, 0);
         questionsCounters.put(QuestionStatus.REJECTED, 0);
 
-        Topic topic = new Topic(
-                event.topicId(),
-                new EnumMap<>(event.names()),
-                event.description(),
-                event.category(),
-                TopicStatus.DRAFT,
-                event.creatorId(),
-                event.creatorId(),
-                0,
-                // Une partie peut avoir été consommée avant son thème (flux distincts) : le
-                // compteur rattrape les références déjà connues à la création du thème.
-                playedGameRefRepositoryPort.countByTopicId(event.topicId()),
-                questionsCounters,
-                event.emoji(),
-                event.color(),
-                event.imageUrl(),
-                null,
-                event.titles(),
-                event.createdAt(),
-                event.createdAt()
-        );
+        Topic topic =
+                new Topic(
+                        event.topicId(),
+                        new EnumMap<>(event.names()),
+                        event.description(),
+                        event.category(),
+                        TopicStatus.DRAFT,
+                        event.creatorId(),
+                        event.creatorId(),
+                        0,
+                        // Une partie peut avoir été consommée avant son thème (flux distincts) : le
+                        // compteur rattrape les références déjà connues à la création du thème.
+                        playedGameRefRepositoryPort.countByTopicId(event.topicId()),
+                        questionsCounters,
+                        event.emoji(),
+                        event.color(),
+                        event.imageUrl(),
+                        null,
+                        event.titles(),
+                        event.createdAt(),
+                        event.createdAt());
         topicRepositoryPort.save(topic);
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicTitlesUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
                 builder -> builder.titles(event.titles()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicPublishedEvent event) {
-        topicRepositoryPort.findById(event.topicId())
-                .ifPresent(topic -> topicRepositoryPort.save(
-                        topic.toBuilder()
-                                .questionsCounter(countQuestions(event.topicId()))
-                                .status(TopicStatus.PUBLISHED)
-                                .updatedBy(event.updatedBy())
-                                .updatedAt(event.publishedAt())
-                                .build()
-                ));
+        topicRepositoryPort
+                .findById(event.topicId())
+                .ifPresent(
+                        topic ->
+                                topicRepositoryPort.save(
+                                        topic.toBuilder()
+                                                .questionsCounter(countQuestions(event.topicId()))
+                                                .status(TopicStatus.PUBLISHED)
+                                                .updatedBy(event.updatedBy())
+                                                .updatedAt(event.publishedAt())
+                                                .build()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicDraftedEvent event) {
-        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> topicRepositoryPort.save(
-                topic.toBuilder()
-                        .status(TopicStatus.DRAFT)
-                        .updatedAt(event.draftedAt())
-                        .build()
-        ));
+        topicRepositoryPort
+                .findById(event.topicId())
+                .ifPresent(
+                        topic ->
+                                topicRepositoryPort.save(
+                                        topic.toBuilder()
+                                                .status(TopicStatus.DRAFT)
+                                                .updatedAt(event.draftedAt())
+                                                .build()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicNameUpdatedEvent event) {
-        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> {
-            Map<Language, String> names = new EnumMap<>(Language.class);
-            if (topic.names() != null) {
-                names.putAll(topic.names());
-            }
-            names.put(event.language(), event.name());
-            topicRepositoryPort.save(topic.toBuilder()
-                    .names(names)
-                    .updatedBy(event.updatedBy())
-                    .updatedAt(event.updatedAt())
-                    .build());
-        });
+        topicRepositoryPort
+                .findById(event.topicId())
+                .ifPresent(
+                        topic -> {
+                            Map<Language, String> names = new EnumMap<>(Language.class);
+                            if (topic.names() != null) {
+                                names.putAll(topic.names());
+                            }
+                            names.put(event.language(), event.name());
+                            topicRepositoryPort.save(
+                                    topic.toBuilder()
+                                            .names(names)
+                                            .updatedBy(event.updatedBy())
+                                            .updatedAt(event.updatedAt())
+                                            .build());
+                        });
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicDescriptionUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
                 builder -> builder.description(event.description()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicCategoryUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
                 builder -> builder.category(event.category()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicEmojiUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
                 builder -> builder.emoji(event.emoji()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicColorUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
                 builder -> builder.color(event.color()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicImageUrlUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
                 builder -> builder.imageUrl(event.imageUrl()));
     }
 
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicBannerUrlUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
                 builder -> builder.bannerUrl(event.bannerUrl()));
     }
 
@@ -239,56 +270,75 @@ public class TopicProjection {
     @EventHandler
     @Transactional
     public void on(TopicFollowerEvent.TopicFollowedEvent event) {
-        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> {
-            followerRefRepositoryPort.add(event.topicId(), event.userId());
-            topicRepositoryPort.save(topic.toBuilder()
-                    .followersCounter(followerRefRepositoryPort.countByTopicId(event.topicId()))
-                    .build());
-        });
+        topicRepositoryPort
+                .findById(event.topicId())
+                .ifPresent(
+                        topic -> {
+                            followerRefRepositoryPort.add(event.topicId(), event.userId());
+                            topicRepositoryPort.save(
+                                    topic.toBuilder()
+                                            .followersCounter(
+                                                    followerRefRepositoryPort.countByTopicId(
+                                                            event.topicId()))
+                                            .build());
+                        });
     }
 
     @EventHandler
     @Transactional
     public void on(TopicFollowerEvent.TopicUnfollowedEvent event) {
-        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> {
-            followerRefRepositoryPort.remove(event.topicId(), event.userId());
-            topicRepositoryPort.save(topic.toBuilder()
-                    .followersCounter(followerRefRepositoryPort.countByTopicId(event.topicId()))
-                    .build());
-        });
+        topicRepositoryPort
+                .findById(event.topicId())
+                .ifPresent(
+                        topic -> {
+                            followerRefRepositoryPort.remove(event.topicId(), event.userId());
+                            topicRepositoryPort.save(
+                                    topic.toBuilder()
+                                            .followersCounter(
+                                                    followerRefRepositoryPort.countByTopicId(
+                                                            event.topicId()))
+                                            .build());
+                        });
     }
 
-    private void updateTopic(String topicId,
-                             String updatedBy,
-                             Instant updatedAt,
-                             UnaryOperator<Topic.TopicBuilder> change) {
-        topicRepositoryPort.findById(topicId).ifPresent(topic -> topicRepositoryPort.save(
-                change.apply(topic.toBuilder())
-                        .updatedBy(updatedBy)
-                        .updatedAt(updatedAt)
-                        .build()));
+    private void updateTopic(
+            String topicId,
+            String updatedBy,
+            Instant updatedAt,
+            UnaryOperator<Topic.TopicBuilder> change) {
+        topicRepositoryPort
+                .findById(topicId)
+                .ifPresent(
+                        topic ->
+                                topicRepositoryPort.save(
+                                        change.apply(topic.toBuilder())
+                                                .updatedBy(updatedBy)
+                                                .updatedAt(updatedAt)
+                                                .build()));
     }
 
     private void refreshQuestionsCounter(String topicId, Instant updatedAt) {
         Map<QuestionStatus, Integer> counters = countQuestions(topicId);
-        topicRepositoryPort.findById(topicId)
-                .ifPresent(topic -> topicRepositoryPort.save(
-                        topic.toBuilder()
-                                .questionsCounter(counters)
-                                .updatedAt(updatedAt)
-                                .build()
-                ));
+        topicRepositoryPort
+                .findById(topicId)
+                .ifPresent(
+                        topic ->
+                                topicRepositoryPort.save(
+                                        topic.toBuilder()
+                                                .questionsCounter(counters)
+                                                .updatedAt(updatedAt)
+                                                .build()));
     }
 
     /** Bump `updatedAt` d'un thème à partir d'une édition de question (statuts inchangés). */
     private void touchTopicOfQuestion(String questionId, Instant updatedAt) {
-        questionRepositoryPort.findById(questionId)
+        questionRepositoryPort
+                .findById(questionId)
                 .flatMap(question -> topicRepositoryPort.findById(question.topicId()))
-                .ifPresent(topic -> topicRepositoryPort.save(
-                        topic.toBuilder()
-                                .updatedAt(updatedAt)
-                                .build()
-                ));
+                .ifPresent(
+                        topic ->
+                                topicRepositoryPort.save(
+                                        topic.toBuilder().updatedAt(updatedAt).build()));
     }
 
     private Map<QuestionStatus, Integer> countQuestions(String topicId) {
@@ -297,5 +347,38 @@ public class TopicProjection {
             counters.put(status, questionRepositoryPort.countByTopicIdAndStatus(topicId, status));
         }
         return counters;
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionDeletedEvent event) {
+        refreshQuestionsCounter(event.topicId(), event.deletedAt());
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionSuspendedEvent event) {
+        questionRepositoryPort
+                .findById(event.questionId())
+                .ifPresent(q -> refreshQuestionsCounter(q.topicId(), event.suspendedAt()));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionReinstatedEvent event) {
+        questionRepositoryPort
+                .findById(event.questionId())
+                .ifPresent(q -> refreshQuestionsCounter(q.topicId(), event.reinstatedAt()));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionArchivedEvent event) {
+        questionRepositoryPort
+                .findById(event.questionId())
+                .ifPresent(q -> refreshQuestionsCounter(q.topicId(), event.archivedAt()));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionRestoredEvent event) {
+        questionRepositoryPort
+                .findById(event.questionId())
+                .ifPresent(q -> refreshQuestionsCounter(q.topicId(), event.restoredAt()));
     }
 }

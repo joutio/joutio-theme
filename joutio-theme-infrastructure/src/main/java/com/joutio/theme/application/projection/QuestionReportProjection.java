@@ -12,6 +12,7 @@ import com.joutio.theme.domain.model.QuestionSuspensionReason;
 import com.joutio.theme.domain.port.out.QuestionReportRepositoryPort;
 import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
 import com.joutio.theme.infrastructure.properties.QuestionReportProperties;
+
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
@@ -25,10 +26,10 @@ import java.time.Instant;
 /**
  * Projection des signalements et politique de suspension automatique.
  *
- * <p>Après chaque nouveau signalement, le nombre de <b>signaleurs distincts</b> encore ouverts
- * dans la fenêtre configurée est compté. Le comptage ne remonte jamais avant la dernière
+ * <p>Après chaque nouveau signalement, le nombre de <b>signaleurs distincts</b> encore ouverts dans
+ * la fenêtre configurée est compté. Le comptage ne remonte jamais avant la dernière
  * réactivation/restauration de la question : un ancien signalement ne doit pas re-suspendre une
- * question que l'administration vient de rouvrir.</p>
+ * question que l'administration vient de rouvrir.
  */
 @Component
 @ProcessingGroup("theme-projection")
@@ -41,10 +42,11 @@ public class QuestionReportProjection {
     private final CommandGateway commandGateway;
     private final QuestionReportProperties properties;
 
-    public QuestionReportProjection(QuestionReportRepositoryPort reportRepository,
-                                    QuestionRepositoryPort questionRepository,
-                                    CommandGateway commandGateway,
-                                    QuestionReportProperties properties) {
+    public QuestionReportProjection(
+            QuestionReportRepositoryPort reportRepository,
+            QuestionRepositoryPort questionRepository,
+            CommandGateway commandGateway,
+            QuestionReportProperties properties) {
         this.reportRepository = reportRepository;
         this.questionRepository = questionRepository;
         this.commandGateway = commandGateway;
@@ -54,33 +56,38 @@ public class QuestionReportProjection {
     @EventHandler
     @Transactional
     public void on(QuestionReportEvent.QuestionReportedEvent event) {
-        reportRepository.save(QuestionReport.builder()
-                .reportId(event.reportId())
-                .threadId(event.threadId())
-                .questionId(event.questionId())
-                .topicId(event.topicId())
-                .reporterId(event.reporterId())
-                .gameId(event.gameId())
-                .reasons(event.reasons())
-                .comment(event.comment())
-                .language(event.language())
-                .snapshot(event.snapshot())
-                .status(QuestionReportStatus.OPEN)
-                .createdAt(event.reportedAt())
-                .build());
+        reportRepository.save(
+                QuestionReport.builder()
+                        .reportId(event.reportId())
+                        .threadId(event.threadId())
+                        .questionId(event.questionId())
+                        .topicId(event.topicId())
+                        .reporterId(event.reporterId())
+                        .gameId(event.gameId())
+                        .reasons(event.reasons())
+                        .comment(event.comment())
+                        .language(event.language())
+                        .snapshot(event.snapshot())
+                        .status(QuestionReportStatus.OPEN)
+                        .createdAt(event.reportedAt())
+                        .build());
         maybeSuspend(event);
     }
 
     @EventHandler
     @Transactional
     public void on(QuestionReportEvent.QuestionReportReviewedEvent event) {
-        reportRepository.findById(event.reportId()).ifPresent(report -> reportRepository.save(
-                report.toBuilder()
-                        .status(event.status())
-                        .reviewedBy(event.reviewerId())
-                        .reviewedAt(event.reviewedAt())
-                        .resolutionNote(event.note())
-                        .build()));
+        reportRepository
+                .findById(event.reportId())
+                .ifPresent(
+                        report ->
+                                reportRepository.save(
+                                        report.toBuilder()
+                                                .status(event.status())
+                                                .reviewedBy(event.reviewerId())
+                                                .reviewedAt(event.reviewedAt())
+                                                .resolutionNote(event.note())
+                                                .build()));
     }
 
     private void maybeSuspend(QuestionReportEvent.QuestionReportedEvent event) {
@@ -89,33 +96,33 @@ public class QuestionReportProjection {
             return;
         }
         Question question = questionRepository.findById(event.questionId()).orElse(null);
-        if (question == null
-                || question.status() != QuestionStatus.APPROVED
-                || question.suspended()
-                || question.archived()) {
+        if (question == null || question.status() != QuestionStatus.APPROVED) {
             return;
         }
-        Instant since = QuestionReportRules.windowStart(
-                event.reportedAt(),
-                autoSuspension.window(),
-                question.reinstatedAt(),
-                question.restoredAt());
-        int distinctReporters = reportRepository.countDistinctOpenReportersSince(event.questionId(), since);
+        Instant since =
+                QuestionReportRules.windowStart(
+                        event.reportedAt(),
+                        autoSuspension.window(),
+                        question.reinstatedAt(),
+                        question.restoredAt());
+        int distinctReporters =
+                reportRepository.countDistinctOpenReportersSince(event.questionId(), since);
         if (!QuestionReportRules.shouldSuspend(distinctReporters, autoSuspension.threshold())) {
             return;
         }
         long windowDays = Math.max(1, autoSuspension.window().toDays());
         String note = distinctReporters + " signalements distincts en " + windowDays + " jour(s)";
-        commandGateway.send(new QuestionCommand.SuspendQuestionCommand(
-                event.questionId(),
-                QuestionSuspensionReason.AUTO_REPORT_THRESHOLD,
-                note,
-                JoutioConstants.SYSTEM_USER_ID,
-                event.reportId(),
-                event.reportedAt(),
-                distinctReporters,
-                (int) windowDays,
-                Instant.now()));
+        commandGateway.send(
+                new QuestionCommand.SuspendQuestionCommand(
+                        event.questionId(),
+                        QuestionSuspensionReason.AUTO_REPORT_THRESHOLD,
+                        note,
+                        JoutioConstants.SYSTEM_USER_ID,
+                        event.reportId(),
+                        event.reportedAt(),
+                        distinctReporters,
+                        (int) windowDays,
+                        Instant.now()));
         logger.info("Question {} suspendue automatiquement : {}", event.questionId(), note);
     }
 }

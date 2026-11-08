@@ -50,7 +50,7 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
   langue, source `PLAYED|CURRENT`) figé au dépôt. Le BFF l'extrait de l'historique de partie
   (`RoundStarted`/`RoundClosed`) et retombe sur la question courante si nécessaire.
 - **Modération** : flags `suspended` (raison `AUTO_REPORT_THRESHOLD|MANUAL`, note, dates, acteur)
-  et `archived` (soft delete) sur la question ; `QuestionStatus` reste `PENDING|APPROVED|REJECTED`.
+  et `archived` (soft delete) sur la question ; `QuestionStatus` porte maintenant `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED` (voir atelier collaboratif).
   Le tirage, le comptage de couverture langues et la garde de publication excluent les questions
   suspendues/archivées. Commandes : `Suspend|Reinstate|Archive|RestoreQuestionCommand`.
 - **Suspension automatique** : `QuestionReportProjection` compte les **signaleurs distincts**
@@ -241,3 +241,25 @@ lorsque la difficulté calculée change, la projection envoie une
   initiale) sans reset ; en revanche **modifier** les réponses, les textes, la couverture ou la
   base d'images exige un **reset data** (`devops/joutio-gitops/scripts/reset.sh`, § 7 du AGENTS
   gitops) coordonné avec la release.
+
+## Atelier collaboratif — 2026-11-08
+
+- Équipe réelle, ajout immédiat : `CREATOR`, `ADMIN`, `WRITER`. Le créateur est protégé.
+  Créateur et administrateurs Premium gèrent le sujet, ses questions et les signalements.
+  Un administrateur sans Premium exerce seulement les droits de rédacteur ; le créateur gratuit
+  garde son contenu et le retrait des membres, mais ne peut plus ajouter de collaborateurs.
+  Les rédacteurs gratuits proposent, corrigent et suppriment leurs propres questions `PENDING`/`REJECTED`.
+- `QuestionStatus` est l'unique état : `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED`.
+  Les anciennes propriétés JSON `suspended`/`archived` restent dérivées du statut pour les clients existants.
+  Les motifs, notes et dates servent à l'audit, sans deuxième état indépendant.
+- `SUSPENDED` après le seuil configurable (défaut : 3 signaleurs distincts / 7 jours).
+  Une correction ne réactive pas la question : une approbation explicite est nécessaire.
+- Archiver est réversible ; restaurer revient à `PENDING`. Supprimer émet `QuestionDeletedEvent`,
+  appelle `AggregateLifecycle.markDeleted()` dans l'event sourcing handler et supprime la projection.
+  Les snapshots des parties conservent leur contenu ; aucun effacement des événements métier par cette action.
+- Sous 7 questions `APPROVED`, le sujet repasse en `DRAFT`. Un brouillon bloque les nouveaux
+  départs (bot, défi, salon et matchmaking), y compris les invitations existantes. Les parties déjà créées continuent.
+- Les décisions éditoriales de brouillon, suspension, archivage ou suppression verrouillent la
+  complétion automatique du seed du sujet : un redémarrage ne les annule pas.
+- Migrations : V2 équipe + motif de rejet ; V3 conversion des flags en statuts et compteurs ;
+  V4 verrou éditorial du seed. Les colonnes historiques de flags ne sont plus utilisées par le nouveau modèle.

@@ -11,6 +11,7 @@ import com.joutio.theme.domain.model.QuestionReportRules;
 import com.joutio.theme.domain.model.QuestionRules;
 import com.joutio.theme.domain.model.QuestionStatus;
 import com.joutio.theme.domain.model.QuestionSuspensionReason;
+
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
@@ -24,14 +25,12 @@ import java.util.Objects;
 
 /**
  * Agrégat multilingue d'une question : un contenu par langue disponible (FR, EN, ou les deux).
- * Aucune langue source explicite : la disponibilité est portée par les clés de
- * {@link #contents}.
+ * Aucune langue source explicite : la disponibilité est portée par les clés de {@link #contents}.
  */
 @Aggregate
 public class QuestionAggregate {
 
-    @AggregateIdentifier
-    private String questionId;
+    @AggregateIdentifier private String questionId;
     private String topicId;
 
     /** Contenus localisés disponibles (langue → contenu). */
@@ -45,21 +44,18 @@ public class QuestionAggregate {
     private Instant createdAt;
     private String updatedBy;
     private Instant updatedAt;
-    private boolean suspended;
     private QuestionSuspensionReason suspensionReason;
     private String suspensionNote;
     private Instant suspendedAt;
     private String suspendedBy;
     private Instant reinstatedAt;
-    private boolean archived;
     private String archiveNote;
     private Instant archivedAt;
     private String archivedBy;
     private Instant restoredAt;
 
     // Constructeur par défaut requis par Axon
-    protected QuestionAggregate() {
-    }
+    protected QuestionAggregate() {}
 
     @CommandHandler
     public QuestionAggregate(QuestionCommand.CreateQuestionCommand command) {
@@ -73,8 +69,7 @@ public class QuestionAggregate {
                         command.correctAnswer(),
                         command.imageUrl(),
                         command.creatorId(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     /**
@@ -97,11 +92,7 @@ public class QuestionAggregate {
 
         AggregateLifecycle.apply(
                 new QuestionEvent.QuestionTranslationsAddedEvent(
-                        command.questionId(),
-                        changed,
-                        command.updatedBy(),
-                        Instant.now()
-                ));
+                        command.questionId(), changed, command.updatedBy(), Instant.now()));
     }
 
     @CommandHandler
@@ -114,7 +105,9 @@ public class QuestionAggregate {
                     command.questionId(), command.language());
         }
 
-        validateContent(command.questionId(), command.language(),
+        validateContent(
+                command.questionId(),
+                command.language(),
                 new QuestionContent(command.language(), command.text(), command.answers()),
                 this.correctAnswer);
 
@@ -125,8 +118,7 @@ public class QuestionAggregate {
                         command.text(),
                         command.answers(),
                         command.requestedBy(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -144,8 +136,7 @@ public class QuestionAggregate {
                         command.language(),
                         command.text(),
                         command.requestedBy(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -163,8 +154,7 @@ public class QuestionAggregate {
                         command.language(),
                         command.answers(),
                         command.requestedBy(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -172,7 +162,8 @@ public class QuestionAggregate {
         validateAnswers(command.questionId(), null, command.correctAnswer());
         for (QuestionContent content : this.contents.values()) {
             if (!content.answers().containsKey(command.correctAnswer())) {
-                throw new QuestionProblems.QuestionCorrectAnswerMissingProblem(command.questionId());
+                throw new QuestionProblems.QuestionCorrectAnswerMissingProblem(
+                        command.questionId());
             }
         }
 
@@ -185,13 +176,13 @@ public class QuestionAggregate {
                         command.questionId(),
                         command.correctAnswer(),
                         command.requestedBy(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     @CommandHandler
     public void handle(QuestionCommand.UpdateQuestionImageUrlCommand command) {
-        if (command.imageUrl() != null && command.imageUrl().length() > QuestionRules.MAX_IMAGE_URL_LENGTH) {
+        if (command.imageUrl() != null
+                && command.imageUrl().length() > QuestionRules.MAX_IMAGE_URL_LENGTH) {
             throw new QuestionProblems.QuestionImageUrlTooLongProblem(
                     command.questionId(), QuestionRules.MAX_IMAGE_URL_LENGTH);
         }
@@ -205,12 +196,13 @@ public class QuestionAggregate {
                         command.questionId(),
                         command.imageUrl(),
                         command.requestedBy(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     @CommandHandler
     public void handle(QuestionCommand.ApproveQuestionCommand command) {
+        if (status == QuestionStatus.ARCHIVED)
+            throw new QuestionProblems.QuestionNotFoundProblem(questionId);
         if (this.status == QuestionStatus.APPROVED) {
             throw new QuestionProblems.QuestionAlreadyApprovedProblem(command.questionId());
         }
@@ -221,8 +213,7 @@ public class QuestionAggregate {
                         this.topicId,
                         this.status,
                         command.requesterId(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     @CommandHandler
@@ -238,8 +229,7 @@ public class QuestionAggregate {
                         this.status,
                         command.reason(),
                         command.requesterId(),
-                        Instant.now()
-                ));
+                        Instant.now()));
     }
 
     /**
@@ -254,15 +244,12 @@ public class QuestionAggregate {
 
         AggregateLifecycle.apply(
                 new QuestionEvent.QuestionDifficultyUpdatedEvent(
-                        command.questionId(),
-                        command.difficulty(),
-                        Instant.now()
-                ));
+                        command.questionId(), command.difficulty(), Instant.now()));
     }
 
     @CommandHandler
     public void handle(QuestionCommand.SuspendQuestionCommand command) {
-        if (this.status != QuestionStatus.APPROVED || this.suspended || this.archived) {
+        if (this.status != QuestionStatus.APPROVED) {
             return;
         }
         Instant resetAt = lastModerationResetAt();
@@ -284,13 +271,12 @@ public class QuestionAggregate {
                         command.triggerReportedAt(),
                         command.distinctReporters(),
                         command.windowDays(),
-                        command.suspendedAt()
-                ));
+                        command.suspendedAt()));
     }
 
     @CommandHandler
     public void handle(QuestionCommand.ReinstateQuestionCommand command) {
-        if (!this.suspended) {
+        if (this.status != QuestionStatus.SUSPENDED) {
             return;
         }
         validateNote(command.questionId(), command.note());
@@ -300,13 +286,12 @@ public class QuestionAggregate {
                         command.questionId(),
                         command.requestedBy(),
                         command.note(),
-                        command.reinstatedAt()
-                ));
+                        command.reinstatedAt()));
     }
 
     @CommandHandler
     public void handle(QuestionCommand.ArchiveQuestionCommand command) {
-        if (this.archived) {
+        if (this.status == QuestionStatus.ARCHIVED) {
             return;
         }
         validateNote(command.questionId(), command.note());
@@ -316,13 +301,12 @@ public class QuestionAggregate {
                         command.questionId(),
                         command.requestedBy(),
                         command.note(),
-                        command.archivedAt()
-                ));
+                        command.archivedAt()));
     }
 
     @CommandHandler
     public void handle(QuestionCommand.RestoreQuestionCommand command) {
-        if (!this.archived) {
+        if (this.status != QuestionStatus.ARCHIVED) {
             return;
         }
         validateNote(command.questionId(), command.note());
@@ -332,8 +316,7 @@ public class QuestionAggregate {
                         command.questionId(),
                         command.requestedBy(),
                         command.note(),
-                        command.restoredAt()
-                ));
+                        command.restoredAt()));
     }
 
     @EventSourcingHandler
@@ -349,8 +332,6 @@ public class QuestionAggregate {
         this.createdAt = event.createdAt();
         this.updatedBy = event.creatorId();
         this.updatedAt = event.createdAt();
-        this.suspended = false;
-        this.archived = false;
     }
 
     @EventSourcingHandler
@@ -365,7 +346,8 @@ public class QuestionAggregate {
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionTranslationAddedEvent event) {
-        this.contents.put(event.language(),
+        this.contents.put(
+                event.language(),
                 new QuestionContent(event.language(), event.text(), event.answers()));
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
@@ -374,7 +356,8 @@ public class QuestionAggregate {
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionTextUpdatedEvent event) {
         QuestionContent previous = this.contents.get(event.language());
-        this.contents.put(event.language(),
+        this.contents.put(
+                event.language(),
                 new QuestionContent(event.language(), event.text(), previous.answers()));
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
@@ -383,7 +366,8 @@ public class QuestionAggregate {
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionAnswersUpdatedEvent event) {
         QuestionContent previous = this.contents.get(event.language());
-        this.contents.put(event.language(),
+        this.contents.put(
+                event.language(),
                 new QuestionContent(event.language(), previous.text(), event.answers()));
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
@@ -405,6 +389,7 @@ public class QuestionAggregate {
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionApprovedEvent event) {
+        if (this.status == QuestionStatus.SUSPENDED) this.reinstatedAt = event.approvedAt();
         this.status = QuestionStatus.APPROVED;
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.approvedAt();
@@ -425,7 +410,7 @@ public class QuestionAggregate {
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionSuspendedEvent event) {
-        this.suspended = true;
+        this.status = QuestionStatus.SUSPENDED;
         this.suspensionReason = event.reason();
         this.suspensionNote = event.note();
         this.suspendedAt = event.suspendedAt();
@@ -434,13 +419,13 @@ public class QuestionAggregate {
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionReinstatedEvent event) {
-        this.suspended = false;
+        this.status = QuestionStatus.APPROVED;
         this.reinstatedAt = event.reinstatedAt();
     }
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionArchivedEvent event) {
-        this.archived = true;
+        this.status = QuestionStatus.ARCHIVED;
         this.archiveNote = event.note();
         this.archivedAt = event.archivedAt();
         this.archivedBy = event.requestedBy();
@@ -448,7 +433,7 @@ public class QuestionAggregate {
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionRestoredEvent event) {
-        this.archived = false;
+        this.status = QuestionStatus.PENDING;
         this.restoredAt = event.restoredAt();
     }
 
@@ -485,13 +470,13 @@ public class QuestionAggregate {
             throw new QuestionProblems.QuestionTextEmptyProblem(questionId);
         }
         if (text.length() > QuestionRules.MAX_TEXT_LENGTH) {
-            throw new QuestionProblems.QuestionTextTooLongProblem(questionId, QuestionRules.MAX_TEXT_LENGTH);
+            throw new QuestionProblems.QuestionTextTooLongProblem(
+                    questionId, QuestionRules.MAX_TEXT_LENGTH);
         }
     }
 
-    private static void validateAnswers(String questionId,
-                                        Map<QuestionChoice, String> answers,
-                                        QuestionChoice correctAnswer) {
+    private static void validateAnswers(
+            String questionId, Map<QuestionChoice, String> answers, QuestionChoice correctAnswer) {
         if (answers != null && answers.size() != 4) {
             throw new QuestionProblems.QuestionAnswersInvalidProblem(questionId);
         }
@@ -500,9 +485,10 @@ public class QuestionAggregate {
         }
     }
 
-    private static void validateContents(String questionId,
-                                         Map<Language, QuestionContent> contents,
-                                         QuestionChoice correctAnswer) {
+    private static void validateContents(
+            String questionId,
+            Map<Language, QuestionContent> contents,
+            QuestionChoice correctAnswer) {
         if (contents == null || contents.isEmpty()) {
             throw new QuestionProblems.QuestionContentsEmptyProblem(questionId);
         }
@@ -511,10 +497,11 @@ public class QuestionAggregate {
         }
     }
 
-    private static void validateContent(String questionId,
-                                        Language language,
-                                        QuestionContent content,
-                                        QuestionChoice correctAnswer) {
+    private static void validateContent(
+            String questionId,
+            Language language,
+            QuestionContent content,
+            QuestionChoice correctAnswer) {
         if (language == null || content == null || content.language() != language) {
             throw new QuestionProblems.QuestionContentLanguageMismatchProblem(
                     questionId, language, content == null ? null : content.language());
@@ -526,5 +513,34 @@ public class QuestionAggregate {
         if (correctAnswer == null || !content.answers().containsKey(correctAnswer)) {
             throw new QuestionProblems.QuestionCorrectAnswerMissingProblem(questionId);
         }
+    }
+
+    @CommandHandler
+    public void handle(QuestionCommand.ResubmitQuestionCommand command) {
+        if (status != QuestionStatus.REJECTED) return;
+        AggregateLifecycle.apply(
+                new QuestionEvent.QuestionResubmittedEvent(
+                        questionId, topicId, command.requestedBy(), Instant.now()));
+    }
+
+    @EventSourcingHandler
+    public void on(QuestionEvent.QuestionResubmittedEvent event) {
+        status = QuestionStatus.PENDING;
+    }
+
+    @CommandHandler
+    public void handle(QuestionCommand.DeleteQuestionCommand command) {
+        AggregateLifecycle.apply(
+                new QuestionEvent.QuestionDeletedEvent(
+                        questionId, topicId, command.requestedBy(), Instant.now()));
+    }
+
+    @EventSourcingHandler
+    public void on(QuestionEvent.QuestionDeletedEvent event) {
+        AggregateLifecycle.markDeleted();
+    }
+
+    QuestionStatus status() {
+        return status;
     }
 }

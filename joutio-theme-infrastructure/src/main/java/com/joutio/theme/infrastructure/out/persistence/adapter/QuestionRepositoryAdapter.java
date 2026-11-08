@@ -22,16 +22,16 @@ import com.joutio.theme.infrastructure.out.persistence.mapper.QuestionEntityMapp
 import com.joutio.theme.infrastructure.out.persistence.repository.QuestionContentJpaRepository;
 import com.joutio.theme.infrastructure.out.persistence.repository.QuestionJpaRepository;
 
+import jakarta.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Root;
+import jakarta.persistence.criteria.Subquery;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-
-import jakarta.persistence.criteria.Predicate;
-import jakarta.persistence.criteria.Root;
-import jakarta.persistence.criteria.Subquery;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -51,11 +51,15 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
 
     private final JpaSearchAdapter<QuestionEntity> questionJpaSearchAdapter;
 
-    public QuestionRepositoryAdapter(QuestionJpaRepository questionJpaRepository,
-                                     QuestionContentJpaRepository questionContentJpaRepository) {
+    public QuestionRepositoryAdapter(
+            QuestionJpaRepository questionJpaRepository,
+            QuestionContentJpaRepository questionContentJpaRepository) {
         this.questionJpaRepository = questionJpaRepository;
         this.questionContentJpaRepository = questionContentJpaRepository;
-        this.questionJpaSearchAdapter = new JpaSearchAdapter<>(questionJpaRepository, new AnnotationSearchableEntity(QuestionEntity.class));
+        this.questionJpaSearchAdapter =
+                new JpaSearchAdapter<>(
+                        questionJpaRepository,
+                        new AnnotationSearchableEntity(QuestionEntity.class));
     }
 
     @Override
@@ -69,9 +73,10 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
     }
 
     private void upsertContent(String questionId, QuestionContent content) {
-        QuestionContentEntity entity = questionContentJpaRepository
-                .findByQuestionIdAndLanguage(questionId, content.language().code())
-                .orElseGet(QuestionContentEntity::new);
+        QuestionContentEntity entity =
+                questionContentJpaRepository
+                        .findByQuestionIdAndLanguage(questionId, content.language().code())
+                        .orElseGet(QuestionContentEntity::new);
 
         entity.setQuestionId(questionId);
         entity.setLanguage(content.language().code());
@@ -84,9 +89,14 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
     @Override
     @Transactional(readOnly = true)
     public Optional<Question> findById(String questionId) {
-        return questionJpaRepository.findById(questionId)
-                .map(entity -> QuestionEntityMapper.toDomain(entity,
-                        questionContentJpaRepository.findByQuestionIdIn(List.of(questionId))));
+        return questionJpaRepository
+                .findById(questionId)
+                .map(
+                        entity ->
+                                QuestionEntityMapper.toDomain(
+                                        entity,
+                                        questionContentJpaRepository.findByQuestionIdIn(
+                                                List.of(questionId))));
     }
 
     @Override
@@ -101,26 +111,24 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
         if (questionIds == null || questionIds.isEmpty()) {
             return List.of();
         }
-        Map<String, Question> byId = withContents(questionJpaRepository.findAllById(questionIds)).stream()
-                .collect(Collectors.toMap(Question::questionId, question -> question, (first, _) -> first));
-        return questionIds.stream()
-                .map(byId::get)
-                .filter(java.util.Objects::nonNull)
-                .toList();
+        Map<String, Question> byId =
+                withContents(questionJpaRepository.findAllById(questionIds)).stream()
+                        .collect(
+                                Collectors.toMap(
+                                        Question::questionId,
+                                        question -> question,
+                                        (first, _) -> first));
+        return questionIds.stream().map(byId::get).filter(java.util.Objects::nonNull).toList();
     }
 
     @Override
     @Transactional(readOnly = true)
-    public QuestionAdminPage findAdminPage(QuestionAdminFilter filter,
-                                           QuestionAdminSort sort,
-                                           int page,
-                                           int size) {
-        Page<QuestionEntity> result = questionJpaRepository.findAll(
-                adminFilter(filter),
-                PageRequest.of(page, size, adminSort(sort)));
-        return new QuestionAdminPage(
-                withContents(result.getContent()),
-                result.getTotalElements());
+    public QuestionAdminPage findAdminPage(
+            QuestionAdminFilter filter, QuestionAdminSort sort, int page, int size) {
+        Page<QuestionEntity> result =
+                questionJpaRepository.findAll(
+                        adminFilter(filter), PageRequest.of(page, size, adminSort(sort)));
+        return new QuestionAdminPage(withContents(result.getContent()), result.getTotalElements());
     }
 
     @Override
@@ -136,20 +144,25 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
     }
 
     private static Specification<QuestionEntity> adminFilter(QuestionAdminFilter filter) {
-        QuestionAdminFilter effective = filter == null
-                ? new QuestionAdminFilter(null, null, null, null, QuestionModerationFilter.ALL, null)
-                : filter;
+        QuestionAdminFilter effective =
+                filter == null
+                        ? new QuestionAdminFilter(
+                                null, null, null, null, QuestionModerationFilter.ALL, null)
+                        : filter;
         return (root, query, cb) -> {
             List<Predicate> predicates = new ArrayList<>();
             if (effective.text() != null && !effective.text().isBlank()) {
                 String pattern = "%" + effective.text().toLowerCase(Locale.ROOT) + "%";
                 Subquery<String> textSubquery = query.subquery(String.class);
-                Root<QuestionContentEntity> content = textSubquery.from(QuestionContentEntity.class);
-                textSubquery.select(content.get("questionId"))
+                Root<QuestionContentEntity> content =
+                        textSubquery.from(QuestionContentEntity.class);
+                textSubquery
+                        .select(content.get("questionId"))
                         .where(cb.like(cb.lower(content.get("text")), pattern));
-                predicates.add(cb.or(
-                        cb.like(cb.lower(root.get("questionId")), pattern),
-                        root.get("questionId").in(textSubquery)));
+                predicates.add(
+                        cb.or(
+                                cb.like(cb.lower(root.get("questionId")), pattern),
+                                root.get("questionId").in(textSubquery)));
             }
             if (effective.topicId() != null && !effective.topicId().isBlank()) {
                 predicates.add(cb.equal(root.get("topicId"), effective.topicId()));
@@ -160,25 +173,29 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
             if (effective.difficulty() != null) {
                 predicates.add(cb.equal(root.get("difficulty"), effective.difficulty()));
             }
-            QuestionModerationFilter moderation = effective.moderation() == null
-                    ? QuestionModerationFilter.ALL
-                    : effective.moderation();
+            QuestionModerationFilter moderation =
+                    effective.moderation() == null
+                            ? QuestionModerationFilter.ALL
+                            : effective.moderation();
             switch (moderation) {
                 case ACTIVE -> {
-                    predicates.add(cb.isFalse(root.<Boolean>get("suspended")));
-                    predicates.add(cb.isFalse(root.<Boolean>get("archived")));
+                    predicates.add(cb.notEqual(root.get("status"), QuestionStatus.SUSPENDED));
+                    predicates.add(cb.notEqual(root.get("status"), QuestionStatus.ARCHIVED));
                 }
                 case SUSPENDED -> {
-                    predicates.add(cb.isTrue(root.<Boolean>get("suspended")));
-                    predicates.add(cb.isFalse(root.<Boolean>get("archived")));
+                    predicates.add(cb.equal(root.get("status"), QuestionStatus.SUSPENDED));
+                    predicates.add(cb.notEqual(root.get("status"), QuestionStatus.ARCHIVED));
                 }
-                case ARCHIVED -> predicates.add(cb.isTrue(root.<Boolean>get("archived")));
-                case ALL -> predicates.add(cb.isFalse(root.<Boolean>get("archived")));
+                case ARCHIVED ->
+                        predicates.add(cb.equal(root.get("status"), QuestionStatus.ARCHIVED));
+                case ALL ->
+                        predicates.add(cb.notEqual(root.get("status"), QuestionStatus.ARCHIVED));
             }
             if (Boolean.TRUE.equals(effective.reportedOnly())) {
                 Subquery<String> reportSubquery = query.subquery(String.class);
                 Root<QuestionReportEntity> report = reportSubquery.from(QuestionReportEntity.class);
-                reportSubquery.select(report.get("questionId"))
+                reportSubquery
+                        .select(report.get("questionId"))
                         .where(cb.equal(report.get("status"), QuestionReportStatus.OPEN));
                 predicates.add(root.get("questionId").in(reportSubquery));
             }
@@ -212,14 +229,18 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
             return 0;
         }
         List<String> languageCodes = languages.stream().map(Language::code).toList();
-        return questionJpaRepository.countApprovedByTopicAndLanguages(topicId, languageCodes, languages.size());
+        return questionJpaRepository.countApprovedByTopicAndLanguages(
+                topicId, languageCodes, languages.size());
     }
 
     @Override
     @Transactional(readOnly = true)
-    public List<Question> findRandomApprovedByTopicId(String topicId, int count, Set<Language> languages,
-                                                      Set<QuestionDifficulty> difficulties,
-                                                      Set<String> excludeQuestionIds) {
+    public List<Question> findRandomApprovedByTopicId(
+            String topicId,
+            int count,
+            Set<Language> languages,
+            Set<QuestionDifficulty> difficulties,
+            Set<String> excludeQuestionIds) {
         if (languages == null || languages.isEmpty()) {
             return List.of();
         }
@@ -227,15 +248,19 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
         // Sur-échantillonnage borné : le dédoublonnage par contenu (texte + image) doit pouvoir
         // rendre malgré tout `count` questions distinctes.
         int oversample = count + Math.max(4, count);
-        List<QuestionEntity> entities = questionJpaRepository.findRandomApprovedByTopicId(
-                topicId,
-                oversample,
-                languageCodes,
-                languages.size(),
-                csv(excludeQuestionIds),
-                csv(difficulties == null
-                        ? Set.of()
-                        : difficulties.stream().map(Enum::name).collect(Collectors.toSet())));
+        List<QuestionEntity> entities =
+                questionJpaRepository.findRandomApprovedByTopicId(
+                        topicId,
+                        oversample,
+                        languageCodes,
+                        languages.size(),
+                        csv(excludeQuestionIds),
+                        csv(
+                                difficulties == null
+                                        ? Set.of()
+                                        : difficulties.stream()
+                                                .map(Enum::name)
+                                                .collect(Collectors.toSet())));
 
         return distinctByContent(withContents(entities), count);
     }
@@ -256,13 +281,14 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
 
     /** Clé de contenu d'une question : textes localisés (langue indifférente) + illustration. */
     private static String contentKey(Question question) {
-        String text = question.contents() == null
-                ? ""
-                : question.contents().values().stream()
-                        .map(content -> content.text() == null ? "" : content.text())
-                        .sorted()
-                        .findFirst()
-                        .orElse("");
+        String text =
+                question.contents() == null
+                        ? ""
+                        : question.contents().values().stream()
+                                .map(content -> content.text() == null ? "" : content.text())
+                                .sorted()
+                                .findFirst()
+                                .orElse("");
         return text + "\u0000" + (question.imageUrl() == null ? "" : question.imageUrl());
     }
 
@@ -275,20 +301,26 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
     @Transactional(readOnly = true)
     public SearchResponse<Question> findAll(SearchRequest request) {
         SearchResponse<QuestionEntity> result = questionJpaSearchAdapter.findAll(request);
-        Map<String, List<QuestionContentEntity>> byQuestion = loadContents(
-                result.content().stream().map(QuestionEntity::getQuestionId).toList());
+        Map<String, List<QuestionContentEntity>> byQuestion =
+                loadContents(result.content().stream().map(QuestionEntity::getQuestionId).toList());
 
-        return result.map(entity -> QuestionEntityMapper.toDomain(entity,
-                byQuestion.getOrDefault(entity.getQuestionId(), List.of())));
+        return result.map(
+                entity ->
+                        QuestionEntityMapper.toDomain(
+                                entity,
+                                byQuestion.getOrDefault(entity.getQuestionId(), List.of())));
     }
 
     private List<Question> withContents(List<QuestionEntity> entities) {
-        Map<String, List<QuestionContentEntity>> byQuestion = loadContents(
-                entities.stream().map(QuestionEntity::getQuestionId).toList());
+        Map<String, List<QuestionContentEntity>> byQuestion =
+                loadContents(entities.stream().map(QuestionEntity::getQuestionId).toList());
 
         return entities.stream()
-                .map(entity -> QuestionEntityMapper.toDomain(entity,
-                        byQuestion.getOrDefault(entity.getQuestionId(), List.of())))
+                .map(
+                        entity ->
+                                QuestionEntityMapper.toDomain(
+                                        entity,
+                                        byQuestion.getOrDefault(entity.getQuestionId(), List.of())))
                 .toList();
     }
 
@@ -298,5 +330,14 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
         }
         return questionContentJpaRepository.findByQuestionIdIn(questionIds).stream()
                 .collect(Collectors.groupingBy(QuestionContentEntity::getQuestionId));
+    }
+
+    @Override
+    @Transactional
+    public void deleteById(String questionId) {
+        var contents =
+                questionContentJpaRepository.findByQuestionIdIn(java.util.List.of(questionId));
+        questionContentJpaRepository.deleteAll(contents);
+        questionJpaRepository.deleteById(questionId);
     }
 }

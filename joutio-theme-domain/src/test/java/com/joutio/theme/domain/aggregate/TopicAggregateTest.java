@@ -1,5 +1,8 @@
 package com.joutio.theme.domain.aggregate;
 
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 import com.joutio.axon.test.JoutioAxonMatchers;
 import com.joutio.microservice.core.domain.model.i18n.Language;
 import com.joutio.theme.domain.command.TopicCommand;
@@ -8,6 +11,7 @@ import com.joutio.theme.domain.exception.QuestionProblems;
 import com.joutio.theme.domain.exception.TopicProblems;
 import com.joutio.theme.domain.model.TopicCategory;
 import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
+
 import org.axonframework.test.aggregate.AggregateTestFixture;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -15,12 +19,9 @@ import org.junit.jupiter.api.Test;
 import java.time.Instant;
 import java.util.Map;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-
 /**
- * Test Axon in-memory de l'agrégat {@link TopicAggregate} : création, publication et mises à
- * jour champ par champ (propriétaire uniquement).
+ * Test Axon in-memory de l'agrégat {@link TopicAggregate} : création, publication et mises à jour
+ * champ par champ (propriétaire uniquement).
  */
 class TopicAggregateTest {
 
@@ -41,11 +42,19 @@ class TopicAggregateTest {
     void createTopic_appliesTopicCreatedEvent() {
         fixture.givenNoPriorActivity()
                 .when(createCommand("Cinéma", "Tout le cinéma"))
-                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
-                        TopicEvent.TopicCreatedEvent.class,
-                        e -> TOPIC_ID.equals(((TopicEvent.TopicCreatedEvent) e).topicId())
-                                && OWNER.equals(((TopicEvent.TopicCreatedEvent) e).creatorId())
-                                && TopicCategory.MOVIES == ((TopicEvent.TopicCreatedEvent) e).category()));
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicCreatedEvent.class,
+                                e ->
+                                        TOPIC_ID.equals(
+                                                        ((TopicEvent.TopicCreatedEvent) e)
+                                                                .topicId())
+                                                && OWNER.equals(
+                                                        ((TopicEvent.TopicCreatedEvent) e)
+                                                                .creatorId())
+                                                && TopicCategory.MOVIES
+                                                        == ((TopicEvent.TopicCreatedEvent) e)
+                                                                .category()));
     }
 
     @Test
@@ -75,20 +84,29 @@ class TopicAggregateTest {
 
         fixture.given(createdTopic())
                 .when(new TopicCommand.PublishTopicCommand(TOPIC_ID, OWNER))
-                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
-                        TopicEvent.TopicPublishedEvent.class,
-                        e -> TOPIC_ID.equals(((TopicEvent.TopicPublishedEvent) e).topicId())));
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicPublishedEvent.class,
+                                e ->
+                                        TOPIC_ID.equals(
+                                                ((TopicEvent.TopicPublishedEvent) e).topicId())));
     }
 
     @Test
     void draftTopic_whenPublished_appliesTopicDraftedEvent() {
         fixture.given(createdTopic(), new TopicEvent.TopicPublishedEvent(TOPIC_ID, OWNER, NOW))
                 .when(new TopicCommand.DraftTopicCommand(TOPIC_ID, "ACCOUNT_DELETED"))
-                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
-                        TopicEvent.TopicDraftedEvent.class,
-                        e -> TOPIC_ID.equals(((TopicEvent.TopicDraftedEvent) e).topicId())
-                                && "ACCOUNT_DELETED".equals(
-                                        ((TopicEvent.TopicDraftedEvent) e).reason())));
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicDraftedEvent.class,
+                                e ->
+                                        TOPIC_ID.equals(
+                                                        ((TopicEvent.TopicDraftedEvent) e)
+                                                                .topicId())
+                                                && "ACCOUNT_DELETED"
+                                                        .equals(
+                                                                ((TopicEvent.TopicDraftedEvent) e)
+                                                                        .reason())));
     }
 
     @Test
@@ -117,41 +135,61 @@ class TopicAggregateTest {
     @Test
     void updateName_byOwner_appliesEvent() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, Language.FR, "Séries"))
-                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
-                        TopicEvent.TopicNameUpdatedEvent.class,
-                        e -> "Séries".equals(((TopicEvent.TopicNameUpdatedEvent) e).name())));
+                .when(
+                        new TopicCommand.UpdateTopicNameCommand(
+                                TOPIC_ID, OWNER, Language.FR, "Séries"))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicNameUpdatedEvent.class,
+                                e ->
+                                        "Séries"
+                                                .equals(
+                                                        ((TopicEvent.TopicNameUpdatedEvent) e)
+                                                                .name())));
     }
 
     @Test
     void updateName_byNonOwner_rejects() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, "intruder", Language.FR, "Séries"))
+                .when(
+                        new TopicCommand.UpdateTopicNameCommand(
+                                TOPIC_ID, "intruder", Language.FR, "Séries"))
                 .expectException(TopicProblems.TopicNotOwnerProblem.class);
     }
 
     @Test
     void updateName_withSameValue_emitsNoEvent() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, Language.FR, "Cinéma"))
+                .when(
+                        new TopicCommand.UpdateTopicNameCommand(
+                                TOPIC_ID, OWNER, Language.FR, "Cinéma"))
                 .expectNoEvents();
     }
 
     @Test
     void updateName_withTooLongValue_rejects() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, Language.FR, "a".repeat(256)))
+                .when(
+                        new TopicCommand.UpdateTopicNameCommand(
+                                TOPIC_ID, OWNER, Language.FR, "a".repeat(256)))
                 .expectException(TopicProblems.TopicNameTooLongProblem.class);
     }
 
     @Test
     void updateDescription_appliesEvent() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicDescriptionCommand(TOPIC_ID, OWNER, "Nouvelle description"))
-                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
-                        TopicEvent.TopicDescriptionUpdatedEvent.class,
-                        e -> "Nouvelle description"
-                                .equals(((TopicEvent.TopicDescriptionUpdatedEvent) e).description())));
+                .when(
+                        new TopicCommand.UpdateTopicDescriptionCommand(
+                                TOPIC_ID, OWNER, "Nouvelle description"))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicDescriptionUpdatedEvent.class,
+                                e ->
+                                        "Nouvelle description"
+                                                .equals(
+                                                        ((TopicEvent.TopicDescriptionUpdatedEvent)
+                                                                        e)
+                                                                .description())));
     }
 
     @Test
@@ -164,60 +202,174 @@ class TopicAggregateTest {
     @Test
     void updateImageUrl_withTooLongValue_rejects() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicImageUrlCommand(TOPIC_ID, OWNER, "https://x.test/" + "a".repeat(1100)))
+                .when(
+                        new TopicCommand.UpdateTopicImageUrlCommand(
+                                TOPIC_ID, OWNER, "https://x.test/" + "a".repeat(1100)))
                 .expectException(TopicProblems.TopicImageUrlTooLongProblem.class);
     }
 
     @Test
     void updateBannerUrl_appliesEvent() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, "https://media.test/banner.jpg"))
-                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
-                        TopicEvent.TopicBannerUrlUpdatedEvent.class,
-                        e -> "https://media.test/banner.jpg"
-                                .equals(((TopicEvent.TopicBannerUrlUpdatedEvent) e).bannerUrl())));
+                .when(
+                        new TopicCommand.UpdateTopicBannerUrlCommand(
+                                TOPIC_ID, OWNER, "https://media.test/banner.jpg"))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicBannerUrlUpdatedEvent.class,
+                                e ->
+                                        "https://media.test/banner.jpg"
+                                                .equals(
+                                                        ((TopicEvent.TopicBannerUrlUpdatedEvent) e)
+                                                                .bannerUrl())));
     }
 
     @Test
     void updateBannerUrl_withSameValue_isNoOp() {
-        fixture.given(createdTopic(), new TopicEvent.TopicBannerUrlUpdatedEvent(
-                        TOPIC_ID, OWNER, "https://media.test/banner.jpg", NOW))
-                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, "https://media.test/banner.jpg"))
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicBannerUrlUpdatedEvent(
+                                TOPIC_ID, OWNER, "https://media.test/banner.jpg", NOW))
+                .when(
+                        new TopicCommand.UpdateTopicBannerUrlCommand(
+                                TOPIC_ID, OWNER, "https://media.test/banner.jpg"))
                 .expectNoEvents();
     }
 
     @Test
     void updateBannerUrl_withNull_clearsBanner() {
-        fixture.given(createdTopic(), new TopicEvent.TopicBannerUrlUpdatedEvent(
-                        TOPIC_ID, OWNER, "https://media.test/banner.jpg", NOW))
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicBannerUrlUpdatedEvent(
+                                TOPIC_ID, OWNER, "https://media.test/banner.jpg", NOW))
                 .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, null))
-                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
-                        TopicEvent.TopicBannerUrlUpdatedEvent.class,
-                        e -> ((TopicEvent.TopicBannerUrlUpdatedEvent) e).bannerUrl() == null));
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicBannerUrlUpdatedEvent.class,
+                                e ->
+                                        ((TopicEvent.TopicBannerUrlUpdatedEvent) e).bannerUrl()
+                                                == null));
     }
 
     @Test
     void updateBannerUrl_withTooLongValue_rejects() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, "https://x.test/" + "a".repeat(1100)))
+                .when(
+                        new TopicCommand.UpdateTopicBannerUrlCommand(
+                                TOPIC_ID, OWNER, "https://x.test/" + "a".repeat(1100)))
                 .expectException(TopicProblems.TopicBannerUrlTooLongProblem.class);
     }
 
     @Test
     void updateBannerUrl_byNonOwner_rejects() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, "intruder", "https://media.test/banner.jpg"))
+                .when(
+                        new TopicCommand.UpdateTopicBannerUrlCommand(
+                                TOPIC_ID, "intruder", "https://media.test/banner.jpg"))
                 .expectException(TopicProblems.TopicNotOwnerProblem.class);
     }
 
     private TopicCommand.CreateTopicCommand createCommand(String name, String description) {
         return new TopicCommand.CreateTopicCommand(
-                TOPIC_ID, Map.of(Language.FR, name), description, TopicCategory.MOVIES, null, null, null, null, OWNER);
+                TOPIC_ID,
+                Map.of(Language.FR, name),
+                description,
+                TopicCategory.MOVIES,
+                null,
+                null,
+                null,
+                null,
+                OWNER);
     }
 
     private TopicEvent.TopicCreatedEvent createdTopic() {
         return new TopicEvent.TopicCreatedEvent(
-                TOPIC_ID, Map.of(Language.FR, "Cinéma"), "Tout le cinéma", TopicCategory.MOVIES,
-                null, null, null, null, OWNER, NOW);
+                TOPIC_ID,
+                Map.of(Language.FR, "Cinéma"),
+                "Tout le cinéma",
+                TopicCategory.MOVIES,
+                null,
+                null,
+                null,
+                null,
+                OWNER,
+                NOW);
+    }
+
+    @Test
+    void writerCannotManageTeam() {
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicMemberSetEvent(
+                                TOPIC_ID,
+                                "writer",
+                                com.joutio.theme.domain.model.TopicTeamRole.WRITER,
+                                OWNER,
+                                NOW))
+                .when(
+                        new TopicCommand.SetTopicMemberCommand(
+                                TOPIC_ID,
+                                "writer",
+                                "other",
+                                com.joutio.theme.domain.model.TopicTeamRole.WRITER))
+                .expectException(TopicProblems.TopicNotOwnerProblem.class);
+    }
+
+    @Test
+    void creatorCannotBeRemoved() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.RemoveTopicMemberCommand(TOPIC_ID, OWNER, OWNER))
+                .expectException(TopicProblems.TopicNotOwnerProblem.class);
+    }
+
+    @Test
+    void adminCanManageTopic() {
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicMemberSetEvent(
+                                TOPIC_ID,
+                                "admin",
+                                com.joutio.theme.domain.model.TopicTeamRole.ADMIN,
+                                OWNER,
+                                NOW))
+                .when(
+                        new TopicCommand.UpdateTopicNameCommand(
+                                TOPIC_ID, "admin", Language.FR, "Nouveau nom"))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicNameUpdatedEvent.class, e -> true));
+    }
+
+    @Test
+    void repeatedMemberRoleIsNoOp() {
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicMemberSetEvent(
+                                TOPIC_ID,
+                                "writer",
+                                com.joutio.theme.domain.model.TopicTeamRole.WRITER,
+                                OWNER,
+                                NOW))
+                .when(
+                        new TopicCommand.SetTopicMemberCommand(
+                                TOPIC_ID,
+                                OWNER,
+                                "writer",
+                                com.joutio.theme.domain.model.TopicTeamRole.WRITER))
+                .expectNoEvents();
+    }
+
+    @Test
+    void ownerCanUnpublishTopic() {
+        fixture.given(createdTopic(), new TopicEvent.TopicPublishedEvent(TOPIC_ID, OWNER, NOW))
+                .when(new TopicCommand.UnpublishTopicCommand(TOPIC_ID, OWNER))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicDraftedEvent.class,
+                                e ->
+                                        "AUTHOR_REQUEST"
+                                                .equals(
+                                                        ((TopicEvent.TopicDraftedEvent) e)
+                                                                .reason())));
     }
 }
