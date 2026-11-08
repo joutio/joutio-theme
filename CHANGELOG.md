@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/joutio/joutio-theme/compare/v1.0.0...v2.0.0) (2026-11-08)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** implement collaborative topics and question lifecycle
+
+### Features
+
+* **theme:** implement collaborative topics and question lifecycle ([477fda0](https://github.com/joutio/joutio-theme/commit/477fda04a7465b5a9b5c8b97e5a7aa9fd0b7439b))
+
 ## 1.0.0 (2026-10-27)
 
 ### Features
