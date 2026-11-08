@@ -34,8 +34,9 @@ exposée par le service.
 **Édition champ par champ (surface d'auteur du BFF)** : commandes directes sur les agrégats
 (sans port `UseCase` dédié) — `TopicCommand.UpdateTopicName|Description|Category|Emoji|Color|ImageUrl|BannerUrlCommand`
 et `QuestionCommand.AddQuestionTranslation|UpdateQuestionText|Answers|CorrectAnswer|ImageUrlCommand`.
-Toutes sont **propriétaire uniquement** (le `TopicAggregate` vérifie `requestedBy == creatorId` ;
-les questions sont gardées côté BFF), **idempotentes** (aucun événement si la valeur est
+Les champs du sujet sont réservés au **créateur et aux administrateurs Premium** ; les questions
+sont gardées côté BFF suivant le rôle et leur auteur (voir atelier collaboratif). Les mises à jour
+sont **idempotentes** (aucun événement si la valeur est
 inchangée) et validées par les règles (`TopicRules` : nom ≤ 25, description ≤ 500, emoji/couleur
 ≤ 16, URL ≤ 1024 ; `QuestionRules` : texte ≤ 255, URL ≤ 1024, 4 réponses, bonne réponse présente
 dans chaque langue). La publication vérifie aussi le propriétaire.
@@ -49,8 +50,9 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
 - **Snapshot** : `QuestionReportSnapshot` (texte, image, réponses, traductions, bonne réponse,
   langue, source `PLAYED|CURRENT`) figé au dépôt. Le BFF l'extrait de l'historique de partie
   (`RoundStarted`/`RoundClosed`) et retombe sur la question courante si nécessaire.
-- **Modération** : flags `suspended` (raison `AUTO_REPORT_THRESHOLD|MANUAL`, note, dates, acteur)
-  et `archived` (soft delete) sur la question ; `QuestionStatus` porte maintenant `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED` (voir atelier collaboratif).
+- **Modération** : `QuestionStatus` porte `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED`.
+  Suspension et archivage sont des transitions de statut, avec raisons, notes, dates et acteur.
+  La suppression définitive reste une action distincte (voir atelier collaboratif).
   Le tirage, le comptage de couverture langues et la garde de publication excluent les questions
   suspendues/archivées. Commandes : `Suspend|Reinstate|Archive|RestoreQuestionCommand`.
 - **Suspension automatique** : `QuestionReportProjection` compte les **signaleurs distincts**
