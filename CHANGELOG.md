@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/joutio/joutio-theme/compare/v2.0.0...v2.0.1) (2026-11-10)
+
+### Bug Fixes
+
+* **theme:** replay-safe report policies that closing cannot bypass ([f90a179](https://github.com/joutio/joutio-theme/commit/f90a1793741feb002a3aa2f5fcefd15796b19d84))
+
 ## [2.0.0](https://github.com/joutio/joutio-theme/compare/v1.0.0...v2.0.0) (2026-11-08)
 
 ### ⚠ BREAKING CHANGES
