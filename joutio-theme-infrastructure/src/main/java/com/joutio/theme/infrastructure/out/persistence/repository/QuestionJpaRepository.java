@@ -29,6 +29,12 @@ public interface QuestionJpaRepository
     int countApprovedByTopicId(@Param("topicId") String topicId);
 
     @Query(
+            "SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.questionId <> :questionId"
+                    + " AND q.status = com.joutio.theme.domain.model.QuestionStatus.APPROVED")
+    int countApprovedByTopicIdExcluding(
+            @Param("topicId") String topicId, @Param("questionId") String questionId);
+
+    @Query(
             "SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status ="
                     + " :status")
     int countByTopicIdAndStatus(

@@ -217,6 +217,11 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
     }
 
     @Override
+    public int countApprovedByTopicIdExcluding(String topicId, String questionId) {
+        return questionJpaRepository.countApprovedByTopicIdExcluding(topicId, questionId);
+    }
+
+    @Override
     @Transactional(readOnly = true)
     public int countByTopicIdAndStatus(String topicId, QuestionStatus status) {
         return questionJpaRepository.countByTopicIdAndStatus(topicId, status);

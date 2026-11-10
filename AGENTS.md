@@ -55,12 +55,20 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
   La suppression définitive reste une action distincte (voir atelier collaboratif).
   Le tirage, le comptage de couverture langues et la garde de publication excluent les questions
   suspendues/archivées. Commandes : `Suspend|Reinstate|Archive|RestoreQuestionCommand`.
-- **Suspension automatique** : `QuestionReportProjection` compte les **signaleurs distincts**
-  encore ouverts dans la fenêtre `joutio.question-report.auto-suspension.window` (défaut `P7D`),
-  à partir de `max(now - window, reinstatedAt, restoredAt)`. Seuil par défaut `3`, activé par
-  défaut (`enabled=true`). Garde de rejeu : une suspension n'est appliquée que si le signalement
-  déclencheur est postérieur à la dernière réactivation/restauration.
-- **Migration** : `V6__question_reports_and_moderation.sql` (`question_report`,
+- **Suspension automatique** : `QuestionReportSuspensionPolicy` (`application/policy`, groupe
+  `theme-projection`, `@DisallowReplay`) compte les **signaleurs distincts** dont le signalement est
+  ouvert **ou clos sans modification** (`DISMISSED`) dans la fenêtre
+  `joutio.question-report.auto-suspension.window` (défaut `P7D`), à partir de
+  `max(reportedAt - window, reinstatedAt, restoredAt)`. Clore un signalement ne neutralise donc pas la
+  règle ; un signalement corrigé (`RESOLVED`) ne compte plus. Le signaleur de l'événement est compté à
+  part (indépendant de l'ordre des handlers), les instants viennent de l'événement. Seuil par défaut
+  `3`, activé par défaut. Réglage exposé à l'application par le bean `QuestionAutoSuspension`.
+  Garde de rejeu dans l'agrégat : une suspension n'est appliquée que si le signalement déclencheur est
+  postérieur à la dernière réactivation/restauration.
+- **Repli en brouillon** : `TopicAvailabilityPolicy` (`@DisallowReplay`) repasse le sujet en brouillon
+  sous 7 questions approuvées, en excluant la question de l'événement ; à la suppression d'une question,
+  ses signalements ouverts sont résolus (`QUESTION_DELETED`).
+- **Migration** : `V1__init_theme.sql` (`question_report`,
   `question_report_reason`, colonnes de modération sur `question_entry`, index unique partiel
   `(thread_id) WHERE status='OPEN'`).
 - **Queries** : `QuestionReportQuery.*` (détail, liste par question, compteurs, file agrégée,
@@ -141,11 +149,11 @@ lorsque la difficulté calculée change, la projection envoie une
 - `GET /api/topic-categories` (BFF) — les 18 `TopicCategory` + libellé FR (`TopicCategory.label()`).
 - `Topic` porte `emoji` + `color` + `imageUrl` + `bannerUrl` (données éditoriales) : agrégat,
   événements, commande, `TopicEntity` (colonnes `emoji`/`color`/`image_url`/`banner_url`), DTO.
-  La **bannière** (`banner-url`, migration `V4__add_topic_banner_url.sql`) est un visuel
+  La **bannière** (`banner-url`, colonne de `V1__init_theme.sql`) est un visuel
   panoramique de la fiche sujet, distinct de la couverture. Le seed ne renseigne plus `emoji`/`color`
   (fallback UI) et utilise `imageUrl` comme visuel de couverture.
 - **Recherche insensible aux accents/casse** : `TopicEntity.name_normalized` (schéma
-  `V1__create_theme_schema.sql`) dérivé de `name` par `TopicEntityMapper`
+  `V1__init_theme.sql`) dérivé de `name` par `TopicEntityMapper`
   (`SearchText.normalize`, domaine).
 
 ### Seed initial (YAML)

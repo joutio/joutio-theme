@@ -33,6 +33,9 @@ public interface QuestionRepositoryPort {
 
     int countApprovedByTopicId(String topicId);
 
+    /** Questions approuvées d'un sujet, hors {@code questionId} (celle qui vient de quitter l'état approuvé). */
+    int countApprovedByTopicIdExcluding(String topicId, String questionId);
+
     int countByTopicIdAndStatus(String topicId, QuestionStatus status);
 
     /** Nombre de questions approuvées disponibles dans toutes les langues demandées. */

@@ -202,8 +202,8 @@ public class QuestionReportRepositoryAdapter implements QuestionReportRepository
 
     @Override
     @Transactional(readOnly = true)
-    public int countDistinctOpenReportersSince(String questionId, Instant since) {
-        return repository.countDistinctOpenReportersSince(questionId, since);
+    public int countDistinctUnresolvedReportersSince(String questionId, Instant since, String excludedReporterId) {
+        return repository.countDistinctUnresolvedReportersSince(questionId, since, excludedReporterId);
     }
 
     @Override

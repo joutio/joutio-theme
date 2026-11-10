@@ -28,7 +28,12 @@ public interface QuestionReportRepositoryPort {
                                               int page,
                                               int size);
 
-    int countDistinctOpenReportersSince(String questionId, Instant since);
+    /**
+     * Signaleurs distincts d'une question depuis {@code since}, signalements ouverts ou clos sans
+     * modification, hors {@code excludedReporterId} (le signaleur de l'événement en cours, compté à part
+     * pour ne pas dépendre de l'ordre des handlers).
+     */
+    int countDistinctUnresolvedReportersSince(String questionId, Instant since, String excludedReporterId);
 
     long countByStatus(QuestionReportStatus status);
 

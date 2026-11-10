@@ -26,9 +26,11 @@ public interface QuestionReportJpaRepository extends JpaRepository<QuestionRepor
             SELECT COUNT(DISTINCT r.reporterId)
             FROM QuestionReportEntity r
             WHERE r.questionId = :questionId
-              AND r.status = com.joutio.theme.domain.model.QuestionReportStatus.OPEN
+              AND r.status <> com.joutio.theme.domain.model.QuestionReportStatus.RESOLVED
               AND r.createdAt >= :since
+              AND r.reporterId <> :excludedReporterId
             """)
-    int countDistinctOpenReportersSince(@Param("questionId") String questionId,
-                                        @Param("since") java.time.Instant since);
+    int countDistinctUnresolvedReportersSince(@Param("questionId") String questionId,
+                                              @Param("since") java.time.Instant since,
+                                              @Param("excludedReporterId") String excludedReporterId);
 }
