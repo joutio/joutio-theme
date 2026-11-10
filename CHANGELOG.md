@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/joutio/joutio-theme/compare/v2.0.1...v2.1.0) (2026-11-10)
+
+### Features
+
+* **theme:** let creators delete a draft topic ([c09053e](https://github.com/joutio/joutio-theme/commit/c09053e517eb8969000f41e24b983b481305534e))
+
 ## [2.0.1](https://github.com/joutio/joutio-theme/compare/v2.0.0...v2.0.1) (2026-11-10)
 
 ### Bug Fixes
