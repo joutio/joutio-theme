@@ -7,6 +7,8 @@ import com.joutio.theme.application.projection.QuestionProjection;
 import com.joutio.theme.domain.command.TopicCommand;
 import com.joutio.theme.domain.event.QuestionEvent;
 import com.joutio.theme.domain.model.Question;
+import com.joutio.theme.domain.model.Topic;
+import com.joutio.theme.domain.model.TopicStatus;
 import com.joutio.theme.domain.model.QuestionSuspensionReason;
 import com.joutio.theme.domain.port.out.*;
 
@@ -21,7 +23,21 @@ class TopicAvailabilityPolicyTest {
     private final QuestionRepositoryPort questions = mock(QuestionRepositoryPort.class);
     private final CommandGateway commands = mock(CommandGateway.class);
     private final QuestionReportRepositoryPort reports = mock(QuestionReportRepositoryPort.class);
-    private final TopicAvailabilityPolicy policy = new TopicAvailabilityPolicy(questions, commands, reports);
+    private final TopicRepositoryPort topics = mock(TopicRepositoryPort.class);
+    private final TopicAvailabilityPolicy policy = new TopicAvailabilityPolicy(questions, commands, reports, topics);
+
+    @org.junit.jupiter.api.BeforeEach
+    void publishedTopic() {
+        when(topics.findById("topic")).thenReturn(Optional.of(Topic.builder().topicId("topic").status(TopicStatus.PUBLISHED).build()));
+    }
+
+    @Test
+    void draftTopicIsNeverDraftedAgain() {
+        when(topics.findById("topic")).thenReturn(Optional.empty());
+        when(questions.countApprovedByTopicIdExcluding("topic", "q")).thenReturn(0);
+        policy.on(new QuestionEvent.QuestionDeletedEvent("q", "topic", "owner", Instant.now()));
+        verifyNoInteractions(commands);
+    }
 
     @Test
     void deletingBelowMinimumDraftsTopic() {

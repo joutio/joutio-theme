@@ -282,6 +282,33 @@ class TopicAggregateTest {
                 OWNER);
     }
 
+    @Test
+    void deleteDraft_byCreator_deletesTheTopic() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.DeleteTopicCommand(TOPIC_ID, OWNER))
+                .expectSuccessfulHandlerExecution()
+                .expectEventsMatching(
+                        org.axonframework.test.matchers.Matchers.exactSequenceOf(
+                                org.axonframework.test.matchers.Matchers.messageWithPayload(
+                                        org.hamcrest.Matchers.instanceOf(TopicEvent.TopicDeletedEvent.class)),
+                                org.axonframework.test.matchers.Matchers.andNoMore()))
+                .expectMarkedDeleted();
+    }
+
+    @Test
+    void deletePublishedTopic_isRefused() {
+        fixture.given(createdTopic(), new TopicEvent.TopicPublishedEvent(TOPIC_ID, OWNER, NOW))
+                .when(new TopicCommand.DeleteTopicCommand(TOPIC_ID, OWNER))
+                .expectException(TopicProblems.TopicNotInDraftProblem.class);
+    }
+
+    @Test
+    void deleteDraft_byAnotherMember_isRefused() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.DeleteTopicCommand(TOPIC_ID, "someone-else"))
+                .expectException(TopicProblems.TopicNotOwnerProblem.class);
+    }
+
     private TopicEvent.TopicCreatedEvent createdTopic() {
         return new TopicEvent.TopicCreatedEvent(
                 TOPIC_ID,

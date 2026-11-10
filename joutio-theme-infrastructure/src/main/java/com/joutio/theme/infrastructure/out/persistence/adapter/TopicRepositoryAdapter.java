@@ -61,6 +61,11 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
     }
 
     @Override
+    public void deleteById(String topicId) {
+        topicJpaRepository.deleteById(topicId);
+    }
+
+    @Override
     @Transactional(readOnly = true)
     public SearchResponse<Topic> findAll(SearchRequest request) {
         return topicJpaSearchAdapter.findAll(request)

@@ -28,4 +28,10 @@ public class TopicTeamProjection {
     public void on(TopicEvent.TopicMemberRemovedEvent event) {
         teams.removeMember(event.topicId(), event.userId());
     }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicDeletedEvent event) {
+        teams.members(event.topicId()).keySet().forEach(userId -> teams.removeMember(event.topicId(), userId));
+    }
 }

@@ -349,6 +349,13 @@ public class TopicProjection {
         return counters;
     }
 
+    /** Supprime la ligne du sujet ; questions, compteurs et abonnés suivent en cascade. */
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicDeletedEvent event) {
+        topicRepositoryPort.deleteById(event.topicId());
+    }
+
     @EventHandler
     public void on(QuestionEvent.QuestionDeletedEvent event) {
         refreshQuestionsCounter(event.topicId(), event.deletedAt());

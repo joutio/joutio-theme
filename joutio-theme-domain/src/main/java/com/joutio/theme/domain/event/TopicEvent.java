@@ -38,6 +38,10 @@ public interface TopicEvent {
             implements TopicEvent {}
 
     /** Le sujet repasse en brouillon car il ne reste plus assez de questions approuvées. */
+    /** Brouillon supprimé par son créateur ; ses questions sont supprimées à la suite. */
+    record TopicDeletedEvent(String topicId, String requestedBy, Instant deletedAt)
+            implements TopicEvent {}
+
     record TopicDraftedEvent(String topicId, String reason, Instant draftedAt)
             implements TopicEvent {}
 

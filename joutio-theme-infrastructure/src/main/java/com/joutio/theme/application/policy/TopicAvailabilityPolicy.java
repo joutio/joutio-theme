@@ -5,6 +5,8 @@ import com.joutio.theme.domain.command.TopicCommand;
 import com.joutio.theme.domain.event.QuestionEvent;
 import com.joutio.theme.domain.model.QuestionReportResolution;
 import com.joutio.theme.domain.model.TopicRules;
+import com.joutio.theme.domain.model.TopicStatus;
+import com.joutio.theme.domain.port.out.TopicRepositoryPort;
 import com.joutio.theme.domain.port.out.QuestionReportRepositoryPort;
 import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
 
@@ -33,12 +35,17 @@ public class TopicAvailabilityPolicy {
     private final QuestionRepositoryPort questions;
     private final CommandGateway commands;
     private final QuestionReportRepositoryPort reports;
+    private final TopicRepositoryPort topics;
 
     public TopicAvailabilityPolicy(
-            QuestionRepositoryPort questions, CommandGateway commands, QuestionReportRepositoryPort reports) {
+            QuestionRepositoryPort questions,
+            CommandGateway commands,
+            QuestionReportRepositoryPort reports,
+            TopicRepositoryPort topics) {
         this.questions = questions;
         this.commands = commands;
         this.reports = reports;
+        this.topics = topics;
     }
 
     @EventHandler
@@ -75,8 +82,11 @@ public class TopicAvailabilityPolicy {
         questions.findById(questionId).ifPresent(question -> check(question.topicId(), questionId));
     }
 
+    /** Seul un sujet publié peut repasser en brouillon (un brouillon supprimé n'existe plus). */
     private void check(String topicId, String leavingQuestionId) {
-        if (questions.countApprovedByTopicIdExcluding(topicId, leavingQuestionId)
+        boolean published = topics.findById(topicId).map(topic -> topic.status() == TopicStatus.PUBLISHED).orElse(false);
+        if (published
+                && questions.countApprovedByTopicIdExcluding(topicId, leavingQuestionId)
                 < TopicRules.MIN_QUESTIONS_TO_PUBLISH) {
             commands.send(new TopicCommand.DraftTopicCommand(topicId, "INSUFFICIENT_QUESTIONS"));
         }

@@ -131,6 +131,23 @@ public class TopicAggregate {
     }
 
     @CommandHandler
+    public void handle(TopicCommand.DeleteTopicCommand command) {
+        if (!Objects.equals(this.creatorId, command.requestedBy())) {
+            throw new TopicProblems.TopicNotOwnerProblem(this.topicId, command.requestedBy());
+        }
+        if (this.status != TopicStatus.DRAFT) {
+            throw new TopicProblems.TopicNotInDraftProblem(this.topicId);
+        }
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicDeletedEvent(this.topicId, command.requestedBy(), Instant.now()));
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicDeletedEvent event) {
+        AggregateLifecycle.markDeleted();
+    }
+
+    @CommandHandler
     public void handle(TopicCommand.DraftTopicCommand command) {
         if (this.status != TopicStatus.PUBLISHED) {
             return;

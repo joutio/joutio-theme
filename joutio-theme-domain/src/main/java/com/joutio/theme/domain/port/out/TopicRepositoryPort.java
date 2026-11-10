@@ -15,6 +15,7 @@ public interface TopicRepositoryPort {
     void save(Topic topic);
     Optional<Topic> findById(String topicId);
     boolean existsById(String topicId);
+    void deleteById(String topicId);
     SearchResponse<Topic> findAll(SearchRequest request);
 
     /**

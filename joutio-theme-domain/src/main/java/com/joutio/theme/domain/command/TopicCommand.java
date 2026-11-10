@@ -105,6 +105,10 @@ public interface TopicCommand {
     record UnpublishTopicCommand(@TargetAggregateIdentifier String topicId, String requestedBy)
             implements TopicCommand {}
 
+    /** Supprime un brouillon : réservé au créateur, refusé sur un sujet publié. */
+    record DeleteTopicCommand(@TargetAggregateIdentifier String topicId, String requestedBy)
+            implements TopicCommand {}
+
     record RemoveDeletedTopicMemberCommand(@TargetAggregateIdentifier String topicId, String userId)
             implements TopicCommand {}
 }
