@@ -9,6 +9,8 @@ import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
 import com.joutio.theme.domain.query.QuestionQuery;
 
 import org.axonframework.queryhandling.QueryHandler;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -18,6 +20,8 @@ import java.util.Set;
 
 @Component
 public class QuestionQueryHandler {
+
+    private static final Logger logger = LoggerFactory.getLogger(QuestionQueryHandler.class);
 
     private final com.joutio.theme.domain.port.out.TopicRepositoryPort topics;
     private final QuestionRepositoryPort questionRepositoryPort;
@@ -56,15 +60,20 @@ public class QuestionQueryHandler {
 
     @QueryHandler
     public List<Question> handle(QuestionQuery.GetRandomApprovedQuestionsQuery query) {
-        var topic =
-                topics.findById(query.topicId())
-                        .orElseThrow(
-                                () ->
-                                        new com.joutio.theme.domain.exception.TopicProblems
-                                                .TopicNotFoundProblem(query.topicId()));
-        if (topic.status() != com.joutio.theme.domain.model.TopicStatus.PUBLISHED)
+        var topic = topics.findById(query.topicId()).orElse(null);
+        if (topic == null) {
+            logger.warn("Tirage refusé, sujet introuvable: topicId={}", query.topicId());
+            throw new com.joutio.theme.domain.exception.TopicProblems.TopicNotFoundProblem(
+                    query.topicId());
+        }
+        if (topic.status() != com.joutio.theme.domain.model.TopicStatus.PUBLISHED) {
+            logger.warn(
+                    "Tirage refusé, sujet non publié: topicId={}, status={}",
+                    query.topicId(),
+                    topic.status());
             throw new com.joutio.theme.domain.exception.TopicProblems.TopicUnavailableProblem(
                     query.topicId());
+        }
         return questionRepositoryPort.findRandomApprovedByTopicId(
                 query.topicId(),
                 query.count(),

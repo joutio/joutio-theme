@@ -26,6 +26,8 @@ import jakarta.persistence.criteria.Predicate;
 import jakarta.persistence.criteria.Root;
 import jakarta.persistence.criteria.Subquery;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -44,6 +46,8 @@ import java.util.stream.Collectors;
 
 @Component
 public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
+
+    private static final Logger logger = LoggerFactory.getLogger(QuestionRepositoryAdapter.class);
 
     private final QuestionJpaRepository questionJpaRepository;
 
@@ -267,7 +271,21 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
                                                 .map(Enum::name)
                                                 .collect(Collectors.toSet())));
 
-        return distinctByContent(withContents(entities), count);
+        List<Question> drawn = distinctByContent(withContents(entities), count);
+        if (drawn.size() < count) {
+            // Diagnostic d'un tirage insuffisant : candidats SQL (approuvées couvrant toutes les
+            // langues) vs questions distinctes après dédoublonnage par contenu.
+            logger.warn(
+                    "Tirage insuffisant: topicId={}, languages={}, requested={}, candidates={},"
+                            + " distinct={}, approvedInLanguages={}",
+                    topicId,
+                    languageCodes,
+                    count,
+                    entities.size(),
+                    drawn.size(),
+                    countApprovedByTopicAndLanguages(topicId, languages));
+        }
+        return drawn;
     }
 
     /**
