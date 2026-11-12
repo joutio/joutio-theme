@@ -1,3 +1,15 @@
+## [3.0.0](https://github.com/joutio/joutio-theme/compare/v2.1.0...v3.0.0) (2026-11-12)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** TopicCreatedEvent, CreateTopicCommand and Topic drop emoji and
+color; UpdateTopicEmojiCommand and UpdateTopicColorCommand are removed;
+TopicCategory.RELIGION is removed. Production restarts from a clean base.
+
+### Features
+
+* **theme:** topic pictogram, categories aligned with the design ([4a9c50b](https://github.com/joutio/joutio-theme/commit/4a9c50ba24a2a144fc8cd2a31fbba2bb8eecbb81))
+
 ## [2.1.0](https://github.com/joutio/joutio-theme/compare/v2.0.1...v2.1.0) (2026-11-10)
 
 ### Features
