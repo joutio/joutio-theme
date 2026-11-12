@@ -114,7 +114,9 @@ public class TopicAggregate {
             throw new TopicProblems.TopicNotInDraftProblem(this.topicId);
         }
 
-        int approvedQuestionsCount = questionRepositoryPort.countApprovedByTopicId(this.topicId);
+        // Jouable = 7 questions approuvées dans une même langue (le tirage exige la langue des
+        // joueurs) : un total toutes langues confondues publiait des sujets impossibles à jouer.
+        int approvedQuestionsCount = questionRepositoryPort.countPlayableByTopicId(this.topicId);
 
         if (approvedQuestionsCount < MIN_QUESTIONS_TO_PUBLISH) {
             throw new QuestionProblems.NotEnoughApprovedQuestionsProblem(

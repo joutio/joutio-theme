@@ -39,7 +39,9 @@ sont gardées côté BFF suivant le rôle et leur auteur (voir atelier collabora
 sont **idempotentes** (aucun événement si la valeur est
 inchangée) et validées par les règles (`TopicRules` : nom ≤ 25, description ≤ 500,
 URL ≤ 1024 ; `QuestionRules` : texte ≤ 255, URL ≤ 1024, 4 réponses, bonne réponse présente
-dans chaque langue). La publication vérifie aussi le propriétaire.
+dans chaque langue). La publication vérifie aussi le propriétaire et exige **7 questions approuvées
+dans une même langue** (`countPlayableByTopicId`, 2026-11-12) : un total toutes langues confondues publiait
+des sujets impossibles à jouer (le tirage exige la langue des joueurs).
 
 ### Signalements et modération des questions
 
@@ -66,7 +68,8 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
   Garde de rejeu dans l'agrégat : une suspension n'est appliquée que si le signalement déclencheur est
   postérieur à la dernière réactivation/restauration.
 - **Repli en brouillon** : `TopicAvailabilityPolicy` (`@DisallowReplay`) repasse le sujet en brouillon
-  sous 7 questions approuvées, en excluant la question de l'événement ; à la suppression d'une question,
+  sous 7 questions **jouables** (approuvées dans une même langue, `countPlayableByTopicIdExcluding`),
+  en excluant la question de l'événement ; à la suppression d'une question,
   ses signalements ouverts sont résolus (`QUESTION_DELETED`).
 - **Migration** : `V1__init_theme.sql` (`question_report`,
   `question_report_reason`, colonnes de modération sur `question_entry`, index unique partiel
@@ -271,7 +274,7 @@ lorsque la difficulté calculée change, la projection envoie une
 - Archiver est réversible ; restaurer revient à `PENDING`. Supprimer émet `QuestionDeletedEvent`,
   appelle `AggregateLifecycle.markDeleted()` dans l'event sourcing handler et supprime la projection.
   Les snapshots des parties conservent leur contenu ; aucun effacement des événements métier par cette action.
-- Sous 7 questions `APPROVED`, le sujet repasse en `DRAFT`. Un brouillon bloque les nouveaux
+- Sous 7 questions `APPROVED` **dans une même langue**, le sujet repasse en `DRAFT`. Un brouillon bloque les nouveaux
   départs (bot, défi, salon et matchmaking), y compris les invitations existantes. Les parties déjà créées continuent.
 - Les décisions éditoriales de brouillon, suspension, archivage ou suppression verrouillent la
   complétion automatique du seed du sujet : un redémarrage ne les annule pas.

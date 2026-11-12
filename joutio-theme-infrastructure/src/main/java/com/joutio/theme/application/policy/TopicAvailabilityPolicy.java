@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Politique de disponibilité d'un sujet : sous {@link TopicRules#MIN_QUESTIONS_TO_PUBLISH} questions
- * approuvées, le sujet repasse en brouillon.
+ * approuvées <b>dans une même langue</b> (questions jouables), le sujet repasse en brouillon.
  *
  * <p>La question de l'événement est exclue du compte : le résultat ne dépend pas de l'ordre
  * d'exécution avec {@code QuestionProjection}. {@code @Order(100)} reste nécessaire pour la
@@ -86,7 +86,7 @@ public class TopicAvailabilityPolicy {
     private void check(String topicId, String leavingQuestionId) {
         boolean published = topics.findById(topicId).map(topic -> topic.status() == TopicStatus.PUBLISHED).orElse(false);
         if (published
-                && questions.countApprovedByTopicIdExcluding(topicId, leavingQuestionId)
+                && questions.countPlayableByTopicIdExcluding(topicId, leavingQuestionId)
                 < TopicRules.MIN_QUESTIONS_TO_PUBLISH) {
             commands.send(new TopicCommand.DraftTopicCommand(topicId, "INSUFFICIENT_QUESTIONS"));
         }

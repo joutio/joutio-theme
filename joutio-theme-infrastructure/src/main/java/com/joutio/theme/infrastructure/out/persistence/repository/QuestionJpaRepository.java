@@ -23,15 +23,25 @@ import java.util.List;
 public interface QuestionJpaRepository
         extends JpaRepository<QuestionEntity, String>, JpaSpecificationExecutor<QuestionEntity> {
 
+    /**
+     * Questions approuvées de la meilleure langue du sujet (hors {@code questionId}, chaîne vide
+     * pour n'en exclure aucune) : c'est le nombre de questions qu'une partie peut tirer au mieux.
+     */
     @Query(
-            "SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status ="
-                    + " com.joutio.theme.domain.model.QuestionStatus.APPROVED")
-    int countApprovedByTopicId(@Param("topicId") String topicId);
-
-    @Query(
-            "SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.questionId <> :questionId"
-                    + " AND q.status = com.joutio.theme.domain.model.QuestionStatus.APPROVED")
-    int countApprovedByTopicIdExcluding(
+            value =
+                    """
+                    SELECT COALESCE(MAX(per_language.total), 0) FROM (
+                        SELECT COUNT(DISTINCT q.question_id) AS total
+                        FROM question_entry q
+                        JOIN question_content c ON c.question_id = q.question_id
+                        WHERE q.topic_id = :topicId
+                          AND q.status = 'APPROVED'
+                          AND q.question_id <> :questionId
+                        GROUP BY c.language
+                    ) per_language
+                    """,
+            nativeQuery = true)
+    int countPlayableByTopicIdExcluding(
             @Param("topicId") String topicId, @Param("questionId") String questionId);
 
     @Query(

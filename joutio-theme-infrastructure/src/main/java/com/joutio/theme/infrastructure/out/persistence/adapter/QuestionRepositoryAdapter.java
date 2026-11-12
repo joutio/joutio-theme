@@ -216,13 +216,14 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
 
     @Override
     @Transactional(readOnly = true)
-    public int countApprovedByTopicId(String topicId) {
-        return questionJpaRepository.countApprovedByTopicId(topicId);
+    public int countPlayableByTopicId(String topicId) {
+        return questionJpaRepository.countPlayableByTopicIdExcluding(topicId, "");
     }
 
     @Override
-    public int countApprovedByTopicIdExcluding(String topicId, String questionId) {
-        return questionJpaRepository.countApprovedByTopicIdExcluding(topicId, questionId);
+    public int countPlayableByTopicIdExcluding(String topicId, String questionId) {
+        return questionJpaRepository.countPlayableByTopicIdExcluding(
+                topicId, questionId == null ? "" : questionId);
     }
 
     @Override

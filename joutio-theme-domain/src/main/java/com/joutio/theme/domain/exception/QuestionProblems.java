@@ -84,7 +84,7 @@ public final class QuestionProblems {
         public NotEnoughApprovedQuestionsProblem(String topicId, int current, int required) {
             super(topicId, "urn:joutio:question:notEnough",
                     "Not enough approved questions",
-                    "Topic requires at least " + required + " approved questions to be published, but only " + current + " exist",
+                    "Topic requires at least " + required + " approved questions in a same language to be published, but its best language has only " + current,
                     Map.of("current", current, "required", required));
         }
     }

@@ -80,7 +80,7 @@ class TopicAggregateTest {
 
     @Test
     void publishTopic_byOwner_appliesTopicPublishedEvent() {
-        when(questionRepository.countApprovedByTopicId(TOPIC_ID)).thenReturn(7);
+        when(questionRepository.countPlayableByTopicId(TOPIC_ID)).thenReturn(7);
 
         fixture.given(createdTopic())
                 .when(new TopicCommand.PublishTopicCommand(TOPIC_ID, OWNER))
@@ -125,7 +125,7 @@ class TopicAggregateTest {
 
     @Test
     void publishTopic_withoutEnoughApprovedQuestions_rejects() {
-        when(questionRepository.countApprovedByTopicId(TOPIC_ID)).thenReturn(3);
+        when(questionRepository.countPlayableByTopicId(TOPIC_ID)).thenReturn(3);
 
         fixture.given(createdTopic())
                 .when(new TopicCommand.PublishTopicCommand(TOPIC_ID, OWNER))

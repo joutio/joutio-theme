@@ -31,10 +31,17 @@ public interface QuestionRepositoryPort {
 
     int countArchived();
 
-    int countApprovedByTopicId(String topicId);
+    /**
+     * Questions <b>jouables</b> d'un sujet : nombre de questions approuvées rédigées dans sa
+     * meilleure langue (une partie se joue dans une langue, le tirage exige la langue des joueurs).
+     */
+    int countPlayableByTopicId(String topicId);
 
-    /** Questions approuvées d'un sujet, hors {@code questionId} (celle qui vient de quitter l'état approuvé). */
-    int countApprovedByTopicIdExcluding(String topicId, String questionId);
+    /**
+     * Questions jouables d'un sujet (cf. {@link #countPlayableByTopicId}), hors {@code questionId}
+     * (celle qui vient de quitter l'état approuvé).
+     */
+    int countPlayableByTopicIdExcluding(String topicId, String questionId);
 
     int countByTopicIdAndStatus(String topicId, QuestionStatus status);
 
