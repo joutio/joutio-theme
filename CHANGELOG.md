@@ -1,3 +1,9 @@
+## [3.2.0](https://github.com/joutio/joutio-theme/compare/v3.1.0...v3.2.0) (2026-11-12)
+
+### Features
+
+* **theme:** publish only topics playable in one language ([fec797b](https://github.com/joutio/joutio-theme/commit/fec797b0504b981038c37895012248c36466e01d))
+
 ## [3.1.0](https://github.com/joutio/joutio-theme/compare/v3.0.0...v3.1.0) (2026-11-12)
 
 ### Features
