@@ -1,3 +1,9 @@
+## [3.1.0](https://github.com/joutio/joutio-theme/compare/v3.0.0...v3.1.0) (2026-11-12)
+
+### Features
+
+* **theme:** log refused and insufficient question draws ([e596af9](https://github.com/joutio/joutio-theme/commit/e596af993e5436448bbc83d68fe72f46695586bd))
+
 ## [3.0.0](https://github.com/joutio/joutio-theme/compare/v2.1.0...v3.0.0) (2026-11-12)
 
 ### ⚠ BREAKING CHANGES
