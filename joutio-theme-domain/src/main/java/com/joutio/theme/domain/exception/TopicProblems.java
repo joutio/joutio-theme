@@ -92,30 +92,6 @@ public final class TopicProblems {
         }
     }
 
-    public static class TopicEmojiTooLongProblem extends TopicProblem {
-        public TopicEmojiTooLongProblem(String topicId, int maxLength) {
-            super(
-                    topicId,
-                    "urn:joutio:topic:emojiTooLong",
-                    ProblemCategory.VALIDATION,
-                    "Topic emoji too long",
-                    "The topic emoji must not exceed " + maxLength + " characters",
-                    null);
-        }
-    }
-
-    public static class TopicColorTooLongProblem extends TopicProblem {
-        public TopicColorTooLongProblem(String topicId, int maxLength) {
-            super(
-                    topicId,
-                    "urn:joutio:topic:colorTooLong",
-                    ProblemCategory.VALIDATION,
-                    "Topic color too long",
-                    "The topic color must not exceed " + maxLength + " characters",
-                    null);
-        }
-    }
-
     public static class TopicImageUrlTooLongProblem extends TopicProblem {
         public TopicImageUrlTooLongProblem(String topicId, int maxLength) {
             super(
@@ -137,6 +113,19 @@ public final class TopicProblems {
                     ProblemCategory.VALIDATION,
                     "Topic banner URL too long",
                     "The topic banner URL must not exceed " + maxLength + " characters",
+                    null);
+        }
+    }
+
+    /** Pictogramme carré de la tuile du catalogue. */
+    public static class TopicPictogramUrlTooLongProblem extends TopicProblem {
+        public TopicPictogramUrlTooLongProblem(String topicId, int maxLength) {
+            super(
+                    topicId,
+                    "urn:joutio:topic:pictogramUrlTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Topic pictogram URL too long",
+                    "The topic pictogram URL must not exceed " + maxLength + " characters",
                     null);
         }
     }

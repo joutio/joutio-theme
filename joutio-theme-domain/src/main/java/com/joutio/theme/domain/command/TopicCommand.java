@@ -19,9 +19,9 @@ public interface TopicCommand {
             Map<Language, String> names,
             String description,
             TopicCategory category,
-            String emoji,
-            String color,
             String imageUrl,
+            /** Pictogramme carré (optionnel). */
+            String pictogramUrl,
             /** Titres personnalisés par palier et par langue (optionnels). */
             Map<Language, Map<String, String>> titles,
             String creatorId)
@@ -68,16 +68,6 @@ public interface TopicCommand {
             @TargetAggregateIdentifier String topicId, String requestedBy, TopicCategory category)
             implements TopicCommand {}
 
-    /** Mise à jour de l'emoji (propriétaire du thème uniquement). */
-    record UpdateTopicEmojiCommand(
-            @TargetAggregateIdentifier String topicId, String requestedBy, String emoji)
-            implements TopicCommand {}
-
-    /** Mise à jour de la couleur d'accent (propriétaire du thème uniquement). */
-    record UpdateTopicColorCommand(
-            @TargetAggregateIdentifier String topicId, String requestedBy, String color)
-            implements TopicCommand {}
-
     /** Mise à jour de l'illustration de couverture (propriétaire du thème uniquement). */
     record UpdateTopicImageUrlCommand(
             @TargetAggregateIdentifier String topicId, String requestedBy, String imageUrl)
@@ -89,6 +79,14 @@ public interface TopicCommand {
      */
     record UpdateTopicBannerUrlCommand(
             @TargetAggregateIdentifier String topicId, String requestedBy, String bannerUrl)
+            implements TopicCommand {}
+
+    /**
+     * Mise à jour du pictogramme carré de la tuile du catalogue, ou {@code null} pour l'effacer
+     * (propriétaire du thème uniquement).
+     */
+    record UpdateTopicPictogramUrlCommand(
+            @TargetAggregateIdentifier String topicId, String requestedBy, String pictogramUrl)
             implements TopicCommand {}
 
     record SetTopicMemberCommand(

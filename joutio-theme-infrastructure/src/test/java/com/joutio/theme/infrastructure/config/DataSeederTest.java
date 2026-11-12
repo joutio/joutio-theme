@@ -141,7 +141,6 @@ class DataSeederTest {
                         isNull(),
                         isNull(),
                         isNull(),
-                        isNull(),
                         eq(SYSTEM));
         verify(createQuestionUseCase, times(2))
                 .createAndWait(
@@ -389,7 +388,6 @@ class DataSeederTest {
                         isNull(),
                         isNull(),
                         isNull(),
-                        isNull(),
                         eq(SYSTEM));
         when(getTopicUseCase.getById("topic-lag"))
                 .thenReturn(
@@ -421,7 +419,6 @@ class DataSeederTest {
                         isNull(),
                         isNull(),
                         isNull(),
-                        isNull(),
                         eq(SYSTEM));
         when(getTopicUseCase.getById("topic-retry"))
                 .thenReturn(
@@ -441,7 +438,6 @@ class DataSeederTest {
                         anyMap(),
                         anyString(),
                         any(),
-                        isNull(),
                         isNull(),
                         isNull(),
                         isNull(),
@@ -468,7 +464,6 @@ class DataSeederTest {
                         isNull(),
                         isNull(),
                         isNull(),
-                        isNull(),
                         eq(SYSTEM));
         when(getTopicUseCase.getById("topic-2"))
                 .thenReturn(
@@ -490,7 +485,6 @@ class DataSeederTest {
                         isNull(),
                         isNull(),
                         isNull(),
-                        isNull(),
                         eq(SYSTEM));
         verify(publishTopicUseCase).publishAndWait("topic-2", SYSTEM);
         verify(publishTopicUseCase, never()).publishAndWait(eq("topic-1"), anyString());
@@ -509,6 +503,7 @@ class DataSeederTest {
                 Map.of(Language.FR, "Nom"),
                 "Description",
                 TopicCategory.GENERAL,
+                null,
                 null,
                 null,
                 questions);

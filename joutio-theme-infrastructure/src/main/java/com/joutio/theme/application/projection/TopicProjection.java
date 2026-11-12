@@ -71,10 +71,9 @@ public class TopicProjection {
                         // compteur rattrape les références déjà connues à la création du thème.
                         playedGameRefRepositoryPort.countByTopicId(event.topicId()),
                         questionsCounters,
-                        event.emoji(),
-                        event.color(),
                         event.imageUrl(),
                         null,
+                        event.pictogramUrl(),
                         event.titles(),
                         event.createdAt(),
                         event.createdAt());
@@ -164,26 +163,6 @@ public class TopicProjection {
 
     @EventHandler
     @Transactional
-    public void on(TopicEvent.TopicEmojiUpdatedEvent event) {
-        updateTopic(
-                event.topicId(),
-                event.updatedBy(),
-                event.updatedAt(),
-                builder -> builder.emoji(event.emoji()));
-    }
-
-    @EventHandler
-    @Transactional
-    public void on(TopicEvent.TopicColorUpdatedEvent event) {
-        updateTopic(
-                event.topicId(),
-                event.updatedBy(),
-                event.updatedAt(),
-                builder -> builder.color(event.color()));
-    }
-
-    @EventHandler
-    @Transactional
     public void on(TopicEvent.TopicImageUrlUpdatedEvent event) {
         updateTopic(
                 event.topicId(),
@@ -200,6 +179,16 @@ public class TopicProjection {
                 event.updatedBy(),
                 event.updatedAt(),
                 builder -> builder.bannerUrl(event.bannerUrl()));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicPictogramUrlUpdatedEvent event) {
+        updateTopic(
+                event.topicId(),
+                event.updatedBy(),
+                event.updatedAt(),
+                builder -> builder.pictogramUrl(event.pictogramUrl()));
     }
 
     @EventHandler

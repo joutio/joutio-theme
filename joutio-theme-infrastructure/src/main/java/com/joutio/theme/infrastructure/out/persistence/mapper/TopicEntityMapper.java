@@ -32,10 +32,9 @@ public final class TopicEntityMapper {
                 entity.getFollowersCounter(),
                 entity.getGamesCounter(),
                 entity.getQuestionsCounter(),
-                entity.getEmoji(),
-                entity.getColor(),
                 entity.getImageUrl(),
                 entity.getBannerUrl(),
+                entity.getPictogramUrl(),
                 TopicTitlesJson.read(entity.getTitleNames()),
                 entity.getCreatedAt(),
                 entity.getUpdatedAt()
@@ -60,10 +59,9 @@ public final class TopicEntityMapper {
         topicEntity.setFollowersCounter(topic.followersCounter());
         topicEntity.setGamesCounter(topic.gamesCounter());
         topicEntity.setQuestionsCounter(topic.questionsCounter());
-        topicEntity.setEmoji(topic.emoji());
-        topicEntity.setColor(topic.color());
         topicEntity.setImageUrl(topic.imageUrl());
         topicEntity.setBannerUrl(topic.bannerUrl());
+        topicEntity.setPictogramUrl(topic.pictogramUrl());
         topicEntity.setTitleNames(TopicTitlesJson.write(topic.titles()));
         topicEntity.setCreatedAt(topic.createdAt());
         topicEntity.setUpdatedAt(topic.updatedAt());

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Headmaster of Hogwarts"
       DIAMANT: "Master of Death"
   imageUrl: wikipedia/literature/J._K._Rowling_2010.jpg
+  pictogramUrl: pictogrammes/harry-potter.svg
 questions:
   - text: "Quel sortilège permet d'ouvrir une porte fermée à clé ?"
     answers:

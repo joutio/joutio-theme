@@ -252,9 +252,8 @@ public class DataSeeder {
                         definition.names(),
                         definition.description(),
                         definition.category(),
-                        null,
-                        null,
                         definition.imageUrl(),
+                        definition.pictogramUrl(),
                         definition.titles(),
                         JoutioConstants.SYSTEM_USER_ID);
                 createdTopic = true;

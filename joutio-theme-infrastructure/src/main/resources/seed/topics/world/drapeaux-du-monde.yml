@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Standard Bearer"
       DIAMANT: "Legend of the Peaks"
   imageUrl: wikipedia/world/Flag_of_the_United_Nations.png
+  pictogramUrl: pictogrammes/drapeaux-du-monde.svg
 questions:
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Equatorial_Guinea.png

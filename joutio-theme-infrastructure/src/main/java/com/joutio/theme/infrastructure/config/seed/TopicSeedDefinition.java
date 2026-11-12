@@ -15,6 +15,8 @@ public record TopicSeedDefinition(
         String description,
         TopicCategory category,
         String imageUrl,
+        /** Pictogramme carré de la tuile du catalogue (optionnel). */
+        String pictogramUrl,
         /** Titres personnalisés (palier → libellé, par langue), ou {@code null} (repli client). */
         Map<Language, Map<String, String>> titles,
         List<QuestionSeedDefinition> questions) {

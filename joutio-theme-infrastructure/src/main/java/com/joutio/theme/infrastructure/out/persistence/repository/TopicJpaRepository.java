@@ -58,4 +58,12 @@ public interface TopicJpaRepository extends JpaRepository<TopicEntity, String>, 
             group by t.bannerUrl
             """)
     List<Object[]> countByBannerUrlIn(@Param("urls") Collection<String> urls);
+
+    @Query("""
+            select t.pictogramUrl, count(t)
+            from TopicEntity t
+            where t.pictogramUrl in :urls
+            group by t.pictogramUrl
+            """)
+    List<Object[]> countByPictogramUrlIn(@Param("urls") Collection<String> urls);
 }

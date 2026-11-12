@@ -32,6 +32,7 @@ public class ImageReferenceRepositoryAdapter implements ImageReferenceRepository
         Map<String, Long> counts = new HashMap<>();
         addCounts(counts, topicJpaRepository.countByImageUrlIn(imageUrls));
         addCounts(counts, topicJpaRepository.countByBannerUrlIn(imageUrls));
+        addCounts(counts, topicJpaRepository.countByPictogramUrlIn(imageUrls));
         addCounts(counts, questionJpaRepository.countByImageUrlIn(imageUrls));
         return imageUrls.stream()
                 .distinct()

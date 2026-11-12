@@ -1,24 +1,29 @@
 package com.joutio.theme.domain.model;
 
+/**
+ * Univers d'un sujet, alignés sur les 17 catégories du design (`design/tokens`, libellés FR identiques).
+ *
+ * <p>{@code RELIGION} a été retirée le 2026-11-12 : ses sujets relèvent de la culture générale. La prod repart d'une
+ * base vierge (script de reset) ; la migration V5 convertit les bases existantes.
+ */
 public enum TopicCategory {
-    ARTS("Arts & lettres"),
-    BUSINESS("Économie & business"),
+    ARTS("Arts"),
+    BUSINESS("Business"),
     EDUCATION("Éducation"),
     ENTERTAINMENT("Divertissement"),
-    FOOD_AND_DRINK("Cuisine & boissons"),
+    FOOD_AND_DRINK("Gastronomie"),
     GAMES("Jeux"),
-    GENERAL("Général"),
+    GENERAL("Culture générale"),
     HISTORY("Histoire"),
     LITERATURE("Littérature"),
     MOVIES("Cinéma"),
     MUSIC("Musique"),
-    NATURE("Nature & animaux"),
-    RELIGION("Religions & spiritualité"),
-    SCIENCE("Sciences"),
+    NATURE("Nature"),
+    SCIENCE("Science"),
     SPORTS("Sport"),
-    TELEVISION("Séries & TV"),
+    TELEVISION("Télévision"),
     TECHNOLOGY("Technologie"),
-    WORLD("Monde & géographie");
+    WORLD("Monde");
 
     private final String label;
 
@@ -30,4 +35,3 @@ public enum TopicCategory {
         return label;
     }
 }
-

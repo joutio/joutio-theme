@@ -78,12 +78,6 @@ public class TopicEntity {
     @Column(name = "games_counter")
     private Integer gamesCounter;
 
-    @Column(name = "emoji", length = 16)
-    private String emoji;
-
-    @Column(name = "color", length = 16)
-    private String color;
-
     /** Illustration de couverture : URL externe (http/https), longueur max 1024. */
     @Column(name = "image_url", length = 1024)
     private String imageUrl;
@@ -91,6 +85,10 @@ public class TopicEntity {
     /** Bannière de la fiche sujet (panoramique, distincte de la couverture) : URL max 1024. */
     @Column(name = "banner_url", length = 1024)
     private String bannerUrl;
+
+    /** Pictogramme carré de la tuile du catalogue : URL max 1024. */
+    @Column(name = "pictogram_url", length = 1024)
+    private String pictogramUrl;
 
     /** Titres personnalisés par palier et par langue (JSON), ou {@code null} (repli client). */
     @Column(name = "title_names", columnDefinition = "TEXT")

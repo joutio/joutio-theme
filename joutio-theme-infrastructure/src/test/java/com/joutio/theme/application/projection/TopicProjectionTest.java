@@ -84,7 +84,7 @@ class TopicProjectionTest {
         projection.on(new com.joutio.theme.domain.event.TopicEvent.TopicCreatedEvent(
                 "topic-1", java.util.Map.of(Language.FR, "Sujet"), "desc",
                 com.joutio.theme.domain.model.TopicCategory.GENERAL,
-                null, null, null, null, "creator-1", AT));
+                null, null, null, "creator-1", AT));
 
         ArgumentCaptor<Topic> captor = ArgumentCaptor.forClass(Topic.class);
         verify(topicRepository).save(captor.capture());

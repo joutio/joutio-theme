@@ -18,44 +18,9 @@ public interface CreateTopicUseCase {
             TopicCategory category,
             String creatorId
     ) {
-        return create(topicId, names, description, category, null, null, creatorId);
-    }
-
-    default CompletableFuture<String> create(
-            String topicId,
-            Map<Language, String> names,
-            String description,
-            TopicCategory category,
-            String emoji,
-            String color,
-            String creatorId
-    ) {
-        return create(topicId, names, description, category, emoji, color, null, creatorId);
-    }
-
-    default CompletableFuture<String> create(
-            String topicId,
-            Map<Language, String> names,
-            String description,
-            TopicCategory category,
-            String emoji,
-            String color,
-            String imageUrl,
-            String creatorId
-    ) {
         return create(
                 new TopicCommand.CreateTopicCommand(
-                        topicId,
-                        names,
-                        description,
-                        category,
-                        emoji,
-                        color,
-                        imageUrl,
-                        null,
-                        creatorId
-                )
-        );
+                        topicId, names, description, category, null, null, null, creatorId));
     }
 
     default void createAndWait(
@@ -68,32 +33,18 @@ public interface CreateTopicUseCase {
         create(topicId, names, description, category, creatorId).join();
     }
 
+    /** Variante du seed : vignette, pictogramme et titres par palier et par langue (optionnels). */
     default void createAndWait(
             String topicId,
             Map<Language, String> names,
             String description,
             TopicCategory category,
-            String emoji,
-            String color,
             String imageUrl,
-            String creatorId
-    ) {
-        createAndWait(topicId, names, description, category, emoji, color, imageUrl, null, creatorId);
-    }
-
-    /** Variante du seed : titres personnalisés par palier et par langue (optionnels). */
-    default void createAndWait(
-            String topicId,
-            Map<Language, String> names,
-            String description,
-            TopicCategory category,
-            String emoji,
-            String color,
-            String imageUrl,
+            String pictogramUrl,
             Map<Language, Map<String, String>> titles,
             String creatorId
     ) {
         create(new TopicCommand.CreateTopicCommand(
-                topicId, names, description, category, emoji, color, imageUrl, titles, creatorId)).join();
+                topicId, names, description, category, imageUrl, pictogramUrl, titles, creatorId)).join();
     }
 }

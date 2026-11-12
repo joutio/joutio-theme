@@ -32,13 +32,13 @@ exposée par le service.
 - `CountApprovedQuestionsByTopicUseCase`
 
 **Édition champ par champ (surface d'auteur du BFF)** : commandes directes sur les agrégats
-(sans port `UseCase` dédié) — `TopicCommand.UpdateTopicName|Description|Category|Emoji|Color|ImageUrl|BannerUrlCommand`
+(sans port `UseCase` dédié) — `TopicCommand.UpdateTopicName|Description|Category|ImageUrl|BannerUrl|PictogramUrlCommand`
 et `QuestionCommand.AddQuestionTranslation|UpdateQuestionText|Answers|CorrectAnswer|ImageUrlCommand`.
 Les champs du sujet sont réservés au **créateur et aux administrateurs Premium** ; les questions
 sont gardées côté BFF suivant le rôle et leur auteur (voir atelier collaboratif). Les mises à jour
 sont **idempotentes** (aucun événement si la valeur est
-inchangée) et validées par les règles (`TopicRules` : nom ≤ 25, description ≤ 500, emoji/couleur
-≤ 16, URL ≤ 1024 ; `QuestionRules` : texte ≤ 255, URL ≤ 1024, 4 réponses, bonne réponse présente
+inchangée) et validées par les règles (`TopicRules` : nom ≤ 25, description ≤ 500,
+URL ≤ 1024 ; `QuestionRules` : texte ≤ 255, URL ≤ 1024, 4 réponses, bonne réponse présente
 dans chaque langue). La publication vérifie aussi le propriétaire.
 
 ### Signalements et modération des questions
@@ -146,12 +146,15 @@ lorsque la difficulté calculée change, la projection envoie une
 - `TopicQuery.GetTopicsByIdsQuery(topicIds)` → `List<Topic>` : résolution batch (accueil, suivis).
 - `TopicQuery.TopicSearchQuery` (pattern SDK) reste pour les **futures surfaces d'administration** ;
   les vues web n'y font plus appel.
-- `GET /api/topic-categories` (BFF) — les 18 `TopicCategory` + libellé FR (`TopicCategory.label()`).
-- `Topic` porte `emoji` + `color` + `imageUrl` + `bannerUrl` (données éditoriales) : agrégat,
-  événements, commande, `TopicEntity` (colonnes `emoji`/`color`/`image_url`/`banner_url`), DTO.
-  La **bannière** (`banner-url`, colonne de `V1__init_theme.sql`) est un visuel
-  panoramique de la fiche sujet, distinct de la couverture. Le seed ne renseigne plus `emoji`/`color`
-  (fallback UI) et utilise `imageUrl` comme visuel de couverture.
+- `GET /api/topic-categories` (BFF) — les **17** `TopicCategory` + libellé FR (`TopicCategory.label()`), alignés sur les
+  catégories du design (`design/tokens`) depuis le 2026-11-12 : `RELIGION` retirée, ses sujets sont en `GENERAL`
+  (« Culture générale »).
+- `Topic` porte `imageUrl` (vignette, celle de `TopicCard`), `bannerUrl` (bannière panoramique de la fiche sujet)
+  et `pictogramUrl` (pictogramme carré de la tuile du catalogue, `TopicTile` ; 2026-11-12) : agrégat, événements,
+  commandes, `TopicEntity` (colonnes `image_url`/`banner_url`/`pictogram_url`), DTO. Repli de la tuile côté client :
+  pictogramme, vignette, puis catégorie. `emoji` et `color` (code mort) sont supprimés : migration
+  `V5__topic_pictogram_and_categories.sql` (colonnes retirées, `RELIGION` → `GENERAL`, contrainte de catégorie).
+  La prod repart d'une base vierge (script de reset) : aucun upcaster pour les anciens événements.
 - **Recherche insensible aux accents/casse** : `TopicEntity.name_normalized` (schéma
   `V1__init_theme.sql`) dérivé de `name` par `TopicEntityMapper`
   (`SearchText.normalize`, domaine).
@@ -167,7 +170,8 @@ lorsque la difficulté calculée change, la projection envoie une
   > d'umbrella de licences) ; les thèmes factuels (drapeaux, capitales, monuments) et de genre
   > (années, rap français) restent autorisés.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
-  `imageUrl` optionnelle,
+  `imageUrl` optionnelle, `pictogramUrl` optionnelle (`pictogrammes/<sujet>.svg`, copie dans
+  `product/pictogrammes/` du workspace, publiée par `scripts/seed-images.py publish`),
   `titles` optionnelle — libellés par **palier de rareté** et par langue, ex.
   `titles: { fr: { OR: "Maréchal d'Empire" }, en: { … } }` : paliers ∈
   `FER…DIAMANT` (miroir de `MasteryTier`), libellé ≤ 40, langues/paliers facultatifs, repli

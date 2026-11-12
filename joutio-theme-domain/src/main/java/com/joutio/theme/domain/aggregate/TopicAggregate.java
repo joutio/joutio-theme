@@ -1,11 +1,10 @@
 package com.joutio.theme.domain.aggregate;
 
 import static com.joutio.theme.domain.model.TopicRules.MAX_BANNER_URL_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MAX_COLOR_LENGTH;
 import static com.joutio.theme.domain.model.TopicRules.MAX_DESCRIPTION_LENGTH;
-import static com.joutio.theme.domain.model.TopicRules.MAX_EMOJI_LENGTH;
 import static com.joutio.theme.domain.model.TopicRules.MAX_IMAGE_URL_LENGTH;
 import static com.joutio.theme.domain.model.TopicRules.MAX_NAME_LENGTH;
+import static com.joutio.theme.domain.model.TopicRules.MAX_PICTOGRAM_URL_LENGTH;
 import static com.joutio.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PUBLISH;
 
 import com.joutio.microservice.core.domain.model.i18n.Language;
@@ -37,10 +36,9 @@ public class TopicAggregate {
     private Map<Language, String> names = new EnumMap<>(Language.class);
     private String description;
     private TopicCategory category;
-    private String emoji;
-    private String color;
     private String imageUrl;
     private String bannerUrl;
+    private String pictogramUrl;
     private Map<Language, Map<String, String>> titles;
     private TopicStatus status;
     private String creatorId;
@@ -57,9 +55,8 @@ public class TopicAggregate {
     public TopicAggregate(TopicCommand.CreateTopicCommand command) {
         validateNames(command.topicId(), command.names());
         validateDescription(command.topicId(), command.description());
-        validateEmoji(command.topicId(), command.emoji());
-        validateColor(command.topicId(), command.color());
         validateImageUrl(command.topicId(), command.imageUrl());
+        validatePictogramUrl(command.topicId(), command.pictogramUrl());
 
         if (command.category() == null) {
             throw new TopicProblems.TopicCategoryEmptyProblem(command.topicId());
@@ -75,9 +72,8 @@ public class TopicAggregate {
                         new EnumMap<>(command.names()),
                         command.description(),
                         command.category(),
-                        command.emoji(),
-                        command.color(),
                         command.imageUrl(),
+                        command.pictogramUrl(),
                         normalizeTitles(command.topicId(), command.titles()),
                         command.creatorId(),
                         Instant.now()));
@@ -211,32 +207,6 @@ public class TopicAggregate {
     }
 
     @CommandHandler
-    public void handle(TopicCommand.UpdateTopicEmojiCommand command) {
-        requireOwner(command.requestedBy());
-        validateEmoji(command.topicId(), command.emoji());
-        if (Objects.equals(command.emoji(), this.emoji)) {
-            return;
-        }
-
-        AggregateLifecycle.apply(
-                new TopicEvent.TopicEmojiUpdatedEvent(
-                        command.topicId(), command.requestedBy(), command.emoji(), Instant.now()));
-    }
-
-    @CommandHandler
-    public void handle(TopicCommand.UpdateTopicColorCommand command) {
-        requireOwner(command.requestedBy());
-        validateColor(command.topicId(), command.color());
-        if (Objects.equals(command.color(), this.color)) {
-            return;
-        }
-
-        AggregateLifecycle.apply(
-                new TopicEvent.TopicColorUpdatedEvent(
-                        command.topicId(), command.requestedBy(), command.color(), Instant.now()));
-    }
-
-    @CommandHandler
     public void handle(TopicCommand.UpdateTopicImageUrlCommand command) {
         requireOwner(command.requestedBy());
         validateImageUrl(command.topicId(), command.imageUrl());
@@ -268,15 +238,30 @@ public class TopicAggregate {
                         Instant.now()));
     }
 
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicPictogramUrlCommand command) {
+        requireOwner(command.requestedBy());
+        validatePictogramUrl(command.topicId(), command.pictogramUrl());
+        if (Objects.equals(command.pictogramUrl(), this.pictogramUrl)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicPictogramUrlUpdatedEvent(
+                        command.topicId(),
+                        command.requestedBy(),
+                        command.pictogramUrl(),
+                        Instant.now()));
+    }
+
     @EventSourcingHandler
     public void on(TopicEvent.TopicCreatedEvent event) {
         this.topicId = event.topicId();
         this.names = new EnumMap<>(event.names());
         this.description = event.description();
         this.category = event.category();
-        this.emoji = event.emoji();
-        this.color = event.color();
         this.imageUrl = event.imageUrl();
+        this.pictogramUrl = event.pictogramUrl();
         this.titles = event.titles();
         this.status = TopicStatus.DRAFT;
         this.creatorId = event.creatorId();
@@ -330,20 +315,6 @@ public class TopicAggregate {
     }
 
     @EventSourcingHandler
-    public void on(TopicEvent.TopicEmojiUpdatedEvent event) {
-        this.emoji = event.emoji();
-        this.updatedBy = event.updatedBy();
-        this.updatedAt = event.updatedAt();
-    }
-
-    @EventSourcingHandler
-    public void on(TopicEvent.TopicColorUpdatedEvent event) {
-        this.color = event.color();
-        this.updatedBy = event.updatedBy();
-        this.updatedAt = event.updatedAt();
-    }
-
-    @EventSourcingHandler
     public void on(TopicEvent.TopicImageUrlUpdatedEvent event) {
         this.imageUrl = event.imageUrl();
         this.updatedBy = event.updatedBy();
@@ -353,6 +324,13 @@ public class TopicAggregate {
     @EventSourcingHandler
     public void on(TopicEvent.TopicBannerUrlUpdatedEvent event) {
         this.bannerUrl = event.bannerUrl();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicPictogramUrlUpdatedEvent event) {
+        this.pictogramUrl = event.pictogramUrl();
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
     }
@@ -395,18 +373,6 @@ public class TopicAggregate {
         }
     }
 
-    private static void validateEmoji(String topicId, String emoji) {
-        if (emoji != null && emoji.length() > MAX_EMOJI_LENGTH) {
-            throw new TopicProblems.TopicEmojiTooLongProblem(topicId, MAX_EMOJI_LENGTH);
-        }
-    }
-
-    private static void validateColor(String topicId, String color) {
-        if (color != null && color.length() > MAX_COLOR_LENGTH) {
-            throw new TopicProblems.TopicColorTooLongProblem(topicId, MAX_COLOR_LENGTH);
-        }
-    }
-
     private static void validateImageUrl(String topicId, String imageUrl) {
         if (imageUrl != null && imageUrl.length() > MAX_IMAGE_URL_LENGTH) {
             throw new TopicProblems.TopicImageUrlTooLongProblem(topicId, MAX_IMAGE_URL_LENGTH);
@@ -416,6 +382,12 @@ public class TopicAggregate {
     private static void validateBannerUrl(String topicId, String bannerUrl) {
         if (bannerUrl != null && bannerUrl.length() > MAX_BANNER_URL_LENGTH) {
             throw new TopicProblems.TopicBannerUrlTooLongProblem(topicId, MAX_BANNER_URL_LENGTH);
+        }
+    }
+
+    private static void validatePictogramUrl(String topicId, String pictogramUrl) {
+        if (pictogramUrl != null && pictogramUrl.length() > MAX_PICTOGRAM_URL_LENGTH) {
+            throw new TopicProblems.TopicPictogramUrlTooLongProblem(topicId, MAX_PICTOGRAM_URL_LENGTH);
         }
     }
 

@@ -24,10 +24,10 @@ public record Topic(
         Integer followersCounter,
         Integer gamesCounter,
         Map<QuestionStatus, Integer> questionsCounter,
-        String emoji,
-        String color,
         String imageUrl,
         String bannerUrl,
+        /** Pictogramme carré de la tuile du catalogue (`TopicTile`), ou `null` : repli sur la vignette. */
+        String pictogramUrl,
         /** Titres personnalisés par palier et par langue (ex. « Maréchal d'Empire »), ou `null`. */
         Map<Language, Map<String, String>> titles,
         Instant createdAt,

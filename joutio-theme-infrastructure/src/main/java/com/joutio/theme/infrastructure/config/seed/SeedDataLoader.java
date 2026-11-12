@@ -132,6 +132,7 @@ public class SeedDataLoader {
         }
         TopicCategory category = parseCategory(rawTopic.category());
         String topicImageUrl = validateImageUrl(rawTopic.imageUrl(), "topic.imageUrl");
+        String topicPictogramUrl = validateImageUrl(rawTopic.pictogramUrl(), "topic.pictogramUrl");
 
         List<RawSeedQuestion> rawQuestions = file.questions();
         if (rawQuestions == null || rawQuestions.isEmpty()) {
@@ -176,7 +177,7 @@ public class SeedDataLoader {
             questions.add(new QuestionSeedDefinition(contents, correctAnswer, identity.imageUrl(), difficulty));
         }
 
-        return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl,
+        return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl, topicPictogramUrl,
                 validateTitles(rawTopic.titles()), List.copyOf(questions));
     }
 
@@ -366,7 +367,7 @@ public class SeedDataLoader {
     }
 
     record RawSeedTopic(String id, Map<String, String> names, String description, String category,
-                        String imageUrl, Map<String, Map<String, String>> titles) {
+                        String imageUrl, String pictogramUrl, Map<String, Map<String, String>> titles) {
     }
 
     record RawSeedQuestion(String text,

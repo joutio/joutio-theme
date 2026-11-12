@@ -269,13 +269,88 @@ class TopicAggregateTest {
                 .expectException(TopicProblems.TopicNotOwnerProblem.class);
     }
 
+    @Test
+    void updatePictogramUrl_appliesEvent() {
+        fixture.given(createdTopic())
+                .when(
+                        new TopicCommand.UpdateTopicPictogramUrlCommand(
+                                TOPIC_ID, OWNER, "https://media.test/pictogram.png"))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicPictogramUrlUpdatedEvent.class,
+                                e -> "https://media.test/pictogram.png"
+                                        .equals(((TopicEvent.TopicPictogramUrlUpdatedEvent) e).pictogramUrl())));
+    }
+
+    @Test
+    void createTopic_withPictogram_carriesIt() {
+        fixture.givenNoPriorActivity()
+                .when(
+                        new TopicCommand.CreateTopicCommand(
+                                TOPIC_ID,
+                                Map.of(Language.FR, "Cinéma"),
+                                null,
+                                TopicCategory.MOVIES,
+                                null,
+                                "https://media.test/pictogram.svg",
+                                null,
+                                OWNER))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicCreatedEvent.class,
+                                e -> "https://media.test/pictogram.svg"
+                                        .equals(((TopicEvent.TopicCreatedEvent) e).pictogramUrl())));
+    }
+
+    @Test
+    void updatePictogramUrl_withSameValue_isNoOp() {
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicPictogramUrlUpdatedEvent(
+                                TOPIC_ID, OWNER, "https://media.test/pictogram.png", NOW))
+                .when(
+                        new TopicCommand.UpdateTopicPictogramUrlCommand(
+                                TOPIC_ID, OWNER, "https://media.test/pictogram.png"))
+                .expectNoEvents();
+    }
+
+    @Test
+    void updatePictogramUrl_withNull_clearsIt() {
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicPictogramUrlUpdatedEvent(
+                                TOPIC_ID, OWNER, "https://media.test/pictogram.png", NOW))
+                .when(new TopicCommand.UpdateTopicPictogramUrlCommand(TOPIC_ID, OWNER, null))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicPictogramUrlUpdatedEvent.class,
+                                e -> ((TopicEvent.TopicPictogramUrlUpdatedEvent) e).pictogramUrl() == null));
+    }
+
+    @Test
+    void updatePictogramUrl_withTooLongValue_rejects() {
+        fixture.given(createdTopic())
+                .when(
+                        new TopicCommand.UpdateTopicPictogramUrlCommand(
+                                TOPIC_ID, OWNER, "https://media.test/" + "a".repeat(1024)))
+                .expectException(TopicProblems.TopicPictogramUrlTooLongProblem.class);
+    }
+
+    @Test
+    void updatePictogramUrl_byNonOwner_rejects() {
+        fixture.given(createdTopic())
+                .when(
+                        new TopicCommand.UpdateTopicPictogramUrlCommand(
+                                TOPIC_ID, "intruder", "https://media.test/pictogram.png"))
+                .expectException(TopicProblems.TopicNotOwnerProblem.class);
+    }
+
     private TopicCommand.CreateTopicCommand createCommand(String name, String description) {
         return new TopicCommand.CreateTopicCommand(
                 TOPIC_ID,
                 Map.of(Language.FR, name),
                 description,
                 TopicCategory.MOVIES,
-                null,
                 null,
                 null,
                 null,
@@ -315,7 +390,6 @@ class TopicAggregateTest {
                 Map.of(Language.FR, "Cinéma"),
                 "Tout le cinéma",
                 TopicCategory.MOVIES,
-                null,
                 null,
                 null,
                 null,

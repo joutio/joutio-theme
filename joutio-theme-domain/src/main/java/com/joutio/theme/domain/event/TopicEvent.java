@@ -15,9 +15,9 @@ public interface TopicEvent {
             Map<Language, String> names,
             String description,
             TopicCategory category,
-            String emoji,
-            String color,
             String imageUrl,
+            /** Pictogramme carré (optionnel ; absent des événements antérieurs au 2026-11-12). */
+            String pictogramUrl,
             /** Titres personnalisés par palier et par langue (optionnels). */
             Map<Language, Map<String, String>> titles,
             String creatorId,
@@ -72,14 +72,6 @@ public interface TopicEvent {
             String topicId, String updatedBy, TopicCategory category, Instant updatedAt)
             implements TopicEvent {}
 
-    /** Événement émis lors du changement d'emoji du thème. */
-    record TopicEmojiUpdatedEvent(String topicId, String updatedBy, String emoji, Instant updatedAt)
-            implements TopicEvent {}
-
-    /** Événement émis lors du changement de couleur du thème. */
-    record TopicColorUpdatedEvent(String topicId, String updatedBy, String color, Instant updatedAt)
-            implements TopicEvent {}
-
     /** Événement émis lors du changement d'illustration du thème. */
     record TopicImageUrlUpdatedEvent(
             String topicId, String updatedBy, String imageUrl, Instant updatedAt)
@@ -90,6 +82,11 @@ public interface TopicEvent {
      */
     record TopicBannerUrlUpdatedEvent(
             String topicId, String updatedBy, String bannerUrl, Instant updatedAt)
+            implements TopicEvent {}
+
+    /** Événement émis lors du changement de pictogramme du thème ({@code null} : effacé). */
+    record TopicPictogramUrlUpdatedEvent(
+            String topicId, String updatedBy, String pictogramUrl, Instant updatedAt)
             implements TopicEvent {}
 
     record TopicMemberSetEvent(
