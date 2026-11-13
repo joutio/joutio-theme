@@ -180,7 +180,7 @@ class TopicAggregateTest {
         fixture.given(createdTopic())
                 .when(
                         new TopicCommand.UpdateTopicDescriptionCommand(
-                                TOPIC_ID, OWNER, "Nouvelle description"))
+                                TOPIC_ID, OWNER, "Nouvelle description", null))
                 .expectEventsMatching(
                         JoutioAxonMatchers.singlePayloadMatching(
                                 TopicEvent.TopicDescriptionUpdatedEvent.class,
@@ -190,6 +190,34 @@ class TopicAggregateTest {
                                                         ((TopicEvent.TopicDescriptionUpdatedEvent)
                                                                         e)
                                                                 .description())));
+    }
+
+    @Test
+    void updateDescription_inEnglish_keepsFrenchAndTagsLanguage() {
+        fixture.given(createdTopic())
+                .when(
+                        new TopicCommand.UpdateTopicDescriptionCommand(
+                                TOPIC_ID, OWNER, "English description", Language.EN))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicDescriptionUpdatedEvent.class,
+                                e -> {
+                                    var event = (TopicEvent.TopicDescriptionUpdatedEvent) e;
+                                    return event.language() == Language.EN
+                                            && "English description".equals(event.description());
+                                }));
+    }
+
+    @Test
+    void updateDescription_legacyEventWithoutLanguage_isFrench() {
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicDescriptionUpdatedEvent(
+                                TOPIC_ID, OWNER, "Ancienne", java.time.Instant.now(), null))
+                .when(
+                        new TopicCommand.UpdateTopicDescriptionCommand(
+                                TOPIC_ID, OWNER, "Ancienne", Language.FR))
+                .expectNoEvents();
     }
 
     @Test

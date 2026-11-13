@@ -76,7 +76,8 @@ public class TopicProjection {
                         event.pictogramUrl(),
                         event.titles(),
                         event.createdAt(),
-                        event.createdAt());
+                        event.createdAt(),
+                        event.description() == null ? Map.of() : Map.of(Language.FR, event.description()));
         topicRepositoryPort.save(topic);
     }
 
@@ -148,7 +149,20 @@ public class TopicProjection {
                 event.topicId(),
                 event.updatedBy(),
                 event.updatedAt(),
-                builder -> builder.description(event.description()));
+                builder -> {
+                    Topic current = builder.build();
+                    Language language = event.language() == null ? Language.FR : event.language();
+                    Map<Language, String> descriptions = new EnumMap<>(Language.class);
+                    if (current.descriptions() != null) {
+                        descriptions.putAll(current.descriptions());
+                    }
+                    if (event.description() == null) {
+                        descriptions.remove(language);
+                    } else {
+                        descriptions.put(language, event.description());
+                    }
+                    return builder.descriptions(descriptions).description(descriptions.get(Language.FR));
+                });
     }
 
     @EventHandler

@@ -21,6 +21,13 @@ public final class TopicEntityMapper {
         if (entity.getNameEn() != null) {
             names.put(Language.EN, entity.getNameEn());
         }
+        Map<Language, String> descriptions = new EnumMap<>(Language.class);
+        if (entity.getDescription() != null) {
+            descriptions.put(Language.FR, entity.getDescription());
+        }
+        if (entity.getDescriptionEn() != null) {
+            descriptions.put(Language.EN, entity.getDescriptionEn());
+        }
         return new Topic(
                 entity.getTopicId(),
                 names,
@@ -37,7 +44,8 @@ public final class TopicEntityMapper {
                 entity.getPictogramUrl(),
                 TopicTitlesJson.read(entity.getTitleNames()),
                 entity.getCreatedAt(),
-                entity.getUpdatedAt()
+                entity.getUpdatedAt(),
+                descriptions
         );
     }
 
@@ -51,7 +59,9 @@ public final class TopicEntityMapper {
         topicEntity.setNameFrNormalized(SearchText.normalize(fr));
         topicEntity.setNameEn(en);
         topicEntity.setNameEnNormalized(SearchText.normalize(en));
-        topicEntity.setDescription(topic.description());
+        Map<Language, String> descriptions = topic.descriptions() == null ? Map.of() : topic.descriptions();
+        topicEntity.setDescription(descriptions.getOrDefault(Language.FR, topic.description()));
+        topicEntity.setDescriptionEn(descriptions.get(Language.EN));
         topicEntity.setCategory(topic.category());
         topicEntity.setStatus(topic.status());
         topicEntity.setCreatorId(topic.creatorId());

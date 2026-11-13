@@ -60,7 +60,11 @@ public interface TopicCommand {
 
     /** Mise à jour de la description (propriétaire du thème uniquement). */
     record UpdateTopicDescriptionCommand(
-            @TargetAggregateIdentifier String topicId, String requestedBy, String description)
+            @TargetAggregateIdentifier String topicId,
+            String requestedBy,
+            String description,
+            /** Langue visée ({@code null} : français, comme avant le 2026-11-13). */
+            Language language)
             implements TopicCommand {}
 
     /** Mise à jour de la catégorie (propriétaire du thème uniquement). */

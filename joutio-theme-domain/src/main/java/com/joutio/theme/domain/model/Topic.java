@@ -31,8 +31,21 @@ public record Topic(
         /** Titres personnalisés par palier et par langue (ex. « Maréchal d'Empire »), ou `null`. */
         Map<Language, Map<String, String>> titles,
         Instant createdAt,
-        Instant updatedAt
+        Instant updatedAt,
+        /**
+         * Description par langue (2026-11-13), ou vide. {@link #description()} reste la description française
+         * (contrat antérieur, repli des consommateurs qui ne lisent pas encore cette carte).
+         */
+        Map<Language, String> descriptions
 ) {
+
+    /** Description dans {@code language}, sinon la française, sinon {@code null}. */
+    public String descriptionIn(Language language) {
+        if (descriptions != null && language != null && descriptions.get(language) != null) {
+            return descriptions.get(language);
+        }
+        return descriptions != null && descriptions.get(Language.FR) != null ? descriptions.get(Language.FR) : description;
+    }
 
     /** Langues pour lesquelles un nom est disponible. */
     public Set<Language> availableLanguages() {

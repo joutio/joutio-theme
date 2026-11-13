@@ -64,7 +64,12 @@ public interface TopicEvent {
 
     /** Événement émis lors du changement de description du thème. */
     record TopicDescriptionUpdatedEvent(
-            String topicId, String updatedBy, String description, Instant updatedAt)
+            String topicId,
+            String updatedBy,
+            String description,
+            Instant updatedAt,
+            /** Langue de la description (2026-11-13) ; absente des événements antérieurs : français. */
+            Language language)
             implements TopicEvent {}
 
     /** Événement émis lors du changement de catégorie du thème. */

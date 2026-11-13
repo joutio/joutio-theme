@@ -56,6 +56,11 @@ public class TopicEntity {
     @Column(name = "description", length = 500)
     private String description;
 
+    /** Description anglaise (optionnelle — repli FR), 2026-11-13. */
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "description_en", length = 500)
+    private String descriptionEn;
+
     @Searchable(type = FieldType.STRING)
     @Enumerated(EnumType.STRING)
     @Column(name = "category", nullable = false)

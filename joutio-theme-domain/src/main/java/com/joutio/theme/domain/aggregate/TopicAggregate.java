@@ -34,7 +34,8 @@ public class TopicAggregate {
 
     @AggregateIdentifier private String topicId;
     private Map<Language, String> names = new EnumMap<>(Language.class);
-    private String description;
+    /** Description par langue ; le français est celle du contrat initial. */
+    private Map<Language, String> descriptions = new EnumMap<>(Language.class);
     private TopicCategory category;
     private String imageUrl;
     private String bannerUrl;
@@ -178,7 +179,8 @@ public class TopicAggregate {
     public void handle(TopicCommand.UpdateTopicDescriptionCommand command) {
         requireOwner(command.requestedBy());
         validateDescription(command.topicId(), command.description());
-        if (Objects.equals(command.description(), this.description)) {
+        Language language = command.language() == null ? Language.FR : command.language();
+        if (Objects.equals(command.description(), this.descriptions.get(language))) {
             return;
         }
 
@@ -187,7 +189,8 @@ public class TopicAggregate {
                         command.topicId(),
                         command.requestedBy(),
                         command.description(),
-                        Instant.now()));
+                        Instant.now(),
+                        language));
     }
 
     @CommandHandler
@@ -260,7 +263,10 @@ public class TopicAggregate {
     public void on(TopicEvent.TopicCreatedEvent event) {
         this.topicId = event.topicId();
         this.names = new EnumMap<>(event.names());
-        this.description = event.description();
+        this.descriptions = new EnumMap<>(Language.class);
+        if (event.description() != null) {
+            this.descriptions.put(Language.FR, event.description());
+        }
         this.category = event.category();
         this.imageUrl = event.imageUrl();
         this.pictogramUrl = event.pictogramUrl();
@@ -304,7 +310,12 @@ public class TopicAggregate {
 
     @EventSourcingHandler
     public void on(TopicEvent.TopicDescriptionUpdatedEvent event) {
-        this.description = event.description();
+        Language language = event.language() == null ? Language.FR : event.language();
+        if (event.description() == null) {
+            this.descriptions.remove(language);
+        } else {
+            this.descriptions.put(language, event.description());
+        }
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
     }
