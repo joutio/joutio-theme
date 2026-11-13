@@ -1,3 +1,9 @@
+## [3.3.0](https://github.com/joutio/joutio-theme/compare/v3.2.0...v3.3.0) (2026-11-13)
+
+### Features
+
+* **topic:** localized topic description ([28b8186](https://github.com/joutio/joutio-theme/commit/28b81867c3820e35ff42e62cacb7e1ef525e6d45))
+
 ## [3.2.0](https://github.com/joutio/joutio-theme/compare/v3.1.0...v3.2.0) (2026-11-12)
 
 ### Features
