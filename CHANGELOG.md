@@ -1,3 +1,9 @@
+## [3.5.0](https://github.com/joutio/joutio-theme/compare/v3.4.1...v3.5.0) (2026-11-14)
+
+### Features
+
+* **seed:** adaptive pacing spreads the seed load over time ([25bfbb9](https://github.com/joutio/joutio-theme/commit/25bfbb941371bcfd66e2423d626d75467a8b7682))
+
 ## [3.4.1](https://github.com/joutio/joutio-theme/compare/v3.4.0...v3.4.1) (2026-11-14)
 
 ### Bug Fixes
