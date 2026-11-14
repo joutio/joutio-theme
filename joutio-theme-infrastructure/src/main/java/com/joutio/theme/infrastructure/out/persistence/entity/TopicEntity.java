@@ -117,5 +117,9 @@ public class TopicEntity {
     @Searchable(type = FieldType.DATE)
     @Column(name = "updated_at")
     private Instant updatedAt;
+
+    /** Dernier ajout ou retrait de question jouable (tri « Fraîchement mis à jour »), voir {@code Topic#questionsChangedAt}. */
+    @Column(name = "questions_changed_at")
+    private Instant questionsChangedAt;
 }
 

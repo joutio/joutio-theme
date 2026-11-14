@@ -126,8 +126,11 @@ lorsque la difficulté calculée change, la projection envoie une
 
 - `TopicQuery.GetTopicPageQuery(nameQuery, category, sort, page, size)` → `TopicPage` : page du
   catalogue publié (tri `POPULAR|MOST_PLAYED|ALPHA|RECENT` — `MOST_PLAYED` = compteur
-  **communautaire** de parties jouées `games_counter desc`, `RECENT` = `updatedAt desc`, alimente
-  la section « nouveaux thèmes » de l'accueil), filtre texte normalisé côté handler. `updatedAt` =
+  **communautaire** de parties jouées `games_counter desc`, `RECENT` = `questionsChangedAt desc` (2026-11-14),
+  alimente la section « Fraîchement mis à jour » de l'accueil), filtre texte normalisé côté handler. `questionsChangedAt` = dernier **ajout ou
+  retrait de question jouable** (nombre de questions approuvées qui change : approbation, suppression, archivage,
+  suspension, rétablissement) ou publication du thème ; ni renommage, ni image, ni édition de question n'y touchent
+  (migration V7, rattrapée sur `updated_at`). `updatedAt` =
   dernière mise à jour **de contenu** : publication, édition du sujet **et éditions de questions**
   (traduction/texte/réponses/bonne réponse/image — `TopicProjection`) ; jamais les follows ni la
   difficulté auto-calculée (`QuestionDifficultyUpdatedEvent` ignoré).

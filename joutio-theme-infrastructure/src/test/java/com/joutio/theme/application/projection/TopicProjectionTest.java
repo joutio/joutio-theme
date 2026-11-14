@@ -3,6 +3,7 @@ package com.joutio.theme.application.projection;
 import com.joutio.microservice.core.domain.model.i18n.Language;
 import com.joutio.theme.domain.event.QuestionEvent;
 import com.joutio.theme.domain.model.Question;
+import com.joutio.theme.domain.model.QuestionStatus;
 import com.joutio.theme.domain.model.Topic;
 import com.joutio.theme.domain.port.out.QuestionRepositoryPort;
 import com.joutio.theme.domain.port.out.TopicFollowerRefRepositoryPort;
@@ -14,6 +15,7 @@ import org.mockito.ArgumentCaptor;
 
 import java.time.Instant;
 import java.util.Arrays;
+import java.util.Map;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -48,6 +50,65 @@ class TopicProjectionTest {
         verify(topicRepository).save(captor.capture());
         assertThat(captor.getValue().topicId()).isEqualTo("topic-1");
         assertThat(captor.getValue().updatedAt()).isEqualTo(AT);
+        // Éditer une question ne fait pas remonter le thème dans « Fraîchement mis à jour ».
+        assertThat(captor.getValue().questionsChangedAt()).isNull();
+    }
+
+    @Test
+    void questionApproved_bumpsQuestionsChangedAtWhenApprovedCountGrows() {
+        Instant before = Instant.parse("2026-10-01T00:00:00Z");
+        when(topicRepository.findById("topic-1"))
+                .thenReturn(Optional.of(Topic.builder()
+                        .topicId("topic-1")
+                        .questionsCounter(Map.of(QuestionStatus.APPROVED, 3))
+                        .questionsChangedAt(before)
+                        .build()));
+        when(questionRepository.countByTopicIdAndStatus("topic-1", QuestionStatus.APPROVED)).thenReturn(4);
+
+        projection.on(new QuestionEvent.QuestionApprovedEvent(
+                "question-1", "topic-1", QuestionStatus.PENDING, "moderator-1", AT));
+
+        ArgumentCaptor<Topic> captor = ArgumentCaptor.forClass(Topic.class);
+        verify(topicRepository).save(captor.capture());
+        assertThat(captor.getValue().questionsChangedAt()).isEqualTo(AT);
+    }
+
+    @Test
+    void questionDeleted_bumpsQuestionsChangedAtWhenApprovedCountShrinks() {
+        Instant before = Instant.parse("2026-10-01T00:00:00Z");
+        when(topicRepository.findById("topic-1"))
+                .thenReturn(Optional.of(Topic.builder()
+                        .topicId("topic-1")
+                        .questionsCounter(Map.of(QuestionStatus.APPROVED, 4))
+                        .questionsChangedAt(before)
+                        .build()));
+        when(questionRepository.countByTopicIdAndStatus("topic-1", QuestionStatus.APPROVED)).thenReturn(3);
+
+        projection.on(new QuestionEvent.QuestionDeletedEvent("question-1", "topic-1", "author-1", AT));
+
+        ArgumentCaptor<Topic> captor = ArgumentCaptor.forClass(Topic.class);
+        verify(topicRepository).save(captor.capture());
+        assertThat(captor.getValue().questionsChangedAt()).isEqualTo(AT);
+    }
+
+    @Test
+    void questionRejected_keepsQuestionsChangedAtWhenApprovedCountIsUnchanged() {
+        Instant before = Instant.parse("2026-10-01T00:00:00Z");
+        when(topicRepository.findById("topic-1"))
+                .thenReturn(Optional.of(Topic.builder()
+                        .topicId("topic-1")
+                        .questionsCounter(Map.of(QuestionStatus.APPROVED, 3))
+                        .questionsChangedAt(before)
+                        .build()));
+        when(questionRepository.countByTopicIdAndStatus("topic-1", QuestionStatus.APPROVED)).thenReturn(3);
+
+        projection.on(new QuestionEvent.QuestionRejectedEvent(
+                "question-1", "topic-1", QuestionStatus.PENDING, "Hors sujet", "moderator-1", AT));
+
+        ArgumentCaptor<Topic> captor = ArgumentCaptor.forClass(Topic.class);
+        verify(topicRepository).save(captor.capture());
+        assertThat(captor.getValue().updatedAt()).isEqualTo(AT);
+        assertThat(captor.getValue().questionsChangedAt()).isEqualTo(before);
     }
 
     @Test

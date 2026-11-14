@@ -77,7 +77,8 @@ public class TopicProjection {
                         event.titles(),
                         event.createdAt(),
                         event.createdAt(),
-                        event.description() == null ? Map.of() : Map.of(Language.FR, event.description()));
+                        event.description() == null ? Map.of() : Map.of(Language.FR, event.description()),
+                        event.createdAt());
         topicRepositoryPort.save(topic);
     }
 
@@ -104,6 +105,7 @@ public class TopicProjection {
                                                 .status(TopicStatus.PUBLISHED)
                                                 .updatedBy(event.updatedBy())
                                                 .updatedAt(event.publishedAt())
+                                                .questionsChangedAt(event.publishedAt())
                                                 .build()));
     }
 
@@ -224,8 +226,10 @@ public class TopicProjection {
     }
 
     /**
-     * Éditions de contenu d'une question : le thème remonte dans « nouveaux thèmes » de l'accueil
-     * (`updatedAt`). Ces événements ne portent que `questionId` : le thème est résolu via la
+     * Éditions de contenu d'une question : `updatedAt` du thème est mis à jour, mais **pas**
+     * `questionsChangedAt` : une édition ne fait pas remonter le thème dans « Fraîchement mis à jour »
+     * de l'accueil (seuls l'ajout ou le retrait d'une question jouable le font). Ces événements ne
+     * portent que `questionId` : le thème est résolu via la
      * question, déjà projetée (événement d'édition d'une question existante) — pas de recalcul des
      * compteurs, les statuts ne changent pas. La difficulté auto-calculée
      * (`QuestionDifficultyUpdatedEvent`) est volontairement ignorée : ce n'est pas une édition
@@ -325,12 +329,20 @@ public class TopicProjection {
         topicRepositoryPort
                 .findById(topicId)
                 .ifPresent(
-                        topic ->
-                                topicRepositoryPort.save(
-                                        topic.toBuilder()
-                                                .questionsCounter(counters)
-                                                .updatedAt(updatedAt)
-                                                .build()));
+                        topic -> {
+                            Topic.TopicBuilder builder =
+                                    topic.toBuilder().questionsCounter(counters).updatedAt(updatedAt);
+                            // Seul un vrai ajout ou retrait de question jouable fait remonter le thème : une question
+                            // en attente, rejetée ou simplement éditée ne change pas le nombre d'approuvées.
+                            if (approved(topic.questionsCounter()) != approved(counters)) {
+                                builder.questionsChangedAt(updatedAt);
+                            }
+                            topicRepositoryPort.save(builder.build());
+                        });
+    }
+
+    private static int approved(Map<QuestionStatus, Integer> counters) {
+        return counters == null ? 0 : counters.getOrDefault(QuestionStatus.APPROVED, 0);
     }
 
     /** Bump `updatedAt` d'un thème à partir d'une édition de question (statuts inchangés). */

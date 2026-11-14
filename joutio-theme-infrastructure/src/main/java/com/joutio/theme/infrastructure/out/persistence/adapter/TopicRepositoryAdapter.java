@@ -141,8 +141,9 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
             return Sort.by(Sort.Order.desc("gamesCounter"), Sort.Order.asc("nameFr"));
         }
         if (sort == TopicSort.RECENT) {
-            // Publication et modifications de contenu (questions) mettent à jour `updatedAt`.
-            return Sort.by(Sort.Order.desc("updatedAt"), Sort.Order.asc("nameFr"));
+            // Publication, ajout ou retrait d'une question jouable (`questionsChangedAt`) : un renommage, une image ou
+            // l'édition d'une question ne font pas remonter le thème.
+            return Sort.by(Sort.Order.desc("questionsChangedAt").nullsLast(), Sort.Order.asc("nameFr"));
         }
         return Sort.by(Sort.Order.desc("followersCounter"), Sort.Order.asc("nameFr"));
     }

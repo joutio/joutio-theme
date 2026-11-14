@@ -36,7 +36,14 @@ public record Topic(
          * Description par langue (2026-11-13), ou vide. {@link #description()} reste la description française
          * (contrat antérieur, repli des consommateurs qui ne lisent pas encore cette carte).
          */
-        Map<Language, String> descriptions
+        Map<Language, String> descriptions,
+        /**
+         * Dernier changement du **contenu jouable** (2026-11-14) : publication du thème, ou nombre de questions
+         * approuvées qui change (ajout, suppression, archivage, suspension, rétablissement). Ni un renommage, ni une
+         * image, ni l'édition d'une question n'y touchent. C'est la date du tri {@code RECENT} (« Fraîchement mis à
+         * jour » de l'accueil). {@link #updatedAt()} reste la date de dernière modification, quelle qu'elle soit.
+         */
+        Instant questionsChangedAt
 ) {
 
     /** Description dans {@code language}, sinon la française, sinon {@code null}. */

@@ -45,7 +45,8 @@ public final class TopicEntityMapper {
                 TopicTitlesJson.read(entity.getTitleNames()),
                 entity.getCreatedAt(),
                 entity.getUpdatedAt(),
-                descriptions
+                descriptions,
+                entity.getQuestionsChangedAt()
         );
     }
 
@@ -75,6 +76,7 @@ public final class TopicEntityMapper {
         topicEntity.setTitleNames(TopicTitlesJson.write(topic.titles()));
         topicEntity.setCreatedAt(topic.createdAt());
         topicEntity.setUpdatedAt(topic.updatedAt());
+        topicEntity.setQuestionsChangedAt(topic.questionsChangedAt());
         return topicEntity;
     }
 }
