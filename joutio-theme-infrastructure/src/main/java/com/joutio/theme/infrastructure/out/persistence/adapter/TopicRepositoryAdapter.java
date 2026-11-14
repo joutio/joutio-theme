@@ -143,7 +143,9 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
         if (sort == TopicSort.RECENT) {
             // Publication, ajout ou retrait d'une question jouable (`questionsChangedAt`) : un renommage, une image ou
             // l'édition d'une question ne font pas remonter le thème.
-            return Sort.by(Sort.Order.desc("questionsChangedAt").nullsLast(), Sort.Order.asc("nameFr"));
+            // Pas de `nullsLast()` : Spring Data JPA (Criteria) ne gère pas la précédence des nuls ; la migration V7
+            // renseigne toutes les lignes, seuls des brouillons jamais publiés restent nuls.
+            return Sort.by(Sort.Order.desc("questionsChangedAt"), Sort.Order.asc("nameFr"));
         }
         return Sort.by(Sort.Order.desc("followersCounter"), Sort.Order.asc("nameFr"));
     }
