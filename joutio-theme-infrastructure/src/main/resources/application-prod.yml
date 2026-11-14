@@ -12,3 +12,10 @@ app:
     enabled: ${JOUTIO_SEED_DATA_ENABLED:true}
     # Miroir d'images du seed : joutio-workspace/product/wikipedia, publié par scripts/seed-images.py.
     image-base-url: ${JOUTIO_SEED_IMAGE_BASE_URL:https://media.joutio.com/joutio-media/}
+    # Cadence : un seed complet après reset (≈ 32 000 commandes) est étalé au lieu d'une rafale qui
+    # sature le nœud (theme + Kafka + Postgres) et tous les consommateurs du topic Axon partagé.
+    pacing:
+      start-delay: ${JOUTIO_SEED_START_DELAY:60s}
+      duty-ratio: ${JOUTIO_SEED_DUTY_RATIO:1.0}
+      max-question-pause: ${JOUTIO_SEED_MAX_QUESTION_PAUSE:2s}
+      topic-pause: ${JOUTIO_SEED_TOPIC_PAUSE:5s}

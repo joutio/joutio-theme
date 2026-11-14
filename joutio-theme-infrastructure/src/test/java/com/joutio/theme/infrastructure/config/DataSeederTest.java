@@ -86,7 +86,9 @@ class DataSeederTest {
                 getQuestionUseCase,
                 seedDataLoader,
                 meterRegistry,
-                new AppProperties(new AppProperties.SeedData(enabled, "ignored", "")));
+                new AppProperties(
+                        new AppProperties.SeedData(
+                                enabled, "ignored", "", AppProperties.Pacing.NONE)));
     }
 
     private double seedOutcomeCount(String outcome) {

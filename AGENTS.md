@@ -191,6 +191,15 @@ lorsque la difficulté calculée change, la projection envoie une
   `imageUrl` est un **chemin relatif** (`wikipedia/<categorie>/<fichier>`, ex.
   `wikipedia/technology/Ada_Lovelace_portrait.jpg`), résolu par `SeedDataLoader` en
   `app.seed-data.image-base-url + chemin` (les URLs absolues http(s) restent acceptées).
+- **Cadence du seed** (`app.seed-data.pacing.*`, `SeedPacer`) : un seed complet après reset (~10 700
+  questions ≈ 32 000 commandes, chacune lue par tous les processors du topic Axon partagé) est **étalé**
+  au lieu d'une rafale : `start-delay` avant le premier thème (laisser les services redémarrer),
+  pause après chaque question = durée de ses commandes × `duty-ratio` (plafond `max-question-pause` —
+  adaptatif : la pause s'allonge quand le cluster ralentit), `topic-pause` après un thème créé ou
+  réparé (jamais après un thème inchangé : un redémarrage sans travail reste rapide). Défauts neutres
+  (local/tests) ; prod : `60s` / `1.0` / `2s` / `5s` (`JOUTIO_SEED_*`). Métrique
+  `joutio_theme_seed_pause_seconds_total` ; log `Seed progress n/N` par thème traité. Le sondage
+  d'approbation avant publication est à 500 ms (timeout 60 s).
 - **Difficulté initiale du seed** : la difficulté par défaut est **calculée** depuis les statistiques
   de réponses (`QuestionRules.difficultyFor`, seuils 80/60/40 %, min. 10 réponses —
   `QuestionDifficultyProjection`). Le seed porte une difficulté **initiale optionnelle**, posée par

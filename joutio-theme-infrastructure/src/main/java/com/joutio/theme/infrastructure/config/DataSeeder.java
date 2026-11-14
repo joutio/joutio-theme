@@ -22,6 +22,7 @@ import com.joutio.theme.domain.port.in.UpdateQuestionDifficultyUseCase;
 import com.joutio.theme.infrastructure.config.seed.QuestionIdentity;
 import com.joutio.theme.infrastructure.config.seed.QuestionSeedDefinition;
 import com.joutio.theme.infrastructure.config.seed.SeedDataLoader;
+import com.joutio.theme.infrastructure.config.seed.SeedPacer;
 import com.joutio.theme.infrastructure.config.seed.TopicSeedDefinition;
 import com.joutio.theme.infrastructure.properties.AppProperties;
 
@@ -38,6 +39,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.ResourceAccessException;
 
 import java.net.ConnectException;
+import java.time.Duration;
 import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
@@ -65,6 +67,10 @@ import java.util.concurrent.CompletionException;
  * l'application n'attend pas la fin du seed (indispensable quand le catalogue est volumineux, sinon
  * les probes Kubernetes tuent le pod en plein seed).
  *
+ * <p>Cadence ({@code app.seed-data.pacing.*}, {@link SeedPacer}) : délai de démarrage, pause après
+ * chaque question proportionnelle au temps de ses commandes et pause entre thèmes traités — un
+ * seed complet après reset étale sa charge au lieu de saturer le cluster.
+ *
  * <p>Active uniquement si app.seed-data.enabled=true.
  */
 @Component
@@ -72,8 +78,11 @@ public class DataSeeder {
 
     private static final Logger logger = LoggerFactory.getLogger(DataSeeder.class);
 
-    private static final int APPROVAL_WAIT_TIMEOUT_MS = 30_000;
-    private static final int APPROVAL_POLL_INTERVAL_MS = 150;
+    private static final int APPROVAL_WAIT_TIMEOUT_MS = 60_000;
+    // Chaque sondage recharge toutes les questions du thème : intervalle large pour ne pas
+    // concurrencer la projection qu'on attend.
+    private static final int APPROVAL_POLL_INTERVAL_MS = 500;
+    private static final int TOPIC_POLL_INTERVAL_MS = 150;
     private static final int TOPIC_READ_TIMEOUT_MS = 10_000;
     private static final int SEED_MAX_ATTEMPTS = 4;
     private static final long SEED_RETRY_DELAY_INCREMENT_MS = 2_000;
@@ -90,6 +99,7 @@ public class DataSeeder {
     private final GetQuestionUseCase getQuestionUseCase;
     private final SeedDataLoader seedDataLoader;
     private final boolean seedDataEnabled;
+    private final SeedPacer pacer;
     private final Counter createdTopicsCounter;
     private final Counter repairedTopicsCounter;
     private final Counter skippedTopicsCounter;
@@ -122,6 +132,7 @@ public class DataSeeder {
         this.getQuestionUseCase = getQuestionUseCase;
         this.seedDataLoader = seedDataLoader;
         this.seedDataEnabled = properties.seedData().enabled();
+        this.pacer = new SeedPacer(properties.seedData().pacing(), meterRegistry);
         this.createdTopicsCounter = seedOutcomeCounter(meterRegistry, "created");
         this.repairedTopicsCounter = seedOutcomeCounter(meterRegistry, "repaired");
         this.skippedTopicsCounter = seedOutcomeCounter(meterRegistry, "skipped");
@@ -158,9 +169,11 @@ public class DataSeeder {
             return;
         }
 
+        pacer.beforeStart();
         logger.info("=== Starting Theme Data Seeding ===");
         long startedAt = System.currentTimeMillis();
         List<TopicSeedDefinition> definitions = seedDataLoader.loadAll();
+        int index = 0;
 
         int created = 0;
         int repaired = 0;
@@ -168,8 +181,20 @@ public class DataSeeder {
         int failed = 0;
 
         for (TopicSeedDefinition definition : definitions) {
+            index++;
+            long topicStartedAt = System.currentTimeMillis();
             try {
                 TopicSeedOutcome outcome = seedTopicWithRetry(definition);
+                if (outcome != TopicSeedOutcome.SKIPPED) {
+                    logger.info(
+                            "Seed progress {}/{}: topic {} {} in {} ms",
+                            index,
+                            definitions.size(),
+                            definition.topicId(),
+                            outcome.name().toLowerCase(java.util.Locale.ROOT),
+                            System.currentTimeMillis() - topicStartedAt);
+                    pacer.afterTopic();
+                }
                 switch (outcome) {
                     case CREATED -> {
                         created++;
@@ -281,6 +306,7 @@ public class DataSeeder {
             int translationsAdded = 0;
             int difficultiesInitialized = 0;
             for (QuestionSeedDefinition question : definition.questions()) {
+                long questionStartedAt = System.nanoTime();
                 Question existing = existingByIdentity.get(QuestionIdentity.of(question));
                 if (existing == null) {
                     if (createQuestion(topicId, question) != null) {
@@ -290,6 +316,7 @@ public class DataSeeder {
                     translationsAdded += addMissingTranslations(existing, question);
                     difficultiesInitialized += initializeMissingDifficulty(existing, question);
                 }
+                pacer.afterQuestion(Duration.ofNanos(System.nanoTime() - questionStartedAt));
             }
             logger.info(
                     "Topic {} is already published ({} question(s) added, {} translation(s) added, "
@@ -309,6 +336,7 @@ public class DataSeeder {
         int difficultiesInitialized = 0;
 
         for (QuestionSeedDefinition question : definition.questions()) {
+            long questionStartedAt = System.nanoTime();
             Question existing = existingByIdentity.remove(QuestionIdentity.of(question));
             if (existing == null) {
                 String questionId = createQuestion(topicId, question);
@@ -323,6 +351,7 @@ public class DataSeeder {
                 translationsAdded += addMissingTranslations(existing, question);
                 difficultiesInitialized += initializeMissingDifficulty(existing, question);
             }
+            pacer.afterQuestion(Duration.ofNanos(System.nanoTime() - questionStartedAt));
         }
 
         awaitApprovedQuestions(topicId, definition.questions().size());
@@ -457,7 +486,7 @@ public class DataSeeder {
                 if (!isTopicNotFound(e)) {
                     throw e;
                 }
-                sleep(APPROVAL_POLL_INTERVAL_MS);
+                sleep(TOPIC_POLL_INTERVAL_MS);
             }
         }
 
