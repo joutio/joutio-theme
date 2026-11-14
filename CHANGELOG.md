@@ -1,3 +1,9 @@
+## [3.4.0](https://github.com/joutio/joutio-theme/compare/v3.3.0...v3.4.0) (2026-11-14)
+
+### Features
+
+* **theme:** sort "recent" topics by added or removed questions, not by any update ([25d7f93](https://github.com/joutio/joutio-theme/commit/25d7f933be95b9bb25e6055a3ca921274fe08cf9))
+
 ## [3.3.0](https://github.com/joutio/joutio-theme/compare/v3.2.0...v3.3.0) (2026-11-13)
 
 ### Features
