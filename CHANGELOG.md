@@ -1,3 +1,9 @@
+## [3.4.1](https://github.com/joutio/joutio-theme/compare/v3.4.0...v3.4.1) (2026-11-14)
+
+### Bug Fixes
+
+* **theme:** drop nullsLast from the RECENT sort, unsupported by Criteria queries ([f1b9fc6](https://github.com/joutio/joutio-theme/commit/f1b9fc6a8e8a3ccbd8ad9aa84eac85170f465cf2))
+
 ## [3.4.0](https://github.com/joutio/joutio-theme/compare/v3.3.0...v3.4.0) (2026-11-14)
 
 ### Features
