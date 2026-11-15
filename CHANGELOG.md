@@ -1,3 +1,9 @@
+## [3.7.0](https://github.com/joutio/joutio-theme/compare/v3.6.0...v3.7.0) (2026-11-15)
+
+### Features
+
+* **seed:** pictograms for every seeded topic ([f09a575](https://github.com/joutio/joutio-theme/commit/f09a575bdbae4bc9b8215d92f84bf04d391f7978))
+
 ## [3.6.0](https://github.com/joutio/joutio-theme/compare/v3.5.0...v3.6.0) (2026-11-15)
 
 ### Features
