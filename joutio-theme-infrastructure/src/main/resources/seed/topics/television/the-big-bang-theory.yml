@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Nobel Prize Winner"
       DIAMANT: "Eternal Bazinga"
   imageUrl: wikipedia/television/Jim_Parsons_at_PaleyFest_2013.jpg
+  pictogramUrl: pictogrammes/the-big-bang-theory.svg
 questions:
   - text: "Quel est le nom complet de Sheldon Cooper ?"
     answers:

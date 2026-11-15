@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Code Wizard"
       DIAMANT: "Ghost in the Machine"
   imageUrl: wikipedia/technology/Ada_Lovelace_portrait.jpg
+  pictogramUrl: pictogrammes/informatique.svg
 questions:
   - text: "Qui est le père de l'informatique ?"
     imageUrl: wikipedia/technology/Alan_Turing_Aged_16.jpg

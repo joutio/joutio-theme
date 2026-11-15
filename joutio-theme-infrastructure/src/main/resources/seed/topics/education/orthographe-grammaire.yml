@@ -23,6 +23,7 @@ topic:
       PLATINE: "Conjugation Guardian"
       EMERAUDE: "Grammar Sentinel"
       DIAMANT: "Immortal of the Academy"
+  pictogramUrl: pictogrammes/orthographe-grammaire.svg
 questions:
   - text: "Quel est le participe passé du verbe « absoudre » ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Keeper of the Canon"
       DIAMANT: "Olympian Omniscient"
   imageUrl: wikipedia/arts/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg
+  pictogramUrl: pictogrammes/livres-et-mythes.svg
 questions:
   - text: "Qui a écrit la tragédie Roméo et Juliette ?"
     imageUrl: wikipedia/literature/Shakespeare.jpg

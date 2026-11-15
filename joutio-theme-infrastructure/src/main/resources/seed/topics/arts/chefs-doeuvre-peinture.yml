@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Chief Curator"
       DIAMANT: "Immortal of Parnassus"
   imageUrl: wikipedia/arts/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg
+  pictogramUrl: pictogrammes/chefs-doeuvre-peinture.svg
 questions:
   - text: "Qui a peint ce tableau ?"
     imageUrl: wikipedia/arts/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg

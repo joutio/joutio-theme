@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Olympic Champion"
       DIAMANT: "Legend of the Rings"
   imageUrl: wikipedia/sports/Atlanta,_Olympic_rings_near_stadium.jpg
+  pictogramUrl: pictogrammes/jeux-olympiques.svg
 questions:
   - text: "Combien d'anneaux compte l'emblème olympique ?"
     imageUrl: wikipedia/sports/Olympic_Park_with_Olympic_Rings_2012.jpg

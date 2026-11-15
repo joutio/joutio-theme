@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Grand Cheesemonger"
       DIAMANT: "Roquefort Royalty"
   imageUrl: wikipedia/food-and-drink/(20251230)_Camembert_cheese_01.jpg
+  pictogramUrl: pictogrammes/fromages-et-terroirs.svg
 questions:
   - text: "Quel fromage AOP de Normandie est fabriqué exclusivement avec du lait cru et moulé à la main ?"
     answers:

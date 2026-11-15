@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Doctor of the Church"
       DIAMANT: "Church Father"
   imageUrl: wikipedia/religion/Jerusalem_Holy_Sepulchre_BW_22.jpg
+  pictogramUrl: pictogrammes/christianisme.svg
 questions:
   - text: "En quelle année le Concile de Nicée a-t-il été convoqué ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       PLATINE: "Toybox Brotherhood Chief"
       EMERAUDE: "Creative Director of the Spark"
       DIAMANT: "Keeper of Luxo Jr."
+  pictogramUrl: pictogrammes/pixar.svg
 questions:
   - text: "Quel est le nom du restaurant dans Ratatouille ?"
     answers:

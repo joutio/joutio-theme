@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Palme d'Or Winner"
       DIAMANT: "Legend of Cinema"
   imageUrl: wikipedia/movies/Film_reel.png
+  pictogramUrl: pictogrammes/cinema.svg
 questions:
   - text: "Quel acteur incarne Rick Blaine dans « Casablanca » ?"
     answers:

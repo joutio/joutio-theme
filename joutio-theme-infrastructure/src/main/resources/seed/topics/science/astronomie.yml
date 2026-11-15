@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Guardian of Galaxies"
       DIAMANT: "Lord of the Cosmos"
   imageUrl: wikipedia/general/The_Earth_seen_from_Apollo_17.jpg
+  pictogramUrl: pictogrammes/astronomie.svg
 questions:
   - text: "Quelle planète est surnommée la planète bleue ?"
     imageUrl: wikipedia/general/The_Earth_seen_from_Apollo_17.jpg

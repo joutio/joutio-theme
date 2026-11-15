@@ -23,6 +23,7 @@ topic:
       PLATINE: "Semi-final captain"
       EMERAUDE: "Final match star"
       DIAMANT: "World Cup legend"
+  pictogramUrl: pictogrammes/coupe-du-monde.svg
 questions:
   - text: "Quel pays a accueilli la première Coupe du monde en 1930 ?"
     answers:

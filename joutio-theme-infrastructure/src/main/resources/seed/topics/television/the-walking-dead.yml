@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Rick Grimes' Right Hand"
       DIAMANT: "Legend of the Wild Zone"
   imageUrl: wikipedia/television/The_Walking_Dead_cast_at_Comic-Con_2013.jpg
+  pictogramUrl: pictogrammes/the-walking-dead.svg
 questions:
   - text: "Quel est le nom complet du leader des Sauveurs ?"
     answers:

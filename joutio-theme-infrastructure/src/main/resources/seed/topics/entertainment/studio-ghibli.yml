@@ -23,6 +23,7 @@ topic:
       PLATINE: "Ashitaka's Kin"
       EMERAUDE: "Miyazaki's Apprentice"
       DIAMANT: "Celestial Realm Guardian"
+  pictogramUrl: pictogrammes/studio-ghibli.svg
 questions:
   - text: "Quel film du studio Ghibli a remporté l'Oscar du meilleur film d'animation en 2003 ?"
     answers:

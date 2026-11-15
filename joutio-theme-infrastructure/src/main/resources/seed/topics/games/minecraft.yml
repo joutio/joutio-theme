@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Ender Dragon Slayer"
       DIAMANT: "Universe Builder"
   imageUrl: wikipedia/games/MineCon2015ExpoHall.jpg
+  pictogramUrl: pictogrammes/minecraft.svg
 questions:
   - text: "Combien de temps met un four pour cuire un minerai de fer avec du charbon ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       PLATINE: "Storyteller"
       EMERAUDE: "Kingdom Keeper"
       DIAMANT: "Studio Legend"
+  pictogramUrl: pictogrammes/disney-classiques.svg
 questions:
   - text: "Quel est le nom du chien dans 'La Belle et le Clochard' ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Pharaoh of Upper and Lower Egypt"
       DIAMANT: "Osiris Reborn"
   imageUrl: wikipedia/history/Great_Sphinx_of_Giza_(2).jpg
+  pictogramUrl: pictogrammes/egypte-antique.svg
 questions:
   - text: "Quel roi de la Iʳᵉ dynastie est associé à la fondation de Memphis ?"
     answers:

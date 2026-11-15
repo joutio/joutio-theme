@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Agent 007"
       DIAMANT: "The Eternal Icon"
   imageUrl: wikipedia/movies/1964_Aston_Martin_DB5_4.0_Front.jpg
+  pictogramUrl: pictogrammes/james-bond.svg
 questions:
   - text: "Quel est le premier James Bond à mourir à l'écran ?"
     answers:

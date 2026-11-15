@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Triumphant Caesar"
       DIAMANT: "Divine Romulus"
   imageUrl: wikipedia/history/Colosseum_of_Rome,_Italy.jpg
+  pictogramUrl: pictogrammes/rome-antique.svg
 questions:
   - text: "Quel titre portait le chef de la cavalerie sous la monarchie romaine ?"
     answers:

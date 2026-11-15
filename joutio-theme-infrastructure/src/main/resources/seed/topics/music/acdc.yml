@@ -23,6 +23,7 @@ topic:
       PLATINE: "Back in Blacksmith"
       EMERAUDE: "Thunderstruck Master"
       DIAMANT: "Black Ice Legend"
+  pictogramUrl: pictogrammes/acdc.svg
 questions:
   - text: "En quelle année le batteur Phil Rudd a-t-il quitté AC/DC pour la première fois ?"
     answers:

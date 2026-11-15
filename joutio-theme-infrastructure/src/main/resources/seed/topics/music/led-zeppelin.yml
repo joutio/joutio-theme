@@ -23,6 +23,7 @@ topic:
       PLATINE: "Physical Graffiti Producer"
       EMERAUDE: "Stairway Guitarist"
       DIAMANT: "Hammer of the Gods Legend"
+  pictogramUrl: pictogrammes/led-zeppelin.svg
 questions:
   - text: "Quel est le nom de famille du batteur de Led Zeppelin ?"
     answers:

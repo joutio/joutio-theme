@@ -23,6 +23,7 @@ topic:
       PLATINE: "San Andreas Godfather"
       EMERAUDE: "Los Santos Legend"
       DIAMANT: "Crime Emperor"
+  pictogramUrl: pictogrammes/gta.svg
 questions:
   - text: "Quel est le nom du protagoniste de Grand Theft Auto III ?"
     answers:

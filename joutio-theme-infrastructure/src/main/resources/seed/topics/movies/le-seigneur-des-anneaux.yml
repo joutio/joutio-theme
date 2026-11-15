@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Ring-bearer"
       DIAMANT: "Lord of Middle-earth"
   imageUrl: wikipedia/movies/Hobbiton_Movie_Set,_Matamata.jpg
+  pictogramUrl: pictogrammes/le-seigneur-des-anneaux.svg
 questions:
   - text: "Quel personnage du Seigneur des Anneaux est le père de Boromir et Faramir ?"
     answers:

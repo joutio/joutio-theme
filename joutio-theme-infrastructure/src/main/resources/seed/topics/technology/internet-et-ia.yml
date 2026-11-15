@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Root DNS Guardian"
       DIAMANT: "Singularity Mind"
   imageUrl: wikipedia/technology/BalticServers_data_center.jpg
+  pictogramUrl: pictogrammes/internet-et-ia.svg
 questions:
   - text: "Quel protocole a été développé par Vint Cerf et Bob Kahn en 1974 pour interconnecter des réseaux hétérogènes ?"
     answers:

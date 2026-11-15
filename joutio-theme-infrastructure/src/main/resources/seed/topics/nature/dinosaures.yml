@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Cretaceous Overlord"
       DIAMANT: "Mesozoic Memory"
   imageUrl: wikipedia/nature/Tyrannosaurus_rex_skeleton_(cast_of_specimen_MOR_555)_at_Cleveland_Museum_of_Natural_History.jpg
+  pictogramUrl: pictogrammes/dinosaures.svg
 questions:
   - text: "Quel dinosaure du Crétacé supérieur d'Amérique du Nord possédait une corne nasale courte et deux cornes frontales bien développées ?"
     answers:

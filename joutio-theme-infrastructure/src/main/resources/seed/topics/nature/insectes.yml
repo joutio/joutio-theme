@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Hive Guardian"
       DIAMANT: "Insect King"
   imageUrl: wikipedia/nature/Adalia_bipunctata_(2007-04-08).jpg
+  pictogramUrl: pictogrammes/insectes.svg
 questions:
   - text: "Quel ordre d'insectes regroupe les mouches et les moustiques ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       PLATINE: "Official Fan Club Member"
       EMERAUDE: "Main Offender Legend"
       DIAMANT: "Rock's Philosopher's Stone"
+  pictogramUrl: pictogrammes/rolling-stones.svg
 questions:
   - text: "En quelle année les Rolling Stones ont-ils sorti leur premier album studio éponyme ?"
     answers:

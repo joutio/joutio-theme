@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "King of England"
       DIAMANT: "Emperor Charlemagne"
   imageUrl: wikipedia/history/Castle_of_Carcassonne.jpg
+  pictogramUrl: pictogrammes/moyen-age.svg
 questions:
   - text: "Quel souverain a convoqué les états généraux de Tours en 1308 ?"
     answers:

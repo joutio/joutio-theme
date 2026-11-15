@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Michelin Starred"
       DIAMANT: "Immortal Toque"
   imageUrl: wikipedia/food-and-drink/Paella_valenciana.jpg
+  pictogramUrl: pictogrammes/gastronomie-du-monde.svg
 questions:
   - text: "Quel plat espagnol au riz safrané est-ce ?"
     imageUrl: wikipedia/food-and-drink/Paella_de_marisco.jpg

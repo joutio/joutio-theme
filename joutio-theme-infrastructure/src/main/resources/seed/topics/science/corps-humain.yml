@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Grand master of the body"
       DIAMANT: "Legend of anatomy"
   imageUrl: wikipedia/science/Human_anatomy_planes,_labeled.jpg
+  pictogramUrl: pictogrammes/corps-humain.svg
 questions:
   - text: "Quel organe est situé dans le médiastin antérieur, entre les poumons ?"
     answers:

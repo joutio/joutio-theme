@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Worlds Challenger"
       DIAMANT: "Nexus Legend"
   imageUrl: wikipedia/games/GAME_CITY_2019.jpg
+  pictogramUrl: pictogrammes/esport.svg
 questions:
   - text: "Quelle équipe a remporté les Championnats du monde de League of Legends 2020 ?"
     answers:

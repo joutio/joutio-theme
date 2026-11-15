@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Court Composer"
       DIAMANT: "Conservatory Immortal"
   imageUrl: wikipedia/music/Johann_Sebastian_Bach.jpg
+  pictogramUrl: pictogrammes/musique-classique.svg
 questions:
   - text: "Qui a composé la célèbre Toccata et fugue en ré mineur ?"
     imageUrl: wikipedia/music/Johann_Sebastian_Bach.jpg

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Doctor of Gossip"
       DIAMANT: "Central Perk Lobster"
   imageUrl: wikipedia/television/Friends_exterior.jpg
+  pictogramUrl: pictogrammes/friends.svg
 questions:
   - text: "Quel est le métier de Gary, le petit ami de Phoebe ?"
     answers:

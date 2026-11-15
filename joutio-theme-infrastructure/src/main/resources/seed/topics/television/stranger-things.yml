@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Friend of Eleven"
       DIAMANT: "Guardian of Hawkins"
   imageUrl: wikipedia/television/Millie_Bobby_Brown_(29895755373).jpg
+  pictogramUrl: pictogrammes/stranger-things.svg
 questions:
   - text: "Quel est le nom de code du projet gouvernemental associé au laboratoire de Hawkins ?"
     answers:

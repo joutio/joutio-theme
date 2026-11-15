@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Lord of Theorems"
       DIAMANT: "Euler's Mind"
   imageUrl: wikipedia/science/Pythagorean_Theorem_Proof_with_Algebra.png
+  pictogramUrl: pictogrammes/mathematiques.svg
 questions:
   - text: "Quel est le résultat de l'opération 15 + 27 ?"
     answers:

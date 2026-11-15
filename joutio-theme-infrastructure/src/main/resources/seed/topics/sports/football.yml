@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Ballon d'Or Winner"
       DIAMANT: "Football Legend"
   imageUrl: wikipedia/sports/Football_(soccer_ball).png
+  pictogramUrl: pictogrammes/football.svg
 questions:
   - text: "Quel pays a remporté la Coupe du monde de football 1954 ?"
     answers:

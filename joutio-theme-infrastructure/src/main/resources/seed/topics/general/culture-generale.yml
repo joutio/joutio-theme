@@ -23,6 +23,7 @@ topic:
       PLATINE: "Walking Encyclopedia"
       EMERAUDE: "Quiz Nobel Laureate"
       DIAMANT: "Trivial Pursuit Legend"
+  pictogramUrl: pictogrammes/culture-generale.svg
 questions:
   - text: "Quelle mission spatiale a pris cette photo en 1972 ?"
     imageUrl: wikipedia/general/The_Earth_seen_from_Apollo_17.jpg

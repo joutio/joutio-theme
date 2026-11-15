@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Great Beast Whisperer"
       DIAMANT: "Modern-Day Noah"
   imageUrl: wikipedia/nature/African_Bush_Elephant.jpg
+  pictogramUrl: pictogrammes/animaux-du-monde.svg
 questions:
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Eurasian_Otter_(Lutra_lutra)_on_the_beach_at_Norwick_-_geograph.org.uk_-_5921283.jpg

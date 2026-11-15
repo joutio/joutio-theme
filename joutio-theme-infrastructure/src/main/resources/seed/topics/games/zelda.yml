@@ -23,6 +23,7 @@ topic:
       PLATINE: "Sage of the Triforce"
       EMERAUDE: "Hero of Time"
       DIAMANT: "Hero's Incarnation"
+  pictogramUrl: pictogrammes/zelda.svg
 questions:
   - text: "Dans quel épisode de la série The Legend of Zelda apparaît pour la première fois le personnage de Vaati ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Lord of the Tides"
       DIAMANT: "Atlantis Guardian"
   imageUrl: wikipedia/nature/Coral_(Galaxea_fascicularis),_mar_Rojo,_Egipto,_2023-04-18,_DD_128.jpg
+  pictogramUrl: pictogrammes/mer-et-oceans.svg
 questions:
   - text: "Quelle fosse océanique est la plus profonde de l'océan Atlantique ?"
     answers:

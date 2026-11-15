@@ -23,6 +23,7 @@ topic:
       PLATINE: "Brand Strategist"
       EMERAUDE: "Visionary Founder"
       DIAMANT: "Business Icon"
+  pictogramUrl: pictogrammes/marques-et-slogans.svg
 questions:
   - text: "Quel est le slogan historique de la marque de déodorant Axe ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Player 456"
       DIAMANT: "Front Man"
   imageUrl: wikipedia/television/Promotional_event_for_(Squid_Game)_in_Shibuya.jpg
+  pictogramUrl: pictogrammes/squid-game.svg
 questions:
   - text: "Quel est le nom coréen original de la série Squid Game ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Best Craftsman"
       DIAMANT: "Pie King"
   imageUrl: wikipedia/food-and-drink/Cremebrulee.jpg
+  pictogramUrl: pictogrammes/desserts-patisserie.svg
 questions:
   - text: "Quel est le nom de cette tarte renversée ?"
     imageUrl: wikipedia/food-and-drink/Tarte_tatin.jpg

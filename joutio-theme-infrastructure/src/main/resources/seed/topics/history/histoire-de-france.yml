@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Sun King"
       DIAMANT: "Emperor of the French"
   imageUrl: wikipedia/history/Prise_de_la_Bastille.jpg
+  pictogramUrl: pictogrammes/histoire-de-france.svg
 questions:
   - text: "Quel chef gaulois a affronté César à Alésia ?"
     imageUrl: wikipedia/history/Vercingetorix_statue.jpg

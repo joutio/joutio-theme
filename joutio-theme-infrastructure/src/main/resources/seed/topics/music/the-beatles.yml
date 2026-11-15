@@ -23,6 +23,7 @@ topic:
       PLATINE: "Rooftop Producer"
       EMERAUDE: "Fifth Beatle"
       DIAMANT: "Apple Legend"
+  pictogramUrl: pictogrammes/the-beatles.svg
 questions:
   - text: "Quel est le titre de l'album des Beatles sorti le 22 novembre 1968, souvent appelé 'The White Album' en raison de sa pochette blanche ?"
     answers:

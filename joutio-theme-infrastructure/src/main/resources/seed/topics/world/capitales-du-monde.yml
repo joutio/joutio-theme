@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Living Atlas"
       DIAMANT: "Meridian Spirit"
   imageUrl: wikipedia/religion/NotreDameDeParis.jpg
+  pictogramUrl: pictogrammes/capitales-du-monde.svg
 questions:
   - text: "Quelle est la capitale de la Bolivie (siège du gouvernement) ?"
     answers:

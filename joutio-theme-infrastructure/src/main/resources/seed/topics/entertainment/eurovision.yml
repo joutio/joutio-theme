@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Eurovision Winner"
       DIAMANT: "Eurovision Legend"
   imageUrl: wikipedia/entertainment/Eurovision_Song_Contest_2025_Stage.jpg
+  pictogramUrl: pictogrammes/eurovision.svg
 questions:
   - text: "Quel pays a remporté l'Eurovision 1969 avec « Vivo cantando » ?"
     answers:

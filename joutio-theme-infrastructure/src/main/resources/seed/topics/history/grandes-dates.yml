@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Clockmaker of Ages"
       DIAMANT: "Eternal Scribe"
   imageUrl: wikipedia/history/Declaration_of_Independence_(1819),_by_John_Trumbull.jpg
+  pictogramUrl: pictogrammes/grandes-dates.svg
 questions:
   - text: "Qui a inventé l'imprimerie vers 1450 ?"
     imageUrl: wikipedia/history/Gutenberg.jpg

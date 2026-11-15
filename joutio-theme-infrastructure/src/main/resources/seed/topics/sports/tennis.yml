@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Grand Slam Champion"
       DIAMANT: "Tennis Legend"
   imageUrl: wikipedia/sports/Court_Philippe-Chatrier_2023.jpg
+  pictogramUrl: pictogrammes/tennis.svg
 questions:
   - text: "Quel joueur a remporté le premier tournoi de l'ère Open à Wimbledon en 1968 ?"
     answers:

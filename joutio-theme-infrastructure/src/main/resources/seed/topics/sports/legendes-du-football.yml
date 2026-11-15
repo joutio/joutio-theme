@@ -23,6 +23,7 @@ topic:
       PLATINE: "Midfield Maestro"
       EMERAUDE: "Ballon d'Or Winner"
       DIAMANT: "Football Royalty"
+  pictogramUrl: pictogrammes/legendes-du-football.svg
 questions:
   - text: "Quel joueur détient le record du plus grand nombre de Ballons d'or remportés ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       PLATINE: "CD Burner Master"
       EMERAUDE: "MP3 Legend"
       DIAMANT: "Y2K Guardian"
+  pictogramUrl: pictogrammes/annees-2000.svg
 questions:
   - text: "Quel album de Daft Punk, sorti en 2001, contient le tube 'One More Time' ?"
     answers:

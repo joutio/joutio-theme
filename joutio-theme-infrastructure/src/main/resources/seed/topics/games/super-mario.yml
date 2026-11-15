@@ -23,6 +23,7 @@ topic:
       PLATINE: "Bowser Vanquisher"
       EMERAUDE: "Mushroom Kingdom Hero"
       DIAMANT: "Princess's Legend"
+  pictogramUrl: pictogrammes/super-mario.svg
 questions:
   - text: "Dans Super Mario Bros. 3, quel objet permet de voler pendant une durée limitée ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       PLATINE: "Punchline Architect"
       EMERAUDE: "Godfather of the Game"
       DIAMANT: "French Rap Legend"
+  pictogramUrl: pictogrammes/rap-francais.svg
 questions:
   - text: "Quel rappeur français a sorti l'album 'Opéra Puccino' en 1998 ?"
     answers:

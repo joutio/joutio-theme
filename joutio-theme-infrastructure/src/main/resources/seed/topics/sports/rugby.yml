@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "World Champion"
       DIAMANT: "Rugby Legend"
   imageUrl: wikipedia/sports/Fiji_national_rugby_union_team,_2013_IRB_Pacific_Nations_Cup_Champions.jpg
+  pictogramUrl: pictogrammes/rugby.svg
 questions:
   - text: "Quel pays a coorganisé la Coupe du monde de rugby 2023 avec la France ?"
     answers:

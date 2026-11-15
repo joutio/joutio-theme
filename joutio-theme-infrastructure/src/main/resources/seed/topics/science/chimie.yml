@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Nobel Laureate in Chemistry"
       DIAMANT: "Law of Conservation"
   imageUrl: wikipedia/science/Dmitri_Mendeleev_1890s.jpg
+  pictogramUrl: pictogrammes/chimie.svg
 questions:
   - text: "Quel élément chimique est le plus électronégatif ?"
     answers:

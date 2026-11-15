@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Elite Four Member"
       DIAMANT: "Legendary Trainer"
   imageUrl: wikipedia/games/Cosplay_of_Pikachu_from_Pokemon_at_GalaxyCon_Richmond_2020_(49666783502).jpg
+  pictogramUrl: pictogrammes/pokemon.svg
 questions:
   - text: "Quel Pokémon est l'évolution finale de Germignon ?"
     answers:

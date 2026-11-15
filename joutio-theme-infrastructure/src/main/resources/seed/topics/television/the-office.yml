@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Branch Director"
       DIAMANT: "Scranton Legend"
   imageUrl: wikipedia/television/Downtown_Scranton.jpg
+  pictogramUrl: pictogrammes/the-office.svg
 questions:
   - text: "Quelle ville a pour symbole l'enseigne « Electric City » ?"
     imageUrl: wikipedia/television/Electric_City_sign_daylight_Scranton_PA.jpg

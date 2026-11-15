@@ -23,6 +23,7 @@ topic:
       PLATINE: "Wall Architect"
       EMERAUDE: "Keeper of the Prism"
       DIAMANT: "Brain of the Universe"
+  pictogramUrl: pictogrammes/pink-floyd.svg
 questions:
   - text: "En quelle année Syd Barrett a-t-il quitté Pink Floyd ?"
     answers:

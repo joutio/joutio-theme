@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "All-Category Champion"
       DIAMANT: "Dice Legend"
   imageUrl: wikipedia/games/Staunton_chess_set.jpg
+  pictogramUrl: pictogrammes/jeux-de-societe.svg
 questions:
   - text: "Quel jeu se joue sur un plateau de 64 cases ?"
     imageUrl: wikipedia/games/Staunton_chess_set.jpg

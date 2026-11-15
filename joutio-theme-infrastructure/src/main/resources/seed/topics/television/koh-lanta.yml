@@ -23,6 +23,7 @@ topic:
       PLATINE: "Final pole challenger"
       EMERAUDE: "Jury vote winner"
       DIAMANT: "Island legend"
+  pictogramUrl: pictogrammes/koh-lanta.svg
 questions:
   - text: "Qui a remporté la toute première saison de Koh-Lanta en 2001 ?"
     answers:

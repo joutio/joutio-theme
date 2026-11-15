@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Victory Engineer"
       DIAMANT: "Living Memory of WWII"
   imageUrl: wikipedia/history/'D-Day'_Normandy_Landings,_6_June_1944_(42410920432).jpg
+  pictogramUrl: pictogrammes/seconde-guerre-mondiale.svg
 questions:
   - text: "Quel événement est considéré comme le déclencheur officiel de la Seconde Guerre mondiale en Asie ?"
     answers:

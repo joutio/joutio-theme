@@ -23,6 +23,7 @@ topic:
       PLATINE: "Marine Warlord"
       EMERAUDE: "Emperor of the Sea"
       DIAMANT: "Pirate King"
+  pictogramUrl: pictogrammes/one-piece.svg
 questions:
   - text: "Quel est le nom du fruit du démon mangé par Barbe Noire ?"
     answers:

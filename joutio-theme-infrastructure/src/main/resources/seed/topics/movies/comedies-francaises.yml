@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Splendid Legend"
       DIAMANT: "Immortal of French Comedy"
   imageUrl: wikipedia/movies/Louis_de_Funes_1970.jpg
+  pictogramUrl: pictogrammes/comedies-francaises.svg
 questions:
   - text: "Dans Le Dîner de cons, quel est le métier de Pierre Brochant ?"
     answers:

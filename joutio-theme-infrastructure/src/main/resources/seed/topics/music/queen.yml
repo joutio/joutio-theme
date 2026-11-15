@@ -23,6 +23,7 @@ topic:
       PLATINE: "Killer Queen"
       EMERAUDE: "Live Aid Legend"
       DIAMANT: "King of Bohemian Rhapsody"
+  pictogramUrl: pictogrammes/queen.svg
 questions:
   - text: "En quelle année le groupe Queen a-t-il été formé ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Game Design Legend"
       DIAMANT: "The Chosen of the Triforce"
   imageUrl: wikipedia/games/NES-Console-Set.jpg
+  pictogramUrl: pictogrammes/jeux-video.svg
 questions:
   - text: "En quelle année est sortie la première PlayStation au Japon ?"
     answers:

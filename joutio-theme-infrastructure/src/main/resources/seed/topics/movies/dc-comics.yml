@@ -23,6 +23,7 @@ topic:
       PLATINE: "Watchtower Guardian"
       EMERAUDE: "Heir to the Kryptonian Throne"
       DIAMANT: "Chosen of the Speed Force"
+  pictogramUrl: pictogrammes/dc-comics.svg
 questions:
   - text: "Quel acteur incarne Batman dans le film 'The Batman' (2022) ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       PLATINE: "Hyperbolic Time Chamber Elite"
       EMERAUDE: "Beerus's Rival"
       DIAMANT: "Super Saiyan God"
+  pictogramUrl: pictogrammes/dragon-ball.svg
 questions:
   - text: "Quel est le nom du frère de Son Goku ?"
     answers:

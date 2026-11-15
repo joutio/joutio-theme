@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Finals MVP"
       DIAMANT: "Hall of Famer"
   imageUrl: wikipedia/sports/Basketball_game_in_Jerusalem_Israel_s_new_Pais_Arena.jpg
+  pictogramUrl: pictogrammes/basketball.svg
 questions:
   - text: "Quel joueur a remporté le plus de titres de meilleur défenseur de l'année en NBA ?"
     answers:

@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Grand Cordon Bleu"
       DIAMANT: "Spirit of Escoffier"
   imageUrl: wikipedia/food-and-drink/Coq_au_vin,_Linden.jpg
+  pictogramUrl: pictogrammes/cuisine-francaise.svg
 questions:
   - text: "Quel ingrédient est traditionnellement utilisé pour lier une sauce au beurre blanc ?"
     answers:

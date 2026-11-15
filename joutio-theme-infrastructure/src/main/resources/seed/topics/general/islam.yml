@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Pilgrim of the Kaaba"
       DIAMANT: "Light of the Two Sanctuaries"
   imageUrl: wikipedia/religion/Kaaba,_Makkah3.jpg
+  pictogramUrl: pictogrammes/islam.svg
 questions:
   - text: "Quelle est la première mosquée construite par le Prophète Muhammad à Médine ?"
     answers:

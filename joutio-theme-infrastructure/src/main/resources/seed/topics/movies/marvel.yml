@@ -23,6 +23,7 @@ topic:
       PLATINE: "Asgardian Elite"
       EMERAUDE: "Guardian of the Galaxy"
       DIAMANT: "Master of the Infinity"
+  pictogramUrl: pictogrammes/marvel.svg
 questions:
   - text: "Dans quel film du MCU Thanos apparaît-il pour la première fois ?"
     answers:

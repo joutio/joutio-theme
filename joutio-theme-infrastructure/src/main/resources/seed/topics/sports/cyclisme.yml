@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Yellow Jersey"
       DIAMANT: "Tour Legend"
   imageUrl: wikipedia/sports/Peloton_during_Simacourbe_climb_of_Tour_de_France_2024_stage_13.jpg
+  pictogramUrl: pictogrammes/cyclisme.svg
 questions:
   - text: "Combien de fois Eddy Merckx a-t-il remporté le Tour de France ?"
     answers:

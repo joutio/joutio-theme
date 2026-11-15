@@ -23,6 +23,7 @@ topic:
       PLATINE: "Living Room Choreographer"
       EMERAUDE: "Accomplished Idol"
       DIAMANT: "K-pop Legend"
+  pictogramUrl: pictogrammes/bts.svg
 questions:
   - text: "En quelle année le groupe BTS a-t-il officiellement débuté ?"
     answers:

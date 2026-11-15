@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Tournament Champion"
       DIAMANT: "Game Over Legend"
   imageUrl: wikipedia/games/Borne_arcade_Pacman.png
+  pictogramUrl: pictogrammes/jeux-arcade.svg
 questions:
   - text: "Quel jeu d'arcade est considéré comme le premier à avoir utilisé un joystick à 8 directions ?"
     answers:

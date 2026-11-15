@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "World champion"
       DIAMANT: "F1 legend"
   imageUrl: wikipedia/sports/2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_Gilles_Villeneuve_(37994472814).jpg
+  pictogramUrl: pictogrammes/formule-1.svg
 questions:
   - text: "Quel pilote détient le record du plus grand nombre de Hat-tricks (pole, victoire, meilleur tour) en carrière ?"
     answers:

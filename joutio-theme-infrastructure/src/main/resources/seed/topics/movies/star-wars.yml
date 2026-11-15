@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "The Chosen One"
       DIAMANT: "Force Spirit"
   imageUrl: wikipedia/movies/Cosplay_of_Aayla_Secura_at_Star_Wars_Celebration_2017.jpg
+  pictogramUrl: pictogrammes/star-wars.svg
 questions:
   - text: "Quel est le nom de l'ordre 66 dans Star Wars ?"
     answers:

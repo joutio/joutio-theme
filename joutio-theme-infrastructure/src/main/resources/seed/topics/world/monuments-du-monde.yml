@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Keeper of Wonders"
       DIAMANT: "Eternal Builder"
   imageUrl: wikipedia/world/80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg
+  pictogramUrl: pictogrammes/monuments-du-monde.svg
 questions:
   - text: "Quel monument emblématique de Paris est photographié ici ?"
     imageUrl: wikipedia/world/Tour_Eiffel_Wikimedia_Commons.jpg

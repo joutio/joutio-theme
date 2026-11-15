@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "King of Burgundy"
       DIAMANT: "King of Carmélide"
   imageUrl: wikipedia/television/Dedicaces_du_DVD_du_Livre_VI_de_Kaamelott.jpg
+  pictogramUrl: pictogrammes/kaamelott.svg
 questions:
   - text: "Combien d'épisodes compte la série Kaamelott au total ?"
     answers:

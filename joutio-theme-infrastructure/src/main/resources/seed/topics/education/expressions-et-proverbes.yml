@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Fountain of Wisdom"
       DIAMANT: "Golden Tongue"
   imageUrl: wikipedia/education/Hyacinthe_Rigaud_-_Portrait_de_Jean_de_La_Fontaine_(1621-1695),_poete_-_P2441_-_Musee_Carnavalet.jpg
+  pictogramUrl: pictogrammes/expressions-et-proverbes.svg
 questions:
   - text: "Quel proverbe français signifie que des petits avantages successifs valent mieux qu'un gain important mais incertain ?"
     answers:

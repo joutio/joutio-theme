@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "Springfield Mayor"
       DIAMANT: "Matt Groening's Creation"
   imageUrl: wikipedia/television/The_Simpsons,_Universal_Studios,_Orlando.jpg
+  pictogramUrl: pictogrammes/les-simpson.svg
 questions:
   - text: "Quel est le nom du bar fréquenté par Homer ?"
     answers:

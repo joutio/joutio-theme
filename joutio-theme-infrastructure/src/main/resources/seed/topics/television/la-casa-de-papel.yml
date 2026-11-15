@@ -23,6 +23,7 @@ topic:
       EMERAUDE: "The Professor"
       DIAMANT: "Legend of the House"
   imageUrl: wikipedia/television/Casa_de_Papel_at_Patras_Carnival_(cropped).jpg
+  pictogramUrl: pictogrammes/la-casa-de-papel.svg
 questions:
   - text: "Quel est le pseudonyme du personnage interprété par Pedro Alonso ?"
     answers:
