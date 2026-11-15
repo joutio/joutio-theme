@@ -43,7 +43,13 @@ public record Topic(
          * image, ni l'édition d'une question n'y touchent. C'est la date du tri {@code RECENT} (« Fraîchement mis à
          * jour » de l'accueil). {@link #updatedAt()} reste la date de dernière modification, quelle qu'elle soit.
          */
-        Instant questionsChangedAt
+        Instant questionsChangedAt,
+        /** Badge « Officiel » (2026-11-15) : sujet éditorial de Joutio, posé par un administrateur. */
+        boolean official,
+        /** Fermé par la modération (2026-11-15) : brouillon dont la publication est bloquée jusqu'à réouverture. */
+        boolean closed,
+        /** Motif de la fermeture, communiqué à l'auteur (DSA art. 17), ou {@code null}. */
+        String closedReason
 ) {
 
     /** Description dans {@code language}, sinon la française, sinon {@code null}. */

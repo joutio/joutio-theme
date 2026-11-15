@@ -2,6 +2,7 @@ package com.joutio.theme.application.service;
 
 import com.joutio.theme.domain.command.TopicCommand;
 import com.joutio.theme.domain.port.in.CreateTopicUseCase;
+import com.joutio.theme.domain.port.in.MarkTopicOfficialUseCase;
 import com.joutio.theme.domain.port.in.PublishTopicUseCase;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.stereotype.Service;
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.CompletableFuture;
 
 @Service
-public class TopicCommandService implements CreateTopicUseCase, PublishTopicUseCase {
+public class TopicCommandService implements CreateTopicUseCase, PublishTopicUseCase, MarkTopicOfficialUseCase {
 
     private final CommandGateway commandGateway;
 
@@ -27,5 +28,9 @@ public class TopicCommandService implements CreateTopicUseCase, PublishTopicUseC
         return commandGateway.send(command);
     }
 
+    @Override
+    public CompletableFuture<Object> setOfficial(TopicCommand.SetTopicOfficialCommand command) {
+        return commandGateway.send(command);
+    }
 }
 

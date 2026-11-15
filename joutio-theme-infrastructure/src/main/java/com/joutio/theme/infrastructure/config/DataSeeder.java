@@ -17,6 +17,7 @@ import com.joutio.theme.domain.port.in.CreateQuestionUseCase;
 import com.joutio.theme.domain.port.in.CreateTopicUseCase;
 import com.joutio.theme.domain.port.in.GetQuestionUseCase;
 import com.joutio.theme.domain.port.in.GetTopicUseCase;
+import com.joutio.theme.domain.port.in.MarkTopicOfficialUseCase;
 import com.joutio.theme.domain.port.in.PublishTopicUseCase;
 import com.joutio.theme.domain.port.in.UpdateQuestionDifficultyUseCase;
 import com.joutio.theme.infrastructure.config.seed.QuestionIdentity;
@@ -95,6 +96,7 @@ public class DataSeeder {
     private final ApproveQuestionUseCase approveQuestionUseCase;
     private final UpdateQuestionDifficultyUseCase updateQuestionDifficultyUseCase;
     private final PublishTopicUseCase publishTopicUseCase;
+    private final MarkTopicOfficialUseCase markTopicOfficialUseCase;
     private final GetTopicUseCase getTopicUseCase;
     private final GetQuestionUseCase getQuestionUseCase;
     private final SeedDataLoader seedDataLoader;
@@ -115,6 +117,7 @@ public class DataSeeder {
             ApproveQuestionUseCase approveQuestionUseCase,
             UpdateQuestionDifficultyUseCase updateQuestionDifficultyUseCase,
             PublishTopicUseCase publishTopicUseCase,
+            MarkTopicOfficialUseCase markTopicOfficialUseCase,
             GetTopicUseCase getTopicUseCase,
             GetQuestionUseCase getQuestionUseCase,
             SeedDataLoader seedDataLoader,
@@ -128,6 +131,7 @@ public class DataSeeder {
         this.approveQuestionUseCase = approveQuestionUseCase;
         this.updateQuestionDifficultyUseCase = updateQuestionDifficultyUseCase;
         this.publishTopicUseCase = publishTopicUseCase;
+        this.markTopicOfficialUseCase = markTopicOfficialUseCase;
         this.getTopicUseCase = getTopicUseCase;
         this.getQuestionUseCase = getQuestionUseCase;
         this.seedDataLoader = seedDataLoader;
@@ -294,6 +298,10 @@ public class DataSeeder {
         }
 
         Topic topic = awaitTopic(topicId);
+        // Les sujets du seed sont éditoriaux : badge « Officiel » (idempotent, rattrape aussi les sujets existants).
+        if (!topic.official()) {
+            markTopicOfficialUseCase.markOfficialAndWait(topicId, JoutioConstants.SYSTEM_USER_ID);
+        }
         if (topic.status() == TopicStatus.ARCHIVED) {
             logger.warn("Topic {} is archived, skipping", topicId);
             return TopicSeedOutcome.SKIPPED;

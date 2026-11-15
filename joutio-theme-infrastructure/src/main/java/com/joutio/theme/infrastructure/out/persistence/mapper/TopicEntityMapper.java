@@ -46,7 +46,10 @@ public final class TopicEntityMapper {
                 entity.getCreatedAt(),
                 entity.getUpdatedAt(),
                 descriptions,
-                entity.getQuestionsChangedAt()
+                entity.getQuestionsChangedAt(),
+                entity.isOfficial(),
+                entity.isClosed(),
+                entity.getClosedReason()
         );
     }
 
@@ -77,6 +80,9 @@ public final class TopicEntityMapper {
         topicEntity.setCreatedAt(topic.createdAt());
         topicEntity.setUpdatedAt(topic.updatedAt());
         topicEntity.setQuestionsChangedAt(topic.questionsChangedAt());
+        topicEntity.setOfficial(topic.official());
+        topicEntity.setClosed(topic.closed());
+        topicEntity.setClosedReason(topic.closedReason());
         return topicEntity;
     }
 }

@@ -154,4 +154,17 @@ public final class TopicProblems {
                     null);
         }
     }
+
+    /** Publication refusée : sujet fermé par la modération (notification de contenu illicite). */
+    public static class TopicClosedProblem extends TopicProblem {
+        public TopicClosedProblem(String topicId) {
+            super(
+                    topicId,
+                    "urn:joutio:topic:closed",
+                    ProblemCategory.BUSINESS_INVALID_COMMAND,
+                    "Topic closed",
+                    "This topic was closed by moderation and cannot be published",
+                    null);
+        }
+    }
 }

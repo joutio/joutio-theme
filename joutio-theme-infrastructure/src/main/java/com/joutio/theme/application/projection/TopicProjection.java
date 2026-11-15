@@ -78,8 +78,34 @@ public class TopicProjection {
                         event.createdAt(),
                         event.createdAt(),
                         event.description() == null ? Map.of() : Map.of(Language.FR, event.description()),
-                        event.createdAt());
+                        event.createdAt(),
+                        false,
+                        false,
+                        null);
         topicRepositoryPort.save(topic);
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicOfficialSetEvent event) {
+        updateTopic(event.topicId(), event.requestedBy(), event.occurredAt(), builder -> builder.official(event.official()));
+    }
+
+    /** Fermeture par la modération : le sujet quitte le catalogue (brouillon) et reste fermé. */
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicClosedEvent event) {
+        updateTopic(
+                event.topicId(),
+                event.requestedBy(),
+                event.closedAt(),
+                builder -> builder.closed(true).closedReason(event.reason()).status(TopicStatus.DRAFT));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicReopenedEvent event) {
+        updateTopic(event.topicId(), event.requestedBy(), event.reopenedAt(), builder -> builder.closed(false).closedReason(null));
     }
 
     @EventHandler

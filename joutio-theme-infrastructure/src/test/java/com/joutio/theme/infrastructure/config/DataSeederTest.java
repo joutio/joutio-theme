@@ -82,6 +82,7 @@ class DataSeederTest {
                 approveQuestionUseCase,
                 updateQuestionDifficultyUseCase,
                 publishTopicUseCase,
+                org.mockito.Mockito.mock(com.joutio.theme.domain.port.in.MarkTopicOfficialUseCase.class),
                 getTopicUseCase,
                 getQuestionUseCase,
                 seedDataLoader,

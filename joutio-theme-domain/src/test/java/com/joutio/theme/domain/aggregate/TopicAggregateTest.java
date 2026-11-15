@@ -412,6 +412,51 @@ class TopicAggregateTest {
                 .expectException(TopicProblems.TopicNotOwnerProblem.class);
     }
 
+    @Test
+    void setOfficial_appliesOnceThenIsIdempotent() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.SetTopicOfficialCommand(TOPIC_ID, true, "admin"))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicOfficialSetEvent.class,
+                                e -> ((TopicEvent.TopicOfficialSetEvent) e).official()));
+
+        fixture.given(createdTopic(), new TopicEvent.TopicOfficialSetEvent(TOPIC_ID, true, "admin", NOW))
+                .when(new TopicCommand.SetTopicOfficialCommand(TOPIC_ID, true, "admin"))
+                .expectNoEvents();
+    }
+
+    @Test
+    void closeTopic_draftsItAndBlocksPublicationUntilReopened() {
+        when(questionRepository.countPlayableByTopicId(TOPIC_ID)).thenReturn(7);
+
+        fixture.given(createdTopic(), new TopicEvent.TopicPublishedEvent(TOPIC_ID, OWNER, NOW))
+                .when(new TopicCommand.CloseTopicCommand(TOPIC_ID, "COPYRIGHT", "admin"))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(
+                                TopicEvent.TopicClosedEvent.class,
+                                e -> "COPYRIGHT".equals(((TopicEvent.TopicClosedEvent) e).reason())));
+
+        fixture.given(createdTopic(), new TopicEvent.TopicClosedEvent(TOPIC_ID, OWNER, "COPYRIGHT", "admin", NOW))
+                .when(new TopicCommand.PublishTopicCommand(TOPIC_ID, OWNER))
+                .expectException(TopicProblems.TopicClosedProblem.class);
+
+        fixture.given(
+                        createdTopic(),
+                        new TopicEvent.TopicClosedEvent(TOPIC_ID, OWNER, "COPYRIGHT", "admin", NOW),
+                        new TopicEvent.TopicReopenedEvent(TOPIC_ID, "admin", NOW))
+                .when(new TopicCommand.PublishTopicCommand(TOPIC_ID, OWNER))
+                .expectEventsMatching(
+                        JoutioAxonMatchers.singlePayloadMatching(TopicEvent.TopicPublishedEvent.class, e -> true));
+    }
+
+    @Test
+    void reopenTopic_isIdempotentWhenNotClosed() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.ReopenTopicCommand(TOPIC_ID, "admin"))
+                .expectNoEvents();
+    }
+
     private TopicEvent.TopicCreatedEvent createdTopic() {
         return new TopicEvent.TopicCreatedEvent(
                 TOPIC_ID,

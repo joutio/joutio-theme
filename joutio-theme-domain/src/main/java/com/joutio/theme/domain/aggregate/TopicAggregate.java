@@ -48,6 +48,10 @@ public class TopicAggregate {
     private Instant createdAt;
     private String updatedBy;
     private Instant updatedAt;
+    /** Badge « Officiel » : sujet éditorial de Joutio. */
+    private boolean official;
+    /** Fermé par la modération : publication refusée jusqu'à réouverture. */
+    private boolean closed;
 
     // Constructeur par défaut requis par Axon
     protected TopicAggregate() {}
@@ -114,6 +118,9 @@ public class TopicAggregate {
         if (this.status != TopicStatus.DRAFT) {
             throw new TopicProblems.TopicNotInDraftProblem(this.topicId);
         }
+        if (this.closed) {
+            throw new TopicProblems.TopicClosedProblem(this.topicId);
+        }
 
         // Jouable = 7 questions approuvées dans une même langue (le tirage exige la langue des
         // joueurs) : un total toutes langues confondues publiait des sujets impossibles à jouer.
@@ -153,6 +160,38 @@ public class TopicAggregate {
         }
         AggregateLifecycle.apply(
                 new TopicEvent.TopicDraftedEvent(this.topicId, command.reason(), Instant.now()));
+    }
+
+    /** Badge « Officiel » : idempotent (la façade du BFF réserve la commande aux administrateurs). */
+    @CommandHandler
+    public void handle(TopicCommand.SetTopicOfficialCommand command) {
+        if (this.official == command.official()) {
+            return;
+        }
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicOfficialSetEvent(
+                        this.topicId, command.official(), command.requestedBy(), Instant.now()));
+    }
+
+    /** Fermeture par la modération : idempotente ; un sujet publié repasse en brouillon. */
+    @CommandHandler
+    public void handle(TopicCommand.CloseTopicCommand command) {
+        if (this.closed) {
+            return;
+        }
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicClosedEvent(
+                        this.topicId, this.creatorId, command.reason(), command.requestedBy(), Instant.now()));
+    }
+
+    /** Réouverture : le sujet reste en brouillon, son créateur peut le republier. */
+    @CommandHandler
+    public void handle(TopicCommand.ReopenTopicCommand command) {
+        if (!this.closed) {
+            return;
+        }
+        AggregateLifecycle.apply(
+                new TopicEvent.TopicReopenedEvent(this.topicId, command.requestedBy(), Instant.now()));
     }
 
     @CommandHandler
@@ -289,6 +328,26 @@ public class TopicAggregate {
     public void on(TopicEvent.TopicDraftedEvent event) {
         this.status = TopicStatus.DRAFT;
         this.updatedAt = event.draftedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicOfficialSetEvent event) {
+        this.official = event.official();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicClosedEvent event) {
+        this.closed = true;
+        this.status = TopicStatus.DRAFT;
+        this.updatedBy = event.requestedBy();
+        this.updatedAt = event.closedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicReopenedEvent event) {
+        this.closed = false;
+        this.updatedBy = event.requestedBy();
+        this.updatedAt = event.reopenedAt();
     }
 
     @EventSourcingHandler

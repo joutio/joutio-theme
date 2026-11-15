@@ -121,5 +121,18 @@ public class TopicEntity {
     /** Dernier ajout ou retrait de question jouable (tri « Fraîchement mis à jour »), voir {@code Topic#questionsChangedAt}. */
     @Column(name = "questions_changed_at")
     private Instant questionsChangedAt;
+
+    /** Badge « Officiel » : sujet éditorial de Joutio (2026-11-15). */
+    @Searchable(type = FieldType.BOOLEAN)
+    @Column(name = "official", nullable = false)
+    private boolean official;
+
+    /** Fermé par la modération : publication bloquée jusqu'à réouverture (2026-11-15). */
+    @Column(name = "closed", nullable = false)
+    private boolean closed;
+
+    /** Motif de la fermeture, communiqué à l'auteur. */
+    @Column(name = "closed_reason", length = 500)
+    private String closedReason;
 }
 

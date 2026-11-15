@@ -113,4 +113,17 @@ public interface TopicCommand {
 
     record RemoveDeletedTopicMemberCommand(@TargetAggregateIdentifier String topicId, String userId)
             implements TopicCommand {}
+
+    /** Pose ou retire le badge « Officiel » : réservé aux administrateurs (contrôle dans la façade du BFF). */
+    record SetTopicOfficialCommand(
+            @TargetAggregateIdentifier String topicId, boolean official, String requestedBy)
+            implements TopicCommand {}
+
+    /** Ferme un sujet sur notification (administrateur) : brouillon, publication bloquée jusqu'à réouverture. */
+    record CloseTopicCommand(@TargetAggregateIdentifier String topicId, String reason, String requestedBy)
+            implements TopicCommand {}
+
+    /** Rouvre un sujet fermé par la modération (administrateur). */
+    record ReopenTopicCommand(@TargetAggregateIdentifier String topicId, String requestedBy)
+            implements TopicCommand {}
 }

@@ -105,4 +105,23 @@ public interface TopicEvent {
     record TopicMemberRemovedEvent(
             String topicId, String userId, String requestedBy, Instant occurredAt)
             implements TopicEvent {}
+
+    /**
+     * Badge « Officiel » posé ou retiré (2026-11-15) : sujet éditorial de Joutio. Posé à la création par un
+     * administrateur (le BFF le déduit du rôle, jamais de la requête) ou par la console ; aucun joueur ne le porte.
+     */
+    record TopicOfficialSetEvent(String topicId, boolean official, String requestedBy, Instant occurredAt)
+            implements TopicEvent {}
+
+    /**
+     * Sujet fermé par la modération après une notification de contenu illicite (droit d'auteur, imitation d'un sujet
+     * officiel…) : il repasse en brouillon et ne peut plus être publié tant qu'il n'est pas rouvert. Le motif est
+     * envoyé à l'auteur (DSA art. 17).
+     */
+    record TopicClosedEvent(String topicId, String ownerId, String reason, String requestedBy, Instant closedAt)
+            implements TopicEvent {}
+
+    /** Sujet rouvert par la modération : son créateur peut de nouveau le publier. */
+    record TopicReopenedEvent(String topicId, String requestedBy, Instant reopenedAt)
+            implements TopicEvent {}
 }
