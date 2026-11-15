@@ -1,3 +1,9 @@
+## [3.6.0](https://github.com/joutio/joutio-theme/compare/v3.5.0...v3.6.0) (2026-11-15)
+
+### Features
+
+* **topic:** official badge, moderation closing and copyright reports ([0ba33e6](https://github.com/joutio/joutio-theme/commit/0ba33e6e9eeb6a83fa849f1ed3b93b6557cbd162))
+
 ## [3.5.0](https://github.com/joutio/joutio-theme/compare/v3.4.1...v3.5.0) (2026-11-14)
 
 ### Features
