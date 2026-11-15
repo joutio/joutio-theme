@@ -1,3 +1,10 @@
+## [3.8.0](https://github.com/joutio/joutio-theme/compare/v3.7.0...v3.8.0) (2026-11-15)
+
+### Features
+
+* **seed:** pictogram for Harry Potter film 2 ([e547ba9](https://github.com/joutio/joutio-theme/commit/e547ba962944853e66d86fdbe7fd9f513a8e2066))
+* **seed:** pictograms for Harry Potter films 3 to 5 ([16e5240](https://github.com/joutio/joutio-theme/commit/16e5240f3774b9476b0d263c2769cc6b92fbffe0))
+
 ## [3.7.0](https://github.com/joutio/joutio-theme/compare/v3.6.0...v3.7.0) (2026-11-15)
 
 ### Features
