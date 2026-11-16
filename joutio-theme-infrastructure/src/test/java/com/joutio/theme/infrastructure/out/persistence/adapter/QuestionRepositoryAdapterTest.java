@@ -26,10 +26,9 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 /**
- * Tirage des questions : le read model peut porter deux lignes de **même contenu** (même texte,
- * même illustration) pour un thème — re-seed dont l'URL d'image résolue a changé, ancienne
- * question restée approuvée. Le tirage ne doit jamais les remonter toutes les deux dans une même
- * partie.
+ * Tirage des questions (2026-11-16) : aucun dédoublonnage par contenu. Un thème peut porter
+ * plusieurs questions au même énoncé, avec ou sans illustration (« Quel est ce pays ? ») : chacune
+ * est une question à part entière et le tirage en rend autant que demandé.
  */
 class QuestionRepositoryAdapterTest {
 
@@ -40,7 +39,25 @@ class QuestionRepositoryAdapterTest {
             new QuestionRepositoryAdapter(questionJpaRepository, contentJpaRepository);
 
     @Test
-    void draw_deduplicates_questions_sharing_text_and_illustration() {
+    void draw_keeps_every_question_sharing_the_same_text_without_illustration() {
+        QuestionEntity[] entities = new QuestionEntity[7];
+        QuestionContentEntity[] contents = new QuestionContentEntity[7];
+        for (int i = 0; i < 7; i++) {
+            entities[i] = entity("q" + i, null);
+            contents[i] = content("q" + i, "Quelle est la bonne orthographe ?");
+        }
+        givenDrawReturns(entities);
+        givenContents(contents);
+
+        List<Question> drawn = adapter.findRandomApprovedByTopicId(
+                "topic-1", 7, Set.of(Language.FR), Set.of(), Set.of());
+
+        assertThat(drawn).extracting(Question::questionId)
+                .containsExactly("q0", "q1", "q2", "q3", "q4", "q5", "q6");
+    }
+
+    @Test
+    void draw_keeps_questions_sharing_text_and_illustration() {
         givenDrawReturns(
                 entity("q1", "wikipedia/flags/fr.png"),
                 entity("q2", "wikipedia/flags/fr.png"),
@@ -53,32 +70,18 @@ class QuestionRepositoryAdapterTest {
         List<Question> drawn = adapter.findRandomApprovedByTopicId(
                 "topic-1", 7, Set.of(Language.FR), Set.of(), Set.of());
 
-        assertThat(drawn).extracting(Question::questionId).containsExactly("q1", "q3");
+        assertThat(drawn).extracting(Question::questionId).containsExactly("q1", "q2", "q3");
     }
 
     @Test
-    void draw_keeps_distinct_questions_with_the_same_text_but_another_illustration() {
-        givenDrawReturns(
-                entity("q1", "wikipedia/flags/fr.png"),
-                entity("q2", "wikipedia/flags/fr-ancien.png"));
-        givenContents(content("q1", "Quel est ce pays ?"), content("q2", "Quel est ce pays ?"));
-
-        List<Question> drawn = adapter.findRandomApprovedByTopicId(
-                "topic-1", 7, Set.of(Language.FR), Set.of(), Set.of());
-
-        assertThat(drawn).extracting(Question::questionId).containsExactly("q1", "q2");
-    }
-
-    @Test
-    void draw_oversamples_so_deduplication_can_still_fill_the_round() {
+    void draw_requests_exactly_the_round_count() {
         givenDrawReturns();
         givenContents();
 
         adapter.findRandomApprovedByTopicId("topic-1", 7, Set.of(Language.FR), Set.of(), Set.of());
 
-        // Sur-échantillonnage borné (7 + 7) : le dédoublonnage doit pouvoir rendre 7 questions.
         verify(questionJpaRepository)
-                .findRandomApprovedByTopicId(eq("topic-1"), eq(14), anyList(), eq(1L), eq(""), eq(""));
+                .findRandomApprovedByTopicId(eq("topic-1"), eq(7), anyList(), eq(1L), eq(""), eq(""));
     }
 
     private void givenDrawReturns(QuestionEntity... entities) {

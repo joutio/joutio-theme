@@ -36,7 +36,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -255,13 +254,12 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
             return List.of();
         }
         List<String> languageCodes = languages.stream().map(Language::code).toList();
-        // Sur-échantillonnage borné : le dédoublonnage par contenu (texte + image) doit pouvoir
-        // rendre malgré tout `count` questions distinctes.
-        int oversample = count + Math.max(4, count);
+        // Aucun dédoublonnage par contenu (2026-11-16) : un thème peut porter plusieurs questions au
+        // même énoncé (« Quel est ce pays ? »), chacune est une question à part entière.
         List<QuestionEntity> entities =
                 questionJpaRepository.findRandomApprovedByTopicId(
                         topicId,
-                        oversample,
+                        count,
                         languageCodes,
                         languages.size(),
                         csv(excludeQuestionIds),
@@ -272,48 +270,19 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
                                                 .map(Enum::name)
                                                 .collect(Collectors.toSet())));
 
-        List<Question> drawn = distinctByContent(withContents(entities), count);
+        List<Question> drawn = withContents(entities);
         if (drawn.size() < count) {
-            // Diagnostic d'un tirage insuffisant : candidats SQL (approuvées couvrant toutes les
-            // langues) vs questions distinctes après dédoublonnage par contenu.
+            // Diagnostic d'un tirage insuffisant : candidats SQL (approuvées couvrant toutes les langues).
             logger.warn(
                     "Tirage insuffisant: topicId={}, languages={}, requested={}, candidates={},"
-                            + " distinct={}, approvedInLanguages={}",
+                            + " approvedInLanguages={}",
                     topicId,
                     languageCodes,
                     count,
-                    entities.size(),
                     drawn.size(),
                     countApprovedByTopicAndLanguages(topicId, languages));
         }
         return drawn;
-    }
-
-    /**
-     * Dédoublonne le tirage par **contenu joué** (texte + illustration) en conservant l'ordre
-     * aléatoire. Le read model peut porter deux lignes identiques pour un même thème (re-seed dont
-     * l'URL d'image résolue a changé, ancienne question laissée approuvée) : sans ce filtre, une
-     * même partie pourrait proposer deux fois la même question.
-     */
-    private static List<Question> distinctByContent(List<Question> questions, int count) {
-        Map<String, Question> unique = new LinkedHashMap<>();
-        for (Question question : questions) {
-            unique.putIfAbsent(contentKey(question), question);
-        }
-        return unique.values().stream().limit(count).toList();
-    }
-
-    /** Clé de contenu d'une question : textes localisés (langue indifférente) + illustration. */
-    private static String contentKey(Question question) {
-        String text =
-                question.contents() == null
-                        ? ""
-                        : question.contents().values().stream()
-                                .map(content -> content.text() == null ? "" : content.text())
-                                .sorted()
-                                .findFirst()
-                                .orElse("");
-        return text + "\u0000" + (question.imageUrl() == null ? "" : question.imageUrl());
     }
 
     /** Préférences sérialisées en CSV (vide = neutre) pour le tri best-effort du tirage. */

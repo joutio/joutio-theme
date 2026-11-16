@@ -90,10 +90,11 @@ des sujets impossibles à jouer (le tirage exige la langue des joueurs).
   langues demandées ; `difficulties`/`excludeQuestionIds` sont des **préférences de tri**
   best-effort — jamais-jouées &gt; difficulté cible &gt; difficulté inconnue &gt; autres — et la
   `Question` retournée porte ses contenus localisés, le client choisit le sien). Le tirage
-  **dédoublonne par contenu** (texte + illustration) et sur-échantillonne pour y parvenir : le read
-  model peut porter deux lignes identiques pour un thème (re-seed dont l'URL d'image résolue a
-  changé, ancienne question restée approuvée) et une même partie ne doit jamais proposer deux fois
-  la même question (`QuestionRepositoryAdapterTest`).
+  **ne dédoublonne pas par contenu** (2026-11-16, remplace le dédoublonnage texte + illustration) :
+  plusieurs questions au même énoncé, avec ou sans image, sont des questions distinctes ; 7 questions
+  « Quelle est la bonne orthographe ? » sans image faisaient échouer la salle (`QuestionRepositoryAdapterTest`).
+  La cause des anciens doublons (re-seed après un changement de base d'images) est traitée dans le seeder :
+  sa clé de réparation ignore la base de l'URL (`QuestionIdentity.imageKey`).
 - `joutio-bff` → `QuestionQuery.GetTopicLanguageCoverageQuery(topicId)` → `List<QuestionLanguageCoverage>`
   (couverture de **toutes** les combinaisons non vides de langues, sémantique stricte « contenu dans
   toutes les langues ») : préparée à la création d'un ticket d'appariement et portée par
@@ -265,8 +266,9 @@ lorsque la difficulté calculée change, la projection envoie une
 - **Images** : exclusivement Wikimedia Commons libres de droit ; toute nouvelle image doit être
   rapatriée dans `product/wikipedia/` (workspace) et figurer dans `product/wikipedia/CREDITS.md`
   (auteur + licence), puis référencée en chemin relatif dans le YAML.
-- **Seed déjà publié en prod** : le seeder est idempotent par `(text, imageUrl)` (URL **résolue**
-  via la base) et peut **compléter** un thème publié (questions manquantes, traductions, difficulté
+- **Seed déjà publié en prod** : le seeder est idempotent par `(text, image)`, l'image étant identifiée
+  par la fin de son chemin (`wikipedia/<categorie>/<fichier>`, `QuestionIdentity.imageKey`), **sans** la base
+  d'URL (2026-11-16 : un changement de base recréait la question en doublon) ; il peut **compléter** un thème publié (questions manquantes, traductions, difficulté
   initiale) sans reset ; en revanche **modifier** les réponses, les textes, la couverture ou la
   base d'images exige un **reset data** (`devops/joutio-gitops/scripts/reset.sh`, § 7 du AGENTS
   gitops) coordonné avec la release.

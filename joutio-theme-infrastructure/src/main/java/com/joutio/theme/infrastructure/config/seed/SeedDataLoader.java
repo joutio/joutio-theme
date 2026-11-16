@@ -167,14 +167,15 @@ public class SeedDataLoader {
             contents.put(Language.FR, new QuestionContent(Language.FR, text, answers));
             contents.putAll(validateTranslations(raw.translations(), context));
 
-            QuestionIdentity identity = new QuestionIdentity(text, validateImageUrl(raw.imageUrl(), context + ".imageUrl"));
+            String imageUrl = validateImageUrl(raw.imageUrl(), context + ".imageUrl");
+            QuestionIdentity identity = new QuestionIdentity(text, QuestionIdentity.imageKey(imageUrl));
             Integer firstIndex = seenQuestions.putIfAbsent(identity, i);
             if (firstIndex != null) {
                 throw new SeedDataValidationException(
                         context + ".text/.imageUrl is duplicated (same text and imageUrl as questions[" + firstIndex + "]): " + text);
             }
 
-            questions.add(new QuestionSeedDefinition(contents, correctAnswer, identity.imageUrl(), difficulty));
+            questions.add(new QuestionSeedDefinition(contents, correctAnswer, imageUrl, difficulty));
         }
 
         return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl, topicPictogramUrl,
