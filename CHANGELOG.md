@@ -1,3 +1,9 @@
+## [3.8.1](https://github.com/joutio/joutio-theme/compare/v3.8.0...v3.8.1) (2026-11-16)
+
+### Bug Fixes
+
+* **draw:** keep every question sharing the same text ([045c058](https://github.com/joutio/joutio-theme/commit/045c058a5dbe8ee6bb16f0021a86f08bda9fb6fc))
+
 ## [3.8.0](https://github.com/joutio/joutio-theme/compare/v3.7.0...v3.8.0) (2026-11-15)
 
 ### Features
