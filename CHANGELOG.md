@@ -1,3 +1,9 @@
+## [3.8.3](https://github.com/joutio/joutio-theme/compare/v3.8.2...v3.8.3) (2026-11-17)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 1.2.0, segmented processing groups and single-partition Axon topic ([f40af97](https://github.com/joutio/joutio-theme/commit/f40af97dae962c7d3ade9829fa091c931557c2c8))
+
 ## [3.8.2](https://github.com/joutio/joutio-theme/compare/v3.8.1...v3.8.2) (2026-11-17)
 
 ### Bug Fixes
