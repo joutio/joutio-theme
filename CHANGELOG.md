@@ -1,3 +1,9 @@
+## [3.8.2](https://github.com/joutio/joutio-theme/compare/v3.8.1...v3.8.2) (2026-11-17)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 1.1.0, unknown enum constants tolerated on the Axon transport ([9676004](https://github.com/joutio/joutio-theme/commit/967600452e33d102ec5122595cf68318d5915804))
+
 ## [3.8.1](https://github.com/joutio/joutio-theme/compare/v3.8.0...v3.8.1) (2026-11-16)
 
 ### Bug Fixes
