@@ -1,296 +1,119 @@
 # AGENTS.md — joutio-theme
 
-> Service de **thèmes (topics) et questions** du quiz. Architecture : Axon Framework (CQRS/EDA) +
-> JPA (projections). **Fournisseur** de données pour les autres services.
-> Pour les règles de patterns : [
-`../../best-practices/.backend/folder-structure.md`](../../best-practices/.backend/folder-structure.md).
+Sujets (topics) et questions : création, atelier collaboratif, modération, signalements,
+publication, tirage des questions, difficulté calculée, seed du catalogue. Package
+`com.joutio.theme`, base `joutio_theme`, port local 8086. Service headless.
 
----
+Lire : `../../AGENTS.md`, [`docs/backend/`](../../docs/backend/hexagonal.md), exposition dans
+[`docs/api/sujets.md`](../../docs/api/sujets.md) et [`docs/api/admin.md`](../../docs/api/admin.md).
 
-## 1. Rôle
+## Agrégats et règles
 
-Gestion des **topics** (sujets) et des **questions** qui y sont rattachées : création,
-recherche paginée, modération (approve/reject), publication d'un topic. **Fournisseur** de données pour `joutio-social`
-(vérification d'existence de topic) et
-`joutio-game` (questions aléatoires approuvées).
+- **`TopicAggregate`** : noms FR/EN, description, univers (17 `TopicCategory`), vignette,
+  bannière, pictogramme, titres par palier, équipe, statut `DRAFT|PUBLISHED`, badge Officiel,
+  fermeture par la modération.
+  - Équipe : `CREATOR` (protégé), `ADMIN`, `WRITER`. Les droits Premium sont préparés par le BFF.
+  - **Publication** : créateur ou admin, **7 questions approuvées dans une même langue**
+    (`countPlayableByTopicId`). Un total toutes langues publierait un sujet injouable.
+  - `TopicAvailabilityPolicy` repasse le sujet en brouillon sous ce seuil. Un brouillon bloque les
+    nouveaux départs (bot, défi, salon, appariement) ; les parties créées continuent.
+  - Un sujet fermé reste brouillon jusqu'à sa réouverture (`urn:joutio:topic:closed`).
+  - Suppression d'un brouillon seulement, par le créateur (`TopicDeletionPolicy` supprime ses
+    questions).
+- **`QuestionAggregate`** : contenus localisés (texte ≤ 255, 4 réponses, bonne réponse présente
+  dans chaque langue), image, difficulté, auteur.
+  - Statut unique `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED`. Seules les `APPROVED` sont
+    jouables. Motifs, notes et dates servent à l'audit.
+  - Archiver est réversible, restaurer revient à `PENDING`. Une question suspendue reste suspendue
+    après correction jusqu'à une approbation explicite.
+  - La suppression émet `QuestionDeletedEvent` et `markDeleted()` ; les snapshots des parties
+    gardent leur contenu.
+- **`QuestionReportThreadAggregate`** : un fil par paire question × signalant
+  (`UUID(questionId|reporterId)`), un seul `OPEN`. Il fige un snapshot de la version jouée
+  (`PLAYED`, sinon `CURRENT`).
+- **Suspension automatique** (`QuestionReportSuspensionPolicy`, `@DisallowReplay`) :
+  - **3** signaleurs distincts, ouverts ou clos sans modification, sur `P7D` ;
+  - fenêtre comptée depuis `max(reportedAt - window, reinstatedAt, restoredAt)` ;
+  - réglages `joutio.question-report.auto-suspension.*`.
+- Éditions **champ par champ** et idempotentes (aucun événement sans changement). Constantes dans
+  `TopicRules` (nom ≤ 255, description ≤ 500, URL ≤ 1024, titre ≤ 40) et `QuestionRules`.
+- **Difficulté** : `QuestionDifficultyProjection` compte les réponses **humaines**
+  (`QuestionAnsweredEvent` de game ; un timeout compte comme une erreur). Seuils 80/60/40 %, à
+  partir de 10 réponses (`QuestionRules.difficultyFor`), puis `UpdateQuestionDifficultyCommand`.
 
-**Package** : `com.joutio.theme` (note : le repo s'appelle `theme`, le package est `theme`)
+## Lectures fournies (`joutio-theme-domain`)
 
----
+- **Tirage** : `GetRandomApprovedQuestionsQuery(topicId, count, languages, difficulties, excludeQuestionIds)`
+  (consommée par matchmaking).
+  - Une question doit avoir un contenu dans **toutes** les langues demandées.
+  - Difficulté et exclusions ne sont que des préférences d'ordre : jamais jouée, puis difficulté
+    cible, puis inconnue, puis le reste.
+  - Pas de dédoublonnage par contenu : deux questions au même énoncé restent distinctes.
+- **Couverture linguistique** : `GetTopicLanguageCoverageQuery` (portée par le ticket
+  d'appariement).
+- **Catalogue** :
+  - `GetTopicPageQuery`, tris `POPULAR|MOST_PLAYED|ALPHA|RECENT`. `RECENT` suit
+    `questionsChangedAt` : publication ou changement du nombre de questions jouables ;
+  - `TopicFacetsQuery`, `GetTopicsByIdsQuery`, `GetTopicsByCreatorQuery` ;
+  - équipe et atelier ;
+  - `CountImageReferencesQuery` (console médias) ;
+  - `TopicSearchQuery` (admin).
+- **Questions et signalements** : `QuestionQuery.*`, `GetQuestionAdminPageQuery`,
+  `QuestionReportQuery.*`.
+- **Recherche** insensible aux accents et à la casse (`name_normalized`, `SearchText.normalize`).
+- **`games_counter`** : parties créées sur le sujet, bots compris (`TopicGamesProjection` sur
+  `GameCreatedEvent`, table sans clé étrangère, rejouable). Sert au tri « Les plus joués ».
 
-## 2. Surface (headless)
+Contrat consommé : `joutio-game-domain`. Aucune requête sortante.
 
-Service **headless** : aucun contrôleur REST ni WebSocket. La surface applicative unique est le
-**`joutio-bff`** (`/api/**` + `/ws`) ; il interroge ce service via le **query bus** Axon et consomme
-ses événements. Les handlers de requête/commande, sagas et projections restent la seule surface
-exposée par le service.
-## 3. Use cases (ports entrants — `domain/port/in/`)
+## Seed du catalogue
 
-- `CreateTopicUseCase` / `GetTopicUseCase` / `CheckTopicUseCase` / `SearchTopicUseCase` / `PublishTopicUseCase`
-- `CreateQuestionUseCase` / `GetQuestionUseCase` / `SearchQuestionUseCase` / `GetRandomApprovedQuestionsUseCase`
-- `ApproveQuestionUseCase` / `RejectQuestionUseCase`
-- `CountApprovedQuestionsByTopicUseCase`
+- Un YAML par sujet : `src/main/resources/seed/topics/<univers>/<sujet>.yml` (~100 questions).
+  `app.seed-data.enabled`, `.location`, `.image-base-url`.
+  - `topic` : `id` stable, `name`, `description`, `category`, `imageUrl?`, `pictogramUrl?`,
+    `titles?` ;
+  - `questions[]` : `text` (le français), `answers` A–D, `correctAnswer`, `imageUrl?`,
+    `difficulty?`, `translations.en`.
+  - Images en chemin relatif `wikipedia/<univers>/<fichier>`.
+- `SeedDataLoader` valide chaque fichier ; un fichier invalide est ignoré sans bloquer les autres.
+- `DataSeeder` est **auto-réparateur** et idempotent :
+  - il complète les questions, traductions et difficultés manquantes ;
+  - il approuve et publie ;
+  - clé de réparation : `(text, QuestionIdentity.imageKey)`, la fin du chemin de l'image sans la
+    base d'URL ;
+  - une décision éditoriale (brouillon, suspension, archivage, suppression) verrouille la
+    complétion automatique du sujet (`topic_seed_lock`) ;
+  - échec transitoire : jusqu'à 4 tentatives par sujet ; métriques
+    `joutio_theme_seed_topics_total{outcome}` et `…_retries_total`.
+- **Cadence** (`app.seed-data.pacing.*`, `SeedPacer`) : un seed complet est étalé (attente
+  initiale, pause proportionnelle au temps des commandes, pause entre sujets).
+- **Modifier** un contenu déjà publié (texte, réponses, couverture, base d'images) exige une
+  remise à zéro coordonnée avec la release ([exploitation](../../docs/ops/exploitation.md#remise-à-zéro-des-bases)).
+- **Règles de contenu**, vérifiées par des tests :
+  - une licence ou une fiction par sujet ;
+  - bonnes réponses réparties à ~25 % sur A–D ±1 (`SeedAnswerBalanceTest`,
+    `rebalance-seed.py`) ;
+  - vignette unique par sujet (`SeedTopicCoverUniquenessTest`) ;
+  - traduction EN partout sauf `orthographe-grammaire` (`SeedEnTranslationCoverageTest`) ;
+  - question imagée en ≤ 60 caractères, qui ne décrit pas l'image ;
+  - répartition des difficultés (`SeedDifficultyBalanceTest`, cible 10/20/35/35).
+- **Images** : libres seulement (Wikimedia Commons), versionnées dans `minio/joutio-media/wikipedia/` du workspace
+  (crédits dans `minio/CREDITS.md`), publiées par `make seed-images`.
+  - Jamais de logo, d'affiche ni de capture officielle.
+  - **Exception actée** : les écussons de clubs (`sports/blasons-de-clubs.yml`), non libres,
+    ajoutés à la main et marqués dans `CREDITS.md`.
+- **Outillage** (`joutio-theme-infrastructure/src/main/resources/seed/`, API DeepSeek) : `generate-seed.py` → `translate-seed.py` →
+  `rebalance-seed.py` ; `annotate-difficulty.py --check`.
 
-**Édition champ par champ (surface d'auteur du BFF)** : commandes directes sur les agrégats
-(sans port `UseCase` dédié) — `TopicCommand.UpdateTopicName|Description|Category|ImageUrl|BannerUrl|PictogramUrlCommand`
-et `QuestionCommand.AddQuestionTranslation|UpdateQuestionText|Answers|CorrectAnswer|ImageUrlCommand`.
-Les champs du sujet sont réservés au **créateur et aux administrateurs Premium** ; les questions
-sont gardées côté BFF suivant le rôle et leur auteur (voir atelier collaboratif). Les mises à jour
-sont **idempotentes** (aucun événement si la valeur est
-inchangée) et validées par les règles (`TopicRules` : nom ≤ 25, description ≤ 500,
-URL ≤ 1024 ; `QuestionRules` : texte ≤ 255, URL ≤ 1024, 4 réponses, bonne réponse présente
-dans chaque langue). La publication vérifie aussi le propriétaire et exige **7 questions approuvées
-dans une même langue** (`countPlayableByTopicId`, 2026-11-12) : un total toutes langues confondues publiait
-des sujets impossibles à jouer (le tirage exige la langue des joueurs).
+## Commandes
 
-### Signalements et modération des questions
+```bash
+mvn -q -pl joutio-theme-domain test
+mvn -pl joutio-theme-infrastructure test
+cd joutio-theme-infrastructure/src/main/resources/seed && python3 rebalance-seed.py --check topics/*/*.yml
+```
 
-- **`QuestionReportThreadAggregate`** : thread déterministe (`threadId = UUID(questionId|reporterId)`),
-  un seul signalement `OPEN` à la fois, historique conservé. `ReportQuestionCommand` est
-  idempotent et retourne `QuestionReportResult(reportId, created)` ; après clôture, un nouveau
-  signalement ouvre un nouveau `reportId`.
-- **Snapshot** : `QuestionReportSnapshot` (texte, image, réponses, traductions, bonne réponse,
-  langue, source `PLAYED|CURRENT`) figé au dépôt. Le BFF l'extrait de l'historique de partie
-  (`RoundStarted`/`RoundClosed`) et retombe sur la question courante si nécessaire.
-- **Modération** : `QuestionStatus` porte `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED`.
-  Suspension et archivage sont des transitions de statut, avec raisons, notes, dates et acteur.
-  La suppression définitive reste une action distincte (voir atelier collaboratif).
-  Le tirage, le comptage de couverture langues et la garde de publication excluent les questions
-  suspendues/archivées. Commandes : `Suspend|Reinstate|Archive|RestoreQuestionCommand`.
-- **Suspension automatique** : `QuestionReportSuspensionPolicy` (`application/policy`, groupe
-  `theme-projection`, `@DisallowReplay`) compte les **signaleurs distincts** dont le signalement est
-  ouvert **ou clos sans modification** (`DISMISSED`) dans la fenêtre
-  `joutio.question-report.auto-suspension.window` (défaut `P7D`), à partir de
-  `max(reportedAt - window, reinstatedAt, restoredAt)`. Clore un signalement ne neutralise donc pas la
-  règle ; un signalement corrigé (`RESOLVED`) ne compte plus. Le signaleur de l'événement est compté à
-  part (indépendant de l'ordre des handlers), les instants viennent de l'événement. Seuil par défaut
-  `3`, activé par défaut. Réglage exposé à l'application par le bean `QuestionAutoSuspension`.
-  Garde de rejeu dans l'agrégat : une suspension n'est appliquée que si le signalement déclencheur est
-  postérieur à la dernière réactivation/restauration.
-- **Repli en brouillon** : `TopicAvailabilityPolicy` (`@DisallowReplay`) repasse le sujet en brouillon
-  sous 7 questions **jouables** (approuvées dans une même langue, `countPlayableByTopicIdExcluding`),
-  en excluant la question de l'événement ; à la suppression d'une question,
-  ses signalements ouverts sont résolus (`QUESTION_DELETED`).
-- **Migration** : `V1__init_theme.sql` (`question_report`,
-  `question_report_reason`, colonnes de modération sur `question_entry`, index unique partiel
-  `(thread_id) WHERE status='OPEN'`).
-- **Queries** : `QuestionReportQuery.*` (détail, liste par question, compteurs, file agrégée,
-  stats), `QuestionQuery.GetQuestionsByIdsQuery`, `GetQuestionAdminPageQuery`,
-  `TopicQuery.GetAdminTopicOptionsQuery`.
+## Pièges
 
----
-
-## 4. Dépendances inter-services
-
-**Aucune dépendance sortante** au niveau contrat (queries). Theme est un **fournisseur** :
-
-- `joutio-social` → `TopicRepositoryPort` → `TopicQuery.TopicExistsByIdQuery`
-- `joutio-matchmaking` → `QuestionDrawPort` → `QuestionQuery.GetRandomApprovedQuestionsQuery(topicId, count, languages, difficulties, excludeQuestionIds)`
-  (sélection **stricte** sur les langues : la question doit avoir un contenu dans **toutes** les
-  langues demandées ; `difficulties`/`excludeQuestionIds` sont des **préférences de tri**
-  best-effort — jamais-jouées &gt; difficulté cible &gt; difficulté inconnue &gt; autres — et la
-  `Question` retournée porte ses contenus localisés, le client choisit le sien). Le tirage
-  **ne dédoublonne pas par contenu** (2026-11-16, remplace le dédoublonnage texte + illustration) :
-  plusieurs questions au même énoncé, avec ou sans image, sont des questions distinctes ; 7 questions
-  « Quelle est la bonne orthographe ? » sans image faisaient échouer la salle (`QuestionRepositoryAdapterTest`).
-  La cause des anciens doublons (re-seed après un changement de base d'images) est traitée dans le seeder :
-  sa clé de réparation ignore la base de l'URL (`QuestionIdentity.imageKey`).
-- `joutio-bff` → `QuestionQuery.GetTopicLanguageCoverageQuery(topicId)` → `List<QuestionLanguageCoverage>`
-  (couverture de **toutes** les combinaisons non vides de langues, sémantique stricte « contenu dans
-  toutes les langues ») : préparée à la création d'un ticket d'appariement et portée par
-  `MatchmakingStartedEvent`, pour que la saga compare **localement** (aucune query bloquante dans un
-  handler de saga — voir `best-practices/.backend/anti-patterns.md` § 1). La garde
-  `CountApprovedQuestionsByTopicAndLanguagesQuery` reste disponible (comptage d'une combinaison) et
-  sert d'implémentation interne à la couverture.
-- `joutio-bff` → `TopicQuery.CountImageReferencesQuery(imageUrls)` → `List<ImageReferenceCount>` :
-  comptage batch des références d'images du read model (couverture et bannière de sujet,
-  illustration de question), réservé à la **console média admin** du BFF (`/api/admin/media`,
-  `ROLE_ADMIN` — une suppression d'objet référencé est bloquée). Port sortant
-  `ImageReferenceRepositoryPort`.
-
-**Conso (événements)** : `joutio-theme-infrastructure` → `joutio-game-domain` (artifact Maven) —
-`QuestionDifficultyProjection` (`@EventHandler`) consomme `GameEvent.QuestionAnsweredEvent` du bus
-partagé. Seules les réponses **humaines** (`playerType == HUMAN`) sont comptées : BOT et GHOST sont
-ignorés ; une non-réponse (timeout) arrive en réponse fausse et compte comme incorrecte. Les
-compteurs sont stockés dans `question_answer_stats` (port `QuestionAnswerStatsRepositoryPort`) ;
-lorsque la difficulté calculée change, la projection envoie une
-`UpdateQuestionDifficultyCommand` à l'agrégat (la difficulté est un attribut de
-`QuestionAggregate`, exposé ensuite via `Question`).
-
-**Commandes/événements de difficulté** : `QuestionCommand.UpdateQuestionDifficultyCommand` +
-`QuestionEvent.QuestionDifficultyUpdatedEvent` (no-op si la valeur est inchangée).
-
-**Ports sortants locaux** : `TopicRepositoryPort`, `QuestionRepositoryPort`,
-`QuestionAnswerStatsRepositoryPort` (persistance).
-
-### Enrichissements catalogue
-
-- `TopicQuery.GetTopicPageQuery(nameQuery, category, sort, page, size)` → `TopicPage` : page du
-  catalogue publié (tri `POPULAR|MOST_PLAYED|ALPHA|RECENT` — `MOST_PLAYED` = compteur
-  **communautaire** de parties jouées `games_counter desc`, `RECENT` = `questionsChangedAt desc` (2026-11-14),
-  alimente la section « Fraîchement mis à jour » de l'accueil), filtre texte normalisé côté handler. `questionsChangedAt` = dernier **ajout ou
-  retrait de question jouable** (nombre de questions approuvées qui change : approbation, suppression, archivage,
-  suspension, rétablissement) ou publication du thème ; ni renommage, ni image, ni édition de question n'y touchent
-  (migration V7, rattrapée sur `updated_at`). `updatedAt` =
-  dernière mise à jour **de contenu** : publication, édition du sujet **et éditions de questions**
-  (traduction/texte/réponses/bonne réponse/image — `TopicProjection`) ; jamais les follows ni la
-  difficulté auto-calculée (`QuestionDifficultyUpdatedEvent` ignoré).
-
-### Compteur de parties jouées (`games_counter`)
-
-- Source : `topic_played_game_ref` (clé naturelle `game_id`), alimentée par
-  `TopicGamesProjection` sur `GameEvent.GameCreatedEvent` de `joutio-game` (pin
-  `joutio-game-domain`) ; le compteur est **recalculé** (`Topic.gamesCounter`) à chaque partie et
-  **initialisé** à la création du thème — les flux game et thème étant distincts, une partie peut
-  précéder son thème (table sans clé étrangère, rattrapage à la création). Rejouable sans dérive.
-- Communautaire : toutes les parties comptent (bots compris), il ne dépend d'aucun joueur.
-  Alimente le tri catalogue « Les plus joués » (`TopicSort.MOST_PLAYED`).
-- `TopicQuery.GetTopicsByCreatorQuery(creatorId, page, size)` → `TopicPage` : sujets créés par un
-  utilisateur (tous statuts, brouillons compris), tri `updatedAt desc` — alimente la vue
-  « mes sujets » du BFF (`?mine=true`).
-- `TopicQuery.TopicFacetsQuery(nameQuery, topicIds)` → `List<TopicFacetCount>` : compteurs par
-  catégorie (facettes) appliqués aux mêmes filtres, `topicIds` pour le périmètre « suivis ».
-- `TopicQuery.GetTopicsByIdsQuery(topicIds)` → `List<Topic>` : résolution batch (accueil, suivis).
-- `TopicQuery.TopicSearchQuery` (pattern SDK) reste pour les **futures surfaces d'administration** ;
-  les vues web n'y font plus appel.
-- `GET /api/topic-categories` (BFF) — les **17** `TopicCategory` + libellé FR (`TopicCategory.label()`), alignés sur les
-  catégories du design (`design/tokens`) depuis le 2026-11-12 : `RELIGION` retirée, ses sujets sont en `GENERAL`
-  (« Culture générale »).
-- `Topic` porte `imageUrl` (vignette, celle de `TopicCard`), `bannerUrl` (bannière panoramique de la fiche sujet)
-  et `pictogramUrl` (pictogramme carré de la tuile du catalogue, `TopicTile` ; 2026-11-12) : agrégat, événements,
-  commandes, `TopicEntity` (colonnes `image_url`/`banner_url`/`pictogram_url`), DTO. Repli de la tuile côté client :
-  pictogramme, vignette, puis catégorie. `emoji` et `color` (code mort) sont supprimés : migration
-  `V5__topic_pictogram_and_categories.sql` (colonnes retirées, `RELIGION` → `GENERAL`, contrainte de catégorie).
-  La prod repart d'une base vierge (script de reset) : aucun upcaster pour les anciens événements.
-- **Recherche insensible aux accents/casse** : `TopicEntity.name_normalized` (schéma
-  `V1__init_theme.sql`) dérivé de `name` par `TopicEntityMapper`
-  (`SearchText.normalize`, domaine).
-
-### Seed initial (YAML)
-
-- **Un fichier par thème**, rangé par catégorie : `src/main/resources/seed/topics/<categorie>/<theme>.yml`
-  (100 questions par thème ; 3 thèmes historiques plus fournis conservés tels quels :
-  Chefs-d'œuvre 137, Capitales 185, Drapeaux 194). Découverte via `app.seed-data.location`
-  (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
-  > **Catalogue en réécriture** (lot « acquisition ») : nouveaux thèmes + scission des umbrellas de
-  > licences + durcissement du contenu. Règle de contenu : **1 licence/fiction par thème** (pas
-  > d'umbrella de licences) ; les thèmes factuels (drapeaux, capitales, monuments) et de genre
-  > (années, rap français) restent autorisés.
-- Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
-  `imageUrl` optionnelle, `pictogramUrl` optionnelle (`pictogrammes/<sujet>.svg`, copie dans
-  `product/pictogrammes/` du workspace, publiée par `scripts/seed-images.py publish`),
-  `titles` optionnelle — libellés par **palier de rareté** et par langue, ex.
-  `titles: { fr: { OR: "Maréchal d'Empire" }, en: { … } }` : paliers ∈
-  `FER…DIAMANT` (miroir de `MasteryTier`), libellé ≤ 40, langues/paliers facultatifs, repli
-  client « palier · nom du sujet ») + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
-  `correctAnswer`, `imageUrl` optionnelle, `difficulty` optionnelle : `EASY|MEDIUM|HARD|EXPERT`,
-  `translations` optionnelle : `{ en: { text, answers } }`).
-  Le texte de premier niveau est **le contenu français** ; `translations` porte les autres langues
-  (pas de langue source explicite). Validation par `SeedDataLoader` : l'unicité de la paire
-  `(text, imageUrl)` est exigée par fichier (clé de réparation), une traduction `fr` est refusée,
-  un fichier invalide est loggé et ignoré sans bloquer les autres.
-  `imageUrl` est un **chemin relatif** (`wikipedia/<categorie>/<fichier>`, ex.
-  `wikipedia/technology/Ada_Lovelace_portrait.jpg`), résolu par `SeedDataLoader` en
-  `app.seed-data.image-base-url + chemin` (les URLs absolues http(s) restent acceptées).
-- **Cadence du seed** (`app.seed-data.pacing.*`, `SeedPacer`) : un seed complet après reset (~10 700
-  questions ≈ 32 000 commandes, chacune lue par tous les processors du topic Axon partagé) est **étalé**
-  au lieu d'une rafale : `start-delay` avant le premier thème (laisser les services redémarrer),
-  pause après chaque question = durée de ses commandes × `duty-ratio` (plafond `max-question-pause` —
-  adaptatif : la pause s'allonge quand le cluster ralentit), `topic-pause` après un thème créé ou
-  réparé (jamais après un thème inchangé : un redémarrage sans travail reste rapide). Défauts neutres
-  (local/tests) ; prod : `60s` / `1.0` / `2s` / `5s` (`JOUTIO_SEED_*`). Métrique
-  `joutio_theme_seed_pause_seconds_total` ; log `Seed progress n/N` par thème traité. Le sondage
-  d'approbation avant publication est à 500 ms (timeout 60 s).
-- **Difficulté initiale du seed** : la difficulté par défaut est **calculée** depuis les statistiques
-  de réponses (`QuestionRules.difficultyFor`, seuils 80/60/40 %, min. 10 réponses —
-  `QuestionDifficultyProjection`). Le seed porte une difficulté **initiale optionnelle**, posée par
-  le seeder (`UpdateQuestionDifficultyCommand`) **uniquement si la question n'a encore aucune
-  difficulté** : elle est remplacée par le calcul réel dès que l'échantillon est suffisant (aucun
-  écrasement d'une classification issue des réponses). Garde-fou : `SeedDifficultyBalanceTest` —
-  **deux répartitions acceptées** pendant la migration : historique **25 % ±1** par niveau, et
-  cible **EASY 10 / MEDIUM 20 / HARD 35 / EXPERT 35 (±3)** visée par les thèmes (re)générés
-  (`seed/generate-seed.py`). Retirer l'ancienne une fois le catalogue réécrit.
-  `seed/annotate-difficulty.py --check` tolère les deux mêmes répartitions.
-- **Seeder auto-réparateur** (`DataSeeder`) : thème absent → création + questions + approbation +
-  publication ; `PUBLISHED` → complétion sans republication (questions manquantes créées et
-  approuvées, traductions et difficultés initiales manquantes ajoutées) ; `DRAFT` → création des
-  questions manquantes (clé stable = `(text, imageUrl)`, les IDs de questions étant aléatoires),
-  approbation des non-approuvées, traductions et difficultés manquantes puis publication ;
-  `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées par thème.
-  **Échec transitoire** (`CommandDispatchException`/connection refusée — instance Axon périmée
-  pendant un rollout) → jusqu'à 4 tentatives du thème (backoff 2s×n) ; le seeding étant
-  idempotent, un essai ultérieur reprend les questions manquantes. Résultats exposés via
-  `joutio_theme_seed_topics_total{outcome}` + `joutio_theme_seed_retries_total` (alerte
-  `JoutioThemeSeedFailures` si `outcome="failed"`).
-- **Images** : les binaires (copie **octet-pour-octet** des rendus Wikimedia Commons
-  `Special:FilePath/<fichier>?width=800`) vivent dans le repo **joutio-workspace** :
-  `product/wikipedia/<categorie>/<fichier>` (+ `manifest.json`, + `CREDITS.md` pour
-  l'auteur/licence). Aucun binaire dans ce repo. Outillage workspace :
-  `python3 scripts/seed-images.py {fetch,normalize,rewrite,check,publish}` (`make seed-images
-  ACTION=…`), publié vers MinIO (bucket `joutio-media`, préfixe `wikipedia/`).
-  - **Règle** : images **libres** uniquement (domaine public ou licence libre avec attribution) ;
-    jamais de logo, affiche, capture ou personnage officiel — les visuels des thèmes licences sont
-    des **photos libres évoquant** la licence (cosplay, convention, lieu).
-  - **Questions avec image** : le `text` fait **≤ 60 caractères** et **ne décrit pas** l'image
-    (« Quel est ce pays ? », « À quel club ? ») — l'image porte l'information. Validé à la
-    génération par `generate-seed.py`.
-  - **Exception actée — écussons de clubs de football** (`sports/blasons-de-clubs.yml`) : les
-    écussons ne sont **pas** libres (fair use Wikipédia + marques). Exception **explicitement
-    assumée par le propriétaire** ; ces fichiers ne passent pas par `fetch` (ajout manuel dans
-    `product/wikipedia/sports/`) et `CREDITS.md` les marque « non libre / marque ». Risque :
-    disponibilité et licence non garanties.
-- **Traductions EN** : chaque question porte `translations.en` (les duels bilingues ne sélectionnent
-  que les questions disponibles dans **toutes** les langues demandées). Générées via
-  `seed/translate-seed.py` (API DeepSeek, validation identique au loader, insertion textuelle à
-  diff minimal, modes `--check`/`--dry-run`). Le thème `orthographe-grammaire` est volontairement
-  **FR-only** (exercice intraduisible). Garde-fou : `SeedEnTranslationCoverageTest`.
-- **Génération de contenu** : `seed/generate-seed.py` rédige un thème (questions FR) via l'API
-  DeepSeek (JSON strict, validations identiques au loader : texte ≤ 255, texte imagé ≤ 60, 4
-  réponses distinctes, `correctAnswer` A–D, dédoublonnage). La **difficulté** n'est pas demandée au
-  modèle : les questions sont **notées 0–100** puis les niveaux sont affectés **aux percentiles de
-  la cible** (`--targets`, défaut `10/20/35/35`) → distribution exacte garantie ; `--rebalance-only
-  FILE` reclasse un fichier existant. Enchaînement : `generate-seed.py` → `translate-seed.py` →
-  `rebalance-seed.py` (le modèle biaise fortement la lettre A → équilibrage A–D obligatoire).
-
-### Hygiène du seed (règles vérifiées par tests)
-
-- **Répartition des bonnes réponses** : ~25 % de A, B, C et D **par thème**, tolérance **±1** —
-  jamais de lettre privilégiée (le biais A est exploité par les joueurs attentifs). Correction
-  déterministe et idempotente : `python3 seed/rebalance-seed.py topics/*/*.yml` (`--check` sort en
-  erreur si un thème dépasse ±1, `--dry-run` détaille les échanges, écriture textuelle minimale :
-  échange des valeurs entre la lettre courante et la cible dans `answers` et les traductions).
-  Garde-fou : `SeedAnswerBalanceTest`.
-- **Couverture unique par thème** : deux thèmes ne partagent jamais le même `topic.imageUrl` (le
-  catalogue les affiche côte à côte) ; un thème peut ne pas en avoir (fallback UI). Garde-fou :
-  `SeedTopicCoverUniquenessTest`.
-- **Images** : exclusivement Wikimedia Commons libres de droit ; toute nouvelle image doit être
-  rapatriée dans `product/wikipedia/` (workspace) et figurer dans `product/wikipedia/CREDITS.md`
-  (auteur + licence), puis référencée en chemin relatif dans le YAML.
-- **Seed déjà publié en prod** : le seeder est idempotent par `(text, image)`, l'image étant identifiée
-  par la fin de son chemin (`wikipedia/<categorie>/<fichier>`, `QuestionIdentity.imageKey`), **sans** la base
-  d'URL (2026-11-16 : un changement de base recréait la question en doublon) ; il peut **compléter** un thème publié (questions manquantes, traductions, difficulté
-  initiale) sans reset ; en revanche **modifier** les réponses, les textes, la couverture ou la
-  base d'images exige un **reset data** (`devops/joutio-gitops/scripts/reset.sh`, § 7 du AGENTS
-  gitops) coordonné avec la release.
-
-## Atelier collaboratif — 2026-11-08
-
-- Équipe réelle, ajout immédiat : `CREATOR`, `ADMIN`, `WRITER`. Le créateur est protégé.
-  Créateur et administrateurs Premium gèrent le sujet, ses questions et les signalements.
-  Un administrateur sans Premium exerce seulement les droits de rédacteur ; le créateur gratuit
-  garde son contenu et le retrait des membres, mais ne peut plus ajouter de collaborateurs.
-  Les rédacteurs gratuits proposent, corrigent et suppriment leurs propres questions `PENDING`/`REJECTED`.
-- `QuestionStatus` est l'unique état : `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED`.
-  Les anciennes propriétés JSON `suspended`/`archived` restent dérivées du statut pour les clients existants.
-  Les motifs, notes et dates servent à l'audit, sans deuxième état indépendant.
-- `SUSPENDED` après le seuil configurable (défaut : 3 signaleurs distincts / 7 jours).
-  Une correction ne réactive pas la question : une approbation explicite est nécessaire.
-- Archiver est réversible ; restaurer revient à `PENDING`. Supprimer émet `QuestionDeletedEvent`,
-  appelle `AggregateLifecycle.markDeleted()` dans l'event sourcing handler et supprime la projection.
-  Les snapshots des parties conservent leur contenu ; aucun effacement des événements métier par cette action.
-- Sous 7 questions `APPROVED` **dans une même langue**, le sujet repasse en `DRAFT`. Un brouillon bloque les nouveaux
-  départs (bot, défi, salon et matchmaking), y compris les invitations existantes. Les parties déjà créées continuent.
-- Les décisions éditoriales de brouillon, suspension, archivage ou suppression verrouillent la
-  complétion automatique du seed du sujet : un redémarrage ne les annule pas.
-- Migrations : V2 équipe + motif de rejet ; V3 conversion des flags en statuts et compteurs ;
-  V4 verrou éditorial du seed. Les colonnes historiques de flags ne sont plus utilisées par le nouveau modèle.
+- Les champs JSON `suspended` et `archived` des vues sont dérivés du statut. Ce n'est pas un second
+  état.

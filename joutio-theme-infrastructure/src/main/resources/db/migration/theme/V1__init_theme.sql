@@ -1,19 +1,19 @@
--- Joutio theme — baseline schema (squashed from V1..V6)
--- Generated from a fresh PostgreSQL 16 database after applying the legacy migrations.
+-- Joutio theme — schéma complet (pg_dump, PostgreSQL 16).
+-- V1 unique avant l'ouverture publique : toute évolution modifie ce fichier et impose une remise à zéro
+-- de la base (docs/backend/conventions.md, section Base de données).
 
 --
 -- PostgreSQL database dump
 --
 
 
--- Dumped from database version 16.13
--- Dumped by pg_dump version 16.13
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
 SET xmloption = content;
 SET client_min_messages = warning;
@@ -31,7 +31,7 @@ CREATE TABLE public.question_answer_content (
     content_id bigint NOT NULL,
     choice character varying(1) NOT NULL,
     answer_text character varying(255) NOT NULL,
-    CONSTRAINT chk_question_answer_content_choice CHECK (((choice)::text = ANY ((ARRAY['A'::character varying, 'B'::character varying, 'C'::character varying, 'D'::character varying])::text[]))),
+    CONSTRAINT chk_question_answer_content_choice CHECK (((choice)::text = ANY (ARRAY[('A'::character varying)::text, ('B'::character varying)::text, ('C'::character varying)::text, ('D'::character varying)::text]))),
     CONSTRAINT chk_question_answer_content_text_not_blank CHECK ((char_length(TRIM(BOTH FROM answer_text)) > 0))
 );
 
@@ -122,7 +122,7 @@ CREATE TABLE public.question_content (
     question_id character varying(255) NOT NULL,
     language character varying(5) NOT NULL,
     text character varying(255) NOT NULL,
-    CONSTRAINT chk_question_content_language CHECK (((language)::text = ANY ((ARRAY['fr'::character varying, 'en'::character varying])::text[]))),
+    CONSTRAINT chk_question_content_language CHECK (((language)::text = ANY (ARRAY[('fr'::character varying)::text, ('en'::character varying)::text]))),
     CONSTRAINT chk_question_content_text_not_blank CHECK ((char_length(TRIM(BOTH FROM text)) > 0))
 );
 
@@ -200,9 +200,10 @@ CREATE TABLE public.question_entry (
     archived_at timestamp without time zone,
     archived_by character varying(255),
     restored_at timestamp without time zone,
-    CONSTRAINT chk_question_choice CHECK (((correct_answer)::text = ANY ((ARRAY['A'::character varying, 'B'::character varying, 'C'::character varying, 'D'::character varying])::text[]))),
-    CONSTRAINT chk_question_difficulty CHECK (((difficulty IS NULL) OR ((difficulty)::text = ANY ((ARRAY['EASY'::character varying, 'MEDIUM'::character varying, 'HARD'::character varying, 'EXPERT'::character varying])::text[])))),
-    CONSTRAINT chk_question_status CHECK (((status)::text = ANY ((ARRAY['PENDING'::character varying, 'APPROVED'::character varying, 'REJECTED'::character varying])::text[])))
+    rejection_reason character varying(1000),
+    CONSTRAINT chk_question_choice CHECK (((correct_answer)::text = ANY (ARRAY[('A'::character varying)::text, ('B'::character varying)::text, ('C'::character varying)::text, ('D'::character varying)::text]))),
+    CONSTRAINT chk_question_difficulty CHECK (((difficulty IS NULL) OR ((difficulty)::text = ANY (ARRAY[('EASY'::character varying)::text, ('MEDIUM'::character varying)::text, ('HARD'::character varying)::text, ('EXPERT'::character varying)::text])))),
+    CONSTRAINT chk_question_status CHECK (((status)::text = ANY ((ARRAY['PENDING'::character varying, 'APPROVED'::character varying, 'REJECTED'::character varying, 'SUSPENDED'::character varying, 'ARCHIVED'::character varying])::text[])))
 );
 
 
@@ -317,8 +318,8 @@ CREATE TABLE public.question_report (
     reviewed_by character varying(255),
     reviewed_at timestamp without time zone,
     resolution_note character varying(500),
-    CONSTRAINT chk_question_report_snapshot_source CHECK (((snapshot_source IS NULL) OR ((snapshot_source)::text = ANY ((ARRAY['PLAYED'::character varying, 'CURRENT'::character varying])::text[])))),
-    CONSTRAINT chk_question_report_status CHECK (((status)::text = ANY ((ARRAY['OPEN'::character varying, 'RESOLVED'::character varying, 'DISMISSED'::character varying])::text[])))
+    CONSTRAINT chk_question_report_snapshot_source CHECK (((snapshot_source IS NULL) OR ((snapshot_source)::text = ANY (ARRAY[('PLAYED'::character varying)::text, ('CURRENT'::character varying)::text])))),
+    CONSTRAINT chk_question_report_status CHECK (((status)::text = ANY (ARRAY[('OPEN'::character varying)::text, ('RESOLVED'::character varying)::text, ('DISMISSED'::character varying)::text])))
 );
 
 
@@ -357,7 +358,7 @@ COMMENT ON COLUMN public.question_report.status IS 'OPEN, RESOLVED ou DISMISSED'
 CREATE TABLE public.question_report_reason (
     report_id character varying(255) NOT NULL,
     reason character varying(32) NOT NULL,
-    CONSTRAINT chk_question_report_reason CHECK (((reason)::text = ANY ((ARRAY['QUESTION'::character varying, 'IMAGE'::character varying, 'ANSWERS'::character varying])::text[])))
+    CONSTRAINT chk_question_report_reason CHECK (((reason)::text = ANY (ARRAY[('QUESTION'::character varying)::text, ('IMAGE'::character varying)::text, ('ANSWERS'::character varying)::text])))
 );
 
 
@@ -372,8 +373,6 @@ CREATE TABLE public.topic_entry (
     status character varying(255) NOT NULL,
     creator_id character varying(255) NOT NULL,
     followers_counter integer DEFAULT 0,
-    emoji character varying(16),
-    color character varying(16),
     image_url character varying(1024),
     title_names text,
     created_at timestamp without time zone NOT NULL,
@@ -385,9 +384,15 @@ CREATE TABLE public.topic_entry (
     name_en_normalized character varying(255),
     banner_url character varying(1024),
     games_counter integer DEFAULT 0 NOT NULL,
-    CONSTRAINT chk_topic_category CHECK (((category)::text = ANY ((ARRAY['ARTS'::character varying, 'BUSINESS'::character varying, 'EDUCATION'::character varying, 'ENTERTAINMENT'::character varying, 'FOOD_AND_DRINK'::character varying, 'GAMES'::character varying, 'GENERAL'::character varying, 'HISTORY'::character varying, 'LITERATURE'::character varying, 'MOVIES'::character varying, 'MUSIC'::character varying, 'NATURE'::character varying, 'RELIGION'::character varying, 'SCIENCE'::character varying, 'SPORTS'::character varying, 'TELEVISION'::character varying, 'TECHNOLOGY'::character varying, 'WORLD'::character varying])::text[]))),
+    pictogram_url character varying(1024),
+    description_en character varying(500),
+    questions_changed_at timestamp without time zone,
+    official boolean DEFAULT false NOT NULL,
+    closed boolean DEFAULT false NOT NULL,
+    closed_reason character varying(500),
+    CONSTRAINT chk_topic_category CHECK (((category)::text = ANY ((ARRAY['ARTS'::character varying, 'BUSINESS'::character varying, 'EDUCATION'::character varying, 'ENTERTAINMENT'::character varying, 'FOOD_AND_DRINK'::character varying, 'GAMES'::character varying, 'GENERAL'::character varying, 'HISTORY'::character varying, 'LITERATURE'::character varying, 'MOVIES'::character varying, 'MUSIC'::character varying, 'NATURE'::character varying, 'SCIENCE'::character varying, 'SPORTS'::character varying, 'TELEVISION'::character varying, 'TECHNOLOGY'::character varying, 'WORLD'::character varying])::text[]))),
     CONSTRAINT chk_topic_name_fr_not_blank CHECK ((char_length(TRIM(BOTH FROM name_fr)) > 0)),
-    CONSTRAINT chk_topic_status CHECK (((status)::text = ANY ((ARRAY['DRAFT'::character varying, 'PUBLISHED'::character varying, 'ARCHIVED'::character varying])::text[])))
+    CONSTRAINT chk_topic_status CHECK (((status)::text = ANY (ARRAY[('DRAFT'::character varying)::text, ('PUBLISHED'::character varying)::text, ('ARCHIVED'::character varying)::text])))
 );
 
 
@@ -504,6 +509,41 @@ COMMENT ON COLUMN public.topic_entry.games_counter IS 'Parties créées sur ce t
 
 
 --
+-- Name: COLUMN topic_entry.pictogram_url; Type: COMMENT; Schema: public; Owner: -
+--
+
+COMMENT ON COLUMN public.topic_entry.pictogram_url IS 'URL optionnelle du pictogramme carré de la tuile du catalogue';
+
+
+--
+-- Name: COLUMN topic_entry.description_en; Type: COMMENT; Schema: public; Owner: -
+--
+
+COMMENT ON COLUMN public.topic_entry.description_en IS 'Description anglaise optionnelle (repli : description française)';
+
+
+--
+-- Name: COLUMN topic_entry.questions_changed_at; Type: COMMENT; Schema: public; Owner: -
+--
+
+COMMENT ON COLUMN public.topic_entry.questions_changed_at IS 'Dernier ajout ou retrait de question approuvée, ou publication du thème (tri RECENT)';
+
+
+--
+-- Name: COLUMN topic_entry.official; Type: COMMENT; Schema: public; Owner: -
+--
+
+COMMENT ON COLUMN public.topic_entry.official IS 'Badge Officiel : sujet éditorial de Joutio, posé par un administrateur';
+
+
+--
+-- Name: COLUMN topic_entry.closed; Type: COMMENT; Schema: public; Owner: -
+--
+
+COMMENT ON COLUMN public.topic_entry.closed IS 'Fermé par la modération : publication refusée jusqu''à réouverture';
+
+
+--
 -- Name: topic_follower_ref; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -532,7 +572,7 @@ CREATE TABLE public.topic_questions_counter (
     question_status character varying(50) NOT NULL,
     counter integer DEFAULT 0 NOT NULL,
     CONSTRAINT chk_topic_questions_counter_non_negative CHECK ((counter >= 0)),
-    CONSTRAINT chk_topic_questions_status CHECK (((question_status)::text = ANY ((ARRAY['PENDING'::character varying, 'APPROVED'::character varying, 'REJECTED'::character varying])::text[])))
+    CONSTRAINT chk_topic_questions_status CHECK (((question_status)::text = ANY ((ARRAY['PENDING'::character varying, 'APPROVED'::character varying, 'REJECTED'::character varying, 'SUSPENDED'::character varying, 'ARCHIVED'::character varying])::text[])))
 );
 
 
@@ -562,6 +602,27 @@ COMMENT ON COLUMN public.topic_questions_counter.question_status IS 'Statut de l
 --
 
 COMMENT ON COLUMN public.topic_questions_counter.counter IS 'Nombre de questions avec ce statut';
+
+
+--
+-- Name: topic_seed_lock; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.topic_seed_lock (
+    topic_id character varying(255) NOT NULL
+);
+
+
+--
+-- Name: topic_team_member; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.topic_team_member (
+    topic_id character varying(255) NOT NULL,
+    user_id character varying(255) NOT NULL,
+    role character varying(16) NOT NULL,
+    CONSTRAINT topic_team_member_role_check CHECK (((role)::text = ANY ((ARRAY['ADMIN'::character varying, 'WRITER'::character varying])::text[])))
+);
 
 
 --
@@ -657,6 +718,22 @@ ALTER TABLE ONLY public.topic_played_game_ref
 
 ALTER TABLE ONLY public.topic_questions_counter
     ADD CONSTRAINT topic_questions_counter_pkey PRIMARY KEY (topic_id, question_status);
+
+
+--
+-- Name: topic_seed_lock topic_seed_lock_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.topic_seed_lock
+    ADD CONSTRAINT topic_seed_lock_pkey PRIMARY KEY (topic_id);
+
+
+--
+-- Name: topic_team_member topic_team_member_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.topic_team_member
+    ADD CONSTRAINT topic_team_member_pkey PRIMARY KEY (topic_id, user_id);
 
 
 --
@@ -787,6 +864,13 @@ CREATE INDEX idx_topic_entry_name_fr_normalized ON public.topic_entry USING btre
 
 
 --
+-- Name: idx_topic_entry_official; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX idx_topic_entry_official ON public.topic_entry USING btree (official) WHERE official;
+
+
+--
 -- Name: idx_topic_entry_status; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -812,6 +896,13 @@ CREATE INDEX idx_topic_played_game_ref_topic ON public.topic_played_game_ref USI
 --
 
 CREATE INDEX idx_topic_questions_counter_topic ON public.topic_questions_counter USING btree (topic_id);
+
+
+--
+-- Name: idx_topic_team_user; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX idx_topic_team_user ON public.topic_team_member USING btree (user_id);
 
 
 --

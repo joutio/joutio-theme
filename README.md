@@ -1,11 +1,6 @@
-# joutio-theme (staging local)
+# joutio-theme
 
-Structure cible en 2 sous-modules Maven :
+Sujets, questions, atelier collaboratif et signalements.
 
-- `joutio-theme-domain`
-- `joutio-theme-infrastructure`
-
-Seul `joutio-theme-domain` est importable inter-services.
-
-Le code applicatif reste organise sous `com.joutio.theme.application.*` dans le module infrastructure.
-
+Service du workspace Joutio : règles, état et commandes dans [`AGENTS.md`](AGENTS.md) ; documentation
+commune dans `docs/` du workspace.
