@@ -1,3 +1,9 @@
+## [3.8.4](https://github.com/joutio/joutio-theme/compare/v3.8.3...v3.8.4) (2026-11-18)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 2.0.0, idle-friendly processors and bytea Axon schema ([f072762](https://github.com/joutio/joutio-theme/commit/f072762f32e46753c2aa3124d3380f4a6f7723ea))
+
 ## [3.8.3](https://github.com/joutio/joutio-theme/compare/v3.8.2...v3.8.3) (2026-11-17)
 
 ### Bug Fixes
