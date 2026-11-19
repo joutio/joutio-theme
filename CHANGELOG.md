@@ -1,3 +1,9 @@
+## [3.8.6](https://github.com/joutio/joutio-theme/compare/v3.8.5...v3.8.6) (2026-11-19)
+
+### Bug Fixes
+
+* **errors:** typed problems instead of IllegalArgumentException ([dcf862f](https://github.com/joutio/joutio-theme/commit/dcf862f7939ee337dc6a5b3c9eb96a175f406a3b))
+
 ## [3.8.5](https://github.com/joutio/joutio-theme/compare/v3.8.4...v3.8.5) (2026-11-19)
 
 ### Bug Fixes
