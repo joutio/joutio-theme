@@ -45,12 +45,9 @@ public class QuestionReportThreadAggregate {
         if (currentOpenReportId != null) {
             return new QuestionReportResult(currentOpenReportId, false);
         }
-        try {
-            QuestionReportRules.validateReport(command.reasons(), command.comment());
-        } catch (IllegalArgumentException error) {
-            throw new QuestionReportProblems.InvalidQuestionReportProblem(
-                    command.threadId(), error.getMessage());
-        }
+        QuestionReportRules.reportViolation(command.reasons(), command.comment()).ifPresent(detail -> {
+            throw new QuestionReportProblems.InvalidQuestionReportProblem(command.threadId(), detail);
+        });
 
         String reportId = UUID.randomUUID().toString();
         AggregateLifecycle.apply(new QuestionReportEvent.QuestionReportedEvent(
@@ -78,12 +75,9 @@ public class QuestionReportThreadAggregate {
         if (status != QuestionReportStatus.OPEN) {
             return;
         }
-        try {
-            QuestionReportRules.validateNote(command.note());
-        } catch (IllegalArgumentException error) {
-            throw new QuestionReportProblems.InvalidQuestionReportProblem(
-                    command.reportId(), error.getMessage());
-        }
+        QuestionReportRules.noteViolation(command.note()).ifPresent(detail -> {
+            throw new QuestionReportProblems.InvalidQuestionReportProblem(command.reportId(), detail);
+        });
 
         AggregateLifecycle.apply(new QuestionReportEvent.QuestionReportReviewedEvent(
                 command.threadId(),

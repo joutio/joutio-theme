@@ -1,5 +1,7 @@
 package com.joutio.theme.domain.model;
 
+import com.joutio.theme.domain.exception.TopicProblems;
+
 import com.joutio.microservice.core.domain.model.i18n.Language;
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +24,7 @@ class TopicTitlesTest {
         raw.put(Language.FR, Map.of("OR", "  Maréchal d'Empire  "));
         raw.put(Language.EN, Map.of());
 
-        Map<Language, Map<String, String>> titles = TopicTitles.normalize(raw);
+        Map<Language, Map<String, String>> titles = TopicTitles.normalize("topic", raw);
 
         assertNotNull(titles);
         assertEquals(Set.of(Language.FR), titles.keySet());
@@ -31,28 +33,28 @@ class TopicTitlesTest {
 
     @Test
     void returnsNullWhenNothingIsDefined() {
-        assertNull(TopicTitles.normalize(null));
-        assertNull(TopicTitles.normalize(Map.of()));
+        assertNull(TopicTitles.normalize("topic", null));
+        assertNull(TopicTitles.normalize("topic", Map.of()));
     }
 
     @Test
     void rejectsUnknownTier() {
-        IllegalArgumentException error = assertThrows(IllegalArgumentException.class,
-                () -> TopicTitles.normalize(Map.of(Language.FR, Map.of("GURU", "Gourou"))));
+        TopicProblems.InvalidTopicTitlesProblem error = assertThrows(TopicProblems.InvalidTopicTitlesProblem.class,
+                () -> TopicTitles.normalize("topic", Map.of(Language.FR, Map.of("GURU", "Gourou"))));
         assertTrue(error.getMessage().contains("GURU"));
     }
 
     @Test
     void rejectsBlankLabel() {
-        assertThrows(IllegalArgumentException.class,
-                () -> TopicTitles.normalize(Map.of(Language.FR, Map.of("PLATINE", "  "))));
+        assertThrows(TopicProblems.InvalidTopicTitlesProblem.class,
+                () -> TopicTitles.normalize("topic", Map.of(Language.FR, Map.of("PLATINE", "  "))));
     }
 
     @Test
     void rejectsTooLongLabel() {
         String label = "x".repeat(TopicTitles.MAX_LABEL_LENGTH + 1);
-        IllegalArgumentException error = assertThrows(IllegalArgumentException.class,
-                () -> TopicTitles.normalize(Map.of(Language.FR, Map.of("PLATINE", label))));
+        TopicProblems.InvalidTopicTitlesProblem error = assertThrows(TopicProblems.InvalidTopicTitlesProblem.class,
+                () -> TopicTitles.normalize("topic", Map.of(Language.FR, Map.of("PLATINE", label))));
         assertTrue(error.getMessage().contains("too long"));
     }
 }

@@ -102,11 +102,7 @@ public class TopicAggregate {
     /** Valide la carte des titres (palier connu, libellé non vide ≤ {@code MAX_LABEL_LENGTH}). */
     private static Map<Language, Map<String, String>> normalizeTitles(
             String topicId, Map<Language, Map<String, String>> titles) {
-        try {
-            return TopicTitles.normalize(titles);
-        } catch (IllegalArgumentException error) {
-            throw new TopicProblems.InvalidTopicTitlesProblem(topicId, error.getMessage());
-        }
+        return TopicTitles.normalize(topicId, titles);
     }
 
     @CommandHandler

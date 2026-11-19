@@ -1,6 +1,7 @@
 package com.joutio.theme.domain.model;
 
 import com.joutio.microservice.core.domain.model.i18n.Language;
+import com.joutio.theme.domain.exception.TopicProblems;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -31,27 +32,27 @@ public final class TopicTitles {
      * rien n'est défini (titre absent = repli client).
      */
     public static Map<Language, Map<String, String>> normalize(
-            Map<Language, Map<String, String>> titles) {
+            String topicId, Map<Language, Map<String, String>> titles) {
         if (titles == null || titles.isEmpty()) {
             return null;
         }
         Map<Language, Map<String, String>> clean = new LinkedHashMap<>();
         titles.forEach((language, byTier) -> {
             if (language == null) {
-                throw new IllegalArgumentException("title language is required");
+                throw new TopicProblems.InvalidTopicTitlesProblem(topicId, "title language is required");
             }
             if (byTier == null || byTier.isEmpty()) {
                 return;
             }
             Map<String, String> labels = new LinkedHashMap<>();
             byTier.forEach((tier, label) -> {
-                String key = requireTier(tier);
+                String key = requireTier(topicId, tier);
                 if (label == null || label.isBlank()) {
-                    throw new IllegalArgumentException("title label is required for " + key);
+                    throw new TopicProblems.InvalidTopicTitlesProblem(topicId, "title label is required for " + key);
                 }
                 String value = label.trim();
                 if (value.length() > MAX_LABEL_LENGTH) {
-                    throw new IllegalArgumentException(
+                    throw new TopicProblems.InvalidTopicTitlesProblem(topicId,
                             "title label too long for " + key + " (" + value.length() + " > "
                                     + MAX_LABEL_LENGTH + ")");
                 }
@@ -64,10 +65,10 @@ public final class TopicTitles {
         return clean.isEmpty() ? null : clean;
     }
 
-    private static String requireTier(String tier) {
+    private static String requireTier(String topicId, String tier) {
         String key = tier == null ? "" : tier.trim().toUpperCase();
         if (!TIERS.contains(key)) {
-            throw new IllegalArgumentException("unknown mastery tier '" + tier + "'");
+            throw new TopicProblems.InvalidTopicTitlesProblem(topicId, "unknown mastery tier '" + tier + "'");
         }
         return key;
     }

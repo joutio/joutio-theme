@@ -6,6 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
 
@@ -25,19 +26,21 @@ public interface QuestionReportRules {
         return UUID.nameUUIDFromBytes(seed.getBytes(StandardCharsets.UTF_8)).toString();
     }
 
-    static void validateReport(Set<QuestionReportReason> reasons, String comment) {
+    /** Violation constatée du signalement ; l'appelant lève le problème de son contexte. */
+    static Optional<String> reportViolation(Set<QuestionReportReason> reasons, String comment) {
         if (reasons == null || reasons.isEmpty()) {
-            throw new IllegalArgumentException("At least one report reason is required");
+            return Optional.of("At least one report reason is required");
         }
         if (comment != null && comment.length() > MAX_COMMENT_LENGTH) {
-            throw new IllegalArgumentException("Report comment is too long");
+            return Optional.of("Report comment is too long");
         }
+        return Optional.empty();
     }
 
-    static void validateNote(String note) {
-        if (note != null && note.length() > MAX_NOTE_LENGTH) {
-            throw new IllegalArgumentException("Resolution note is too long");
-        }
+    static Optional<String> noteViolation(String note) {
+        return note != null && note.length() > MAX_NOTE_LENGTH
+                ? Optional.of("Resolution note is too long")
+                : Optional.empty();
     }
 
     /**

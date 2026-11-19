@@ -1,5 +1,7 @@
 package com.joutio.theme.infrastructure.config.seed;
 
+import com.joutio.theme.domain.exception.TopicProblems;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.joutio.microservice.core.domain.model.i18n.Language;
@@ -179,14 +181,14 @@ public class SeedDataLoader {
         }
 
         return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl, topicPictogramUrl,
-                validateTitles(rawTopic.titles()), List.copyOf(questions));
+                validateTitles(topicId, rawTopic.titles()), List.copyOf(questions));
     }
 
     /**
      * Valide les titres personnalisés du seed ({@code topic.titles.<langue>.<TIER>} : paliers
      * connus, libellés non vides et bornés) ; {@code null} si absents (repli client).
      */
-    private Map<Language, Map<String, String>> validateTitles(Map<String, Map<String, String>> raw) {
+    private Map<Language, Map<String, String>> validateTitles(String topicId, Map<String, Map<String, String>> raw) {
         if (raw == null || raw.isEmpty()) {
             return null;
         }
@@ -201,9 +203,9 @@ public class SeedDataLoader {
             byLanguage.put(language, byTier);
         });
         try {
-            return TopicTitles.normalize(byLanguage);
-        } catch (IllegalArgumentException error) {
-            throw new SeedDataValidationException("topic.titles: " + error.getMessage());
+            return TopicTitles.normalize(topicId, byLanguage);
+        } catch (TopicProblems.InvalidTopicTitlesProblem error) {
+            throw new SeedDataValidationException("topic.titles: " + error.getDetail());
         }
     }
 
