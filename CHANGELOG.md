@@ -1,3 +1,9 @@
+## [3.8.5](https://github.com/joutio/joutio-theme/compare/v3.8.4...v3.8.5) (2026-11-19)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 2.1.0, consistent command routing across replicas ([462ca51](https://github.com/joutio/joutio-theme/commit/462ca516665bfc68a922060b88e74d5f178c3ff1))
+
 ## [3.8.4](https://github.com/joutio/joutio-theme/compare/v3.8.3...v3.8.4) (2026-11-18)
 
 ### Bug Fixes
