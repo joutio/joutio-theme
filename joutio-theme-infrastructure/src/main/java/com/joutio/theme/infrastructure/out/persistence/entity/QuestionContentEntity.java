@@ -48,6 +48,10 @@ public class QuestionContentEntity {
     @Column(name = "text", length = 255, nullable = false)
     private String text;
 
+    /** Description de l'image dans cette langue (lecteurs d'écran) ; {@code null} si absente. */
+    @Column(name = "image_alt", length = 125)
+    private String imageAlt;
+
     @ElementCollection(fetch = FetchType.LAZY)
     @CollectionTable(name = "question_answer_content",
             joinColumns = @JoinColumn(name = "content_id"))

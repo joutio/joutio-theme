@@ -108,7 +108,7 @@ public class QuestionAggregate {
         validateContent(
                 command.questionId(),
                 command.language(),
-                new QuestionContent(command.language(), command.text(), command.answers()),
+                new QuestionContent(command.language(), command.text(), command.answers(), command.imageAlt()),
                 this.correctAnswer);
 
         AggregateLifecycle.apply(
@@ -117,6 +117,7 @@ public class QuestionAggregate {
                         command.language(),
                         command.text(),
                         command.answers(),
+                        command.imageAlt(),
                         command.requestedBy(),
                         Instant.now()));
     }
@@ -175,6 +176,24 @@ public class QuestionAggregate {
                 new QuestionEvent.QuestionCorrectAnswerUpdatedEvent(
                         command.questionId(),
                         command.correctAnswer(),
+                        command.requestedBy(),
+                        Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(QuestionCommand.UpdateQuestionImageAltCommand command) {
+        QuestionContent content = requireContent(command.questionId(), command.language());
+        validateImageAlt(command.questionId(), command.imageAlt());
+
+        if (Objects.equals(command.imageAlt(), content.imageAlt())) {
+            return;
+        }
+
+        AggregateLifecycle.apply(
+                new QuestionEvent.QuestionImageAltUpdatedEvent(
+                        command.questionId(),
+                        command.language(),
+                        command.imageAlt(),
                         command.requestedBy(),
                         Instant.now()));
     }
@@ -348,27 +367,28 @@ public class QuestionAggregate {
     public void on(QuestionEvent.QuestionTranslationAddedEvent event) {
         this.contents.put(
                 event.language(),
-                new QuestionContent(event.language(), event.text(), event.answers()));
+                new QuestionContent(event.language(), event.text(), event.answers(), event.imageAlt()));
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
     }
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionTextUpdatedEvent event) {
-        QuestionContent previous = this.contents.get(event.language());
-        this.contents.put(
-                event.language(),
-                new QuestionContent(event.language(), event.text(), previous.answers()));
+        this.contents.put(event.language(), this.contents.get(event.language()).withText(event.text()));
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
     }
 
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionAnswersUpdatedEvent event) {
-        QuestionContent previous = this.contents.get(event.language());
-        this.contents.put(
-                event.language(),
-                new QuestionContent(event.language(), previous.text(), event.answers()));
+        this.contents.put(event.language(), this.contents.get(event.language()).withAnswers(event.answers()));
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(QuestionEvent.QuestionImageAltUpdatedEvent event) {
+        this.contents.put(event.language(), this.contents.get(event.language()).withImageAlt(event.imageAlt()));
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
     }
@@ -475,6 +495,13 @@ public class QuestionAggregate {
         }
     }
 
+    private static void validateImageAlt(String questionId, String imageAlt) {
+        if (imageAlt != null && imageAlt.length() > QuestionRules.MAX_IMAGE_ALT_LENGTH) {
+            throw new QuestionProblems.QuestionImageAltTooLongProblem(
+                    questionId, QuestionRules.MAX_IMAGE_ALT_LENGTH);
+        }
+    }
+
     private static void validateAnswers(
             String questionId, Map<QuestionChoice, String> answers, QuestionChoice correctAnswer) {
         if (answers != null && answers.size() != 4) {
@@ -507,6 +534,7 @@ public class QuestionAggregate {
                     questionId, language, content == null ? null : content.language());
         }
         validateText(questionId, content.text());
+        validateImageAlt(questionId, content.imageAlt());
         if (content.answers() == null || content.answers().size() != 4) {
             throw new QuestionProblems.QuestionAnswersInvalidProblem(questionId);
         }

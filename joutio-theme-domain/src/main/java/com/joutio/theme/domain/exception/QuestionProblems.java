@@ -136,6 +136,15 @@ public final class QuestionProblems {
         }
     }
 
+    public static class QuestionImageAltTooLongProblem extends QuestionProblem {
+        public QuestionImageAltTooLongProblem(String questionId, int maxLength) {
+            super(questionId, "urn:joutio:question:imageAltTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Question image description too long",
+                    "The question image description must not exceed " + maxLength + " characters", null);
+        }
+    }
+
     public static class QuestionNoteTooLongProblem extends QuestionProblem {
         public QuestionNoteTooLongProblem(String questionId, int maxLength) {
             super(questionId, "urn:joutio:question:noteTooLong",

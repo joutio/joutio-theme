@@ -38,6 +38,7 @@ public interface QuestionEvent {
             Language language,
             String text,
             Map<QuestionChoice, String> answers,
+            String imageAlt,
             String updatedBy,
             Instant updatedAt)
             implements QuestionEvent {}
@@ -62,6 +63,11 @@ public interface QuestionEvent {
             implements QuestionEvent {}
 
     /** Événement émis lors du changement d'illustration de la question. */
+    /** Description de l'image d'un contenu localisé modifiée ({@code null} : effacée). */
+    record QuestionImageAltUpdatedEvent(
+            String questionId, Language language, String imageAlt, String updatedBy, Instant updatedAt)
+            implements QuestionEvent {}
+
     record QuestionImageUrlUpdatedEvent(
             String questionId, String imageUrl, String updatedBy, Instant updatedAt)
             implements QuestionEvent {}

@@ -21,7 +21,7 @@ Lire : `../../AGENTS.md`, [`docs/backend/`](../../docs/backend/hexagonal.md), ex
   - Suppression d'un brouillon seulement, par le créateur (`TopicDeletionPolicy` supprime ses
     questions).
 - **`QuestionAggregate`** : contenus localisés (texte ≤ 255, 4 réponses, bonne réponse présente
-  dans chaque langue), image, difficulté, auteur.
+  dans chaque langue, description de l'image ≤ 125 pour les lecteurs d'écran), image, difficulté, auteur.
   - Statut unique `PENDING|APPROVED|REJECTED|SUSPENDED|ARCHIVED`. Seules les `APPROVED` sont
     jouables. Motifs, notes et dates servent à l'audit.
   - Archiver est réversible, restaurer revient à `PENDING`. Une question suspendue reste suspendue

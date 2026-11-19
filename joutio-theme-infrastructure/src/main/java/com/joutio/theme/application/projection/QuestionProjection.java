@@ -76,7 +76,8 @@ public class QuestionProjection {
                             contents.put(
                                     event.language(),
                                     new QuestionContent(
-                                            event.language(), event.text(), event.answers()));
+                                            event.language(), event.text(), event.answers(),
+                                            event.imageAlt()));
 
                             questionRepositoryPort.save(
                                     question.toBuilder()
@@ -94,8 +95,7 @@ public class QuestionProjection {
                 event.language(),
                 event.updatedBy(),
                 event.updatedAt(),
-                content ->
-                        new QuestionContent(content.language(), event.text(), content.answers()));
+                content -> content.withText(event.text()));
     }
 
     @EventHandler
@@ -105,8 +105,17 @@ public class QuestionProjection {
                 event.language(),
                 event.updatedBy(),
                 event.updatedAt(),
-                content ->
-                        new QuestionContent(content.language(), content.text(), event.answers()));
+                content -> content.withAnswers(event.answers()));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionImageAltUpdatedEvent event) {
+        updateContent(
+                event.questionId(),
+                event.language(),
+                event.updatedBy(),
+                event.updatedAt(),
+                content -> content.withImageAlt(event.imageAlt()));
     }
 
     @EventHandler

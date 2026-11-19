@@ -525,7 +525,7 @@ class DataSeederTest {
         answers.put(QuestionChoice.D, "d");
 
         Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
-        contents.put(Language.FR, new QuestionContent(Language.FR, text, answers));
+        contents.put(Language.FR, new QuestionContent(Language.FR, text, answers, null));
         return new QuestionSeedDefinition(contents, QuestionChoice.A, imageUrl, difficulty);
     }
 
@@ -573,7 +573,7 @@ class DataSeederTest {
         answers.put(QuestionChoice.D, "d");
 
         Map<Language, QuestionContent> translations = new EnumMap<>(Language.class);
-        translations.put(Language.FR, new QuestionContent(Language.FR, text, answers));
+        translations.put(Language.FR, new QuestionContent(Language.FR, text, answers, null));
 
         return Question.builder()
                 .questionId(questionId)

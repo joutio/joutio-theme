@@ -119,7 +119,7 @@ class TopicProjectionTest {
                 .thenReturn(Optional.of(Topic.builder().topicId("topic-1").build()));
 
         projection.on(new QuestionEvent.QuestionTranslationAddedEvent(
-                "question-1", Language.EN, "New text", java.util.Map.of(), "author-1", AT));
+                "question-1", Language.EN, "New text", java.util.Map.of(), null, "author-1", AT));
 
         ArgumentCaptor<Topic> captor = ArgumentCaptor.forClass(Topic.class);
         verify(topicRepository).save(captor.capture());

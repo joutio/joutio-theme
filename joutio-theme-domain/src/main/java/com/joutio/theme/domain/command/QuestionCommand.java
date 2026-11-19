@@ -40,7 +40,8 @@ public interface QuestionCommand {
             String requestedBy,
             Language language,
             String text,
-            Map<QuestionChoice, String> answers)
+            Map<QuestionChoice, String> answers,
+            String imageAlt)
             implements QuestionCommand {}
 
     /** Mise à jour du texte d'un contenu localisé existant. */
@@ -57,6 +58,14 @@ public interface QuestionCommand {
             String requestedBy,
             Language language,
             Map<QuestionChoice, String> answers)
+            implements QuestionCommand {}
+
+    /** Mise à jour de la description de l'image d'un contenu localisé ({@code null} l'efface). */
+    record UpdateQuestionImageAltCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            Language language,
+            String imageAlt)
             implements QuestionCommand {}
 
     /** Mise à jour de la bonne réponse, partagée entre les langues. */

@@ -7,6 +7,7 @@ import com.joutio.theme.domain.event.QuestionEvent;
 import com.joutio.theme.domain.exception.QuestionProblems;
 import com.joutio.theme.domain.model.QuestionChoice;
 import com.joutio.theme.domain.model.QuestionContent;
+import com.joutio.theme.domain.model.QuestionRules;
 import com.joutio.theme.domain.model.QuestionDifficulty;
 import com.joutio.theme.domain.model.QuestionSuspensionReason;
 
@@ -111,7 +112,7 @@ class QuestionAggregateTest {
                                 Map.of(
                                         Language.FR,
                                         new QuestionContent(
-                                                Language.EN, "Capital of France?", answers())),
+                                                Language.EN, "Capital of France?", answers(), null)),
                                 QuestionChoice.A,
                                 null,
                                 "creator-1"))
@@ -133,7 +134,7 @@ class QuestionAggregateTest {
                                 Map.of(
                                         Language.FR,
                                         new QuestionContent(
-                                                Language.FR, "Capital of France?", badAnswers)),
+                                                Language.FR, "Capital of France?", badAnswers, null)),
                                 QuestionChoice.A,
                                 null,
                                 "creator-1"))
@@ -215,7 +216,7 @@ class QuestionAggregateTest {
                                 "editor-1",
                                 Language.EN,
                                 "What is the capital of France?",
-                                answers()))
+                                answers(), null))
                 .expectEventsMatching(
                         JoutioAxonMatchers.singlePayloadMatching(
                                 QuestionEvent.QuestionTranslationAddedEvent.class,
@@ -238,7 +239,7 @@ class QuestionAggregateTest {
         fixture.given(createdQuestion())
                 .when(
                         new QuestionCommand.AddQuestionTranslationCommand(
-                                "q-1", "editor-1", Language.FR, "Autre texte", answers()))
+                                "q-1", "editor-1", Language.FR, "Autre texte", answers(), null))
                 .expectException(QuestionProblems.QuestionTranslationAlreadyExistsProblem.class);
     }
 
@@ -247,7 +248,7 @@ class QuestionAggregateTest {
         fixture.given(createdQuestion())
                 .when(
                         new QuestionCommand.AddQuestionTranslationCommand(
-                                "q-1", "editor-1", Language.EN, "a".repeat(256), answers()))
+                                "q-1", "editor-1", Language.EN, "a".repeat(256), answers(), null))
                 .expectException(QuestionProblems.QuestionTextTooLongProblem.class);
     }
 
@@ -286,6 +287,43 @@ class QuestionAggregateTest {
                         new QuestionCommand.UpdateQuestionTextCommand(
                                 "q-1", "editor-1", Language.FR, "Capitale de la France ?"))
                 .expectNoEvents();
+    }
+
+    @Test
+    void updateImageAlt_appliesEventThenIsIdempotent() {
+        QuestionEvent.QuestionImageAltUpdatedEvent updated = new QuestionEvent.QuestionImageAltUpdatedEvent(
+                "q-1", Language.FR, "La tour Eiffel au coucher du soleil", "editor-1", NOW);
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionImageAltCommand(
+                        "q-1", "editor-1", Language.FR, "La tour Eiffel au coucher du soleil"))
+                .expectEventsMatching(JoutioAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionImageAltUpdatedEvent.class,
+                        e -> "La tour Eiffel au coucher du soleil".equals(
+                                ((QuestionEvent.QuestionImageAltUpdatedEvent) e).imageAlt())));
+
+        fixture.given(createdQuestion(), updated)
+                .when(new QuestionCommand.UpdateQuestionImageAltCommand(
+                        "q-1", "editor-1", Language.FR, "La tour Eiffel au coucher du soleil"))
+                .expectNoEvents();
+    }
+
+    @Test
+    void updateImageAlt_tooLong_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionImageAltCommand(
+                        "q-1", "editor-1", Language.FR, "a".repeat(QuestionRules.MAX_IMAGE_ALT_LENGTH + 1)))
+                .expectException(QuestionProblems.QuestionImageAltTooLongProblem.class);
+    }
+
+    @Test
+    void create_withTooLongImageAlt_rejects() {
+        Map<Language, QuestionContent> contents = new java.util.EnumMap<>(Language.class);
+        contents.put(Language.FR, new QuestionContent(Language.FR, "Capitale de la France ?", answers(),
+                "a".repeat(QuestionRules.MAX_IMAGE_ALT_LENGTH + 1)));
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1", contents, QuestionChoice.A, "https://img/x.webp", "creator-1"))
+                .expectException(QuestionProblems.QuestionImageAltTooLongProblem.class);
     }
 
     @Test
@@ -542,23 +580,23 @@ class QuestionAggregateTest {
     private Map<Language, QuestionContent> frenchContents() {
         return Map.of(
                 Language.FR,
-                new QuestionContent(Language.FR, "Capitale de la France ?", answers()));
+                new QuestionContent(Language.FR, "Capitale de la France ?", answers(), null));
     }
 
     private Map<Language, QuestionContent> englishOnlyContents() {
         return Map.of(
                 Language.EN,
-                new QuestionContent(Language.EN, "What is the capital of France?", answers()));
+                new QuestionContent(Language.EN, "What is the capital of France?", answers(), null));
     }
 
     private Map<Language, QuestionContent> frenchAndEnglishContents() {
         Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
         contents.put(
                 Language.FR,
-                new QuestionContent(Language.FR, "Capitale de la France ?", answers()));
+                new QuestionContent(Language.FR, "Capitale de la France ?", answers(), null));
         contents.put(
                 Language.EN,
-                new QuestionContent(Language.EN, "What is the capital of France?", answers()));
+                new QuestionContent(Language.EN, "What is the capital of France?", answers(), null));
         return contents;
     }
 

@@ -146,7 +146,7 @@ class QuestionReportSuspensionPolicyTest {
                                                 QuestionChoice.C,
                                                 "Marseille",
                                                 QuestionChoice.D,
-                                                "Lille"))))
+                                                "Lille"), null)))
                 .correctAnswer(QuestionChoice.A)
                 .status(QuestionStatus.APPROVED)
                 .creatorId("creator-1")

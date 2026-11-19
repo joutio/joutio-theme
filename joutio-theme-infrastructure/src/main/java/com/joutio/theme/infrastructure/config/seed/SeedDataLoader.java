@@ -166,7 +166,7 @@ public class SeedDataLoader {
             QuestionDifficulty difficulty = parseDifficulty(raw.difficulty(), context + ".difficulty");
 
             Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
-            contents.put(Language.FR, new QuestionContent(Language.FR, text, answers));
+            contents.put(Language.FR, new QuestionContent(Language.FR, text, answers, null));
             contents.putAll(validateTranslations(raw.translations(), context));
 
             String imageUrl = validateImageUrl(raw.imageUrl(), context + ".imageUrl");
@@ -234,7 +234,7 @@ public class SeedDataLoader {
                         translationContext + ".text exceeds " + MAX_QUESTION_TEXT_LENGTH + " characters");
             }
             translations.put(language,
-                    new QuestionContent(language, text, validateAnswers(raw.answers(), translationContext)));
+                    new QuestionContent(language, text, validateAnswers(raw.answers(), translationContext), null));
         }
         return translations;
     }

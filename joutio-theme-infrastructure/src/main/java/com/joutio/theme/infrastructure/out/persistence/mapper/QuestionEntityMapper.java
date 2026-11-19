@@ -26,7 +26,8 @@ public final class QuestionEntityMapper {
                     new QuestionContent(
                             language,
                             contentEntity.getText(),
-                            new HashMap<>(contentEntity.getAnswers())));
+                            new HashMap<>(contentEntity.getAnswers()),
+                            contentEntity.getImageAlt()));
         }
 
         return Question.builder()
@@ -86,6 +87,7 @@ public final class QuestionEntityMapper {
         entity.setQuestionId(questionId);
         entity.setLanguage(content.language().code());
         entity.setText(content.text());
+        entity.setImageAlt(content.imageAlt());
         entity.getAnswers().clear();
         entity.getAnswers().putAll(content.answers());
         return entity;

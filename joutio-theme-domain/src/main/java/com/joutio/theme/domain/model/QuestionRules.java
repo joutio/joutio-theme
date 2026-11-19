@@ -17,6 +17,8 @@ public interface QuestionRules {
 
     /** Longueur maximale d'une URL d'illustration (colonne DB). */
     int MAX_IMAGE_URL_LENGTH = 1024;
+    /** Description de l'image d'une question, par langue (lecteurs d'écran). */
+    int MAX_IMAGE_ALT_LENGTH = 125;
 
     int EASY_THRESHOLD = 80;
     int MEDIUM_THRESHOLD = 60;

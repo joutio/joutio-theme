@@ -84,6 +84,7 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
         entity.setQuestionId(questionId);
         entity.setLanguage(content.language().code());
         entity.setText(content.text());
+        entity.setImageAlt(content.imageAlt());
         entity.getAnswers().clear();
         entity.getAnswers().putAll(content.answers());
         questionContentJpaRepository.save(entity);
