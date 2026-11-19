@@ -1,3 +1,9 @@
+## [3.9.0](https://github.com/joutio/joutio-theme/compare/v3.8.6...v3.9.0) (2026-11-19)
+
+### Features
+
+* **question:** localized image description for screen readers ([85ce2f8](https://github.com/joutio/joutio-theme/commit/85ce2f89dee1dcb66bfe3b00e031366a5e16f07b))
+
 ## [3.8.6](https://github.com/joutio/joutio-theme/compare/v3.8.5...v3.8.6) (2026-11-19)
 
 ### Bug Fixes
