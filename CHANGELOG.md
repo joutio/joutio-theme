@@ -1,3 +1,9 @@
+## [3.9.3](https://github.com/joutio/joutio-theme/compare/v3.9.2...v3.9.3) (2026-11-20)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 2.3.0, readiness waits for instance-scoped processors ([9f000d9](https://github.com/joutio/joutio-theme/commit/9f000d9189a1d06d30799947d331abc13dafcae1))
+
 ## [3.9.2](https://github.com/joutio/joutio-theme/compare/v3.9.1...v3.9.2) (2026-11-20)
 
 ### Bug Fixes
