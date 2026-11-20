@@ -1,3 +1,9 @@
+## [3.9.7](https://github.com/joutio/joutio-theme/compare/v3.9.6...v3.9.7) (2026-11-20)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 2.4.1 with patched dependencies ([0f8700f](https://github.com/joutio/joutio-theme/commit/0f8700f1fee8e68512f789844d8a9a30ab587baa))
+
 ## [3.9.6](https://github.com/joutio/joutio-theme/compare/v3.9.5...v3.9.6) (2026-11-20)
 
 ### Performance Improvements
