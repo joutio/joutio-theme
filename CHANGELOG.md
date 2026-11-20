@@ -1,3 +1,9 @@
+## [3.9.2](https://github.com/joutio/joutio-theme/compare/v3.9.1...v3.9.2) (2026-11-20)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 2.2.1, distinct Kafka consumer metrics ([fcc4a4e](https://github.com/joutio/joutio-theme/commit/fcc4a4e0bd0f005eea6480c68fe094d320c003d6))
+
 ## [3.9.1](https://github.com/joutio/joutio-theme/compare/v3.9.0...v3.9.1) (2026-11-20)
 
 ### Bug Fixes
