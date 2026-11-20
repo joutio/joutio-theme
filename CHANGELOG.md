@@ -1,3 +1,9 @@
+## [3.9.5](https://github.com/joutio/joutio-theme/compare/v3.9.4...v3.9.5) (2026-11-20)
+
+### Bug Fixes
+
+* **docker:** rebuild on patched base images ([cd87e6f](https://github.com/joutio/joutio-theme/commit/cd87e6fe3b867486d7cc609f5147e5f94f5218b8))
+
 ## [3.9.4](https://github.com/joutio/joutio-theme/compare/v3.9.3...v3.9.4) (2026-11-20)
 
 ### Bug Fixes
