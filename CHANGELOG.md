@@ -1,3 +1,9 @@
+## [3.9.6](https://github.com/joutio/joutio-theme/compare/v3.9.5...v3.9.6) (2026-11-20)
+
+### Performance Improvements
+
+* **docker:** JDK 25 AOT cache at startup ([3485f27](https://github.com/joutio/joutio-theme/commit/3485f27cf1493f543902f839f214cd3c7bce768e))
+
 ## [3.9.5](https://github.com/joutio/joutio-theme/compare/v3.9.4...v3.9.5) (2026-11-20)
 
 ### Bug Fixes
