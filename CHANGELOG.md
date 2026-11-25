@@ -1,3 +1,9 @@
+## [3.9.9](https://github.com/joutio/joutio-theme/compare/v3.9.8...v3.9.9) (2026-11-25)
+
+### Bug Fixes
+
+* **deps:** joutio-parent 3.2.0 with the gRPC query bus ([afef484](https://github.com/joutio/joutio-theme/commit/afef4841b9e41f245631f16be911de2e05d7ae36))
+
 ## [3.9.8](https://github.com/joutio/joutio-theme/compare/v3.9.7...v3.9.8) (2026-11-25)
 
 ### Bug Fixes
