@@ -16,3 +16,9 @@ app:
   seed-data:
     enabled: true
     image-base-url: ${JOUTIO_SEED_IMAGE_BASE_URL:http://localhost:9000/joutio-media/}
+
+joutio:
+  axon:
+    grpc:
+      # Port du bus gRPC en local (8124 en prod), aligné sur la découverte de joutio-local.yml.
+      port: 18086
